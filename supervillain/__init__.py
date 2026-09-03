@@ -5,8 +5,8 @@ def _no_op(x, **kwargs):
 
 import supervillain.cli as cli
 
-from .lattice import Lattice2D
-from .action  import Villain
+from .lattice import Lattice2D, Lattice
+from .action  import Villain, XY
 import supervillain.observable
 from supervillain.observable.observable import registry as observables
 from supervillain.observable.derived import registry as derivedQuantities

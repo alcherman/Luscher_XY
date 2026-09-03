@@ -1,0 +1,1884 @@
+{
+  "created_utc": "2026-09-03T03:46:37.460599+00:00",
+  "source_sha256": "5d1ced83b44eae9b4849cd58f53f70c842db7b10ad731112c3bf1258a6930e67",
+  "reference_observable_windows": {
+    "32": {
+      "U": [
+        0.49066,
+        0.4907395
+      ],
+      "R": [
+        0.7441,
+        0.7913
+      ]
+    },
+    "64": {
+      "U": [
+        0.49056449999999996,
+        0.4911
+      ],
+      "R": [
+        0.7434,
+        0.7861
+      ]
+    }
+  },
+  "reference_source": "https://arxiv.org/pdf/1307.0485, Tables 2 and 3",
+  "method": "Joint U and xi/L critical-observable envelope on L32,L64, with two-SE margins and eta_eff cross-check; L16 retained as a size check.",
+  "limitation": "Heuristic finite-volume brackets, not confidence intervals or an infinite-volume fit. Mixed-action critical values are not proved to lie in this envelope. No parameter endpoint is forced to its literature value.",
+  "additional_assumption": "A single continuous boundary, locally monotone within adjacent epsilon cells; unresolved cells are left blank.",
+  "regions": [
+    {
+      "kind": "zero_kappa_endpoint",
+      "x_lower": 0.53,
+      "x_upper": 0.6,
+      "kappa_lower": 0.0,
+      "kappa_upper": 0.0,
+      "x": 0.565,
+      "kappa": 0.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.6,
+      "x_upper": 0.62,
+      "kappa_lower": 0.0,
+      "kappa_upper": 0.6,
+      "x": 0.61,
+      "kappa": 0.3,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.62,
+      "x_upper": 0.64,
+      "kappa_lower": 0.0,
+      "kappa_upper": 0.6,
+      "x": 0.63,
+      "kappa": 0.3,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.64,
+      "x_upper": 0.66,
+      "kappa_lower": 0.0,
+      "kappa_upper": 1.0,
+      "x": 0.65,
+      "kappa": 0.5,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.66,
+      "x_upper": 0.68,
+      "kappa_lower": 0.4,
+      "kappa_upper": 1.0,
+      "x": 0.67,
+      "kappa": 0.7,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.68,
+      "x_upper": 0.7,
+      "kappa_lower": 0.4,
+      "kappa_upper": 0.8,
+      "x": 0.69,
+      "kappa": 0.6000000000000001,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.7,
+      "x_upper": 0.72,
+      "kappa_lower": 0.6,
+      "kappa_upper": 0.8,
+      "x": 0.71,
+      "kappa": 0.7,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.72,
+      "x_upper": 0.74,
+      "kappa_lower": 0.6,
+      "kappa_upper": 1.2,
+      "x": 0.73,
+      "kappa": 0.8999999999999999,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.74,
+      "x_upper": 0.76,
+      "kappa_lower": 0.6,
+      "kappa_upper": 1.2,
+      "x": 0.75,
+      "kappa": 0.8999999999999999,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.76,
+      "x_upper": 0.78,
+      "kappa_lower": 0.6,
+      "kappa_upper": 1.0,
+      "x": 0.77,
+      "kappa": 0.8,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.78,
+      "x_upper": 0.8,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.0,
+      "x": 0.79,
+      "kappa": 0.9,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.8,
+      "x_upper": 0.82,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.0,
+      "x": 0.81,
+      "kappa": 0.9,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.82,
+      "x_upper": 0.84,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.83,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.84,
+      "x_upper": 0.86,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.85,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.86,
+      "x_upper": 0.88,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.87,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.88,
+      "x_upper": 0.9,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.89,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.9,
+      "x_upper": 0.92,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.91,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.92,
+      "x_upper": 0.94,
+      "kappa_lower": 1.0,
+      "kappa_upper": 1.2,
+      "x": 0.93,
+      "kappa": 1.1,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.94,
+      "x_upper": 0.96,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.95,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.96,
+      "x_upper": 0.98,
+      "kappa_lower": 0.8,
+      "kappa_upper": 1.2,
+      "x": 0.97,
+      "kappa": 1.0,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "interior_grid_region",
+      "x_lower": 0.98,
+      "x_upper": 1.0,
+      "kappa_lower": 1.0,
+      "kappa_upper": 1.2,
+      "x": 0.99,
+      "kappa": 1.1,
+      "status": "finite_volume_scouting_bracket"
+    },
+    {
+      "kind": "unconstrained_endpoint",
+      "x_lower": 1.0,
+      "x_upper": 1.0,
+      "kappa_lower": 1.0,
+      "kappa_upper": 1.2,
+      "x": 1.0,
+      "kappa": 1.1,
+      "status": "finite_volume_scouting_bracket"
+    }
+  ],
+  "columns": {
+    "500": null,
+    "510": null,
+    "520": null,
+    "530": null,
+    "540": null,
+    "565": null,
+    "580": null,
+    "600": {
+      "status": "bracketed",
+      "lower": 0.0,
+      "upper": 0.6
+    },
+    "620": {
+      "status": "bracketed",
+      "lower": 0.2,
+      "upper": 0.6
+    },
+    "640": {
+      "status": "bracketed",
+      "lower": 0.0,
+      "upper": 0.6
+    },
+    "660": {
+      "status": "bracketed",
+      "lower": 0.4,
+      "upper": 1.0
+    },
+    "680": {
+      "status": "bracketed",
+      "lower": 0.4,
+      "upper": 0.8
+    },
+    "700": {
+      "status": "bracketed",
+      "lower": 0.6,
+      "upper": 0.8
+    },
+    "720": {
+      "status": "bracketed",
+      "lower": 0.6,
+      "upper": 0.8
+    },
+    "740": {
+      "status": "bracketed",
+      "lower": 0.6,
+      "upper": 1.2
+    },
+    "760": {
+      "status": "bracketed",
+      "lower": 0.6,
+      "upper": 1.0
+    },
+    "780": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.0
+    },
+    "800": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.0
+    },
+    "820": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.0
+    },
+    "840": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    "860": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    "880": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    "900": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    "920": {
+      "status": "bracketed",
+      "lower": 1.0,
+      "upper": 1.2
+    },
+    "940": {
+      "status": "bracketed",
+      "lower": 1.0,
+      "upper": 1.2
+    },
+    "960": {
+      "status": "bracketed",
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    "980": {
+      "status": "bracketed",
+      "lower": 1.0,
+      "upper": 1.2
+    },
+    "1000": {
+      "status": "bracketed",
+      "lower": 1.0,
+      "upper": 1.2
+    }
+  },
+  "labels": [
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 0.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.2068199504396371,
+      "eta_error": 0.006384951121697707,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 0.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16994171604426725,
+      "eta_error": 0.006056485174165187,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 0.4,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17117121551182124,
+      "eta_error": 0.005712641669984872,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1626971512397424,
+      "eta_error": 0.005332113909775812,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1528532265858403,
+      "eta_error": 0.004831690466369943,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.13648064755388725,
+      "eta_error": 0.004939594084505222,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.5,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.11520754041788842,
+      "eta_error": 0.004655223554859435,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 0.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.21077873014024862,
+      "eta_error": 0.0068579978987253955,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 0.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18266615109934026,
+      "eta_error": 0.005599066259962149,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 0.4,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17127153754504204,
+      "eta_error": 0.005709759619103065,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15288993674659995,
+      "eta_error": 0.005832127952590391,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15697012680248512,
+      "eta_error": 0.005120616640736783,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.12865006975684384,
+      "eta_error": 0.004682804956330179,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.51,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1258291705312513,
+      "eta_error": 0.00464279595028952,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 0.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.2295828546842732,
+      "eta_error": 0.006929979847774268,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 0.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18710560588009914,
+      "eta_error": 0.006737070375752956,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 0.4,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17490438724675916,
+      "eta_error": 0.006327249612785178,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15908868724745745,
+      "eta_error": 0.005615336568592853,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1484140692502858,
+      "eta_error": 0.0052234246290202985,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.13202879240368792,
+      "eta_error": 0.004721341532318126,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.52,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.12408897159299973,
+      "eta_error": 0.004681283469420734,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 0.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.22291138013197934,
+      "eta_error": 0.006956395722138962,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 0.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1929109335488174,
+      "eta_error": 0.006754451435788812,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 0.4,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.19297860810656992,
+      "eta_error": 0.006685082709433165,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16170268374153346,
+      "eta_error": 0.006036732443040414,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1698017837737182,
+      "eta_error": 0.00553567322381887,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.14464232905086388,
+      "eta_error": 0.0049087095059515175,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.53,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.12898285983509195,
+      "eta_error": 0.004909984811515615,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 0.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.20984546598160786,
+      "eta_error": 0.00723456347625453,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 0.4,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.19824589226114528,
+      "eta_error": 0.005716757780303908,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1710379645466823,
+      "eta_error": 0.006452601679746069,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16806700543730987,
+      "eta_error": 0.006047498171228896,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.14871125814276964,
+      "eta_error": 0.00519011939752581,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.54,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.13069758148597702,
+      "eta_error": 0.004445020168304662,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "eta_32_64": 0.259986571125352,
+      "eta_error": 0.007906065430067062,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "eta_32_64": 0.24038822679944516,
+      "eta_error": 0.007835251214982289,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18684427279080507,
+      "eta_error": 0.006636911820118835,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16867799881834358,
+      "eta_error": 0.0057706220223236624,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1396006305928872,
+      "eta_error": 0.0053297502092502155,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.565,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1266241689542211,
+      "eta_error": 0.004841816325445274,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "eta_32_64": 0.2575458070475027,
+      "eta_error": 0.008620313522522788,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "eta_32_64": 0.25812819393813974,
+      "eta_error": 0.007967604808650438,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 0.4,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.22361694433372759,
+      "eta_error": 0.007700461068419593,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.19723034205268417,
+      "eta_error": 0.006612964493254835,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1821275932384523,
+      "eta_error": 0.005966722101955733,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15959159445441373,
+      "eta_error": 0.005280079671260371,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.58,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.12966026202780556,
+      "eta_error": 0.00502191585830101,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 0.3351683636439949,
+      "eta_error": 0.010930363973240098,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "eta_32_64": 0.28129774766375554,
+      "eta_error": 0.008446745632226995,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "eta_32_64": 0.24185168772872334,
+      "eta_error": 0.0075729595352556104,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.20843704772008748,
+      "eta_error": 0.00605490870471975,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1924975819260274,
+      "eta_error": 0.006156445142043692,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17779493009005753,
+      "eta_error": 0.005730802998949955,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1470073116444098,
+      "eta_error": 0.005365905639010012,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 0.6068737281247744,
+      "eta_error": 0.021202798917415278,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 0.2996210831260106,
+      "eta_error": 0.009801096859278864,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "eta_32_64": 0.25979451884559895,
+      "eta_error": 0.007707764928638722,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.2288456894051051,
+      "eta_error": 0.006822847940642748,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.19699291105109326,
+      "eta_error": 0.006286077006381005,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16357627407693734,
+      "eta_error": 0.005994476168345538,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.62,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.14329562258145184,
+      "eta_error": 0.00542565035173982,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 1.4727986382133895,
+      "eta_error": 0.051171557398009486,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "eta_32_64": 0.2635928840368304,
+      "eta_error": 0.008744508344489144,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 0.6,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.2339216101766193,
+      "eta_error": 0.007184283482815795,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.20747187476144166,
+      "eta_error": 0.0065311300679086965,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16922547270684413,
+      "eta_error": 0.0061130053356363515,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.64,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15335349393795644,
+      "eta_error": 0.005571515156944876,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 0.894159804625877,
+      "eta_error": 0.03504068126813796,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 0.30713324288622723,
+      "eta_error": 0.011695185108987732,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 0.6,
+      "label": "unresolved",
+      "eta_32_64": 0.2385476834288482,
+      "eta_error": 0.008440611021133212,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 0.8,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17458781631688214,
+      "eta_error": 0.006521331950166411,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.66,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15649721802215152,
+      "eta_error": 0.005719551945307667,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 1.8847286020825589,
+      "eta_error": 0.10121529645723702,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.7074829708579167,
+      "eta_error": 0.05427247013263625,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 0.4318670182153584,
+      "eta_error": 0.016248633780196173,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 0.6,
+      "label": "unresolved",
+      "eta_32_64": 0.2669011024361499,
+      "eta_error": 0.008133756651355387,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.20493385744821666,
+      "eta_error": 0.007259665715496243,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18399302204267332,
+      "eta_error": 0.006053993059072034,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.68,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15910849908159477,
+      "eta_error": 0.005478407608190531,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 1.970325046385095,
+      "eta_error": 0.11947401447629419,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.8321128822301602,
+      "eta_error": 0.07769448767743865,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 0.8977130207775889,
+      "eta_error": 0.03343739383493843,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 0.29062029723838434,
+      "eta_error": 0.009459005915791255,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.22691453982516285,
+      "eta_error": 0.007537267696751587,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18573472684009193,
+      "eta_error": 0.006558957943912941,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15981144405388423,
+      "eta_error": 0.005472009254005204,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 1.67749687063557,
+      "eta_error": 0.1090083852329936,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.866033535268969,
+      "eta_error": 0.09434827139703618,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.5179632017850258,
+      "eta_error": 0.05130486024171126,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 0.38263989342657473,
+      "eta_error": 0.012870965374152043,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 0.8,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.23391448304299317,
+      "eta_error": 0.007530018896646476,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18231241846778845,
+      "eta_error": 0.00649793595921749,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.72,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16542607575318186,
+      "eta_error": 0.005403358180972505,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 2.0544987056206057,
+      "eta_error": 0.10195868766781745,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.870320127332703,
+      "eta_error": 0.12517203533171303,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.855615400266198,
+      "eta_error": 0.07448731490397678,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 0.5462318890539773,
+      "eta_error": 0.019458076440606282,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 0.8,
+      "label": "unresolved",
+      "eta_32_64": 0.24615885116358352,
+      "eta_error": 0.008597789845736179,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 1.0,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.74,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16683660152400953,
+      "eta_error": 0.006047127233509279,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 1.90822693913659,
+      "eta_error": 0.08987356093398079,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 2.0132436330205365,
+      "eta_error": 0.1128377096919672,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.9893921185223369,
+      "eta_error": 0.0950459960404434,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 0.940059200777775,
+      "eta_error": 0.03255993544361931,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 0.8,
+      "label": "unresolved",
+      "eta_32_64": 0.27583670358572404,
+      "eta_error": 0.00889085042302341,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1966884425486977,
+      "eta_error": 0.0074178705221766734,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.76,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.15494961343343017,
+      "eta_error": 0.0058886921142160585,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.9666859273534505,
+      "eta_error": 0.11099495729232035,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.9375026415541339,
+      "eta_error": 0.094415380877135,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 1.417258487953971,
+      "eta_error": 0.05043784466513028,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 0.30374281859314617,
+      "eta_error": 0.010588685760598243,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.20444317359591388,
+      "eta_error": 0.006554355157561121,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17485280885738144,
+      "eta_error": 0.0065940503344922964,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 2.053184048666786,
+      "eta_error": 0.06840801977413351,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.9402747534512401,
+      "eta_error": 0.09201578576757306,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.8852509637922752,
+      "eta_error": 0.12119223214793962,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 1.9433916768764423,
+      "eta_error": 0.06455850366716134,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 0.37627984191645275,
+      "eta_error": 0.01317466089527439,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.22161563882059973,
+      "eta_error": 0.00673242572099844,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17447483959058208,
+      "eta_error": 0.006043921181318886,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 2.053201051852029,
+      "eta_error": 0.05052471401155263,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.8953077632534518,
+      "eta_error": 0.07819866396213641,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 2.0399073574409092,
+      "eta_error": 0.07543043265742368,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 0.48839037246022365,
+      "eta_error": 0.01888672569088176,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 1.0,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.22265054143710222,
+      "eta_error": 0.0068842642081136,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.82,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16663700733878478,
+      "eta_error": 0.0060228031846641565,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.9867916863930226,
+      "eta_error": 0.06589911077027262,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 0.6,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 0.7059778856665619,
+      "eta_error": 0.028438065479067447,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 1.0,
+      "label": "unresolved",
+      "eta_32_64": 0.24020019589496605,
+      "eta_error": 0.008125148566549693,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.84,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.1774557036848472,
+      "eta_error": 0.006108423376792204,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.934871148979539,
+      "eta_error": 0.05622630256530099,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.8992075769876597,
+      "eta_error": 0.08206264299245838,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 2.0661497756057976,
+      "eta_error": 0.09999845612939155,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.0555808563113054,
+      "eta_error": 0.03785882905978237,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 1.0,
+      "label": "unresolved",
+      "eta_32_64": 0.24542590949882612,
+      "eta_error": 0.007866216846475782,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.86,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.17664704960599004,
+      "eta_error": 0.006403376104121059,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 2.001700508132656,
+      "eta_error": 0.03675514490167342,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 1.957503567644747,
+      "eta_error": 0.10970280651013294,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.4945584134720842,
+      "eta_error": 0.04990287305137009,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 1.0,
+      "label": "unresolved",
+      "eta_32_64": 0.26714287616528953,
+      "eta_error": 0.008803658624197895,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.88,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18425425394799735,
+      "eta_error": 0.006054952146901291,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.995760014271731,
+      "eta_error": 0.04690031202621724,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.8971381122964024,
+      "eta_error": 0.06732020055975181,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 1.9421129727842006,
+      "eta_error": 0.11163887120372847,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.6560657454757275,
+      "eta_error": 0.06189816463921292,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 1.0,
+      "label": "unresolved",
+      "eta_32_64": 0.2758547563875703,
+      "eta_error": 0.009064546367886818,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.9,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18689195654956572,
+      "eta_error": 0.006115859598747246,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.9720424057134367,
+      "eta_error": 0.03859921323053461,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 0.6,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.9756761606162114,
+      "eta_error": 0.0707343204146859,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 1.0,
+      "label": "massive_like",
+      "eta_32_64": 0.3093785922759072,
+      "eta_error": 0.010573893503629141,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.92,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.16979187079092353,
+      "eta_error": 0.006486603101197895,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 2.0089051733558616,
+      "eta_error": 0.02508262187188422,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 0.4,
+      "label": "massive_like",
+      "eta_32_64": 1.9533987901751844,
+      "eta_error": 0.05294944548543888,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 2.0591719389216436,
+      "eta_error": 0.0954054435852049,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.9929512854200915,
+      "eta_error": 0.06998745171382463,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 1.0,
+      "label": "massive_like",
+      "eta_32_64": 0.33194132859640746,
+      "eta_error": 0.01375142304683634,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.94,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.19750509323960347,
+      "eta_error": 0.006311293485536765,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 0.0,
+      "label": "massive_like",
+      "eta_32_64": 1.9790453398673582,
+      "eta_error": 0.02529707775691894,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 0.2,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 2.0289289033469715,
+      "eta_error": 0.08228557105092008,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.9824127485211238,
+      "eta_error": 0.08473608679176675,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 1.0,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.96,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.2013286940438565,
+      "eta_error": 0.006582812438635631,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 2.040666787811698,
+      "eta_error": 0.029095603966702625,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 1.9165168497775182,
+      "eta_error": 0.07042650514643198,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 2.1044705452023345,
+      "eta_error": 0.0741490741803341,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 1.0,
+      "label": "massive_like",
+      "eta_32_64": 0.5153919975086201,
+      "eta_error": 0.021007925717331864,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 0.98,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.18515748797675502,
+      "eta_error": 0.006804255034703525,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 0.0,
+      "label": "unresolved",
+      "reason": "unresolved_moment_ratio"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 0.2,
+      "label": "massive_like",
+      "eta_32_64": 1.991751594700357,
+      "eta_error": 0.023274658159890004,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 0.4,
+      "label": "unresolved",
+      "reason": "sampling_diagnostic_flag"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 0.6,
+      "label": "massive_like",
+      "eta_32_64": 1.9715930799702945,
+      "eta_error": 0.05325869985570213,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 0.8,
+      "label": "massive_like",
+      "eta_32_64": 1.9188337823833583,
+      "eta_error": 0.08643483237333471,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 1.0,
+      "label": "massive_like",
+      "eta_32_64": 0.6849932515839202,
+      "eta_error": 0.022980957643741612,
+      "reason": "finite_volume_joint_diagnostics"
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "kappa": 1.2,
+      "label": "quasi_ordered_like",
+      "eta_32_64": 0.2000690903706999,
+      "eta_error": 0.0071923441459874485,
+      "reason": "finite_volume_joint_diagnostics"
+    }
+  ]
+}

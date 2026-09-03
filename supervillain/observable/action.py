@@ -22,6 +22,10 @@ class ActionDensity(Scalar, Observable):
     '''
 
     @staticmethod
+    def XY(S, phi):
+        return S(phi) / S.Lattice.sites
+
+    @staticmethod
     def Villain(S, phi, n):
         r'''
         In the :class:`~.Villain` case differentiating and then multiplying by $\kappa$ gives the action $S_0$ itself!

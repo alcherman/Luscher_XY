@@ -1,0 +1,142 @@
+{
+  "action": "S=-kappa*sum_positive_links(cos(theta))",
+  "D": 2,
+  "epsilon": 3.141592653589793,
+  "sweeps_per_point": 10000,
+  "initialization": "cold, phi=0",
+  "local_update": "serial Numba, proposal width pi",
+  "global_update": "one symmetric winding proposal per sweep",
+  "provisional_warmup": 100,
+  "analysis_cut": "selected after inspecting histories",
+  "retained_data": "initial field and every sweep, all observables and RNG states",
+  "workers": 3,
+  "points": [
+    {
+      "L": 4,
+      "kappa": 0.8,
+      "seed": 2026090401,
+      "file": "chains/L04_k0.80.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.95,
+      "seed": 2026090402,
+      "file": "chains/L04_k0.95.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 1.05,
+      "seed": 2026090403,
+      "file": "chains/L04_k1.05.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 1.12,
+      "seed": 2026090404,
+      "file": "chains/L04_k1.12.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 1.2,
+      "seed": 2026090405,
+      "file": "chains/L04_k1.20.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 1.35,
+      "seed": 2026090406,
+      "file": "chains/L04_k1.35.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 1.5,
+      "seed": 2026090407,
+      "file": "chains/L04_k1.50.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.8,
+      "seed": 2026090408,
+      "file": "chains/L08_k0.80.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.95,
+      "seed": 2026090409,
+      "file": "chains/L08_k0.95.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 1.05,
+      "seed": 2026090410,
+      "file": "chains/L08_k1.05.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 1.12,
+      "seed": 2026090411,
+      "file": "chains/L08_k1.12.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 1.2,
+      "seed": 2026090412,
+      "file": "chains/L08_k1.20.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 1.35,
+      "seed": 2026090413,
+      "file": "chains/L08_k1.35.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 1.5,
+      "seed": 2026090414,
+      "file": "chains/L08_k1.50.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.8,
+      "seed": 2026090415,
+      "file": "chains/L16_k0.80.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.95,
+      "seed": 2026090416,
+      "file": "chains/L16_k0.95.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 1.05,
+      "seed": 2026090417,
+      "file": "chains/L16_k1.05.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 1.12,
+      "seed": 2026090418,
+      "file": "chains/L16_k1.12.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 1.2,
+      "seed": 2026090419,
+      "file": "chains/L16_k1.20.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 1.35,
+      "seed": 2026090420,
+      "file": "chains/L16_k1.35.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 1.5,
+      "seed": 2026090421,
+      "file": "chains/L16_k1.50.h5"
+    }
+  ],
+  "experiment_sha256": "de16bee0182eb8decaf8d7131f34ddb930cbce8e3536b981db852933908b38a6"
+}

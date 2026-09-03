@@ -1,0 +1,22 @@
+{
+  "source_sha256": "289f3e49571bdfb85f55882e5b5aee6f25f91875f8e34058bc2172757d754822",
+  "dataset_sha256": "b11a4e4d5b23a2fcd8d67f0f5121fabd11f09b00bd42d9b129894e57aa102b18",
+  "updated_sizes": [
+    32
+  ],
+  "updated_cut": 501,
+  "updated_include_tail": true,
+  "first_retained_sweep_by_L": {
+    "4": 501,
+    "8": 501,
+    "16": 501,
+    "32": 501
+  },
+  "previous_analysis": "before-L32/analysis-provenance.json",
+  "bootstrap_draws": 4000,
+  "tau_method": "nonperiodic FFT, initial-positive monotone paired ACF",
+  "block_rule": "max(20, ceil(10*max(tau_m2,tau_m4,tau_Binder_influence,tau_energy,tau_vortex)))",
+  "errors": "standard deviation of joint-block bootstrap ratio; no thinning",
+  "convention": "U=1-mean(m4)/(2*mean(m2)**2)",
+  "note": "global rotation and winding histories retained as separate diagnostics"
+}

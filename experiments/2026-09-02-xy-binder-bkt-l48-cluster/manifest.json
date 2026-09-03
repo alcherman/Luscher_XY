@@ -1,0 +1,62 @@
+{
+  "D": 2,
+  "L": 48,
+  "epsilon": 3.141592653589793,
+  "action": "S=-kappa*sum_positive_links(cos(theta))",
+  "cycles": 10000,
+  "clusters_per_cycle": 1,
+  "global_update": "one symmetric winding proposal per cycle",
+  "backend": "numba",
+  "initialization": "cold phi=0",
+  "provisional_warmup": 100,
+  "analysis_cut": "chosen after inspecting histories",
+  "retention": "cold seed and every cycle: full fields, all observables, RNG states, cluster work",
+  "workers": 3,
+  "points": [
+    {
+      "L": 48,
+      "kappa": 0.8,
+      "seed": 2026090501,
+      "file": "chains/L48_k0.80_cluster.h5"
+    },
+    {
+      "L": 48,
+      "kappa": 0.95,
+      "seed": 2026090502,
+      "file": "chains/L48_k0.95_cluster.h5"
+    },
+    {
+      "L": 48,
+      "kappa": 1.05,
+      "seed": 2026090503,
+      "file": "chains/L48_k1.05_cluster.h5"
+    },
+    {
+      "L": 48,
+      "kappa": 1.12,
+      "seed": 2026090504,
+      "file": "chains/L48_k1.12_cluster.h5"
+    },
+    {
+      "L": 48,
+      "kappa": 1.2,
+      "seed": 2026090505,
+      "file": "chains/L48_k1.20_cluster.h5"
+    },
+    {
+      "L": 48,
+      "kappa": 1.35,
+      "seed": 2026090506,
+      "file": "chains/L48_k1.35_cluster.h5"
+    },
+    {
+      "L": 48,
+      "kappa": 1.5,
+      "seed": 2026090507,
+      "file": "chains/L48_k1.50_cluster.h5"
+    }
+  ],
+  "script_sha256": "dc058397f31ab022b06843cd53de2685dbebf6ded24eff82ab2fb8ee6f2cc5c3",
+  "prior_manifest_sha256": "014bf18d805a61300714bdcaede03c02ae8eb3e81bc5c3d612ec41a5ceda5956",
+  "prior_results_sha256": "12398bd1668200a6a876b9cd7c3e60e17e77cc2bd7b7f46a0663cf5b91ebd721"
+}

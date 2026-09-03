@@ -1,0 +1,61 @@
+{
+  "action": "S=-kappa*sum_positive_links(cos(theta))",
+  "D": 2,
+  "epsilon": 3.141592653589793,
+  "sweeps_per_point": 10000,
+  "initialization": "cold, phi=0",
+  "local_update": "serial Numba, proposal width pi",
+  "global_update": "one symmetric winding proposal per sweep",
+  "provisional_warmup": 100,
+  "analysis_cut": "selected after inspecting histories",
+  "retained_data": "initial field and every sweep, all observables and RNG states",
+  "workers": 3,
+  "points": [
+    {
+      "L": 32,
+      "kappa": 0.8,
+      "seed": 2026090422,
+      "file": "chains/L32_k0.80.h5"
+    },
+    {
+      "L": 32,
+      "kappa": 0.95,
+      "seed": 2026090423,
+      "file": "chains/L32_k0.95.h5"
+    },
+    {
+      "L": 32,
+      "kappa": 1.05,
+      "seed": 2026090424,
+      "file": "chains/L32_k1.05.h5"
+    },
+    {
+      "L": 32,
+      "kappa": 1.12,
+      "seed": 2026090425,
+      "file": "chains/L32_k1.12.h5"
+    },
+    {
+      "L": 32,
+      "kappa": 1.2,
+      "seed": 2026090426,
+      "file": "chains/L32_k1.20.h5"
+    },
+    {
+      "L": 32,
+      "kappa": 1.35,
+      "seed": 2026090427,
+      "file": "chains/L32_k1.35.h5"
+    },
+    {
+      "L": 32,
+      "kappa": 1.5,
+      "seed": 2026090428,
+      "file": "chains/L32_k1.50.h5"
+    }
+  ],
+  "experiment_sha256": "de16bee0182eb8decaf8d7131f34ddb930cbce8e3536b981db852933908b38a6",
+  "extension": "L=32, same seven couplings and 10,000-sweep budget",
+  "extension_sha256": "27ea76d7bb781fc22892a3643d39be4652ff7a405dbd7f48526020df37c87155",
+  "parent_manifest_sha256": "0ce0632adaa4a69f832604919f9005263fcb156cc7c11d95ea1500bec6fe6298"
+}

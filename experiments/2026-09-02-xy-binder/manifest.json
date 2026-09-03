@@ -1,0 +1,141 @@
+{
+  "action": "S=-kappa*sum_positive_links(cos(theta))",
+  "D": 2,
+  "epsilon": 3.141592653589793,
+  "sweeps_per_point": 10000,
+  "initialization": "cold, phi=0",
+  "local_update": "serial Numba, proposal width pi",
+  "global_update": "one symmetric winding proposal per sweep",
+  "provisional_warmup": 100,
+  "analysis_cut": "selected after inspecting histories",
+  "retained_data": "initial field and every sweep, all observables and RNG states",
+  "workers": 3,
+  "points": [
+    {
+      "L": 4,
+      "kappa": 0.2,
+      "seed": 2026090221,
+      "file": "chains/L04_k0.20.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.25,
+      "seed": 2026090220,
+      "file": "chains/L04_k0.25.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.3,
+      "seed": 2026090219,
+      "file": "chains/L04_k0.30.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.35,
+      "seed": 2026090218,
+      "file": "chains/L04_k0.35.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.4,
+      "seed": 2026090217,
+      "file": "chains/L04_k0.40.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.45,
+      "seed": 2026090216,
+      "file": "chains/L04_k0.45.h5"
+    },
+    {
+      "L": 4,
+      "kappa": 0.5,
+      "seed": 2026090215,
+      "file": "chains/L04_k0.50.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.2,
+      "seed": 2026090214,
+      "file": "chains/L08_k0.20.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.25,
+      "seed": 2026090213,
+      "file": "chains/L08_k0.25.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.3,
+      "seed": 2026090212,
+      "file": "chains/L08_k0.30.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.35,
+      "seed": 2026090211,
+      "file": "chains/L08_k0.35.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.4,
+      "seed": 2026090210,
+      "file": "chains/L08_k0.40.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.45,
+      "seed": 2026090209,
+      "file": "chains/L08_k0.45.h5"
+    },
+    {
+      "L": 8,
+      "kappa": 0.5,
+      "seed": 2026090208,
+      "file": "chains/L08_k0.50.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.2,
+      "seed": 2026090207,
+      "file": "chains/L16_k0.20.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.25,
+      "seed": 2026090206,
+      "file": "chains/L16_k0.25.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.3,
+      "seed": 2026090205,
+      "file": "chains/L16_k0.30.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.35,
+      "seed": 2026090204,
+      "file": "chains/L16_k0.35.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.4,
+      "seed": 2026090203,
+      "file": "chains/L16_k0.40.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.45,
+      "seed": 2026090202,
+      "file": "chains/L16_k0.45.h5"
+    },
+    {
+      "L": 16,
+      "kappa": 0.5,
+      "seed": 2026090201,
+      "file": "chains/L16_k0.50.h5"
+    }
+  ]
+}

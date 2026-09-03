@@ -1,0 +1,12 @@
+{
+  "cut": 2001,
+  "bootstrap_draws": 4000,
+  "bootstrap": "joint contiguous balanced block means; all retained rows used",
+  "block_rule": "max(20, ceil(10*max(tau_m2,tau_m4,tau_Binder_influence,tau_energy,tau_vortex)))",
+  "clock": "fixed cycle: one cluster + one winding proposal",
+  "work_clock": "cluster membership/volume; excludes full-field checks, RNG, I/O, winding and measurement work",
+  "analysis_sha256": "435f71c168bfda87a19a9357225f3a291fb239d83dadc57b72da8c0a2d9e130f",
+  "previous_results_sha256": "12398bd1668200a6a876b9cd7c3e60e17e77cc2bd7b7f46a0663cf5b91ebd721",
+  "previous_bootstrap_sha256": "289f3e49571bdfb85f55882e5b5aee6f25f91875f8e34058bc2172757d754822",
+  "previous_tau_sha256": "de16bee0182eb8decaf8d7131f34ddb930cbce8e3536b981db852933908b38a6"
+}

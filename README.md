@@ -4,6 +4,12 @@
 
 Supervillain is a python package for studying the Villain model.
 
+This fork also supports **D-dimensional XY models with Lüscher admissibility**,
+with Python oracles, serial/parallel Numba Metropolis samplers, an XY-only
+admissibility-aware Wolff cluster update, vortex and winding
+diagnostics, and resumable parameter scans. See the [XY simulation guide](docs/xy.md)
+for the action convention, examples, and validation limits.
+
 # Installation + Development
 
 Navigate to the cloned repo and try

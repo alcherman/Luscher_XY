@@ -1,0 +1,368 @@
+{
+  "cases": [
+    {
+      "D": 2,
+      "N": 48,
+      "action": {
+        "epsilon": 3.141592653589793,
+        "kappa": 0.43
+      },
+      "implementations": {
+        "numba_parallel": [
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 1,
+            "seconds": 0.0003657920169644058
+          },
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 2,
+            "seconds": 0.00036441697739064693
+          },
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 3,
+            "seconds": 0.00031391700031235814
+          }
+        ],
+        "numba_serial": [
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 1,
+            "seconds": 0.0002914590295404196
+          },
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 2,
+            "seconds": 0.00024891598150134087
+          },
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 3,
+            "seconds": 0.0002477079979144037
+          }
+        ],
+        "python_serial": [
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.30908203125,
+              7.123046875,
+              7.48828125
+            ],
+            "repeat": 1,
+            "seconds": 4.383016833977308
+          },
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0439453125,
+              7.05419921875,
+              7.4619140625
+            ],
+            "repeat": 2,
+            "seconds": 4.381608165975194
+          },
+          {
+            "accepted": 2292,
+            "digest": "81270b877c241a9713b0f20b062b4a8c3686ceb30459c5d386ab7086fc940e14",
+            "load_average": [
+              6.0400390625,
+              7.03662109375,
+              7.453125
+            ],
+            "repeat": 3,
+            "seconds": 4.376759957987815
+          }
+        ]
+      },
+      "name": "oracle-parity-d2",
+      "random_tape": {
+        "proposal_distribution": "uniform(-0.2, 0.2)",
+        "seed": 20261150,
+        "uniform_distribution": "uniform(0.0, 1.0)"
+      },
+      "start_digest": "f7b586904e3678145aa47e4232587c913139cef0102d6d8e9276fc80c35cbad3",
+      "sweeps_per_repeat": 1,
+      "volume": 2304
+    },
+    {
+      "D": 3,
+      "N": 12,
+      "action": {
+        "epsilon": 3.141592653589793,
+        "kappa": 0.43
+      },
+      "implementations": {
+        "numba_parallel": [
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 1,
+            "seconds": 0.0003042499884031713
+          },
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 2,
+            "seconds": 0.0003766249865293503
+          },
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 3,
+            "seconds": 0.0003795420052483678
+          }
+        ],
+        "numba_serial": [
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 1,
+            "seconds": 0.00029962504049763083
+          },
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 2,
+            "seconds": 0.0002596250269562006
+          },
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 3,
+            "seconds": 0.0002572910161688924
+          }
+        ],
+        "python_serial": [
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.11669921875,
+              7.03564453125,
+              7.4501953125
+            ],
+            "repeat": 1,
+            "seconds": 3.536313791992143
+          },
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 2,
+            "seconds": 3.54098987497855
+          },
+          {
+            "accepted": 1710,
+            "digest": "1ee30aa006e7af8bc4c28810cdb86f0903c9932b5f7b0deef5cfc0717cfcf6fc",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 3,
+            "seconds": 3.588999416970182
+          }
+        ]
+      },
+      "name": "oracle-parity-d3",
+      "random_tape": {
+        "proposal_distribution": "uniform(-0.2, 0.2)",
+        "seed": 20261214,
+        "uniform_distribution": "uniform(0.0, 1.0)"
+      },
+      "start_digest": "299407adb3f1bd645191cfecb3c33a47510b1dfba3c0a936d741bdd8513526c0",
+      "sweeps_per_repeat": 1,
+      "volume": 1728
+    },
+    {
+      "D": 3,
+      "N": 32,
+      "action": {
+        "epsilon": 3.141592653589793,
+        "kappa": 0.43
+      },
+      "implementations": {
+        "numba_parallel": [
+          {
+            "accepted": 642750,
+            "digest": "3199f8600ecee96991ff4138b268a8bb5f0b7af78c93b71057ca2a008e4348b9",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 1,
+            "seconds": 0.06545470899436623
+          },
+          {
+            "accepted": 642750,
+            "digest": "3199f8600ecee96991ff4138b268a8bb5f0b7af78c93b71057ca2a008e4348b9",
+            "load_average": [
+              6.76123046875,
+              7.14794921875,
+              7.4853515625
+            ],
+            "repeat": 2,
+            "seconds": 0.05318566597998142
+          },
+          {
+            "accepted": 642750,
+            "digest": "3199f8600ecee96991ff4138b268a8bb5f0b7af78c93b71057ca2a008e4348b9",
+            "load_average": [
+              6.76123046875,
+              7.14794921875,
+              7.4853515625
+            ],
+            "repeat": 3,
+            "seconds": 0.05245824996381998
+          }
+        ],
+        "numba_serial": [
+          {
+            "accepted": 642750,
+            "digest": "3199f8600ecee96991ff4138b268a8bb5f0b7af78c93b71057ca2a008e4348b9",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 1,
+            "seconds": 0.11170687497360632
+          },
+          {
+            "accepted": 642750,
+            "digest": "3199f8600ecee96991ff4138b268a8bb5f0b7af78c93b71057ca2a008e4348b9",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 2,
+            "seconds": 0.114265666983556
+          },
+          {
+            "accepted": 642750,
+            "digest": "3199f8600ecee96991ff4138b268a8bb5f0b7af78c93b71057ca2a008e4348b9",
+            "load_average": [
+              6.82763671875,
+              7.16748046875,
+              7.494140625
+            ],
+            "repeat": 3,
+            "seconds": 0.10833979194285348
+          }
+        ]
+      },
+      "name": "large-d3-serial-parallel",
+      "random_tape": {
+        "proposal_distribution": "uniform(-0.2, 0.2)",
+        "seed": 20261234,
+        "uniform_distribution": "uniform(0.0, 1.0)"
+      },
+      "start_digest": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90",
+      "sweeps_per_repeat": 20,
+      "volume": 32768
+    }
+  ],
+  "command": [
+    "benchmarks/xy.py"
+  ],
+  "environment": {
+    "load_average": [
+      6.2939453125,
+      7.14501953125,
+      7.5009765625
+    ],
+    "machine": "arm64",
+    "numba": "0.67.0",
+    "numba_threads": 4,
+    "numpy": "2.5.2",
+    "python": "3.14.6 (main, Jun 11 2026, 03:55:33) [Clang 22.1.3 ]"
+  },
+  "git_revision": "6b59e534a1bac8727e3688895dfa43ebeb5e0bd3",
+  "output_path": "/Users/acherman/research/Luscher_XY/docs/xy-benchmark.json",
+  "purpose": "warmed fixed-tape microbenchmark; not a production Monte Carlo run",
+  "script": "/Users/acherman/research/Luscher_XY/benchmarks/xy.py",
+  "source_sha256": {
+    "benchmarks/xy.py": "44443955e91767a9bc73f1f6ad7f3462c94e03fd9a7f9dd8e31c779e73b2ec70",
+    "supervillain/action/xy.py": "e25f96aa5d6e4478afb315364745a29314a5483e91eec83bed7b260f63627167",
+    "supervillain/generator/_xy_kernels.py": "48d77721a9903fb539326fee2949343ce2d8ec42b7bb6ce371a3b95a230dd262",
+    "supervillain/generator/reference_implementation/xy.py": "a3f06552311e7cd95722af38c4cd5e9aeda898c5b73096e614210e4d0d75bd7c",
+    "supervillain/generator/xy.py": "6eb773e09fbbe35278c3c3d9505312fff737b55ba5d289ec53e52eec8cdfa5b2"
+  },
+  "started_utc": "2026-09-03T00:04:20.262761+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-03T17:28:50.304041+00:00",
+  "passed": true,
+  "compacted_trajectories": 1938,
+  "sparse_trajectories": 1933,
+  "dense_representatives": 5,
+  "original_surviving_bytes": 370065290256,
+  "compact_surviving_bytes": 8602436207,
+  "deleted_pilot_trajectories": 22,
+  "deleted_pilot_bytes": 7718060208,
+  "total_bytes_freed": 369180914257,
+  "filesystem_free_bytes": 396492800000,
+  "verification": [
+    "SHA256 of every compact file matched append-only conversion log",
+    "all non-field datasets retain original cycle count",
+    "sparse phi and RNG retain identical cycle labels, endpoints, cut candidates, and every 100th cycle",
+    "five representative trajectories retain every field and RNG state",
+    "all pilot source paths absent and archival records present",
+    "scout/refine/low-kappa/endpoint analysis readers accept compact production files",
+    "final classifier reproduced 23 regions and kappa-zero bracket [0.55,0.57]",
+    "155 XY model, cluster, and scan tests passed"
+  ],
+  "compaction_summary": "storage-compaction-summary.json",
+  "conversion_log": "storage-compaction.jsonl",
+  "pilot_manifest": "2026-09-02-xy-bkt-refine/pilot-deletion-manifest.json"
+}

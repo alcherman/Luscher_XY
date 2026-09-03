@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-09-03T03:46:32.478369+00:00",
+  "chains": 588,
+  "cut": 2001,
+  "source_sha256": "7fc0ecc93b883bfd93557bc419f1e641eb7280b68d0ab68441abafdbaef7c571",
+  "draws": 2000,
+  "block_rule": "max(20,ceil(10*largest tau among m2,m4,U influence,xi ratio influence,cosine,vortex))",
+  "estimator": "joint balanced contiguous block bootstrap, all retained rows; ratios of means",
+  "scope": "scouting, one cold start per point; no thermodynamic certification"
+}

@@ -15,6 +15,10 @@ class Links(Observable):
 
 
     @staticmethod
+    def XY(S, phi):
+        return S.links(phi)
+
+    @staticmethod
     def Villain(S, phi, n):
         r'''
         The only gauge-invariant link variables in the :class:`~.Villain` formulation are

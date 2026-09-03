@@ -41,6 +41,8 @@ class Spin_Spin(Observable):
 
         return L.correlation(spin, spin)
 
+    XY = Villain
+
     _signs = dict()
     _directions = dict()
     _coordinates = dict()
@@ -323,4 +325,3 @@ class SpinCriticalMoment(DerivedQuantity):
 
         L = S.Lattice
         return np.sum(L.R_squared**(supervillain.observable.Spin_Spin.CriticalScalingDimension(S)) * Spin_Spin_Normalized.real) / L.sites
-

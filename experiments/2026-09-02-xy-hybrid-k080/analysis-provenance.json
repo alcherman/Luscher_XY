@@ -1,0 +1,10 @@
+{
+  "cut": 501,
+  "analysis_sha256": "95378228a4b4e0de1d30a1a54ae8b21aa53627da0ac009f66828597c6b77c70c",
+  "bootstrap_source_sha256": "289f3e49571bdfb85f55882e5b5aee6f25f91875f8e34058bc2172757d754822",
+  "tau_source_sha256": "de16bee0182eb8decaf8d7131f34ddb930cbce8e3536b981db852933908b38a6",
+  "block_rule": "max(20,ceil(10*max(tau_m2,tau_m4,tau_Binder_influence,tau_energy,tau_vortex)))",
+  "bootstrap": "4000 joint block resamples, ratio recomputed, balanced blocks keep every retained row",
+  "efficiency": "retained n/(2*tau) divided by full generation wall time including cold start, measurements and I/O",
+  "limits": "one seed per arm, single-thread sequential runs, no uncertainty on tau or timing ratios; fixed tuning"
+}

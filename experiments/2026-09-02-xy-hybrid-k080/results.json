@@ -1,0 +1,248 @@
+[
+  {
+    "name": "metropolis",
+    "update": "metropolis",
+    "clusters_per_step": 1,
+    "seed": 2026091201,
+    "binder": 0.044491392849489,
+    "error": 0.03484456925617406,
+    "q16": 0.011602324198765982,
+    "q84": 0.08114967854807516,
+    "blocks": 37,
+    "used": 9500,
+    "enough_blocks": true,
+    "block_min_width": 256,
+    "block_max_width": 257,
+    "include_tail": true,
+    "bootstrap_bias": 0.0024507228161691416,
+    "first_retained_cycle": 501,
+    "retained": 9500,
+    "tau": {
+      "m2": 25.046355385726265,
+      "m4": 20.78900235922995,
+      "binder_influence": 12.040577155263405,
+      "energy": 6.600192872105482,
+      "vortex": 4.526974225526
+    },
+    "block_width": 251,
+    "means": {
+      "m2": 0.012230766035959333,
+      "m4": 0.0002858721950016889,
+      "energy": -0.7931036868005293,
+      "vortex": 0.08706039839181286
+    },
+    "scalar_block_se": {
+      "m2": 0.0007874642169464135,
+      "m4": 3.529160097987427e-05,
+      "energy": 0.0009079281291543062,
+      "vortex": 0.000276707453602738
+    },
+    "ess": {
+      "m2": 189.64835110129397,
+      "m4": 228.48619274368804,
+      "binder_influence": 394.4993615130476,
+      "energy": 719.6759385737065,
+      "vortex": 1049.2659695777452
+    },
+    "total_seconds": 40.05784875183599,
+    "retained_update_seconds": 9.319890131999273,
+    "ess_per_total_second": {
+      "m2": 4.734361854431879,
+      "m4": 5.703905722925666,
+      "binder_influence": 9.848241326113806,
+      "energy": 17.965915819199385,
+      "vortex": 26.19376732080885
+    },
+    "ess_per_update_second": {
+      "m2": 20.348775405640026,
+      "m4": 24.51597492112001,
+      "binder_influence": 42.32875666190078,
+      "energy": 77.21935863843964,
+      "vortex": 112.5835127578548
+    },
+    "binder_variance_times_total_seconds": 0.04863599698126617,
+    "retained_timing": {
+      "cluster_seconds": 0.0,
+      "cycle_seconds": 36.41215475043282,
+      "measurement_seconds": 2.332671426178422,
+      "metropolis_seconds": 4.361992632271722,
+      "update_seconds": 9.319890131999273,
+      "winding_seconds": 4.955543291987851
+    },
+    "total_timing": {
+      "cluster_seconds": 0.0,
+      "cycle_seconds": 38.66239588090684,
+      "measurement_seconds": 2.4546287248958834,
+      "metropolis_seconds": 4.917422632803209,
+      "update_seconds": 10.133574765583035,
+      "winding_seconds": 5.213658505119383
+    },
+    "local_acceptance": 0.4322522386695906,
+    "mean_cluster_fraction": null,
+    "winding_acceptance": 0.04610526315789474
+  },
+  {
+    "name": "hybrid",
+    "update": "hybrid",
+    "clusters_per_step": 1,
+    "seed": 2026091202,
+    "binder": 0.02992945172137973,
+    "error": 0.02659788484512925,
+    "q16": 0.005938309640551421,
+    "q84": 0.057118642420892166,
+    "blocks": 125,
+    "used": 9500,
+    "enough_blocks": true,
+    "block_min_width": 76,
+    "block_max_width": 76,
+    "include_tail": true,
+    "bootstrap_bias": 0.0016547873333933177,
+    "first_retained_cycle": 501,
+    "retained": 9500,
+    "tau": {
+      "m2": 7.571748843125668,
+      "m4": 7.229882777419471,
+      "binder_influence": 5.025052090683484,
+      "energy": 5.469226016435339,
+      "vortex": 3.798704208576532
+    },
+    "block_width": 76,
+    "means": {
+      "m2": 0.013027411386920354,
+      "m4": 0.0003292680340246321,
+      "energy": -0.7927933067876219,
+      "vortex": 0.08710389254385965
+    },
+    "scalar_block_se": {
+      "m2": 0.0004931104085019639,
+      "m4": 2.6521766539963003e-05,
+      "energy": 0.000638806772335478,
+      "vortex": 0.00020304961546578816
+    },
+    "ess": {
+      "m2": 627.3319544021178,
+      "m4": 656.995437717926,
+      "binder_influence": 945.2638329474365,
+      "energy": 868.4958320840968,
+      "vortex": 1250.426392577679
+    },
+    "total_seconds": 48.02361925103469,
+    "retained_update_seconds": 11.551488938508555,
+    "ess_per_total_second": {
+      "m2": 13.062987841937835,
+      "m4": 13.680673134684051,
+      "binder_influence": 19.683310997578978,
+      "energy": 18.084764239533754,
+      "vortex": 26.037737514977863
+    },
+    "ess_per_update_second": {
+      "m2": 54.30745402099778,
+      "m4": 56.87538993590142,
+      "binder_influence": 81.83047553257512,
+      "energy": 75.18475208757208,
+      "vortex": 108.24807081009291
+    },
+    "binder_variance_times_total_seconds": 0.03397418833485058,
+    "retained_timing": {
+      "cluster_seconds": 2.1357469123322517,
+      "cycle_seconds": 44.420294328650925,
+      "measurement_seconds": 2.4617742549744435,
+      "metropolis_seconds": 4.480366269825026,
+      "update_seconds": 11.551488938508555,
+      "winding_seconds": 4.935375756351277
+    },
+    "total_timing": {
+      "cluster_seconds": 2.280440325732343,
+      "cycle_seconds": 46.65124491089955,
+      "measurement_seconds": 2.585496582381893,
+      "metropolis_seconds": 4.7070008962764405,
+      "update_seconds": 12.178556191793177,
+      "winding_seconds": 5.191114969784394
+    },
+    "local_acceptance": 0.43214651864035086,
+    "mean_cluster_fraction": 0.010094435307017544,
+    "winding_acceptance": 0.04989473684210526
+  },
+  {
+    "name": "cluster100",
+    "update": "cluster",
+    "clusters_per_step": 100,
+    "seed": 2026091203,
+    "binder": 0.0261779173260408,
+    "error": 0.00827420311508617,
+    "q16": 0.017834032947443724,
+    "q84": 0.034728038185392184,
+    "blocks": 475,
+    "used": 9500,
+    "enough_blocks": true,
+    "block_min_width": 20,
+    "block_max_width": 20,
+    "include_tail": true,
+    "bootstrap_bias": 0.00011647301566410084,
+    "first_retained_cycle": 501,
+    "retained": 9500,
+    "tau": {
+      "m2": 0.5242337467728562,
+      "m4": 0.5048245095530783,
+      "binder_influence": 0.5091382455059954,
+      "energy": 1.8635718645094146,
+      "vortex": 1.2392698963810906
+    },
+    "block_width": 20,
+    "means": {
+      "m2": 0.01286509822928514,
+      "m4": 0.0003223560513099418,
+      "energy": -0.7922918758215048,
+      "vortex": 0.087203307748538
+    },
+    "scalar_block_se": {
+      "m2": 0.000128869002445202,
+      "m4": 6.848277221217986e-06,
+      "energy": 0.0004132953869443806,
+      "vortex": 0.00012845903196982586
+    },
+    "ess": {
+      "m2": 9060.843620313735,
+      "m4": 9409.210349563218,
+      "binder_influence": 9329.489665973377,
+      "energy": 2548.868702334931,
+      "vortex": 3832.901948050965
+    },
+    "total_seconds": 236.79508970701136,
+    "retained_update_seconds": 186.02666516264435,
+    "ess_per_total_second": {
+      "m2": 38.26449117473169,
+      "m4": 39.735664963345805,
+      "binder_influence": 39.39899969005623,
+      "energy": 10.764026844849987,
+      "vortex": 16.18657698009468
+    },
+    "ess_per_update_second": {
+      "m2": 48.70723029083911,
+      "m4": 50.57990122726053,
+      "binder_influence": 50.15135683809922,
+      "energy": 13.701630893111147,
+      "vortex": 20.604045902235754
+    },
+    "binder_variance_times_total_seconds": 0.016211568955896042,
+    "retained_timing": {
+      "cluster_seconds": 180.99025608453667,
+      "cycle_seconds": 223.5410724581452,
+      "measurement_seconds": 2.5773367935908027,
+      "metropolis_seconds": 0.0,
+      "update_seconds": 186.02666516264435,
+      "winding_seconds": 5.030659394455142
+    },
+    "total_timing": {
+      "cluster_seconds": 190.45434298185864,
+      "cycle_seconds": 235.3038567106123,
+      "measurement_seconds": 2.711507080413867,
+      "metropolis_seconds": 0.0,
+      "update_seconds": 195.75738695671316,
+      "winding_seconds": 5.296999153215438
+    },
+    "local_acceptance": null,
+    "mean_cluster_fraction": 0.010381395741959063,
+    "winding_acceptance": 0.045789473684210526
+  }
+]

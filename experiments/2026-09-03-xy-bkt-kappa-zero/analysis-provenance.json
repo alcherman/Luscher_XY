@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-09-03T12:00:16.199623+00:00",
+  "chains": 18,
+  "cut": 2001,
+  "source_sha256": "5a8f661198a1e96c5bdbe500e1a2823a8b218465257f330be29fd425d5b666bb",
+  "draws": 2000,
+  "block_rule": "max(20,ceil(10*largest tau among m2,m4,U influence,xi ratio influence,cosine,vortex))",
+  "estimator": "joint balanced contiguous block bootstrap, all retained rows; ratios of means",
+  "scope": "per-trajectory refinement diagnostics; no thermodynamic certification"
+}

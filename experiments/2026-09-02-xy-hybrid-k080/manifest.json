@@ -1,0 +1,37 @@
+{
+  "D": 2,
+  "L": 48,
+  "kappa": 0.8,
+  "epsilon": 3.141592653589793,
+  "steps": 10000,
+  "arms": [
+    {
+      "name": "metropolis",
+      "update": "metropolis",
+      "clusters_per_step": 1,
+      "seed": 2026091201
+    },
+    {
+      "name": "hybrid",
+      "update": "hybrid",
+      "clusters_per_step": 1,
+      "seed": 2026091202
+    },
+    {
+      "name": "cluster100",
+      "update": "cluster",
+      "clusters_per_step": 100,
+      "seed": 2026091203
+    }
+  ],
+  "schedule": "fixed counts per cycle; one winding proposal follows every arm",
+  "initialization": "cold; phi=0",
+  "metropolis_proposal_half_width": 3.141592653589793,
+  "backend": "numba, serial, one thread",
+  "concurrency": "arms run sequentially",
+  "cluster_batch_reason": "fixed 100 chosen from prior mean cluster fraction .0104; no production adaptation",
+  "provisional_warmup": 100,
+  "analysis_cut": "selected after cold-start history inspection",
+  "save": "cold seed and every cycle: all fields/observables/RNG states/work/timings",
+  "run_source_sha256": "eaef26b9268a7bb3782f27c65c066a4934ab464710cbe6996cfd7aee067e292d"
+}

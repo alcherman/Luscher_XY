@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-09-03T06:32:15.387688+00:00",
+  "status": "proposed_not_scheduled",
+  "selection_sha256": "603cbb7f2768aab5c66bb34b932e77084e734ec6fc4c29aa2e604d3f46eb4ef4",
+  "points": [
+    {
+      "epsilon_milli": 610,
+      "epsilon_over_pi": 0.61,
+      "kappa_milli": 290,
+      "kappa": 0.29,
+      "reason": "tighten_massive_edge",
+      "new_epsilon": true,
+      "steps_per_chain": 32000,
+      "replicas": 4,
+      "sizes": [
+        16,
+        32,
+        64
+      ],
+      "raw_bytes_upper_estimate": 6503627232,
+      "priority_score": 1.1999999999999997,
+      "priority_reason": "Split a currently wide epsilon cell; score is its excess width relative to the target, not a predicted reduction."
+    },
+    {
+      "epsilon_milli": 610,
+      "epsilon_over_pi": 0.61,
+      "kappa_milli": 400,
+      "kappa": 0.4,
+      "reason": "tighten_quasi_ordered_edge",
+      "new_epsilon": true,
+      "steps_per_chain": 32000,
+      "replicas": 4,
+      "sizes": [
+        16,
+        32,
+        64
+      ],
+      "raw_bytes_upper_estimate": 6503627232,
+      "priority_score": 1.1999999999999997,
+      "priority_reason": "Split a currently wide epsilon cell; score is its excess width relative to the target, not a predicted reduction."
+    },
+    {
+      "epsilon_milli": 630,
+      "epsilon_over_pi": 0.63,
+      "kappa_milli": 400,
+      "kappa": 0.4,
+      "reason": "tighten_massive_edge",
+      "new_epsilon": true,
+      "steps_per_chain": 32000,
+      "replicas": 4,
+      "sizes": [
+        16,
+        32,
+        64
+      ],
+      "raw_bytes_upper_estimate": 6503627232,
+      "priority_score": 0.7999999999999998,
+      "priority_reason": "Split a currently wide epsilon cell; score is its excess width relative to the target, not a predicted reduction."
+    },
+    {
+      "epsilon_milli": 630,
+      "epsilon_over_pi": 0.63,
+      "kappa_milli": 470,
+      "kappa": 0.47,
+      "reason": "tighten_quasi_ordered_edge",
+      "new_epsilon": true,
+      "steps_per_chain": 32000,
+      "replicas": 4,
+      "sizes": [
+        16,
+        32,
+        64
+      ],
+      "raw_bytes_upper_estimate": 6503627232,
+      "priority_score": 0.7999999999999998,
+      "priority_reason": "Split a currently wide epsilon cell; score is its excess width relative to the target, not a predicted reduction."
+    }
+  ],
+  "raw_bytes_upper_estimate": 26014508928,
+  "reserve_bytes": 26843545600,
+  "current_free_bytes": 27402240000,
+  "additional_free_bytes_needed": 25455814528,
+  "purpose": "Split the widest remaining low-kappa epsilon cells; these four points are a next batch, not a guarantee that the full precision target will be met."
+}

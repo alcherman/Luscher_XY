@@ -1,0 +1,10 @@
+{
+  "source_sha256": "7934bde37df81b6e778f02cb9ab1db1a09bcc5ae8c4290e45726ce56b82df608",
+  "cut": 501,
+  "bootstrap_draws": 4000,
+  "tau_method": "nonperiodic FFT, initial-positive monotone paired ACF",
+  "block_rule": "max(20, ceil(10*max(tau_m2,tau_m4,tau_Binder_influence,tau_energy,tau_vortex)))",
+  "errors": "standard deviation of joint-block bootstrap ratio; no thinning",
+  "convention": "U=1-mean(m4)/(2*mean(m2)**2)",
+  "note": "global rotation and winding histories retained as separate diagnostics"
+}

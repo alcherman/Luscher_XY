@@ -1,0 +1,56 @@
+{
+  "mature_epsilon": [
+    580,
+    600,
+    620,
+    640,
+    660,
+    680,
+    700,
+    720,
+    740,
+    760,
+    780,
+    800,
+    820,
+    840,
+    920,
+    1000
+  ],
+  "parameter_points": 2,
+  "chains": 24,
+  "decisions": [
+    {
+      "epsilon_milli": 620,
+      "added_kappa_milli": [
+        440
+      ],
+      "reasons": [
+        "resolve_quasi_ordered_edge"
+      ],
+      "eta_se": 0.0020403679376724223,
+      "observable_se": {
+        "32_binder_se": 9.608557854291414e-05,
+        "32_xi_over_L_se": 0.0021836723938075805,
+        "64_binder_se": 0.000104813305559468,
+        "64_xi_over_L_se": 0.002405366744708762
+      }
+    },
+    {
+      "epsilon_milli": 1000,
+      "added_kappa_milli": [
+        1080
+      ],
+      "reasons": [
+        "resolve_massive_edge"
+      ],
+      "eta_se": 0.0020623349781371428,
+      "observable_se": {
+        "32_binder_se": 0.00010392909308174298,
+        "32_xi_over_L_se": 0.002340039296649402,
+        "64_binder_se": 9.776397819917172e-05,
+        "64_xi_over_L_se": 0.0023955507794567936
+      }
+    }
+  ]
+}
