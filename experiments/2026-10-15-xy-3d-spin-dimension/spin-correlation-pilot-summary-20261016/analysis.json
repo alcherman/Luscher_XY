@@ -1,0 +1,1237 @@
+{
+  "created": 1792192133.890916,
+  "settings": {
+    "cut_cycles": 1000,
+    "block_factor": 2,
+    "draws": 2000,
+    "cadence_cycles": 100,
+    "log_columns": [
+      "R",
+      "logG_quarter",
+      "logG_half",
+      "logm2"
+    ]
+  },
+  "groups": [
+    {
+      "L": 24,
+      "ids": [
+        "spinxi3_e800750_N024_r40_s012000",
+        "spinxi3_e800750_N024_r41_s012000"
+      ],
+      "raw_mean": [
+        0.06044187030381392,
+        0.046676338599681656,
+        0.04876117632862608,
+        674.0745015669268,
+        41.100035677777306,
+        0.9286274200336699
+      ],
+      "derived": [
+        0.6263730878302707,
+        -2.8060731972546926,
+        -3.0645179108079756,
+        -3.0208208497907867
+      ],
+      "flags": [
+        "fewer_than_50_blocks_per_start"
+      ],
+      "diagnostics": [
+        {
+          "id": "spinxi3_e800750_N024_r40_s012000",
+          "samples": 110,
+          "first_cycle": 1100,
+          "last_cycle": 12000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.8708527525675116,
+            "G_quarter_latehalf": 1.2008271312328436,
+            "G_half_postcut": 0.8207925155397437,
+            "G_half_latehalf": 1.1704680917799921,
+            "m2_postcut": 0.7390093986949566,
+            "m2_latehalf": 0.987429269636001,
+            "R_influence_postcut": 0.5515371294844,
+            "R_influence_latehalf": 0.506652523874348,
+            "winding2_postcut": 0.621298444343537,
+            "winding2_latehalf": 0.7939585480398998
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 5.170823974971555,
+            "m2_latehalf": 6.330367885297726,
+            "R_influence_postcut": 3.4557054280398725,
+            "R_influence_latehalf": 3.8518179647183803,
+            "archived_retention_winding2_postwarmup": 4.00065317503637,
+            "archived_retention_winding2_latehalf": 4.3754828017383165
+          },
+          "block_width_cycles": 2500,
+          "blocking": {
+            "blocks": 4,
+            "rows": 110,
+            "width_checkpoints": 25,
+            "actual_block_lengths_checkpoints": [
+              27,
+              28,
+              27,
+              28
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 4
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            2.1467491816218316,
+            1.930620864457487,
+            1.7650121091748747
+          ]
+        },
+        {
+          "id": "spinxi3_e800750_N024_r41_s012000",
+          "samples": 110,
+          "first_cycle": 1100,
+          "last_cycle": 12000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.5,
+            "G_quarter_latehalf": 0.5440761186630529,
+            "G_half_postcut": 0.5409969960101613,
+            "G_half_latehalf": 0.5270441720540382,
+            "m2_postcut": 0.5276093147451864,
+            "m2_latehalf": 0.537865554461715,
+            "R_influence_postcut": 0.6244945592373625,
+            "R_influence_latehalf": 0.5433025379890613,
+            "winding2_postcut": 0.512099671271653,
+            "winding2_latehalf": 0.5
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 6.497734301991285,
+            "m2_latehalf": 6.571473312339683,
+            "R_influence_postcut": 3.754881743884205,
+            "R_influence_latehalf": 3.6555968618546446,
+            "archived_retention_winding2_postwarmup": 5.173746274690966,
+            "archived_retention_winding2_latehalf": 4.9720096191610885
+          },
+          "block_width_cycles": 1300,
+          "blocking": {
+            "blocks": 8,
+            "rows": 110,
+            "width_checkpoints": 13,
+            "actual_block_lengths_checkpoints": [
+              13,
+              14,
+              14,
+              14,
+              13,
+              14,
+              14,
+              14
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 3
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            -2.425231307246117,
+            -2.2851410920148534,
+            -2.7369598442219716
+          ]
+        }
+      ],
+      "individual": [
+        {
+          "id": "spinxi3_e800750_N024_r40_s012000",
+          "raw_mean": [
+            0.05909687725528931,
+            0.04395350920165624,
+            0.04642112077564559,
+            641.7255736025251,
+            42.980700862722884,
+            0.9294349747474752
+          ],
+          "derived": [
+            0.595724211490552,
+            -2.8285771942860554,
+            -3.124622812722008,
+            -3.0700007341867797
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.016843074641792695,
+            0.029496189894343015,
+            0.049032196599131,
+            0.04146444379829722
+          ]
+        },
+        {
+          "id": "spinxi3_e800750_N024_r41_s012000",
+          "raw_mean": [
+            0.061786863352338586,
+            0.04939916799770704,
+            0.051101231881606556,
+            706.4234295313289,
+            39.219370492831715,
+            0.9278198653198652
+          ],
+          "derived": [
+            0.6583246614753109,
+            -2.7840645042283456,
+            -3.00782169708177,
+            -2.97394667479091
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.024873097797085335,
+            0.025442460566457003,
+            0.03779804852044826,
+            0.03358091590675235
+          ]
+        }
+      ],
+      "axis_real_mean": [
+        [
+          0.060155171525821144,
+          0.061473356195157,
+          0.0596970831904637
+        ],
+        [
+          0.04548554522019506,
+          0.04847056744920866,
+          0.04607290312964124
+        ]
+      ],
+      "axis_imag_mean": [
+        [
+          0.0001874722236582898,
+          0.0006464152283857696,
+          0.001211814238259415
+        ],
+        [
+          -1.9274705288631188e-20,
+          -1.4090977729946273e-20,
+          9.054183293963541e-20
+        ]
+      ],
+      "samples_total": 220,
+      "start_z_R_logGq_logGh_logm2": [
+        2.0839509816899007,
+        1.142725220549053,
+        1.8866274487310994,
+        1.8002120608665995
+      ],
+      "status": "conditional_checkpoint_block_summary",
+      "joint_valid_fraction": 1.0,
+      "invalid_draws": {
+        "R": 0,
+        "G_quarter": 0,
+        "G_half": 0,
+        "m2": 0
+      },
+      "MC95": [
+        [
+          0.5976587440317186,
+          0.655837483401466
+        ],
+        [
+          -2.846512597552528,
+          -2.7701042992545775
+        ],
+        [
+          -3.130424381043093,
+          -3.0089895247289418
+        ],
+        [
+          -3.077379136609927,
+          -2.97322476770254
+        ]
+      ],
+      "SD": [
+        0.014950737877587305,
+        0.019624255281829067,
+        0.030982390057340648,
+        0.026762850221587052
+      ],
+      "raw_MC95": [
+        [
+          0.058046399465410146,
+          0.0626554694853817
+        ],
+        [
+          0.04369924823051956,
+          0.049341511965082976
+        ],
+        [
+          0.046079867576256324,
+          0.051138135619726216
+        ],
+        [
+          637.0080893741675,
+          706.9335868070951
+        ],
+        [
+          38.92169457345534,
+          42.96470626028
+        ],
+        [
+          0.920843552352655,
+          0.9361650239785749
+        ]
+      ],
+      "q": 0.80075,
+      "source_metadata": [
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N024_r40_s012000.json",
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N024_r41_s012000.json"
+      ]
+    },
+    {
+      "L": 32,
+      "ids": [
+        "spinxi3_e800750_N032_r40_s012000",
+        "spinxi3_e800750_N032_r41_s012000"
+      ],
+      "raw_mean": [
+        0.0445281554718429,
+        0.03456800731942479,
+        0.03484953321955158,
+        1141.9495045382662,
+        75.44427045110329,
+        1.2596339370265155
+      ],
+      "derived": [
+        0.5993580769406714,
+        -3.1116335826523507,
+        -3.3648266686126296,
+        -3.3567155358523464
+      ],
+      "flags": [
+        "fewer_than_50_blocks_per_start"
+      ],
+      "diagnostics": [
+        {
+          "id": "spinxi3_e800750_N032_r40_s012000",
+          "samples": 110,
+          "first_cycle": 1100,
+          "last_cycle": 12000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.5380848624551595,
+            "G_quarter_latehalf": 0.5255931405635268,
+            "G_half_postcut": 0.5584737575565475,
+            "G_half_latehalf": 0.7034004149961408,
+            "m2_postcut": 0.5461356219173583,
+            "m2_latehalf": 0.5007643898272147,
+            "R_influence_postcut": 0.5,
+            "R_influence_latehalf": 0.6233579588885347,
+            "winding2_postcut": 0.5169817497613138,
+            "winding2_latehalf": 0.6812721584587702
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 8.10799389807762,
+            "m2_latehalf": 6.735386828609459,
+            "R_influence_postcut": 4.38475897616236,
+            "R_influence_latehalf": 3.7815277265411025,
+            "archived_retention_winding2_postwarmup": 6.409351823243381,
+            "archived_retention_winding2_latehalf": 5.774463658701852
+          },
+          "block_width_cycles": 1500,
+          "blocking": {
+            "blocks": 7,
+            "rows": 110,
+            "width_checkpoints": 15,
+            "actual_block_lengths_checkpoints": [
+              15,
+              16,
+              16,
+              15,
+              16,
+              16,
+              16
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 0
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            1.9771032496373795,
+            2.121053314846967,
+            3.173147478935952
+          ]
+        },
+        {
+          "id": "spinxi3_e800750_N032_r41_s012000",
+          "samples": 110,
+          "first_cycle": 1100,
+          "last_cycle": 12000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.6102579759304216,
+            "G_quarter_latehalf": 0.5420558188724254,
+            "G_half_postcut": 0.5,
+            "G_half_latehalf": 0.5,
+            "m2_postcut": 0.5769014886447021,
+            "m2_latehalf": 0.5304507424975939,
+            "R_influence_postcut": 0.5567584522981464,
+            "R_influence_latehalf": 0.5539659306906144,
+            "winding2_postcut": 0.5493247129014684,
+            "winding2_latehalf": 0.5
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 7.367196946130431,
+            "m2_latehalf": 6.611148007975398,
+            "R_influence_postcut": 5.072048355144221,
+            "R_influence_latehalf": 4.588020293823939,
+            "archived_retention_winding2_postwarmup": 6.082752711300809,
+            "archived_retention_winding2_latehalf": 5.327010247803205
+          },
+          "block_width_cycles": 1300,
+          "blocking": {
+            "blocks": 8,
+            "rows": 110,
+            "width_checkpoints": 13,
+            "actual_block_lengths_checkpoints": [
+              13,
+              14,
+              14,
+              14,
+              13,
+              14,
+              14,
+              14
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 1
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            -0.42440671721840373,
+            -0.7910072470478876,
+            -0.5416650352328702
+          ]
+        }
+      ],
+      "individual": [
+        {
+          "id": "spinxi3_e800750_N032_r40_s012000",
+          "raw_mean": [
+            0.044258921720550785,
+            0.03420561267438627,
+            0.03435839557703351,
+            1125.855906268234,
+            75.38704841075914,
+            1.2593483664772736
+          ],
+          "derived": [
+            0.595060632095545,
+            -3.1176983070475335,
+            -3.3753655350925413,
+            -3.370908877454747
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.02316498075298548,
+            0.020856723722519562,
+            0.04420987170534301,
+            0.038062098589269386
+          ]
+        },
+        {
+          "id": "spinxi3_e800750_N032_r41_s012000",
+          "raw_mean": [
+            0.04479738922313504,
+            0.034930401964463335,
+            0.035340670862069656,
+            1158.0431028082985,
+            75.50149249144746,
+            1.259919507575758
+          ],
+          "derived": [
+            0.6036184825436111,
+            -3.1056054175286327,
+            -3.3543977125152287,
+            -3.3427208291901276
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.021679902039396383,
+            0.0321143232894025,
+            0.04704232217413474,
+            0.04576835345258383
+          ]
+        }
+      ],
+      "axis_real_mean": [
+        [
+          0.044120910145088725,
+          0.044964198491166535,
+          0.04449935777927353
+        ],
+        [
+          0.03505792643618586,
+          0.03534506004517562,
+          0.033301035476912905
+        ]
+      ],
+      "axis_imag_mean": [
+        [
+          -1.8261875627789914e-05,
+          -0.00014463679889787387,
+          0.0001612049070391684
+        ],
+        [
+          -8.37792587829708e-20,
+          -1.4784575079347787e-21,
+          -1.0091469526286384e-21
+        ]
+      ],
+      "samples_total": 220,
+      "start_z_R_logGq_logGh_logm2": [
+        0.26972971310803867,
+        0.3158012375522755,
+        0.32479991158762367,
+        0.47353370930846245
+      ],
+      "status": "conditional_checkpoint_block_summary",
+      "joint_valid_fraction": 1.0,
+      "invalid_draws": {
+        "R": 0,
+        "G_quarter": 0,
+        "G_half": 0,
+        "m2": 0
+      },
+      "MC95": [
+        [
+          0.5703445375022466,
+          0.6314315067188616
+        ],
+        [
+          -3.1491423569748247,
+          -3.0733684993707753
+        ],
+        [
+          -3.4290451238272968,
+          -3.3016757686338174
+        ],
+        [
+          -3.41459585244169,
+          -3.2968656427814325
+        ]
+      ],
+      "SD": [
+        0.015585928764609177,
+        0.019000516670082217,
+        0.0319544255634211,
+        0.029499705615384935
+      ],
+      "raw_MC95": [
+        [
+          0.04288889450602561,
+          0.046265048325082235
+        ],
+        [
+          0.032417881093881384,
+          0.03682141151799327
+        ],
+        [
+          0.03288969636656443,
+          0.036998953843281716
+        ],
+        [
+          1077.7295705395832,
+          1212.3817195366553
+        ],
+        [
+          70.1973453739853,
+          80.65125018853543
+        ],
+        [
+          1.2542341301946744,
+          1.2646709528598807
+        ]
+      ],
+      "q": 0.80075,
+      "source_metadata": [
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N032_r40_s012000.json",
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N032_r41_s012000.json"
+      ]
+    },
+    {
+      "L": 48,
+      "ids": [
+        "spinpilot3_e080075_N048_r30_s020000",
+        "spinpilot3_e080075_N048_r31_s020000"
+      ],
+      "raw_mean": [
+        0.028279140172233652,
+        0.021316183972467477,
+        0.022226318335170987,
+        2458.0529973232287,
+        166.3562919645629,
+        1.9088320845516582
+      ],
+      "derived": [
+        0.5911384297702537,
+        -3.5656308425095555,
+        -3.8482886838629713,
+        -3.8064781816734063
+      ],
+      "flags": [
+        "fewer_than_50_blocks_per_start"
+      ],
+      "diagnostics": [
+        {
+          "id": "spinpilot3_e080075_N048_r30_s020000",
+          "samples": 190,
+          "first_cycle": 1100,
+          "last_cycle": 20000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.6215177151875853,
+            "G_quarter_latehalf": 0.7127064019565366,
+            "G_half_postcut": 0.5838253729711067,
+            "G_half_latehalf": 0.7448569666849878,
+            "m2_postcut": 0.622426218519953,
+            "m2_latehalf": 0.8008632174046,
+            "R_influence_postcut": 0.5622285277480523,
+            "R_influence_latehalf": 0.6534061862782516,
+            "winding2_postcut": 0.5489622405009749,
+            "winding2_latehalf": 0.660899794790917
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 13.530779889062288,
+            "m2_latehalf": 15.091022727481354,
+            "R_influence_postcut": 7.225634450681703,
+            "R_influence_latehalf": 7.585048374219445,
+            "archived_retention_winding2_postwarmup": 9.83233754179377,
+            "archived_retention_winding2_latehalf": 12.847049312695981
+          },
+          "block_width_cycles": 1700,
+          "blocking": {
+            "blocks": 11,
+            "rows": 190,
+            "width_checkpoints": 17,
+            "actual_block_lengths_checkpoints": [
+              17,
+              17,
+              17,
+              18,
+              17,
+              17,
+              17,
+              18,
+              17,
+              17,
+              18
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 7
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            -1.0478783951049124,
+            -0.27864400464806743,
+            -0.876157299410846
+          ]
+        },
+        {
+          "id": "spinpilot3_e080075_N048_r31_s020000",
+          "samples": 190,
+          "first_cycle": 1100,
+          "last_cycle": 20000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.5298214182534535,
+            "G_quarter_latehalf": 0.5,
+            "G_half_postcut": 0.5228870114303079,
+            "G_half_latehalf": 0.5,
+            "m2_postcut": 0.5318596481010196,
+            "m2_latehalf": 0.5,
+            "R_influence_postcut": 0.5268572907613562,
+            "R_influence_latehalf": 0.5062876765790258,
+            "winding2_postcut": 0.5,
+            "winding2_latehalf": 0.5
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 10.924227814777776,
+            "m2_latehalf": 12.784294635054627,
+            "R_influence_postcut": 6.579765603047779,
+            "R_influence_latehalf": 7.988216491325671,
+            "archived_retention_winding2_postwarmup": 8.0819203538392,
+            "archived_retention_winding2_latehalf": 9.061477663146308
+          },
+          "block_width_cycles": 1100,
+          "blocking": {
+            "blocks": 17,
+            "rows": 190,
+            "width_checkpoints": 11,
+            "actual_block_lengths_checkpoints": [
+              11,
+              11,
+              11,
+              11,
+              11,
+              12,
+              11,
+              11,
+              11,
+              11,
+              11,
+              12,
+              11,
+              11,
+              11,
+              11,
+              12
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 2
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            -1.8508130452626457,
+            -1.8287261928556586,
+            -1.9800362306952084
+          ]
+        }
+      ],
+      "individual": [
+        {
+          "id": "spinpilot3_e080075_N048_r30_s020000",
+          "raw_mean": [
+            0.028580434860299184,
+            0.021541238151459394,
+            0.022364979701840336,
+            2473.387835185926,
+            170.71553855829055,
+            1.906221826267057
+          ],
+          "derived": [
+            0.5849379260864175,
+            -3.555032891050363,
+            -3.837786127408242,
+            -3.8002589496836827
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.01654613285997239,
+            0.023660818141831554,
+            0.03464855046871772,
+            0.03145639677329921
+          ]
+        },
+        {
+          "id": "spinpilot3_e080075_N048_r31_s020000",
+          "raw_mean": [
+            0.027977845484168155,
+            0.02109112979347557,
+            0.02208765696850162,
+            2442.7181594605304,
+            161.99704537083522,
+            1.9114423428362568
+          ],
+          "derived": [
+            0.5976030205904168,
+            -3.5763423147050277,
+            -3.858902715823124,
+            -3.8127363346948346
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.018265067243750703,
+            0.024248077886426703,
+            0.040406731710072634,
+            0.03491203564419397
+          ]
+        }
+      ],
+      "axis_real_mean": [
+        [
+          0.02856987591482579,
+          0.02816373266079524,
+          0.028103811941079995
+        ],
+        [
+          0.021358809958942522,
+          0.02127583147412222,
+          0.021313910484337718
+        ]
+      ],
+      "axis_imag_mean": [
+        [
+          0.0001242428932757437,
+          0.000614196792663076,
+          -0.0002259995369393527
+        ],
+        [
+          -5.833134495243639e-21,
+          -1.694990530864278e-20,
+          -1.851452211335657e-20
+        ]
+      ],
+      "samples_total": 380,
+      "start_z_R_logGq_logGh_logm2": [
+        0.5138964518719765,
+        -0.6289815597549315,
+        -0.39671913151033805,
+        -0.26551503531457776
+      ],
+      "status": "conditional_checkpoint_block_summary",
+      "joint_valid_fraction": 1.0,
+      "invalid_draws": {
+        "R": 0,
+        "G_quarter": 0,
+        "G_half": 0,
+        "m2": 0
+      },
+      "MC95": [
+        [
+          0.5670626869416838,
+          0.6165220620558309
+        ],
+        [
+          -3.5987342241155664,
+          -3.5320835822020045
+        ],
+        [
+          -3.8995781584350753,
+          -3.793709850030426
+        ],
+        [
+          -3.852470655297324,
+          -3.75926821119358
+        ]
+      ],
+      "SD": [
+        0.012403594917892394,
+        0.017016976058708676,
+        0.0268697724627568,
+        0.023695300052302918
+      ],
+      "raw_MC95": [
+        [
+          0.02735833005662711,
+          0.029243920342380245
+        ],
+        [
+          0.020250452159661328,
+          0.022511930902565567
+        ],
+        [
+          0.0212272264406022,
+          0.02330078539146293
+        ],
+        [
+          2347.5614265190784,
+          2576.880458012668
+        ],
+        [
+          157.92134597201382,
+          175.1028455360308
+        ],
+        [
+          1.9056486973882711,
+          1.9118104888989833
+        ]
+      ],
+      "q": 0.80075,
+      "source_metadata": [
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N048_r30_s020000.json",
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N048_r31_s020000.json"
+      ]
+    },
+    {
+      "L": 64,
+      "ids": [
+        "spinpilot3_e080075_N064_r30_s020000",
+        "spinpilot3_e080075_N064_r31_s020000"
+      ],
+      "raw_mean": [
+        0.02072474514635489,
+        0.015897333999985695,
+        0.016284954742462845,
+        4269.00317600818,
+        291.8710578482857,
+        2.551052374588816
+      ],
+      "derived": [
+        0.5877383769097623,
+        -3.87642687495533,
+        -4.141603856771508,
+        -4.117513619351271
+      ],
+      "flags": [
+        "fewer_than_50_blocks_per_start"
+      ],
+      "diagnostics": [
+        {
+          "id": "spinpilot3_e080075_N064_r30_s020000",
+          "samples": 190,
+          "first_cycle": 1100,
+          "last_cycle": 20000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 1.0392281739271942,
+            "G_quarter_latehalf": 0.7711627408456803,
+            "G_half_postcut": 0.9938865080698154,
+            "G_half_latehalf": 0.5816393563307842,
+            "m2_postcut": 1.0510278283361822,
+            "m2_latehalf": 0.652610412025451,
+            "R_influence_postcut": 0.6834294858566003,
+            "R_influence_latehalf": 0.8674925999047953,
+            "winding2_postcut": 0.5069349027312509,
+            "winding2_latehalf": 0.5
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 15.034315445963848,
+            "m2_latehalf": 16.30468431873244,
+            "R_influence_postcut": 6.7679434452940646,
+            "R_influence_latehalf": 7.343572823105791,
+            "archived_retention_winding2_postwarmup": 10.25827073062534,
+            "archived_retention_winding2_latehalf": 10.920715015117946
+          },
+          "block_width_cycles": 2200,
+          "blocking": {
+            "blocks": 8,
+            "rows": 190,
+            "width_checkpoints": 22,
+            "actual_block_lengths_checkpoints": [
+              23,
+              24,
+              24,
+              24,
+              23,
+              24,
+              24,
+              24
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 5
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            1.3401755221324898,
+            1.871209362937857,
+            1.516848110005307
+          ]
+        },
+        {
+          "id": "spinpilot3_e080075_N064_r31_s020000",
+          "samples": 190,
+          "first_cycle": 1100,
+          "last_cycle": 20000,
+          "cadence_cycles": 100,
+          "checkpoint_tau": {
+            "G_quarter_postcut": 0.5201750526189504,
+            "G_quarter_latehalf": 0.5606605425211735,
+            "G_half_postcut": 0.5218514874473026,
+            "G_half_latehalf": 0.5782510812319683,
+            "m2_postcut": 0.5052902878407706,
+            "m2_latehalf": 0.5286288921388242,
+            "R_influence_postcut": 0.5434198087647117,
+            "R_influence_latehalf": 0.5,
+            "winding2_postcut": 0.6674268687921756,
+            "winding2_latehalf": 0.5768369540615426
+          },
+          "dense_tau_cycles": {
+            "m2_postcut": 15.914894380903753,
+            "m2_latehalf": 13.685447500928674,
+            "R_influence_postcut": 8.631732672308955,
+            "R_influence_latehalf": 7.505997728518128,
+            "archived_retention_winding2_postwarmup": 9.494342515754603,
+            "archived_retention_winding2_latehalf": 8.532625354176577
+          },
+          "block_width_cycles": 1400,
+          "blocking": {
+            "blocks": 13,
+            "rows": 190,
+            "width_checkpoints": 14,
+            "actual_block_lengths_checkpoints": [
+              14,
+              15,
+              14,
+              15,
+              15,
+              14,
+              15,
+              14,
+              15,
+              15,
+              14,
+              15,
+              15
+            ]
+          },
+          "negative_configuration_G_counts": {
+            "quarter": 0,
+            "half": 1
+          },
+          "constant_winding_axes": [
+            false,
+            false,
+            false
+          ],
+          "half_z_Gq_Gh_m2": [
+            -1.5855504571843577,
+            -1.8766233115785032,
+            -2.29218775484182
+          ]
+        }
+      ],
+      "individual": [
+        {
+          "id": "spinpilot3_e080075_N064_r30_s020000",
+          "raw_mean": [
+            0.02057754292466163,
+            0.0156557586558928,
+            0.016232254782157916,
+            4255.188197614005,
+            279.2464302859152,
+            2.548612253289476
+          ],
+          "derived": [
+            0.6007873070944926,
+            -3.8835549471198147,
+            -4.156916464445811,
+            -4.120754980293125
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.01017205936716007,
+            0.030308443513248084,
+            0.05124821452694234,
+            0.04190022731903605
+          ]
+        },
+        {
+          "id": "spinpilot3_e080075_N064_r31_s020000",
+          "raw_mean": [
+            0.02087194736804814,
+            0.016138909344078585,
+            0.016337654702767754,
+            4282.81815440235,
+            304.49568541065656,
+            2.553492495888157
+          ],
+          "derived": [
+            0.5755114598736372,
+            -3.8693492528043896,
+            -4.1265221931399285,
+            -4.114282730894211
+          ],
+          "joint_valid_fraction": 1.0,
+          "stat_SD": [
+            0.021362572022050965,
+            0.02400039732606264,
+            0.035650815403561714,
+            0.040344487747434245
+          ]
+        }
+      ],
+      "axis_real_mean": [
+        [
+          0.020874248746349033,
+          0.02067612688047383,
+          0.02062385981224179
+        ],
+        [
+          0.015908084593426682,
+          0.015922078219282192,
+          0.0158618391872482
+        ]
+      ],
+      "axis_imag_mean": [
+        [
+          -6.151601706893543e-05,
+          -2.7272924580822306e-05,
+          -7.4457989954028605e-06
+        ],
+        [
+          3.5379228786369094e-20,
+          -9.863475767369156e-21,
+          -8.82506222297048e-22
+        ]
+      ],
+      "samples_total": 380,
+      "start_z_R_logGq_logGh_logm2": [
+        -1.068261387659322,
+        0.3674488997039794,
+        0.48686265903860537,
+        0.11127165736837724
+      ],
+      "status": "conditional_checkpoint_block_summary",
+      "joint_valid_fraction": 1.0,
+      "invalid_draws": {
+        "R": 0,
+        "G_quarter": 0,
+        "G_half": 0,
+        "m2": 0
+      },
+      "MC95": [
+        [
+          0.5649893904741201,
+          0.6121766538598833
+        ],
+        [
+          -3.9147901882635865,
+          -3.8402349559836466
+        ],
+        [
+          -4.204411805357395,
+          -4.0841637637406265
+        ],
+        [
+          -4.1749187818882945,
+          -4.063561841966616
+        ]
+      ],
+      "SD": [
+        0.012136581604251554,
+        0.019225658881786935,
+        0.030893361368275495,
+        0.028961755141403738
+      ],
+      "raw_MC95": [
+        [
+          0.01994473291550969,
+          0.021488551888091748
+        ],
+        [
+          0.014929564998378619,
+          0.016837213340032034
+        ],
+        [
+          0.015376440451425393,
+          0.017187690123671495
+        ],
+        [
+          4030.8416056984584,
+          4505.64983977974
+        ],
+        [
+          276.9571883796944,
+          305.71194552242656
+        ],
+        [
+          2.546120441585848,
+          2.555179645371203
+        ]
+      ],
+      "q": 0.80075,
+      "source_metadata": [
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N064_r30_s020000.json",
+        "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N064_r31_s020000.json"
+      ]
+    }
+  ],
+  "fixed_q_slope": {
+    "status": "conditional_fixed_q_effective_dimension",
+    "q": 0.80075,
+    "sizes": [
+      24,
+      32,
+      48,
+      64
+    ],
+    "Delta": 0.5429229669130002,
+    "SD": 0.008364761303565478,
+    "MC95": [
+      0.5271549376419974,
+      0.5592212574511387
+    ],
+    "chi2": 4.116921400182197,
+    "dof": 5,
+    "nominal_p": 0.5327080089860953,
+    "joint_valid_fraction": 1.0,
+    "scope": "Fixed representative q, two separated correlators with independent amplitudes and common slope. No correction term or critical-q propagation; not the asymptotic CFT dimension or a systematic bound."
+  },
+  "provenance": [
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N048_r30_s020000.json",
+      "sha256": "247f0eddf05cdfa645b186918ec83a3f9ecded14cba3bbce4281248de72d1586",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N048_r30_s020000.npz",
+      "data_sha256": "b5fa2aca8ddd826a162d7f5a9fc37453092c77ea1fa1a002ad4796455f5de9f9"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N048_r31_s020000.json",
+      "sha256": "e828476044ce74c38c1dcaef0d3350ea16907040032c99e772fbe54e6e005bec",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N048_r31_s020000.npz",
+      "data_sha256": "8a5d76a32bc1b41980cf330efbbf7740579c1f368667191294236d53e7d4fae2"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N064_r30_s020000.json",
+      "sha256": "6c5c3d67cb2d75b3ee84dd35c69de72f34f57a100c8eaf80a0685c46a0ce3503",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N064_r30_s020000.npz",
+      "data_sha256": "d9b375b06bd16f0c7423b77ac54e638806df6d80677a41a6f45e10053e7437c4"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N064_r31_s020000.json",
+      "sha256": "c4512956c5a9ff5dccbb7abc3f794c3b08366a87c7243026eaeefbbf58b7c29c",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinpilot3_e080075_N064_r31_s020000.npz",
+      "data_sha256": "311438b8a5871b685c23652723838044e8308d4e6de708da4fd7015e8832dc6e"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N024_r40_s012000.json",
+      "sha256": "c142f405ce5212d28a189d306adbc5475b20598f4bb272034857b73e3a6d477d",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N024_r40_s012000.npz",
+      "data_sha256": "cd3d811fdb0fbfa28606c64cbfa9a9b97c9d9e5323ac7cf3552a39107049cf8d"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N024_r41_s012000.json",
+      "sha256": "7596cfc6a2b5da5544052e2239c0dd8d00c6e101a4c7559d3e4d3a55414068a4",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N024_r41_s012000.npz",
+      "data_sha256": "084b706a816ea088b9efbc0e10201af56463413f6330d1fcdc496ebb1aa44292"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N032_r40_s012000.json",
+      "sha256": "0fb82fa58ed2547291a4c7d7641d55b749b2e5cba9fc83e2dfc60bbbc2b97027",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N032_r40_s012000.npz",
+      "data_sha256": "baa40062c21d3d4b126d7a1b74e4f0d82741e9411276bcac342f3d35bbc2480f"
+    },
+    {
+      "path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N032_r41_s012000.json",
+      "sha256": "fe7ff1c5849415a3b7cfda990a744e718a9f89212bcceee42af09d93255af62a",
+      "data_path": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016/spinxi3_e800750_N032_r41_s012000.npz",
+      "data_sha256": "bee1745bf4b7485a8bbfbe08e46edf778b7e5b00cd37cb357415024099ed1add"
+    }
+  ],
+  "scope": "Existing uniformly sampled checkpoints. Spatial sites/axes not independent MC events; block widths in physical cycles. Sparse-chain autocorrelation and bootstrap intervals remain conditional; not a certified systematic error or CFT precision."
+}

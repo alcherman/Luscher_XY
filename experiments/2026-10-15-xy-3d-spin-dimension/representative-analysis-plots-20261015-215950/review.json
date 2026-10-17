@@ -1,0 +1,24 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-16T03:00:26.611406+00:00",
+  "scope": "Independent scientific and visual review of three representative figures, without new Monte Carlo or full analysis.",
+  "checks": [
+    "Viewed all three215902 PNGs; final215950 figures1/2 are byte-identical, and finalfigure3 was viewed again after benchmark-caption fix.",
+    "Axes, pair labels, measured points, conditional percentile intervals, response bands and crossing locations are readable without clipping.",
+    "Reviewed plotting code: measured R and curve bands use bootstrap percentile MC95; GLS bands retain shared-size covariance and coefficients/SDs are asserted against reviewed numerical outputs.",
+    "Source analysis hashes in final provenance verified independently.",
+    "Figure2 labels fixed WF-informedomega=.789, both size cuts as alternatives and6:12 unresolved. Figure3 preserves unresolved open symbols, rejected-response crosses, parity differences and identifies benchmarkcomparison."
+  ],
+  "qualifications": [
+    "Bars/bands are conditional Monte Carlo95percent intervals, not calibrated total uncertainty or systematic error.",
+    "Broad quadratic examples are illustrative local-response estimates; raw-moment interpolation and other response/window choices are retained in the sensitivity plot.",
+    "Size-cut fits and sensitivity rows reuse correlated data and are not independent experimental estimates.",
+    "Benchmark is comparison only and was not imposed on fitted dimension or crossing.",
+    "No final asymptotic scaling dimension, calibrated sigma_sys, mixing proof or benchmark exclusion is established."
+  ],
+  "required_fixes": [],
+  "not_checked": [
+    "PDF pages were independently rendered/checked by parent; this review inspected PNG exports and plotting code rather than independently rendering PDF.",
+    "Did not rerun full analysis or any simulation."
+  ]
+}

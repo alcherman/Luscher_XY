@@ -1,0 +1,118 @@
+{
+  "status": "accepted_with_qualifications",
+  "created": "2026-10-17T17:08:50.121793+00:00",
+  "scope": "Scientific review accepts the plotted measured N8 response bands as descriptive finite-box observations only. It does not accept equilibrium critical couplings, calibrated uncertainty, first-order classification or an asymptote.",
+  "headline": "Large/small uniform-magnetization responses shift to more-negative kappa as epsilon/pi decreases; equilibrium transition locations and the approach to1/2 remain unresolved.",
+  "main_bands": [
+    {
+      "epsilon_over_pi": 0.52,
+      "response_band": null,
+      "equilibrium_location_resolved": false
+    },
+    {
+      "epsilon_over_pi": 0.55,
+      "response_band": [
+        -0.8999999999999999,
+        -0.85
+      ],
+      "equilibrium_location_resolved": false
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "response_band": [
+        -0.55,
+        -0.44999999999999996
+      ],
+      "equilibrium_location_resolved": false
+    },
+    {
+      "epsilon_over_pi": 0.65,
+      "response_band": [
+        -0.39999999999999997,
+        -0.3
+      ],
+      "equilibrium_location_resolved": false
+    },
+    {
+      "epsilon_over_pi": 0.7,
+      "response_band": [
+        -0.25,
+        -0.19999999999999996
+      ],
+      "equilibrium_location_resolved": false
+    },
+    {
+      "epsilon_over_pi": 0.75,
+      "response_band": [
+        -0.2,
+        -0.09999999999999998
+      ],
+      "equilibrium_location_resolved": false
+    },
+    {
+      "epsilon_over_pi": 0.78,
+      "response_band": [
+        -0.15,
+        0.0
+      ],
+      "equilibrium_location_resolved": false
+    }
+  ],
+  "evidence": [
+    "Independently recomputed all six bands from both independent ladders and four half-series. Every selected endpoint and inequality matches the saved band ledger. q=.52 has zero qualifying stable low-response anchors; shared cold stability does not imply kappa_c<\u22122.",
+    "Visually checked the actual PNG: prior blue extrapolated conditional estimates/pale sensitivity, orange non-CI N8 bands, gray unresolvedq=.52, no imposed asymptote or central negative critical points. Plot provenance excludes fine-validation band.",
+    "Verified exact37-slot fine ladder, source/point review consistency, full audit closure for all14coarse+2fine ensembles. No duplicate runs launched.",
+    "Independently ran9PTtests including product-measure stationarity, all-slot replay and worker audit integration, plus4analysis tests including full-slot bootstrap covariance, multiple-root ledger and transport counting.",
+    "Checked by-walker response gathering with an independent non-involutive3-label lookup oracle; response-change counts refer to configuration changes, not swap events.",
+    "Confirmed updated fine response-band ledger propagates cohort start-disagreement flag. q=.75 and.78 have observed9/16 and92/81roundtrips respectively; their global warning also reflects an edge-rate threshold, not zero roundtrips. q\u2264.70 coarse ladders have zero full roundtrips.",
+    "Read final negative-kappa-response-scan-report.txt including completed overlap-check appendix. Scope, swap-versus-round-trip distinctions, source preservation, finite-size limitations and rejection of dense precision claims are scientifically consistent with inspected artifacts. Final PNG visually checked after caption shortening."
+  ],
+  "fine_transport_validation": {
+    "minimum_swap_rates": [
+      0.48133333333333334,
+      0.4608333333333333
+    ],
+    "round_trips": [
+      0,
+      0
+    ],
+    "effective_blocks": [
+      3,
+      21
+    ],
+    "descriptive_walker_response_changes": [
+      15,
+      59
+    ],
+    "bootstrapped_cycle_fractions": [
+      0.786,
+      0.98
+    ],
+    "linear_diagnostic_kappa": -0.3369753742177337,
+    "conditional_MC95": [
+      -0.33708156693418007,
+      -0.3368374760608873
+    ],
+    "accepted_critical_estimate": false,
+    "conclusion": "Finer spacing yields high swap acceptance but no full round trips and significant start offset. Do not promote its narrow conditional root or narrower response band; retain coarseq=.65[\u2212.40,\u2212.30] in headline."
+  },
+  "qualifications": [
+    "Response thresholds and four-half stability tolerance were selected descriptively after inspectingq=.65. They identify observed response changes, not rigorous equilibrium brackets, stationarity tests or confidence intervals.",
+    "Global traversal failures and start/half effects remain material even when selected anchors agree. All six negative bands remain equilibrium-unresolved.",
+    "m2 is normalized squared magnetization; small zero-mode response does not establish a massive phase or rule out modulated structures. Full Fourier and coherent-mode diagnostics remain descriptive.",
+    "At fine upper anchor kappa\u2212.3325, four halfm2means.43118,.43158,.39438,.40921 expose a5\u20139%start offset despite passing the loose descriptive stability screen. Matching root and updated fine-band ledgers both preserve large_start_disagreement.",
+    "Fine bootstrap retains78.6%/98%ofpostcut cycles and only3/21conservative blocks. Its tiny conditional MC interval cannot cover metastability, transport, finite-size or interpolation bias.",
+    "Within each ensemble, coupled slot measurements and walker visits are not independent MC replicas. Two independently seeded ensembles per physical cohort are the replication unit; different epsilon cohorts are independently seeded. Shared physical-time resampling across slots is correctly implemented.",
+    "No further production or precision campaign is approved by this result review. All previous raw histories, fields, logs, RNGs and checkpoints remain preserved."
+  ],
+  "source_sha256": {
+    "analysis.json": "fde7d0f4dbbf37973439783b0681a541aebfa406f7380ea09c0ec7dba52edda5",
+    "response-bands.json": "707fd1d3d3cd3b4109ecc3ab128767de510ebe62b3da38acd13ee832da48bc4a",
+    "plot-provenance.json": "cb3ffc36cd030677d591224f25acbfa5ea877790b9d0cdbe716c6bb721d412b6",
+    "measured-negative-kappa-continuation.png": "129e74a5d8043f5b9088afbd4e7f79decbd4197dc6b0b5d9f03b08cf54bd8a8f",
+    "analyse.py": "7167c78a36cb8ecba1086a47d36dbe8e70977ce1e032222464f7428c32ae5ac3",
+    "response_bands.py": "56e0d3099a2f729c2fa826970cb9ccde2c02543172859e016e10bb2a109c6c88",
+    "plot.py": "dd29cc8f75d971f483dff10f3cf6d52c6e1b648bb257d3f886162818dfded8a9",
+    "negative-kappa-response-scan-report.txt": "f1059bc636e217b25b6f39fda98ee5aa752732fb9485490e27e83bf9b88916d9"
+  }
+}

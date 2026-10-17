@@ -1,0 +1,100 @@
+{
+  "name": "d5-q1-local-curvature-check-20261014",
+  "purpose": "Four minimal q1 beta.230 N10/N12,4000cycles,fresh12/13. ExistingN10quarterroot interpolates .228:.240 (U.107:.499); N12uses .228:.232 (U.092:.496). Midpoint checks localcurvature and maygivecloserupperanchor; notguaranteed. Rejectedsizefit doesnotidentifyinterpolation asitscause; finite-sizecorrections/noise remainpossible. No globalfit requirement,no newD2. Physicalchunkbudgetincludesallpriorpending/live/copyand25GiBreserve; nofuturethinningsavings. Frozenkernels, fullclosureaudit andallhistories/checkpoints/logspreserved.",
+  "points": [
+    {
+      "id": "d5_e100_b0230_N010_r12_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 10,
+      "replica": 12,
+      "seed": 2021872472497775481,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d5_e100_b0230_N010_r13_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 10,
+      "replica": 13,
+      "seed": 1052323661088422857,
+      "initial_winding": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d5_e100_b0230_N012_r12_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 12,
+      "replica": 12,
+      "seed": 12611455710940314871,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d5_e100_b0230_N012_r13_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 12,
+      "replica": 13,
+      "seed": 15961754338870549206,
+      "initial_winding": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "source_hashes": {
+    "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+    "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+    "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+    "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+    "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+    "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+    "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+    "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+    ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+    "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+  },
+  "estimated_bytes": 45931312740,
+  "created": "2026-10-14T15:59:34.892797-05:00"
+}

@@ -1,0 +1,495 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\asinh}{\operatorname{arsinh}}
+\begin{document}
+\begin{center}
+{\Large\bfseries Thermal harmonic oscillator: the computation}\\[4pt]
+{\large Fourier modes, with a circle discretization as a check}
+\end{center}
+Take $m,\omega,\beta>0$, with $\beta=1/(k_BT)$ and $L=\beta\hbar$.
+Our starting expression is
+\begin{equation}
+ Z=\int_{x(L)=x(0)}\mathcal D x\,e^{-S_E[x]/\hbar},\qquad
+ S_E[x]=\frac m2\int_0^L\dd\tau\,[\dot x^{\,2}+\omega^2x^2].
+ \label{eq:action}
+\end{equation}
+\section*{1. Expand the path and compute the action}
+First retain only $M$ positive frequencies:
+\begin{equation}
+ x_M(\tau)=\bar x+\sum_{n=1}^{M}
+ [a_n\cos(\nu_n\tau)+b_n\sin(\nu_n\tau)],\qquad
+ \nu_n=\frac{2\pi n}{L}.
+\end{equation}
+All coefficients are real. The average $\bar x=L^{-1}\int_0^Lx_M\dd\tau$
+is an integration variable; it is not fixed to zero or to the endpoint.
+For positive integers $n,r$, orthogonality reads
+\begin{align*}
+ \int_0^L\cos(\nu_n\tau)\cos(\nu_r\tau)\dd\tau
+ &=\int_0^L\sin(\nu_n\tau)\sin(\nu_r\tau)\dd\tau
+ =\frac L2\delta_{nr},\\
+ \int_0^L\cos(\nu_n\tau)\sin(\nu_r\tau)\dd\tau&=0,
+ \qquad \int_0^L\cos(\nu_n\tau)\dd\tau
+ =\int_0^L\sin(\nu_n\tau)\dd\tau=0.
+\end{align*}
+Thus all cross terms vanish when we square and integrate:
+\begin{align}
+ \int_0^Lx_M^2\dd\tau&=L\bar x^2+
+                 \frac L2\sum_{n=1}^M(a_n^2+b_n^2),\\
+ \dot x_M&=\sum_{n=1}^M\nu_n[-a_n\sin(\nu_n\tau)+b_n\cos(\nu_n\tau)],\\
+ \int_0^L\dot x_M^{\,2}\dd\tau&=
+                  \frac L2\sum_{n=1}^M\nu_n^2(a_n^2+b_n^2).
+\end{align}
+Insert these expressions in the action:
+\begin{equation}
+ \boxed{\frac{S_E[x_M]}{\hbar}=
+ \frac{mL\omega^2}{2\hbar}\bar x^2+
+ \sum_{n=1}^M\frac{mL}{4\hbar}(\nu_n^2+\omega^2)(a_n^2+b_n^2).}
+ \label{eq:fourier-action}
+\end{equation}
+The constant mode has no kinetic term. Each $n>0$ has \emph{two} real
+coordinates, a cosine coefficient and a sine coefficient. We will integrate
+all $2M+1$ coordinates, then let $M\to\infty$.
+
+\newpage
+\section*{2. Fix the measure from phase space, without a propagator}
+The normalization convention is the quantum trace with
+$H=p^2/(2m)+m\omega^2x^2/2$, with no added constant in $H$.
+Here is a direct way to fix its measure. Set $\epsilon=L/N$ and use
+\[
+ \langle x|p\rangle=\frac{e^{ipx/\hbar}}{\sqrt{2\pi\hbar}},\qquad
+ \int\dd x\,|x\rangle\langle x|=1,\qquad
+ \int\dd p\,|p\rangle\langle p|=1.
+\]
+Insert these resolutions into the Trotter product for the trace, placing
+one position and one momentum integral on each step. With $x_N=x_0$,
+\begin{equation}
+ Z=\lim_{N\to\infty}\int\prod_{j=0}^{N-1}
+ \frac{\dd x_j\,\dd p_j}{2\pi\hbar}
+ \exp\!\left[\sum_j\left\{
+ \frac{i p_j(x_{j+1}-x_j)}{\hbar}
+ -\frac{\epsilon}{\hbar}\left(\frac{p_j^2}{2m}
+                   +\frac{m\omega^2x_j^2}{2}\right)\right\}\right].
+ \label{eq:phase-space}
+\end{equation}
+This uses only the position--momentum overlap, not a known propagator.
+The factors $1/(2\pi\hbar)$ come from the two overlaps on each step.
+
+\textbf{Evaluate a momentum integral explicitly.}
+For $a>0$, define $F(b)=\int_{\mathbb R}e^{-ap^2+ibp}\dd p$.
+Integration by parts gives
+\[
+ 0=\int\frac{\dd}{\dd p}e^{-ap^2+ibp}\dd p
+ =-2a\int p e^{-ap^2+ibp}\dd p+ibF(b),
+ \qquad F'(b)=-\frac{b}{2a}F(b).
+\]
+Since $F(0)=\sqrt{\pi/a}$, solving this differential equation yields
+$F(b)=\sqrt{\pi/a}\,e^{-b^2/(4a)}$. Take
+$a=\epsilon/(2m\hbar)$ and $b=(x_{j+1}-x_j)/\hbar$:
+\begin{equation}
+ \int\frac{\dd p_j}{2\pi\hbar}
+ e^{-\epsilon p_j^2/(2m\hbar)+ip_j(x_{j+1}-x_j)/\hbar}
+ =\sqrt{\frac{m}{2\pi\hbar\epsilon}}
+ e^{-m(x_{j+1}-x_j)^2/(2\hbar\epsilon)}.
+\end{equation}
+Thus the absolutely normalized position measure is the limit of
+\begin{equation}
+ \boxed{\prod_{j=0}^{N-1}\sqrt{\frac{m}{2\pi\hbar\epsilon}}\,\dd x_j.}
+ \label{eq:canonical-measure}
+\end{equation}
+This calculation supplies the measure needed here and in Section 8.
+There is no need to introduce a propagator or a diagonal kernel.
+
+\textbf{What zeta regularization will do.}
+It assigns a value to the infinite Gaussian determinant in this canonical
+normalization convention. It cannot determine an arbitrary extra factor
+inserted by hand into the measure. Such a factor would change the trace;
+a factor $e^{-\beta E_*}$ would in particular change $H$ to $H+E_*$.
+
+\newpage
+\section*{3. Fourier Gaussians as a spectral determinant}
+Use an orthonormal real basis on the circle:
+\[
+ e_0=\frac{1}{\sqrt L},\qquad
+ e_{n,c}=\sqrt{\frac2L}\cos(\nu_n\tau),\qquad
+ e_{n,s}=\sqrt{\frac2L}\sin(\nu_n\tau).
+\]
+Writing $x=Q_0e_0+\sum_{n\geq1}(Q_{n,c}e_{n,c}+Q_{n,s}e_{n,s})$ gives
+\[
+ Q_0=\sqrt L\,\bar x,\qquad Q_{n,c}=\sqrt{L/2}\,a_n,
+ \qquad Q_{n,s}=\sqrt{L/2}\,b_n.
+\]
+The action and its eigenvalues are now
+\begin{equation}
+ \frac{S_E}{\hbar}=\frac{m}{2\hbar}
+ \left[\omega^2Q_0^2+\sum_{n\geq1}(\nu_n^2+\omega^2)
+ (Q_{n,c}^2+Q_{n,s}^2)\right],\quad
+ \lambda_0=\omega^2,\quad\lambda_{n,c}=\lambda_{n,s}=\nu_n^2+\omega^2.
+\end{equation}
+Introduce a reference frequency $\mu>0$ so that the spectral eigenvalues
+$\lambda_\alpha/\mu^2$ are dimensionless. For one real coordinate,
+\begin{equation}
+ \int_{\mathbb R}\mu\sqrt{\frac{m}{2\pi\hbar}}\dd Q_\alpha\,
+ e^{-m\lambda_\alpha Q_\alpha^2/(2\hbar)}
+ =\frac{\mu}{\sqrt{\lambda_\alpha}}.
+ \label{eq:one-gaussian}
+\end{equation}
+This is the usual Gaussian convention $\dd y/\sqrt{2\pi}$, with
+$y=\mu\sqrt{m/\hbar}\,Q_\alpha$. Its infinite product requires a prescription;
+it is not a literal change of variables in a flat infinite-dimensional volume.
+In the canonical convention of Section 2 we use the zeta determinant below;
+Sections 8--9 independently verify its normalization using finite integrals.
+
+For finitely many eigenvalues,
+\[
+ \zeta_A(s)=\sum_\alpha(\lambda_\alpha/\mu^2)^{-s}
+ \quad\Longrightarrow\quad
+ \zeta_A'(0)=-\sum_\alpha\log(\lambda_\alpha/\mu^2).
+\]
+The zeta prescription keeps this relation after analytic continuation:
+\begin{equation}
+ \boxed{\det{}_{\zeta}(A/\mu^2)=e^{-\zeta_A'(0)},\qquad
+ Z_\zeta=[\det{}_{\zeta}(A/\mu^2)]^{-1/2}=e^{\zeta_A'(0)/2},}
+ \qquad A=-\partial_\tau^2+\omega^2.
+\end{equation}
+For our circle,
+\begin{equation}
+ \zeta_A(s)=\left(\frac\omega\mu\right)^{-2s}
+ +2\sum_{n=1}^{\infty}
+ \left(\frac{\nu_n^2+\omega^2}{\mu^2}\right)^{-s}.
+ \label{eq:spectral-zeta}
+\end{equation}
+The series initially converges for $\operatorname{Re}s>1/2$.
+The coefficient $2$ counts the sine and cosine separately. We next continue
+the expression to $s=0$ and evaluate its derivative.
+
+\newpage
+\section*{4. Derive the two Riemann-zeta values we need}
+For $\operatorname{Re}t>1$, define
+$\zeta_R(t)=\sum_{n=1}^{\infty}n^{-t}$. We need its continuation to $t=0$.
+Euler--Maclaurin summation (integral plus endpoint correction) gives
+\begin{equation}
+ \zeta_R(t)=\lim_{K\to\infty}\left[
+ \sum_{n=1}^{K}n^{-t}-\frac{K^{1-t}}{1-t}-\frac12K^{-t}\right].
+ \label{eq:EM}
+\end{equation}
+This limit is valid for $\operatorname{Re}t>-1$, except for the pole at $t=1$.
+For $\operatorname{Re}t>1$ it agrees with the original series. To see the
+continuation, the tail's integral is $K^{1-t}/(t-1)$ and its endpoint
+correction is $-K^{-t}/2$; the next remainder is $O(K^{-\operatorname{Re}t-1})$,
+locally uniformly in $t$. The same formula therefore defines an analytic
+function near zero, where the limit can also be differentiated.
+
+\textbf{Step 4a: the value at zero.} Substituting $t=0$ in the bracket gives
+\begin{equation}
+ \boxed{\zeta_R(0)=\lim_{K\to\infty}[K-K-\tfrac12]=-\tfrac12.}
+\end{equation}
+This is an analytically continued value, not the sum of the positive numbers
+$1+1+1+\cdots$ in the ordinary sense.
+
+\textbf{Step 4b: the derivative at zero.} Differentiate each term in
+\eqref{eq:EM}:
+\begin{align*}
+ \left.\frac{\dd}{\dd t}\sum_{n=1}^{K}n^{-t}\right|_{t=0}
+ &=-\sum_{n=1}^{K}\log n=-\log(K!),\\
+ \left.\frac{\dd}{\dd t}\left[-\frac{K^{1-t}}{1-t}\right]\right|_{t=0}
+ &=K\log K-K,\\
+ \left.\frac{\dd}{\dd t}\left[-\tfrac12K^{-t}\right]\right|_{t=0}
+ &=\tfrac12\log K.
+\end{align*}
+Hence
+\[
+ \zeta_R'(0)=\lim_{K\to\infty}
+ [-\log(K!)+K\log K-K+\tfrac12\log K].
+\]
+Use Stirling's formula with its constant displayed:
+\[
+ \log(K!)=(K+\tfrac12)\log K-K+\tfrac12\log(2\pi)+O(K^{-1}).
+\]
+All the $K$-dependent terms cancel, leaving
+\begin{equation}
+ \boxed{\zeta_R'(0)=-\frac12\log(2\pi).}
+\end{equation}
+These are the only special zeta values needed in the computation.
+
+\newpage
+\section*{5. Evaluate the regularized Fourier determinant}
+First isolate one copy of the positive-frequency free spectrum:
+\[
+ F(s)=\sum_{n=1}^{\infty}(\nu_n^2/\mu^2)^{-s}
+ =\left(\frac{L\mu}{2\pi}\right)^{2s}\zeta_R(2s).
+\]
+Using the values just derived,
+\begin{align}
+ F(0)&=-\tfrac12,\\
+ F'(0)&=2\log\left(\frac{L\mu}{2\pi}\right)\zeta_R(0)
+                  +2\zeta_R'(0)=-\log(L\mu).
+\end{align}
+Thus $\prod_{n\geq1}^{\zeta}(\nu_n^2/\mu^2)=e^{-F'(0)}=L\mu$.
+Counting \emph{both} real coordinates gives the nonzero-mode determinant
+$e^{-2F'(0)}=(L\mu)^2$. These two products must not be confused.
+
+To include the potential, write
+\begin{align}
+ \zeta_A(s)&=(\omega/\mu)^{-2s}+2F(s)+2D(s),\\
+ D(s)&=\sum_{n=1}^{\infty}
+ \left[\left(\frac{\nu_n^2+\omega^2}{\mu^2}\right)^{-s}
+       -\left(\frac{\nu_n^2}{\mu^2}\right)^{-s}\right].
+\end{align}
+For $s$ near zero each difference is $O(n^{-2\operatorname{Re}s-2})$.
+The series is analytic there and can be differentiated term by term:
+\[
+ D(0)=0,\qquad
+ D'(0)=-\sum_{n=1}^{\infty}\log\left(1+\frac{\omega^2}{\nu_n^2}\right).
+\]
+We can now evaluate the full spectral zeta function at zero:
+\begin{align}
+ \zeta_A(0)&=1+2(-\tfrac12)=0,\\
+ \zeta_A'(0)&=-2\log(\omega/\mu)-2\log(L\mu)
+       -2\sum_{n=1}^{\infty}\log\left(1+\frac{\omega^2}{\nu_n^2}\right)\\
+ &=-2\log(L\omega)
+       -2\sum_{n=1}^{\infty}\log\left(1+\frac{\omega^2}{\nu_n^2}\right).
+\end{align}
+The arbitrary reference frequency $\mu$ cancels. Exponentiating half the
+last expression gives
+\begin{equation}
+ \boxed{Z_\zeta=\frac{1}{L\omega}
+ \prod_{n=1}^{\infty}\left(1+\frac{\omega^2}{\nu_n^2}\right)^{-1}.}
+ \label{eq:zeta-result}
+\end{equation}
+In particular, the prefactor $1/(L\omega)$ was not guessed from the oscillator
+spectrum. The zero mode contributes $\mu/\omega$ and the regularized free
+nonzero-mode Gaussian product contributes $1/(L\mu)$.
+
+\newpage
+\section*{6. Recover the normalized measure and finite Gaussians}
+Here is the explicit link to a calculation with a finite Fourier cutoff.
+The raw Gaussian measure in the orthonormal coordinates is
+\[
+ \dd\rho_M=\mu\sqrt{\frac{m}{2\pi\hbar}}\dd Q_0
+ \prod_{n=1}^M\left[\frac{\mu^2m}{2\pi\hbar}\dd Q_{n,c}\,\dd Q_{n,s}\right].
+\]
+For each free nonconstant pair its integral is $\mu^2/\nu_n^2$.
+To replace this vanishing cutoff product by its nonzero zeta value $1/(L\mu)$,
+normalize each pair to one, then put that value back once:
+\begin{equation}
+ \mathcal D_Mx=\frac{1}{L\mu}\,\dd\rho_M
+                 \prod_{n=1}^M\frac{\nu_n^2}{\mu^2}.
+ \label{eq:cutoff-measure}
+\end{equation}
+Indeed, inserting a pair's kinetic weight gives
+\[
+ \frac{\mu^2m}{2\pi\hbar}\frac{\nu_n^2}{\mu^2}
+ \int\dd Q_{n,c}\,\dd Q_{n,s}\,
+ e^{-m\nu_n^2(Q_{n,c}^2+Q_{n,s}^2)/(2\hbar)}=1.
+\]
+Now use the coefficient Jacobians
+$\dd Q_0=\sqrt L\,\dd\bar x$ and
+$\dd Q_{n,c}\dd Q_{n,s}=(L/2)\dd a_n\dd b_n$:
+\begin{equation}
+ \boxed{\mathcal D_Mx=\sqrt{\frac{m}{2\pi\hbar L}}\dd\bar x
+ \prod_{n=1}^M\left[\frac{mL\nu_n^2}{4\pi\hbar}\dd a_n\,\dd b_n\right].}
+ \label{eq:measure}
+\end{equation}
+This derives the normalization factors without any diagonal kernel.
+Use $\int\dd q\,e^{-Aq^2}=\sqrt{\pi/A}$ for $A>0$ to do the remaining integrals:
+\begin{align}
+ I_0&=\sqrt{\frac{m}{2\pi\hbar L}}
+ \int\dd\bar x\,e^{-mL\omega^2\bar x^2/(2\hbar)}
+ =\sqrt{\frac{m}{2\pi\hbar L}}\sqrt{\frac{2\pi\hbar}{mL\omega^2}}
+ =\frac1{L\omega},\\
+ I_n&=\frac{mL\nu_n^2}{4\pi\hbar}
+ \int\dd a_n\dd b_n\,e^{-mL(\nu_n^2+\omega^2)(a_n^2+b_n^2)/(4\hbar)}\\
+ &=\frac{mL\nu_n^2}{4\pi\hbar}
+ \left[\sqrt{\frac{4\pi\hbar}{mL(\nu_n^2+\omega^2)}}\right]^2
+ =\frac{\nu_n^2}{\nu_n^2+\omega^2}.
+\end{align}
+Therefore $Z_M=I_0\prod_{n=1}^MI_n$.
+Put $z=L\omega/2$. Since
+$0\leq\log(1+z^2/(\pi^2n^2))\leq z^2/(\pi^2n^2)$,
+the remaining logarithmic series converges ordinarily, giving
+\begin{equation}
+ Z=\lim_{M\to\infty}Z_M
+ =\frac{1}{2z}\left[\prod_{n=1}^{\infty}
+             \left(1+\frac{z^2}{\pi^2n^2}\right)\right]^{-1}.
+ \label{eq:product-Z}
+\end{equation}
+No extra product over negative frequencies is needed: each positive $n$
+already includes two real coordinates. The mass and $\mu$ have both canceled.
+
+\newpage
+\section*{7. Evaluate the product, without quoting a product identity}
+We need $P(z)=\prod_{n\geq1}(1+z^2/(\pi^2n^2))$.
+The following derivation uses just one more Fourier series.
+For fixed $z>0$, expand the even function $f(t)=\cosh(zt)$ on $[-1,1]$:
+\[
+ \cosh(zt)=\frac{d_0}{2}+\sum_{n=1}^{\infty}d_n\cos(n\pi t).
+\]
+The coefficient convention is $d_n=\int_{-1}^{1}f(t)\cos(n\pi t)\dd t$.
+First $d_0=2\sinh z/z$. For $n\geq1$, the antiderivative
+\[
+ \int\cosh(zt)\cos(n\pi t)\dd t
+ =\frac{z\sinh(zt)\cos(n\pi t)+n\pi\cosh(zt)\sin(n\pi t)}
+        {z^2+\pi^2n^2}
+\]
+gives, by evaluating at $t=\pm1$,
+\[
+ d_n=\frac{2z\sinh z\,(-1)^n}{z^2+\pi^2n^2}.
+\]
+The periodic extension is continuous at the endpoints, and these coefficients
+are $O(n^{-2})$. Thus the Fourier series converges to $\cosh z$ at $t=1$.
+Using $\cos(n\pi)=(-1)^n$ there gives
+\begin{align}
+ \cosh z&=\frac{\sinh z}{z}
+       +2z\sinh z\sum_{n=1}^{\infty}\frac{1}{z^2+\pi^2n^2},\\
+ \coth z-\frac1z&=\sum_{n=1}^{\infty}\frac{2z}{z^2+\pi^2n^2}.
+ \label{eq:coth}
+\end{align}
+Integrate from $0$ to $z$. The apparent singularity on the left is removable;
+$\sinh s/s\to1$ as $s\to0$. On the right,
+$0\leq 2s/(s^2+\pi^2n^2)\leq 2z/(\pi^2n^2)$ for $0\leq s\leq z$.
+This summable bound gives uniform convergence and justifies integrating term
+by term. Therefore
+\begin{align}
+ \log\frac{\sinh z}{z}
+ &=\sum_{n=1}^{\infty}\int_0^z\frac{2s\,\dd s}{s^2+\pi^2n^2}\\
+ &=\sum_{n=1}^{\infty}\log\left(1+\frac{z^2}{\pi^2n^2}\right)
+ =\log P(z).
+\end{align}
+Exponentiating and substituting into \eqref{eq:product-Z}, we obtain
+\begin{equation}
+ P(z)=\frac{\sinh z}{z},\qquad
+ \boxed{Z=\frac{1}{2z}\frac{z}{\sinh z}
+       =\frac{1}{2\sinh(\beta\hbar\omega/2)}}.
+\end{equation}
+Finally, with $b=\beta\hbar\omega$, rearrange the result:
+\[
+ Z=\frac{e^{-b/2}}{1-e^{-b}}
+ =\sum_{r=0}^{\infty}e^{-b(r+1/2)}.
+\]
+This recovers the partition function for energies $E_r=\hbar\omega(r+1/2)$;
+the spectrum was not used to fix the path-integral normalization.
+
+\newpage
+\section*{8. Discretize the circle: an ordinary Gaussian integral}
+Divide the circle into $N\geq3$ steps, $\epsilon=L/N$, and set $x_N=x_0$.
+In this section $x_j$ denotes the position at site $j$; $x_0$ is a site value,
+not the Fourier average $\bar x$. The Trotter product gives
+\begin{equation}
+ Z=\lim_{N\to\infty}Z_N,\qquad
+ Z_N=\left(\frac{m}{2\pi\hbar\epsilon}\right)^{N/2}
+ \int_{\mathbb R^N}\prod_{j=0}^{N-1}\dd x_j\,
+ \exp\!\left[-\frac{m}{2\hbar\epsilon}
+ \sum_{j=0}^{N-1}\bigl((x_{j+1}-x_j)^2+
+ (\epsilon\omega)^2x_j^2\bigr)\right].
+ \label{eq:lattice}
+\end{equation}
+Specifically, $Z_N$ equals the trace of
+$(e^{-\epsilon p^2/(2m\hbar)}e^{-\epsilon m\omega^2x^2/(2\hbar)})^N$.
+This trace approaches $Z$ as $N\to\infty$; at finite $N$ it is an approximation.
+
+Put $u=\epsilon\omega$ and let $A$ be the real symmetric matrix defined by
+\[
+ x^{\mathsf T}Ax=\sum_j\bigl[(x_{j+1}-x_j)^2+u^2x_j^2\bigr],
+ \qquad (Ax)_j=(2+u^2)x_j-x_{j+1}-x_{j-1},
+\]
+with indices taken modulo $N$. Its eigenvectors are discrete plane waves:
+\[
+ v_j^{(k)}=N^{-1/2}e^{2\pi i kj/N},\qquad
+ \lambda_k=2+u^2-2\cos\frac{2\pi k}{N}
+ =u^2+4\sin^2\frac{\pi k}{N},\quad 0\leq k<N.
+\]
+Complex waves are only a convenient way to find the eigenvalues.
+The integral still has exactly $N$ real coordinates; a real orthogonal
+change of variables has Jacobian of absolute value one.
+
+Apply the $N$-dimensional Gaussian formula:
+\begin{align}
+ \int\dd^Nx\,\exp\!\left[-\frac{m}{2\hbar\epsilon}
+ x^{\mathsf T}Ax\right]
+ &=\left(\frac{2\pi\hbar\epsilon}{m}\right)^{N/2}
+ (\det A)^{-1/2},\\
+ \boxed{Z_N=(\det A)^{-1/2}}
+ &=\prod_{k=0}^{N-1}
+ \left[u^2+4\sin^2\frac{\pi k}{N}\right]^{-1/2}.
+ \label{eq:det}
+\end{align}
+All prefactors have now canceled explicitly. For $\omega>0$, every
+$\lambda_k$ is positive, so the integral is finite and the square root is positive.
+
+\textbf{Connection to Fourier modes.} The eigenvalues of the discretized
+fluctuation operator are
+\[
+ \epsilon^{-2}\lambda_k=\omega^2+
+ \left[\frac{2}{\epsilon}\sin\frac{\pi k}{N}\right]^2.
+\]
+For fixed positive $k$, the second term tends to $(2\pi k/L)^2$.
+The modes near $N$ supply the negative frequencies. We evaluate the full
+finite product next, rather than exchanging a limit with a growing product.
+
+\newpage
+\section*{9. Evaluate the finite product, then take the limit}
+Introduce $\eta>0$ by
+\[
+ u=2\sinh(\eta/2),\qquad
+ \eta=2\asinh(u/2).
+\]
+Writing $\theta_k=2\pi k/N$, each eigenvalue becomes
+\[
+ \lambda_k=2\cosh\eta-2\cos\theta_k
+ =e^\eta(1-e^{-\eta}e^{i\theta_k})
+             (1-e^{-\eta}e^{-i\theta_k}).
+\]
+The roots-of-unity identity
+\[
+ \prod_{k=0}^{N-1}(1-r e^{2\pi i k/N})=1-r^N
+\]
+follows from $z^N-1=\prod_k(z-e^{2\pi i k/N})$.
+Use it twice, with $r=e^{-\eta}$:
+\begin{align}
+ \det A&=e^{N\eta}(1-e^{-N\eta})^2
+       =4\sinh^2(N\eta/2),\\
+ Z_N&=\boxed{\frac{1}{2\sinh\!\left[N\asinh\!\left(
+                  \frac{L\omega}{2N}\right)\right]}}.
+ \label{eq:finiteN}
+\end{align}
+This expression is exact for the discretized integral \eqref{eq:lattice}.
+Since $\asinh y=y+O(y^3)$ as $y\to0$,
+\[
+ N\asinh\left(\frac{L\omega}{2N}\right)
+ =\frac{L\omega}{2}-\frac{(L\omega)^3}{48N^2}+O(N^{-4})
+ \quad\text{at fixed }L\omega.
+\]
+Thus
+\begin{equation}
+ \boxed{\lim_{N\to\infty}Z_N=
+ \frac{1}{2\sinh(\beta\hbar\omega/2)}}.
+\end{equation}
+The discretized calculation agrees with the Fourier calculation.
+
+\subsection*{Checks to ask the students}
+\textbf{High temperature:} for $b=\beta\hbar\omega\ll1$,
+$Z\sim1/b$. This matches the classical phase-space integral with one state
+per phase-space area $2\pi\hbar$:
+\[
+ Z_{\rm cl}=\frac{1}{2\pi\hbar}\int\dd p\,\dd x\,
+ e^{-\beta[p^2/(2m)+m\omega^2x^2/2]}
+ =\frac{1}{\beta\hbar\omega}.
+\]
+\textbf{Low temperature:} for $b\gg1$, $Z\sim e^{-b/2}$, revealing the
+ground-state energy $\hbar\omega/2$. More generally,
+$-\partial_\beta\log Z=(\hbar\omega/2)\coth(b/2)$.
+
+\textbf{Removing the trap:} as $\omega\to0^+$, $Z$ diverges.
+The constant mode is no longer confined; a free particle on $\mathbb R$
+has an infinite spatial trace. This is an expected physical divergence.
+
+\end{document}

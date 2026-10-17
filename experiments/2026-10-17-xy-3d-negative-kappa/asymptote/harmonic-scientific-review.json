@@ -1,0 +1,28 @@
+{
+  "status": "accepted_with_qualifications",
+  "scope": "Independent review of V1 full-history harmonic derivation and descriptive finite-box interpretation; no production changes or new simulations.",
+  "files": {
+    "derive_harmonics.py": "43fb3c2d772becd9398c57d7fb02a6104a63da628fcc3274d26587b955f41590",
+    "harmonic-analysis.json": "b6c0ab53a954e4c0591600d0724e150fbb84229d05c8603dbb5f11137ebae5c3",
+    "analysis.json": "59f0573b4885317b3d6877236c02a5a503fddfbc24ea32337c9f10a18e253058"
+  },
+  "checks": [
+    "Reviewed per-configuration normalization and parity: staggered nematic is |mean[(-1)^x exp(2i phi)]|^2; fourfold is |mean exp(4i phi)|^2, distinct from magnetization_fourth.",
+    "All120 caches have4001 rows and source/implementation hashes matching the ledger. Independently reproduced every reported postcut harmonic mean from its saved full derived history.",
+    "Independent focused tests rerun: test_xy_scaled_asymptote.py plus test_xy_asymptote_independent.py,9passed9.81s, includes analytic checkerboard and independent FFT harmonic oracle.",
+    "Independently recomputed sampled mean of per-configuration maximum vector Fourier power, not maximum of mean spectrum;60samples/start."
+  ],
+  "observations": [
+    "N6 kappa=-8 q=.52: all4 starts AF-nematic=.99665-.99677, fourfold=.98668-.98716; vector maximum=.02461-.02702. Calling this simply massive/disordered is unsupported.",
+    "N6 kappa=-8 vector response recovers: q=.55 max=.25074-.27586; q=.60 max=.35147-.36937, versus q=.50 max=.23847-.44338. This is finite-box competing-response/reentrance evidence, not an equilibrium phase diagram.",
+    "N6 q=.55 unit start AF-nematic=.05323 whereas other starts=.95825-.96842, despite similar vector maxima. A vector-only classifier would miss competing sectors.",
+    "N8 kappa=-8 q=.52 unit vector maximum=.19488 versus .01281-.01335 other starts: important metastability remains."
+  ],
+  "qualifications": [
+    "One independently seeded trajectory per initial class; favorable agreement is not independent within-class replication or proof of mixing.",
+    "Full-history bootstrap retains same-row covariance but short/low-block correlated chains do not certify equilibrium or confidence coverage. Blocks discard the trailing incomplete block, while reported central means use all postcut rows; small percentile-center differences are possible.",
+    "Vector maximum has finite-volume extreme-value bias and samples only60configurations per start; no infinite-volume vector-order assertion follows.",
+    "Large AF-nematic/fourfold powers are finite-volume responses; spontaneous symmetry breaking, transition locations and a q=.5 asymptote remain unestablished.",
+    "Reviewed cached source hashes and original-audit linkage; did not independently rehash all120raw HDF5 archives in this review. Read-only extraction assumes the completed archives remain immutable."
+  ]
+}

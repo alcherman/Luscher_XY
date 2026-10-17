@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>MKL_NUM_THREADS</key>
+		<string>1</string>
+		<key>NUMBA_NUM_THREADS</key>
+		<string>1</string>
+		<key>OMP_NUM_THREADS</key>
+		<string>1</string>
+		<key>OPENBLAS_NUM_THREADS</key>
+		<string>1</string>
+		<key>PYTHONUNBUFFERED</key>
+		<string>1</string>
+		<key>VECLIB_MAXIMUM_THREADS</key>
+		<string>1</string>
+	</dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>org.luscherxy.phase-boundary-20261013</string>
+	<key>Nice</key>
+	<integer>5</integer>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/acherman/research/Luscher_XY/.venv/bin/python</string>
+		<string>-u</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/coordinator_ssd.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/logs/coordinator.stderr.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/logs/coordinator.log</string>
+	<key>ThrottleInterval</key>
+	<integer>60</integer>
+	<key>WorkingDirectory</key>
+	<string>/Users/acherman/research/Luscher_XY</string>
+</dict>
+</plist>

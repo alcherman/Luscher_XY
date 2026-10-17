@@ -1,0 +1,24 @@
+{
+  "status": "accepted_with_qualifications",
+  "scope": "Final attained212-source finite-box asymptotic-response/relaxation assessment, not accepted equilibrium phase boundary or asymptote.",
+  "hashes": {
+    "negative-kappa-asymptote-assessment-2026-10-17.txt": "d9661edea03fd57def730615373b7e92e2e727738cc64eacad19c20be06e3e8e",
+    "asymptote-assessment.json": "44c450c47b39733c0292d623b9d0833a00697d4bc661e22d94c556b7482a9c77",
+    "strong-negative-scaled-response.png": "989df4194f166596e766a139a60e76b5a186ccd714fe7f464ce1caf6e8a28934",
+    "negative-kappa-asymptote-response-map.png": "b4dea376edf1238664c2b7f4ea58c2d9af65a1ed91330ffd4f2dcc03cf7c2d59"
+  },
+  "independent_checks": [
+    "Read final report and assessment implementation; independently recomputed212uniqueIDtotal,209lowblock/122insufficientblockcounts,2652.194193worker-seconds/11836446784storedbytes, all25N8three-startvectorranges and26energy-hitrows.",
+    "Reviewed unchangedproducer/audit/sourceguards before48runlaunch; reviewed actualstrongresponse outputs and fixed-q controls afterclosure.",
+    "Visually inspected strong-negative-scaled-response.png: start groupingexplicit, windingcontrolspanelseparate, range shadingnotconfidence, noglobalcollapse/asymptote claimed.",
+    "Energy boundchecked analytically and all212logboundsagreewith-N^3; priorreview independently readsampleHDF5framecounts. No duplicateMC/analysislaunch or broadrawrehash."
+  ],
+  "headline_judgment": "Evidence supports finite-box vector-response dip/recovery with large staggered-nematic response and qualitative fixed-u response alignment. Fixed-ucoordinatesapproachinghalf are imposed; no equilibriumasymptote/uniqueness/precisionclaim justified.",
+  "qualifications": [
+    "At kappa=-32 three non-unitstarts haveclearvector dipu.15/.4 and recoveryu1/1.6. At-64 u.15/u1.6 rangeswiden andu1AFnematicrange.398-.999 show worseningrelaxation, not established quantitativecollapse.",
+    "Fixedq=.60cold/checkerC~-.299(-32)/-.304(-64) andvectorpower.36-.38, butunitC~-.0615/-.0241 andZ4outliersremain. Complementarylow-energytrajectoriesarenotcertifiedequilibrated.",
+    "Mostchainsfewblocks, one seedperinitializerclass, no thermodynamicFSS or acceptedcriticalroots. Three-startgroupingisdescriptive andmustnot be calledanequilibriumensemble.",
+    "26energy-eventhitrows occupyextremelyunlikelyinstantaneousGibbssectors; this is meaningfulnonequilibriumevidence without frameindependence. Absenceofhits gives no mixingcertificate.",
+    "Localvortexactionmotivation4abs(kappa)delta doesnotprovephaseordering or auniquebranchasymptote. Near-unitAFnematicresponseprecludesfullydisorderedlabel."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "accepted_with_qualifications",
+  "scope": "68-source selected N8/fixed-q validation and164-source exact energy-event diagnostic; no accepted thermodynamic curve.",
+  "hashes": {
+    "size-validation-analysis.json": "b8e31462389885ab12935853345dda4139ba0fc966f42b270a8183c1be6c5a2d",
+    "scaled-N6-analysis.json": "e30d0bd3b1b87fa545503d3f574e91a2fee4a1f0cd4011108c6d1f7e7026eed8",
+    "energy_sector_check.py": "e3a5b26eacd83b97ed8829e756e75223f983cb08b2b6fc37b1901bef713a706c",
+    "energy-sector-check.json": "5df907e8cd4e5362fa41aa45b3f8ee71887a54e43893e02c85e12546784a56fb"
+  },
+  "checks": [
+    "Matched all68 rows to passed full audits/SHA records. Independently recomputed all saved per-config vector-max means and compared N6,N8 harmonic/vortex/start responses.",
+    "Checked all164 parameter-only energy thresholds and resulting log probability bound=-V. Read two actual N8unit HDF5histories to reproduce event counts2542/6000 atq.501989 and6000/6000 atq.502984. Threshold rule uses model parameters only, no trajectory tuning."
+  ],
+  "counts": {
+    "new_trajectories": 68,
+    "low_block_count": 67,
+    "insufficient_blocks": 40,
+    "energy_rows": 164,
+    "energy_event_hit_rows": 12
+  },
+  "observations": [
+    "N8 stable cold/checker/Z4 vector dip aroundu=.4 is~.012-.013 vsN6~.024-.026, with near-unit AF-nematic response; kappa=-8 uniform start is an exception (.776harmonic vs~.998).",
+    "All4N8starts at kappa=-4 recover vector response~.261-.268 at u1 and.364-.369 at1.6. This supports finite-box suppression/recovery, not an infinite-volume phase boundary.",
+    "At fixed kappa=-16,q=.60 cold/checker bothsizes C~-.288 but N6Z4~-.211 andN8unit~-.228 remain different. The original c=-.1 event has0/6000frames in each of8controls and cannot certify their residual mixing.",
+    "Generalized model-parameter-only c gives P(event)<=exp(-V);12unit-start rows hit this equilibrium-negligible sector. Persistent occupancy is strong evidence of nonstationary sampling for those rows, irrespective temporal correlations."
+  ],
+  "qualifications": [
+    "Energy bound excludes only a specified configuration event. No order theorem, equilibration certificate for complementary trajectories, relaxation time, or trajectory-mean confidence bound follows.",
+    "One seed per initial class, extremely few conservative time blocks, wavevector-dependent competing responses and finite-volume Fourier extreme-value noise remain.",
+    "No transition precision bars, universal collapse, thermodynamic reentrance or epsilon/pi=.5 asymptote established.",
+    "Reviewed audit/SHA linkage; did not independently rehash all68rawfiles. No new MC or production changes by reviewer."
+  ]
+}

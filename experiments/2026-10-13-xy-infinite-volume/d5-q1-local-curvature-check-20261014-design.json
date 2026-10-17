@@ -1,0 +1,113 @@
+{
+  "created": "2026-10-14T15:59:34.890956-05:00",
+  "trajectories": 4,
+  "physical_coordinates": 2,
+  "points": [
+    {
+      "id": "d5_e100_b0230_N010_r12_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 10,
+      "replica": 12,
+      "seed": 2021872472497775481,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d5_e100_b0230_N010_r13_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 10,
+      "replica": 13,
+      "seed": 1052323661088422857,
+      "initial_winding": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d5_e100_b0230_N012_r12_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 12,
+      "replica": 12,
+      "seed": 12611455710940314871,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d5_e100_b0230_N012_r13_s004000",
+      "D": 5,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.23,
+      "N": 12,
+      "replica": 13,
+      "seed": 15961754338870549206,
+      "initial_winding": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/d5-calibration-analysis-20261014-155318-cut1001-block1-U25-local-all/analysis.json",
+  "source_sha256": "2a96e1fc82222abb80a55f2be3a776affcd55e4077968a1119678e954fc4b8a5",
+  "storage_estimator_sha256": "7f1e233c5de0bd6a488258486e88e533df11e352d0596e2a90d3eb0bd8a47d50",
+  "full_transient_GiB": 42.77686843648553,
+  "prior_pending_GiB": 312.83074204064906,
+  "headroom_after_all_reservations_and_25GiB_GiB": 360.4233440775424,
+  "status_snapshot": {
+    "updated": "2026-10-14T15:59:30.725566-05:00",
+    "pid": 95610,
+    "worker_limit": 15,
+    "active": 15,
+    "paused": 0,
+    "total": 2672,
+    "complete": 2290,
+    "failed": [],
+    "pending": 51,
+    "disk_free_bytes": 795675928784,
+    "reserve_bytes": 26843545600,
+    "deadline": "2026-10-16T15:00:00-05:00",
+    "launch_new": true,
+    "state": "running",
+    "physical_disk_free_bytes": 840134307840,
+    "retention_reserved_bytes": 3713451842,
+    "active_reserved_bytes": 40744927214
+  },
+  "purpose": "Four minimal q1 beta.230 N10/N12,4000cycles,fresh12/13. ExistingN10quarterroot interpolates .228:.240 (U.107:.499); N12uses .228:.232 (U.092:.496). Midpoint checks localcurvature and maygivecloserupperanchor; notguaranteed. Rejectedsizefit doesnotidentifyinterpolation asitscause; finite-sizecorrections/noise remainpossible. No globalfit requirement,no newD2. Physicalchunkbudgetincludesallpriorpending/live/copyand25GiBreserve; nofuturethinningsavings. Frozenkernels, fullclosureaudit andallhistories/checkpoints/logspreserved."
+}

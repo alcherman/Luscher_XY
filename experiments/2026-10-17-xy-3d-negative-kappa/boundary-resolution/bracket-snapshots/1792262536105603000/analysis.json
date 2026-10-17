@@ -1,0 +1,3405 @@
+{
+  "complete": false,
+  "missing": [
+    "scaled3_km7200_q0505000_N012_r190_s016000",
+    "scaled3_km7200_q0505000_N012_r191_s016000",
+    "scaled3_km7200_q0505000_N012_r192_s016000",
+    "scaled3_km7200_q0505000_N012_r193_s016000",
+    "scaled3_km8000_q0505000_N012_r190_s016000",
+    "scaled3_km8000_q0505000_N012_r191_s016000",
+    "scaled3_km8000_q0505000_N012_r192_s016000",
+    "scaled3_km8000_q0505000_N012_r193_s016000",
+    "scaled3_km8800_q0505000_N012_r190_s016000",
+    "scaled3_km8800_q0505000_N012_r191_s016000",
+    "scaled3_km8800_q0505000_N012_r192_s016000",
+    "scaled3_km8800_q0505000_N012_r193_s016000",
+    "scaled3_km9600_q0505000_N012_r190_s016000",
+    "scaled3_km9600_q0505000_N012_r191_s016000",
+    "scaled3_km9600_q0505000_N012_r192_s016000",
+    "scaled3_km9600_q0505000_N012_r193_s016000"
+  ],
+  "manifest_sha256": {
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/batches/q051-q0505-two-size-boundary-brackets-v1.json": "4fa06873aadd169479f29110af9765d9514a1915cb68114301282bf6c4485f26"
+  },
+  "epsilon_over_pi": 0.505,
+  "trajectories": 16,
+  "source_script_sha256": "dcc226e51481cf3039a4dbb194bb3833ba11179df2f8a39848fc221ca2730154",
+  "chains": [
+    {
+      "point": {
+        "id": "scaled3_km7200_q0505000_N008_r190_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 1046321628558086981,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km7200_q0505000_N008_r190_s016000.h5",
+      "audit_sha256": "80fc67f3b4c65b37bb585f39357f4ba3070bba0d2495d0434eb5e126a35b267f",
+      "means": {
+        "m2": 0.21121780703896487,
+        "m4": 0.044992054731582236,
+        "Binder_U": 0.49575131638709735,
+        "R": 1.102596753126779,
+        "C": 0.029580862924718825,
+        "vortex": 0.005067165798610974,
+        "AF_nematic": 0.9955996726696782,
+        "staggered_m2": 0.18541360516092822
+      },
+      "halves": [
+        {
+          "m2": 0.20690906676451648,
+          "m4": 0.04318102257383231,
+          "Binder_U": 0.49568268039157704,
+          "R": 1.0325489532550813,
+          "C": 0.02991471398525682,
+          "vortex": 0.00541080729166674,
+          "AF_nematic": 0.9954984435626619,
+          "staggered_m2": 0.18126591532923278
+        },
+        {
+          "m2": 0.21552654731341106,
+          "m4": 0.046803086889332365,
+          "Binder_U": 0.49621763736854385,
+          "R": 1.184754217245093,
+          "C": 0.02924701186418086,
+          "vortex": 0.004723524305555609,
+          "AF_nematic": 0.9957009017766881,
+          "staggered_m2": 0.18956129499262317
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11996,
+        "intermediate_frames": 4,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km7200_q0505000_N008_r191_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 12330636352421206087,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km7200_q0505000_N008_r191_s016000.h5",
+      "audit_sha256": "c2133bd35b4c598926b8a0f1511466ad1b5e336fc02328018c6a2cc1833454ee",
+      "means": {
+        "m2": 0.21878337860699165,
+        "m4": 0.04818149300743931,
+        "Binder_U": 0.49670616769497045,
+        "R": 1.3239550075707283,
+        "C": 0.029701814033384632,
+        "vortex": 0.004974934895833205,
+        "AF_nematic": 0.9956466420597677,
+        "staggered_m2": 0.1925564705246983
+      },
+      "halves": [
+        {
+          "m2": 0.2159110907309526,
+          "m4": 0.04690396164469534,
+          "Binder_U": 0.4969286004685961,
+          "R": 1.2807408547978623,
+          "C": 0.029880358166463093,
+          "vortex": 0.004632378472222246,
+          "AF_nematic": 0.9955713335393722,
+          "staggered_m2": 0.1898219178727199
+        },
+        {
+          "m2": 0.22165566648303162,
+          "m4": 0.04945902437018337,
+          "Binder_U": 0.4966641395276469,
+          "R": 1.3704537218315649,
+          "C": 0.02952326990030639,
+          "vortex": 0.005317491319444537,
+          "AF_nematic": 0.9957219505801571,
+          "staggered_m2": 0.195291023176675
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 12000,
+        "intermediate_frames": 0,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km7200_q0505000_N008_r192_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 3238373496337179270,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km7200_q0505000_N008_r192_s016000.h5",
+      "audit_sha256": "e0fd0d13911965fad3cc6635d2294b0e511bccd326b8e27b8cce99b0dd4b9978",
+      "means": {
+        "m2": 0.21154434951662573,
+        "m4": 0.04508321665324673,
+        "Binder_U": 0.4962882979917085,
+        "R": 1.1769269095013464,
+        "C": 0.029452835805549117,
+        "vortex": 0.005700846354166591,
+        "AF_nematic": 0.9956510095501141,
+        "staggered_m2": 0.18615556741906775
+      },
+      "halves": [
+        {
+          "m2": 0.21393455463066308,
+          "m4": 0.04618560227082824,
+          "Binder_U": 0.4954377658668567,
+          "R": 1.2061886286884307,
+          "C": 0.02982678603054508,
+          "vortex": 0.00468467881944449,
+          "AF_nematic": 0.9956016220975953,
+          "staggered_m2": 0.188108503083149
+        },
+        {
+          "m2": 0.2091541444025874,
+          "m4": 0.0439808310356653,
+          "Binder_U": 0.4973097215601425,
+          "R": 1.1490467153142512,
+          "C": 0.02907888558055326,
+          "vortex": 0.0067170138888889485,
+          "AF_nematic": 0.9957003970026278,
+          "staggered_m2": 0.18420263175498772
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11953,
+        "intermediate_frames": 47,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km7200_q0505000_N008_r193_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 15019794974558359752,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km7200_q0505000_N008_r193_s016000.h5",
+      "audit_sha256": "4e728e7f53b32c1a8530e4b444716ea368982736f4c52e3191d3399e30d723fc",
+      "means": {
+        "m2": 0.21574569601002083,
+        "m4": 0.04688197393882838,
+        "Binder_U": 0.49639316900832187,
+        "R": 1.261779548269668,
+        "C": 0.030096738234333776,
+        "vortex": 0.004199761284722117,
+        "AF_nematic": 0.9955411714069667,
+        "staggered_m2": 0.18949546130604678
+      },
+      "halves": [
+        {
+          "m2": 0.21650165756403184,
+          "m4": 0.04721723909850701,
+          "Binder_U": 0.4963276128307932,
+          "R": 1.2149827467298189,
+          "C": 0.03064773588105222,
+          "vortex": 0.003580295138888925,
+          "AF_nematic": 0.9954394056951693,
+          "staggered_m2": 0.18978769518508912
+        },
+        {
+          "m2": 0.2149897344560106,
+          "m4": 0.046546708779149994,
+          "Binder_U": 0.49647210381281015,
+          "R": 1.3146845270052976,
+          "C": 0.02954574058761558,
+          "vortex": 0.004819227430555663,
+          "AF_nematic": 0.9956429371187671,
+          "staggered_m2": 0.189203227427004
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11998,
+        "intermediate_frames": 2,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8000_q0505000_N008_r190_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 902341535031697364,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8000_q0505000_N008_r190_s016000.h5",
+      "audit_sha256": "2095892493814b904214f3f5ed484e81dbe4602715879dfd3acfef3c22ba0a66",
+      "means": {
+        "m2": 0.19256957381355616,
+        "m4": 0.03765418226591335,
+        "Binder_U": 0.49229915487655684,
+        "R": 1.0804167746550963,
+        "C": 0.022609854907038443,
+        "vortex": 0.02130360243055544,
+        "AF_nematic": 0.9970455537200681,
+        "staggered_m2": 0.17396007969555494
+      },
+      "halves": [
+        {
+          "m2": 0.18992694796866097,
+          "m4": 0.03662998992887964,
+          "Binder_U": 0.49226906510174206,
+          "R": 1.0781179583170908,
+          "C": 0.022075152862345893,
+          "vortex": 0.023307942708333314,
+          "AF_nematic": 0.9971198021176012,
+          "staggered_m2": 0.17190965784153706
+        },
+        {
+          "m2": 0.19521219965845174,
+          "m4": 0.03867837460294743,
+          "Binder_U": 0.4925137155109549,
+          "R": 1.0826670994235983,
+          "C": 0.023144556951730937,
+          "vortex": 0.019299262152777778,
+          "AF_nematic": 0.996971305322524,
+          "staggered_m2": 0.176010501549572
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11480,
+        "intermediate_frames": 520,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8000_q0505000_N008_r191_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 4587074307977913736,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8000_q0505000_N008_r191_s016000.h5",
+      "audit_sha256": "c96a3317ddd06a62bb046be6b11643b8f8fcdd60e11137c8b7f54e914324573e",
+      "means": {
+        "m2": 0.1031058124597524,
+        "m4": 0.018855256301853036,
+        "Binder_U": 0.11317863593634347,
+        "R": 0.38923898039108645,
+        "C": 0.040593049104663305,
+        "vortex": 0.027412217881944506,
+        "AF_nematic": 0.9490909162021388,
+        "staggered_m2": 0.09360541809131763
+      },
+      "halves": [
+        {
+          "m2": 0.01676107996887036,
+          "m4": 0.0012917039294050808,
+          "Binder_U": -1.2989471567385613,
+          "R": null,
+          "C": 0.059350153760144075,
+          "vortex": 0.029960286458333308,
+          "AF_nematic": 0.9009645916141903,
+          "staggered_m2": 0.01555141416380239
+        },
+        {
+          "m2": 0.18945054495063493,
+          "m4": 0.03641880867430097,
+          "Binder_U": 0.4926542557395468,
+          "R": 1.1489356919382379,
+          "C": 0.021835944449182652,
+          "vortex": 0.024864149305555527,
+          "AF_nematic": 0.9972172407900987,
+          "staggered_m2": 0.17165942201883255
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 5469,
+        "high_frames": 5765,
+        "intermediate_frames": 766,
+        "frames": 12000,
+        "complete_switches": 1,
+        "switch_events": [
+          {
+            "postcut_index": 5706,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8000_q0505000_N008_r192_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 9825948867751083975,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8000_q0505000_N008_r192_s016000.h5",
+      "audit_sha256": "ff195a9d436f97d77e15dc418faf5691c05bafb722462ae922b9acaccf22332d",
+      "means": {
+        "m2": 0.19002904663426162,
+        "m4": 0.03689496509846512,
+        "Binder_U": 0.4891456108035551,
+        "R": 1.1626247208662108,
+        "C": 0.021469631606972506,
+        "vortex": 0.02797797309027774,
+        "AF_nematic": 0.9972508608956714,
+        "staggered_m2": 0.17240336027692613
+      },
+      "halves": [
+        {
+          "m2": 0.19983740116436033,
+          "m4": 0.04039438645860864,
+          "Binder_U": 0.494248156940854,
+          "R": 1.2132128462547418,
+          "C": 0.02323075655243795,
+          "vortex": 0.01776584201388881,
+          "AF_nematic": 0.9969740217725855,
+          "staggered_m2": 0.18031111587405507
+        },
+        {
+          "m2": 0.1802206921041639,
+          "m4": 0.0333955437383214,
+          "Binder_U": 0.48589809054783617,
+          "R": 1.113159835997224,
+          "C": 0.019708506661507107,
+          "vortex": 0.03819010416666662,
+          "AF_nematic": 0.9975277000187663,
+          "staggered_m2": 0.16449560467979707
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 10818,
+        "intermediate_frames": 1182,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8000_q0505000_N008_r193_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 10485294899829159264,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8000_q0505000_N008_r193_s016000.h5",
+      "audit_sha256": "b3997e731e52527e616f5f688b5618ee9340b26e02d6bbf84bc90aad370521e3",
+      "means": {
+        "m2": 0.16442608009437615,
+        "m4": 0.03068926346245667,
+        "Binder_U": 0.432435709416054,
+        "R": 1.007135606130725,
+        "C": 0.019263849898187243,
+        "vortex": 0.04857769097222253,
+        "AF_nematic": 0.9975354858491353,
+        "staggered_m2": 0.14946586964329775
+      },
+      "halves": [
+        {
+          "m2": 0.14221505515232039,
+          "m4": 0.02593731659639146,
+          "Binder_U": 0.3587846661870773,
+          "R": 0.9249075324359126,
+          "C": 0.016992938274142343,
+          "vortex": 0.07164822048611139,
+          "AF_nematic": 0.9978410817872376,
+          "staggered_m2": 0.12957859317781742
+        },
+        {
+          "m2": 0.18663710503643025,
+          "m4": 0.03544121032852173,
+          "Binder_U": 0.49127559762304074,
+          "R": 1.0862329693070665,
+          "C": 0.02153476152223223,
+          "vortex": 0.02550716145833333,
+          "AF_nematic": 0.9972298899110271,
+          "staggered_m2": 0.16935314610877963
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 1330,
+        "high_frames": 9247,
+        "intermediate_frames": 1423,
+        "frames": 12000,
+        "complete_switches": 1,
+        "switch_events": [
+          {
+            "postcut_index": 1647,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8800_q0505000_N008_r190_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 16177951382268271025,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8800_q0505000_N008_r190_s016000.h5",
+      "audit_sha256": "a3a24a3b7d9a0c86488f9ec6df2a88bad62b13ddfd4295a7d7ce0bf0eae5bbd7",
+      "means": {
+        "m2": 0.010351015867207965,
+        "m4": 0.0002821421802521845,
+        "Binder_U": -0.31665524559953795,
+        "R": 0.18234998505192798,
+        "C": 0.004419723045401597,
+        "vortex": 0.2006865234375006,
+        "AF_nematic": 0.9994311502388233,
+        "staggered_m2": 0.009905113780668346
+      },
+      "halves": [
+        {
+          "m2": 0.008495860476456339,
+          "m4": 0.0001382981598237668,
+          "Binder_U": 0.041986425863488,
+          "R": 0.14992705140073398,
+          "C": 0.0042593859970030444,
+          "vortex": 0.2025232204861111,
+          "AF_nematic": 0.9994539917561107,
+          "staggered_m2": 0.008155322494495913
+        },
+        {
+          "m2": 0.012206171257959586,
+          "m4": 0.00042598620068060223,
+          "Binder_U": -0.4295739218044412,
+          "R": 0.20985601465761433,
+          "C": 0.004580060093800199,
+          "vortex": 0.1988498263888882,
+          "AF_nematic": 0.9994083087215261,
+          "staggered_m2": 0.011654905066840736
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11668,
+        "high_frames": 0,
+        "intermediate_frames": 332,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8800_q0505000_N008_r191_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 2960990109672009119,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8800_q0505000_N008_r191_s016000.h5",
+      "audit_sha256": "18ccd91478dfa0c05774842bb287477cd02b28ebaeb67c9da8d4a37193b7cb17",
+      "means": {
+        "m2": 0.010591483568110157,
+        "m4": 0.000257713307064441,
+        "Binder_U": -0.1486646469713373,
+        "R": 0.1841113831198346,
+        "C": 0.004438058226917794,
+        "vortex": 0.200976453993055,
+        "AF_nematic": 0.9994266550934423,
+        "staggered_m2": 0.010127923027648748
+      },
+      "halves": [
+        {
+          "m2": 0.011219888998582514,
+          "m4": 0.00031380577491665353,
+          "Binder_U": -0.24638959617944933,
+          "R": 0.19736079774780138,
+          "C": 0.004402364702071222,
+          "vortex": 0.20128949652777803,
+          "AF_nematic": 0.9994302820986003,
+          "staggered_m2": 0.010713893579038026
+        },
+        {
+          "m2": 0.009963078137637743,
+          "m4": 0.00020162083921222913,
+          "Binder_U": -0.015589844992107471,
+          "R": 0.17047814676736894,
+          "C": 0.004473751751764335,
+          "vortex": 0.20066341145833372,
+          "AF_nematic": 0.9994230280882838,
+          "staggered_m2": 0.009541952476259353
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11769,
+        "high_frames": 0,
+        "intermediate_frames": 231,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8800_q0505000_N008_r192_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 5764512934262366964,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8800_q0505000_N008_r192_s016000.h5",
+      "audit_sha256": "3b59ae1bd0c89e82dbcd27c978ebec9815109ab189f0335dc82cdcf8089efbd3",
+      "means": {
+        "m2": 0.00819948259316206,
+        "m4": 0.00014537522583222976,
+        "Binder_U": -0.0811538775697338,
+        "R": 0.15316389662657218,
+        "C": 0.004069426617391365,
+        "vortex": 0.20580935329861075,
+        "AF_nematic": 0.9994648164855301,
+        "staggered_m2": 0.007875167075679732
+      },
+      "halves": [
+        {
+          "m2": 0.006858394232764999,
+          "m4": 8.920361655388929e-05,
+          "Binder_U": 0.051783353176809044,
+          "R": 0.12944337168482256,
+          "C": 0.0038144846745939657,
+          "vortex": 0.20892404513888974,
+          "AF_nematic": 0.9994892543803244,
+          "staggered_m2": 0.006609395591881737
+        },
+        {
+          "m2": 0.009540570953559164,
+          "m4": 0.00020154683511057,
+          "Binder_U": -0.10712652437917236,
+          "R": 0.17238420751316572,
+          "C": 0.004324368560188774,
+          "vortex": 0.2026946614583339,
+          "AF_nematic": 0.9994403785907333,
+          "staggered_m2": 0.009140938559477679
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11942,
+        "high_frames": 0,
+        "intermediate_frames": 58,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km8800_q0505000_N008_r193_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 6314232234667975767,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km8800_q0505000_N008_r193_s016000.h5",
+      "audit_sha256": "8fb41c45d2ac59b115459ec906b659b08eca06c6c4518c2b8a2d850e60bf4b33",
+      "means": {
+        "m2": 0.009554599523630051,
+        "m4": 0.00019287022039970629,
+        "Binder_U": -0.05635575830156547,
+        "R": 0.17327671800252037,
+        "C": 0.0042403311178835406,
+        "vortex": 0.20298828125000057,
+        "AF_nematic": 0.9994494221906773,
+        "staggered_m2": 0.009156102631843412
+      },
+      "halves": [
+        {
+          "m2": 0.010052733584393308,
+          "m4": 0.00022816390798120398,
+          "Binder_U": -0.12888214720622693,
+          "R": 0.18464774187586466,
+          "C": 0.004255648157013657,
+          "vortex": 0.20260546875000016,
+          "AF_nematic": 0.9994458970054053,
+          "staggered_m2": 0.009634336983159037
+        },
+        {
+          "m2": 0.009056465462866743,
+          "m4": 0.00015757653281820805,
+          "Binder_U": 0.03939670010202789,
+          "R": 0.16155922667486303,
+          "C": 0.004225014078753395,
+          "vortex": 0.20337109375000004,
+          "AF_nematic": 0.9994529473759352,
+          "staggered_m2": 0.008677868280527821
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11893,
+        "high_frames": 0,
+        "intermediate_frames": 107,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km9600_q0505000_N008_r190_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -9.6,
+        "kappas": [
+          -9.6
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 2956471207296725081,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km9600_q0505000_N008_r190_s016000.h5",
+      "audit_sha256": "b2da4a1015306241e2eb6e5ab237bcf8f6551639618aa4de15c372fdc5d843bb",
+      "means": {
+        "m2": 0.014006988438705873,
+        "m4": 0.00045676743283560586,
+        "Binder_U": -0.16406061485662327,
+        "R": 0.22922547141653962,
+        "C": 0.01204953817102427,
+        "vortex": 0.1985159505208332,
+        "AF_nematic": 0.9707840234286906,
+        "staggered_m2": 0.010338213407310995
+      },
+      "halves": [
+        {
+          "m2": 0.022767132994521613,
+          "m4": 0.0008605049505379954,
+          "Binder_U": 0.16994534675125872,
+          "R": 0.2830179167703084,
+          "C": 0.020951434554635627,
+          "vortex": 0.18030013020833296,
+          "AF_nematic": 0.9420126237849779,
+          "staggered_m2": 0.015598146178076637
+        },
+        {
+          "m2": 0.00524684388289022,
+          "m4": 5.30299151332182e-05,
+          "Binder_U": 0.03684839638036319,
+          "R": 0.10342421774997462,
+          "C": 0.003147641787413019,
+          "vortex": 0.21673177083333345,
+          "AF_nematic": 0.9995554230724015,
+          "staggered_m2": 0.00507828063654533
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11447,
+        "high_frames": 0,
+        "intermediate_frames": 553,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km9600_q0505000_N008_r191_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -9.6,
+        "kappas": [
+          -9.6
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 6673556927091900815,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km9600_q0505000_N008_r191_s016000.h5",
+      "audit_sha256": "487a675ab2d8e97f02b79ac7d85d28446b6ececcfd6c6edbdf5ca10a612f95ed",
+      "means": {
+        "m2": 0.09288045677358199,
+        "m4": 0.012435695224940195,
+        "Binder_U": 0.27923881764658665,
+        "R": 0.2857681465203328,
+        "C": 0.13616205746647533,
+        "vortex": 0.036624891493055776,
+        "AF_nematic": 0.0779687267717783,
+        "staggered_m2": 0.009089506363499887
+      },
+      "halves": [
+        {
+          "m2": 0.042866175126287674,
+          "m4": 0.003946972722577825,
+          "Binder_U": -0.07400094016111858,
+          "R": 0.07518742383447782,
+          "C": 0.1492797440930542,
+          "vortex": 0.03294618055555559,
+          "AF_nematic": 0.07256266820640081,
+          "staggered_m2": 0.010750462816236341
+        },
+        {
+          "m2": 0.14289473842087624,
+          "m4": 0.020924417727302594,
+          "Binder_U": 0.4876214853947638,
+          "R": 0.5839663045428867,
+          "C": 0.12304437083989658,
+          "vortex": 0.04030360243055547,
+          "AF_nematic": 0.08337478533715548,
+          "staggered_m2": 0.007428549910763531
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 3589,
+        "high_frames": 2283,
+        "intermediate_frames": 6128,
+        "frames": 12000,
+        "complete_switches": 1,
+        "switch_events": [
+          {
+            "postcut_index": 5439,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km9600_q0505000_N008_r192_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -9.6,
+        "kappas": [
+          -9.6
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 16748932689398087571,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km9600_q0505000_N008_r192_s016000.h5",
+      "audit_sha256": "15ca6b0cebcd6b24cc6b8c74b5ff1cc87e2ff0fea01b4a1dcc396458707ad635",
+      "means": {
+        "m2": 0.005454453299575264,
+        "m4": 5.935283857749698e-05,
+        "Binder_U": 0.0025088688100122214,
+        "R": 0.11036566948554334,
+        "C": 0.003182122343699765,
+        "vortex": 0.2159663628472226,
+        "AF_nematic": 0.9995576581978738,
+        "staggered_m2": 0.005275521646010276
+      },
+      "halves": [
+        {
+          "m2": 0.005837071407315825,
+          "m4": 6.721256373525877e-05,
+          "Binder_U": 0.013651353064109695,
+          "R": 0.11697449833123746,
+          "C": 0.003291915083489599,
+          "vortex": 0.21401866319444485,
+          "AF_nematic": 0.9995478120681943,
+          "staggered_m2": 0.00564340395572608
+        },
+        {
+          "m2": 0.005071835191834751,
+          "m4": 5.1493113419734735e-05,
+          "Binder_U": -0.0008958534333489698,
+          "R": 0.10287960575589576,
+          "C": 0.003072329603909964,
+          "vortex": 0.21791406250000014,
+          "AF_nematic": 0.9995675043275459,
+          "staggered_m2": 0.004907639336294454
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 12000,
+        "high_frames": 0,
+        "intermediate_frames": 0,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km9600_q0505000_N008_r193_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -9.6,
+        "kappas": [
+          -9.6
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 9125469330999038313,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km9600_q0505000_N008_r193_s016000.h5",
+      "audit_sha256": "3af6b5f0270f234b2dbb9862a9e9c3465fe94e4808a826857bc3798012d4e0e8",
+      "means": {
+        "m2": 0.005778696987006858,
+        "m4": 6.629635019509465e-05,
+        "Binder_U": 0.007341696829614719,
+        "R": 0.11490981721986399,
+        "C": 0.003197351538435535,
+        "vortex": 0.2156710069444442,
+        "AF_nematic": 0.9995537867864843,
+        "staggered_m2": 0.005586051198347193
+      },
+      "halves": [
+        {
+          "m2": 0.006077993779312902,
+          "m4": 7.517707389021657e-05,
+          "Binder_U": -0.017501175276330105,
+          "R": 0.12292008765790154,
+          "C": 0.003210170551227081,
+          "vortex": 0.21552387152777802,
+          "AF_nematic": 0.9995544298356732,
+          "staggered_m2": 0.005869924723682566
+        },
+        {
+          "m2": 0.005479400194700792,
+          "m4": 5.741562649997202e-05,
+          "Binder_U": 0.04383229579273562,
+          "R": 0.10622856917155907,
+          "C": 0.0031845325256439592,
+          "vortex": 0.21581814236111188,
+          "AF_nematic": 0.9995531437372932,
+          "staggered_m2": 0.005302177673011848
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 12000,
+        "high_frames": 0,
+        "intermediate_frames": 0,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    }
+  ],
+  "coordinates": [
+    {
+      "N": 8,
+      "kappa": -9.6,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.029530148874717378,
+          "m4": 0.003254527961637111,
+          "Binder_U": -0.8660648768001047,
+          "R": 0.2506987360767425,
+          "C": 0.03864776737990853,
+          "vortex": 0.16669455295138777,
+          "AF_nematic": 0.7619660487962042,
+          "staggered_m2": 0.0075723231537919485
+        },
+        "uniform zero-winding": {
+          "m2": 0.014006988438705873,
+          "m4": 0.00045676743283560586,
+          "Binder_U": -0.16406061485662327,
+          "R": 0.22922547141653962,
+          "C": 0.01204953817102427,
+          "vortex": 0.1985159505208332,
+          "AF_nematic": 0.9707840234286906,
+          "staggered_m2": 0.010338213407310995
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.022767132994521613,
+          "m4": 0.0008605049505379954,
+          "Binder_U": 0.16994534675125872,
+          "R": 0.2830179167703084,
+          "C": 0.020951434554635627,
+          "vortex": 0.18030013020833296,
+          "AF_nematic": 0.9420126237849779,
+          "staggered_m2": 0.015598146178076637
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.00524684388289022,
+          "m4": 5.30299151332182e-05,
+          "Binder_U": 0.03684839638036319,
+          "R": 0.10342421774997462,
+          "C": 0.003147641787413019,
+          "vortex": 0.21673177083333345,
+          "AF_nematic": 0.9995554230724015,
+          "staggered_m2": 0.00507828063654533
+        },
+        "unit-x winding": {
+          "m2": 0.09288045677358199,
+          "m4": 0.012435695224940195,
+          "Binder_U": 0.27923881764658665,
+          "R": 0.2857681465203328,
+          "C": 0.13616205746647533,
+          "vortex": 0.036624891493055776,
+          "AF_nematic": 0.0779687267717783,
+          "staggered_m2": 0.009089506363499887
+        },
+        "unit-x winding:half1": {
+          "m2": 0.042866175126287674,
+          "m4": 0.003946972722577825,
+          "Binder_U": -0.07400094016111858,
+          "R": 0.07518742383447782,
+          "C": 0.1492797440930542,
+          "vortex": 0.03294618055555559,
+          "AF_nematic": 0.07256266820640081,
+          "staggered_m2": 0.010750462816236341
+        },
+        "unit-x winding:half2": {
+          "m2": 0.14289473842087624,
+          "m4": 0.020924417727302594,
+          "Binder_U": 0.4876214853947638,
+          "R": 0.5839663045428867,
+          "C": 0.12304437083989658,
+          "vortex": 0.04030360243055547,
+          "AF_nematic": 0.08337478533715548,
+          "staggered_m2": 0.007428549910763531
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.005454453299575264,
+          "m4": 5.935283857749698e-05,
+          "Binder_U": 0.0025088688100122214,
+          "R": 0.11036566948554334,
+          "C": 0.003182122343699765,
+          "vortex": 0.2159663628472226,
+          "AF_nematic": 0.9995576581978738,
+          "staggered_m2": 0.005275521646010276
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.005837071407315825,
+          "m4": 6.721256373525877e-05,
+          "Binder_U": 0.013651353064109695,
+          "R": 0.11697449833123746,
+          "C": 0.003291915083489599,
+          "vortex": 0.21401866319444485,
+          "AF_nematic": 0.9995478120681943,
+          "staggered_m2": 0.00564340395572608
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.005071835191834751,
+          "m4": 5.1493113419734735e-05,
+          "Binder_U": -0.0008958534333489698,
+          "R": 0.10287960575589576,
+          "C": 0.003072329603909964,
+          "vortex": 0.21791406250000014,
+          "AF_nematic": 0.9995675043275459,
+          "staggered_m2": 0.004907639336294454
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.005778696987006858,
+          "m4": 6.629635019509465e-05,
+          "Binder_U": 0.007341696829614719,
+          "R": 0.11490981721986399,
+          "C": 0.003197351538435535,
+          "vortex": 0.2156710069444442,
+          "AF_nematic": 0.9995537867864843,
+          "staggered_m2": 0.005586051198347193
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.006077993779312902,
+          "m4": 7.517707389021657e-05,
+          "Binder_U": -0.017501175276330105,
+          "R": 0.12292008765790154,
+          "C": 0.003210170551227081,
+          "vortex": 0.21552387152777802,
+          "AF_nematic": 0.9995544298356732,
+          "staggered_m2": 0.005869924723682566
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.005479400194700792,
+          "m4": 5.741562649997202e-05,
+          "Binder_U": 0.04383229579273562,
+          "R": 0.10622856917155907,
+          "C": 0.0031845325256439592,
+          "vortex": 0.21581814236111188,
+          "AF_nematic": 0.9995531437372932,
+          "staggered_m2": 0.005302177673011848
+        },
+        "pooled:half1": {
+          "m2": 0.019387093326859516,
+          "m4": 0.0012374668276853213,
+          "Binder_U": -0.646183211459878,
+          "R": 0.12536887089958307,
+          "C": 0.044183316070601504,
+          "vortex": 0.1606972113715286,
+          "AF_nematic": 0.7534193834738065,
+          "staggered_m2": 0.009465484418430481
+        },
+        "pooled:half2": {
+          "m2": 0.03967320442257549,
+          "m4": 0.005271589095588888,
+          "Binder_U": -0.674622782120867,
+          "R": 0.4115354982859528,
+          "C": 0.033112218689216176,
+          "vortex": 0.17269189453125044,
+          "AF_nematic": 0.7705127141186052,
+          "staggered_m2": 0.005679161889153815
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -8.8,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.0096741453880276,
+          "m4": 0.0002195252333871404,
+          "Binder_U": -0.1728142444770251,
+          "R": 0.17395724253024697,
+          "C": 0.0042918847518985835,
+          "vortex": 0.20261515299479443,
+          "AF_nematic": 0.999443011002126,
+          "staggered_m2": 0.009266076628960073
+        },
+        "uniform zero-winding": {
+          "m2": 0.010351015867207965,
+          "m4": 0.0002821421802521845,
+          "Binder_U": -0.31665524559953795,
+          "R": 0.18234998505192798,
+          "C": 0.004419723045401597,
+          "vortex": 0.2006865234375006,
+          "AF_nematic": 0.9994311502388233,
+          "staggered_m2": 0.009905113780668346
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.008495860476456339,
+          "m4": 0.0001382981598237668,
+          "Binder_U": 0.041986425863488,
+          "R": 0.14992705140073398,
+          "C": 0.0042593859970030444,
+          "vortex": 0.2025232204861111,
+          "AF_nematic": 0.9994539917561107,
+          "staggered_m2": 0.008155322494495913
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.012206171257959586,
+          "m4": 0.00042598620068060223,
+          "Binder_U": -0.4295739218044412,
+          "R": 0.20985601465761433,
+          "C": 0.004580060093800199,
+          "vortex": 0.1988498263888882,
+          "AF_nematic": 0.9994083087215261,
+          "staggered_m2": 0.011654905066840736
+        },
+        "unit-x winding": {
+          "m2": 0.010591483568110157,
+          "m4": 0.000257713307064441,
+          "Binder_U": -0.1486646469713373,
+          "R": 0.1841113831198346,
+          "C": 0.004438058226917794,
+          "vortex": 0.200976453993055,
+          "AF_nematic": 0.9994266550934423,
+          "staggered_m2": 0.010127923027648748
+        },
+        "unit-x winding:half1": {
+          "m2": 0.011219888998582514,
+          "m4": 0.00031380577491665353,
+          "Binder_U": -0.24638959617944933,
+          "R": 0.19736079774780138,
+          "C": 0.004402364702071222,
+          "vortex": 0.20128949652777803,
+          "AF_nematic": 0.9994302820986003,
+          "staggered_m2": 0.010713893579038026
+        },
+        "unit-x winding:half2": {
+          "m2": 0.009963078137637743,
+          "m4": 0.00020162083921222913,
+          "Binder_U": -0.015589844992107471,
+          "R": 0.17047814676736894,
+          "C": 0.004473751751764335,
+          "vortex": 0.20066341145833372,
+          "AF_nematic": 0.9994230280882838,
+          "staggered_m2": 0.009541952476259353
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.00819948259316206,
+          "m4": 0.00014537522583222976,
+          "Binder_U": -0.0811538775697338,
+          "R": 0.15316389662657218,
+          "C": 0.004069426617391365,
+          "vortex": 0.20580935329861075,
+          "AF_nematic": 0.9994648164855301,
+          "staggered_m2": 0.007875167075679732
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.006858394232764999,
+          "m4": 8.920361655388929e-05,
+          "Binder_U": 0.051783353176809044,
+          "R": 0.12944337168482256,
+          "C": 0.0038144846745939657,
+          "vortex": 0.20892404513888974,
+          "AF_nematic": 0.9994892543803244,
+          "staggered_m2": 0.006609395591881737
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.009540570953559164,
+          "m4": 0.00020154683511057,
+          "Binder_U": -0.10712652437917236,
+          "R": 0.17238420751316572,
+          "C": 0.004324368560188774,
+          "vortex": 0.2026946614583339,
+          "AF_nematic": 0.9994403785907333,
+          "staggered_m2": 0.009140938559477679
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.009554599523630051,
+          "m4": 0.00019287022039970629,
+          "Binder_U": -0.05635575830156547,
+          "R": 0.17327671800252037,
+          "C": 0.0042403311178835406,
+          "vortex": 0.20298828125000057,
+          "AF_nematic": 0.9994494221906773,
+          "staggered_m2": 0.009156102631843412
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.010052733584393308,
+          "m4": 0.00022816390798120398,
+          "Binder_U": -0.12888214720622693,
+          "R": 0.18464774187586466,
+          "C": 0.004255648157013657,
+          "vortex": 0.20260546875000016,
+          "AF_nematic": 0.9994458970054053,
+          "staggered_m2": 0.009634336983159037
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.009056465462866743,
+          "m4": 0.00015757653281820805,
+          "Binder_U": 0.03939670010202789,
+          "R": 0.16155922667486303,
+          "C": 0.004225014078753395,
+          "vortex": 0.20337109375000004,
+          "AF_nematic": 0.9994529473759352,
+          "staggered_m2": 0.008677868280527821
+        },
+        "pooled:half1": {
+          "m2": 0.00915671932304923,
+          "m4": 0.00019236786481887825,
+          "Binder_U": -0.14715664357754954,
+          "R": 0.1680042369823505,
+          "C": 0.004182970882670499,
+          "vortex": 0.2038355577256936,
+          "AF_nematic": 0.999454856310109,
+          "staggered_m2": 0.008778237162143614
+        },
+        "pooled:half2": {
+          "m2": 0.010191571453005836,
+          "m4": 0.00024668260195540227,
+          "Binder_U": -0.1874797644198256,
+          "R": 0.1795085179849437,
+          "C": 0.00440079862112669,
+          "vortex": 0.20139474826388643,
+          "AF_nematic": 0.9994311656941158,
+          "staggered_m2": 0.009753916095776407
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -8.0,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.16253262825048556,
+          "m4": 0.031023416782171798,
+          "Binder_U": 0.41281018324736174,
+          "R": 0.7752490979001802,
+          "C": 0.02598409637921546,
+          "vortex": 0.03131787109375024,
+          "AF_nematic": 0.985230704166757,
+          "staggered_m2": 0.14735868192677434
+        },
+        "uniform zero-winding": {
+          "m2": 0.19256957381355616,
+          "m4": 0.03765418226591335,
+          "Binder_U": 0.49229915487655684,
+          "R": 1.0804167746550963,
+          "C": 0.022609854907038443,
+          "vortex": 0.02130360243055544,
+          "AF_nematic": 0.9970455537200681,
+          "staggered_m2": 0.17396007969555494
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.18992694796866097,
+          "m4": 0.03662998992887964,
+          "Binder_U": 0.49226906510174206,
+          "R": 1.0781179583170908,
+          "C": 0.022075152862345893,
+          "vortex": 0.023307942708333314,
+          "AF_nematic": 0.9971198021176012,
+          "staggered_m2": 0.17190965784153706
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.19521219965845174,
+          "m4": 0.03867837460294743,
+          "Binder_U": 0.4925137155109549,
+          "R": 1.0826670994235983,
+          "C": 0.023144556951730937,
+          "vortex": 0.019299262152777778,
+          "AF_nematic": 0.996971305322524,
+          "staggered_m2": 0.176010501549572
+        },
+        "unit-x winding": {
+          "m2": 0.1031058124597524,
+          "m4": 0.018855256301853036,
+          "Binder_U": 0.11317863593634347,
+          "R": 0.38923898039108645,
+          "C": 0.040593049104663305,
+          "vortex": 0.027412217881944506,
+          "AF_nematic": 0.9490909162021388,
+          "staggered_m2": 0.09360541809131763
+        },
+        "unit-x winding:half1": {
+          "m2": 0.01676107996887036,
+          "m4": 0.0012917039294050808,
+          "Binder_U": -1.2989471567385613,
+          "R": null,
+          "C": 0.059350153760144075,
+          "vortex": 0.029960286458333308,
+          "AF_nematic": 0.9009645916141903,
+          "staggered_m2": 0.01555141416380239
+        },
+        "unit-x winding:half2": {
+          "m2": 0.18945054495063493,
+          "m4": 0.03641880867430097,
+          "Binder_U": 0.4926542557395468,
+          "R": 1.1489356919382379,
+          "C": 0.021835944449182652,
+          "vortex": 0.024864149305555527,
+          "AF_nematic": 0.9972172407900987,
+          "staggered_m2": 0.17165942201883255
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.19002904663426162,
+          "m4": 0.03689496509846512,
+          "Binder_U": 0.4891456108035551,
+          "R": 1.1626247208662108,
+          "C": 0.021469631606972506,
+          "vortex": 0.02797797309027774,
+          "AF_nematic": 0.9972508608956714,
+          "staggered_m2": 0.17240336027692613
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.19983740116436033,
+          "m4": 0.04039438645860864,
+          "Binder_U": 0.494248156940854,
+          "R": 1.2132128462547418,
+          "C": 0.02323075655243795,
+          "vortex": 0.01776584201388881,
+          "AF_nematic": 0.9969740217725855,
+          "staggered_m2": 0.18031111587405507
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.1802206921041639,
+          "m4": 0.0333955437383214,
+          "Binder_U": 0.48589809054783617,
+          "R": 1.113159835997224,
+          "C": 0.019708506661507107,
+          "vortex": 0.03819010416666662,
+          "AF_nematic": 0.9975277000187663,
+          "staggered_m2": 0.16449560467979707
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.16442608009437615,
+          "m4": 0.03068926346245667,
+          "Binder_U": 0.432435709416054,
+          "R": 1.007135606130725,
+          "C": 0.019263849898187243,
+          "vortex": 0.04857769097222253,
+          "AF_nematic": 0.9975354858491353,
+          "staggered_m2": 0.14946586964329775
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.14221505515232039,
+          "m4": 0.02593731659639146,
+          "Binder_U": 0.3587846661870773,
+          "R": 0.9249075324359126,
+          "C": 0.016992938274142343,
+          "vortex": 0.07164822048611139,
+          "AF_nematic": 0.9978410817872376,
+          "staggered_m2": 0.12957859317781742
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.18663710503643025,
+          "m4": 0.03544121032852173,
+          "Binder_U": 0.49127559762304074,
+          "R": 1.0862329693070665,
+          "C": 0.02153476152223223,
+          "vortex": 0.02550716145833333,
+          "AF_nematic": 0.9972298899110271,
+          "staggered_m2": 0.16935314610877963
+        },
+        "pooled:half1": {
+          "m2": 0.13718512106355277,
+          "m4": 0.026063349228321268,
+          "Binder_U": 0.30755352958923565,
+          "R": 0.5885390253213172,
+          "C": 0.030412250362267704,
+          "vortex": 0.03567057291666636,
+          "AF_nematic": 0.9732248743229014,
+          "staggered_m2": 0.12433769526430187
+        },
+        "pooled:half2": {
+          "m2": 0.18788013543742008,
+          "m4": 0.0359834843360231,
+          "Binder_U": 0.4903036898358085,
+          "R": 1.1066496695689372,
+          "C": 0.021555942396163125,
+          "vortex": 0.02696516927083328,
+          "AF_nematic": 0.9972365340105978,
+          "staggered_m2": 0.17037966858924683
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -7.2,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.21432280779315113,
+          "m4": 0.046284684582774085,
+          "Binder_U": 0.49618565100300926,
+          "R": 1.2089261149426562,
+          "C": 0.029708062749496597,
+          "vortex": 0.004985677083332913,
+          "AF_nematic": 0.995609623921626,
+          "staggered_m2": 0.18840527610268654
+        },
+        "uniform zero-winding": {
+          "m2": 0.21121780703896487,
+          "m4": 0.044992054731582236,
+          "Binder_U": 0.49575131638709735,
+          "R": 1.102596753126779,
+          "C": 0.029580862924718825,
+          "vortex": 0.005067165798610974,
+          "AF_nematic": 0.9955996726696782,
+          "staggered_m2": 0.18541360516092822
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.20690906676451648,
+          "m4": 0.04318102257383231,
+          "Binder_U": 0.49568268039157704,
+          "R": 1.0325489532550813,
+          "C": 0.02991471398525682,
+          "vortex": 0.00541080729166674,
+          "AF_nematic": 0.9954984435626619,
+          "staggered_m2": 0.18126591532923278
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.21552654731341106,
+          "m4": 0.046803086889332365,
+          "Binder_U": 0.49621763736854385,
+          "R": 1.184754217245093,
+          "C": 0.02924701186418086,
+          "vortex": 0.004723524305555609,
+          "AF_nematic": 0.9957009017766881,
+          "staggered_m2": 0.18956129499262317
+        },
+        "unit-x winding": {
+          "m2": 0.21878337860699165,
+          "m4": 0.04818149300743931,
+          "Binder_U": 0.49670616769497045,
+          "R": 1.3239550075707283,
+          "C": 0.029701814033384632,
+          "vortex": 0.004974934895833205,
+          "AF_nematic": 0.9956466420597677,
+          "staggered_m2": 0.1925564705246983
+        },
+        "unit-x winding:half1": {
+          "m2": 0.2159110907309526,
+          "m4": 0.04690396164469534,
+          "Binder_U": 0.4969286004685961,
+          "R": 1.2807408547978623,
+          "C": 0.029880358166463093,
+          "vortex": 0.004632378472222246,
+          "AF_nematic": 0.9955713335393722,
+          "staggered_m2": 0.1898219178727199
+        },
+        "unit-x winding:half2": {
+          "m2": 0.22165566648303162,
+          "m4": 0.04945902437018337,
+          "Binder_U": 0.4966641395276469,
+          "R": 1.3704537218315649,
+          "C": 0.02952326990030639,
+          "vortex": 0.005317491319444537,
+          "AF_nematic": 0.9957219505801571,
+          "staggered_m2": 0.195291023176675
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.21154434951662573,
+          "m4": 0.04508321665324673,
+          "Binder_U": 0.4962882979917085,
+          "R": 1.1769269095013464,
+          "C": 0.029452835805549117,
+          "vortex": 0.005700846354166591,
+          "AF_nematic": 0.9956510095501141,
+          "staggered_m2": 0.18615556741906775
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.21393455463066308,
+          "m4": 0.04618560227082824,
+          "Binder_U": 0.4954377658668567,
+          "R": 1.2061886286884307,
+          "C": 0.02982678603054508,
+          "vortex": 0.00468467881944449,
+          "AF_nematic": 0.9956016220975953,
+          "staggered_m2": 0.188108503083149
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.2091541444025874,
+          "m4": 0.0439808310356653,
+          "Binder_U": 0.4973097215601425,
+          "R": 1.1490467153142512,
+          "C": 0.02907888558055326,
+          "vortex": 0.0067170138888889485,
+          "AF_nematic": 0.9957003970026278,
+          "staggered_m2": 0.18420263175498772
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.21574569601002083,
+          "m4": 0.04688197393882838,
+          "Binder_U": 0.49639316900832187,
+          "R": 1.261779548269668,
+          "C": 0.030096738234333776,
+          "vortex": 0.004199761284722117,
+          "AF_nematic": 0.9955411714069667,
+          "staggered_m2": 0.18949546130604678
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.21650165756403184,
+          "m4": 0.04721723909850701,
+          "Binder_U": 0.4963276128307932,
+          "R": 1.2149827467298189,
+          "C": 0.03064773588105222,
+          "vortex": 0.003580295138888925,
+          "AF_nematic": 0.9954394056951693,
+          "staggered_m2": 0.18978769518508912
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.2149897344560106,
+          "m4": 0.046546708779149994,
+          "Binder_U": 0.49647210381281015,
+          "R": 1.3146845270052976,
+          "C": 0.02954574058761558,
+          "vortex": 0.004819227430555663,
+          "AF_nematic": 0.9956429371187671,
+          "staggered_m2": 0.189203227427004
+        },
+        "pooled:half1": {
+          "m2": 0.21331409242254204,
+          "m4": 0.0458719563969656,
+          "Binder_U": 0.49594471611171653,
+          "R": 1.1740076513262732,
+          "C": 0.030067398515829315,
+          "vortex": 0.0045770399305557615,
+          "AF_nematic": 0.9955277012236964,
+          "staggered_m2": 0.1872460078675469
+        },
+        "pooled:half2": {
+          "m2": 0.21533152316376178,
+          "m4": 0.04669741276858271,
+          "Binder_U": 0.4964442041507203,
+          "R": 1.24669751702926,
+          "C": 0.02934872698316403,
+          "vortex": 0.0053943142361113205,
+          "AF_nematic": 0.9956915466195627,
+          "staggered_m2": 0.18956454433782324
+        }
+      }
+    }
+  ],
+  "families": [
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.405605288727589,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.402096296396287,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.335466702220883,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.354975989252715,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.265328115714178,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.306597699127796,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.53201638537156,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.502417111177467,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.441613714560864,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.439048116298222,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.351211043750167,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.377009995283533,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.385681246075125,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.387859113736784,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.318230420269312,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.342265385452686,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.2507795944635,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.295160196179403,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.290712167283456,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.377654147426759,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.22240900555328,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.315619938609878,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.154105843823105,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.2471580708733,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.189225640306553,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.240280015856746,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.101257518279672,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.142002977925591,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.013289396252791,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.02189347873121,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.342650665799601,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.418904561957419,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.283634766622882,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.372840124730063,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.22461886744616,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.324412655393765,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.289063665101054,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.324496183314519,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.239617120306367,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.289607500272856,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.190170575511681,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.252798616251585,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.519263306435576,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.47979629778073,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.430430212475596,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.419349462054354,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.341597118515615,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.359836974528946,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.253783873613221,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.29980161545013,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.210404048983474,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.268200711505143,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.167024224353726,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.23463724910666,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -9.451856646746547,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -7.818899334469062,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -9.514790733369926,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -7.790993546127758,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -9.545335674862658,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -7.714604344702398,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -9.569327860613678,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -7.680720434442345,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -7.610309354935734,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -7.575896256376094,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -7.332271333037141,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -7.276222692817116,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -7.3099980773069095,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -7.2630145259199015,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -7.287724821576677,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -7.2499676065199425,
+          "bracket": [
+            -8.0,
+            -7.2
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -9.14274243360357,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -8.460651494536975,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -9.324087454829867,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -8.439632949114472,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -9.22223189972757,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -8.38194915457392,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -9.381590326686293,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -8.386884617009706,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -9.301721365851568,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -8.303246814610864,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -9.433872486374746,
+          "bracket": [
+            -9.6,
+            -8.8
+          ]
+        },
+        {
+          "root": -8.333707650738754,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "multiple"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.380425150220233,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.370418104645134,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.298590661196156,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.313135832242253,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.21675617217208,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.252967379456477,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.260480577027113,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.26736109028754,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.17845736178786,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.203267845693462,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.096434146548606,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.129806252818536,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.515670192559938,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.476880883170404,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.427150900733215,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.416660018911742,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.338631608906493,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.35726649243041,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    }
+  ],
+  "common_anchors": [
+    {
+      "N": 8,
+      "lower_kappa": -8.8,
+      "upper_kappa": -7.2,
+      "status": "all_start_and_half_anchor_bracket",
+      "low_phase_candidates": [
+        -8.8
+      ],
+      "high_phase_candidates": [
+        -7.2
+      ]
+    }
+  ],
+  "xi_pair_crossings": [],
+  "primary": {
+    "N": 8,
+    "variant": "pooled",
+    "target": 0.25,
+    "interpolation": "linear",
+    "roots": [
+      {
+        "root": -8.22240900555328,
+        "bracket": [
+          -8.8,
+          -8.0
+        ]
+      }
+    ],
+    "status": "unique"
+  },
+  "scope": "No root-MC uncertainty is calculated here. Observable conditional-MC intervals and sampling flags are joined from the source analyses; the root bracket/sensitivity ranges are descriptive only. Pooledxi/L centralcrossings are descriptive checks. Exploratory fixed finite-box Binder locators within strong staggered-nematic response. All start/half/threshold/interpolation families retained, including failures. Anchor brackets and variant unions are descriptive, not calibrated confidence intervals or thermodynamic estimates. Pooling never removes incompatible starts. No assumed universality or fitted asymptote."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-16T22:57:35.280069+00:00",
+  "scope": "Independent final scientific, inference and visual review of existing-data joint finite-size scaling, sampling checks and explicitly post-hoc diagnostics. No new simulations or archive changes.",
+  "artifact_sha256": {
+    "01-joint-fit-model-sensitivity.svg": "29f1e5f518947af12ec48b2345cd713d7596f525a308facddf76c0b91d7ba373",
+    "paired-model-differences.json": "a3b0af29871a8db0eb25dc66b2340f202377376f3bd7f3c3c555e0d0c25e8f9a",
+    "01-joint-fit-model-sensitivity.png": "f5dc849a7213006a7bbe9ab1bfa23c847b0441affa5818d5d9db19c1c215ec20",
+    "02-heldout-size-predictions.png": "81046a20f56bd7558daa1038f9ddb756227dfad05be077e79172ae6c5d11315b",
+    "03-paired-model-shifts.png": "d228304d0999839075251e6dbcd3c2fcac4150e66ac2ce90e9dd0a078000697a",
+    "analysis.json": "98bee458b86dd20384c353274577168b18614fd27f36132b526fe99a28cc3d9b",
+    "03-paired-model-shifts.svg": "2f322f55655a65dee47b7b7570db771c1d91800ba525f2adc4a550eb824f55be",
+    "joint-finite-size-analysis-report.txt": "9ea076142c9c13a80ce9add085efc1e97e678df7abc727fb1ba2b764cb97d4da",
+    "02-heldout-size-predictions.svg": "90b6cc05dfd89bcf232ae49d3f1c7d3fa5eff0cccb5531a021e58c6c3dad62a8"
+  },
+  "checks": [
+    "Reviewed code for profiled qc plus linearGLS coefficients, block-diagonal within-coordinate covariance, rawadditiveBL^-3 prediction/Jacobian, corrected per-draw joint rank and condition checks, optimizer/clipping flags and immutable output behavior.",
+    "Independently reran15focused oracle tests:15passed0.73s; reportrecords35combinedtests.",
+    "Read all29predeclared results and sampling/post-hoc evidence. Verified92000bootstraprefits are correlated reanalyses, notnewindependentMonteCarlo experiments; bound/multiple-minimum flags remain visible.",
+    "Independently reproduced all6paired contrasts from matched2000draw parameter banks, including SDs and percentileMC95.",
+    "Convertedrawbackgroundnormalization independently:Bphysical13.5388;fractionofm2atqc8.54percentL12,1.22percentL32,.312percentL64. This is not physically excluded by an arbitrary sign/amplitude prior.",
+    "Verified heldout absolute effects: broadtrain<=48leading/mixedmaxm2relativeerror10.21/10.43percent, nominalp.00339/.00192; narrowleading2.21percent,p.488.",
+    "Independently computed cubicdiagnostic log-m2 RMS residual.03935to.04467 and upper-endpredictiveSD.04165to.09140; finalreportcorrectly avoidsclaimingbetterabsoluteprediction fromhigherp.",
+    "Viewed all3plots and rereviewed final02tickrepair; readablewithoutoverlap, conditionalinterval/predictiveSDlabels andposthocdistinctions clear.",
+    "Verified all3source analysis hashes and finalreportwording matches actual finite/rank/optimizer checks."
+  ],
+  "observations": [
+    "NarrowleadingjointfitDelta=.518219plusminus.006896stat propagatescriticalepsilonuncertainty underfixedWF-informednu/omega andthechosencorrectionmodel.",
+    "RawregularbackgroundfitDelta=.555996plusminus.017338stat alsofitswell; it exposes an unresolvedbackground/correction/exponent ambiguity, not a measured truebias or calibratedsigma_sys.",
+    "Size-cut andsecond-correctionpairedshiftintervals includezero. Rawbackground-minus-zero contrastMC95[.007084,.069313] resolves a conditionalestimatorshift only.",
+    "Post-hoccubiccanremove nominalpredictiverejection byallowing wideruncertaintywhileabsoluteerrorsworsen; it doesnotuniquelyidentifythermaltruncation orprovideindependentvalidation.",
+    "Two innertrain<=32 fits retainprofileboundary/multiple-minimumwarnings. Numericalsuccessisnotunqualifiedphysical/modelvalidation."
+  ],
+  "qualifications": [
+    "No final CFTdimensionwithcalibratedtotal/stat-plus-systematicuncertainty or two reliableprecisiondigits is established.",
+    "Fixednu=.67169andomega=.789 are externalWF-informedassumptions, so thisisnotanindependentuniversalitytest.",
+    "Allmodel/cut/windowchanges useexistingcorrelateddata; nofitselectedbybestp orproximitytobenchmark.",
+    "NominalGaussianpredictivepvalues aredescriptive, andallsize datawereexaminedpreviously; posthocmodelsremainexplicit.",
+    "No newMonteCarlolaunchedandnofutureexperimentauthorizedbythisreview."
+  ],
+  "required_fixes": [],
+  "not_checked": [
+    "Didnotrerunfull92000fitpipelineorMonteCarlo.",
+    "Noexplicitper-drawphysicalpositivityvalidationofallmodelpredictionsclaimed; reportcorrectlylimitschecks.",
+    "VisualreviewusedPNGexportsratherthanindependentSVG/PDF rendering."
+  ]
+}

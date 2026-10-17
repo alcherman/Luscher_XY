@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-14T21:17:39.501325-05:00",
+  "incident_time": "2026-10-14T19:36:46-05:00",
+  "halted_state": "2026-10-14T19:37:15-05:00",
+  "failed_archive": "d2_e074_b0809_N256_r03_s012000",
+  "failed_original_full_audit_sha_rechecked": true,
+  "completed_archives_size_checked": 626,
+  "committed_size_mismatches": 0,
+  "observed_exception": "FileNotFoundError; old log retained repr only, no remote traceback",
+  "diagnosis": "A reproducible exists/stat race in peer temporary-copy accounting matches this error; exact historical line not available. Atomic replacement outside admission lock can remove a peer temp between exists and stat.",
+  "fix": "Single stat with FileNotFound treated as zero written, conservatively reserving the entire lease until owner release. No extra physical space is assumed. Future worker failures preserve full remote traceback and per-archive failure JSON.",
+  "tests_passed": 25,
+  "test_log": "logs/parallel-retention-temp-rename-race-tests-20261014.log",
+  "restart": "kickstart existing inactive14-worker service; startup exclusive maintenance reconciles stale leases",
+  "data_policy": "Unchanged. No deletion or weakening of source hashes, retained-data verification or checkpoints.",
+  "source_snapshot": "experiments/2026-10-13-xy-infinite-volume/retention-implementation-snapshots/temp-rename-race-fix-20261014T211739",
+  "time_lost_minutes_approximately": 100
+}

@@ -1,0 +1,996 @@
+{
+  "created": "2026-10-16T20:02:24.075692-05:00",
+  "source_batch": "/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/batches/pilot-retry-v2.json",
+  "rows": [
+    {
+      "id": "spinfull3_pilot_q0800750_N024_r90_s004000",
+      "N": 24,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N024_r90_s004000",
+        "D": 3,
+        "N": 24,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 90,
+        "seed": 3355718763834986053,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "ddc1066207c780edf7c7c4baacf75d3bc86bc4f0eb68a0dc95cc024726317424",
+      "generation_seconds": 116.42544495803304,
+      "audit_seconds": 28.731699500000104,
+      "physical_full_bytes": 513610008,
+      "physical_ceiling_bytes": 620655206,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 5.9236643977558465,
+        "Gquarter_latehalf": 6.027632867424626,
+        "Ghalf_postwarmup": 6.032212713908637,
+        "Ghalf_latehalf": 6.967008729895138,
+        "m2_postwarmup": 5.490659239184318,
+        "m2_latehalf": 6.576147972888569,
+        "R_influence_postwarmup": 3.6064599839349407,
+        "R_influence_latehalf": 3.923472152811083,
+        "vortex_postwarmup": 5.946398839791369,
+        "vortex_latehalf": 5.763793985473018,
+        "link_cos_postwarmup": 6.111713997899566,
+        "link_cos_latehalf": 5.826517803721359,
+        "winding2_postwarmup": 5.0185959788561965,
+        "winding2_latehalf": 4.715367580708196
+      },
+      "max_monitored_tau_cycles": 6.967008729895138,
+      "requested_block_cycles": 140,
+      "available_blocks": 21,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.05796090013449089,
+          0.04414816148228021
+        ],
+        "m2_mean": 0.0453515428652866,
+        "R_mean": 0.5826447798156418,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          47
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.05913075358266964,
+            0.045560342757050884,
+            0.04648714718258132
+          ],
+          [
+            0.05679104668631209,
+            0.04273598020750964,
+            0.04421593854799202
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.001076833443428273,
+          0.0011693350439335426,
+          0.0011819137731230724
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 15.315280189621262,
+          "mean": 0.005105093396540421,
+          "median": 0.004786082979990169,
+          "p95": 0.00889009376696776
+        },
+        "cluster_seconds": {
+          "sum": 40.889809164684266,
+          "mean": 0.013629936388228089,
+          "median": 0.012200458004372194,
+          "p95": 0.02156659406318791
+        },
+        "measurement_seconds": {
+          "sum": 15.139279969327617,
+          "mean": 0.005046426656442539,
+          "median": 0.004736124974442646,
+          "p95": 0.008843835390871387
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 3.6242252773372456,
+          "mean": 0.0012080750924457486,
+          "median": 0.0007548124704044312,
+          "p95": 0.0034653684153454377
+        },
+        "cycle_seconds": {
+          "sum": 82.62958451989107,
+          "mean": 0.02754319483996369,
+          "median": 0.024551020498620346,
+          "p95": 0.04320516840089113
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N024_r91_s004000",
+      "N": 24,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N024_r91_s004000",
+        "D": 3,
+        "N": 24,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 91,
+        "seed": 13982276448109673470,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "0a9ddb0cf55f459f16f300ebf8e6dd34e1bd416fc57f50e01511e0b4ffde9e05",
+      "generation_seconds": 115.68815054203151,
+      "audit_seconds": 29.080893917009234,
+      "physical_full_bytes": 513610008,
+      "physical_ceiling_bytes": 620655206,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 4.696750736741107,
+        "Gquarter_latehalf": 4.187859607972722,
+        "Ghalf_postwarmup": 4.279435753093118,
+        "Ghalf_latehalf": 3.9825261981887845,
+        "m2_postwarmup": 4.514754991563098,
+        "m2_latehalf": 4.157752356684251,
+        "R_influence_postwarmup": 3.352052783428171,
+        "R_influence_latehalf": 2.8849090139507596,
+        "vortex_postwarmup": 5.219335321943316,
+        "vortex_latehalf": 4.532606150512483,
+        "link_cos_postwarmup": 4.867755867236844,
+        "link_cos_latehalf": 4.364477689123774,
+        "winding2_postwarmup": 4.134520606202983,
+        "winding2_latehalf": 3.6886516909445346
+      },
+      "max_monitored_tau_cycles": 5.219335321943316,
+      "requested_block_cycles": 106,
+      "available_blocks": 28,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.05734901201106657,
+          0.04396761291249333
+        ],
+        "m2_mean": 0.045207986903677465,
+        "R_mean": 0.5838724684730985,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          39
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.056340799861391504,
+            0.042800934083959276,
+            0.04398944290075358
+          ],
+          [
+            0.058357224160741995,
+            0.04513429174102764,
+            0.04642653090660133
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.0009331036892649439,
+          0.0009349097129825144,
+          0.0009892267375436498
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 15.527433383686002,
+          "mean": 0.005175811127895334,
+          "median": 0.004809583508176729,
+          "p95": 0.008970812175539319
+        },
+        "cluster_seconds": {
+          "sum": 40.88455829891609,
+          "mean": 0.013628186099638697,
+          "median": 0.012179457989986986,
+          "p95": 0.021605056262342257
+        },
+        "measurement_seconds": {
+          "sum": 14.929362678842153,
+          "mean": 0.004976454226280718,
+          "median": 0.004683958017267287,
+          "p95": 0.008729316963581368
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 3.4711714053410105,
+          "mean": 0.0011570571351136702,
+          "median": 0.0007569169974885881,
+          "p95": 0.0034285315952729393
+        },
+        "cycle_seconds": {
+          "sum": 82.24347005260643,
+          "mean": 0.027414490017535476,
+          "median": 0.02441575049306266,
+          "p95": 0.04287623896088916
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N032_r90_s004000",
+      "N": 32,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N032_r90_s004000",
+        "D": 3,
+        "N": 32,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 90,
+        "seed": 171733761998908395,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "d1867dcc6c519d64e558246990c5445e86bb12e000aba6145ae56ad34b83f986",
+      "generation_seconds": 223.08756129199173,
+      "audit_seconds": 54.79844891699031,
+      "physical_full_bytes": 1178377528,
+      "physical_ceiling_bytes": 1384380620,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 7.101797295098553,
+        "Gquarter_latehalf": 9.273163504859868,
+        "Ghalf_postwarmup": 5.846652760969856,
+        "Ghalf_latehalf": 7.110541322331963,
+        "m2_postwarmup": 6.663234764552075,
+        "m2_latehalf": 8.509188849163692,
+        "R_influence_postwarmup": 5.032436083305892,
+        "R_influence_latehalf": 5.858810044177659,
+        "vortex_postwarmup": 7.87831433979037,
+        "vortex_latehalf": 11.17959574267382,
+        "link_cos_postwarmup": 6.440994022102078,
+        "link_cos_latehalf": 8.76397120808852,
+        "winding2_postwarmup": 5.446399185670182,
+        "winding2_latehalf": 8.09271518698944
+      },
+      "max_monitored_tau_cycles": 11.17959574267382,
+      "requested_block_cycles": 224,
+      "available_blocks": 13,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.04102104181170094,
+          0.030522137152644787
+        ],
+        "m2_mean": 0.03157734512582483,
+        "R_mean": 0.559258469154566,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          92
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.040311972284045476,
+            0.029437707401996985,
+            0.030838760980111866
+          ],
+          [
+            0.041730111339356106,
+            0.03160656690329243,
+            0.0323159292715378
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.000771149977015158,
+          0.000937217164082932,
+          0.0009374181258494179
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 31.08149431576021,
+          "mean": 0.010360498105253404,
+          "median": 0.009657146001700312,
+          "p95": 0.016589178485446606
+        },
+        "cluster_seconds": {
+          "sum": 75.53326921683038,
+          "mean": 0.025177756405610124,
+          "median": 0.02320591703755781,
+          "p95": 0.04172696252353489
+        },
+        "measurement_seconds": {
+          "sum": 26.885162699152716,
+          "mean": 0.008961720899717572,
+          "median": 0.00822083352250047,
+          "p95": 0.014511137455701824
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 6.200101081863977,
+          "mean": 0.0020667003606213256,
+          "median": 0.0015810619806870818,
+          "p95": 0.004767014938988708
+        },
+        "cycle_seconds": {
+          "sum": 153.53003568621352,
+          "mean": 0.05117667856207118,
+          "median": 0.04867860401282087,
+          "p95": 0.08408833719731773
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N032_r91_s004000",
+      "N": 32,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N032_r91_s004000",
+        "D": 3,
+        "N": 32,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 91,
+        "seed": 8468571974289775756,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "37977a51280c996f463b916a6efbb18c6e2a12e56e7780d9ec222821a0178398",
+      "generation_seconds": 223.325527833018,
+      "audit_seconds": 54.88668674998917,
+      "physical_full_bytes": 1178410296,
+      "physical_ceiling_bytes": 1384380620,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 7.726236286286124,
+        "Gquarter_latehalf": 7.670158330276887,
+        "Ghalf_postwarmup": 6.624748585991472,
+        "Ghalf_latehalf": 6.831406300271102,
+        "m2_postwarmup": 7.443479625767217,
+        "m2_latehalf": 7.281864574911032,
+        "R_influence_postwarmup": 4.411188851786302,
+        "R_influence_latehalf": 4.260546952150091,
+        "vortex_postwarmup": 8.77893513672629,
+        "vortex_latehalf": 8.873958542958489,
+        "link_cos_postwarmup": 8.063097975981337,
+        "link_cos_latehalf": 7.438565361659253,
+        "winding2_postwarmup": 5.897446002505987,
+        "winding2_latehalf": 5.7932072726737776
+      },
+      "max_monitored_tau_cycles": 8.873958542958489,
+      "requested_block_cycles": 178,
+      "available_blocks": 16,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.041683570435856285,
+          0.03106820184077423
+        ],
+        "m2_mean": 0.03218930831119197,
+        "R_mean": 0.565358037365129,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          61
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.04093705176684618,
+            0.029824383388858663,
+            0.031208571345339806
+          ],
+          [
+            0.042430089104866446,
+            0.0323120202926899,
+            0.03317004527704414
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.0010428074466491996,
+          0.0011563789322326522,
+          0.0012128355129168815
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 31.39792487520026,
+          "mean": 0.010465974958400086,
+          "median": 0.00970310450065881,
+          "p95": 0.0168562854058109
+        },
+        "cluster_seconds": {
+          "sum": 75.81940074346494,
+          "mean": 0.02527313358115498,
+          "median": 0.023417270480422303,
+          "p95": 0.0417185681289993
+        },
+        "measurement_seconds": {
+          "sum": 26.779954333265778,
+          "mean": 0.008926651444421925,
+          "median": 0.008231583487940952,
+          "p95": 0.014477877391618675
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 6.151716747728642,
+          "mean": 0.0020505722492428807,
+          "median": 0.0015763955016154796,
+          "p95": 0.004459537865477612
+        },
+        "cycle_seconds": {
+          "sum": 153.9173209067667,
+          "mean": 0.0513057736355889,
+          "median": 0.048953812511172146,
+          "p95": 0.08377272740763143
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N048_r90_s004000",
+      "N": 48,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N048_r90_s004000",
+        "D": 3,
+        "N": 48,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 90,
+        "seed": 8824472403883463977,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "8c9148fe4407fe7ad0fc8d45c2fa9ff2a2628510c9b101f02122dfbf20589f3d",
+      "generation_seconds": 545.1662197500118,
+      "audit_seconds": 123.82647725002607,
+      "physical_full_bytes": 3796968872,
+      "physical_ceiling_bytes": 4394363904,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 15.747019257522894,
+        "Gquarter_latehalf": 9.6301470297424,
+        "Ghalf_postwarmup": 14.455233110311678,
+        "Ghalf_latehalf": 8.89818960115602,
+        "m2_postwarmup": 16.838313510449694,
+        "m2_latehalf": 9.450083807771842,
+        "R_influence_postwarmup": 8.139454009754127,
+        "R_influence_latehalf": 6.524196105400403,
+        "vortex_postwarmup": 18.793594978281416,
+        "vortex_latehalf": 14.134113152829213,
+        "link_cos_postwarmup": 16.951500164386353,
+        "link_cos_latehalf": 12.177342162795053,
+        "winding2_postwarmup": 9.339271013444913,
+        "winding2_latehalf": 6.747747591633213
+      },
+      "max_monitored_tau_cycles": 18.793594978281416,
+      "requested_block_cycles": 376,
+      "available_blocks": 7,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.02880781202957239,
+          0.02255608162202161
+        ],
+        "m2_mean": 0.02299815492332443,
+        "R_mean": 0.6006425502425339,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          62
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.030340322702022467,
+            0.02425990045519624,
+            0.024488178299996322
+          ],
+          [
+            0.02727530135712235,
+            0.02085226278884704,
+            0.02150813154665251
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.0013085493561261043,
+          0.001496308904976469,
+          0.0013574672251246674
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 70.88376077823341,
+          "mean": 0.023627920259411135,
+          "median": 0.020590520492987707,
+          "p95": 0.03829178092419169
+        },
+        "cluster_seconds": {
+          "sum": 178.23339752096217,
+          "mean": 0.05941113250698739,
+          "median": 0.05199495851411484,
+          "p95": 0.0999233854090562
+        },
+        "measurement_seconds": {
+          "sum": 63.16556819336256,
+          "mean": 0.02105518939778752,
+          "median": 0.018185583990998566,
+          "p95": 0.03615047119092193
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 14.575925687327981,
+          "mean": 0.004858641895775994,
+          "median": 0.004161999968346208,
+          "p95": 0.0075613000022713055
+        },
+        "cycle_seconds": {
+          "sum": 358.31999106751755,
+          "mean": 0.11943999702250585,
+          "median": 0.10251110448734835,
+          "p95": 0.19844810864888132
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N048_r91_s004000",
+      "N": 48,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N048_r91_s004000",
+        "D": 3,
+        "N": 48,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 91,
+        "seed": 16270874903091485031,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "c03dcf2833438147bd8a144eb996630a70ba55da3a8b6027d3650485b6634792",
+      "generation_seconds": 545.0775996669545,
+      "audit_seconds": 123.45600141701289,
+      "physical_full_bytes": 3796968872,
+      "physical_ceiling_bytes": 4394363904,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 11.80604088361081,
+        "Gquarter_latehalf": 11.371302522982926,
+        "Ghalf_postwarmup": 9.878907213795088,
+        "Ghalf_latehalf": 10.448172076974355,
+        "m2_postwarmup": 10.569776639051536,
+        "m2_latehalf": 10.530336720631869,
+        "R_influence_postwarmup": 6.23474040182277,
+        "R_influence_latehalf": 6.3798489796268,
+        "vortex_postwarmup": 12.03661296026816,
+        "vortex_latehalf": 12.19978043804544,
+        "link_cos_postwarmup": 11.449174578146568,
+        "link_cos_latehalf": 11.887276160469574,
+        "winding2_postwarmup": 8.63425757873035,
+        "winding2_latehalf": 9.477578125626449
+      },
+      "max_monitored_tau_cycles": 12.19978043804544,
+      "requested_block_cycles": 244,
+      "available_blocks": 12,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.02844582495287479,
+          0.02173828538763101
+        ],
+        "m2_mean": 0.022379185881890133,
+        "R_mean": 0.5883302098321407,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          46
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.028331419932599824,
+            0.021976301410515934,
+            0.022519223187499042
+          ],
+          [
+            0.028560229973150015,
+            0.021500269364746093,
+            0.022239148576281224
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.0007495129407389962,
+          0.0008533581400050384,
+          0.0008424610287534642
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 71.33889995864592,
+          "mean": 0.023779633319548642,
+          "median": 0.020495187520282343,
+          "p95": 0.04165308393130544
+        },
+        "cluster_seconds": {
+          "sum": 178.3486520452425,
+          "mean": 0.059449550681747496,
+          "median": 0.051574896002421156,
+          "p95": 0.10034953269641847
+        },
+        "measurement_seconds": {
+          "sum": 62.93155160668539,
+          "mean": 0.02097718386889513,
+          "median": 0.018186583503847942,
+          "p95": 0.034585112478816876
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 14.550275325018447,
+          "mean": 0.004850091775006149,
+          "median": 0.004144979495322332,
+          "p95": 0.007643193364492616
+        },
+        "cycle_seconds": {
+          "sum": 358.2526043820544,
+          "mean": 0.11941753479401813,
+          "median": 0.1020318960363511,
+          "p95": 0.19872355147672346
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N064_r90_s004000",
+      "N": 64,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N064_r90_s004000",
+        "D": 3,
+        "N": 64,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 90,
+        "seed": 13902654151535555498,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "5d13bd4f141e96e910a03c24d6050db5912dd82d9bcb1380eff89e5562e0aaf7",
+      "generation_seconds": 987.897869583976,
+      "audit_seconds": 184.02732237498276,
+      "physical_full_bytes": 8861416296,
+      "physical_ceiling_bytes": 10215513907,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 11.578350299903052,
+        "Gquarter_latehalf": 11.43236946730593,
+        "Ghalf_postwarmup": 10.91834966274445,
+        "Ghalf_latehalf": 11.123110995014741,
+        "m2_postwarmup": 11.70657049130031,
+        "m2_latehalf": 11.564379791715572,
+        "R_influence_postwarmup": 8.75338293602077,
+        "R_influence_latehalf": 8.03912869042649,
+        "vortex_postwarmup": 14.457748934489723,
+        "vortex_latehalf": 15.293800773249044,
+        "link_cos_postwarmup": 13.44939784702715,
+        "link_cos_latehalf": 14.141045479405745,
+        "winding2_postwarmup": 7.65533256591767,
+        "winding2_latehalf": 8.173411374195606
+      },
+      "max_monitored_tau_cycles": 15.293800773249044,
+      "requested_block_cycles": 306,
+      "available_blocks": 9,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.020806208101848207,
+          0.015948008755080796
+        ],
+        "m2_mean": 0.01671576129618978,
+        "R_mean": 0.6157770071754428,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          38
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.020796464332241065,
+            0.015976970362716843,
+            0.016657006830170226
+          ],
+          [
+            0.020815951871455397,
+            0.015919047147444732,
+            0.016774515762209345
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.000572351186664987,
+          0.000686503872073588,
+          0.00067383863375333
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 128.75007653527427,
+          "mean": 0.04291669217842476,
+          "median": 0.04014291649218649,
+          "p95": 0.0872358752938453
+        },
+        "cluster_seconds": {
+          "sum": 305.2566161076538,
+          "mean": 0.10175220536921795,
+          "median": 0.09348322899313644,
+          "p95": 0.20357235452102015
+        },
+        "measurement_seconds": {
+          "sum": 107.44899029767839,
+          "mean": 0.03581633009922613,
+          "median": 0.03393764601787552,
+          "p95": 0.07202707880060187
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 25.120363946305588,
+          "mean": 0.00837345464876853,
+          "median": 0.00826314600999467,
+          "p95": 0.01646240773552563
+        },
+        "cycle_seconds": {
+          "sum": 619.0098117442685,
+          "mean": 0.20633660391475617,
+          "median": 0.1855427295085974,
+          "p95": 0.4124727121728938
+        }
+      }
+    },
+    {
+      "id": "spinfull3_pilot_q0800750_N064_r91_s004000",
+      "N": 64,
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N064_r91_s004000",
+        "D": 3,
+        "N": 64,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 91,
+        "seed": 10212762616746740355,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "source_sha256": "af2b651c47228ca41a25dcc1d4cb7818d25468a024a40dd9eedc5a5f2045101d",
+      "generation_seconds": 987.9026788750198,
+      "audit_seconds": 183.57916529098293,
+      "physical_full_bytes": 8861416296,
+      "physical_ceiling_bytes": 10215513907,
+      "postwarmup_cycles": 3000,
+      "tau_cycles": {
+        "Gquarter_postwarmup": 12.289218297889404,
+        "Gquarter_latehalf": 15.529118213932346,
+        "Ghalf_postwarmup": 12.048117652370244,
+        "Ghalf_latehalf": 15.259124475124004,
+        "m2_postwarmup": 12.050447854059463,
+        "m2_latehalf": 14.118462350816758,
+        "R_influence_postwarmup": 5.857630551528897,
+        "R_influence_latehalf": 4.881814162026981,
+        "vortex_postwarmup": 14.546927238678398,
+        "vortex_latehalf": 17.4497812625478,
+        "link_cos_postwarmup": 13.489321310684973,
+        "link_cos_latehalf": 15.969138500185231,
+        "winding2_postwarmup": 8.659646640992946,
+        "winding2_latehalf": 10.610183886460089
+      },
+      "max_monitored_tau_cycles": 17.4497812625478,
+      "requested_block_cycles": 350,
+      "available_blocks": 8,
+      "flags": [
+        "fewer_than_50_blocks_pilot_only"
+      ],
+      "statistics": {
+        "G_mean": [
+          0.020697064461450303,
+          0.01579191827776408
+        ],
+        "m2_mean": 0.016108249662254433,
+        "R_mean": 0.5821789334851731,
+        "signed_configuration_G_nonpositive_counts": [
+          0,
+          87
+        ],
+        "first_last_half_Gq_Gh_m2": [
+          [
+            0.021109003766104608,
+            0.016545077835045947,
+            0.016652251535005425
+          ],
+          [
+            0.020285125156795918,
+            0.015038758720482255,
+            0.015564247789503443
+          ]
+        ],
+        "block_SE_Gq_Gh_m2": [
+          0.0005850964971342038,
+          0.0007470376787315256,
+          0.0005970483737932301
+        ]
+      },
+      "timing": {
+        "metropolis_seconds": {
+          "sum": 128.33092211431358,
+          "mean": 0.04277697403810453,
+          "median": 0.040317895502084866,
+          "p95": 0.08680887086666188
+        },
+        "cluster_seconds": {
+          "sum": 305.52233067381894,
+          "mean": 0.10184077689127298,
+          "median": 0.09308429202064872,
+          "p95": 0.20544645804329772
+        },
+        "measurement_seconds": {
+          "sum": 107.60993042669725,
+          "mean": 0.035869976808899084,
+          "median": 0.03428668747073971,
+          "p95": 0.07192890031437855
+        },
+        "spin_extra_measurement_seconds": {
+          "sum": 25.049431970866863,
+          "mean": 0.008349810656955621,
+          "median": 0.008276624517748132,
+          "p95": 0.01641276425216347
+        },
+        "cycle_seconds": {
+          "sum": 618.6753675943473,
+          "mean": 0.20622512253144912,
+          "median": 0.18461979151470587,
+          "p95": 0.4115732336271321
+        }
+      }
+    }
+  ],
+  "benchmark": [
+    {
+      "online": false,
+      "generation_seconds": 8.2222540830262,
+      "audit_seconds": 1.0568802090128884,
+      "postwarmup_cycle_mean": 0.013157278533067761,
+      "postwarmup_measurement_mean": 0.0018400567556576181,
+      "scope": "One serial same-RNG timing comparison, not a replicated performance bound; startup/JIT and I/O affect full wall time."
+    },
+    {
+      "online": true,
+      "generation_seconds": 8.569518625037745,
+      "audit_seconds": 2.302950916986447,
+      "postwarmup_cycle_mean": 0.013761417042826199,
+      "postwarmup_measurement_mean": 0.0023909016880982866,
+      "scope": "One serial same-RNG timing comparison, not a replicated performance bound; startup/JIT and I/O affect full wall time."
+    }
+  ],
+  "profiles": [
+    {
+      "N": 24,
+      "generation_seconds_range": [
+        115.68815054203151,
+        116.42544495803304
+      ],
+      "audit_seconds_range": [
+        28.731699500000104,
+        29.080893917009234
+      ],
+      "max_tau_cycles": 6.967008729895138,
+      "requested_blocks_at_100k_after_10k_cut": 642,
+      "linear_generation_plus_audit_seconds_100k": 3628.9286114508286
+    },
+    {
+      "N": 32,
+      "generation_seconds_range": [
+        223.08756129199173,
+        223.325527833018
+      ],
+      "audit_seconds_range": [
+        54.79844891699031,
+        54.88668674998917
+      ],
+      "max_tau_cycles": 11.17959574267382,
+      "requested_blocks_at_100k_after_10k_cut": 401,
+      "linear_generation_plus_audit_seconds_100k": 6955.305364575179
+    },
+    {
+      "N": 48,
+      "generation_seconds_range": [
+        545.0775996669545,
+        545.1662197500118
+      ],
+      "audit_seconds_range": [
+        123.45600141701289,
+        123.82647725002607
+      ],
+      "max_tau_cycles": 18.793594978281416,
+      "requested_blocks_at_100k_after_10k_cut": 239,
+      "linear_generation_plus_audit_seconds_100k": 16724.817425000947
+    },
+    {
+      "N": 64,
+      "generation_seconds_range": [
+        987.897869583976,
+        987.9026788750198
+      ],
+      "audit_seconds_range": [
+        183.57916529098293,
+        184.02732237498276
+      ],
+      "max_tau_cycles": 17.4497812625478,
+      "requested_blocks_at_100k_after_10k_cut": 257,
+      "linear_generation_plus_audit_seconds_100k": 29298.12979897397
+    }
+  ],
+  "worker_seconds": 4526.95774791803,
+  "full_bytes": 28700778176,
+  "scope": "Pilot cost/coverage/autocorrelation only; initial warmup and tau estimates do not certify equilibrium or target Delta accuracy.",
+  "provisional_100k_scenario": {
+    "trajectories": 80,
+    "physical_full_ceiling_bytes": 8199419936720,
+    "worker_hours_linear": 314.48434000000515,
+    "perfect14worker_wall_lower_bound_hours": 22.463167142857507,
+    "scope": "Scenario only. Cost extrapolated from4k at one epsilon; no larger/full main commitment before review, resource-contention/different-epsilon/retention/analysis margins not included."
+  }
+}

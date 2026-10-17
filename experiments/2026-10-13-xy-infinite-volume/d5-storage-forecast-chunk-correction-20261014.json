@@ -1,0 +1,40 @@
+{
+  "created": "2026-10-14T15:15:21.840720-05:00",
+  "supersedes_storage_numbers_only": "runtime-forecast-d5-calibration-20261014.json and oldrun.estimated_bytes-based conservative labels; originals retained",
+  "observed_refinement_GiB": 352.42973051965237,
+  "previous_refinement_estimate_GiB": 271.13262,
+  "corrected_refinement_ceiling_GiB": 407.3198009189218,
+  "remaining_structural_baseline_trajectories": 114,
+  "remaining_structural_baseline_coordinates": 57,
+  "remaining_structural_baseline_GiB": 793.6782496646047,
+  "uniform8000_remaining_GiB": 1566.9966761749238,
+  "status_snapshot": {
+    "updated": "2026-10-14T15:15:21.487784-05:00",
+    "pid": 95610,
+    "worker_limit": 15,
+    "active": 6,
+    "paused": 0,
+    "total": 2580,
+    "complete": 2258,
+    "failed": [],
+    "pending": 0,
+    "disk_free_bytes": 570602813387,
+    "reserve_bytes": 26843545600,
+    "deadline": "2026-10-16T15:00:00-05:00",
+    "launch_new": false,
+    "state": "running",
+    "physical_disk_free_bytes": 591266652160,
+    "retention_reserved_bytes": 3643597217,
+    "active_reserved_bytes": 17020241556
+  },
+  "scope": "Structural baseline count, not a frozen final grid: measured beta windows require adaptive correction. Lower-bracket18 and N10 midpoint2 are extra coverage checks. Full remaining grid does not currently fit; staged batches only after corrected shared admission plus actual recovery, never forecast thinning savings.",
+  "timing": "Actual refinement6.5105workerhours in33.7933min,11.5594effectiveworkers. Earlier12\u201329h planning range remains provisional,notabound;N12timing and sustained retention throughput unmeasured. No forecast of certified precision. Friday remains practically feasible with staged sampling, but full-grid storage cannot be committed now.",
+  "mechanism": "HDF5 auto-chunks for N10 phi(128,1,2,3,3,3,3) physically pad four axes10to12. Corrected estimate uses ceilchunkgeometry phi+winding with15%scalar/metadata margin, maxlegacy; frozen numerical kernels unchanged.",
+  "validation": "17retention/admission/routing tests pass, plus8D5analysis tests. Independentreview verified geometry/import recursion and stagebudget. Wrappers reloaded under existing locks; new retention queue rescans after each completed copy.",
+  "deployment_verified_at": "2026-10-14T15:21:55.900501-05:00",
+  "deployed_service_pids": {
+    "coordinator": 95610,
+    "retention": 95868
+  },
+  "launchgate_reopened": true
+}

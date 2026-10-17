@@ -1,0 +1,1690 @@
+{
+  "complete": false,
+  "missing": [
+    "scaled3_km4400_q0510000_N008_r180_s016000",
+    "scaled3_km4400_q0510000_N008_r181_s016000",
+    "scaled3_km4400_q0510000_N008_r182_s016000",
+    "scaled3_km4400_q0510000_N008_r183_s016000",
+    "scaled3_km4800_q0510000_N008_r180_s016000",
+    "scaled3_km4800_q0510000_N008_r181_s016000",
+    "scaled3_km4800_q0510000_N008_r182_s016000",
+    "scaled3_km4800_q0510000_N008_r183_s016000",
+    "scaled3_km3600_q0510000_N012_r180_s016000",
+    "scaled3_km3600_q0510000_N012_r181_s016000",
+    "scaled3_km3600_q0510000_N012_r182_s016000",
+    "scaled3_km3600_q0510000_N012_r183_s016000",
+    "scaled3_km4000_q0510000_N012_r180_s016000",
+    "scaled3_km4000_q0510000_N012_r181_s016000",
+    "scaled3_km4000_q0510000_N012_r182_s016000",
+    "scaled3_km4000_q0510000_N012_r183_s016000",
+    "scaled3_km4400_q0510000_N012_r180_s016000",
+    "scaled3_km4400_q0510000_N012_r181_s016000",
+    "scaled3_km4400_q0510000_N012_r182_s016000",
+    "scaled3_km4400_q0510000_N012_r183_s016000",
+    "scaled3_km4800_q0510000_N012_r180_s016000",
+    "scaled3_km4800_q0510000_N012_r181_s016000",
+    "scaled3_km4800_q0510000_N012_r182_s016000",
+    "scaled3_km4800_q0510000_N012_r183_s016000"
+  ],
+  "manifest_sha256": {
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/batches/q051-q0505-two-size-boundary-brackets-v1.json": "4fa06873aadd169479f29110af9765d9514a1915cb68114301282bf6c4485f26"
+  },
+  "epsilon_over_pi": 0.51,
+  "trajectories": 8,
+  "source_script_sha256": "dcc226e51481cf3039a4dbb194bb3833ba11179df2f8a39848fc221ca2730154",
+  "chains": [
+    {
+      "point": {
+        "id": "scaled3_km3600_q0510000_N008_r180_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -3.6,
+        "kappas": [
+          -3.6
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 4234048330265114617,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km3600_q0510000_N008_r180_s016000.h5",
+      "audit_sha256": "0c282a0cb4db7352d6803648d7860e7727747359a35512bf0a1226913c680332",
+      "means": {
+        "m2": 0.22847101438431033,
+        "m4": 0.052552886546015296,
+        "Binder_U": 0.4966102597530957,
+        "R": 1.24723268007649,
+        "C": 0.05927645349363227,
+        "vortex": 0.005378580729166583,
+        "AF_nematic": 0.982536341091182,
+        "staggered_m2": 0.17668591795818592
+      },
+      "halves": [
+        {
+          "m2": 0.2243709842648556,
+          "m4": 0.050719270827920916,
+          "Binder_U": 0.4962563097129269,
+          "R": 1.1758004186575024,
+          "C": 0.05904045721229307,
+          "vortex": 0.005541449652777845,
+          "AF_nematic": 0.9825582520130506,
+          "staggered_m2": 0.17337295153828614
+        },
+        {
+          "m2": 0.23257104450376465,
+          "m4": 0.054386502264109474,
+          "Binder_U": 0.49725258439829223,
+          "R": 1.3297675453551403,
+          "C": 0.05951244977497135,
+          "vortex": 0.005215711805555609,
+          "AF_nematic": 0.9825144301693077,
+          "staggered_m2": 0.1799988843780889
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 12000,
+        "intermediate_frames": 0,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km3600_q0510000_N008_r181_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -3.6,
+        "kappas": [
+          -3.6
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 5682642243640591135,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km3600_q0510000_N008_r181_s016000.h5",
+      "audit_sha256": "d9c19a6cd577045785002663aa8235d857eacfdaf99c5f2f7c970101f915831a",
+      "means": {
+        "m2": 0.22565227874521707,
+        "m4": 0.05138445117179106,
+        "Binder_U": 0.49542900766190645,
+        "R": 1.1892637996564694,
+        "C": 0.058904662642410385,
+        "vortex": 0.005718207465277697,
+        "AF_nematic": 0.9826622267591764,
+        "staggered_m2": 0.17464495004862138
+      },
+      "halves": [
+        {
+          "m2": 0.2277526435148255,
+          "m4": 0.052294653845095206,
+          "Binder_U": 0.4959188656396183,
+          "R": 1.2023305028381581,
+          "C": 0.05922335372250995,
+          "vortex": 0.00485308159722224,
+          "AF_nematic": 0.9825870087252124,
+          "staggered_m2": 0.1762539294813377
+        },
+        {
+          "m2": 0.22355191397560698,
+          "m4": 0.05047424849848741,
+          "Binder_U": 0.4950096479964893,
+          "R": 1.1763699633788947,
+          "C": 0.058585971562310685,
+          "vortex": 0.0065833333333333395,
+          "AF_nematic": 0.9827374447931427,
+          "staggered_m2": 0.17303597061590711
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11968,
+        "intermediate_frames": 32,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km3600_q0510000_N008_r182_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -3.6,
+        "kappas": [
+          -3.6
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 10740264980403232909,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km3600_q0510000_N008_r182_s016000.h5",
+      "audit_sha256": "2fceea3d82ae454912d773b6ac78ec818b0034aec8d294a45ce2ebefc2d0f635",
+      "means": {
+        "m2": 0.22914296619447383,
+        "m4": 0.052821904553059386,
+        "Binder_U": 0.4969965089757793,
+        "R": 1.287501801946891,
+        "C": 0.05927310182743383,
+        "vortex": 0.005449978298611033,
+        "AF_nematic": 0.9825702702367586,
+        "staggered_m2": 0.1771653122664231
+      },
+      "halves": [
+        {
+          "m2": 0.22803203925510718,
+          "m4": 0.05235007726674088,
+          "Binder_U": 0.496620425684134,
+          "R": 1.2450627705625963,
+          "C": 0.05954815570961911,
+          "vortex": 0.005362630208333395,
+          "AF_nematic": 0.9824382465956515,
+          "staggered_m2": 0.17611117080651623
+        },
+        {
+          "m2": 0.23025389313384179,
+          "m4": 0.05329373183937773,
+          "Binder_U": 0.49738878763646777,
+          "R": 1.3340123909488988,
+          "C": 0.05899804794524781,
+          "vortex": 0.005537326388888894,
+          "AF_nematic": 0.9827022938778744,
+          "staggered_m2": 0.17821945372632914
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11996,
+        "intermediate_frames": 4,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km3600_q0510000_N008_r183_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -3.6,
+        "kappas": [
+          -3.6
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 10200274883474105244,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km3600_q0510000_N008_r183_s016000.h5",
+      "audit_sha256": "f993f43f77c000784b2932538b539649a3eeb4530bb86ec434d510f12938051b",
+      "means": {
+        "m2": 0.2289523510290541,
+        "m4": 0.05280861433536836,
+        "Binder_U": 0.49628537397230954,
+        "R": 1.2926052044197682,
+        "C": 0.05889989468680211,
+        "vortex": 0.005856228298611048,
+        "AF_nematic": 0.9827205747562496,
+        "staggered_m2": 0.17739607242369257
+      },
+      "halves": [
+        {
+          "m2": 0.22976319696175238,
+          "m4": 0.05326059261666244,
+          "Binder_U": 0.4955535525748467,
+          "R": 1.2909787831429447,
+          "C": 0.05892609741110121,
+          "vortex": 0.005925781250000041,
+          "AF_nematic": 0.982702909968446,
+          "staggered_m2": 0.17805353190190498
+        },
+        {
+          "m2": 0.22814150509635575,
+          "m4": 0.05235663605407395,
+          "Binder_U": 0.4970403620459858,
+          "R": 1.2942492843175566,
+          "C": 0.05887369196250315,
+          "vortex": 0.005786675347222247,
+          "AF_nematic": 0.9827382395440474,
+          "staggered_m2": 0.17673861294547988
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 12000,
+        "intermediate_frames": 0,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km4000_q0510000_N008_r180_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -4.0,
+        "kappas": [
+          -4.0
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 7399216340602833438,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km4000_q0510000_N008_r180_s016000.h5",
+      "audit_sha256": "11f98d227dcca791b6c34311549e534d1fd122b1f13a347709ea4e20d207ec8f",
+      "means": {
+        "m2": 0.20081900394964539,
+        "m4": 0.04092279262511002,
+        "Binder_U": 0.4926289890047605,
+        "R": 1.1517170242920494,
+        "C": 0.043679724260122794,
+        "vortex": 0.02499099392361122,
+        "AF_nematic": 0.9887482066026165,
+        "staggered_m2": 0.16492666450211343
+      },
+      "halves": [
+        {
+          "m2": 0.20158194133430068,
+          "m4": 0.04131762916829483,
+          "Binder_U": 0.491603969361468,
+          "R": 1.170192469007706,
+          "C": 0.043084088170125115,
+          "vortex": 0.025476996527777806,
+          "AF_nematic": 0.9890378482206525,
+          "staggered_m2": 0.16598570148934957
+        },
+        {
+          "m2": 0.20005606656499056,
+          "m4": 0.0405279560819255,
+          "Binder_U": 0.4936844624953859,
+          "R": 1.1339370291812179,
+          "C": 0.04427536035012035,
+          "vortex": 0.024504991319444364,
+          "AF_nematic": 0.988458564984577,
+          "staggered_m2": 0.16386762751487696
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11591,
+        "intermediate_frames": 409,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km4000_q0510000_N008_r181_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -4.0,
+        "kappas": [
+          -4.0
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 1964992890563693526,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km4000_q0510000_N008_r181_s016000.h5",
+      "audit_sha256": "e42817c738347c905db402cb200b592e11cd01f4092dca255df3e9ab0edb8c36",
+      "means": {
+        "m2": 0.20355760371297477,
+        "m4": 0.042248591035114524,
+        "Binder_U": 0.49019090971787316,
+        "R": 1.1891966294506335,
+        "C": 0.04506068914583808,
+        "vortex": 0.02351703559027782,
+        "AF_nematic": 0.9882621315174414,
+        "staggered_m2": 0.16631187964491756
+      },
+      "halves": [
+        {
+          "m2": 0.20137279541681682,
+          "m4": 0.04151319684955222,
+          "Binder_U": 0.48813600095315635,
+          "R": 1.213649971661919,
+          "C": 0.04429214325038299,
+          "vortex": 0.026394531250000075,
+          "AF_nematic": 0.988485052818664,
+          "staggered_m2": 0.16477680632495315
+        },
+        {
+          "m2": 0.2057424120091334,
+          "m4": 0.04298398522067664,
+          "Binder_U": 0.4922744383785356,
+          "R": 1.1666074857205226,
+          "C": 0.045829235041292785,
+          "vortex": 0.02063953993055555,
+          "AF_nematic": 0.9880392102162265,
+          "staggered_m2": 0.16784695296488128
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11419,
+        "intermediate_frames": 581,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km4000_q0510000_N008_r182_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -4.0,
+        "kappas": [
+          -4.0
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 11528417987067558971,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km4000_q0510000_N008_r182_s016000.h5",
+      "audit_sha256": "d8c13ddee52c249e0cfb53ebc3b5d63994dc810e94b1a76e6e052c546ffa502b",
+      "means": {
+        "m2": 0.197580145083849,
+        "m4": 0.039762228457108986,
+        "Binder_U": 0.4907229324453831,
+        "R": 1.103602039065917,
+        "C": 0.04437423215935244,
+        "vortex": 0.023963433159722176,
+        "AF_nematic": 0.9884936335082897,
+        "staggered_m2": 0.16176189183224868
+      },
+      "halves": [
+        {
+          "m2": 0.19481735978341644,
+          "m4": 0.038729005651987586,
+          "Binder_U": 0.48978755876900004,
+          "R": 1.097837396642169,
+          "C": 0.04325826452408437,
+          "vortex": 0.027093532986111057,
+          "AF_nematic": 0.9889045164345697,
+          "staggered_m2": 0.1602220400284561
+        },
+        {
+          "m2": 0.20034293038428083,
+          "m4": 0.040795451262230026,
+          "Binder_U": 0.491801121708923,
+          "R": 1.109293126425574,
+          "C": 0.04549019979462069,
+          "vortex": 0.020833333333333436,
+          "AF_nematic": 0.9880827505820072,
+          "staggered_m2": 0.16330174363604125
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11381,
+        "intermediate_frames": 619,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "scaled3_km4000_q0510000_N008_r183_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -4.0,
+        "kappas": [
+          -4.0
+        ],
+        "epsilon": 1.6022122533307945,
+        "epsilon_over_pi": 0.51,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 2307597518181480323,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "near_half_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km4000_q0510000_N008_r183_s016000.h5",
+      "audit_sha256": "83fb4707f5dac090a9504be1521c4f7cf370a005b32292f39d6a72fc7a9a5465",
+      "means": {
+        "m2": 0.19791394463597856,
+        "m4": 0.03989136804579228,
+        "Binder_U": 0.4907909131574749,
+        "R": 1.1080623957754074,
+        "C": 0.043977939603165754,
+        "vortex": 0.025211263020833444,
+        "AF_nematic": 0.9886470766675901,
+        "staggered_m2": 0.16231988757871146
+      },
+      "halves": [
+        {
+          "m2": 0.19222428262909738,
+          "m4": 0.037668680915584264,
+          "Binder_U": 0.49027736557980184,
+          "R": 1.044016302756358,
+          "C": 0.042979807694888045,
+          "vortex": 0.027965928819444538,
+          "AF_nematic": 0.9889366710336001,
+          "staggered_m2": 0.1580486658984172
+        },
+        {
+          "m2": 0.20360360664285992,
+          "m4": 0.04211405517600043,
+          "Binder_U": 0.4920439557401637,
+          "R": 1.1803716507914868,
+          "C": 0.044976071511443366,
+          "vortex": 0.022456597222222305,
+          "AF_nematic": 0.98835748230158,
+          "staggered_m2": 0.1665911092590057
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11363,
+        "intermediate_frames": 637,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    }
+  ],
+  "coordinates": [
+    {
+      "N": 8,
+      "kappa": -4.0,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.19996767434561347,
+          "m4": 0.04070624504078126,
+          "Binder_U": 0.49100741510315604,
+          "R": 1.1370170750183968,
+          "C": 0.04427314629212013,
+          "vortex": 0.02442068142361108,
+          "AF_nematic": 0.9885377620739996,
+          "staggered_m2": 0.16383008088949766
+        },
+        "uniform zero-winding": {
+          "m2": 0.20081900394964539,
+          "m4": 0.04092279262511002,
+          "Binder_U": 0.4926289890047605,
+          "R": 1.1517170242920494,
+          "C": 0.043679724260122794,
+          "vortex": 0.02499099392361122,
+          "AF_nematic": 0.9887482066026165,
+          "staggered_m2": 0.16492666450211343
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.20158194133430068,
+          "m4": 0.04131762916829483,
+          "Binder_U": 0.491603969361468,
+          "R": 1.170192469007706,
+          "C": 0.043084088170125115,
+          "vortex": 0.025476996527777806,
+          "AF_nematic": 0.9890378482206525,
+          "staggered_m2": 0.16598570148934957
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.20005606656499056,
+          "m4": 0.0405279560819255,
+          "Binder_U": 0.4936844624953859,
+          "R": 1.1339370291812179,
+          "C": 0.04427536035012035,
+          "vortex": 0.024504991319444364,
+          "AF_nematic": 0.988458564984577,
+          "staggered_m2": 0.16386762751487696
+        },
+        "unit-x winding": {
+          "m2": 0.20355760371297477,
+          "m4": 0.042248591035114524,
+          "Binder_U": 0.49019090971787316,
+          "R": 1.1891966294506335,
+          "C": 0.04506068914583808,
+          "vortex": 0.02351703559027782,
+          "AF_nematic": 0.9882621315174414,
+          "staggered_m2": 0.16631187964491756
+        },
+        "unit-x winding:half1": {
+          "m2": 0.20137279541681682,
+          "m4": 0.04151319684955222,
+          "Binder_U": 0.48813600095315635,
+          "R": 1.213649971661919,
+          "C": 0.04429214325038299,
+          "vortex": 0.026394531250000075,
+          "AF_nematic": 0.988485052818664,
+          "staggered_m2": 0.16477680632495315
+        },
+        "unit-x winding:half2": {
+          "m2": 0.2057424120091334,
+          "m4": 0.04298398522067664,
+          "Binder_U": 0.4922744383785356,
+          "R": 1.1666074857205226,
+          "C": 0.045829235041292785,
+          "vortex": 0.02063953993055555,
+          "AF_nematic": 0.9880392102162265,
+          "staggered_m2": 0.16784695296488128
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.197580145083849,
+          "m4": 0.039762228457108986,
+          "Binder_U": 0.4907229324453831,
+          "R": 1.103602039065917,
+          "C": 0.04437423215935244,
+          "vortex": 0.023963433159722176,
+          "AF_nematic": 0.9884936335082897,
+          "staggered_m2": 0.16176189183224868
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.19481735978341644,
+          "m4": 0.038729005651987586,
+          "Binder_U": 0.48978755876900004,
+          "R": 1.097837396642169,
+          "C": 0.04325826452408437,
+          "vortex": 0.027093532986111057,
+          "AF_nematic": 0.9889045164345697,
+          "staggered_m2": 0.1602220400284561
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.20034293038428083,
+          "m4": 0.040795451262230026,
+          "Binder_U": 0.491801121708923,
+          "R": 1.109293126425574,
+          "C": 0.04549019979462069,
+          "vortex": 0.020833333333333436,
+          "AF_nematic": 0.9880827505820072,
+          "staggered_m2": 0.16330174363604125
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.19791394463597856,
+          "m4": 0.03989136804579228,
+          "Binder_U": 0.4907909131574749,
+          "R": 1.1080623957754074,
+          "C": 0.043977939603165754,
+          "vortex": 0.025211263020833444,
+          "AF_nematic": 0.9886470766675901,
+          "staggered_m2": 0.16231988757871146
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.19222428262909738,
+          "m4": 0.037668680915584264,
+          "Binder_U": 0.49027736557980184,
+          "R": 1.044016302756358,
+          "C": 0.042979807694888045,
+          "vortex": 0.027965928819444538,
+          "AF_nematic": 0.9889366710336001,
+          "staggered_m2": 0.1580486658984172
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.20360360664285992,
+          "m4": 0.04211405517600043,
+          "Binder_U": 0.4920439557401637,
+          "R": 1.1803716507914868,
+          "C": 0.044976071511443366,
+          "vortex": 0.022456597222222305,
+          "AF_nematic": 0.98835748230158,
+          "staggered_m2": 0.1665911092590057
+        },
+        "pooled:half1": {
+          "m2": 0.19749909479090696,
+          "m4": 0.03980712814635463,
+          "Binder_U": 0.48972929917841057,
+          "R": 1.127209930945676,
+          "C": 0.04340357590986995,
+          "vortex": 0.026732747395833527,
+          "AF_nematic": 0.9888410221268714,
+          "staggered_m2": 0.1622583034352949
+        },
+        "pooled:half2": {
+          "m2": 0.20243625390031564,
+          "m4": 0.04160536193520809,
+          "Binder_U": 0.4923753247965148,
+          "R": 1.1468290685279574,
+          "C": 0.04514271667436923,
+          "vortex": 0.022108615451389174,
+          "AF_nematic": 0.9882345020210934,
+          "staggered_m2": 0.1654018583437016
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -3.6,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.22805465258826405,
+          "m4": 0.05239196415155858,
+          "Binder_U": 0.49631755907671005,
+          "R": 1.2523476324431524,
+          "C": 0.0590885281625695,
+          "vortex": 0.005600748697916345,
+          "AF_nematic": 0.9826223532108403,
+          "staggered_m2": 0.1764730631742314
+        },
+        "uniform zero-winding": {
+          "m2": 0.22847101438431033,
+          "m4": 0.052552886546015296,
+          "Binder_U": 0.4966102597530957,
+          "R": 1.24723268007649,
+          "C": 0.05927645349363227,
+          "vortex": 0.005378580729166583,
+          "AF_nematic": 0.982536341091182,
+          "staggered_m2": 0.17668591795818592
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.2243709842648556,
+          "m4": 0.050719270827920916,
+          "Binder_U": 0.4962563097129269,
+          "R": 1.1758004186575024,
+          "C": 0.05904045721229307,
+          "vortex": 0.005541449652777845,
+          "AF_nematic": 0.9825582520130506,
+          "staggered_m2": 0.17337295153828614
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.23257104450376465,
+          "m4": 0.054386502264109474,
+          "Binder_U": 0.49725258439829223,
+          "R": 1.3297675453551403,
+          "C": 0.05951244977497135,
+          "vortex": 0.005215711805555609,
+          "AF_nematic": 0.9825144301693077,
+          "staggered_m2": 0.1799988843780889
+        },
+        "unit-x winding": {
+          "m2": 0.22565227874521707,
+          "m4": 0.05138445117179106,
+          "Binder_U": 0.49542900766190645,
+          "R": 1.1892637996564694,
+          "C": 0.058904662642410385,
+          "vortex": 0.005718207465277697,
+          "AF_nematic": 0.9826622267591764,
+          "staggered_m2": 0.17464495004862138
+        },
+        "unit-x winding:half1": {
+          "m2": 0.2277526435148255,
+          "m4": 0.052294653845095206,
+          "Binder_U": 0.4959188656396183,
+          "R": 1.2023305028381581,
+          "C": 0.05922335372250995,
+          "vortex": 0.00485308159722224,
+          "AF_nematic": 0.9825870087252124,
+          "staggered_m2": 0.1762539294813377
+        },
+        "unit-x winding:half2": {
+          "m2": 0.22355191397560698,
+          "m4": 0.05047424849848741,
+          "Binder_U": 0.4950096479964893,
+          "R": 1.1763699633788947,
+          "C": 0.058585971562310685,
+          "vortex": 0.0065833333333333395,
+          "AF_nematic": 0.9827374447931427,
+          "staggered_m2": 0.17303597061590711
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.22914296619447383,
+          "m4": 0.052821904553059386,
+          "Binder_U": 0.4969965089757793,
+          "R": 1.287501801946891,
+          "C": 0.05927310182743383,
+          "vortex": 0.005449978298611033,
+          "AF_nematic": 0.9825702702367586,
+          "staggered_m2": 0.1771653122664231
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.22803203925510718,
+          "m4": 0.05235007726674088,
+          "Binder_U": 0.496620425684134,
+          "R": 1.2450627705625963,
+          "C": 0.05954815570961911,
+          "vortex": 0.005362630208333395,
+          "AF_nematic": 0.9824382465956515,
+          "staggered_m2": 0.17611117080651623
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.23025389313384179,
+          "m4": 0.05329373183937773,
+          "Binder_U": 0.49738878763646777,
+          "R": 1.3340123909488988,
+          "C": 0.05899804794524781,
+          "vortex": 0.005537326388888894,
+          "AF_nematic": 0.9827022938778744,
+          "staggered_m2": 0.17821945372632914
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.2289523510290541,
+          "m4": 0.05280861433536836,
+          "Binder_U": 0.49628537397230954,
+          "R": 1.2926052044197682,
+          "C": 0.05889989468680211,
+          "vortex": 0.005856228298611048,
+          "AF_nematic": 0.9827205747562496,
+          "staggered_m2": 0.17739607242369257
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.22976319696175238,
+          "m4": 0.05326059261666244,
+          "Binder_U": 0.4955535525748467,
+          "R": 1.2909787831429447,
+          "C": 0.05892609741110121,
+          "vortex": 0.005925781250000041,
+          "AF_nematic": 0.982702909968446,
+          "staggered_m2": 0.17805353190190498
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.22814150509635575,
+          "m4": 0.05235663605407395,
+          "Binder_U": 0.4970403620459858,
+          "R": 1.2942492843175566,
+          "C": 0.05887369196250315,
+          "vortex": 0.005786675347222247,
+          "AF_nematic": 0.9827382395440474,
+          "staggered_m2": 0.17673861294547988
+        },
+        "pooled:half1": {
+          "m2": 0.2274797159991355,
+          "m4": 0.052156148639105004,
+          "Binder_U": 0.4960468502472134,
+          "R": 1.2266281392312157,
+          "C": 0.059184516013881035,
+          "vortex": 0.005420735677083573,
+          "AF_nematic": 0.9825716043255891,
+          "staggered_m2": 0.17594789593201304
+        },
+        "pooled:half2": {
+          "m2": 0.22862958917739176,
+          "m4": 0.052627779664011845,
+          "Binder_U": 0.49659192206801617,
+          "R": 1.2795737677847747,
+          "C": 0.058992540311258675,
+          "vortex": 0.005780761718750083,
+          "AF_nematic": 0.9826731020960915,
+          "staggered_m2": 0.17699823041645132
+        }
+      }
+    }
+  ],
+  "families": [
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [],
+      "status": "missing"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [],
+      "status": "missing"
+    }
+  ],
+  "common_anchors": [
+    {
+      "N": 8,
+      "lower_kappa": null,
+      "upper_kappa": null,
+      "status": "unresolved",
+      "low_phase_candidates": [],
+      "high_phase_candidates": [
+        -4.0,
+        -3.6
+      ]
+    }
+  ],
+  "xi_pair_crossings": [],
+  "primary": {
+    "N": 8,
+    "variant": "pooled",
+    "target": 0.25,
+    "interpolation": "linear",
+    "roots": [],
+    "status": "missing"
+  },
+  "scope": "No root-MC uncertainty is calculated here. Observable conditional-MC intervals and sampling flags are joined from the source analyses; the root bracket/sensitivity ranges are descriptive only. Pooledxi/L centralcrossings are descriptive checks. Exploratory fixed finite-box Binder locators within strong staggered-nematic response. All start/half/threshold/interpolation families retained, including failures. Anchor brackets and variant unions are descriptive, not calibrated confidence intervals or thermodynamic estimates. Pooling never removes incompatible starts. No assumed universality or fitted asymptote."
+}

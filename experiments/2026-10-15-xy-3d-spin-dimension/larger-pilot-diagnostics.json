@@ -1,0 +1,4126 @@
+{
+  "created": "2026-10-15T18:35:54.062087-05:00",
+  "source_point_ids": [
+    "spinpilot3_e080050_N064_r30_s020000",
+    "spinpilot3_e080050_N064_r31_s020000",
+    "spinpilot3_e080075_N048_r30_s020000",
+    "spinpilot3_e080075_N048_r31_s020000",
+    "spinpilot3_e080075_N064_r30_s020000",
+    "spinpilot3_e080075_N064_r31_s020000",
+    "spinpilot3_e080100_N048_r30_s020000",
+    "spinpilot3_e080100_N048_r31_s020000",
+    "spinpilot3_e080100_N064_r30_s020000",
+    "spinpilot3_e080100_N064_r31_s020000",
+    "spinpilot3_e080125_N048_r30_s020000",
+    "spinpilot3_e080125_N048_r31_s020000",
+    "spinpilot3_e080125_N064_r30_s020000",
+    "spinpilot3_e080125_N064_r31_s020000",
+    "spinpilot3_e080150_N048_r30_s020000",
+    "spinpilot3_e080150_N048_r31_s020000",
+    "spinpilot3_e080150_N064_r30_s020000",
+    "spinpilot3_e080150_N064_r31_s020000",
+    "spinpilot3_e080175_N048_r30_s020000",
+    "spinpilot3_e080175_N048_r31_s020000",
+    "spinpilot3_e080175_N064_r30_s020000",
+    "spinpilot3_e080175_N064_r31_s020000",
+    "spinpilot3_e080200_N048_r30_s020000",
+    "spinpilot3_e080200_N048_r31_s020000",
+    "spinpilot3_e080200_N064_r30_s020000",
+    "spinpilot3_e080200_N064_r31_s020000",
+    "spinpilot3_e080225_N048_r30_s020000",
+    "spinpilot3_e080225_N048_r31_s020000"
+  ],
+  "records": [
+    {
+      "id": "spinpilot3_e080075_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80075,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861146792,
+        "sha256": "181d2ffb55bc2e1e5a83999fcb97ea18ff7f99c06099671524d1ea4208010088"
+      },
+      "generation_seconds": 1113.1848060830089,
+      "audit_seconds": 197.27747120900312,
+      "current_bytes": 18861146792,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 13.530779889062288,
+            "m4": 10.729205100798264,
+            "mabs": 14.589046153668626,
+            "binder": 9.926274167219665
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.1427675905826034,
+            "mean_winding_axis1": 3.0290251253606773,
+            "mean_winding_axis2": 2.920573860211257,
+            "mean_winding_squared": 9.83233754179377,
+            "vortex_density": 15.387971239355847
+          },
+          "directional_mean_winding": [
+            0.000994289108187126,
+            0.00022886970029239957,
+            0.0006949470029239716
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14756944444444445,
+              0.1597222222222222
+            ],
+            [
+              -0.1545138888888889,
+              0.15494791666666666
+            ],
+            [
+              -0.1462673611111111,
+              0.15755208333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9083719618055555,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 13.046950452786412,
+            "m4": 11.053175802231133,
+            "mabs": 13.787882542921087,
+            "binder": 9.96678170948016
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.181985848705922,
+            "mean_winding_axis1": 3.076243953115395,
+            "mean_winding_axis2": 2.9641478105563874,
+            "mean_winding_squared": 10.019685181625036,
+            "vortex_density": 15.505095516255551
+          },
+          "directional_mean_winding": [
+            0.0005996907552083319,
+            0.00025906032986111485,
+            0.0007466634114583284
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1410590277777778,
+              0.14366319444444445
+            ],
+            [
+              -0.1545138888888889,
+              0.1401909722222222
+            ],
+            [
+              -0.1423611111111111,
+              0.15755208333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9081136248553239,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 14.419243999525122,
+            "m4": 12.047175231398194,
+            "mabs": 15.235998727276908,
+            "binder": 10.455230220363598
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.141857685193436,
+            "mean_winding_axis1": 2.9174371870740887,
+            "mean_winding_axis2": 2.9926100804681814,
+            "mean_winding_squared": 11.570408720695342,
+            "vortex_density": 15.857306916127019
+          },
+          "directional_mean_winding": [
+            0.0010460069444444477,
+            -0.00018019386574074018,
+            0.0005409794560185189
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1410590277777778,
+              0.14366319444444445
+            ],
+            [
+              -0.1545138888888889,
+              0.1401909722222222
+            ],
+            [
+              -0.1423611111111111,
+              0.15755208333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9081961684992281,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080075_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80075,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "696792a61df6027fcf07dc195de3a52aad87fb4ad8dd04baa4aaa9b91129aeca"
+      },
+      "generation_seconds": 1114.6393415839993,
+      "audit_seconds": 196.07531975000165,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 10.924227814777776,
+            "m4": 9.813902674601604,
+            "mabs": 11.152506618382128,
+            "binder": 8.038752786281075
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.560642721907824,
+            "mean_winding_axis1": 2.977499266625435,
+            "mean_winding_axis2": 2.7124778348129372,
+            "mean_winding_squared": 8.0819203538392,
+            "vortex_density": 11.892940978573078
+          },
+          "directional_mean_winding": [
+            -0.0001714638157894746,
+            -0.0006402823464912291,
+            -0.0001762609649122817
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1462673611111111,
+              0.1605902777777778
+            ],
+            [
+              -0.1480034722222222,
+              0.1519097222222222
+            ],
+            [
+              -0.1371527777777778,
+              0.1597222222222222
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9090387655336258,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.24517768878199,
+            "m4": 10.012106240013845,
+            "mabs": 11.546393121741495,
+            "binder": 8.538633931035516
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.490669465769168,
+            "mean_winding_axis1": 3.0024154464373947,
+            "mean_winding_axis2": 2.668142088681371,
+            "mean_winding_squared": 8.271736879472149,
+            "vortex_density": 12.043279746702709
+          },
+          "directional_mean_winding": [
+            -0.0004106987847222222,
+            -0.0005410427517361197,
+            -0.0001896158854166676
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1462673611111111,
+              0.1401909722222222
+            ],
+            [
+              -0.1480034722222222,
+              0.1519097222222222
+            ],
+            [
+              -0.13194444444444445,
+              0.1597222222222222
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.908111083984375,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 12.28858260980397,
+            "m4": 10.718324482923583,
+            "mabs": 12.72812601424823,
+            "binder": 9.517956763740365
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.4519638777312345,
+            "mean_winding_axis1": 2.8804407835118866,
+            "mean_winding_axis2": 2.6050226908166083,
+            "mean_winding_squared": 8.932518525333382,
+            "vortex_density": 12.985509126481059
+          },
+          "directional_mean_winding": [
+            -0.00013823784722222167,
+            -0.0011204427083333335,
+            0.00022913049768518494
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1462673611111111,
+              0.125
+            ],
+            [
+              -0.1480034722222222,
+              0.1519097222222222
+            ],
+            [
+              -0.13194444444444445,
+              0.1597222222222222
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9081341989776235,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080100_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.801,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "942b5168697d9b1c15bf55d4dc73215c111e144bea5c9c4565b018ef293a8c98"
+      },
+      "generation_seconds": 1108.6138155420194,
+      "audit_seconds": 198.2528975000023,
+      "current_bytes": 18861245096,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 13.857742881054085,
+            "m4": 11.879936942024168,
+            "mabs": 13.116918373337223,
+            "binder": 7.030452914894235
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.5265984880205625,
+            "mean_winding_axis1": 3.4183727250776514,
+            "mean_winding_axis2": 3.392015630143383,
+            "mean_winding_squared": 10.999644917064042,
+            "vortex_density": 17.152518457708663
+          },
+          "directional_mean_winding": [
+            -0.0005844755116959083,
+            -0.0005419179459064317,
+            2.713815789473669e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.15755208333333334,
+              0.1714409722222222
+            ],
+            [
+              -0.1449652777777778,
+              0.1506076388888889
+            ],
+            [
+              -0.1801215277777778,
+              0.13932291666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9318071774488306,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 13.866025198090947,
+            "m4": 12.066719040878615,
+            "mabs": 12.784134764873354,
+            "binder": 6.899184700890298
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.4356049282184093,
+            "mean_winding_axis1": 3.504393839168933,
+            "mean_winding_axis2": 3.2852598457104065,
+            "mean_winding_squared": 9.946288608355216,
+            "vortex_density": 16.0608636098156
+          },
+          "directional_mean_winding": [
+            -0.0005005696614583281,
+            -0.0005986056857638854,
+            0.0003496365017361098
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1467013888888889,
+              0.13585069444444445
+            ],
+            [
+              -0.1449652777777778,
+              0.1506076388888889
+            ],
+            [
+              -0.1801215277777778,
+              0.13932291666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9304458640769675,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 14.34210347199177,
+            "m4": 12.699860151465225,
+            "mabs": 13.982574163621798,
+            "binder": 7.4087141145210325
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.295214633630324,
+            "mean_winding_axis1": 3.3385687207104637,
+            "mean_winding_axis2": 3.341210880774957,
+            "mean_winding_squared": 9.955167417307859,
+            "vortex_density": 15.983531965707364
+          },
+          "directional_mean_winding": [
+            -0.0009548611111111168,
+            -0.0006769748263888868,
+            0.0003845847800925922
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1401909722222222,
+              0.1349826388888889
+            ],
+            [
+              -0.1449652777777778,
+              0.14583333333333334
+            ],
+            [
+              -0.14149305555555555,
+              0.13932291666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9310665991512346,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080100_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.801,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "fb26a2c4a5fde3e89275bd2b8bf7bb11b430b754189717e359168a0c35c75574"
+      },
+      "generation_seconds": 1113.4782693340094,
+      "audit_seconds": 196.96645466599148,
+      "current_bytes": 18861245096,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 12.170998205695879,
+            "m4": 11.126962643609557,
+            "mabs": 12.12026614826258,
+            "binder": 7.756732238922192
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.3095849196977065,
+            "mean_winding_axis1": 3.2342698624541764,
+            "mean_winding_axis2": 3.7636887043892973,
+            "mean_winding_squared": 8.344128103202014,
+            "vortex_density": 13.73726390468587
+          },
+          "directional_mean_winding": [
+            -0.00020323921783625866,
+            -0.0006275584795321625,
+            0.00024246162280701516
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14149305555555555,
+              0.1410590277777778
+            ],
+            [
+              -0.1423611111111111,
+              0.14930555555555555
+            ],
+            [
+              -0.14539930555555555,
+              0.1736111111111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.930846788194444,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.978589753284634,
+            "m4": 11.333819002169028,
+            "mabs": 11.751909463667735,
+            "binder": 7.3054543108728955
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.272071351663012,
+            "mean_winding_axis1": 3.207793166017079,
+            "mean_winding_axis2": 3.8774014168007023,
+            "mean_winding_squared": 8.474398889249017,
+            "vortex_density": 13.816043626062077
+          },
+          "directional_mean_winding": [
+            -0.000328640407986113,
+            -8.995225694444374e-05,
+            0.0002469889322916655
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1410590277777778,
+              0.13975694444444445
+            ],
+            [
+              -0.1423611111111111,
+              0.14930555555555555
+            ],
+            [
+              -0.1423611111111111,
+              0.1736111111111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.930716163917824,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.65270448159425,
+            "m4": 11.481018181927299,
+            "mabs": 11.05656086005487,
+            "binder": 6.44793015774426
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 2.987446346525601,
+            "mean_winding_axis1": 3.2556681398912124,
+            "mean_winding_axis2": 3.753726270567194,
+            "mean_winding_squared": 7.900354840311085,
+            "vortex_density": 13.223218815730808
+          },
+          "directional_mean_winding": [
+            2.267795138888608e-05,
+            -0.0003270037615740731,
+            7.758246527777748e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1410590277777778,
+              0.13975694444444445
+            ],
+            [
+              -0.14149305555555555,
+              0.14366319444444445
+            ],
+            [
+              -0.1423611111111111,
+              0.1736111111111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9301288700810186,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080125_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80125,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "3536a590cf3fdc040e77c2be7fd78d7d0bb57afbc15c1d5bc292eabbe2e785ae"
+      },
+      "generation_seconds": 1099.2816521659843,
+      "audit_seconds": 177.4125700420118,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 10.334772329112354,
+            "m4": 9.492920971264155,
+            "mabs": 10.170744496331478,
+            "binder": 6.7275522981548415
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.5328107595130227,
+            "mean_winding_axis1": 3.6171925854504723,
+            "mean_winding_axis2": 3.8541188627039817,
+            "mean_winding_squared": 6.989195102240391,
+            "vortex_density": 11.728286376839156
+          },
+          "directional_mean_winding": [
+            -0.0014052677266081848,
+            4.139254385965097e-05,
+            -0.000535955774853799
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1566840277777778,
+              0.1644965277777778
+            ],
+            [
+              -0.1410590277777778,
+              0.16015625
+            ],
+            [
+              -0.1484375,
+              0.14583333333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.949768800255848,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 10.842052502364833,
+            "m4": 9.903267019844773,
+            "mabs": 10.69741987060984,
+            "binder": 6.818596400234183
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.4329912530025974,
+            "mean_winding_axis1": 3.543730195540843,
+            "mean_winding_axis2": 3.8215831366589335,
+            "mean_winding_squared": 7.568218400838687,
+            "vortex_density": 12.288401303001024
+          },
+          "directional_mean_winding": [
+            -0.001809570312499995,
+            -0.0003554687499999998,
+            -0.0006144476996527775
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1566840277777778,
+              0.1644965277777778
+            ],
+            [
+              -0.1410590277777778,
+              0.16015625
+            ],
+            [
+              -0.1484375,
+              0.14583333333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9500407172309029,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.342352932481841,
+            "m4": 10.287957575922036,
+            "mabs": 11.343194703712475,
+            "binder": 7.5547120609854375
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.4451567549767166,
+            "mean_winding_axis1": 3.673525446384791,
+            "mean_winding_axis2": 3.8747815268602332,
+            "mean_winding_squared": 8.228954423654617,
+            "vortex_density": 13.383947154157964
+          },
+          "directional_mean_winding": [
+            -0.0022145182291666613,
+            -0.0012154224537037127,
+            -0.0006010923032407445
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1566840277777778,
+              0.1644965277777778
+            ],
+            [
+              -0.1410590277777778,
+              0.16015625
+            ],
+            [
+              -0.1484375,
+              0.14583333333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9499378375771605,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080125_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80125,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "093af08a5984eff9e2522fc78901d26d2acb1659da4fb75a61c6e5710f97bd75"
+      },
+      "generation_seconds": 1112.1903332090005,
+      "audit_seconds": 197.3736989159952,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 10.606449535371112,
+            "m4": 9.528493116848047,
+            "mabs": 10.705128475373025,
+            "binder": 6.8623145589376575
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.8191021259751015,
+            "mean_winding_axis1": 3.9612195927641363,
+            "mean_winding_axis2": 4.084897477748698,
+            "mean_winding_squared": 8.7918172956912,
+            "vortex_density": 16.388169875620864
+          },
+          "directional_mean_winding": [
+            -0.0007443804824561396,
+            -0.0005958059210526335,
+            5.9758771929821705e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16666666666666666,
+              0.1401909722222222
+            ],
+            [
+              -0.13932291666666666,
+              0.15625
+            ],
+            [
+              -0.15104166666666666,
+              0.18489583333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9497003228557506,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 10.368131052477946,
+            "m4": 9.406136322697613,
+            "mabs": 10.335220117352149,
+            "binder": 6.396918802025163
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.619850036299445,
+            "mean_winding_axis1": 4.067112651396953,
+            "mean_winding_axis2": 4.132228880027215,
+            "mean_winding_squared": 8.389432882954758,
+            "vortex_density": 16.051050982827405
+          },
+          "directional_mean_winding": [
+            -0.0007948133680555592,
+            -0.0008147243923611101,
+            -6.819661458333386e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16666666666666666,
+              0.1401909722222222
+            ],
+            [
+              -0.13932291666666666,
+              0.15625
+            ],
+            [
+              -0.15104166666666666,
+              0.18489583333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9489205367476852,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 9.926418280779943,
+            "m4": 8.882090428533507,
+            "mabs": 9.98854746908557,
+            "binder": 6.395538923204141
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.4897903214871935,
+            "mean_winding_axis1": 4.086921090873412,
+            "mean_winding_axis2": 4.29702201620167,
+            "mean_winding_squared": 8.902181586345058,
+            "vortex_density": 17.179158241817287
+          },
+          "directional_mean_winding": [
+            4.8864293981481945e-05,
+            -0.001273726851851852,
+            0.00024540653935184833
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16666666666666666,
+              0.13151041666666666
+            ],
+            [
+              -0.13932291666666666,
+              0.15625
+            ],
+            [
+              -0.15104166666666666,
+              0.140625
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9486974826388888,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080150_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.8015,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "8efa53c9d1861410dea80b78437e5e10c7a496c36b83bb5b7e0d458248cb7024"
+      },
+      "generation_seconds": 1109.5901346669998,
+      "audit_seconds": 197.91061779099982,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 10.996817817377057,
+            "m4": 9.977922795731883,
+            "mabs": 10.960186699947995,
+            "binder": 7.35699491244456
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.240676133383307,
+            "mean_winding_axis1": 4.672426042731047,
+            "mean_winding_axis2": 4.723187170833406,
+            "mean_winding_squared": 8.236768283215275,
+            "vortex_density": 14.851304226643203
+          },
+          "directional_mean_winding": [
+            -0.0025316611842105307,
+            -0.000402115314327485,
+            -3.067891081871055e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.18663194444444445,
+              0.14756944444444445
+            ],
+            [
+              -0.14713541666666666,
+              0.14453125
+            ],
+            [
+              -0.1545138888888889,
+              0.1657986111111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9721705500730995,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.139443227751677,
+            "m4": 10.26463664622788,
+            "mabs": 11.008295174870778,
+            "binder": 7.3967453117821185
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.272303487462292,
+            "mean_winding_axis1": 4.6778698415734485,
+            "mean_winding_axis2": 4.7612581440902115,
+            "mean_winding_squared": 8.652673842939585,
+            "vortex_density": 14.903411596192049
+          },
+          "directional_mean_winding": [
+            -0.002714192708333344,
+            6.572808159722266e-05,
+            1.893446180555791e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.18663194444444445,
+              0.14756944444444445
+            ],
+            [
+              -0.14713541666666666,
+              0.14453125
+            ],
+            [
+              -0.1545138888888889,
+              0.1657986111111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.971842601634838,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.619547220439394,
+            "m4": 11.064152290589789,
+            "mabs": 11.167681627074431,
+            "binder": 6.8418362983039
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.442855140692222,
+            "mean_winding_axis1": 5.004501835775158,
+            "mean_winding_axis2": 4.950726839042017,
+            "mean_winding_squared": 9.391055770975573,
+            "vortex_density": 15.505859261679444
+          },
+          "directional_mean_winding": [
+            -0.0020050274884259155,
+            0.0007786820023148146,
+            -0.0001518012152777763
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.18663194444444445,
+              0.14756944444444445
+            ],
+            [
+              -0.13671875,
+              0.14453125
+            ],
+            [
+              -0.1545138888888889,
+              0.1657986111111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9731713806905864,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080150_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.8015,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861310632,
+        "sha256": "bbdd141b6ebbc855b42066dd5979da5039e12d36461415bcc0f0900371c650e9"
+      },
+      "generation_seconds": 1101.0266009170155,
+      "audit_seconds": 179.24023741600104,
+      "current_bytes": 18861310632,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 12.296183895216908,
+            "m4": 11.215379368821976,
+            "mabs": 11.694608432240832,
+            "binder": 5.683643154941432
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.39256415737024,
+            "mean_winding_axis1": 4.964129635500482,
+            "mean_winding_axis2": 4.4232272046024335,
+            "mean_winding_squared": 9.367841465484506,
+            "vortex_density": 16.775717272887306
+          },
+          "directional_mean_winding": [
+            -0.00022544316520467893,
+            -0.00046399853801169577,
+            0.0007555509868421117
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13975694444444445,
+              0.15321180555555555
+            ],
+            [
+              -0.1401909722222222,
+              0.15928819444444445
+            ],
+            [
+              -0.1423611111111111,
+              0.1714409722222222
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9707763310185187,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.899334618934954,
+            "m4": 10.667912714716945,
+            "mabs": 11.464891178469792,
+            "binder": 5.869476644043671
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.413182018712159,
+            "mean_winding_axis1": 5.121926813523236,
+            "mean_winding_axis2": 4.394175675262955,
+            "mean_winding_squared": 9.149157652636037,
+            "vortex_density": 16.455379389196068
+          },
+          "directional_mean_winding": [
+            -0.00031901041666666726,
+            -0.0004251573350694466,
+            -0.0001557617187500014
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13975694444444445,
+              0.13802083333333334
+            ],
+            [
+              -0.1401909722222222,
+              0.15928819444444445
+            ],
+            [
+              -0.1423611111111111,
+              0.14539930555555555
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9710670301649307,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.374541684907333,
+            "m4": 9.84014450516813,
+            "mabs": 10.982431328539572,
+            "binder": 5.3862706564399705
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.643297677517517,
+            "mean_winding_axis1": 4.817915999075135,
+            "mean_winding_axis2": 4.30979017318856,
+            "mean_winding_squared": 8.544728658412668,
+            "vortex_density": 15.475815449440818
+          },
+          "directional_mean_winding": [
+            -0.0001241681134259233,
+            -0.000544777199074077,
+            -0.0002512297453703711
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13975694444444445,
+              0.1328125
+            ],
+            [
+              -0.1401909722222222,
+              0.15928819444444445
+            ],
+            [
+              -0.13975694444444445,
+              0.13802083333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9717024860146606,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080175_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80175,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861310632,
+        "sha256": "9e49d1515d4217c27ebc084208df3235b8878de7a715cbfa87531f2cd9c05d7c"
+      },
+      "generation_seconds": 1107.4399568329973,
+      "audit_seconds": 196.80308679200243,
+      "current_bytes": 18861310632,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 10.32019741340591,
+            "m4": 8.86527928027079,
+            "mabs": 10.529198367595512,
+            "binder": 5.802076640971045
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.872841890416457,
+            "mean_winding_axis1": 5.287325883889526,
+            "mean_winding_axis2": 4.982779902797659,
+            "mean_winding_squared": 8.537104944222445,
+            "vortex_density": 18.825205906697725
+          },
+          "directional_mean_winding": [
+            -0.0006485288742690069,
+            -5.9027777777778e-05,
+            0.0011591054459064384
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14583333333333334,
+              0.1697048611111111
+            ],
+            [
+              -0.1605902777777778,
+              0.15364583333333334
+            ],
+            [
+              -0.1657986111111111,
+              0.16015625
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.986479829130117,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 9.45874245395432,
+            "m4": 7.380388940869426,
+            "mabs": 9.976254207924478,
+            "binder": 5.722415437894488
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.081654952273592,
+            "mean_winding_axis1": 5.210643041145865,
+            "mean_winding_axis2": 4.63330957866098,
+            "mean_winding_squared": 8.856783619853191,
+            "vortex_density": 19.393862514185948
+          },
+          "directional_mean_winding": [
+            -0.0011055230034722238,
+            -0.0005190158420138867,
+            -2.983940972226434e-06
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14583333333333334,
+              0.1697048611111111
+            ],
+            [
+              -0.1605902777777778,
+              0.15364583333333334
+            ],
+            [
+              -0.1657986111111111,
+              0.1540798611111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9864245967158567,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 8.73767874420193,
+            "m4": 7.168828840804891,
+            "mabs": 8.917146975413804,
+            "binder": 5.45194049788471
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.16535684738845,
+            "mean_winding_axis1": 5.603283396321036,
+            "mean_winding_axis2": 4.673970095756478,
+            "mean_winding_squared": 9.180889028698695,
+            "vortex_density": 19.930295053376014
+          },
+          "directional_mean_winding": [
+            -0.00036877893518518585,
+            -0.0005123697916666663,
+            0.0008759042245370372
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1371527777777778,
+              0.1697048611111111
+            ],
+            [
+              -0.1605902777777778,
+              0.15364583333333334
+            ],
+            [
+              -0.1657986111111111,
+              0.1540798611111111
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9853707441165123,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080175_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80175,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "c61d050b3bef4cf3cdc5b8a52cb2132033473d4d3c1b508ef4998cd73f9b46e8"
+      },
+      "generation_seconds": 1108.0150710839953,
+      "audit_seconds": 195.19973858300364,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 10.806647306224741,
+            "m4": 8.883175355501322,
+            "mabs": 10.804947441312573,
+            "binder": 4.709980944431849
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.043304417116507,
+            "mean_winding_axis1": 5.070377822225833,
+            "mean_winding_axis2": 5.327005875028685,
+            "mean_winding_squared": 8.841773942487105,
+            "vortex_density": 20.0282248058865
+          },
+          "directional_mean_winding": [
+            0.0005792671783625736,
+            0.0003262746710526316,
+            -1.868603801169798e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16710069444444445,
+              0.1501736111111111
+            ],
+            [
+              -0.1427951388888889,
+              0.15104166666666666
+            ],
+            [
+              -0.14930555555555555,
+              0.1332465277777778
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9854792351973685,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.59528774488822,
+            "m4": 9.290116541166327,
+            "mabs": 11.875601370363166,
+            "binder": 4.9814350873564415
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.345236691435362,
+            "mean_winding_axis1": 4.957665678540949,
+            "mean_winding_axis2": 5.510324237268953,
+            "mean_winding_squared": 8.341648675350019,
+            "vortex_density": 19.08612208959918
+          },
+          "directional_mean_winding": [
+            0.0013667534722222143,
+            0.0005912272135416654,
+            0.00010300021701388794
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16710069444444445,
+              0.14322916666666666
+            ],
+            [
+              -0.13975694444444445,
+              0.15104166666666666
+            ],
+            [
+              -0.14930555555555555,
+              0.1332465277777778
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9860358072916666,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.01781000067909,
+            "m4": 8.714129033675187,
+            "mabs": 11.409623139026714,
+            "binder": 4.883987502355869
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.0574315099688185,
+            "mean_winding_axis1": 4.9964472868552585,
+            "mean_winding_axis2": 5.65888183112904,
+            "mean_winding_squared": 8.30632184781048,
+            "vortex_density": 18.012524556319768
+          },
+          "directional_mean_winding": [
+            0.001607421874999997,
+            0.0010612702546296277,
+            -0.001107783564814821
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1584201388888889,
+              0.1328125
+            ],
+            [
+              -0.13975694444444445,
+              0.15104166666666666
+            ],
+            [
+              -0.14930555555555555,
+              0.1332465277777778
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9852283227237655,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080200_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.802,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "bbecf4c2e235c6c48336db8a06d0df707bcdc96c3f62550f0e096f87e9fde342"
+      },
+      "generation_seconds": 1104.1976328750025,
+      "audit_seconds": 186.67370170800132,
+      "current_bytes": 18861245096,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 12.422164333203877,
+            "m4": 11.130561696175969,
+            "mabs": 12.220073176574841,
+            "binder": 5.331958816557495
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.840513446882254,
+            "mean_winding_axis1": 5.513758051989984,
+            "mean_winding_axis2": 5.742231942058077,
+            "mean_winding_squared": 10.083438169491275,
+            "vortex_density": 23.568060155774482
+          },
+          "directional_mean_winding": [
+            0.0007258543494152057,
+            -0.00015282346491228118,
+            -0.0008296098318713478
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16145833333333334,
+              0.14192708333333334
+            ],
+            [
+              -0.1566840277777778,
+              0.1579861111111111
+            ],
+            [
+              -0.14539930555555555,
+              0.14756944444444445
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9990021777534115,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 12.060469777796657,
+            "m4": 10.663586325020201,
+            "mabs": 11.947065847146352,
+            "binder": 5.467817733969601
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.3188403510406435,
+            "mean_winding_axis1": 5.399897094763678,
+            "mean_winding_axis2": 5.301003794966588,
+            "mean_winding_squared": 10.280219871715698,
+            "vortex_density": 21.298040379317207
+          },
+          "directional_mean_winding": [
+            0.0008675944010416683,
+            3.369140625000255e-05,
+            -0.0010625000000000038
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16145833333333334,
+              0.14192708333333334
+            ],
+            [
+              -0.14973958333333334,
+              0.1579861111111111
+            ],
+            [
+              -0.14539930555555555,
+              0.14756944444444445
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.998345531322338,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 13.40733208740401,
+            "m4": 11.615309607148596,
+            "mabs": 13.562099406899494,
+            "binder": 5.83557135390559
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 7.4768174644620915,
+            "mean_winding_axis1": 5.323665205057428,
+            "mean_winding_axis2": 5.415316729983141,
+            "mean_winding_squared": 10.19926549321189,
+            "vortex_density": 21.297555165775535
+          },
+          "directional_mean_winding": [
+            0.0009157262731481496,
+            -0.001040183738425926,
+            -0.0004282407407407377
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.16145833333333334,
+              0.14192708333333334
+            ],
+            [
+              -0.14973958333333334,
+              0.1293402777777778
+            ],
+            [
+              -0.14539930555555555,
+              0.14756944444444445
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 1.9995991632908952,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080200_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.802,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "e3ac742d946de552c1783b18b67b515454fe39f44f2d945604912eb83318b5e5"
+      },
+      "generation_seconds": 1109.9887400419975,
+      "audit_seconds": 198.72556525000255,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 7.959535252613007,
+            "m4": 7.045600665400385,
+            "mabs": 7.875307778722263,
+            "binder": 4.661683094742607
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.750245818881849,
+            "mean_winding_axis1": 5.1516009537995195,
+            "mean_winding_axis2": 6.037089272637115,
+            "mean_winding_squared": 10.263050313515459,
+            "vortex_density": 20.31925282129658
+          },
+          "directional_mean_winding": [
+            0.0014255071271929854,
+            -0.0014662143640350902,
+            -0.001171669407894738
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14583333333333334,
+              0.15885416666666666
+            ],
+            [
+              -0.14713541666666666,
+              0.13758680555555555
+            ],
+            [
+              -0.16015625,
+              0.13541666666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.002163948282164,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 7.879656065913522,
+            "m4": 6.850735022124016,
+            "mabs": 7.822110757959866,
+            "binder": 4.8184185525956575
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.262579672419474,
+            "mean_winding_axis1": 4.94430417685234,
+            "mean_winding_axis2": 5.927593365960894,
+            "mean_winding_squared": 9.641442254655198,
+            "vortex_density": 18.493943237488594
+          },
+          "directional_mean_winding": [
+            0.0018056640624999995,
+            -0.0013424750434027789,
+            -0.0009018283420138873
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14583333333333334,
+              0.15885416666666666
+            ],
+            [
+              -0.14713541666666666,
+              0.1345486111111111
+            ],
+            [
+              -0.16015625,
+              0.13541666666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.0015721932870374,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 8.619019499368008,
+            "m4": 7.414020880842144,
+            "mabs": 8.693413206265529,
+            "binder": 5.1520750323615925
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.0998692841677995,
+            "mean_winding_axis1": 4.845421067824779,
+            "mean_winding_axis2": 5.772088878421024,
+            "mean_winding_squared": 9.830831432498828,
+            "vortex_density": 19.20824795905128
+          },
+          "directional_mean_winding": [
+            0.0020062934027777752,
+            -0.0003492838541666637,
+            -0.0006294126157407417
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13585069444444445,
+              0.15885416666666666
+            ],
+            [
+              -0.14453125,
+              0.1345486111111111
+            ],
+            [
+              -0.15364583333333334,
+              0.13411458333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.001674852912809,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080225_N048_r30_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80225,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "72e713850ffbc13667cac90eea6e1c8b9c1adc9ebcacfd1ea1ffd6d5427cf4cc"
+      },
+      "generation_seconds": 1098.9221365000121,
+      "audit_seconds": 177.64131233398803,
+      "current_bytes": 18861245096,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 8.36763386804991,
+            "m4": 7.737187792382931,
+            "mabs": 7.956240742084411,
+            "binder": 4.676053741217995
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.542060603963058,
+            "mean_winding_axis1": 4.983019818696377,
+            "mean_winding_axis2": 6.7567679535942835,
+            "mean_winding_squared": 6.5344017301688275,
+            "vortex_density": 14.954679144376453
+          },
+          "directional_mean_winding": [
+            -0.0008442525584795327,
+            0.00015206962719298454,
+            -0.0001952439692982474
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1597222222222222,
+              0.1545138888888889
+            ],
+            [
+              -0.14192708333333334,
+              0.16493055555555555
+            ],
+            [
+              -0.16015625,
+              0.14322916666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.014335206505848,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 8.460407114566692,
+            "m4": 7.741562077775109,
+            "mabs": 8.133271495387387,
+            "binder": 4.79881171541572
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.328733174209991,
+            "mean_winding_axis1": 4.904907915872114,
+            "mean_winding_axis2": 6.589450842581304,
+            "mean_winding_squared": 6.500564525651702,
+            "vortex_density": 14.873799594444204
+          },
+          "directional_mean_winding": [
+            -0.0003827582465277796,
+            0.0004370930989583361,
+            0.00041560872395833364
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1597222222222222,
+              0.1545138888888889
+            ],
+            [
+              -0.12760416666666666,
+              0.16493055555555555
+            ],
+            [
+              -0.16015625,
+              0.14322916666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.0143578197337964,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 8.795664135473459,
+            "m4": 8.049282934723395,
+            "mabs": 8.413020139863535,
+            "binder": 4.998494092865798
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.052082027762231,
+            "mean_winding_axis1": 5.22729879213687,
+            "mean_winding_axis2": 6.9540239191155875,
+            "mean_winding_squared": 6.432618556132934,
+            "vortex_density": 15.197171136965249
+          },
+          "directional_mean_winding": [
+            -0.0004804325810185196,
+            0.00028389033564815003,
+            0.0006450014467592592
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1332465277777778,
+              0.1440972222222222
+            ],
+            [
+              -0.12630208333333334,
+              0.16493055555555555
+            ],
+            [
+              -0.16015625,
+              0.14322916666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.014009247202932,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080225_N048_r31_s020000",
+      "N": 48,
+      "epsilon_over_pi": 0.80225,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "a46ad8501c9f145e2d67081e46dbcbf0cce134ac8e8c52df9160a65e4a738b9a"
+      },
+      "generation_seconds": 1107.3680912090058,
+      "audit_seconds": 196.97486120800022,
+      "current_bytes": 18861212328,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 8.687330295477949,
+            "m4": 7.691161398270905,
+            "mabs": 8.472138393406773,
+            "binder": 4.187763924806396
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.681988331872707,
+            "mean_winding_axis1": 7.241881104070675,
+            "mean_winding_axis2": 4.944185210236362,
+            "mean_winding_squared": 7.489828659048469,
+            "vortex_density": 18.00472822216245
+          },
+          "directional_mean_winding": [
+            0.001794978983918126,
+            0.0006206140350877152,
+            0.0014535361842105197
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1462673611111111,
+              0.1597222222222222
+            ],
+            [
+              -0.14583333333333334,
+              0.15928819444444445
+            ],
+            [
+              -0.15234375,
+              0.13802083333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.0119148772538984,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 8.417049260244973,
+            "m4": 7.662141099103927,
+            "mabs": 8.288294399132752,
+            "binder": 4.044800400875944
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.389940253898706,
+            "mean_winding_axis1": 7.718847395506314,
+            "mean_winding_axis2": 4.7990498506994355,
+            "mean_winding_squared": 7.192714746501022,
+            "vortex_density": 16.552666121248766
+          },
+          "directional_mean_winding": [
+            0.0010040147569444471,
+            7.49511718749961e-05,
+            0.001235894097222218
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1462673611111111,
+              0.1597222222222222
+            ],
+            [
+              -0.14583333333333334,
+              0.1440972222222222
+            ],
+            [
+              -0.15234375,
+              0.13802083333333334
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.0120392885561342,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 8.41408288909643,
+            "m4": 7.585101868020059,
+            "mabs": 8.027532159028715,
+            "binder": 4.045788246972899
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.9787910550440495,
+            "mean_winding_axis1": 8.881083449747448,
+            "mean_winding_axis2": 4.76171559979409,
+            "mean_winding_squared": 6.824778152389756,
+            "vortex_density": 13.40105173206738
+          },
+          "directional_mean_winding": [
+            0.0008219039351851852,
+            0.0003273292824074023,
+            0.0008483434606481482
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.14583333333333334,
+              0.1597222222222222
+            ],
+            [
+              -0.14583333333333334,
+              0.14192708333333334
+            ],
+            [
+              -0.15234375,
+              0.13541666666666666
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.0123591459297843,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080050_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.8005,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "5c8fc70e57b33aa3a5611b89632b8ede1051c7eb2edbeaa6e8dc74a67ca0f7de"
+      },
+      "generation_seconds": 2741.9628436670173,
+      "audit_seconds": 445.9168557919911,
+      "current_bytes": 44022661192,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 11.371027579156161,
+            "m4": 10.472204183599096,
+            "mabs": 11.588564988453799,
+            "binder": 7.593850975637141
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.2192432923196628,
+            "mean_winding_axis1": 2.9491977879511255,
+            "mean_winding_axis2": 2.7790520822899114,
+            "mean_winding_squared": 7.641501794504872,
+            "vortex_density": 13.271234347797424
+          },
+          "directional_mean_winding": [
+            -0.0016718107524671053,
+            -0.00037023283305921055,
+            0.00014320775082236843
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.135986328125,
+              0.12646484375
+            ],
+            [
+              -0.134765625,
+              0.131591796875
+            ],
+            [
+              -0.138916015625,
+              0.124267578125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5185720985814144,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.609649145747992,
+            "m4": 10.482529790579136,
+            "mabs": 11.900831537081864,
+            "binder": 8.06179051505948
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.3529955402983997,
+            "mean_winding_axis1": 2.998893407870551,
+            "mean_winding_axis2": 2.8406994380016797,
+            "mean_winding_squared": 7.729112029703842,
+            "vortex_density": 13.812904162961138
+          },
+          "directional_mean_winding": [
+            -0.0014643707275390624,
+            -0.0002667236328125,
+            0.0001332855224609375
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.135986328125,
+              0.12646484375
+            ],
+            [
+              -0.134765625,
+              0.131591796875
+            ],
+            [
+              -0.138916015625,
+              0.124267578125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.518778503417969,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 12.603986573561281,
+            "m4": 10.992381446673276,
+            "mabs": 12.972026512450249,
+            "binder": 8.384386130624142
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.378616562631678,
+            "mean_winding_axis1": 2.812701707487889,
+            "mean_winding_axis2": 2.8730666103081353,
+            "mean_winding_squared": 7.93371695328662,
+            "vortex_density": 14.057069604051017
+          },
+          "directional_mean_winding": [
+            -0.00138916015625,
+            -0.00050189208984375,
+            0.0008423055013020833
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.122802734375,
+              0.12646484375
+            ],
+            [
+              -0.134765625,
+              0.13037109375
+            ],
+            [
+              -0.138916015625,
+              0.124267578125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5201276448567707,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080050_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.8005,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "51a5005df924da904b2683ed27e420aa08841979d657b980c0df01919c7d1f19"
+      },
+      "generation_seconds": 2739.9000989579945,
+      "audit_seconds": 447.4572523329989,
+      "current_bytes": 44022661192,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 14.231869106567153,
+            "m4": 12.817323887134558,
+            "mabs": 14.592696534659295,
+            "binder": 10.237403841140383
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 2.912966872039036,
+            "mean_winding_axis1": 3.013171729993211,
+            "mean_winding_axis2": 2.740023914912213,
+            "mean_winding_squared": 11.99589279232277,
+            "vortex_density": 18.25478398054186
+          },
+          "directional_mean_winding": [
+            0.0008757195723684211,
+            -0.001007105777138158,
+            -0.00017093698601973684
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.118408203125,
+              0.149169921875
+            ],
+            [
+              -0.1533203125,
+              0.118408203125
+            ],
+            [
+              -0.12939453125,
+              0.126708984375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5182028680098685,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 13.85754345952647,
+            "m4": 12.639717270712048,
+            "mabs": 14.117072739445268,
+            "binder": 8.358026550213888
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 2.8697410649956763,
+            "mean_winding_axis1": 3.0169454943744607,
+            "mean_winding_axis2": 2.711382081222344,
+            "mean_winding_squared": 11.73805833473147,
+            "vortex_density": 19.087056454266047
+          },
+          "directional_mean_winding": [
+            0.0007761383056640625,
+            -0.001031280517578125,
+            -0.00070831298828125
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.118408203125,
+              0.149169921875
+            ],
+            [
+              -0.1533203125,
+              0.118408203125
+            ],
+            [
+              -0.12939453125,
+              0.126708984375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.517312454223633,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 13.758953444337555,
+            "m4": 12.888671172461393,
+            "mabs": 13.677715112999747,
+            "binder": 8.326843982079797
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 2.9847137778786865,
+            "mean_winding_axis1": 3.016578888017176,
+            "mean_winding_axis2": 2.8884978396824033,
+            "mean_winding_squared": 10.493984130731432,
+            "vortex_density": 17.548083493447884
+          },
+          "directional_mean_winding": [
+            0.00122259521484375,
+            -0.00085369873046875,
+            -0.00048282877604166667
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.118408203125,
+              0.149169921875
+            ],
+            [
+              -0.1533203125,
+              0.118408203125
+            ],
+            [
+              -0.12939453125,
+              0.126708984375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5185913357204863,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080075_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.80075,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "f8437fd58792d2c7952fc0b659615cb694a0e95371b72518448d5d1fd6ac2c14"
+      },
+      "generation_seconds": 2736.337989666994,
+      "audit_seconds": 448.8600078749878,
+      "current_bytes": 44022759496,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 15.034315445963848,
+            "m4": 13.963571873037745,
+            "mabs": 14.941284854126547,
+            "binder": 9.797963827250788
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.626992590675475,
+            "mean_winding_axis1": 3.7279165857025447,
+            "mean_winding_axis2": 3.2555371318340587,
+            "mean_winding_squared": 10.25827073062534,
+            "vortex_density": 17.24670526540258
+          },
+          "directional_mean_winding": [
+            -0.0008526418585526316,
+            0.0002397203947368421,
+            -0.0004134457236842105
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.135498046875,
+              0.1494140625
+            ],
+            [
+              -0.134765625,
+              0.12353515625
+            ],
+            [
+              -0.1298828125,
+              0.142822265625
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.552152986225329,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 16.474774230156964,
+            "m4": 15.402621937219163,
+            "mabs": 16.3080558790141,
+            "binder": 10.119635597160052
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.785005346027847,
+            "mean_winding_axis1": 3.823945492945909,
+            "mean_winding_axis2": 3.248280288701103,
+            "mean_winding_squared": 11.500480760330495,
+            "vortex_density": 19.417734902921545
+          },
+          "directional_mean_winding": [
+            -0.0010020904541015625,
+            6.66656494140625e-05,
+            -0.00068267822265625
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.135498046875,
+              0.1318359375
+            ],
+            [
+              -0.134765625,
+              0.12353515625
+            ],
+            [
+              -0.1298828125,
+              0.142822265625
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5523452860514326,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 15.038616667379737,
+            "m4": 14.358708646239275,
+            "mabs": 14.461267184821086,
+            "binder": 9.379696788585836
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.746293569423896,
+            "mean_winding_axis1": 3.627274604089485,
+            "mean_winding_axis2": 3.2276224547575714,
+            "mean_winding_squared": 10.38884066049759,
+            "vortex_density": 17.35190791931387
+          },
+          "directional_mean_winding": [
+            -0.0012640177408854167,
+            -0.00019797770182291666,
+            -0.0009127400716145833
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.135498046875,
+              0.1318359375
+            ],
+            [
+              -0.134765625,
+              0.12109375
+            ],
+            [
+              -0.1298828125,
+              0.142822265625
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5515174899631075,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080075_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.80075,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "ef9c902727762dd6023663358b228a3c2ef43d970f72d0a5e357ec56c2eb4d61"
+      },
+      "generation_seconds": 2723.039724375005,
+      "audit_seconds": 450.3503321669996,
+      "current_bytes": 44022661192,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 15.914894380903753,
+            "m4": 15.298454357876357,
+            "mabs": 15.330247805914004,
+            "binder": 9.225852838212443
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.765220103692892,
+            "mean_winding_axis1": 4.335429357247944,
+            "mean_winding_axis2": 3.599711009304154,
+            "mean_winding_squared": 9.494342515754603,
+            "vortex_density": 16.90389962467598
+          },
+          "directional_mean_winding": [
+            -1.4969675164473685e-05,
+            -4.507606907894737e-05,
+            -0.00057470703125
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.11572265625,
+              0.150146484375
+            ],
+            [
+              -0.150146484375,
+              0.119873046875
+            ],
+            [
+              -0.126708984375,
+              0.1357421875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.554485570004112,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 14.310826213441505,
+            "m4": 13.522042554790149,
+            "mabs": 14.003527459561656,
+            "binder": 9.08018738981572
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.7986210703845247,
+            "mean_winding_axis1": 4.249080749557373,
+            "mean_winding_axis2": 3.5247054792311747,
+            "mean_winding_squared": 8.371496297789403,
+            "vortex_density": 14.88883735007337
+          },
+          "directional_mean_winding": [
+            4.03900146484375e-05,
+            -0.0006337127685546875,
+            -0.0004730072021484375
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.11572265625,
+              0.150146484375
+            ],
+            [
+              -0.12451171875,
+              0.119873046875
+            ],
+            [
+              -0.126708984375,
+              0.1357421875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5548505401611328,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 15.098839878296609,
+            "m4": 14.50328133742561,
+            "mabs": 14.54503899559105,
+            "binder": 8.924081023413718
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 3.9384005651311336,
+            "mean_winding_axis1": 4.262521175570328,
+            "mean_winding_axis2": 3.670738257283401,
+            "mean_winding_squared": 8.91469070546697,
+            "vortex_density": 15.293121704104552
+          },
+          "directional_mean_winding": [
+            -0.0004874064127604167,
+            -0.0008366902669270834,
+            -0.0005508219401041667
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.11572265625,
+              0.150146484375
+            ],
+            [
+              -0.1181640625,
+              0.119873046875
+            ],
+            [
+              -0.126708984375,
+              0.1357421875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5548821207682293,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080100_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.801,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "688541766c042d9d86280bf9a22753db440c2aea3125fba4cb80da32be8dd55e"
+      },
+      "generation_seconds": 2686.9935388749873,
+      "audit_seconds": 448.35851254098816,
+      "current_bytes": 44022759496,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 16.258407786915107,
+            "m4": 15.722922649942436,
+            "mabs": 15.35779775676181,
+            "binder": 8.294023653012841
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.355282052412793,
+            "mean_winding_axis1": 4.573768071109763,
+            "mean_winding_axis2": 4.955672984829633,
+            "mean_winding_squared": 11.424981096837604,
+            "vortex_density": 21.246143572120932
+          },
+          "directional_mean_winding": [
+            -0.00041058028371710527,
+            -0.00014744808799342106,
+            -0.0010465923108552632
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.136962890625,
+              0.130859375
+            ],
+            [
+              -0.137451171875,
+              0.130615234375
+            ],
+            [
+              -0.1396484375,
+              0.126708984375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5857612733004385,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 15.779301998249458,
+            "m4": 15.227847439794871,
+            "mabs": 14.874683469285568,
+            "binder": 7.942733547813145
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.514001334740296,
+            "mean_winding_axis1": 4.5550682996327705,
+            "mean_winding_axis2": 4.90458555024698,
+            "mean_winding_squared": 10.68044290492431,
+            "vortex_density": 20.10563637600732
+          },
+          "directional_mean_winding": [
+            -0.000394378662109375,
+            0.0005454254150390625,
+            -0.0015173797607421875
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1181640625,
+              0.130859375
+            ],
+            [
+              -0.137451171875,
+              0.130615234375
+            ],
+            [
+              -0.1396484375,
+              0.126708984375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.586121683756511,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 15.895881007137461,
+            "m4": 15.383221953255704,
+            "mabs": 15.150021594082405,
+            "binder": 8.499877875524835
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.534107256016417,
+            "mean_winding_axis1": 4.456712217814736,
+            "mean_winding_axis2": 4.609134489099073,
+            "mean_winding_squared": 10.020241066939503,
+            "vortex_density": 19.925926197961626
+          },
+          "directional_mean_winding": [
+            -0.0015196736653645833,
+            -9.478759765625e-05,
+            -0.002553059895833333
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.1181640625,
+              0.123046875
+            ],
+            [
+              -0.137451171875,
+              0.130615234375
+            ],
+            [
+              -0.1396484375,
+              0.126708984375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.586014662000868,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080100_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.801,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022595656,
+        "sha256": "4b24ac16607876823f1898b0a3f6d4b3ef429f54057c093db22f6a6d4b5d2308"
+      },
+      "generation_seconds": 2697.597724374995,
+      "audit_seconds": 453.41963154199766,
+      "current_bytes": 44022595656,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 14.134169993585761,
+            "m4": 13.251293553182007,
+            "mabs": 13.764176250606507,
+            "binder": 8.134821799532547
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.439219199760702,
+            "mean_winding_axis1": 5.030967408847111,
+            "mean_winding_axis2": 4.298757539920713,
+            "mean_winding_squared": 11.265812717416154,
+            "vortex_density": 20.016831500571143
+          },
+          "directional_mean_winding": [
+            0.0004665013363486842,
+            -0.0007279116981907895,
+            -0.0009324886924342105
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.118896484375,
+              0.126220703125
+            ],
+            [
+              -0.13232421875,
+              0.125
+            ],
+            [
+              -0.1337890625,
+              0.147216796875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.5861502535635967,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 14.384050419405842,
+            "m4": 13.426466398440967,
+            "mabs": 13.969029396185167,
+            "binder": 8.512985769397105
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.662017914409458,
+            "mean_winding_axis1": 5.256659027108227,
+            "mean_winding_axis2": 4.3793596092770875,
+            "mean_winding_squared": 11.23860845266417,
+            "vortex_density": 19.915819011981068
+          },
+          "directional_mean_winding": [
+            0.0010565185546875,
+            -0.000404876708984375,
+            -0.00122222900390625
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.118896484375,
+              0.126220703125
+            ],
+            [
+              -0.13232421875,
+              0.125
+            ],
+            [
+              -0.11279296875,
+              0.147216796875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.586715199788411,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 15.474603624116801,
+            "m4": 14.494111393142193,
+            "mabs": 14.899956812266558,
+            "binder": 8.468794810193936
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.964312153366722,
+            "mean_winding_axis1": 5.009905747074979,
+            "mean_winding_axis2": 4.292892174186828,
+            "mean_winding_squared": 12.177434825279255,
+            "vortex_density": 21.879188314867896
+          },
+          "directional_mean_winding": [
+            0.0003253377278645833,
+            0.00020989990234375,
+            -0.00114306640625
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.118896484375,
+              0.126220703125
+            ],
+            [
+              -0.13232421875,
+              0.125
+            ],
+            [
+              -0.1123046875,
+              0.147216796875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.588688435872396,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080125_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.80125,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022693960,
+        "sha256": "b3120afcca4ba3ac6fb73bf0f7bf52f3dbbbf72e21338f8c7566c21f46e09800"
+      },
+      "generation_seconds": 2689.4707333749975,
+      "audit_seconds": 452.8025812910055,
+      "current_bytes": 44022693960,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 13.27011784449123,
+            "m4": 12.063660413170199,
+            "mabs": 12.994502155834608,
+            "binder": 7.398966503279222
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.883911472541373,
+            "mean_winding_axis1": 5.747606373499374,
+            "mean_winding_axis2": 5.464779166290447,
+            "mean_winding_squared": 10.559228719749907,
+            "vortex_density": 19.861319527565822
+          },
+          "directional_mean_winding": [
+            -0.0003591565583881579,
+            0.0005582725123355263,
+            0.00010846268503289474
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13720703125,
+              0.138671875
+            ],
+            [
+              -0.1240234375,
+              0.1376953125
+            ],
+            [
+              -0.135986328125,
+              0.122314453125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6108602958813045,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 13.69326231922171,
+            "m4": 11.973794533403268,
+            "mabs": 13.450569063501638,
+            "binder": 7.185510390633242
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.761340467841373,
+            "mean_winding_axis1": 5.701668462081176,
+            "mean_winding_axis2": 5.41859455469584,
+            "mean_winding_squared": 10.345028688269268,
+            "vortex_density": 20.486797777659945
+          },
+          "directional_mean_winding": [
+            -0.0007965545654296875,
+            0.0006265411376953125,
+            0.00047796630859375
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13720703125,
+              0.138671875
+            ],
+            [
+              -0.1240234375,
+              0.1376953125
+            ],
+            [
+              -0.127685546875,
+              0.122314453125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.611433675130208,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 13.111821461713363,
+            "m4": 11.381577203406675,
+            "mabs": 13.110878400640711,
+            "binder": 7.0421782751642805
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 4.719423865158663,
+            "mean_winding_axis1": 6.248564499571136,
+            "mean_winding_axis2": 5.9114454085248065,
+            "mean_winding_squared": 9.759952789695202,
+            "vortex_density": 18.514334273842902
+          },
+          "directional_mean_winding": [
+            -0.0006774495442708334,
+            0.00142059326171875,
+            0.00040899658203125
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13720703125,
+              0.129150390625
+            ],
+            [
+              -0.1240234375,
+              0.1376953125
+            ],
+            [
+              -0.127685546875,
+              0.11572265625
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.611853217230903,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080125_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.80125,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022595656,
+        "sha256": "ae01fb2aa2365abe4bff8655c4f0a8c984bafa65c547308276d683d29eec5ea7"
+      },
+      "generation_seconds": 2676.3413757919916,
+      "audit_seconds": 445.9023981670034,
+      "current_bytes": 44022595656,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 11.847824123296402,
+            "m4": 10.609939021738422,
+            "mabs": 11.876924120419122,
+            "binder": 7.485901237919949
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.466866535228233,
+            "mean_winding_axis1": 4.994404360904121,
+            "mean_winding_axis2": 5.7398527723148,
+            "mean_winding_squared": 9.67216019389591,
+            "vortex_density": 18.563793692451917
+          },
+          "directional_mean_winding": [
+            0.0006742907072368421,
+            -0.0006689067639802632,
+            0.00013016550164473683
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.125732421875,
+              0.13916015625
+            ],
+            [
+              -0.127685546875,
+              0.13427734375
+            ],
+            [
+              -0.135498046875,
+              0.122314453125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.610596555475603,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 12.126533294960858,
+            "m4": 10.768353045945453,
+            "mabs": 12.13394022754971,
+            "binder": 7.5033357306837445
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.550470853636524,
+            "mean_winding_axis1": 5.057473789795354,
+            "mean_winding_axis2": 5.555549324150935,
+            "mean_winding_squared": 9.528048815542661,
+            "vortex_density": 18.327779587260427
+          },
+          "directional_mean_winding": [
+            0.0005242767333984375,
+            -0.0008978118896484375,
+            -0.0001972503662109375
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.125732421875,
+              0.13916015625
+            ],
+            [
+              -0.127685546875,
+              0.13427734375
+            ],
+            [
+              -0.135498046875,
+              0.122314453125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.60985183207194,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.76746285807887,
+            "m4": 10.507888269467658,
+            "mabs": 11.549074599098837,
+            "binder": 7.012318967593145
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.650372638725144,
+            "mean_winding_axis1": 5.120050541939117,
+            "mean_winding_axis2": 5.1681956901572415,
+            "mean_winding_squared": 9.037392049887458,
+            "vortex_density": 18.021752118406553
+          },
+          "directional_mean_winding": [
+            0.0005352986653645833,
+            -0.00035129801432291666,
+            -0.00038130696614583335
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.119384765625,
+              0.13916015625
+            ],
+            [
+              -0.127685546875,
+              0.13427734375
+            ],
+            [
+              -0.135498046875,
+              0.12060546875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6081331380208335,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080150_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.8015,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "c0136cbc4b7adb131fd53f967442869f44ad36af85c98b3b9d8209d38481acda"
+      },
+      "generation_seconds": 2665.089381208003,
+      "audit_seconds": 428.1706492920057,
+      "current_bytes": 44022759496,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 11.657775743889419,
+            "m4": 10.334341252652552,
+            "mabs": 11.292852470451994,
+            "binder": 5.407825929521338
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.930843369066885,
+            "mean_winding_axis1": 6.0508796809252425,
+            "mean_winding_axis2": 6.742330910552214,
+            "mean_winding_squared": 10.155740574016887,
+            "vortex_density": 26.707435044132026
+          },
+          "directional_mean_winding": [
+            -0.0004610145970394737,
+            0.001624768708881579,
+            0.0020153551603618422
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.120361328125,
+              0.131591796875
+            ],
+            [
+              -0.128662109375,
+              0.122314453125
+            ],
+            [
+              -0.16015625,
+              0.14111328125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.633696773060581,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.90951837247539,
+            "m4": 10.690277663181025,
+            "mabs": 11.403966878197997,
+            "binder": 5.084047400567365
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.817222682773356,
+            "mean_winding_axis1": 5.987074953069243,
+            "mean_winding_axis2": 7.433538734761974,
+            "mean_winding_squared": 9.894540601285378,
+            "vortex_density": 26.142352774347973
+          },
+          "directional_mean_winding": [
+            -0.0003563232421875,
+            0.0018392181396484374,
+            0.0019613037109375
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.116455078125,
+              0.131591796875
+            ],
+            [
+              -0.128662109375,
+              0.122314453125
+            ],
+            [
+              -0.16015625,
+              0.14111328125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6352311452229813,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.292627398451678,
+            "m4": 10.139092366979769,
+            "mabs": 10.947181091039285,
+            "binder": 4.912574316259216
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.897082954210637,
+            "mean_winding_axis1": 5.983826548069341,
+            "mean_winding_axis2": 6.856754032661488,
+            "mean_winding_squared": 11.040668316366029,
+            "vortex_density": 28.114322460076828
+          },
+          "directional_mean_winding": [
+            -0.0008859456380208333,
+            0.002262044270833333,
+            0.0013511149088541667
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.116455078125,
+              0.131591796875
+            ],
+            [
+              -0.128662109375,
+              0.12158203125
+            ],
+            [
+              -0.16015625,
+              0.14111328125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6341929796006944,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080150_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.8015,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "e64289ebcd1f16a68e782ba00c8ca2d12bcf7a2a636176cb22a707ec9bf9f769"
+      },
+      "generation_seconds": 2690.559927208,
+      "audit_seconds": 451.78115920801065,
+      "current_bytes": 44022759496,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 14.213668836429768,
+            "m4": 11.494383298863953,
+            "mabs": 13.49501359081083,
+            "binder": 5.825527684082366
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 7.059129254291265,
+            "mean_winding_axis1": 5.459701615817255,
+            "mean_winding_axis2": 6.720268859147032,
+            "mean_winding_squared": 10.725982280257648,
+            "vortex_density": 23.02299940890475
+          },
+          "directional_mean_winding": [
+            4.2454769736842107e-05,
+            0.0004946417557565789,
+            0.0010773154810855264
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.133056640625,
+              0.154296875
+            ],
+            [
+              -0.138671875,
+              0.1357421875
+            ],
+            [
+              -0.134765625,
+              0.1298828125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6343928179824565,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 15.326728110264696,
+            "m4": 12.761110470058698,
+            "mabs": 14.626936046952672,
+            "binder": 6.303601962655086
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.932217624290151,
+            "mean_winding_axis1": 5.432379237751145,
+            "mean_winding_axis2": 6.915179875813149,
+            "mean_winding_squared": 11.4703623633346,
+            "vortex_density": 24.489532679139533
+          },
+          "directional_mean_winding": [
+            0.000607452392578125,
+            0.0010287628173828126,
+            0.00091180419921875
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.133056640625,
+              0.154296875
+            ],
+            [
+              -0.138671875,
+              0.1357421875
+            ],
+            [
+              -0.12744140625,
+              0.1298828125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6342114003499346,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 15.689287975188758,
+            "m4": 13.232406364142781,
+            "mabs": 15.114296214198099,
+            "binder": 6.693096908695736
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.326486391068434,
+            "mean_winding_axis1": 5.42755194215723,
+            "mean_winding_axis2": 6.628453580309585,
+            "mean_winding_squared": 12.773122586926345,
+            "vortex_density": 27.7203074206671
+          },
+          "directional_mean_winding": [
+            0.0005812174479166666,
+            0.0005218505859375,
+            0.00032871500651041665
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.133056640625,
+              0.152587890625
+            ],
+            [
+              -0.138671875,
+              0.1357421875
+            ],
+            [
+              -0.12744140625,
+              0.12548828125
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.634040100097656,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080175_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.80175,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "c615385c09651508ad6d45e5edff1dad0da870b1f4cf3686a81e3edbcdc2fa98"
+      },
+      "generation_seconds": 2667.479875499994,
+      "audit_seconds": 435.55781566601945,
+      "current_bytes": 44022661192,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 11.60410627232691,
+            "m4": 9.493583153633448,
+            "mabs": 11.687656973267897,
+            "binder": 5.222383816371072
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.928280222080366,
+            "mean_winding_axis1": 6.9749085439697645,
+            "mean_winding_axis2": 7.347058154887143,
+            "mean_winding_squared": 9.454846285116101,
+            "vortex_density": 22.978025471245033
+          },
+          "directional_mean_winding": [
+            -0.0011325940583881578,
+            0.0013199784128289473,
+            0.00044036543996710524
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.128173828125,
+              0.1298828125
+            ],
+            [
+              -0.13671875,
+              0.14501953125
+            ],
+            [
+              -0.148681640625,
+              0.138671875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6525385399533987,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.903394707190365,
+            "m4": 9.732190570046965,
+            "mabs": 11.887711367029636,
+            "binder": 5.028233879004564
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.007361814227829,
+            "mean_winding_axis1": 6.979795122754223,
+            "mean_winding_axis2": 7.412085279792121,
+            "mean_winding_squared": 9.997920962997403,
+            "vortex_density": 24.047154768034247
+          },
+          "directional_mean_winding": [
+            -0.0010563201904296876,
+            0.000643585205078125,
+            0.0004342041015625
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.128173828125,
+              0.1298828125
+            ],
+            [
+              -0.13671875,
+              0.133544921875
+            ],
+            [
+              -0.148681640625,
+              0.138671875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.652952102661133,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.763573275938269,
+            "m4": 9.646622168926926,
+            "mabs": 11.806647726562291,
+            "binder": 5.191714986872285
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.0030904359293356,
+            "mean_winding_axis1": 7.693432454713374,
+            "mean_winding_axis2": 7.602464948421531,
+            "mean_winding_squared": 10.119962882160717,
+            "vortex_density": 23.55605608286442
+          },
+          "directional_mean_winding": [
+            -0.0015035400390625,
+            0.001958984375,
+            0.0003010660807291667
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.128173828125,
+              0.12255859375
+            ],
+            [
+              -0.13671875,
+              0.133544921875
+            ],
+            [
+              -0.148681640625,
+              0.138671875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.652166517469618,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080175_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.80175,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "8510c25c70967e8949e092210b31651fabc87c169b57791b0b17ef40d8c67b83"
+      },
+      "generation_seconds": 2664.8273015419836,
+      "audit_seconds": 430.7613016660034,
+      "current_bytes": 44022759496,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 11.330129159950221,
+            "m4": 9.887887043561218,
+            "mabs": 10.573457464259919,
+            "binder": 5.416719527497421
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 5.958236719218783,
+            "mean_winding_axis1": 7.440083596243123,
+            "mean_winding_axis2": 7.7797080899329245,
+            "mean_winding_squared": 10.366652601585105,
+            "vortex_density": 30.08045724788502
+          },
+          "directional_mean_winding": [
+            0.0003133095189144737,
+            -0.0019518143503289473,
+            0.0005237458881578947
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13134765625,
+              0.147705078125
+            ],
+            [
+              -0.14501953125,
+              0.12255859375
+            ],
+            [
+              -0.127685546875,
+              0.137451171875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6542060846696818,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.272261935515685,
+            "m4": 9.592730413978703,
+            "mabs": 10.593488592394333,
+            "binder": 5.375344938123295
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 6.400883109357532,
+            "mean_winding_axis1": 7.11702031074306,
+            "mean_winding_axis2": 7.898106229540403,
+            "mean_winding_squared": 9.841535815487498,
+            "vortex_density": 31.29629975889336
+          },
+          "directional_mean_winding": [
+            0.0007297821044921875,
+            -0.0018724365234375,
+            8.73260498046875e-05
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13134765625,
+              0.147705078125
+            ],
+            [
+              -0.14501953125,
+              0.12255859375
+            ],
+            [
+              -0.127685546875,
+              0.137451171875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6540779012044267,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.751175409803713,
+            "m4": 9.92465643693054,
+            "mabs": 11.148588839041956,
+            "binder": 5.280325539864041
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 7.8506353001886815,
+            "mean_winding_axis1": 6.746908520045908,
+            "mean_winding_axis2": 8.527677606726368,
+            "mean_winding_squared": 12.61744498280253,
+            "vortex_density": 34.78287142306709
+          },
+          "directional_mean_winding": [
+            0.0008750203450520834,
+            -0.0012072347005208334,
+            0.0003904825846354167
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.13134765625,
+              0.147705078125
+            ],
+            [
+              -0.14501953125,
+              0.12255859375
+            ],
+            [
+              -0.127685546875,
+              0.130859375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6539337429470486,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080200_N064_r30_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.802,
+      "replica": 30,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "3989bcf9930dbc9faa32f452a464cf0e1b9a4de180bbc3aed23054436b905673"
+      },
+      "generation_seconds": 2680.863131499995,
+      "audit_seconds": 449.81568616602453,
+      "current_bytes": 44022759496,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 13.90697810338958,
+            "m4": 15.42182822414321,
+            "mabs": 12.004722983909,
+            "binder": 9.074270468506327
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 7.038734205706631,
+            "mean_winding_axis1": 7.148179261266799,
+            "mean_winding_axis2": 6.712394644637662,
+            "mean_winding_squared": 9.639146934001364,
+            "vortex_density": 24.38459397510479
+          },
+          "directional_mean_winding": [
+            -0.00024163497121710526,
+            0.00048796001233552633,
+            -0.0009889108758223684
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.125244140625,
+              0.12451171875
+            ],
+            [
+              -0.133056640625,
+              0.130126953125
+            ],
+            [
+              -0.13671875,
+              0.14599609375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.669169463575932,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 15.248919022578482,
+            "m4": 16.772395426452984,
+            "mabs": 12.683782044214798,
+            "binder": 9.367431205166808
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 7.129472486243406,
+            "mean_winding_axis1": 7.364212683176367,
+            "mean_winding_axis2": 6.475576339342728,
+            "mean_winding_squared": 9.19572549221016,
+            "vortex_density": 22.88356728466273
+          },
+          "directional_mean_winding": [
+            -0.0006185760498046875,
+            -0.0002655487060546875,
+            -0.002360626220703125
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.125244140625,
+              0.12451171875
+            ],
+            [
+              -0.133056640625,
+              0.130126953125
+            ],
+            [
+              -0.13671875,
+              0.132568359375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.669533172607422,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.287925726072856,
+            "m4": 11.957794690183805,
+            "mabs": 10.161322231753552,
+            "binder": 6.13788433275958
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 7.723653787110216,
+            "mean_winding_axis1": 6.595636648859151,
+            "mean_winding_axis2": 6.520469465489275,
+            "mean_winding_squared": 7.8685043654094375,
+            "vortex_density": 19.50967644516498
+          },
+          "directional_mean_winding": [
+            -0.00023573811848958334,
+            -0.00018416341145833333,
+            -0.002657470703125
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.125244140625,
+              0.12451171875
+            ],
+            [
+              -0.133056640625,
+              0.130126953125
+            ],
+            [
+              -0.13671875,
+              0.132568359375
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.669213941786024,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "spinpilot3_e080200_N064_r31_s020000",
+      "N": 64,
+      "epsilon_over_pi": 0.802,
+      "replica": 31,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "full_audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "d946de756b7fd1e9a6ef1337f77778979e89a9df5d967959329e2979c7297e27"
+      },
+      "generation_seconds": 2663.106619500002,
+      "audit_seconds": 424.56665379201877,
+      "current_bytes": 44022661192,
+      "cut_diagnostics": [
+        {
+          "cut": 1001,
+          "rows": 19000,
+          "moment_tau_cycles": {
+            "m2": 11.252187672658339,
+            "m4": 8.82497687582296,
+            "mabs": 11.036188395495932,
+            "binder": 5.16901038555055
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 8.558360560448676,
+            "mean_winding_axis1": 7.073877078684623,
+            "mean_winding_axis2": 7.478208676234765,
+            "mean_winding_squared": 10.803712756986728,
+            "vortex_density": 26.02630662473059
+          },
+          "directional_mean_winding": [
+            0.0005134020353618421,
+            -0.00022901675575657895,
+            0.0007515804893092105
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.134521484375,
+              0.14599609375
+            ],
+            [
+              -0.1435546875,
+              0.126220703125
+            ],
+            [
+              -0.120849609375,
+              0.141357421875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6708493481017,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 4001,
+          "rows": 16000,
+          "moment_tau_cycles": {
+            "m2": 11.504282002106414,
+            "m4": 8.940379606769316,
+            "mabs": 11.315611640444,
+            "binder": 5.332499867310928
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 8.97783175106447,
+            "mean_winding_axis1": 7.002726614156915,
+            "mean_winding_axis2": 7.339940752111359,
+            "mean_winding_squared": 10.664813133270824,
+            "vortex_density": 25.841717054054396
+          },
+          "directional_mean_winding": [
+            0.0003590545654296875,
+            -0.0004273529052734375,
+            0.0005082244873046875
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.134521484375,
+              0.14599609375
+            ],
+            [
+              -0.1435546875,
+              0.126220703125
+            ],
+            [
+              -0.120849609375,
+              0.141357421875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6719303029378256,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        },
+        {
+          "cut": 8001,
+          "rows": 12000,
+          "moment_tau_cycles": {
+            "m2": 11.346747464931724,
+            "m4": 9.306041644450644,
+            "mabs": 10.986658397782461,
+            "binder": 5.187204755046223
+          },
+          "topology_tau_cycles": {
+            "mean_winding_axis0": 8.186034155576847,
+            "mean_winding_axis1": 6.723538858573886,
+            "mean_winding_axis2": 8.183636188774159,
+            "mean_winding_squared": 11.474325424789615,
+            "vortex_density": 26.12336991936646
+          },
+          "directional_mean_winding": [
+            0.00095062255859375,
+            -5.572509765625e-05,
+            0.0010484619140625
+          ],
+          "directional_winding_ranges": [
+            [
+              -0.134521484375,
+              0.132080078125
+            ],
+            [
+              -0.130126953125,
+              0.126220703125
+            ],
+            [
+              -0.120849609375,
+              0.141357421875
+            ]
+          ],
+          "constant_directional_winding_axes": [],
+          "mean_winding_squared": 2.6713702935112846,
+          "cycles_with_accepted_winding_update": 0,
+          "accepted_winding_updates": 0,
+          "flags": [
+            "topology_tau_exceeds_twice_moment_tau_review_block_uncertainty"
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Descriptive accepted-event denominators, autocorrelation and start/late-cut diagnostics; audits/moves/tau estimates do not prove mixing, independent sampling or absolute exponent accuracy. Resource samples are RSS/CPU observations, not a measured peak."
+}

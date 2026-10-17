@@ -1,0 +1,35 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-15T22:12:46.589224+00:00",
+  "reviewer": "independent scientific review agent",
+  "files_sha256": {
+    "analysis.json": "c0d1ad92b21eacb2fa65159eef600cb8b1776503a94e4995a8840bf88ec43767",
+    "fine-scan-measurement-report.txt": "931838d8f1641155a18b167d4c5dba6f8ee8e896a2ae24c1fc2d7c98fa12dd8c",
+    "3d-zero-beta-fine-spin-dimension.png": "601e28d1ccea2b2f67a6953c21c1b391f4456c8398b30d96c5906098985a6da9",
+    "two-significant-digit-precision-cost-assessment.txt": "0e3aa427768d8db2d79209aedefd4952a9a7994e44855cc78a2af06f6b87ae31",
+    "fine-grid-decimation-diagnostic.json": "5fc4b810c8ea7d668b1c4e355be000a687bdd4ca10eac6efc261bf13ee23b7a6",
+    "fine-primary-statistical-summary.json": "a15a7e9bbfd337bf64d697f583c166c7b1d63f8f3d84c30eeeb150e58025238f"
+  },
+  "checks": [
+    "Verified all15 pinned snapshot hashes and fine/parity/pooled source counts82/41/154",
+    "Independently reconstructed primary exponent from saved joint root/moment draws: Delta=.5054002679474362, bootstrap SD=.007577822690539957, MC95=[.48917739589857784,.5182622540531059]",
+    "Checked primary interpolation spread, achieved Binder discrepancies, size-cut drift and weak correction fits against source snapshots",
+    "Verified full-window threshold/root omissions and parity comparisons are disclosed",
+    "Independently summed82 audited jobs:1.5593382056worker-hours and79.614631984GB full files; median per-size runtimes reproduce assessment",
+    "Checked volume-only12-run L48/L64 pilot cost7.372worker-hours;1\u20133hour pilot and1\u20133day subsequent attempt are qualified planning allowances",
+    "Reviewed decimation implementation: shared coordinate draws correctly support correlated difference; CI[-.0225566591,.0077345654] includes0; parity0 missesL16",
+    "PNG visually inspected after tick-label and duplicate-size-cut fixes"
+  ],
+  "qualifications": [
+    "Reportable conditional result .5054 +/- .0076 statistical (bootstrap SD); asymptotic systematic error remains uncontrolled and cannot be replaced by an arbitrary symmetric bar",
+    "Interpolation methods agree more closely descriptively, but decimation does not establish absence of bias or bound interpolation error",
+    "Primary nominal MC95 ends just below .51905; much larger finite-size/correction uncertainty prevents an established Wilson-Fisher exclusion",
+    "Threshold coverage is incomplete; successful U25 roots do not imply all-threshold robustness or equilibration",
+    "Correction fits are weakly constrained stress tests, not alternate accepted precise dimensions",
+    "Precision forecast is an attempt allowance, not a time-to-reliable-digits promise; additional slowing/storage/size requirements may extend it",
+    "Current retained-file provenance is explicitly ledger/byte evidence rather than a newly recomputed full-file hash",
+    "Audited retention may continue separately; physics-analysis completion is not a claim all retention has completed"
+  ],
+  "required_fixes": [],
+  "scope": "No new simulations or retention operations launched. Only saved arrays, diagnostics, logs and figures inspected; requested review file written."
+}

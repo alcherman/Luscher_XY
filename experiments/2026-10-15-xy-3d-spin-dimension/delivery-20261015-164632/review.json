@@ -1,0 +1,33 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-15T21:47:15.708103+00:00",
+  "reviewer": "independent scientific review agent",
+  "files_sha256": {
+    "analysis.json": "7cfd9b9c9118a809ec84dfef566672ded6bf171dedeeaaf191d5056024ce4290",
+    "spin-dimension-measurement-report.txt": "5ea57fd51216ef84c3675bfec9d5ecb78ef9b6e70fe029c3d957ec98bd5f37b0",
+    "3d-spin-scaling-dimension.png": "ac16b71bbf6e76995581cc8c890431d637c155ef98e4fae58dd27bd8612ae906",
+    "full-sensitivity-ledger.json": "0acb00f8ce806b08311760bb160794c0cddd3b80ba69ab27acf5a293bf73e008",
+    "contour-and-moment-consistency.json": "080818a374e5485fe79b4cf7c4b2e26bcad8d59f5edac353174913e5720a33f2"
+  },
+  "checks": [
+    "All 12 pinned snapshot hashes independently verified",
+    "Reproduced 42 comparable q1 leading fits: central range [0.325604179857849,0.5208051599558677], MC interval union [0.2878944137535188,0.58266925788801]",
+    "Verified U30full moment-linear result is rejected: Delta=0.325604179857849, p=0.0001648902575047204",
+    "Reviewed normalization and joint root/moment block covariance in measure.py",
+    "Reviewed PNG: readable axes, conditional-only interval caption, q=.86 diagnostic qualification",
+    "Observed saved tests.log: 5 passed in 0.52s; tests were not rerun by reviewer",
+    "Verified literature comparison eta=.0381(2) in Campostrini et al. arXiv:cond-mat/0605083"
+  ],
+  "qualifications": [
+    "Primary Delta=.515012 is conditional on separate Binder/moment interpolation and leading size ansatz; it is not an interpolation-robust precision determination",
+    "Algebraically consistent primary moment-linear q1 estimate .506267 with MC95 [.435141,.577514] is a useful correlated alternative",
+    "Reconstructed primary Binder at N24 differs materially from nominal target; report discloses this",
+    "Rejected full-window U30 moment-linear result prevents all-threshold robustness claim",
+    "Constrained q=.92 interpolation dependence is large; no universality determination",
+    "q=.86 two-size result has zero DOF and remains diagnostic",
+    "Integrated moment interpretation assumes a continuous scaling regime and 2Delta<3; analytic/contact backgrounds remain unexcluded"
+  ],
+  "required_fixes": [],
+  "scope": "Existing MC only. No source snapshots modified, no simulations launched, no retention or copying changes.",
+  "literature_source": "https://arxiv.org/abs/cond-mat/0605083"
+}

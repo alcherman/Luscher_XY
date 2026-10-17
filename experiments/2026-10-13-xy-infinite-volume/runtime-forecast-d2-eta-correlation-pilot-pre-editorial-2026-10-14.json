@@ -1,0 +1,493 @@
+{
+  "created": "2026-10-14T08:02:09.198395-05:00",
+  "pilot": {
+    "trajectories": 54,
+    "slices": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "sizes": [
+      64,
+      128,
+      256
+    ],
+    "beta_samples_per_slice": 3,
+    "starts": 2,
+    "cycles": 12000,
+    "elapsed_seconds": 771.782109,
+    "generation_plus_audit_worker_hours": 2.4768197524997313,
+    "equivalent_concurrent_worker_processes": 11.55319746988205,
+    "efficiency_relative_to_cap18": 0.6418443038823362,
+    "actual_GiB": 140.8590744882822,
+    "per_size": {
+      "64": {
+        "trajectories": 18,
+        "median_generation_seconds": 26.655438437999692,
+        "median_audit_seconds": 3.439171500001976,
+        "mean_generation_plus_audit_seconds": 31.644569974556767,
+        "mean_bytes": 417511312.0
+      },
+      "128": {
+        "trajectories": 18,
+        "median_generation_seconds": 87.109348541504,
+        "median_audit_seconds": 10.534279250001418,
+        "mean_generation_plus_audit_seconds": 102.60404821061174,
+        "mean_bytes": 1613843823.1111112
+      },
+      "256": {
+        "trajectories": 18,
+        "median_generation_seconds": 323.48124670799734,
+        "median_audit_seconds": 38.56872220850346,
+        "mean_generation_plus_audit_seconds": 361.11533231477773,
+        "mean_bytes": 6371215952.0
+      }
+    },
+    "qualification": "Process wall-time concurrency includes simulation I/O and auditing; it is not measured CPU utilization or speedup. No permission stall observed in this pilot."
+  },
+  "remaining": {
+    "deadline": "2026-10-16T15:00:00-05:00",
+    "hours_available": 54.96411326888889,
+    "slices": 19,
+    "baseline_beta_samples": 3,
+    "larger_sizes": [
+      128,
+      256
+    ],
+    "starts": 2,
+    "cycles": 12000,
+    "additional_baseline_trajectories_range": [
+      228,
+      342
+    ],
+    "fresh64_anchors_optional": 114,
+    "bracket_extension_trajectories": 24,
+    "worker_hours_range": [
+      15.785255828859437,
+      16.787333878053733
+    ],
+    "observed_throughput_wall_hours_at_day_cap16": [
+      1.537099392074025,
+      1.634677383645833
+    ],
+    "baseline_generation_planning_wall_hours": [
+      2,
+      4
+    ],
+    "analysis_and_uncertainty_refinement_allowance_hours": [
+      6,
+      18
+    ],
+    "total_working_allowance_hours": [
+      8,
+      24
+    ],
+    "qualification": "Planning allowances are not a measured completion bound. Reuse old16/32/64 coordinates, prefer old matching-beta64 anchors; these counts assume three beta samples suffice initially, not final convergence."
+  },
+  "storage": {
+    "current_free_GiB": 2208.0164222717285,
+    "reserve_GiB": 25,
+    "baseline_plus_followup_observed_GiB_range": [
+      910.3840059224102,
+      954.7115048650238
+    ],
+    "baseline_plus_followup_conservative_GiB": 1115.2850067410618,
+    "uniform_fourfold_new_data_GiB": 3991.0071105013285,
+    "targeted_512_example": {
+      "slices": 3,
+      "beta_samples": 3,
+      "starts": 2,
+      "cycles": 12000,
+      "trajectories": 18,
+      "approx_GiB": 427.223321557045,
+      "qualification": "Volume-scaled storage example only; runtime and mixing require their own pilot. Not authorized as a blanket launch."
+    }
+  },
+  "coverage": [
+    {
+      "epsilon_over_pi": 0.6,
+      "observable": "xi_over_L",
+      "N": 64,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        0.26,
+        0.261,
+        0.28,
+        0.281
+      ],
+      "beta_location": 0.27276725232221855,
+      "valid_fraction": 0.955,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.2609554348994329,
+        0.28019710619587707
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.27276725232221855,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.4322463323948841
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "observable": "xi_over_L",
+      "N": 128,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        0.261,
+        0.281,
+        0.301
+      ],
+      "beta_location": 0.2822680131967068,
+      "valid_fraction": 0.868,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.26477258955690347,
+        0.2936105654957535
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.2822680131967068,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "observable": "xi_over_L",
+      "N": 256,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        0.261,
+        0.281,
+        0.301
+      ],
+      "beta_location": 0.2869923534045457,
+      "valid_fraction": 0.7785,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.2674604374614597,
+        0.29860910631849874
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.2869923534045457,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "observable": "eta_eff",
+      "N": 64,
+      "pair": [
+        64,
+        128
+      ],
+      "target": 0.25,
+      "bootstrap_window_beta": [
+        0.261,
+        0.281,
+        0.301
+      ],
+      "beta_location": 0.2777756467079664,
+      "valid_fraction": 0.6855,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.2648152476087797,
+        0.29824590021445396
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.2777756467079664,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 0.6,
+      "observable": "eta_eff",
+      "N": 128,
+      "pair": [
+        128,
+        256
+      ],
+      "target": 0.25,
+      "bootstrap_window_beta": [
+        0.261,
+        0.281,
+        0.301
+      ],
+      "beta_location": null,
+      "valid_fraction": 0.288,
+      "status": "unbracketed",
+      "MC95": [
+        0.2685057714017258,
+        0.3003223332395695
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": null,
+      "local_vs_full_shift": null,
+      "pooling_max_shift_sd": 0.01483666160884938
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "observable": "xi_over_L",
+      "N": 64,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        0.8,
+        0.86,
+        0.901,
+        0.92
+      ],
+      "beta_location": 0.8947320310176643,
+      "valid_fraction": 1.0,
+      "status": "conditional_crossing",
+      "MC95": [
+        0.8899820485475215,
+        0.9007856419418022
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.8947320310176643,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.30154009949936067
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "observable": "xi_over_L",
+      "N": 128,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        0.901,
+        0.921,
+        0.941
+      ],
+      "beta_location": 0.903269150822814,
+      "valid_fraction": 0.705,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.9012143546646956,
+        0.9095084341772688
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.903269150822814,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 3.240776883890214e-14
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "observable": "xi_over_L",
+      "N": 256,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        0.901,
+        0.921,
+        0.941
+      ],
+      "beta_location": 0.9068800751241537,
+      "valid_fraction": 0.9855,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.9027180733334,
+        0.910543604812226
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.9068800751241537,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "observable": "eta_eff",
+      "N": 64,
+      "pair": [
+        64,
+        128
+      ],
+      "target": 0.25,
+      "bootstrap_window_beta": [
+        0.901,
+        0.921,
+        0.941
+      ],
+      "beta_location": 0.9105075869925342,
+      "valid_fraction": 0.974,
+      "status": "bootstrap_bracket_unresolved",
+      "MC95": [
+        0.9031609612946766,
+        0.9191890281698731
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.9105075869925342,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "observable": "eta_eff",
+      "N": 128,
+      "pair": [
+        128,
+        256
+      ],
+      "target": 0.25,
+      "bootstrap_window_beta": [
+        0.901,
+        0.921,
+        0.941
+      ],
+      "beta_location": 0.9123334310351989,
+      "valid_fraction": 0.9995,
+      "status": "conditional_crossing",
+      "MC95": [
+        0.9073636553121631,
+        0.917596576557162
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 0.9123334310351989,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "observable": "xi_over_L",
+      "N": 64,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        1.08,
+        1.091,
+        1.1,
+        1.111
+      ],
+      "beta_location": 1.0952127326282348,
+      "valid_fraction": 1.0,
+      "status": "conditional_crossing",
+      "MC95": [
+        1.0914970054984834,
+        1.097705342529631
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 1.0952127326282348,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "observable": "xi_over_L",
+      "N": 128,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        1.091,
+        1.111,
+        1.131
+      ],
+      "beta_location": 1.0985273395773947,
+      "valid_fraction": 1.0,
+      "status": "conditional_crossing",
+      "MC95": [
+        1.095878598076812,
+        1.1008077889117005
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 1.0985273395773947,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "observable": "xi_over_L",
+      "N": 256,
+      "pair": null,
+      "target": 0.7506912,
+      "bootstrap_window_beta": [
+        1.091,
+        1.111,
+        1.131
+      ],
+      "beta_location": 1.1039830511531536,
+      "valid_fraction": 1.0,
+      "status": "conditional_crossing",
+      "MC95": [
+        1.101679564349188,
+        1.1062090542486964
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 1.1039830511531536,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "observable": "eta_eff",
+      "N": 64,
+      "pair": [
+        64,
+        128
+      ],
+      "target": 0.25,
+      "bootstrap_window_beta": [
+        1.091,
+        1.111,
+        1.131
+      ],
+      "beta_location": 1.1058353720324798,
+      "valid_fraction": 1.0,
+      "status": "conditional_crossing",
+      "MC95": [
+        1.1021263588791852,
+        1.1103194670363363
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 1.1058353720324798,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "observable": "eta_eff",
+      "N": 128,
+      "pair": [
+        128,
+        256
+      ],
+      "target": 0.25,
+      "bootstrap_window_beta": [
+        1.091,
+        1.111,
+        1.131
+      ],
+      "beta_location": 1.1077034718826388,
+      "valid_fraction": 1.0,
+      "status": "conditional_crossing",
+      "MC95": [
+        1.1048592076352375,
+        1.110888165320197
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "full_curve_central_location": 1.1077034718826388,
+      "local_vs_full_shift": 0.0,
+      "pooling_max_shift_sd": 0.0
+    }
+  ],
+  "conclusion": "Computational baseline remains on track for Friday with substantial analysis margin. Scientific precision is not guaranteed: low-epsilon observables are shallow, .60 eta128:256 is not bracketed, .80 R128 lower endpoint too close to target, and BKT logarithmic offsets remain model sensitivity. Expand pilot brackets before broad commitment; allow wider bars rather than forcing uniform expensive statistics. Uniform fourfold statistics cannot fit the current free space with full retention.",
+  "source_manifest": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/batches/d2-eta-correlation-larger-size-pilot-20261014.json",
+  "source_analysis": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/d2-eta-correlation-existing-20261014-075358/analysis.json",
+  "source_sha256": "b1a5c5f2380312e3b261d47dc54c02987a814c4b9a8763295e14acba9e9e0511"
+}

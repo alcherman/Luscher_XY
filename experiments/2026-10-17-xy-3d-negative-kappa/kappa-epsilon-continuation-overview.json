@@ -1,0 +1,34 @@
+{
+  "positive_source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/d2-d3-d4-attained-N512-with-endpoints-20261014/analysis.json",
+  "positive_source_sha256": "fd03a74326c62c52bcb51b894e7ebb118cc1b459d377456e423d7185aa4d546b",
+  "negative_source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/analysis.json",
+  "negative_source_sha256": "4c4c7c9a393c95a1c7c169752fb6a886fc5025e3143658441746c8e0ac85cb85",
+  "scouts": [
+    {
+      "kappa": -0.1,
+      "low": 0.748,
+      "high": 0.798,
+      "kind": "N8/N12 short-scout response region; N12 uncertainty unresolved"
+    },
+    {
+      "kappa": -0.25,
+      "low": 0.65,
+      "high": 0.69,
+      "kind": "N12 cold-start response-change interval; sector trapping"
+    },
+    {
+      "kappa": -0.5,
+      "low": 0.57,
+      "high": 0.62,
+      "kind": "N12 cold-start response-change interval; sector trapping"
+    }
+  ],
+  "hypothesis": {
+    "formula": "q=0.5+(q0-0.5)/(1+0.8*t+7.2*t*t), t=-kappa",
+    "q0": 0.8010789996985388,
+    "parameters": "Chosen for a schematic illustration, not statistically fitted",
+    "limit": "0.5 imposed, not inferred"
+  },
+  "conclusion": "Data are compatible with a continuation toward smaller epsilon; the limit1/2 is not established by these scouts.",
+  "no_new_simulations": true
+}

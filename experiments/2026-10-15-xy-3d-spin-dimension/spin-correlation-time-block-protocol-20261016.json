@@ -1,0 +1,87 @@
+{
+  "created": 1792192672.334483,
+  "scope": "Read-only derived measurements from frozen 64-chain existing-field plan; no MC or source archive changes.",
+  "measurement_plan": "experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-existing-20261016-design.json",
+  "protocol_update": "Dense scalar + sparse field observations share physical time blocks. The earlier pilot checkpoint-only protocol is retained as a sensitivity comparison.",
+  "primary": {
+    "cut_cycles": 1000,
+    "checkpoint_cadence": 100,
+    "scalar_mode": "dense_bins",
+    "block_factor": 2,
+    "draws": 2000
+  },
+  "sensitivities": [
+    {
+      "label": "checkpoint",
+      "scalar_mode": "checkpoint",
+      "cut_cycles": 1000,
+      "block_factor": 2
+    },
+    {
+      "label": "block4",
+      "scalar_mode": "dense_bins",
+      "cut_cycles": 1000,
+      "block_factor": 4
+    },
+    {
+      "label": "cut4000",
+      "scalar_mode": "dense_bins",
+      "cut_cycles": 4000,
+      "block_factor": 2
+    }
+  ],
+  "time_alignment": "Each field at t=100k is paired with scalar mean over t-99,...,t. No G replication or interpolation. Same contiguous bin-block draws for G and all scalar columns, independently within each MC start; row-weighted pooling.",
+  "crossing": {
+    "pairs": [
+      [
+        24,
+        48
+      ],
+      [
+        32,
+        64
+      ]
+    ],
+    "windows": {
+      "narrow": [
+        0.8005,
+        0.800625,
+        0.80075,
+        0.800875,
+        0.801
+      ],
+      "full": [
+        0.8005,
+        0.800625,
+        0.80075,
+        0.800875,
+        0.801,
+        0.801125,
+        0.80125,
+        0.8015
+      ]
+    },
+    "interpolation": [
+      "linear",
+      "pchip"
+    ],
+    "observables": "Direct R and log ensemble G, not interpolation of individual configuration logs.",
+    "root_rule": "Exactly one supported crossing, else missing/ambiguous; at least .99 common-valid draw fraction for resolved label. No branch selection or clipping.",
+    "estimators": "Separate Delta_quarter, Delta_half, Delta_m2 with full same-draw covariance and paired differences. No asymptotic extrapolation from only two pairs."
+  },
+  "limitations": [
+    "Spatial sites/axes are not independent MC events.",
+    "G remains limited to retained regular checkpoints; scalar density does not add G observations.",
+    "Few conservative time blocks make bootstrap coverage conditional.",
+    "Fixed-q slope and finite-pair quotients do not certify CFT Delta, mixing, or systematic error.",
+    "Earlier full-history m2 estimate is not paired with unrelated bootstrap draws."
+  ],
+  "source_code_sha256": {
+    "measure_spin_correlations.py": "c1f333055e5e00d59a5a80101f1d91cf0cb58d7b85dd77c6d681be4e2df272a7",
+    "analyze_spin_correlations.py": "7a01cfcae21a5ae5961a8f5ad1dd03855d93afb56e78e73e3b3d2bf7f523011f",
+    "spin_correlation_quotients.py": "f86798268193daae916143b8910d26f4297671b92ed5c30ccc69f920d73c63cf",
+    "report_spin_correlations.py": "76c8985a959b9b4c7caf830f814c063d439f2472f83b0594cf874a6e28e885e9",
+    "run_spin_existing_analysis.py": "8034f79eae9e0d6042878fcd52035f1db4163c7cead3c5713d893f6497523723"
+  },
+  "checks": "28 focused measurement/common-R tests passed, including independent analytic GLS covariance and incomplete-support report paths."
+}

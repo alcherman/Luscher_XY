@@ -1,0 +1,77 @@
+{
+  "state": "interrupted",
+  "launch_token": "1d200b7c3f2740cd892638ba74d0b0ed",
+  "point": {
+    "id": "spinfull3_production_q0800680_N048_r00_s100000",
+    "D": 3,
+    "N": 48,
+    "beta": 0.0,
+    "epsilon_over_pi": 0.80068,
+    "epsilon": 2.5154104058762754,
+    "replica": 0,
+    "seed": 3503252942725468038,
+    "initial_winding": [
+      0,
+      0,
+      0
+    ],
+    "steps": 100000,
+    "warmup": 10000,
+    "clusters_per_cycle": 4,
+    "online": true,
+    "campaign_role": "production"
+  },
+  "pid": 49597,
+  "updated": "2026-10-16T20:55:55.381749-05:00",
+  "manifest": "/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/batches/production-inner.json",
+  "source_hashes": {
+    "kernels": {
+      "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+      "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+      "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+      "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+      "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+      "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+      "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+      "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+      ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+      "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+    },
+    "online": "96b6f62d1abb3f70133d557435a52b0b6a70047cfe43152cb459648cc37d9b3e",
+    "runner": "9ba36771cc8ded35bbebb5e27c802396fb5fbdce9dd52e56e145023fd4242d56",
+    "retention_policy": "77e51e8c4717f90fb5087908564bf5e65ccb1db0f1b2089b984f626c8178b5c2"
+  },
+  "attempt_history": [
+    {
+      "state": "running",
+      "point": {
+        "id": "spinfull3_production_q0800680_N048_r00_s100000",
+        "D": 3,
+        "N": 48,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80068,
+        "epsilon": 2.5154104058762754,
+        "replica": 0,
+        "seed": 3503252942725468038,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 100000,
+        "warmup": 10000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "production"
+      },
+      "launch_token": "1d200b7c3f2740cd892638ba74d0b0ed",
+      "coordinator_pid": 49572,
+      "updated": "2026-10-16T20:48:59.465190-05:00",
+      "attempt_history": [],
+      "launch_recoveries": [],
+      "pid": 49597,
+      "note": "Full-growth reservation and nonce persisted before child creation"
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/campaign.py\", line 68, in worker\n    route();producer(path,sweeps=target,resume=path.exists(),**kwargs);print(frozen.now(),'checkpoint',identifier,target,flush=True)\n            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/online_spin.py\", line 44, in run_chain\n    with installed():return xy.run_chain(path,**kwargs)\n                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"/Users/acherman/research/Luscher_XY/supervillain/xy.py\", line 313, in run_chain\n    cfg = cluster.step(cfg)\n  File \"/Users/acherman/research/Luscher_XY/supervillain/generator/xy.py\", line 302, in step\n    return cfg | {\"phi\": self.cluster(cfg[\"phi\"], seed_site, reflection_angle, uniforms)}\n                         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/acherman/research/Luscher_XY/supervillain/generator/xy.py\", line 276, in cluster\n    self._validate_phi(phi)\n    ~~~~~~~~~~~~~~~~~~^^^^^\n  File \"/Users/acherman/research/Luscher_XY/supervillain/generator/xy.py\", line 244, in _validate_phi\n    if not self.Action.valid({\"phi\": phi}):\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"/Users/acherman/research/Luscher_XY/supervillain/action/xy.py\", line 163, in valid\n    links = self.links(field)\n  File \"/Users/acherman/research/Luscher_XY/supervillain/action/xy.py\", line 126, in links\n    links[direction] = self._wrap(\n                       ~~~~~~~~~~^\n        np.roll(spatial, shift=-1, axis=direction) - spatial\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/Users/acherman/research/Luscher_XY/supervillain/action/xy.py\", line 102, in _wrap\n    wrapped = np.remainder(raw, _TWO_PI)\n  File \"/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/campaign.py\", line 180, in stop\n    def stop(signum,frame):raise KeyboardInterrupt('Safe checkpoint interruption requested')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyboardInterrupt: Safe checkpoint interruption requested\n"
+}

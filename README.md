@@ -10,7 +10,17 @@ admissibility-aware Wolff cluster update, vortex and winding
 diagnostics, and resumable parameter scans. See the [XY simulation guide](docs/xy.md)
 for the action convention, examples, and validation limits.
 
+# Research results and session handoff
+
+See [RESEARCH_INDEX.md](RESEARCH_INDEX.md) for current reviewed results,
+plots, paused campaigns, and raw-data locations.
+
 # Installation + Development
+
+For the active Luscher XY calculation environment, use
+[the Python environment guide](PYTHON_ENVIRONMENT.md). It records the current
+Python and package versions without changing the installed environment.
+The generic upstream installation instructions below cover a broader toolchain.
 
 Navigate to the cloned repo and try
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>MKL_NUM_THREADS</key>
+		<string>1</string>
+		<key>MPLCONFIGDIR</key>
+		<string>/private/tmp/luscherxy-matplotlib</string>
+		<key>NUMBA_NUM_THREADS</key>
+		<string>1</string>
+		<key>OMP_NUM_THREADS</key>
+		<string>1</string>
+		<key>OPENBLAS_NUM_THREADS</key>
+		<string>1</string>
+		<key>VECLIB_MAXIMUM_THREADS</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>org.luscherxy.negative-kappa-heatbath-resolution-20261017</string>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/acherman/research/Luscher_XY/.venv/bin/python</string>
+		<string>-u</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/supervisor.py</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/batches/q0505-restricted-heatbath-start-resolution-v1.json</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/logs/heatbath-supervisor.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/logs/heatbath-supervisor.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/acherman/research/Luscher_XY</string>
+</dict>
+</plist>

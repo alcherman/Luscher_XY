@@ -1,0 +1,288 @@
+{
+  "original_sha256": "31cd04ea7501d3a8da61e75504b79752fdccf724e8f08f53052bc281bad71b26",
+  "original_bytes": 906973320,
+  "original_full_field_audit": {
+    "passed": true,
+    "rows": 4001,
+    "bytes": 906973320,
+    "sha256": "31cd04ea7501d3a8da61e75504b79752fdccf724e8f08f53052bc281bad71b26"
+  },
+  "retained_fields": 41,
+  "original_fields": 4001,
+  "policy": {
+    "mode": "checkpoints_only_outside_brackets",
+    "checkpoint_interval": 100,
+    "diagnostic_windows": [],
+    "outside_bracket_evidence": {
+      "manifest": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/outside-bracket-retention-design-20261014.json",
+      "manifest_sha256": "227630ac7f09fa53e51e5e83e124fb6c1b75669227e85e44e4ced81ce9f3535a",
+      "entry": {
+        "point": {
+          "id": "zero_d4_e0872_N012_r04_s004000",
+          "D": 4,
+          "epsilon_over_pi": 0.872,
+          "epsilon": 2.7394687939302993,
+          "beta": 0.0,
+          "N": 12,
+          "replica": 4,
+          "seed": 4215063798891043865,
+          "initial_winding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "steps": 4000,
+          "warmup": 1000,
+          "clusters_per_cycle": 4,
+          "campaign_role": "zero_beta_endpoint",
+          "epsilon_sampling_milli": 872,
+          "primary_observables": [
+            "binder_quarter"
+          ]
+        },
+        "audit_sha256": "31cd04ea7501d3a8da61e75504b79752fdccf724e8f08f53052bc281bad71b26",
+        "reason": "Outside every contributing measured bracket and conservative margin",
+        "bracket_evidence": [
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy0-U20"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy0-U20"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.858,
+              0.864
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy0-U30"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.858,
+              0.864
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy0-U30"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872,
+              0.5,
+              0.6666666666666666,
+              0.8333333333333334,
+              0.84,
+              0.85,
+              0.87,
+              0.875,
+              0.9166666666666666,
+              0.9583333333333334,
+              1.0
+            ],
+            "protected": [
+              0.85,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy1-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872,
+              0.5,
+              0.6666666666666666,
+              0.8333333333333334,
+              0.84,
+              0.85,
+              0.87,
+              0.875,
+              0.9166666666666666,
+              0.9583333333333334,
+              1.0
+            ],
+            "protected": [
+              0.85,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block1-local-legacy1-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block2-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut2001-block2-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut501-block1-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104621-cut501-block1-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104731-cut3001-block1-local-legacy0-U25"
+          },
+          {
+            "grid": [
+              0.86,
+              0.862,
+              0.864,
+              0.868,
+              0.872
+            ],
+            "protected": [
+              0.856,
+              0.868
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-104731-cut3001-block1-local-legacy0-U25"
+          }
+        ]
+      }
+    }
+  },
+  "created": "2026-10-14T13:36:29.729773-05:00",
+  "source_sha256": "31cd04ea7501d3a8da61e75504b79752fdccf724e8f08f53052bc281bad71b26",
+  "source_bytes": 906973320,
+  "compact_sha256": "07fcc60b58ae709a0074f66621809b790abc0a0f5b4ce00e00a7f4ba6bb69886",
+  "compact_bytes": 59540692,
+  "verified": true,
+  "committed": true
+}

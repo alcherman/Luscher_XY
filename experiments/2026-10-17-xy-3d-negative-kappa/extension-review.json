@@ -1,0 +1,40 @@
+{
+  "status": "accepted_with_qualifications",
+  "approved": true,
+  "created": "2026-10-17T15:46:45.044625+00:00",
+  "source_hashes": {
+    "native": {
+      "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+      "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+      "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+      "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+      "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+      "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+      "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+      "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+      ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+      "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+    },
+    "scout": "2b37c2979bc5e09ff1f80d0766a64383d8d7a15571e6bb41134dcc5a8b82c468",
+    "audit": "e85a191fbf8de450890e500bbf30be955a4ccf3c72e463a04978cc28f0365597",
+    "analysis": "edd5e9e161e33f7fa6cc87a060ad22a68d9dceff1e1d2e39a7294728053cdeb7"
+  },
+  "extension_sha256": "8701014f7a828e5d83a6ae957a4fb050db5dcb913bb9f060406c97c4932e499e",
+  "points_sha256": "fdae46f507bafb6c51067a40e6a1798132061b77b6e9e34ed90c46894630d9fa",
+  "scope": "Only24 additional finite-volume branch-coverage scouts: kappa-.25 at q.600/.650/.690 and kappa-.5 at q.520/.570/.620, N8/12, zero/unit-x starts,4000 native Metropolis sweeps; no high-epsilon antiferromagnetic campaign.",
+  "checks": [
+    "Inspected distinct extension manifest, source/hash review gate, shared manager singleton, no-known-active-job admission, copy-reservation and25GiB reserve subtraction,8-worker limit, per-trajectory unfiltered logs, full native history audits, all-manifest postprocessing and prior analysis-history preservation.",
+    "Independently verified24 unique IDs and seeds, zero ID/seed collisions against original48, all initial unit-x slopes admissible, corrected physical ceiling2,150,060,844 bytes.",
+    "Inspected actual original48 results: no U=.25 bracket at either negative coupling; old kappa-.25 pooled U approximately-.108 to+.016, kappa-.5 approximately-.024 to+.024. Lower-epsilon search is therefore evidence-driven coverage work.",
+    "Focused native-negative/audit/root tests independently passed3 in9.26s before extension; extension coordinate/seed/geometry assertions independently checked."
+  ],
+  "qualifications": [
+    "These additional coarse points seek an ordered-side bracket. They do not guarantee a bracket or establish thermodynamic transition locations.",
+    "At kappa-.1,N12,q.773 one existing start has monitored tau309.9 cycles and zero conservative blocks; its Binder root is unresolved with valid_fraction0 and no MC95. Common-R crossing there is central-only, not validated precision.",
+    "Cold/unit-x initial conditions are both ordered smooth states;4000 sweeps, agreement of two starts and local tau estimates do not certify mixing or rule out shared metastability.",
+    "Sampled spectrum peak/S0 ratios of order1\u20131.75 from30 fields over many momentum modes do not demonstrate modulated or antiferromagnetic order. Preserve warnings and avoid a new-phase inference.",
+    "Use new low-epsilon points together with prior higher-epsilon anchors, retaining actual coarse knots and unresolved/flagged intervals. No infinite-volume extrapolation fromN8/12.",
+    "Old followup remains user-paused. Detached app-independent execution is supported, but manager-process recovery still requires reconciliation of surviving workers; no automatic reattachment claim.",
+    "Current approval is bounded24-job followup only. No further extension, longer chains, larger boxes, or old campaign resume is authorized by this review."
+  ]
+}

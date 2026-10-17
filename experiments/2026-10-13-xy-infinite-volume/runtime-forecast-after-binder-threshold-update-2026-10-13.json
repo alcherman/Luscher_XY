@@ -1,0 +1,91 @@
+{
+  "created": "2026-10-13T16:48:32.781088-05:00",
+  "deadline": "2026-10-16T15:00:00-05:00",
+  "remaining_hours": 70.19089414222222,
+  "status": {
+    "updated": "2026-10-13T16:48:23.695591-05:00",
+    "pid": 53870,
+    "worker_limit": 16,
+    "active": 2,
+    "paused": 0,
+    "total": 542,
+    "complete": 540,
+    "failed": [],
+    "pending": 0,
+    "disk_free_bytes": 3957776474112,
+    "reserve_bytes": 26843545600,
+    "deadline": "2026-10-16T15:00:00-05:00",
+    "launch_new": true,
+    "state": "running"
+  },
+  "capacity_maximum_scheduled_worker_hours": 1219.0543062755557,
+  "storage": {
+    "free_TiB": 3.599576734006405,
+    "reserve_GiB": 25,
+    "raw_GiB_at_540_closures": 92.06294620037079
+  },
+  "measured_batches": [
+    {
+      "name": "beta-neighborhood-scout",
+      "trajectories": 244,
+      "wall_minutes": 3.2508455166666668,
+      "generation_plus_audit_worker_hours": 0.4935821772535928,
+      "effective_workers": 9.10991632281006
+    },
+    {
+      "name": "endpoint-narrow-window-validation",
+      "trajectories": 30,
+      "wall_minutes": 9.596573916666667,
+      "generation_plus_audit_worker_hours": 0.7704074550119457,
+      "effective_workers": 4.8167656188670955
+    }
+  ],
+  "baseline_d3_d4": {
+    "nonendpoint_d3_slices": 9,
+    "nonendpoint_d4_slices": 6,
+    "new_sizes": [
+      12,
+      16
+    ],
+    "beta_samples_per_size": 2,
+    "independent_starts": 2,
+    "cycles": 4000,
+    "new_trajectories": 120,
+    "ordinary_endpoint_reused": true,
+    "pointwise_beta_design": "Adaptive threshold brackets from actual N6,N8 scouts",
+    "productive_worker_hours_volume_scope": 2.4175,
+    "productive_worker_hours_scope": "Uses measured endpoint sizes; generation plus audit, excludes launch overhead and analysis. Constrained larger-box cost is unmeasured.",
+    "first_pass_and_refinement_wall_allowance_hours": [
+      2,
+      6
+    ]
+  },
+  "sensitivity_scenario": {
+    "d3_selected_N24_slices": 3,
+    "d4_selected_N10_N20_slices": 2,
+    "beta_samples": 2,
+    "independent_starts": 2,
+    "cycles": 4000,
+    "extra_trajectories": 28,
+    "statistics_scenarios": "2x or4x cycles on diagnosed slices, not a blanket extension; cost/mixing must be checked."
+  },
+  "d2": {
+    "reused_candidate_slices": 22,
+    "sizes": [
+      16,
+      32,
+      64
+    ],
+    "existing_threshold_bracket_groups": 0,
+    "existing_groups_checked": 66,
+    "required_new_work": "New disordered-side scouting for U=.25; old data remain valuable near-critical anchors and optional threshold checks. Near epsilon/pi=.58, even beta0 has U around.489 at these sizes, so larger boxes or a closer-to-critical threshold may be needed. Do not infer absence of a positive thermodynamic transition from a missing finite-box crossing.",
+    "runtime_pilot_measured": false,
+    "illustrative_baseline": "Up to22 slices x3 sizes x3 couplings x2starts x4000cycles =396 trajectories before targeted larger boxes, with reuse of compatible exact coordinates. This is a budget scenario, not a finalized batch."
+  },
+  "delivery_planning_wall_allowance_hours": [
+    12,
+    36
+  ],
+  "planning_scope": "Management allowance for new sampling, analysis, validation, refinements and plots; not an observed full-campaign runtime bound. Need rerun forecast after the d2 pilot or materially larger/longer requirements.",
+  "assessment": "On track for useful d2,d3,d4 results by Friday, with wider bars/unresolved slices permitted. Compute/storage do not presently threaten deadline. Cannot yet promise validated +/-0.02 at every slice; d2 coverage/mixing and size drift remain main risks. D5 remains deferred."
+}

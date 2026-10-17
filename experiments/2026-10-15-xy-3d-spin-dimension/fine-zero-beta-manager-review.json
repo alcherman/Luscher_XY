@@ -1,0 +1,22 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-15T21:58:04.096272+00:00",
+  "manager_sha256": "9c454ddf2d901b1886af1249d708892e029e8b54e574df6fe9f2d7031dc426ae",
+  "checks": [
+    "Manager has nonblocking singleton flock; coordinator has its separate global singleton",
+    "Launch gate checks unrelated pending/interrupted/running commitments before enabling reviewed batch",
+    "Closes launch gate after complete audited closure; stops coordinator only after its reviewed cohort closes",
+    "Fine primary checks exact82 IDs; eight variants check corresponding full or parity subsets pinned to primary",
+    "Simulation kernels remain untouched and analysis subprocesses use current explicit Python executable",
+    "Analysis concurrency limited to3; per-run retention waits for full source closure audits and all analysis snapshots"
+  ],
+  "qualifications": [
+    "Actual core ceiling depends on shared control writers: observed max_workers16 rather than manager requested14; daytime16 still leaves2 of18 cores free, but a strict14 ceiling needs a shared cap",
+    "Fine-pooled old+new diagnostic has no explicit expected-ID check; verify its source set independently before interpreting it",
+    "Existing helper estimator, runtime and tau evidence do not guarantee new precision or mixing",
+    "Local interpolation, achieved Binder consistency, thresholds, cut/block/start variants and size sensitivity still require scientific review",
+    "Retention subprocesses use exclusive copy lock and therefore serialize despite a2-thread submission pool; no parallel speedup assumed",
+    "Independent process listing was unavailable under read-only sandbox; fresh status data and manager implementation were inspected"
+  ],
+  "scope": "Read-only manager/code/status review. No simulations, analyses, service changes, process signals or retention conversions launched by reviewer."
+}

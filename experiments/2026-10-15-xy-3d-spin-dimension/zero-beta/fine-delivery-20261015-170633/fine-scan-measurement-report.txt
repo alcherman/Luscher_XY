@@ -1,0 +1,24 @@
+FINER 3D BETA=0 EPSILON SCAN: SPIN SCALING DIMENSION
+
+Sources: 82 fresh audited trajectories on 41 exact coordinates,12000cycles each, two independent RNG starts with zero/unit-x winding. All original72 trajectories remain separate; pooled variant has154 sources.
+No Delta or nu is fixed. Predeclared primary family is moment-consistent linear,U=.25,L>=8. Conditional and rejected fit statuses are retained; no estimator or size cut is selected by favorable p.
+
+LEADING L>=8 CONDITIONAL DIAGNOSTICS
+linear m2: {"status": "conditional_dimension_fit", "sizes": [8, 12, 16, 24, 32], "Delta": 0.5065807528056693, "MC95": [0.4915095640410323, 0.51986627153426], "chi2": 7.666075082942571, "dof": 3, "p": 0.05344136391410072, "valid_fraction": 1.0, "coefficients": [-0.5688892427965019, 0.5065807528056693], "minimum": 8, "omega": null}; flags=[]; omitted=[]
+linear mabs: {"status": "conditional_dimension_fit", "sizes": [8, 12, 16, 24, 32], "Delta": 0.5064870382857402, "MC95": [0.491642308354009, 0.5197901749412387], "chi2": 7.347428383968295, "dof": 3, "p": 0.06161102082108773, "valid_fraction": 1.0, "coefficients": [-0.36049506620244537, 0.5064870382857402], "minimum": 8, "omega": null}; flags=[]; omitted=[]
+pchip m2: {"status": "conditional_dimension_fit", "sizes": [8, 12, 16, 24, 32], "Delta": 0.5081088086054408, "MC95": [0.4901010902174744, 0.5227430202380848], "chi2": 5.727533983203115, "dof": 3, "p": 0.1256455160058528, "valid_fraction": 1.0, "coefficients": [-0.5619693649143961, 0.5081088086054408], "minimum": 8, "omega": null}; flags=[]; omitted=[]
+pchip mabs: {"status": "conditional_dimension_fit", "sizes": [8, 12, 16, 24, 32], "Delta": 0.5080167610790789, "MC95": [0.49001839950413334, 0.52286309906164], "chi2": 5.45385295975015, "dof": 3, "p": 0.14142492263613052, "valid_fraction": 1.0, "coefficients": [-0.3568131136279628, 0.5080167610790789], "minimum": 8, "omega": null}; flags=[]; omitted=[]
+moment_linear m2: {"status": "conditional_dimension_fit", "sizes": [8, 12, 16, 24, 32], "Delta": 0.5054002679474362, "MC95": [0.48917739589857784, 0.5182622540531059], "chi2": 9.503854736884499, "dof": 3, "p": 0.02329038784261007, "valid_fraction": 1.0, "coefficients": [-0.5686588692569831, 0.5054002679474362], "minimum": 8, "omega": null}; flags=[]; omitted=[]
+moment_linear mabs: {"status": "conditional_dimension_fit", "sizes": [8, 12, 16, 24, 32], "Delta": 0.5052605742652813, "MC95": [0.48923664083683444, 0.5181896956912856], "chi2": 9.218165516628872, "dof": 3, "p": 0.026526576559272864, "valid_fraction": 1.0, "coefficients": [-0.36028360144466237, 0.5052605742652813], "minimum": 8, "omega": null}; flags=[]; omitted=[]
+
+INTERPOLATION SUPPORT
+linear: 5/5 conditional roots; max actual-Binder discrepancy 0.0013794888690941143; min valid fraction 1.0
+pchip: 5/5 conditional roots; max actual-Binder discrepancy 0.00047168497118854624; min valid fraction 1.0
+moment_linear: 5/5 conditional roots; max actual-Binder discrepancy 4.5315973196125015e-12; min valid fraction 1.0
+
+LIMITATIONS
+All intervals are conditional block-bootstrap MC95, not certified total errors. m2~L^(-2Delta) and recorded|m|~L^(-Delta) at a fixed dimensionless contour require continuous critical scaling and infrared dominance2Delta<3. Corrections/contact L^-3 terms and critical-contour drift remain possible. GLS uses joint root/moment samples and masks after size cuts. Leading correction powers .5/.8/1 are diagnostic stress tests, not fixed measured universal exponents.
+Cut1001/2001/4001, doubled blocks, full/local windows, U=.20/.25/.30, start parity and linear/PCHIP/moment-linear are preserved in the ledger. Missing roots/omitted sizes and start/half/low-block flags are not hidden. Even/odd results are not paired for start-difference covariance. Favorable audits/bracket retention/p-values alone do not prove mixing or precision.
+The new fine grid changes source composition and sampling precision; old-versus-new shifts are descriptive, not independent replicated improvement claims. The original paper motivation was clarified by the user: this O2 study compares to the standard WF value, not a claimed second O2CFT. Reference Delta .51905 from eta .0381 (Campostrini et al. https://arxiv.org/abs/cond-mat/0605083) is for comparison only.
+All observable/winding/RNG/provenance/log histories and checkpoints retained. User-authorized field thinning follows full independent closure audits; SSD originals are held and no archive relocation/deletion is authorized.
+All ten snapshot hashes and complete full/parity/pooled source sets are pinned in analysis.json. Figure and substantive interpretation require independent review; numerical output alone is not completion.

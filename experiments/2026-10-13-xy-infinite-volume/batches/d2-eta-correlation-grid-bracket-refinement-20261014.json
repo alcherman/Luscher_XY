@@ -1,0 +1,428 @@
+{
+  "name": "d2-eta-correlation-grid-bracket-refinement-20261014",
+  "purpose": "Completed q.58/.62/.66 baseline slices have incomplete bootstrap brackets: eta128 q.58 valid.954; eta64/128 q.62 .9055/.987; R128 and eta64 q.66 .975/.965. Extend q.58 beta to.020/.280 because both shallow eta endpoint margins are small; q.62 lowerbeta.300; q.66 upperbeta.640. Match N64/128/256 for joint eta/R, use fresh independent replicas4/5. Preserve every raw field history RNG checkpoint log and audit. This improves measured bracket coverage only, not a claimed infinite-volume accuracy improvement.",
+  "points": [
+    {
+      "id": "d2_e058_b0020_N064_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.02,
+      "N": 64,
+      "replica": 4,
+      "seed": 1732731890530006576,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0020_N064_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.02,
+      "N": 64,
+      "replica": 5,
+      "seed": 4972433841055097619,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0020_N128_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.02,
+      "N": 128,
+      "replica": 4,
+      "seed": 15185889915330684702,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0020_N128_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.02,
+      "N": 128,
+      "replica": 5,
+      "seed": 12610122562179087003,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0020_N256_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.02,
+      "N": 256,
+      "replica": 4,
+      "seed": 711089915477948137,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0020_N256_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.02,
+      "N": 256,
+      "replica": 5,
+      "seed": 6245108963475804187,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0280_N064_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.28,
+      "N": 64,
+      "replica": 4,
+      "seed": 12837052184309792491,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0280_N064_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.28,
+      "N": 64,
+      "replica": 5,
+      "seed": 7422183598270679126,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0280_N128_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.28,
+      "N": 128,
+      "replica": 4,
+      "seed": 6121013700263495151,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0280_N128_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.28,
+      "N": 128,
+      "replica": 5,
+      "seed": 6507538245324210942,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0280_N256_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.28,
+      "N": 256,
+      "replica": 4,
+      "seed": 8785333509430251497,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e058_b0280_N256_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.58,
+      "epsilon": 1.8221237390820801,
+      "beta": 0.28,
+      "N": 256,
+      "replica": 5,
+      "seed": 4352820815949750063,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e062_b0300_N064_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.62,
+      "epsilon": 1.9477874452256716,
+      "beta": 0.3,
+      "N": 64,
+      "replica": 4,
+      "seed": 1195956694455324432,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e062_b0300_N064_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.62,
+      "epsilon": 1.9477874452256716,
+      "beta": 0.3,
+      "N": 64,
+      "replica": 5,
+      "seed": 7852493700883698793,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e062_b0300_N128_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.62,
+      "epsilon": 1.9477874452256716,
+      "beta": 0.3,
+      "N": 128,
+      "replica": 4,
+      "seed": 11874232995897587245,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e062_b0300_N128_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.62,
+      "epsilon": 1.9477874452256716,
+      "beta": 0.3,
+      "N": 128,
+      "replica": 5,
+      "seed": 1559749547704997612,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e062_b0300_N256_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.62,
+      "epsilon": 1.9477874452256716,
+      "beta": 0.3,
+      "N": 256,
+      "replica": 4,
+      "seed": 526613909181010771,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e062_b0300_N256_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.62,
+      "epsilon": 1.9477874452256716,
+      "beta": 0.3,
+      "N": 256,
+      "replica": 5,
+      "seed": 12630089425848614684,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0640_N064_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.64,
+      "N": 64,
+      "replica": 4,
+      "seed": 13329519287358266906,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0640_N064_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.64,
+      "N": 64,
+      "replica": 5,
+      "seed": 3839439696197895327,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0640_N128_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.64,
+      "N": 128,
+      "replica": 4,
+      "seed": 8981715756695754901,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0640_N128_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.64,
+      "N": 128,
+      "replica": 5,
+      "seed": 15285223926566779865,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0640_N256_r04_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.64,
+      "N": 256,
+      "replica": 4,
+      "seed": 11246189324888331626,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0640_N256_r05_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.64,
+      "N": 256,
+      "replica": 5,
+      "seed": 12122242825658047051,
+      "initial_winding": [
+        1,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "source_hashes": {
+    "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+    "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+    "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+    "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+    "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+    "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+    "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+    "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+    ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+    "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+  },
+  "estimated_bytes": 78526436552,
+  "created": "2026-10-14T09:41:47.969120-05:00"
+}

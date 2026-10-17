@@ -1,0 +1,434 @@
+{
+  "name": "q052-sign-sector-mixing-validation-v1",
+  "purpose": "16boundedN8trajectories at the unresolvedepsilon/pi=.52:12augmentedat\u03ba\u22121.5/\u22122/\u22122.5, fourbaseline\u03ba\u22122. Fourinitialclasses,16k/4k. Exactnew\u03c0-cluster plus symmetric collectiveMH; assess actualmixing beforeboundarygrid.",
+  "points": [
+    {
+      "id": "scaled3_km1500_q0520000_N008_r140_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -1.5,
+      "kappas": [
+        -1.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 12179511994210390422,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km1500_q0520000_N008_r141_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -1.5,
+      "kappas": [
+        -1.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 3358998412608942205,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km1500_q0520000_N008_r142_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -1.5,
+      "kappas": [
+        -1.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 678100473151840352,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km1500_q0520000_N008_r143_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -1.5,
+      "kappas": [
+        -1.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 9215039051649220607,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r140_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 6101875874097979766,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r141_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 10807141186295407324,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r142_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 17356425527192444901,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r143_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 10012204243894396652,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2500_q0520000_N008_r140_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.5,
+      "kappas": [
+        -2.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 14503545124468367977,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2500_q0520000_N008_r141_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.5,
+      "kappas": [
+        -2.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 482949771377893232,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2500_q0520000_N008_r142_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.5,
+      "kappas": [
+        -2.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 5642793817276870091,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2500_q0520000_N008_r143_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.5,
+      "kappas": [
+        -2.5
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 18243222777650954248,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "sector_mixing_validation"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r150_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 5139198543729010901,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": false,
+      "role": "sector_baseline_control"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r151_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 5676214490991386898,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": false,
+      "role": "sector_baseline_control"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r152_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 14505672364925005356,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": false,
+      "role": "sector_baseline_control"
+    },
+    {
+      "id": "scaled3_km2000_q0520000_N008_r153_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -2.0,
+      "kappas": [
+        -2.0
+      ],
+      "epsilon": 1.6336281798666925,
+      "epsilon_over_pi": 0.52,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 3272385910242680631,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": false,
+      "role": "sector_baseline_control"
+    }
+  ],
+  "source_hashes": {
+    "producer": {
+      "native": {
+        "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+        "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+        "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+        "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+        "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+        "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+        "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+        "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+        ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+        "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+      },
+      "signed_cluster": {
+        "version": 1,
+        "signed_cluster_sha256": "401b10e2f1e842b322eb472dc1f6988abaffca3fd88b65466d0dfc04b3079e60",
+        "kernel_sha256": "7ed8ccfe394dec594fab95c2b48e8e4c9677920336fa0d983ca2dc4cdf17f4bf",
+        "activation": "forced hard bonds; else 1-exp(-2*max(0,kappa*projection_product))",
+        "scope": "Experiment-local signed-coupling extension. Frozen original kernels unchanged."
+      },
+      "replica_exchange_sha256": "0b24e5a9428fbb36b0c6c6b4d1818ffb58eba511f92f74697a4cf6c5529e0c25",
+      "runtime": {
+        "python": "3.14.6",
+        "numpy": "2.5.2",
+        "numba": "0.67.0",
+        "h5py": "3.16.0",
+        "threads": 1
+      },
+      "sector_extension": {
+        "sha256": "df03f6dcac619f72d30238b68bee5a46c6b85e614a7b0d7756cc5794d90acfd1",
+        "pi_activation": "forced hard bonds; otherwise 1-exp(-2max(0,kappa*cos(delta)))",
+        "collective": "uniform14 fixed shifts a*parity-2pi*w.x/N; a=+/-pi/2,w=0 or+/-unit axes; exact inverse pairing; MH exp(kappa*DeltaC)",
+        "scope": "Isolated exact sector-update experiment; frozen native kernels unchanged"
+      },
+      "base_audit_sha256": "8bb4d9c5996c36c3fb1fad58005a147ab3b9aae0205aeb324482fa5293b62205"
+    },
+    "runner": "cdc8b1a7fa1d279bca8bde2785780df8c61ca8add046a0c71e2ba248a217a5a5",
+    "audit": "2c904fa538d8fb5446898ba6c94290ec7c950b5494ea3cfe45284e283e904236"
+  },
+  "physical_free_bytes": 3912262549504,
+  "full_ceiling_bytes": 5530242240,
+  "copy_reserved_bytes": 0,
+  "created": "2026-10-17T13:27:35.553770-05:00"
+}

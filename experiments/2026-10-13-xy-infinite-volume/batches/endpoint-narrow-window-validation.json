@@ -1,0 +1,578 @@
+{
+  "name": "endpoint-narrow-window-validation",
+  "purpose": "Narrow endpoint neighborhoods for empirical beta-window and histogram-overlap validation: d3 beta=.453,.455(existing),.457; d4 beta=.300,.302(existing),.304. Two independent starts,4000 cycles. Add d4 N20 at beta=.302 to test minimum-size/correction-model identifiability. No coupling is anchored to a literature value. N20 forecast uses measured N16 generation-plus-audit scaled by volume conservatively, including any interruption in original wall time; this is a planning cost, not guaranteed sampling efficiency.",
+  "points": [
+    {
+      "id": "d3_e100_b0453_N008_r00_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.453,
+      "N": 8,
+      "replica": 0,
+      "seed": 2392619923489526730,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0453_N008_r01_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.453,
+      "N": 8,
+      "replica": 1,
+      "seed": 10067816490428707130,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0453_N012_r00_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.453,
+      "N": 12,
+      "replica": 0,
+      "seed": 13994751777629566471,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0453_N012_r01_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.453,
+      "N": 12,
+      "replica": 1,
+      "seed": 13812039763997212847,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0453_N016_r00_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.453,
+      "N": 16,
+      "replica": 0,
+      "seed": 13882411725745436257,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0453_N016_r01_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.453,
+      "N": 16,
+      "replica": 1,
+      "seed": 6327918979614631435,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0457_N008_r00_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.457,
+      "N": 8,
+      "replica": 0,
+      "seed": 3358921164086591086,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0457_N008_r01_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.457,
+      "N": 8,
+      "replica": 1,
+      "seed": 3592203293480494488,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0457_N012_r00_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.457,
+      "N": 12,
+      "replica": 0,
+      "seed": 9222719258232271638,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0457_N012_r01_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.457,
+      "N": 12,
+      "replica": 1,
+      "seed": 7646811241098446005,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0457_N016_r00_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.457,
+      "N": 16,
+      "replica": 0,
+      "seed": 3458145793661760341,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d3_e100_b0457_N016_r01_s004000",
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.457,
+      "N": 16,
+      "replica": 1,
+      "seed": 3987856927336517613,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N008_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 8,
+      "replica": 0,
+      "seed": 4977298450514954674,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N008_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 8,
+      "replica": 1,
+      "seed": 9740519622044872087,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N010_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 10,
+      "replica": 0,
+      "seed": 1546778743324735137,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N010_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 10,
+      "replica": 1,
+      "seed": 9045194263868279828,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N012_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 12,
+      "replica": 0,
+      "seed": 9724851731888331852,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N012_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 12,
+      "replica": 1,
+      "seed": 10587703845303326310,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N016_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 16,
+      "replica": 0,
+      "seed": 11918378094128821764,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0300_N016_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.3,
+      "N": 16,
+      "replica": 1,
+      "seed": 10029552102815193824,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N008_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 8,
+      "replica": 0,
+      "seed": 11674160451928217445,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N008_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 8,
+      "replica": 1,
+      "seed": 5561012456317953125,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N010_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 10,
+      "replica": 0,
+      "seed": 10737615492614240055,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N010_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 10,
+      "replica": 1,
+      "seed": 8220053933922980106,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N012_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 12,
+      "replica": 0,
+      "seed": 16351240849851706104,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N012_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 12,
+      "replica": 1,
+      "seed": 17291541028217454992,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N016_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 16,
+      "replica": 0,
+      "seed": 13484259283084607689,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0304_N016_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.304,
+      "N": 16,
+      "replica": 1,
+      "seed": 3513443314008425946,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0302_N020_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.302,
+      "N": 20,
+      "replica": 0,
+      "seed": 8858129487407353865,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e100_b0302_N020_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 0.302,
+      "N": 20,
+      "replica": 1,
+      "seed": 222078627051578846,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "source_hashes": {
+    "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+    "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+    "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+    "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+    "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+    "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+    "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+    "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+    ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+    "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+  },
+  "estimated_bytes": 35439664372,
+  "created": "2026-10-13T15:57:13.768981-05:00"
+}

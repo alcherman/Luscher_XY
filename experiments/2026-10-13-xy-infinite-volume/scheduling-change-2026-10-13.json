@@ -1,0 +1,32 @@
+{
+  "before": {
+    "ProcessType": "Background",
+    "Nice": 5
+  },
+  "after": {
+    "ProcessType": "Standard",
+    "Nice": 5,
+    "AbandonProcessGroup": true
+  },
+  "live_worker_pids": [
+    53670,
+    53669,
+    53528,
+    53789,
+    43971,
+    43970,
+    53527,
+    53835,
+    53634,
+    53633,
+    53529,
+    43975,
+    49947,
+    43976,
+    49948,
+    53632
+  ],
+  "preserve_live_workers": true,
+  "frozen_runner_unchanged": true,
+  "note": "Resource/scheduling change only. Existing session-separated workers keep running and are adopted by the restarted coordinator; future workers inherit Standard scheduling. No scientific parameters change."
+}

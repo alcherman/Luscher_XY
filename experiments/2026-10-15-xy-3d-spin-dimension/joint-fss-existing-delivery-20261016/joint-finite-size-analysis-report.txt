@@ -1,0 +1,88 @@
+3D beta=0: existing-data joint finite-size scaling analysis
+16 October 2026
+
+OUTCOME
+The new analysis propagates critical-epsilon uncertainty and demonstrates a specific background/correction ambiguity. It does NOT establish a calibrated systematic standard deviation. No new simulations were launched.
+
+Input bank: 48 coordinate groups, 96 independently seeded chains, L=12,16,24,32,48,64, q=.8005 through .8015. Chain lengths: {20000: 32, 12000: 64}; full source-pinned parent cohort has270 trajectories. Narrow window .800625:.801000 uses24 groups/48 chains. Source means/joint bootstrap caches are unchanged.
+
+MODEL AND STATISTICS
+Fit R=xi/L and log<m2> jointly. ell=L/32, x=1000(q-qc)*ell^(1/nu), u=ell^-omega.
+Baseline R=Rstar+r1*x+r2*x^2+bR*u.
+Baseline log<m2>=a-2*Delta*log(ell)+m1*x+m2*x^2+bm*u.
+The two responses share qc. Rstar and Delta are free; no critical R or Delta target imposed.
+nu=.67169 and omega=.789 are explicitly Wilson-Fisher-informed assumptions. Separate nu=.63/.71, omega=.6/1 stress checks are descriptive, not confidence ranges.
+Variant terms: x*u in both observables; analytic thermal amplitude in logm2; u^2; cubic x^3. Raw-m2 variants fit exp(singular log response)+Bphysical/L^3, with signed background and analytic Jacobian.
+Profile qc on q=.80025:.80175; globally scan/refine its minima and solve remaining linear GLS coefficients. Full nonlinear raw fits use12 central starting points. Joint rank/conditioning, optimizer success, boundary hits and nonphysical failures are checked on each bootstrap draw.
+Within-coordinate 2x2 covariance retained, different independently sampled coordinates treated independent. Fixed central whitening and original joint bootstrap draws reused across all model/size fits. No noisy cross-coordinate sample covariance is used for weighting.
+Baseline: cut1001, block factor2, 2000 draws. Separate saved latecut4001, block factor4 and even/odd-start banks are fitted as sampling checks. Across-bank differences are descriptive, not paired significance tests.
+
+SELECTED CONDITIONAL RESULTS (statistical SD, not total error)
+inner-min12-leading: Delta=0.518219 +/- 0.006896 stat; MC95=[0.5050709794204447, 0.531648792354794]; qc=0.800743706 +/- 0.000013638; training nominal p=0.5507; flags=[]
+inner-min12-mixed: Delta=0.519129 +/- 0.007065 stat; MC95=[0.5056122665044617, 0.532793398741852]; qc=0.800747717 +/- 0.000014448; training nominal p=0.5582; flags=[]
+inner-min16-leading: Delta=0.526496 +/- 0.010047 stat; MC95=[0.5072465377339775, 0.5462637376041476]; qc=0.800737618 +/- 0.000017733; training nominal p=0.6706; flags=[]
+inner-min24-leading: Delta=0.540457 +/- 0.021986 stat; MC95=[0.4984996037856848, 0.5832786195256513]; qc=0.800748158 +/- 0.000027645; training nominal p=0.3914; flags=[]
+inner-min12-second: Delta=0.545356 +/- 0.027268 stat; MC95=[0.49322245750573374, 0.6000422407814454]; qc=0.800726684 +/- 0.000027432; training nominal p=0.6269; flags=[]
+inner-min12-raw-zero-background: Delta=0.518231 +/- 0.006891 stat; MC95=[0.5051672374997164, 0.5316869268208166]; qc=0.800743606 +/- 0.000013544; training nominal p=0.5558; flags=[]
+inner-min12-raw-background: Delta=0.555996 +/- 0.017338 stat; MC95=[0.5228335025861013, 0.5896539836873028]; qc=0.800747735 +/- 0.000013745; training nominal p=0.7504; flags=[]
+
+SYSTEMATIC SHIFT OR STATISTICAL NOISE?
+The following differences use matched original bootstrap draws (all2000 common); no independent-error approximation. They measure changes between estimators, not deviation from an unknown true value.
+inner-min12-mixed minus inner-min12-leading: central shift +0.000910, paired statSD 0.001269, paired MC95 [-0.0016486025800196314, 0.003423738608604801].
+inner-min16-leading minus inner-min12-leading: central shift +0.008277, paired statSD 0.007387, paired MC95 [-0.005439880759803659, 0.023015746780477568].
+inner-min24-leading minus inner-min12-leading: central shift +0.022239, paired statSD 0.020885, paired MC95 [-0.01882156128941944, 0.06401298825426756].
+inner-min12-second minus inner-min12-leading: central shift +0.027137, paired statSD 0.026352, paired MC95 [-0.02357336619223165, 0.07959067740225695].
+inner-min12-cubic minus inner-min12-leading: central shift +0.004018, paired statSD 0.002472, paired MC95 [-0.0005510011001658988, 0.009166629944303117].
+inner-min12-raw-background minus inner-min12-raw-zero-background: central shift +0.037764, paired statSD 0.016159, paired MC95 [0.007083829403066811, 0.06931297951954836].
+
+The regular-background coefficient corresponds to Bphysical=13.5388, i.e. Bphysical/L^3 in <m2>. This term is allowed because <m2> integrates correlations including short separations. Its fitted fraction is about8.5% atL12,1.2% atL32,0.3% atL64 (conditional on this model). Small corrections can mimic a different exponent over a finite size range. Signed analytic backgrounds are not removed by an arbitrary sign/O(1) prior.
+The observed size-cut and second-correction shifts remain statistically compatible with zero in these paired tests. They cannot themselves be declared measured biases. The regular-background estimator shift is conditionally resolved in this family, but this does not prove the model is the true asymptotic form or define sigma_sys.
+
+HELD-OUT-SIZE CHALLENGE
+Predeclared training max48 predicts64, and training max32 predicts48/64. Full residual covariance includes shared training-parameter uncertainty plus independent held-out measurement covariance. Nominal Gaussian chi-square diagnostics are descriptive; all sizes/windows were already examined in earlier work, so this is not a prospective blinded experiment.
+inner-train12to32-leading: testL=[48, 64], chi2/dof=16.480/16, nominal p=0.419963, maxabs R error=0.023167, max m2 relative error=8.624%, fitflags=['multiple_profile_minima']; posthoc=False.
+inner-train12to32-mixed: testL=[48, 64], chi2/dof=17.579/16, nominal p=0.349141, maxabs R error=0.023418, max m2 relative error=9.454%, fitflags=['profile_boundary_unresolved', 'multiple_profile_minima']; posthoc=False.
+inner-train12to48-leading: testL=[64], chi2/dof=7.460/8, nominal p=0.487955, maxabs R error=0.012955, max m2 relative error=2.209%, fitflags=[]; posthoc=False.
+inner-train12to48-mixed: testL=[64], chi2/dof=9.214/8, nominal p=0.324557, maxabs R error=0.017812, max m2 relative error=2.580%, fitflags=[]; posthoc=False.
+broad-train12to32-leading: testL=[48, 64], chi2/dof=46.039/32, nominal p=0.0515913, maxabs R error=0.016401, max m2 relative error=22.450%, fitflags=[]; posthoc=False.
+broad-train12to32-mixed: testL=[48, 64], chi2/dof=54.847/32, nominal p=0.00720502, maxabs R error=0.020907, max m2 relative error=15.533%, fitflags=[]; posthoc=False.
+broad-train12to48-leading: testL=[64], chi2/dof=35.498/16, nominal p=0.0033949, maxabs R error=0.008613, max m2 relative error=10.211%, fitflags=[]; posthoc=False.
+broad-train12to48-mixed: testL=[64], chi2/dof=37.277/16, nominal p=0.00191677, maxabs R error=0.010110, max m2 relative error=10.431%, fitflags=[]; posthoc=False.
+broad-cubic-max48: testL=[64], chi2/dof=22.308/16, nominal p=0.133522, maxabs R error=0.009285, max m2 relative error=11.873%, fitflags=[]; posthoc=True.
+broad-cubic-max32: testL=[48, 64], chi2/dof=30.418/32, nominal p=0.5467, maxabs R error=0.195214, max m2 relative error=207.008%, fitflags=[]; posthoc=True.
+
+EXPLORATORY FOLLOW-UP
+After observing broad-window quadratic prediction misses, adding cubic thermal responses reduces the test64 discrepancy (nominal p=.134). The full broad cubic estimate is Delta=.52016 +/- .00509stat. This is a post-hoc diagnosis consistent with Taylor-window truncation, not proof of its unique cause or independent validation.
+Post-hoc raw-background size-cut fits remain near .55 but weaken: minL16 .55354 +/- .03060stat, minL24 .55164 +/- .04879stat. Dropping smaller boxes does not make the existing data constrain the background tightly.
+
+SAMPLING CHECKS
+block4-leading-min12: Delta=0.518494 +/- 0.006744stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+block4-mixed-min12: Delta=0.519313 +/- 0.006873stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+block4-leading-min16: Delta=0.526262 +/- 0.009979stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+latecut-leading-min12: Delta=0.516264 +/- 0.007661stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+latecut-mixed-min12: Delta=0.517532 +/- 0.007693stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+latecut-leading-min16: Delta=0.523727 +/- 0.011584stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+even-leading-min12: Delta=0.521101 +/- 0.009140stat; flags=[]; inputflags=[].
+even-mixed-min12: Delta=0.524417 +/- 0.009023stat; flags=[]; inputflags=[].
+even-leading-min16: Delta=0.532599 +/- 0.013386stat; flags=[]; inputflags=[].
+odd-leading-min12: Delta=0.516125 +/- 0.009756stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+odd-mixed-min12: Delta=0.513815 +/- 0.010940stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+odd-leading-min16: Delta=0.521096 +/- 0.015017stat; flags=[]; inputflags=['fewer_than_50_blocks_per_start'].
+
+WHAT CAN BE CLAIMED
+A narrow-window leading joint fit gives Delta=.5182 +/- .0069stat, compatible with prior quotient/slope illustrations near.52. This is a conditional estimate, not the final CFT dimension with total uncertainty.
+Critical-epsilon uncertainty is now propagated rather than fixed, but regular-background/correction freedom remains a practical ambiguity. A small numerical sigma_sys or two reliable CFT digits have not been established. No model is selected by best residual p or forced to the known O(2) benchmark.
+Next leverage would come from a larger size or an observable less exposed to short-distance background; this report does not authorize or launch either. Larger predictive p alone does not validate a model or set systematic coverage.
+
+VALIDATION AND PRESERVATION
+{'configurations': 46, 'refits': 92000, 'successful_refits': 92000, 'boundary_events': 116, 'multiple_minimum_events': 204}. These are bootstrap refits, not new independent MC experiments.
+Two inner train<=32 configurations have boundary/multiple-profile-minimum flags and remain diagnostic; do not equate finite/rank-success with accepted inference. Input low-block/start/half flags remain in input-groups and source analyses.
+15 focused synthetic/GLS/Jacobian/rank/heldout/immutable-output tests pass. Numerical simulation kernels, data archives, source histories and old analyses were not modified. A failed sampling-driver attempt due to a cache-path issue remains preserved; v2 completes all12 planned checks without new simulations.
+Independent scientific review is recorded separately before final acceptance.
+
+FILES
+joint-fit-summary.csv: every fit, statistical interval, diagnostic status and prediction error.
+paired-model-differences.json: correlated estimator shifts.
+analysis.json: full saved model/prediction diagnostics and source hashes.
+01/02/03 PNG/SVG figures: model sensitivity, held-out predictions, paired shifts.
+Source folders contain input bank, all coefficients, 2000 parameter draws, covariance matrices, pinned source-job/cache hashes, full logs and frozen implementation.

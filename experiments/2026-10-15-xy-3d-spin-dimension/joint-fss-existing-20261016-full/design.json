@@ -1,0 +1,329 @@
+{
+  "created": "2026-10-16T17:49:30.289445-05:00",
+  "implementation_sha256": "7a66cd6207107e5d1372038a7adb701014039eac9d8e5d94c8d25399a826188a",
+  "source_analysis_sha256": "4488738bb6d28b4536270567656fa1a2cf24b50f41d6341ede5c60d8cf4db79e",
+  "scope": "Existing data only; no simulation, archive, kernel or old-analysis modifications.",
+  "models": [
+    {
+      "name": "inner-min12-leading",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-mixed",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min16-leading",
+      "window": "inner",
+      "minimum": 16,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min16-mixed",
+      "window": "inner",
+      "minimum": 16,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min24-leading",
+      "window": "inner",
+      "minimum": 24,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min24-mixed",
+      "window": "inner",
+      "minimum": 24,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-min12-leading",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-min12-mixed",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-min16-leading",
+      "window": "broad",
+      "minimum": 16,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-min16-mixed",
+      "window": "broad",
+      "minimum": 16,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-min24-leading",
+      "window": "broad",
+      "minimum": 24,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-min24-mixed",
+      "window": "broad",
+      "minimum": 24,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-analytic",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "analytic",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-second",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "second",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-cubic",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "cubic",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-omega0.6",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.6,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-omega1.0",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 1.0,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-nu0.63",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.63,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-min12-nu0.71",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.71,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "inner-train12to32-leading",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 32,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "inner-train12to32-mixed",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 32,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "inner-train12to48-leading",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 48,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "inner-train12to48-mixed",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 48,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "broad-train12to32-leading",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 32,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "broad-train12to32-mixed",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 32,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "broad-train12to48-leading",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 48,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "broad-train12to48-mixed",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 48,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "inner-min12-raw-zero-background",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null,
+      "raw": true,
+      "background": false
+    },
+    {
+      "name": "inner-min12-raw-background",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null,
+      "raw": true,
+      "background": true
+    }
+  ],
+  "windows": {
+    "inner": [
+      0.800625,
+      0.801
+    ],
+    "broad": [
+      0.8005,
+      0.8015
+    ]
+  },
+  "q_profile_bounds": [
+    -0.5,
+    1.0
+  ],
+  "q_reference": 0.80075,
+  "q_scale": 1000.0,
+  "L_reference": 32.0,
+  "draws": 2000,
+  "primary_assumptions": {
+    "nu": 0.67169,
+    "omega": 0.789,
+    "WF_informed": true
+  },
+  "observable_covariance": "Independent physical coordinates, full 2x2 joint covariance within each coordinate; fixed central whitening; no cross-coordinate empirical covariance.",
+  "correction_models": "Leading L^-omega; mixed xL^-omega in both observables; analytic thermal amplitude drift in logm2; second correction L^-2omega; cubic thermal; rawm2 with and without additive B L^-3. Stress exponents are not confidence ranges.",
+  "heldout": "Predeclared train max48->test64, and train max32->test48/64. Heldout data not used in each fit; models are not chosen by best predictive p.",
+  "uncertainty": "Conditional block-bootstrap MC intervals. No fit spread or successful prediction alone calibrates sigma_sys."
+}

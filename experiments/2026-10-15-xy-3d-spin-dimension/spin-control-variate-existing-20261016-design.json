@@ -1,0 +1,24 @@
+{
+  "created": 1792193517.665601,
+  "scope": "User-authorized existing-data control-variate test; no MC or archive changes",
+  "cohort": "Same64 chains/32 coordinates and9600 postcut configurations as latest-spin-correlations.json",
+  "estimator": "Gcorrected_a=G_a-c_other*(m2CP_a-m2dense_a); swap other start, row-weighted pool",
+  "coefficient": "Raw configuration Cov(G,m2CP)/Var(m2CP) from the other start. Prespecified heuristic, not necessarily mean-estimator variance optimum.",
+  "uncertainty": "Joint augmented moments [Gquarter,Ghalf,m2dense,S0dense,Fdense,winding2,m2CP,Gquarter*m2CP,Ghalf*m2CP,m2CP\u00b2] in100-cycle bins. Independently resample physical time blocks within starts, refit both cross-coefficients on every draw. Original and corrected share the same draws. Dense m2 mean is estimated, not known.",
+  "blocks": "Max frozen previous width and corrected-series full/late-half autocorrelation width, same rule applied to matched original and corrected estimators.",
+  "variants": [
+    "primary:cut1000,factor2",
+    "cut4000:cut4000,factor2",
+    "block4:cut1000,factor4"
+  ],
+  "evaluation": "Raw unlogged paired finite estimator SD ratios before positivity/root filtering. Preserve negative CV means and singular training failures. Compare finite-pair quotients on shared valid draws, with own and common validity fractions and crossing multiplicity.",
+  "crossings": "Existing linear/PCHIP interpolation, narrow/full windows, pairs24:48 and32:64 unchanged. Quarter/half separate and correlated.",
+  "limitations": [
+    "Stationarity and independent starts assumed; original flags retained.",
+    "2000 bootstrap draws are not2000 independent MC experiments.",
+    "Few time blocks limit gain assessment.",
+    "No forcing known CFT exponent, no calibrated systematic-error claim."
+  ],
+  "tests": "35 focused tests passed before data analysis",
+  "code_sha256": "a2ddb44b5d9bd0867c453c58dcd12071f8016659954772117c2552d591a645a6"
+}

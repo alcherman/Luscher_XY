@@ -1,0 +1,29 @@
+{
+  "status": "pending_analysis_followup",
+  "reviewed_at": "2026-10-15T23:40:55.449106+00:00",
+  "reviewer": "independent scientific review agent",
+  "files_sha256": {
+    "analysis.json": "7b71c3efb420dc1da9a770f699f4e6e66510f5b3dd76f5fd845be442c5bf364f",
+    "N48-N64-pilot-report.txt": "ad2241e94b69d1acb035ab055877ed56ad1c7b02f863f2b8fa12bcdd1756745b",
+    "N48-N64-pilot-spin-dimension.png": "8a8728fb8026d8be075fcdcd06f367c7e1ab073e2cbff52a3a0de61f71ef1499",
+    "trajectory-cost-and-topology-diagnostics.json": "3a26db967b22c3fc74b8756d151b946a63b12b6ba5eb2d544010a94efacc29b6"
+  },
+  "checks": [
+    "All11 pinned snapshot hashes verified; full/parity/large-only cohorts110/55/28",
+    "Primary has7sizes and all roots identified; immutable snapshots and diagnostic histories preserved",
+    "Independently reconstructed moment-linear minL8 Delta=.4933122103659939 and bootstrapSD=.0045250600742088865",
+    "Leading m2 interpolation methods give .493312/.503637/.505016; minL24/32 moment fits .453795/.424500; correction fits remain unstable or rejected",
+    "Actual generation+audit17.26048756worker-hours; full original files880374982944bytes, within reviewed ceiling",
+    "3090 resource observations range201.734\u20131512.25MiB RSS/process, not measured peak memory",
+    "PNG visually inspected: readable labels, no clipping, rejected fits distinguished",
+    "Topology flags7of28 trajectories and15of84cut-records; largest tau ratio2.960; selected primary coordinates ratio2.291",
+    "Zero accepted global winding updates in532000postwarmup cycles, but directional mean windings vary across both signs; no frozen-sector conclusion"
+  ],
+  "required_fixes": [
+    "Run analysis-only factor4 block sensitivity on the pinned110-source cohort, since current factor2 does not cover ten times measured topology tau at every relevant coordinate; preserve flags and omissions and compare errors descriptively",
+    "Add concise report headline with nominal conditional .4933+/-.0045stat, larger interpolation/size/correction sensitivities and explicit uncontrolled systematic uncertainty; no Wilson-Fisher exclusion from conditional MC intervals",
+    "Summarize actual root coverage gaps: cut8001 missesL16, U20 missesL16 and hasL24tails, U30 missesL32; missing-size fits are incomplete comparisons",
+    "Report topology event counts/denominators and tau limitations explicitly, plus sampled RSS range as observations rather than peak"
+  ],
+  "scope": "No new Monte Carlo or production changes are requested or authorized by this review. Existing report/delivery remains pending. Only saved-array arithmetic and diagnostic files reviewed; no extra analysis pipeline launched."
+}

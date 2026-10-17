@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>org.luscherxy.d3-spin-correlation-pilot-20261016</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/caffeinate</string>
+		<string>-i</string>
+		<string>/Users/acherman/research/Luscher_XY/.venv/bin/python</string>
+		<string>-u</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/measure_spin_correlations.py</string>
+		<string>--plan</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-existing-20261016-design.json</string>
+		<string>--phase</string>
+		<string>pilot</string>
+		<string>--output</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/spin-correlation-pilot-20261016.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/acherman/research/Luscher_XY</string>
+</dict>
+</plist>

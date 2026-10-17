@@ -1,0 +1,14 @@
+{
+  "launch_new": false,
+  "max_total_cpu_workers": 9,
+  "ssd_volume_uuid": "53650819-819D-42D6-BB15-24760A94AE0B",
+  "disk_reserve_bytes": 26843545600,
+  "primary": "Full-history online G at every cycle, jointly with R andm2",
+  "CV": "Checkpoint-subsample cross-fitted CV as a validation diagnostic",
+  "larger_sizes_enabled": false,
+  "maximum_N": 64,
+  "old_campaign_controls_untouched": true,
+  "cpu_budget_note": "User October 16: leave half of 18 cores free for a concurrent Claude MC calculation. At most 9 total CPU workers across simulation, analysis and retention; reserve within this cap for any concurrent heavy tasks.",
+  "launch_pause_reason": "User: this can wait; pick it up later. Stop workers at saved checkpoints and do not resume any stage.",
+  "user_paused": true
+}

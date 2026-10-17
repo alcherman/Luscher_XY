@@ -1,0 +1,10 @@
+{
+  "analysis_sha256": "5f8d8d7b70d28d6ba32e82886d1c8c48df84cd348562f879e73639e64f7354ff",
+  "block_rule": "per start: max(20, ceil(10*largest monitored tau_int)); all retained rows used",
+  "bootstrap": "stratified contiguous-block bootstrap within each start",
+  "bootstrap_draws": 4000,
+  "cut": 2001,
+  "estimator": "ratio of pooled raw moments from two equal-length independent starts",
+  "monitored": "m2, m4, Binder influence, mean link cosine, vortex density, winding squared",
+  "updated_utc": "2026-09-04T02:14:13.904698+00:00"
+}

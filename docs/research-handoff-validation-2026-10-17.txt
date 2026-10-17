@@ -1,0 +1,29 @@
+Research repository handoff, 17 October 2026
+
+Scope: version the accumulated scientific source, tests, frozen campaign designs,
+job/audit/provenance records, analysis snapshots and derived samples, reports,
+numerical tables, and figures. RESEARCH_INDEX.md is the entry point.
+RAW_DATA_LOCATIONS.json records local/external raw-data routes. Raw HDF5 files,
+runner logs, locks, rebuildable caches, and temporary files remain on disk and
+are excluded from Git. No simulation data were deleted or new campaigns launched.
+
+Validation already completed before commit:
+- Full existing XY test selection: test/test_xy*.py, using .venv/bin/python and
+  single-thread numerical-library settings: 407 passed, 1 skipped, 48.39 seconds.
+- The first pass had one historical-deadline fixture failure (406 passed,
+  1 skipped). The live-to-complete handoff test now fixes its clock before the
+  October 16 deadline. Production deadlines and numerical kernels are unchanged.
+- No further test runs are required by this handoff; the user explicitly said
+  integration tests were unnecessary after the above run was already complete.
+- All relative links in RESEARCH_INDEX.md resolve in this checkout.
+- Candidate text scanned for common private-key, GitHub-token, AWS-access-key and
+  API-key patterns: no matches. This is a limited pattern check, not a security
+  certification.
+- No staged raw HDF5, lock, Python bytecode, or rebuildable-cache files.
+- No candidate file exceeds 50 MiB.
+
+Frozen historical source and result bytes are preserved, including historical
+whitespace/CSV line endings; no style rewrite was applied to provenance files.
+Full runner logs and the original scientific qualification/review records remain
+available at their recorded paths. Consult each report before interpreting a
+snapshot as an accepted result; rejected/exploratory analyses are retained too.

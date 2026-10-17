@@ -1,0 +1,39 @@
+3D constrained XY: measured negative-kappa continuation reconnaissance
+
+Purpose: visualize how uniform-order response continues from kappa=0 toward epsilon/pi=1/2. The scan does not approach epsilon=pi. No asymptote is imposed.
+
+MODEL AND SAMPLING
+Action S=-kappa*sum_positive_links cos(delta phi), with strict |principal delta phi|<epsilon. Periodic N=8 boxes in D=3.
+At each fixed epsilon, configurations exchange among a ladder of negative couplings. Each slot cycle has one frozen Metropolis sweep, four signed-coupling reflection clusters, and the native global twist attempt. Adjacent exchange parity alternates. The signed bond rule and full product exchange invariant measure have independent exact tests; these correctness checks do not prove mixing.
+Each of seven epsilon slices has two fresh independent ladders: zero winding and unit-x winding initial fields. All thermodynamic slots of an ensemble are correlated; they are not independent replicas for statistical inference.
+16,000 cycles per ladder; first4,000 excluded in this descriptive analysis. All field configurations, measurements, RNG states, provenance and unfiltered logs are preserved. Joint checkpoints commit all slots at one epoch. Exact checkpoint replay and field/swap audits are tested.
+Main scan: 14 independent ladders, 4,160,000 slot cycles, all14 closure audits passed. Analysis uses shared time blocks across all slots, and independent ensembles for bootstrap replication.
+
+ATTAINED RESPONSE BANDS (NOT CONFIDENCE INTERVALS)
+N8 observed response band. Equilibrium transition location unresolved. NOT a critical-coupling estimate or confidence interval. Four half-series (two independent ladders) must have m2 range <=0.1*mean+0.002; U<0.15 and m2<0.03 at lower anchor; U>0.45, m2>0.10 and dominant averaged zero mode at upper anchor. Thresholds selected descriptively after inspecting q0.65; do not certify stationarity or absence of shared metastability.
+epsilon/pi    kappa_low    kappa_high
+0.52          unresolved          unresolved
+0.55          -0.8999999999999999          -0.85
+0.60          -0.55          -0.44999999999999996
+0.65          -0.39999999999999997          -0.3
+0.70          -0.25          -0.19999999999999996
+0.75          -0.2          -0.09999999999999998
+0.78          -0.15          0.0
+
+INTERPRETATION AND LIMITS
+The measured finite-box response changes move toward smaller epsilon as kappa decreases. This is compatible with the proposed continuation toward epsilon/pi=1/2; it does not establish that limit, a thermodynamic critical curve, or a unique phase below it.
+The q=.52 scan has no common stable response band. Winding trapping persists; it must not be treated as evidence of no transition or of a bound below kappa=-2.
+All main scan ensembles trigger the conservative ladder diagnostic: minimum adjacent rate below0.05 OR fewer than2 full round trips. The q=.75 ensembles actually made9/16 round trips, q=.78 made92/81; q<=.70 made0. Do not conflate the diagnostic flag with zero trips everywhere. Some also have insufficient blocks, start disagreement or half shifts. Thus narrow interpolated Binder roots are retained as diagnostics but excluded from the headline figure. Stable responses at separated anchors do not rule out shared metastability; these are empirical bands, not rigorous equilibrium brackets.
+Rare ordered excursions and very negative Binder values are compatible with metastability/coexistence, but do not demonstrate a first-order transition. Small uniform magnetization is not assumed to imply a massive disordered phase: nonzero Fourier modes are recorded separately.
+No finite-size extrapolation of the negative branch has been accepted. N12 pilot failures are retained; the earlier positive/zero-kappa attained estimates are reused unchanged with their original conditional MC and descriptive sensitivity qualifications.
+A separate two-ladder N8 q=.65 overlap validation uses .0025 central spacing, .01 outer spacing, two fresh starts,16,000 cycles and a shorter [-.40,-.25] coupling ladder. Read its completed audit and mixing diagnostics separately; no success is assumed from the design.
+
+REPRODUCIBILITY
+analysis.json contains all mean observables, half-series checks, tau/block diagnostics, Fourier warnings, walker round trips, bootstrap roots and root-multiplicity flags. response-bands.json records all four-half anchors and exact source IDs. Raw files are in the dedicated SSD chains symlink. Producer, audit, runner and immutable source snapshots are retained with batch manifests. No historical paused exponent jobs were resumed.
+Plot: measured-negative-kappa-continuation.png/pdf/svg; no fitted or imposed negative asymptote.
+analysis SHA256: fde7d0f4dbbf37973439783b0681a541aebfa406f7380ea09c0ec7dba52edda5
+response bands SHA256: 707fd1d3d3cd3b4109ecc3ab128767de510ebe62b3da38acd13ee832da48bc4a
+
+COMPLETED CENTRAL-OVERLAP CHECK
+Both fresh validation ensembles passed closure audits. Minimum adjacent exchange rates: [0.48133333333333334, 0.4608333333333333]. Full walker round trips: [0, 0]. Descriptive large/small uniform-component changes along walker configurations: [15, 59]. These are correlated events, not independent equilibrium phase-conversion samples.
+The dense quarter-Binder interpolation is near kappa=-.337. Its narrow conditional bootstrap interval is NOT accepted: full transport fails, independent-start offsets remain, and one ensemble has only3 conservative blocks. Keep the broad observed band[-.40,-.30] in the headline figure. No critical-coupling precision improvement is claimed. See overlap-validation-summary.json and independent-start-response-checks.png/pdf/svg.

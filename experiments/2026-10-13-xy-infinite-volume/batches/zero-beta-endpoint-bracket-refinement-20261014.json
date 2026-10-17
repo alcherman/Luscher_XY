@@ -1,0 +1,960 @@
+{
+  "name": "zero-beta-endpoint-bracket-refinement-20261014",
+  "purpose": "Adaptive beta-zero epsilon refinement from first audited snapshot. D2 root tails lack lower-epsilon coverage; add .546/.553 at matching N64/128/256. D3 add .802 inside coarse .800/.806 brackets. D4 add .860/.862 at uniform N10/12/16/20/24, covering unbracketed N10 and tightening existing roots near .862. Exact epsilon coordinates, endpoint role, fresh replicas6/7, full fields RNG histories logs checkpoints audits retained. Preliminary crossings do not certify thermodynamic precision. Old D2 Binder jobs remain deferred.",
+  "points": [
+    {
+      "id": "zero_d2_e0546_N064_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 64,
+      "replica": 6,
+      "seed": 10493853147884590667,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0546_N064_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 64,
+      "replica": 7,
+      "seed": 10193454321799406695,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0546_N128_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 128,
+      "replica": 6,
+      "seed": 7140444577494175829,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0546_N128_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 128,
+      "replica": 7,
+      "seed": 10887252192871483668,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0546_N256_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 256,
+      "replica": 6,
+      "seed": 5542775615247383268,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0546_N256_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 256,
+      "replica": 7,
+      "seed": 12852632338129600989,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0553_N064_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.553,
+      "epsilon": 1.7373007374351555,
+      "beta": 0.0,
+      "N": 64,
+      "replica": 6,
+      "seed": 1148160637022483124,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 553,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0553_N064_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.553,
+      "epsilon": 1.7373007374351555,
+      "beta": 0.0,
+      "N": 64,
+      "replica": 7,
+      "seed": 1922608009476256121,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 553,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0553_N128_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.553,
+      "epsilon": 1.7373007374351555,
+      "beta": 0.0,
+      "N": 128,
+      "replica": 6,
+      "seed": 3758336699479685312,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 553,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0553_N128_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.553,
+      "epsilon": 1.7373007374351555,
+      "beta": 0.0,
+      "N": 128,
+      "replica": 7,
+      "seed": 10715815001423700408,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 553,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0553_N256_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.553,
+      "epsilon": 1.7373007374351555,
+      "beta": 0.0,
+      "N": 256,
+      "replica": 6,
+      "seed": 10887260328500759661,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 553,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0553_N256_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.553,
+      "epsilon": 1.7373007374351555,
+      "beta": 0.0,
+      "N": 256,
+      "replica": 7,
+      "seed": 3434058803950803926,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 553,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N012_r06_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 6,
+      "seed": 6596831052839986779,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N012_r07_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 7,
+      "seed": 6168974034629050032,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N016_r06_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 6,
+      "seed": 5596888442591418096,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N016_r07_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 7,
+      "seed": 14194133661152111456,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N024_r06_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 24,
+      "replica": 6,
+      "seed": 14095138119695132801,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N024_r07_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 24,
+      "replica": 7,
+      "seed": 5984847657726497358,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N032_r06_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 32,
+      "replica": 6,
+      "seed": 9015699544213509935,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d3_e0802_N032_r07_s008000",
+      "D": 3,
+      "epsilon_over_pi": 0.802,
+      "epsilon": 2.519557308179014,
+      "beta": 0.0,
+      "N": 32,
+      "replica": 7,
+      "seed": 7382951713563474211,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "steps": 8000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 802,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N010_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 10,
+      "replica": 6,
+      "seed": 12223042885408827253,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N010_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 10,
+      "replica": 7,
+      "seed": 289829585019428474,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N012_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 6,
+      "seed": 1883058665260792988,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N012_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 7,
+      "seed": 1677915347285543663,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N016_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 6,
+      "seed": 13123193846987159655,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N016_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 7,
+      "seed": 7648895256620062611,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N020_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 20,
+      "replica": 6,
+      "seed": 11798120161548205162,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N020_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 20,
+      "replica": 7,
+      "seed": 2728995402360735968,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N024_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 24,
+      "replica": 6,
+      "seed": 4756193719848770193,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0860_N024_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 24,
+      "replica": 7,
+      "seed": 5229545223894019017,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 860,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N010_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 10,
+      "replica": 6,
+      "seed": 9737024761740688693,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N010_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 10,
+      "replica": 7,
+      "seed": 15502136714296354398,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N012_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 6,
+      "seed": 16266920674076429774,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N012_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 7,
+      "seed": 8594745130233841873,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N016_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 6,
+      "seed": 9564974747764512590,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N016_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 7,
+      "seed": 8674605633248063957,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N020_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 20,
+      "replica": 6,
+      "seed": 16412351494959155026,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N020_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 20,
+      "replica": 7,
+      "seed": 7058168093916192284,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N024_r06_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 24,
+      "replica": 6,
+      "seed": 14755537258868338108,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    },
+    {
+      "id": "zero_d4_e0862_N024_r07_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.862,
+      "epsilon": 2.708052867394402,
+      "beta": 0.0,
+      "N": 24,
+      "replica": 7,
+      "seed": 4178982169290682288,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 862,
+      "primary_observables": [
+        "binder_quarter"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+    "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+    "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+    "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+    "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+    "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+    "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+    "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+    ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+    "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+  },
+  "estimated_bytes": 152465785006,
+  "created": "2026-10-14T08:40:40.001387-05:00"
+}

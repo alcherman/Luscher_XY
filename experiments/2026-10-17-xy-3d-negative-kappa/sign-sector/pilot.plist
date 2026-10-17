@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>MPLCONFIGDIR</key>
+		<string>/private/tmp/luscherxy-matplotlib</string>
+		<key>NUMBA_NUM_THREADS</key>
+		<string>1</string>
+		<key>OMP_NUM_THREADS</key>
+		<string>1</string>
+		<key>OPENBLAS_NUM_THREADS</key>
+		<string>1</string>
+		<key>VECLIB_MAXIMUM_THREADS</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>org.luscherxy.negative-kappa-sign-sector-pilot-20261017</string>
+	<key>ProcessType</key>
+	<string>Standard</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/acherman/research/Luscher_XY/.venv/bin/python</string>
+		<string>-u</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/supervisor.py</string>
+		<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/batches/q052-sign-sector-mixing-validation-v1.json</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/logs/sector-pilot-supervisor.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/logs/sector-pilot-supervisor.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/acherman/research/Luscher_XY</string>
+</dict>
+</plist>

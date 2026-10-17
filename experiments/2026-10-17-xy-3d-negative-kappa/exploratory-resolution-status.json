@@ -1,0 +1,116 @@
+{
+  "state": "complete_reviewed_exploratory_continuation",
+  "updated": "2026-10-17T14:04:09.100617-05:00",
+  "priority": "Resolve q=.51/.505 and produce exploratory transition-continuation plot",
+  "goal_active": false,
+  "heavy_process_cap": 4,
+  "simulation_workers": 0,
+  "paused_exponent_campaign_unchanged": true,
+  "stop_condition": "Measured exploratory transition interval supported by independent initial states and sampling diagnostics; no termination merely because old update is trapped.",
+  "q052": {
+    "kappa_low": -2.1,
+    "kappa_high": -2.0,
+    "sizes": [
+      6,
+      8,
+      12
+    ],
+    "four_starts_and_halves": true,
+    "review": "boundary-resolution/q052-scientific-review.json"
+  },
+  "active_manifest": null,
+  "analysis_workers": 0,
+  "q051": {
+    "kappa_low": -4.4,
+    "kappa_high": -4.0,
+    "sizes": [
+      8,
+      12
+    ],
+    "four_starts_and_halves": true
+  },
+  "q0505": {
+    "status": "unit-winding local-Metropolis transients remain; exact restricted heatbath comparison active",
+    "preserve_previous_cohort": true
+  },
+  "resource_authorization": "User is reserving four cores; all previous nine-process allocations superseded",
+  "maximum_future_simulation_workers": 3,
+  "review": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/exploratory-negative-kappa-scientific-review.json",
+  "review_sha256": "84a0311bb8948b9d4cf556c398d8ee730a6adf946bba1ffa9fcfc2c7ac461292",
+  "attained_points": [
+    {
+      "sampling_flag_counts": {
+        "low_block_count": 38,
+        "insufficient_blocks": 7
+      },
+      "diagnostic_pending": 0,
+      "epsilon_over_pi": 0.52,
+      "kappa": -2.0434627594419656,
+      "kappa_low": -2.1,
+      "kappa_high": -2.0,
+      "sizes": [
+        6,
+        8,
+        12
+      ],
+      "trajectories": 72,
+      "global_nonunique_families": 0,
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/bracket-snapshots/1792263260528437000/analysis.json",
+      "source_sha256": "9dd15eedff58530c31e5021f710489e84be850ec64ae64df0fa0cf9fa841f22e",
+      "scaled_coefficient_range": [
+        0.040000000000000036,
+        0.04200000000000004
+      ],
+      "scope": "Marker=largest-box pooled U=.25 linear interpolation. Bar=observed size/start/half/threshold/interpolation bracket union, not certifiedCI or infinitevolume uncertainty."
+    },
+    {
+      "sampling_flag_counts": {
+        "low_block_count": 30,
+        "insufficient_blocks": 2,
+        "nonzero_average_spectrum_peak": 1
+      },
+      "diagnostic_pending": 0,
+      "epsilon_over_pi": 0.51,
+      "kappa": -4.181230086208472,
+      "kappa_low": -4.4,
+      "kappa_high": -4.0,
+      "sizes": [
+        8,
+        12
+      ],
+      "trajectories": 32,
+      "global_nonunique_families": 0,
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/bracket-snapshots/1792263260963723000/analysis.json",
+      "source_sha256": "ed51d1bef7815758bca8a2c061c24741a0b6b7007701d906c4a2c9f0b5688d9d",
+      "scaled_coefficient_range": [
+        0.040000000000000036,
+        0.044000000000000046
+      ],
+      "scope": "Marker=largest-box pooled U=.25 linear interpolation. Bar=observed size/start/half/threshold/interpolation bracket union, not certifiedCI or infinitevolume uncertainty."
+    },
+    {
+      "sampling_flag_counts": {
+        "low_block_count": 4
+      },
+      "diagnostic_pending": 0,
+      "epsilon_over_pi": 0.505,
+      "kappa": -8.39000978706366,
+      "kappa_low": -8.8,
+      "kappa_high": -8.0,
+      "sizes": [
+        8,
+        12
+      ],
+      "trajectories": 24,
+      "global_nonunique_families": 0,
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/bracket-snapshots/1792263757055188000/analysis.json",
+      "source_sha256": "665540b2ac900871d002d3257bd9f87013fb6f2bfbcaecee75e044c6b573d75e",
+      "scaled_coefficient_range": [
+        0.040000000000000036,
+        0.044000000000000046
+      ],
+      "scope": "Marker=largest-box pooled U=.25 linear interpolation. Bar=observed size/start/half/threshold/interpolation bracket union, not certifiedCI or infinitevolume uncertainty."
+    }
+  ],
+  "scope": "Resolved requested measured response brackets at exploratory finite-volume confidence, with preserved sampling limitations. Compatible with approach to epsilon/pi=1/2, not proof of infinite-volume/infinite-coupling asymptote. No further simulations planned under this completed goal."
+}

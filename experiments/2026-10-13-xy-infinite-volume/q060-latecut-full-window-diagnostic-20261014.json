@@ -1,0 +1,45 @@
+{
+  "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/d2-current-chain-sensitivity-20261014-134410/analysis.json",
+  "rows": [
+    {
+      "observable": "xi_over_L",
+      "N": 256,
+      "epsilon_over_pi": 0.6,
+      "cut": 4001,
+      "diagnostic_full_measured_beta_window": [
+        0.221,
+        0.261,
+        0.281,
+        0.301,
+        0.341,
+        0.381
+      ],
+      "valid_fraction": 0.999,
+      "conditional_MC95": [
+        0.24960088529088276,
+        0.3039682239129873
+      ],
+      "scope": "Diagnostic full-window monotone interpolation using same existing data/draws. Not promoted to primary, no precision claim; local-window bootstrap loss can reflect omitted weak outer anchors."
+    },
+    {
+      "observable": "eta_eff",
+      "N": 128,
+      "epsilon_over_pi": 0.6,
+      "cut": 4001,
+      "diagnostic_full_measured_beta_window": [
+        0.221,
+        0.261,
+        0.281,
+        0.301,
+        0.341,
+        0.381
+      ],
+      "valid_fraction": 0.9975,
+      "conditional_MC95": [
+        0.25211257068568677,
+        0.31561042323353433
+      ],
+      "scope": "Diagnostic full-window monotone interpolation using same existing data/draws. Not promoted to primary, no precision claim; local-window bootstrap loss can reflect omitted weak outer anchors."
+    }
+  ]
+}

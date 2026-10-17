@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "d": 3,
+      "epsilon_over_pi": 1,
+      "threshold": 0.25,
+      "beta_infinite": 0.4556049103607174,
+      "conditional_MC_95": [
+        0.4516336479732243,
+        0.4593535514795245
+      ],
+      "tested_central_estimate_range": [
+        0.45384485725692614,
+        0.45692532819589504
+      ],
+      "tested_interval_envelope": [
+        0.4492214380422656,
+        0.46218008842811764
+      ],
+      "sizes": [
+        12,
+        16
+      ],
+      "chi2": 2.5718120771727628e-25,
+      "df": 0,
+      "status": "provisional_two_size",
+      "limitation": "Envelope covers tested interpolation, size-model, size-cut, cut and block variants only; not a bound on untested bias."
+    },
+    {
+      "d": 4,
+      "epsilon_over_pi": 1,
+      "threshold": 0.25,
+      "beta_infinite": 0.30182441878426497,
+      "conditional_MC_95": [
+        0.3014724304686225,
+        0.30211645873653536
+      ],
+      "tested_central_estimate_range": [
+        0.30116480020425807,
+        0.3018736451280107
+      ],
+      "tested_interval_envelope": [
+        0.30023008323055617,
+        0.30325741749076324
+      ],
+      "sizes": [
+        6,
+        8,
+        10,
+        12,
+        16
+      ],
+      "chi2": 3.4021607145177644,
+      "df": 3,
+      "status": "conditional_few_independent_blocks",
+      "limitation": "Envelope covers tested interpolation, size-model, size-cut, cut and block variants only; not a bound on untested bias."
+    }
+  ],
+  "validation": "4 synthetic crossing/intercept tests passed; independent review reproduced primary intercepts and d4 chi-square. Flags retained; subsequent cut/block checks show no large change compared with their conditional MC intervals."
+}

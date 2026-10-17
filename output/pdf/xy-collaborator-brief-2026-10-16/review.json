@@ -1,0 +1,38 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-16T22:27:32.844145+00:00",
+  "scope": "Independent scientific/headline review of five-page collaborator brief extracted text,13companion figure captions and selected spin estimateCSV. Visual PDF layout review delegated separately to parent.",
+  "reviewed_files": {
+    "report-text.txt": "a811081546d60ea463874c9906ca72672ba9039826633d94c07365d9ae8bae3f",
+    "figure-captions.txt": "fc6d1bff793094d630164a1ceb6e9080c7712fb72b2a68e33cf7631c789944a5",
+    "numerical-data/spin-dimension-selected-estimates.csv": "ac7c83bffdab0d55c66a8bd93b995885d9cb61f5117e3b961e630c12af9073c8"
+  },
+  "checks": [
+    "Compared model/action, periodic boundaries, hybridcycle definition, recorded observables and ratio normalization against run.py, supervillain/xy.py and generator/xy.py.",
+    "Independently counted saved source/job cohorts:D3 788(786x4000+2x16000),D4 728(726x4000+2x16000),D5 282(208x4000+74x8000);spin270(186x12000+44x20000+24x8000+16x4000).",
+    "Independently verified currentpositiveD2 cohort416x12000 at64/128/256/512;512onlyrepresentativeq.60/.80/1,archivedsmalleranchorsseparateandretainoriginalanalysiscuts.",
+    "Reviewed phasefinite-size coordinates,Binder/BKT conventions,bootstrapdrawcounts/cuts/blockwidths,covariance anddescriptiveintervalqualifications.",
+    "SelectedspinCSV reproduces reviewedconditionalfinite-pair,fixed-qandfixedomegaextrapolationnumbers.",
+    "Independently verified arXiv1912.03324Table1:charge-oneCBdimension.519088(22),MC.519050(40).",
+    "All13captionsretain source linksandappropriateconditional/unresolved/rejected qualifications."
+  ],
+  "conclusion": "Talk-safe as an exploratory attained numerical report. It separates observed finite-pair statistics from uncalibrated model/finite-size uncertainty, keeps5Dq1rejected, doesnotclaimuniformN512orprecisionuniversality, and labels treecomparison approximate.",
+  "qualifications": [
+    "DarkintervalsconditionalMC; lightphaseunionsneithersystematicSDnorcalibratedtotal95.",
+    "D2q1smallMCintervalmissesbenchmark;D5q1leadingfitdiagnostic,lowblocks/start/half flagsremainmaterial.",
+    "SpinDeltaapproximately.52iscompatiblewithO2Wilson-Fisher;noformalDelta=.52plusminus.01orcalibratedsigma_sys. FixedrepresentativeepsilonRMSslopeexcludescriticalcouplingandFSSuncertainty.",
+    "Primaryphase3Dshiftusesfixednu=.67169andspinextrapolationsfixedomega=.789;thesearenotindependentlymeasuredexponents."
+  ],
+  "minor_presentation_notes": [
+    "RemoveD5open-squaredescriptionfromsingleD2/D3/D4captionsandaxes-differstatementfromsinglepanels.",
+    "Describe.000125asfineinteriorknotspacing,notnecessarilyuniformspacingofeverynewcoordinate.",
+    "First-pageapproachtotreeisdescriptive;avoidreadingitasastatisticallycalibrateddimension-trendclaim."
+  ],
+  "required_scientific_fixes": [],
+  "not_checked": [
+    "DidnotrerunMonteCarloorfullanalysispipelines.",
+    "DidnotindependentlyrenderorinspectthecollaboratorPDFpagesinthisscientifictextreview.",
+    "HistoricalSeptemberchainlengthsnotre-audited;briefcorrectlykeepslegacyanalysisdistinct."
+  ],
+  "reference_verification": "https://arxiv.org/html/1912.03324 Table1, accessed2026-10-16"
+}

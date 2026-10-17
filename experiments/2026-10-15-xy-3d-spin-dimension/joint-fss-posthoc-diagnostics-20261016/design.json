@@ -1,0 +1,62 @@
+{
+  "status": "post_hoc_exploratory_not_independent_validation",
+  "reason": "Broad quadratic train<=48 prediction misses heldout64, while raw regular background shifts Delta. Diagnose thermal cubic/window truncation and raw-background size cuts without selecting an error bar by best p.",
+  "configs": [
+    {
+      "name": "broad-cubic-max64",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "cubic",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "broad-cubic-max48",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 48,
+      "model": "cubic",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "broad-cubic-max32",
+      "window": "broad",
+      "minimum": 12,
+      "maximum": 32,
+      "model": "cubic",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": "larger-than-training"
+    },
+    {
+      "name": "inner-raw-background-min16",
+      "window": "inner",
+      "minimum": 16,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null,
+      "raw": true,
+      "background": true
+    },
+    {
+      "name": "inner-raw-background-min24",
+      "window": "inner",
+      "minimum": 24,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null,
+      "raw": true,
+      "background": true
+    }
+  ],
+  "source_sha256": "4488738bb6d28b4536270567656fa1a2cf24b50f41d6341ede5c60d8cf4db79e",
+  "implementation_sha256": "7a66cd6207107e5d1372038a7adb701014039eac9d8e5d94c8d25399a826188a"
+}

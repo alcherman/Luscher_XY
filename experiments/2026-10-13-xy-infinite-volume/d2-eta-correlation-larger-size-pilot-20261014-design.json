@@ -1,0 +1,81 @@
+{
+  "created": "2026-10-14T07:39:55.922202-05:00",
+  "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/d2-eta-correlation-existing-20261014-073859/analysis.json",
+  "source_sha256": "bc2c916667a905a79ca213ea9c7f074c2407a9680496b30564dd0859c987065f",
+  "choices": [
+    {
+      "epsilon_over_pi": 0.6,
+      "old_crossing_roots": [
+        0.27050211157260123,
+        0.2664555107062033
+      ],
+      "beta_milli": [
+        261,
+        281,
+        301
+      ],
+      "N": [
+        64,
+        128,
+        256
+      ],
+      "replicas": [
+        2,
+        3
+      ],
+      "cycles": 12000
+    },
+    {
+      "epsilon_over_pi": 0.8,
+      "old_crossing_roots": [
+        0.8989769266933303,
+        0.9107240159856893
+      ],
+      "beta_milli": [
+        901,
+        921,
+        941
+      ],
+      "N": [
+        64,
+        128,
+        256
+      ],
+      "replicas": [
+        2,
+        3
+      ],
+      "cycles": 12000
+    },
+    {
+      "epsilon_over_pi": 1.0,
+      "old_crossing_roots": [
+        1.0952546482284777,
+        1.1010265320626418
+      ],
+      "beta_milli": [
+        1091,
+        1111,
+        1131
+      ],
+      "N": [
+        64,
+        128,
+        256
+      ],
+      "replicas": [
+        2,
+        3
+      ],
+      "cycles": 12000
+    }
+  ],
+  "trajectories": 54,
+  "estimated_GiB": 164.55024689622223,
+  "design_sha256": "dd6d6b36dcb66d3edc611a2dd1d250a6d761dc97a47bf1fad6a0e3a704498b44",
+  "primary_observables": [
+    "eta_eff",
+    "xi_over_L"
+  ],
+  "scope": "Finite-size coverage and cost calibration only; no Binder primary criterion or accepted infinite-volume root."
+}

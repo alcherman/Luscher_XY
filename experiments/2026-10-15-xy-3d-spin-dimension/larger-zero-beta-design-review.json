@@ -1,0 +1,30 @@
+{
+  "status": "accepted_with_qualifications",
+  "points_sha256": "fcfcfdf089ac9d36fa478fb08ddf8e16dfe1f9bea446adf14a1d2a34e70fc1fa",
+  "reviewed_at": "2026-10-15T22:16:35.573803+00:00",
+  "reviewer": "independent scientific review agent",
+  "trajectories": 28,
+  "physical_coordinates": 14,
+  "checks": [
+    "Verified seven exact integer1e-5 epsilon coordinates per N48/N64 as reviewed",
+    "All28 IDs/seeds unique and no prior-batch collisions; fresh namespace2026101504 independently recomputed",
+    "Explicit zero/unit-x starts, beta0,20000cycles,warmup1000; initial link twist permitted",
+    "Corrected HDF5 physical-chunk estimate independently recomputed:1014350257354bytes",
+    "Recorded freshfree/copy/priorcommitments/reserve arithmetic independently reproduced:1633494197046bytes headroom",
+    "Volume-only forecast independently recomputed:17.20217worker-hours",
+    "Freeze binds corrected storage estimator and requires this exact points hash before locked admission"
+  ],
+  "qualifications": [
+    "This is the specifically authorized28-trajectory cost/coverage pilot, not authorization for longer runs, automatic epsilon extensions, N96 or a precision campaign",
+    "Prediction power families are window-design assumptions, not a measured nu or imposed Delta",
+    "Fixed .00025 spacing may be too coarse as larger-box response sharpens; inspect achieved Binder and interpolation-method consistency before precision inference",
+    "20kcycles/warmup1000 is an initial probe; measure new autocorrelation, start/half-history, late-cut and block sensitivity rather than assuming old tau persists",
+    "1\u20133hour elapsed estimate is conditional on volume scaling and resources; critical slowing, audit/I/O, memory or coverage failure can exceed it",
+    "L48/L64-only two-size leading fits have zeroDOF and are diagnostics; dimension inference needs combined cohorts and tested size/correction sensitivity",
+    "Keep expected exact source cohorts for all cuts and parity comparisons; include omissions and low-block flags",
+    "Wait for previous finite retention manager clean exit, cap14single-thread simulations, retain25GiB plus all full-growth/copy commitments, no projected thinning savings",
+    "Preserve all existing source snapshots and histories; no total .005 accuracy or universality conclusion follows automatically"
+  ],
+  "required_fixes": [],
+  "scope": "Design review only. No simulations, service changes, retention operations or kernel edits performed by reviewer."
+}

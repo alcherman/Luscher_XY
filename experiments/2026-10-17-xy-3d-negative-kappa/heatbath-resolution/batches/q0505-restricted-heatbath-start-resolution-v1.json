@@ -1,0 +1,632 @@
+{
+  "name": "q0505-restricted-heatbath-start-resolution-v1",
+  "purpose": "Exact conditional heatbath replaces low-acceptance local Metropolis in isolated producer. Resolve N8/N12 start/half endpoint disagreement at q=.505, k=-7.2,-8,-8.8. Four explicit starts,16k cycles/4k warmup; maximum three single-thread workers plus one analysis. Full fields, RNG, audit and prior Metropolis cohort retained; no improvement/equilibration claim from exactness alone.",
+  "points": [
+    {
+      "id": "hb_scaled3_km7200_q0505000_N008_r210_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 14131934271569513901,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N008_r211_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 14879521706303964529,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N008_r212_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 15515716451477703705,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N008_r213_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 4434551114982959991,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N008_r210_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 13758726640000327964,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N008_r211_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 14563926917016937684,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N008_r212_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 11098855504857711731,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N008_r213_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 14307529841090879890,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N008_r210_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 2783005305432583760,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N008_r211_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 12817534526951125940,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N008_r212_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 13766817466631601254,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N008_r213_s016000",
+      "N": 8,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 7319138350849167445,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N012_r210_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 15283980474651754303,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N012_r211_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 16358029859740242075,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N012_r212_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 2923479149643642745,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km7200_q0505000_N012_r213_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -7.2,
+      "kappas": [
+        -7.2
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 2458760098448591820,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N012_r210_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 6105760060946323768,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N012_r211_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 1046428155507495887,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N012_r212_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 5085416530932968472,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8000_q0505000_N012_r213_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 15812910793719457336,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N012_r210_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 12412745122206536891,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N012_r211_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 13767700627410758771,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N012_r212_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 10867980639126269148,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    },
+    {
+      "id": "hb_scaled3_km8800_q0505000_N012_r213_s016000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -8.8,
+      "kappas": [
+        -8.8
+      ],
+      "epsilon": 1.5865042900628454,
+      "epsilon_over_pi": 0.505,
+      "steps": 16000,
+      "warmup": 4000,
+      "seed": 1457016652520311993,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "sector_updates": true,
+      "role": "restricted_heatbath_boundary_resolution"
+    }
+  ],
+  "source_hashes": {
+    "producer": {
+      "native": {
+        "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+        "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+        "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+        "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+        "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+        "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+        "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+        "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+        ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+        "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+      },
+      "signed_cluster": {
+        "version": 1,
+        "signed_cluster_sha256": "401b10e2f1e842b322eb472dc1f6988abaffca3fd88b65466d0dfc04b3079e60",
+        "kernel_sha256": "7ed8ccfe394dec594fab95c2b48e8e4c9677920336fa0d983ca2dc4cdf17f4bf",
+        "activation": "forced hard bonds; else 1-exp(-2*max(0,kappa*projection_product))",
+        "scope": "Experiment-local signed-coupling extension. Frozen original kernels unchanged."
+      },
+      "replica_exchange_sha256": "a84fc4a50719fd489b09d95d6ff260e38bd1f52193ceb83cf623ed0593deddc9",
+      "runtime": {
+        "python": "3.14.6",
+        "numpy": "2.5.2",
+        "numba": "0.67.0",
+        "h5py": "3.16.0",
+        "threads": 1
+      },
+      "sector_extension": {
+        "sha256": "df03f6dcac619f72d30238b68bee5a46c6b85e614a7b0d7756cc5794d90acfd1",
+        "pi_activation": "forced hard bonds; otherwise 1-exp(-2max(0,kappa*cos(delta)))",
+        "collective": "uniform14 fixed shifts a*parity-2pi*w.x/N; a=+/-pi/2,w=0 or+/-unit axes; exact inverse pairing; MH exp(kappa*DeltaC)",
+        "scope": "Isolated exact sector-update experiment; frozen native kernels unchanged"
+      },
+      "base_audit_sha256": "8bb4d9c5996c36c3fb1fad58005a147ab3b9aae0205aeb324482fa5293b62205",
+      "heatbath_extension": {
+        "sha256": "ef852dd9b2c50d7c4c056469a16c89775b4d4afd29eb46dc358cfebce837a11d",
+        "conditional": "exp(kappa*sum_neighbor cos(theta-phi_neighbor)) restricted to intersection of strict hard arcs",
+        "sampling": "Uniform on exact allowed interval union; rejection using analytic maximum over endpoints/interior stationary peak; random site permutation",
+        "scope": "Exact conditional heatbath, frozen native kernels unchanged"
+      }
+    },
+    "runner": "ec95a1030ff09150b114bcb1e1e83e0aefecfa673e132920b51612d6308a4614",
+    "audit": "8588237a52233fe0650c0b4ebc02a857bd7286df440bb5030a2547e4ab26e99f"
+  },
+  "physical_free_bytes": 3886158655488,
+  "full_ceiling_bytes": 10887816792,
+  "copy_reserved_bytes": 0,
+  "created": "2026-10-17T13:53:58.991411-05:00"
+}

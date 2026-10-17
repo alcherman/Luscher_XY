@@ -1,0 +1,26 @@
+{
+  "status": "accepted_with_qualifications",
+  "points_sha256": "54825b0e6d2441c2b1823e7b62ff3926a8070dc99c18083a1c61836622fff0f1",
+  "reviewed_at": "2026-10-15T21:56:44.215266+00:00",
+  "reviewer": "independent scientific review agent",
+  "trajectories": 82,
+  "physical_coordinates": 41,
+  "checks": [
+    "Exact recommended integer1e-5 grid and actual radians verified at all sizes",
+    "82 unique IDs/seeds with no existing-batch collisions; fresh namespace independently recomputed",
+    "Explicit zero/unit-x-winding start pairs; initial twist permitted at each actual epsilon",
+    "12000 cycles and 1000 warmup rows at each point; no Delta or nu imposed",
+    "Corrected physical-chunk full-transient estimate 96440506354 bytes; reservation arithmetic independently verified",
+    "Fine-only primary plus source-pinned variants and separate old+new pooled diagnostic appropriately isolate new sampling"
+  ],
+  "qualifications": [
+    "Grid is a coverage/interpolation pilot, not guaranteed target coverage or precision",
+    "Actual Binder from interpolated moments and linear/PCHIP/moment-linear agreement must be measured after closure",
+    "Monitor new-run autocorrelation, block/start/half-history diagnostics; old tau and runtime do not guarantee new behavior",
+    "Use identical new source cohort for cut/block/threshold comparisons; parity uses exact corresponding subsets",
+    "Continuous-scaling and infrared-dominance assumptions remain; no universality conclusion or imposed expected exponent",
+    "Freeze must retain a fresh locked full-budget check without projected thinning savings; keep manifest estimator consistent with corrected helper",
+    "Analysis manager should verify expected completed/audited source IDs rather than rely only on filtering"
+  ],
+  "scope": "Reviewed design only; no simulations launched, simulation kernels edited or source snapshots changed."
+}

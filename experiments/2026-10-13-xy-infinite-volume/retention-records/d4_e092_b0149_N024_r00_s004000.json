@@ -1,0 +1,292 @@
+{
+  "original_sha256": "d0e98ce1eb4b2c7707d50d4fad4c9771d51c1c7312294159d29ed40ade7f5283",
+  "original_bytes": 12665289288,
+  "original_full_field_audit": {
+    "passed": true,
+    "rows": 4001,
+    "bytes": 12665289288,
+    "sha256": "d0e98ce1eb4b2c7707d50d4fad4c9771d51c1c7312294159d29ed40ade7f5283"
+  },
+  "retained_fields": 41,
+  "original_fields": 4001,
+  "policy": {
+    "mode": "checkpoints_only_outside_brackets",
+    "checkpoint_interval": 100,
+    "diagnostic_windows": [],
+    "outside_bracket_evidence": {
+      "manifest": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/outside-bracket-retention-design-20261014.json",
+      "manifest_sha256": "227630ac7f09fa53e51e5e83e124fb6c1b75669227e85e44e4ced81ce9f3535a",
+      "entry": {
+        "point": {
+          "id": "d4_e092_b0149_N024_r00_s004000",
+          "D": 4,
+          "epsilon_over_pi": 0.92,
+          "epsilon": 2.8902652413026093,
+          "beta": 0.149,
+          "N": 24,
+          "replica": 0,
+          "seed": 1667364590674790476,
+          "initial_winding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "steps": 4000,
+          "warmup": 1000,
+          "clusters_per_cycle": 4
+        },
+        "audit_sha256": "d0e98ce1eb4b2c7707d50d4fad4c9771d51c1c7312294159d29ed40ade7f5283",
+        "reason": "Outside every contributing measured bracket and conservative margin",
+        "bracket_evidence": [
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut1001-block2"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut1001-block2"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut2001-block1"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut2001-block1"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut501-block1"
+          },
+          {
+            "grid": [
+              0.144,
+              0.145,
+              0.146,
+              0.147,
+              0.149
+            ],
+            "protected": [
+              0.144,
+              0.147
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut501-block1"
+          }
+        ]
+      }
+    }
+  },
+  "created": "2026-10-14T13:19:42.177469-05:00",
+  "source_sha256": "986e4ffe8c849b6dc7f90bb87a9bc1daf68d714cc3d4edad50446b9b6db4d936",
+  "source_bytes": 4804083527,
+  "previous_retention": {
+    "original_sha256": "d0e98ce1eb4b2c7707d50d4fad4c9771d51c1c7312294159d29ed40ade7f5283",
+    "original_bytes": 12665289288,
+    "original_full_field_audit": {
+      "passed": true,
+      "rows": 4001,
+      "bytes": 12665289288,
+      "sha256": "d0e98ce1eb4b2c7707d50d4fad4c9771d51c1c7312294159d29ed40ade7f5283"
+    },
+    "retained_fields": 1888,
+    "original_fields": 4001,
+    "policy": {
+      "tau_estimates": {
+        "m2_postwarmup": 9.237258383771382,
+        "m2_latehalf": 6.288696477678699,
+        "m4_postwarmup": 9.151725566887563,
+        "m4_latehalf": 6.040459671276186,
+        "binder_influence_postwarmup": 4.969035465526972,
+        "binder_influence_latehalf": 5.7723382504567065,
+        "xi_influence_postwarmup": 4.055853047623123,
+        "xi_influence_latehalf": 4.099559383106914,
+        "mean_link_cosine_postwarmup": 8.108082682191617,
+        "mean_link_cosine_latehalf": 6.261526456356227,
+        "vortex_density_postwarmup": 8.8319114991774,
+        "vortex_density_latehalf": 6.782708232180316,
+        "action_density_postwarmup": 8.108082682191615,
+        "action_density_latehalf": 6.2615264563562265,
+        "winding2_postwarmup": 5.952107417068701,
+        "winding2_latehalf": 4.398305206242377
+      },
+      "max_measured_tau": 9.237258383771382,
+      "stride": 93,
+      "diagnostic_windows": [
+        [
+          0,
+          462
+        ],
+        [
+          1001,
+          1463
+        ],
+        [
+          2270,
+          2732
+        ],
+        [
+          3539,
+          4001
+        ]
+      ],
+      "checkpoint_interval": 100,
+      "independence": "Spacing reduces measured correlation; does not certify independence for unmeasured/constant observables."
+    },
+    "created": "2026-10-14T11:46:15.406156-05:00",
+    "compact_sha256": "986e4ffe8c849b6dc7f90bb87a9bc1daf68d714cc3d4edad50446b9b6db4d936",
+    "compact_bytes": 4804083527,
+    "verified": true,
+    "committed": true
+  },
+  "compact_sha256": "b182c4075c1e5a9bd88aa43f1466bd9e31970c29595303b2f54c129907800a4e",
+  "compact_bytes": 527351529,
+  "verified": true,
+  "committed": true
+}

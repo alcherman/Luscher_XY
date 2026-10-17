@@ -1,0 +1,61 @@
+{
+  "original_sha256": "ea7afe6b70d3a1f825829d721f848db1c3253c6250d7b5fdbf87539a156f01b6",
+  "original_bytes": 101164811920,
+  "original_full_field_audit": {
+    "passed": true,
+    "rows": 12001,
+    "bytes": 101164811920,
+    "sha256": "ea7afe6b70d3a1f825829d721f848db1c3253c6250d7b5fdbf87539a156f01b6"
+  },
+  "retained_fields": 1029,
+  "original_fields": 12001,
+  "policy": {
+    "tau_estimates": {
+      "m2_postwarmup": 1.6722440377654308,
+      "m2_latehalf": 1.6803885693064222,
+      "m4_postwarmup": 1.7140346439260128,
+      "m4_latehalf": 1.6906336310158756,
+      "binder_influence_postwarmup": 1.3963662794106095,
+      "binder_influence_latehalf": 1.4765356037832265,
+      "xi_influence_postwarmup": 1.8255448905055545,
+      "xi_influence_latehalf": 1.58690623177749,
+      "mean_link_cosine_postwarmup": 2.0555741924229296,
+      "mean_link_cosine_latehalf": 2.124943066622028,
+      "vortex_density_postwarmup": 1.2846274929731176,
+      "vortex_density_latehalf": 1.2014376405467877,
+      "action_density_postwarmup": 2.0555741924229385,
+      "action_density_latehalf": 2.1249430666220372,
+      "winding2_postwarmup": 1.1056240797730341,
+      "winding2_latehalf": 1.0340158798061971
+    },
+    "max_measured_tau": 2.1249430666220372,
+    "stride": 22,
+    "diagnostic_windows": [
+      [
+        0,
+        107
+      ],
+      [
+        1001,
+        1108
+      ],
+      [
+        6448,
+        6555
+      ],
+      [
+        11894,
+        12001
+      ]
+    ],
+    "checkpoint_interval": 100,
+    "independence": "Spacing reduces measured correlation; does not certify independence for unmeasured/constant observables."
+  },
+  "created": "2026-10-14T15:20:20.341180-05:00",
+  "source_sha256": "ea7afe6b70d3a1f825829d721f848db1c3253c6250d7b5fdbf87539a156f01b6",
+  "source_bytes": 101164811920,
+  "compact_sha256": "fbc7a5b15cb31d4518f427cec305fc08d3f371d5064d91bc173f7e77d1a5d9a0",
+  "compact_bytes": 7424933919,
+  "verified": true,
+  "committed": true
+}

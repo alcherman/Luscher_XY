@@ -1,0 +1,30 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-15T21:51:17.346632+00:00",
+  "reviewer": "independent scientific review agent",
+  "files_sha256": {
+    "analysis.json": "b8cc88e4bfa7c99a674571985a856d4c404b44c47ab9998b5cb3851a8d3447c9",
+    "zero-beta-spin-dimension-report.txt": "96265ae345ea587fda8be947debbb1542049e4beacf5db8702d91a08ac51f20e",
+    "3d-zero-beta-spin-dimension.png": "070b780f2479272507d7c715a7b814a3b402e944796e739c6a34c7a9816adb19",
+    "sensitivity-ledger.json": "ef14a4c9c1346000ae9d1fb52f4657bca24f3091de64a4d310c252da11b42328"
+  },
+  "checks": [
+    "Verified all 9 pinned snapshot SHA256 hashes",
+    "Reviewed exact-radian grouping and reversed epsilon orientation with correctly reversed confidence endpoints",
+    "Independently reproduced primary minL8 m2 linear/PCHIP/moment-linear estimates and fit rejections",
+    "Verified all 18 primary contours have 100% valid bootstrap draws; all six moment-linear contours remain identified in every variant",
+    "Verified 72 sources in pooled variants and 36 sources in each parity variant",
+    "Reproduced reported minL12/minL16 size-cut estimates",
+    "Reviewed PNG for readable axes, correlated-method warning and open rejected-fit symbols"
+  ],
+  "qualifications": [
+    "Present grid does not provide a robust precision determination of the beta=0 spin scaling dimension",
+    "Conditional PCHIP Delta=.537298 MC95 [.507131,.567521] must not be preferred because its p-value is favorable",
+    "Linear Delta=.541603 and moment-consistent Delta=.624408 have rejected leading fits; tight conditional intervals are not total uncertainty",
+    "Large Binder-at-interpolated-moment discrepancies demonstrate unresolved interpolation sensitivity, without isolating its entire physical cause",
+    "All-variant root retention does not establish mixing, continuum scaling or universality",
+    "Integrated-moment interpretation is conditional on continuous critical scaling and infrared dominance; analytic/contact backgrounds remain unexcluded"
+  ],
+  "required_fixes": [],
+  "scope": "No new simulations, source snapshot modifications, retention changes or SSD removals. Only this requested review file was written."
+}

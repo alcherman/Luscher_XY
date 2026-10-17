@@ -1,0 +1,88 @@
+{
+  "created": "2026-10-14T14:42:59.547726-05:00",
+  "pilot_closed": 54,
+  "audits_passed": 54,
+  "per_size": {
+    "4": {
+      "count": 18,
+      "generation_median": 6.992171333498845,
+      "audit_median": 0.923876457993174
+    },
+    "6": {
+      "count": 18,
+      "generation_median": 31.819558833500196,
+      "audit_median": 4.578877895502956
+    },
+    "8": {
+      "count": 18,
+      "generation_median": 124.99256483300269,
+      "audit_median": 16.41390122899611
+    }
+  },
+  "worker_hours": 0.9508957198836046,
+  "elapsed_minutes": 4.912295233333333,
+  "achieved_effective_workers": 11.61447764903604,
+  "original_audit_GiB": 38.34965364634991,
+  "current_physical_GiB": 38.34965364634991,
+  "baseline_plan": {
+    "positive_slices": [
+      0.9,
+      0.92,
+      0.94,
+      0.96,
+      0.98,
+      1
+    ],
+    "beta_samples_per_slice_size": 3,
+    "sizes": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "starts": 2,
+    "cycles": 4000,
+    "endpoint_epsilon_samples": 3,
+    "total_trajectories": 168,
+    "physical_coordinates": 84,
+    "conservative_full_GiB": 826.2896315194666
+  },
+  "refinement_plan": {
+    "trajectories": 54,
+    "sizes": [
+      6,
+      8,
+      10
+    ],
+    "cycles": 8000,
+    "status": "frozen_running",
+    "conservative_full_GiB": 271.1326206754893
+  },
+  "reused_refinement_trajectories": 54,
+  "reused_physical_coordinates": 27,
+  "remaining_new_trajectories": 114,
+  "remaining_physical_coordinates": 57,
+  "remaining_conservative_full_GiB": 690.2845552638173,
+  "uniform_8000_remaining_GiB": 1378.6157778203487,
+  "projected_refinement_worker_hours": 6.065011708440418,
+  "projected_remaining_worker_hours": 16.571070241640484,
+  "ideal_simulation_wall_hours": 1.9489539378432243,
+  "planning_simulation_hours": [
+    2,
+    5
+  ],
+  "extra_statistics_refinement_hours": [
+    4,
+    12
+  ],
+  "analysis_validation_delivery_hours": [
+    6,
+    12
+  ],
+  "planning_total_hours": [
+    12,
+    29
+  ],
+  "hours_to_deadline": 48.28345893583333,
+  "scope": "Planning range, not a bound or precision guarantee. Volume scaling above N8 is unmeasured. Stage full grid only after actual N10 throughput, mixing/coverage and fresh reservation-aware free space checks. Baseline remaining space exceeds recorded post-refinement headroom by roughly8\u201310GiB; do not count hypothetical future thinning. Uniform8k remaining grid does not fit uncompacted budget. Wider bars/unresolved locations permitted within Friday budget."
+}

@@ -1,0 +1,22 @@
+{
+  "created": "2026-10-15T21:58:26.307750-05:00",
+  "status": "pending_independent_visual_review",
+  "local_source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/local-xi-response-20261015-213702",
+  "local_source_sha256": "a0feeb8db6ab079a6db1db17d6ed28b4f6b3fa7849c3763e00a79e85065a25bc",
+  "pointwise_source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/common-xi-refined-primary-20261015-213346",
+  "pointwise_source_sha256": "4488738bb6d28b4536270567656fa1a2cf24b50f41d6341ede5c60d8cf4db79e",
+  "checks": [
+    "R24 coefficients reproduce reviewed pair 24:48",
+    "R48 coefficients reproduce reviewed pair 24:48",
+    "R32 coefficients reproduce reviewed pair 32:64",
+    "R64 coefficients reproduce reviewed pair 32:64",
+    "Both GLS intercepts/bootstrap SDs reproduced to1e-11 from full shared-pair covariance."
+  ],
+  "benchmark": {
+    "value": 0.51905,
+    "MC_SD": 4e-05,
+    "source": "https://arxiv.org/abs/1910.05916",
+    "purpose": "Comparison only; no dimension fixed by fitting."
+  },
+  "scope": "Replot reviewed MC analysis only. Conditional MC intervals; no certified total CI or numerical systematic error. Unresolved/rejected alternatives retained."
+}

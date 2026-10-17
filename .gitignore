@@ -182,3 +182,22 @@ cython_debug/
 #Data from csvs
 *.csvtyt
 numba-profiling-report.md
+
+# Rebuildable campaign caches and machine-local raw-data links.
+experiments/**/chains
+experiments/**/cache/
+experiments/**/xi-cache/
+experiments/**/d2-joint-cache/
+experiments/**/d5-binder-cache/
+experiments/**/threshold-group-cache/
+experiments/**/zero-beta-joint-cache/
+experiments/**/*.tmp
+/tmp/
+
+# Research tables and presentation artifacts belong with the analysis record.
+!experiments/**/*.csv
+!experiments/**/*.pdf
+!experiments/2026-10-*/**/*.png
+!output/**/*.csv
+!output/**/*.pdf
+!output/**/*.png

@@ -1,0 +1,18 @@
+{
+  "source": "pilot-analysis.json",
+  "total_cpu_cap": 9,
+  "scenario_trajectories": 80,
+  "cycles_per_trajectory": 100000,
+  "epsilon_coordinates": 5,
+  "independent_starts": 4,
+  "sizes": [
+    24,
+    32,
+    48,
+    64
+  ],
+  "generation_plus_audit_worker_hours": 314.48434000000515,
+  "perfect_nine_worker_lower_bound_hours": 34.94270444444501,
+  "physical_full_ceiling_bytes": 8199419936720,
+  "qualification": "Conditional linear extrapolation from 4000 cycles at one epsilon. Lower bound excludes finite scheduling, retention, analysis and competing computation. Old 14-worker lower bound is superseded. Main campaign not launched; requires staged storage and pilot review."
+}

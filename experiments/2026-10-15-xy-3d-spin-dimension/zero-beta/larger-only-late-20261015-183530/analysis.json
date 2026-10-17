@@ -1,0 +1,5458 @@
+{
+  "created": "2026-10-15T18:35:30.910260-05:00",
+  "settings": {
+    "tag": "larger-only-late",
+    "beta": 0,
+    "D": 3,
+    "cut": 8001,
+    "factor": 1,
+    "target": 0.25,
+    "starts": "all",
+    "window": "full",
+    "id_prefix": "spinpilot3_",
+    "source_analysis": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/zero-beta/larger-primary-20261015-183518/analysis.json"
+  },
+  "source_jobs": [
+    {
+      "id": "spinpilot3_e080050_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080050_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 13375487084259975784,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80050,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "5c8fc70e57b33aa3a5611b89632b8ede1051c7eb2edbeaa6e8dc74a67ca0f7de"
+      }
+    },
+    {
+      "id": "spinpilot3_e080050_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080050_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 9088572765869272513,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80050,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "51a5005df924da904b2683ed27e420aa08841979d657b980c0df01919c7d1f19"
+      }
+    },
+    {
+      "id": "spinpilot3_e080075_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080075_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 2746349289637405532,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80075,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861146792,
+        "sha256": "181d2ffb55bc2e1e5a83999fcb97ea18ff7f99c06099671524d1ea4208010088"
+      }
+    },
+    {
+      "id": "spinpilot3_e080075_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080075_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 9610846600556288042,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80075,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "696792a61df6027fcf07dc195de3a52aad87fb4ad8dd04baa4aaa9b91129aeca"
+      }
+    },
+    {
+      "id": "spinpilot3_e080075_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080075_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 2312922529680463527,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80075,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "f8437fd58792d2c7952fc0b659615cb694a0e95371b72518448d5d1fd6ac2c14"
+      }
+    },
+    {
+      "id": "spinpilot3_e080075_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080075_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 14941538658713289065,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80075,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "ef9c902727762dd6023663358b228a3c2ef43d970f72d0a5e357ec56c2eb4d61"
+      }
+    },
+    {
+      "id": "spinpilot3_e080100_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080100_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 16823899063129409889,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80100,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "942b5168697d9b1c15bf55d4dc73215c111e144bea5c9c4565b018ef293a8c98"
+      }
+    },
+    {
+      "id": "spinpilot3_e080100_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080100_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 4086578632852181886,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80100,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "fb26a2c4a5fde3e89275bd2b8bf7bb11b430b754189717e359168a0c35c75574"
+      }
+    },
+    {
+      "id": "spinpilot3_e080100_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080100_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 13112858470562657328,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80100,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "688541766c042d9d86280bf9a22753db440c2aea3125fba4cb80da32be8dd55e"
+      }
+    },
+    {
+      "id": "spinpilot3_e080100_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080100_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 12682034633900285067,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80100,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022595656,
+        "sha256": "4b24ac16607876823f1898b0a3f6d4b3ef429f54057c093db22f6a6d4b5d2308"
+      }
+    },
+    {
+      "id": "spinpilot3_e080125_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080125_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 13524853484365474006,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80125,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "3536a590cf3fdc040e77c2be7fd78d7d0bb57afbc15c1d5bc292eabbe2e785ae"
+      }
+    },
+    {
+      "id": "spinpilot3_e080125_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080125_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 10127744787563546730,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80125,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "093af08a5984eff9e2522fc78901d26d2acb1659da4fb75a61c6e5710f97bd75"
+      }
+    },
+    {
+      "id": "spinpilot3_e080125_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080125_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 5388551922608970364,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80125,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022693960,
+        "sha256": "b3120afcca4ba3ac6fb73bf0f7bf52f3dbbbf72e21338f8c7566c21f46e09800"
+      }
+    },
+    {
+      "id": "spinpilot3_e080125_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080125_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 9678866338318729534,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80125,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022595656,
+        "sha256": "ae01fb2aa2365abe4bff8655c4f0a8c984bafa65c547308276d683d29eec5ea7"
+      }
+    },
+    {
+      "id": "spinpilot3_e080150_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080150_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 1196348237402251046,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "8efa53c9d1861410dea80b78437e5e10c7a496c36b83bb5b7e0d458248cb7024"
+      }
+    },
+    {
+      "id": "spinpilot3_e080150_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080150_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 3653057731166349986,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861310632,
+        "sha256": "bbdd141b6ebbc855b42066dd5979da5039e12d36461415bcc0f0900371c650e9"
+      }
+    },
+    {
+      "id": "spinpilot3_e080150_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080150_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 5350887731650254220,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "c0136cbc4b7adb131fd53f967442869f44ad36af85c98b3b9d8209d38481acda"
+      }
+    },
+    {
+      "id": "spinpilot3_e080150_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080150_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 16977632864930652510,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "e64289ebcd1f16a68e782ba00c8ca2d12bcf7a2a636176cb22a707ec9bf9f769"
+      }
+    },
+    {
+      "id": "spinpilot3_e080175_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080175_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 508655629594332855,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861310632,
+        "sha256": "9e49d1515d4217c27ebc084208df3235b8878de7a715cbfa87531f2cd9c05d7c"
+      }
+    },
+    {
+      "id": "spinpilot3_e080175_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080175_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 3436709289598308851,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "c61d050b3bef4cf3cdc5b8a52cb2132033473d4d3c1b508ef4998cd73f9b46e8"
+      }
+    },
+    {
+      "id": "spinpilot3_e080175_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080175_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 7703267712748193231,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "c615385c09651508ad6d45e5edff1dad0da870b1f4cf3686a81e3edbcdc2fa98"
+      }
+    },
+    {
+      "id": "spinpilot3_e080175_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080175_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 3946523883678984631,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "8510c25c70967e8949e092210b31651fabc87c169b57791b0b17ef40d8c67b83"
+      }
+    },
+    {
+      "id": "spinpilot3_e080200_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080200_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 14746037228029600115,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "bbecf4c2e235c6c48336db8a06d0df707bcdc96c3f62550f0e096f87e9fde342"
+      }
+    },
+    {
+      "id": "spinpilot3_e080200_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080200_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 10804179731950442585,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "e3ac742d946de552c1783b18b67b515454fe39f44f2d945604912eb83318b5e5"
+      }
+    },
+    {
+      "id": "spinpilot3_e080200_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080200_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 12952224546009851426,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "3989bcf9930dbc9faa32f452a464cf0e1b9a4de180bbc3aed23054436b905673"
+      }
+    },
+    {
+      "id": "spinpilot3_e080200_N064_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080200_N064_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 31,
+        "seed": 2964771545931106552,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "d946de756b7fd1e9a6ef1337f77778979e89a9df5d967959329e2979c7297e27"
+      }
+    },
+    {
+      "id": "spinpilot3_e080225_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080225_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 8951244235214402514,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "72e713850ffbc13667cac90eea6e1c8b9c1adc9ebcacfd1ea1ffd6d5427cf4cc"
+      }
+    },
+    {
+      "id": "spinpilot3_e080225_N048_r31_s020000",
+      "point": {
+        "id": "spinpilot3_e080225_N048_r31_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 31,
+        "seed": 8546911060978254249,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "a46ad8501c9f145e2d67081e46dbcbf0cce134ac8e8c52df9160a65e4a738b9a"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "N": 48,
+      "q": 0.80075,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.022417214577858825,
+          0.0006200288557452276,
+          0.14420361601685533
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080075_N048_r30_s020000",
+            "rows": 12000,
+            "width": 153,
+            "blocks": 78,
+            "taus": {
+              "m2": 14.419243999525122,
+              "m4": 12.047175231398194,
+              "mabs": 15.235998727276908,
+              "binder": 10.455230220363598
+            },
+            "half_z": [
+              -0.7116082478737246,
+              -0.49375588425465133,
+              -0.9098948932894229
+            ]
+          },
+          {
+            "id": "spinpilot3_e080075_N048_r31_s020000",
+            "rows": 12000,
+            "width": 128,
+            "blocks": 93,
+            "taus": {
+              "m2": 12.28858260980397,
+              "m4": 10.718324482923583,
+              "mabs": 12.72812601424823,
+              "binder": 9.517956763740365
+            },
+            "half_z": [
+              -0.03114690381602899,
+              -0.04914575412859213,
+              -0.11222826100523238
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.022297477600884397,
+              0.0006140461312793197,
+              0.14383023613110565
+            ],
+            "errors": [
+              0.0005128076587558168,
+              2.2654273207641776e-05,
+              0.0019429066827616852
+            ]
+          },
+          {
+            "values": [
+              0.022536951554833092,
+              0.0006260115802111384,
+              0.14457699590260284
+            ],
+            "errors": [
+              0.00044391325838940556,
+              1.971222202786692e-05,
+              0.0016921194456804545
+            ]
+          }
+        ],
+        "binder": 0.38309454819182553,
+        "ids": [
+          "spinpilot3_e080075_N048_r30_s020000",
+          "spinpilot3_e080075_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 48,
+      "q": 0.801,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.01746012823658242,
+          0.000401974316067778,
+          0.12572533913992226
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080100_N048_r30_s020000",
+            "rows": 12000,
+            "width": 144,
+            "blocks": 83,
+            "taus": {
+              "m2": 14.34210347199177,
+              "m4": 12.699860151465225,
+              "mabs": 13.982574163621798,
+              "binder": 7.4087141145210325
+            },
+            "half_z": [
+              0.14197175913215018,
+              0.6498863137353357,
+              -0.13020871538170395
+            ]
+          },
+          {
+            "id": "spinpilot3_e080100_N048_r31_s020000",
+            "rows": 12000,
+            "width": 117,
+            "blocks": 102,
+            "taus": {
+              "m2": 11.65270448159425,
+              "m4": 11.481018181927299,
+              "mabs": 11.05656086005487,
+              "binder": 6.44793015774426
+            },
+            "half_z": [
+              -1.2973886387746263,
+              -1.6193756211564974,
+              -1.0823543018236417
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.01754997105401602,
+              0.00040697598280624124,
+              0.12594370899774834
+            ],
+            "errors": [
+              0.0004330064624648938,
+              1.6977200205878772e-05,
+              0.0017615847170376854
+            ]
+          },
+          {
+            "values": [
+              0.017370285419148705,
+              0.00039697264932931676,
+              0.12550696928209576
+            ],
+            "errors": [
+              0.00040553441325923774,
+              1.607209472137941e-05,
+              0.0016393503580505583
+            ]
+          }
+        ],
+        "binder": 0.34071461088304,
+        "ids": [
+          "spinpilot3_e080100_N048_r30_s020000",
+          "spinpilot3_e080100_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 48,
+      "q": 0.80125,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.013914258221309107,
+          0.00027182411825487317,
+          0.11069079392118424
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080125_N048_r30_s020000",
+            "rows": 12000,
+            "width": 114,
+            "blocks": 105,
+            "taus": {
+              "m2": 11.342352932481841,
+              "m4": 10.287957575922036,
+              "mabs": 11.343194703712475,
+              "binder": 7.5547120609854375
+            },
+            "half_z": [
+              0.45525370002362425,
+              0.42157865659672744,
+              0.4423270435725639
+            ]
+          },
+          {
+            "id": "spinpilot3_e080125_N048_r31_s020000",
+            "rows": 12000,
+            "width": 100,
+            "blocks": 120,
+            "taus": {
+              "m2": 9.926418280779943,
+              "m4": 8.882090428533507,
+              "mabs": 9.98854746908557,
+              "binder": 6.395538923204141
+            },
+            "half_z": [
+              -2.6080360300996634,
+              -2.3642505405755596,
+              -2.6574462558943788
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.013631634709718597,
+              0.0002632412599014888,
+              0.10932229419892582
+            ],
+            "errors": [
+              0.0003581779263050952,
+              1.1766223651489983e-05,
+              0.0016637615535211687
+            ]
+          },
+          {
+            "values": [
+              0.014196881732899345,
+              0.0002804069766082534,
+              0.11205929364344171
+            ],
+            "errors": [
+              0.0003395169088182641,
+              1.1144225717263967e-05,
+              0.0015633012929510517
+            ]
+          }
+        ],
+        "binder": 0.29799876724619523,
+        "ids": [
+          "spinpilot3_e080125_N048_r30_s020000",
+          "spinpilot3_e080125_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 48,
+      "q": 0.8015000000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.009963078016458295,
+          0.00015193555099743498,
+          0.09226405545687644
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080150_N048_r30_s020000",
+            "rows": 12000,
+            "width": 117,
+            "blocks": 102,
+            "taus": {
+              "m2": 11.619547220439394,
+              "m4": 11.064152290589789,
+              "mabs": 11.167681627074431,
+              "binder": 6.8418362983039
+            },
+            "half_z": [
+              2.022485360803966,
+              2.1539012248607277,
+              1.8756649057654742
+            ]
+          },
+          {
+            "id": "spinpilot3_e080150_N048_r31_s020000",
+            "rows": 12000,
+            "width": 114,
+            "blocks": 105,
+            "taus": {
+              "m2": 11.374541684907333,
+              "m4": 9.84014450516813,
+              "mabs": 10.982431328539572,
+              "binder": 5.3862706564399705
+            },
+            "half_z": [
+              1.3604410091228436,
+              0.9390763638863338,
+              1.606137310666456
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.010032454153324601,
+              0.00015285414254648662,
+              0.0924966551958077
+            ],
+            "errors": [
+              0.00029124070965109517,
+              7.819261413986934e-06,
+              0.0015150684291160915
+            ]
+          },
+          {
+            "values": [
+              0.009893701879591899,
+              0.00015101695944838103,
+              0.09203145571794431
+            ],
+            "errors": [
+              0.00029123274244695157,
+              7.802847220942098e-06,
+              0.0014966184959987294
+            ]
+          }
+        ],
+        "binder": 0.23468126091167085,
+        "ids": [
+          "spinpilot3_e080150_N048_r30_s020000",
+          "spinpilot3_e080150_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 48,
+      "q": 0.8017500000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.008058431357043146,
+          0.0001041051158308463,
+          0.08225702491248996
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080175_N048_r30_s020000",
+            "rows": 12000,
+            "width": 90,
+            "blocks": 133,
+            "taus": {
+              "m2": 8.73767874420193,
+              "m4": 7.168828840804891,
+              "mabs": 8.917146975413804,
+              "binder": 5.45194049788471
+            },
+            "half_z": [
+              -0.56501352317553,
+              -0.42481791763752264,
+              -0.4874561914296273
+            ]
+          },
+          {
+            "id": "spinpilot3_e080175_N048_r31_s020000",
+            "rows": 12000,
+            "width": 115,
+            "blocks": 104,
+            "taus": {
+              "m2": 11.01781000067909,
+              "m4": 8.714129033675187,
+              "mabs": 11.409623139026714,
+              "binder": 4.883987502355869
+            },
+            "half_z": [
+              -0.9353476247626226,
+              -1.0125501804711732,
+              -0.9042319978790965
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.007921059351950714,
+              0.00010223608161367335,
+              0.08135896714819273
+            ],
+            "errors": [
+              0.00022149221372357418,
+              5.1061206666750144e-06,
+              0.0012981397545661195
+            ]
+          },
+          {
+            "values": [
+              0.008195803362135535,
+              0.00010597415004801995,
+              0.08315508267678638
+            ],
+            "errors": [
+              0.0002512588219030362,
+              5.44610504946482e-06,
+              0.001459323326775996
+            ]
+          }
+        ],
+        "binder": 0.19843073900188124,
+        "ids": [
+          "spinpilot3_e080175_N048_r30_s020000",
+          "spinpilot3_e080175_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 48,
+      "q": 0.802,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.0061612545578692834,
+          6.577162706492468e-05,
+          0.0710278894093459
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080200_N048_r30_s020000",
+            "rows": 12000,
+            "width": 136,
+            "blocks": 88,
+            "taus": {
+              "m2": 13.40733208740401,
+              "m4": 11.615309607148596,
+              "mabs": 13.562099406899494,
+              "binder": 5.83557135390559
+            },
+            "half_z": [
+              2.334539386916781,
+              2.3566382958600274,
+              2.203515506871433
+            ]
+          },
+          {
+            "id": "spinpilot3_e080200_N048_r31_s020000",
+            "rows": 12000,
+            "width": 87,
+            "blocks": 137,
+            "taus": {
+              "m2": 8.619019499368008,
+              "m4": 7.414020880842144,
+              "mabs": 8.693413206265529,
+              "binder": 5.1520750323615925
+            },
+            "half_z": [
+              0.3105535650357179,
+              0.12294389674861556,
+              0.3845314630567391
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.006235542761413638,
+              6.770307671641043e-05,
+              0.0713132941899679
+            ],
+            "errors": [
+              0.00022386077891086486,
+              4.372055987646848e-06,
+              0.001423152364311376
+            ]
+          },
+          {
+            "values": [
+              0.006086966354324826,
+              6.384017741343896e-05,
+              0.07074248462872418
+            ],
+            "errors": [
+              0.0001921973669576567,
+              3.6830080677390408e-06,
+              0.0012158105162806997
+            ]
+          }
+        ],
+        "binder": 0.1336960690326322,
+        "ids": [
+          "spinpilot3_e080200_N048_r30_s020000",
+          "spinpilot3_e080200_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 48,
+      "q": 0.80225,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.005289198752380868,
+          4.9389926454885604e-05,
+          0.06567759190698633
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080225_N048_r30_s020000",
+            "rows": 12000,
+            "width": 88,
+            "blocks": 136,
+            "taus": {
+              "m2": 8.795664135473459,
+              "m4": 8.049282934723395,
+              "mabs": 8.413020139863535,
+              "binder": 4.998494092865798
+            },
+            "half_z": [
+              -1.1275413362113693,
+              -1.4077045406767046,
+              -0.8713959108933097
+            ]
+          },
+          {
+            "id": "spinpilot3_e080225_N048_r31_s020000",
+            "rows": 12000,
+            "width": 85,
+            "blocks": 141,
+            "taus": {
+              "m2": 8.41408288909643,
+              "m4": 7.585101868020059,
+              "mabs": 8.027532159028715,
+              "binder": 4.045788246972899
+            },
+            "half_z": [
+              1.096591221028586,
+              0.8758790078566935,
+              1.1953595596539914
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.0051223131215732305,
+              4.6544996510110866e-05,
+              0.06447612747885888
+            ],
+            "errors": [
+              0.0001557083769369035,
+              2.641306280282713e-06,
+              0.0010486640512777242
+            ]
+          },
+          {
+            "values": [
+              0.005456084383188473,
+              5.2234856399660004e-05,
+              0.06687905633511299
+            ],
+            "errors": [
+              0.00016490898856474212,
+              2.9506578796349763e-06,
+              0.0010761224093155232
+            ]
+          }
+        ],
+        "binder": 0.11726852920808484,
+        "ids": [
+          "spinpilot3_e080225_N048_r30_s020000",
+          "spinpilot3_e080225_N048_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.8005,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.022677712156644724,
+          0.0005859739898255625,
+          0.14735070798905653
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080050_N064_r30_s020000",
+            "rows": 12000,
+            "width": 130,
+            "blocks": 92,
+            "taus": {
+              "m2": 12.603986573561281,
+              "m4": 10.992381446673276,
+              "mabs": 12.972026512450249,
+              "binder": 8.384386130624142
+            },
+            "half_z": [
+              0.6610382203979883,
+              0.7249766220258845,
+              0.5916329863162608
+            ]
+          },
+          {
+            "id": "spinpilot3_e080050_N064_r31_s020000",
+            "rows": 12000,
+            "width": 138,
+            "blocks": 86,
+            "taus": {
+              "m2": 13.758953444337555,
+              "m4": 12.888671172461393,
+              "mabs": 13.677715112999747,
+              "binder": 8.326843982079797
+            },
+            "half_z": [
+              1.321330160608288,
+              1.2456388420397917,
+              1.3670206808348813
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.02242794624772629,
+              0.0005726519331408639,
+              0.14653935382008487
+            ],
+            "errors": [
+              0.00036311959154978416,
+              1.549894227755458e-05,
+              0.0013556140293948262
+            ]
+          },
+          {
+            "values": [
+              0.022927478065563018,
+              0.0005992960465102575,
+              0.1481620621580286
+            ],
+            "errors": [
+              0.0003760304640868969,
+              1.6786562939603012e-05,
+              0.0013646322724009908
+            ]
+          }
+        ],
+        "binder": 0.4302952162791688,
+        "ids": [
+          "spinpilot3_e080050_N064_r30_s020000",
+          "spinpilot3_e080050_N064_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.80075,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.016413275851365264,
+          0.00033375411097172266,
+          0.1231956134109037
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080075_N064_r30_s020000",
+            "rows": 12000,
+            "width": 151,
+            "blocks": 79,
+            "taus": {
+              "m2": 15.038616667379737,
+              "m4": 14.358708646239275,
+              "mabs": 14.461267184821086,
+              "binder": 9.379696788585836
+            },
+            "half_z": [
+              -0.5858719660484268,
+              -0.6545482611247919,
+              -0.4814086652367496
+            ]
+          },
+          {
+            "id": "spinpilot3_e080075_N064_r31_s020000",
+            "rows": 12000,
+            "width": 151,
+            "blocks": 79,
+            "taus": {
+              "m2": 15.098839878296609,
+              "m4": 14.50328133742561,
+              "mabs": 14.54503899559105,
+              "binder": 8.924081023413718
+            },
+            "half_z": [
+              -2.8860724009007885,
+              -3.1385602099181527,
+              -2.6327844038315176
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.016873825869840122,
+              0.00035114644784672893,
+              0.12490734832857588
+            ],
+            "errors": [
+              0.0003809072815897481,
+              1.3233561513662451e-05,
+              0.0016582231930144403
+            ]
+          },
+          {
+            "values": [
+              0.01595272583289024,
+              0.00031636177409671276,
+              0.1214838784932317
+            ],
+            "errors": [
+              0.0003653642557735303,
+              1.274226748783028e-05,
+              0.0015550445606723278
+            ]
+          }
+        ],
+        "binder": 0.3805502372277204,
+        "ids": [
+          "spinpilot3_e080075_N064_r30_s020000",
+          "spinpilot3_e080075_N064_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.801,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.010769837157744447,
+          0.00016518865265140902,
+          0.0971092792407731
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080100_N064_r30_s020000",
+            "rows": 12000,
+            "width": 159,
+            "blocks": 75,
+            "taus": {
+              "m2": 15.895881007137461,
+              "m4": 15.383221953255704,
+              "mabs": 15.150021594082405,
+              "binder": 8.499877875524835
+            },
+            "half_z": [
+              0.6196238052329245,
+              0.45831167166174736,
+              0.789244527069846
+            ]
+          },
+          {
+            "id": "spinpilot3_e080100_N064_r31_s020000",
+            "rows": 12000,
+            "width": 155,
+            "blocks": 77,
+            "taus": {
+              "m2": 15.474603624116801,
+              "m4": 14.494111393142193,
+              "mabs": 14.899956812266558,
+              "binder": 8.468794810193936
+            },
+            "half_z": [
+              0.7455689401608095,
+              0.9620736919034907,
+              0.5441881011206792
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.010827449787136824,
+              0.0001661788202415695,
+              0.09744443916799074
+            ],
+            "errors": [
+              0.00033379033286577746,
+              8.963681441872069e-06,
+              0.0017026385463340574
+            ]
+          },
+          {
+            "values": [
+              0.010712224528351962,
+              0.00016419848506124817,
+              0.09677411931355524
+            ],
+            "errors": [
+              0.00032521686416440846,
+              8.376636947429061e-06,
+              0.0016888252850480968
+            ]
+          }
+        ],
+        "binder": 0.2879148289889736,
+        "ids": [
+          "spinpilot3_e080100_N064_r30_s020000",
+          "spinpilot3_e080100_N064_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.80125,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.007721327384824208,
+          9.150507099206967e-05,
+          0.08101940882168958
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080125_N064_r30_s020000",
+            "rows": 12000,
+            "width": 132,
+            "blocks": 90,
+            "taus": {
+              "m2": 13.111821461713363,
+              "m4": 11.381577203406675,
+              "mabs": 13.110878400640711,
+              "binder": 7.0421782751642805
+            },
+            "half_z": [
+              0.6190584631407093,
+              0.6299656802415725,
+              0.6026592814356952
+            ]
+          },
+          {
+            "id": "spinpilot3_e080125_N064_r31_s020000",
+            "rows": 12000,
+            "width": 118,
+            "blocks": 101,
+            "taus": {
+              "m2": 11.76746285807887,
+              "m4": 10.507888269467658,
+              "mabs": 11.549074599098837,
+              "binder": 7.012318967593145
+            },
+            "half_z": [
+              -0.11410493454706211,
+              0.05108135863946161,
+              -0.25129764034981694
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.007564996951646374,
+              8.821637672657814e-05,
+              0.08022683269386453
+            ],
+            "errors": [
+              0.0002490673225797446,
+              4.851500469890648e-06,
+              0.0015137615158918774
+            ]
+          },
+          {
+            "values": [
+              0.007877657818001902,
+              9.479376525756169e-05,
+              0.08181198494951457
+            ],
+            "errors": [
+              0.0002312069131854455,
+              4.57634398704146e-06,
+              0.0013918718531187027
+            ]
+          }
+        ],
+        "binder": 0.23258332311046737,
+        "ids": [
+          "spinpilot3_e080125_N064_r30_s020000",
+          "spinpilot3_e080125_N064_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.8015000000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.00516088130224683,
+          4.428161389223358e-05,
+          0.06536084668980127
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080150_N064_r30_s020000",
+            "rows": 12000,
+            "width": 113,
+            "blocks": 106,
+            "taus": {
+              "m2": 11.292627398451678,
+              "m4": 10.139092366979769,
+              "mabs": 10.947181091039285,
+              "binder": 4.912574316259216
+            },
+            "half_z": [
+              1.5629748421181437,
+              1.5518110371977967,
+              1.622242382086069
+            ]
+          },
+          {
+            "id": "spinpilot3_e080150_N064_r31_s020000",
+            "rows": 12000,
+            "width": 157,
+            "blocks": 76,
+            "taus": {
+              "m2": 15.689287975188758,
+              "m4": 13.232406364142781,
+              "mabs": 15.114296214198099,
+              "binder": 6.693096908695736
+            },
+            "half_z": [
+              -1.567284224057583,
+              -1.4942766767502358,
+              -1.666398270746296
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.005151074187577119,
+              4.445866348711906e-05,
+              0.06518323148690817
+            ],
+            "errors": [
+              0.0001629939723653094,
+              2.5322128530628795e-06,
+              0.001145149914084079
+            ]
+          },
+          {
+            "values": [
+              0.005170688416916516,
+              4.410456429734772e-05,
+              0.06553846189269542
+            ],
+            "errors": [
+              0.00019874675120690858,
+              3.041027466844946e-06,
+              0.001390429087138925
+            ]
+          }
+        ],
+        "binder": 0.1687231159247805,
+        "ids": [
+          "spinpilot3_e080150_N064_r30_s020000",
+          "spinpilot3_e080150_N064_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.8017500000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.0038480880825512535,
+          2.6470162526824155e-05,
+          0.05576703281540198
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080175_N064_r30_s020000",
+            "rows": 12000,
+            "width": 119,
+            "blocks": 100,
+            "taus": {
+              "m2": 11.763573275938269,
+              "m4": 9.646622168926926,
+              "mabs": 11.806647726562291,
+              "binder": 5.191714986872285
+            },
+            "half_z": [
+              -1.5838317043007974,
+              -1.9494721973949014,
+              -1.1765036294642017
+            ]
+          },
+          {
+            "id": "spinpilot3_e080175_N064_r31_s020000",
+            "rows": 12000,
+            "width": 118,
+            "blocks": 101,
+            "taus": {
+              "m2": 11.751175409803713,
+              "m4": 9.92465643693054,
+              "mabs": 11.148588839041956,
+              "binder": 5.280325539864041
+            },
+            "half_z": [
+              2.9960566082126516,
+              2.8686010613459842,
+              2.8272263765127383
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.004032595809081715,
+              2.8330370742985436e-05,
+              0.057371623419446044
+            ],
+            "errors": [
+              0.00013455595011330706,
+              1.6660216608742486e-06,
+              0.0010725179768153604
+            ]
+          },
+          {
+            "values": [
+              0.0036635803560208556,
+              2.460995431066301e-05,
+              0.054162442211357464
+            ],
+            "errors": [
+              0.00013349355201121505,
+              1.6861350406367093e-06,
+              0.001064956638099074
+            ]
+          }
+        ],
+        "binder": 0.10620771154179565,
+        "ids": [
+          "spinpilot3_e080175_N064_r30_s020000",
+          "spinpilot3_e080175_N064_r31_s020000"
+        ]
+      }
+    },
+    {
+      "N": 64,
+      "q": 0.802,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.002892724918297287,
+          1.5337299035888322e-05,
+          0.04827022847994946
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinpilot3_e080200_N064_r30_s020000",
+            "rows": 12000,
+            "width": 120,
+            "blocks": 100,
+            "taus": {
+              "m2": 11.287925726072856,
+              "m4": 11.957794690183805,
+              "mabs": 10.161322231753552,
+              "binder": 6.13788433275958
+            },
+            "half_z": [
+              1.390115911677854,
+              0.6263860608370763,
+              1.7940932706961268
+            ]
+          },
+          {
+            "id": "spinpilot3_e080200_N064_r31_s020000",
+            "rows": 12000,
+            "width": 114,
+            "blocks": 105,
+            "taus": {
+              "m2": 11.346747464931724,
+              "m4": 9.306041644450644,
+              "mabs": 10.986658397782461,
+              "binder": 5.187204755046223
+            },
+            "half_z": [
+              -0.3748596303536436,
+              -0.5011497358741599,
+              -0.2351245543927184
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.0029622153985965644,
+              1.5706021276377695e-05,
+              0.049005173123701125
+            ],
+            "errors": [
+              0.00011175029884053906,
+              1.1665008499419447e-06,
+              0.0009765813414384125
+            ]
+          },
+          {
+            "values": [
+              0.002823234437997978,
+              1.496857679539892e-05,
+              0.04753528383619756
+            ],
+            "errors": [
+              0.0001047749322629035,
+              1.0493746263477184e-06,
+              0.000930906149785901
+            ]
+          }
+        ],
+        "binder": 0.08355877701386805,
+        "ids": [
+          "spinpilot3_e080200_N064_r30_s020000",
+          "spinpilot3_e080200_N064_r31_s020000"
+        ]
+      }
+    }
+  ],
+  "contours": [
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8014395161781666,
+        0.010919007934627693,
+        0.0967221337218691
+      ],
+      "MC95": [
+        [
+          -0.8015080792490699,
+          -0.801396772629168
+        ],
+        [
+          0.010131538079982395,
+          0.011490583025643706
+        ],
+        [
+          0.09332876802247236,
+          0.0991410347821633
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001,
+        -0.80125,
+        -0.801,
+        -0.80075
+      ],
+      "binder_values": [
+        0.11726852920808484,
+        0.1336960690326322,
+        0.19843073900188124,
+        0.23468126091167085,
+        0.29799876724619523,
+        0.34071461088304,
+        0.38309454819182553
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.24117748274714057,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8014395161781666,
+      "epsilon_MC95": [
+        0.801396772629168,
+        0.8015080792490699
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 48,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8014323269991376,
+        0.01084522854837358,
+        0.0965662406630814
+      ],
+      "MC95": [
+        [
+          -0.8015086015890476,
+          -0.801383455538093
+        ],
+        [
+          0.010060174502264357,
+          0.011515136996770446
+        ],
+        [
+          0.0930655828582073,
+          0.0994442698964652
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001,
+        -0.80125,
+        -0.801,
+        -0.80075
+      ],
+      "binder_values": [
+        0.11726852920808484,
+        0.1336960690326322,
+        0.19843073900188124,
+        0.23468126091167085,
+        0.29799876724619523,
+        0.34071461088304,
+        0.38309454819182553
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.2488058313374537,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8014323269991376,
+      "epsilon_MC95": [
+        0.801383455538093,
+        0.8015086015890476
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 48,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8013998429279942,
+        0.011546032577600618,
+        0.09964632814169164
+      ],
+      "MC95": [
+        [
+          -0.8015065954654225,
+          -0.8013618925981714
+        ],
+        [
+          0.010210599880959292,
+          0.012039580320658652
+        ],
+        [
+          0.09375519241751432,
+          0.10171670333475233
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001,
+        -0.80125,
+        -0.801,
+        -0.80075
+      ],
+      "binder_values": [
+        0.11726852920808484,
+        0.1336960690326322,
+        0.19843073900188124,
+        0.23468126091167085,
+        0.29799876724619523,
+        0.34071461088304,
+        0.38309454819182553
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.2499999998992255,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8013998429279942,
+      "epsilon_MC95": [
+        0.8013618925981714,
+        0.8015065954654225
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 48,
+      "method": "moment_linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8011713075958579,
+        0.008680905637152115,
+        0.08608401116414387
+      ],
+      "MC95": [
+        [
+          -0.8012501764564748,
+          -0.8011211394526068
+        ],
+        [
+          0.007964129409276181,
+          0.0091568715974772
+        ],
+        [
+          0.08261473141521598,
+          0.0884083930348065
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001,
+        -0.80125,
+        -0.801,
+        -0.80075,
+        -0.8005
+      ],
+      "binder_values": [
+        0.08355877701386805,
+        0.10620771154179565,
+        0.1687231159247805,
+        0.23258332311046737,
+        0.2879148289889736,
+        0.3805502372277204,
+        0.4302952162791688
+      ],
+      "monotone_max_shift": 5.551115123125783e-17,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.23897769969864213,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8011713075958579,
+      "epsilon_MC95": [
+        0.8011211394526068,
+        0.8012501764564748
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 64,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.801169526970025,
+        0.008599408772612855,
+        0.08589830921639297
+      ],
+      "MC95": [
+        [
+          -0.8012503444955547,
+          -0.8011094556522251
+        ],
+        [
+          0.007928439254605513,
+          0.009123462332038885
+        ],
+        [
+          0.08246610412682727,
+          0.08844007809652041
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001,
+        -0.80125,
+        -0.801,
+        -0.80075,
+        -0.8005
+      ],
+      "binder_values": [
+        0.08355877701386805,
+        0.10620771154179565,
+        0.1687231159247805,
+        0.23258332311046737,
+        0.2879148289889736,
+        0.3805502372277204,
+        0.4302952162791688
+      ],
+      "monotone_max_shift": 5.551115123125783e-17,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.2507847458165453,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.801169526970025,
+      "epsilon_MC95": [
+        0.8011094556522251,
+        0.8012503444955547
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 64,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8011221517825502,
+        0.009280313546209236,
+        0.08924765383000427
+      ],
+      "MC95": [
+        [
+          -0.8012501134527376,
+          -0.8010789208788162
+        ],
+        [
+          0.008193884441474128,
+          0.009717476635568765
+        ],
+        [
+          0.08380621881322234,
+          0.09132070108964774
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001,
+        -0.80125,
+        -0.801,
+        -0.80075,
+        -0.8005
+      ],
+      "binder_values": [
+        0.08355877701386805,
+        0.10620771154179565,
+        0.1687231159247805,
+        0.23258332311046737,
+        0.2879148289889736,
+        0.3805502372277204,
+        0.4302952162791688
+      ],
+      "monotone_max_shift": 5.551115123125783e-17,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.2499999999999909,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8011221517825502,
+      "epsilon_MC95": [
+        0.8010789208788162,
+        0.8012501134527376
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 64,
+      "method": "moment_linear",
+      "flags": []
+    }
+  ],
+  "fits": [
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3986679747724879,
+        "MC95": [
+          0.24266288352830614,
+          0.5682047394172443
+        ],
+        "chi2": 8.814963795970373e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.430602427357948,
+          0.3986679747724879
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3986679747724879,
+        "MC95": [
+          0.24266288352830614,
+          0.5682047394172443
+        ],
+        "chi2": 8.814963795970373e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.430602427357948,
+          0.3986679747724879
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3986679747724879,
+        "MC95": [
+          0.24266288352830614,
+          0.5682047394172443
+        ],
+        "chi2": 8.814963795970373e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.430602427357948,
+          0.3986679747724879
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3986679747724879,
+        "MC95": [
+          0.24266288352830614,
+          0.5682047394172443
+        ],
+        "chi2": 8.814963795970373e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.430602427357948,
+          0.3986679747724879
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3986679747724879,
+        "MC95": [
+          0.24266288352830614,
+          0.5682047394172443
+        ],
+        "chi2": 8.814963795970373e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.430602427357948,
+          0.3986679747724879
+        ],
+        "minimum": 24,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 32,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3986679747724879,
+        "MC95": [
+          0.24266288352830614,
+          0.5682047394172443
+        ],
+        "chi2": 8.814963795970373e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.430602427357948,
+          0.3986679747724879
+        ],
+        "minimum": 32,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.4050254938003396,
+        "MC95": [
+          0.25430646135062795,
+          0.5688370257171997
+        ],
+        "chi2": 1.9762003848459753e-25,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7679779110622188,
+          0.4050254938003396
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.4050254938003396,
+        "MC95": [
+          0.25430646135062795,
+          0.5688370257171997
+        ],
+        "chi2": 1.9762003848459753e-25,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7679779110622188,
+          0.4050254938003396
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.4050254938003396,
+        "MC95": [
+          0.25430646135062795,
+          0.5688370257171997
+        ],
+        "chi2": 1.9762003848459753e-25,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7679779110622188,
+          0.4050254938003396
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.4050254938003396,
+        "MC95": [
+          0.25430646135062795,
+          0.5688370257171997
+        ],
+        "chi2": 1.9762003848459753e-25,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7679779110622188,
+          0.4050254938003396
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.4050254938003396,
+        "MC95": [
+          0.25430646135062795,
+          0.5688370257171997
+        ],
+        "chi2": 1.9762003848459753e-25,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7679779110622188,
+          0.4050254938003396
+        ],
+        "minimum": 24,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 32,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.4050254938003396,
+        "MC95": [
+          0.25430646135062795,
+          0.5688370257171997
+        ],
+        "chi2": 1.9762003848459753e-25,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7679779110622188,
+          0.4050254938003396
+        ],
+        "minimum": 32,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40327810946197445,
+        "MC95": [
+          0.23674609186144208,
+          0.5776644642749406
+        ],
+        "chi2": 1.2278613423127259e-27,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.4016888107951315,
+          0.40327810946197445
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40327810946197445,
+        "MC95": [
+          0.23674609186144208,
+          0.5776644642749406
+        ],
+        "chi2": 1.2278613423127259e-27,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.4016888107951315,
+          0.40327810946197445
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40327810946197445,
+        "MC95": [
+          0.23674609186144208,
+          0.5776644642749406
+        ],
+        "chi2": 1.2278613423127259e-27,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.4016888107951315,
+          0.40327810946197445
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40327810946197445,
+        "MC95": [
+          0.23674609186144208,
+          0.5776644642749406
+        ],
+        "chi2": 1.2278613423127259e-27,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.4016888107951315,
+          0.40327810946197445
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40327810946197445,
+        "MC95": [
+          0.23674609186144208,
+          0.5776644642749406
+        ],
+        "chi2": 1.2278613423127259e-27,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.4016888107951315,
+          0.40327810946197445
+        ],
+        "minimum": 24,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 32,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40327810946197445,
+        "MC95": [
+          0.23674609186144208,
+          0.5776644642749406
+        ],
+        "chi2": 1.2278613423127259e-27,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.4016888107951315,
+          0.40327810946197445
+        ],
+        "minimum": 32,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40692510995878034,
+        "MC95": [
+          0.24196874541327737,
+          0.5808853609335325
+        ],
+        "chi2": 1.5773192644936218e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7622371773456942,
+          0.40692510995878034
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40692510995878034,
+        "MC95": [
+          0.24196874541327737,
+          0.5808853609335325
+        ],
+        "chi2": 1.5773192644936218e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7622371773456942,
+          0.40692510995878034
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40692510995878034,
+        "MC95": [
+          0.24196874541327737,
+          0.5808853609335325
+        ],
+        "chi2": 1.5773192644936218e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7622371773456942,
+          0.40692510995878034
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40692510995878034,
+        "MC95": [
+          0.24196874541327737,
+          0.5808853609335325
+        ],
+        "chi2": 1.5773192644936218e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7622371773456942,
+          0.40692510995878034
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40692510995878034,
+        "MC95": [
+          0.24196874541327737,
+          0.5808853609335325
+        ],
+        "chi2": 1.5773192644936218e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7622371773456942,
+          0.40692510995878034
+        ],
+        "minimum": 24,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 32,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.40692510995878034,
+        "MC95": [
+          0.24196874541327737,
+          0.5808853609335325
+        ],
+        "chi2": 1.5773192644936218e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.7622371773456942,
+          0.40692510995878034
+        ],
+        "minimum": 32,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.37966659303328093,
+        "MC95": [
+          0.1652210655669882,
+          0.5669283868032116
+        ],
+        "chi2": 5.298555563698059e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.5218820032819445,
+          0.37966659303328093
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.37966659303328093,
+        "MC95": [
+          0.1652210655669882,
+          0.5669283868032116
+        ],
+        "chi2": 5.298555563698059e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.5218820032819445,
+          0.37966659303328093
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.37966659303328093,
+        "MC95": [
+          0.1652210655669882,
+          0.5669283868032116
+        ],
+        "chi2": 5.298555563698059e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.5218820032819445,
+          0.37966659303328093
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.37966659303328093,
+        "MC95": [
+          0.1652210655669882,
+          0.5669283868032116
+        ],
+        "chi2": 5.298555563698059e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.5218820032819445,
+          0.37966659303328093
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.37966659303328093,
+        "MC95": [
+          0.1652210655669882,
+          0.5669283868032116
+        ],
+        "chi2": 5.298555563698059e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.5218820032819445,
+          0.37966659303328093
+        ],
+        "minimum": 24,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 32,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.37966659303328093,
+        "MC95": [
+          0.1652210655669882,
+          0.5669283868032116
+        ],
+        "chi2": 5.298555563698059e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -1.5218820032819445,
+          0.37966659303328093
+        ],
+        "minimum": 32,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 24,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3831036977587805,
+        "MC95": [
+          0.17073886845350497,
+          0.565089331785162
+        ],
+        "chi2": 8.162293153314546e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.823056658505389,
+          0.3831036977587805
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3831036977587805,
+        "MC95": [
+          0.17073886845350497,
+          0.565089331785162
+        ],
+        "chi2": 8.162293153314546e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.823056658505389,
+          0.3831036977587805
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3831036977587805,
+        "MC95": [
+          0.17073886845350497,
+          0.565089331785162
+        ],
+        "chi2": 8.162293153314546e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.823056658505389,
+          0.3831036977587805
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3831036977587805,
+        "MC95": [
+          0.17073886845350497,
+          0.565089331785162
+        ],
+        "chi2": 8.162293153314546e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.823056658505389,
+          0.3831036977587805
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3831036977587805,
+        "MC95": [
+          0.17073886845350497,
+          0.565089331785162
+        ],
+        "chi2": 8.162293153314546e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.823056658505389,
+          0.3831036977587805
+        ],
+        "minimum": 24,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 32,
+      "omega": null,
+      "result": {
+        "status": "zero_dof_diagnostic",
+        "sizes": [
+          48,
+          64
+        ],
+        "Delta": 0.3831036977587805,
+        "MC95": [
+          0.17073886845350497,
+          0.565089331785162
+        ],
+        "chi2": 8.162293153314546e-26,
+        "dof": 0,
+        "p": null,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.823056658505389,
+          0.3831036977587805
+        ],
+        "minimum": 32,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 0.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 0.8,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 1.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 1.5,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 24,
+      "omega": 2.0,
+      "result": {
+        "status": "insufficient_sizes",
+        "sizes": [
+          48,
+          64
+        ]
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    }
+  ],
+  "scope": "Conditional MC effective spin dimension at beta=0. No nu/Delta fixed. Size/contour/correction and mixing sensitivity are not total confidence coverage."
+}

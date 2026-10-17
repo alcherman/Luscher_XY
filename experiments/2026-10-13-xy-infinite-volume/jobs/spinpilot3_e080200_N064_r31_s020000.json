@@ -1,0 +1,41 @@
+{
+  "state": "complete",
+  "point": {
+    "id": "spinpilot3_e080200_N064_r31_s020000",
+    "D": 3,
+    "epsilon_over_pi": 0.802,
+    "epsilon": 2.519557308179014,
+    "beta": 0.0,
+    "N": 64,
+    "replica": 31,
+    "seed": 2964771545931106552,
+    "initial_winding": [
+      1,
+      0,
+      0
+    ],
+    "steps": 20000,
+    "warmup": 1000,
+    "clusters_per_cycle": 4,
+    "campaign_role": "zero_beta_endpoint",
+    "epsilon_sampling_1e5": 80200,
+    "study_role": "spin_scaling_dimension_larger_size_pilot",
+    "primary_observables": [
+      "magnetization_squared",
+      "magnetization_fourth",
+      "magnetization_abs",
+      "binder_contour"
+    ]
+  },
+  "pid": 7624,
+  "paused": false,
+  "updated": "2026-10-15T18:34:08.512047-05:00",
+  "audit": {
+    "passed": true,
+    "rows": 20001,
+    "bytes": 44022661192,
+    "sha256": "d946de756b7fd1e9a6ef1337f77778979e89a9df5d967959329e2979c7297e27"
+  },
+  "attempt_generation_seconds": 2663.106619500002,
+  "audit_seconds": 424.56665379201877
+}

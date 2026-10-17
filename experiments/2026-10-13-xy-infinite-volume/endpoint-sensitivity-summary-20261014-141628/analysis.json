@@ -1,0 +1,1159 @@
+{
+  "created": "2026-10-14T14:16:28.762126-05:00",
+  "snapshots": {
+    "legacy-local": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141312-cut2001-block1-local-legacy1-U25",
+    "current-local": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141451-cut2001-block1-local-legacy0-U25",
+    "cut501": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141455-cut501-block1-local-legacy0-U25",
+    "cut3001": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141500-cut3001-block1-local-legacy0-U25",
+    "block2": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141505-cut2001-block2-local-legacy0-U25",
+    "U20": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141618-cut2001-block1-local-legacy1-U20",
+    "U30": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141623-cut2001-block1-local-legacy1-U30"
+  },
+  "common_root_fits": [
+    {
+      "D": 2,
+      "variant": "current-local",
+      "common_roots": [
+        [
+          "eta_eff",
+          64
+        ],
+        [
+          "eta_eff",
+          128
+        ],
+        [
+          "eta_eff",
+          256
+        ],
+        [
+          "xi_over_L",
+          64
+        ],
+        [
+          "xi_over_L",
+          128
+        ],
+        [
+          "xi_over_L",
+          256
+        ],
+        [
+          "xi_over_L",
+          512
+        ]
+      ],
+      "result": {
+        "status": "exploratory_log_fit",
+        "MC95": [
+          0.5506883891225494,
+          0.5603926169645315
+        ],
+        "coefficients": [
+          0.5551420534563088,
+          0.12088216057486892,
+          0.10606915258497036
+        ],
+        "chi2": 1.995901498755047,
+        "dof": 4,
+        "p": 0.7365127589885183,
+        "joint_valid_fraction": 0.9965,
+        "covariance_rank": 7,
+        "condition_number": 9.280916706947588,
+        "covariance": [
+          [
+            1.3633653125057463e-06,
+            -1.3447596733931232e-06,
+            -7.643302487032765e-08,
+            -7.173868595221713e-07,
+            6.350360241522267e-07,
+            2.9149767486071496e-08,
+            -2.5903017702591005e-08
+          ],
+          [
+            -1.3447596733931232e-06,
+            1.1656651883123268e-05,
+            -1.7450875180294129e-06,
+            1.7533405127492013e-08,
+            -1.1807666071258099e-06,
+            2.4044436871705183e-06,
+            1.748162747637135e-07
+          ],
+          [
+            -7.643302487032765e-08,
+            -1.7450875180294129e-06,
+            3.950044185040106e-06,
+            -1.632134301018563e-08,
+            -8.27992480848922e-09,
+            -1.4468890910606046e-06,
+            1.8269841144913098e-06
+          ],
+          [
+            -7.173868595221713e-07,
+            1.7533405127492013e-08,
+            -1.632134301018563e-08,
+            2.2276337465614396e-06,
+            6.277919094015113e-09,
+            -2.1507690063462223e-08,
+            -9.939327435970965e-09
+          ],
+          [
+            6.350360241522267e-07,
+            -1.1807666071258099e-06,
+            -8.27992480848922e-09,
+            6.277919094015113e-09,
+            9.979725139298653e-07,
+            -2.395627513355575e-08,
+            3.922324713852207e-08
+          ],
+          [
+            2.9149767486071496e-08,
+            2.4044436871705183e-06,
+            -1.4468890910606046e-06,
+            -2.1507690063462223e-08,
+            -2.395627513355575e-08,
+            3.2493894133967195e-06,
+            5.861099000023983e-08
+          ],
+          [
+            -2.5903017702591005e-08,
+            1.748162747637135e-07,
+            1.8269841144913098e-06,
+            -9.939327435970965e-09,
+            3.922324713852207e-08,
+            5.861099000023983e-08,
+            3.984293632395776e-06
+          ]
+        ],
+        "root_coordinates": [
+          {
+            "observable": "eta_eff",
+            "N": 64,
+            "pair": [
+              64,
+              128
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 128,
+            "pair": [
+              128,
+              256
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 256,
+            "pair": [
+              256,
+              512
+            ]
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 64,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 128,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 256,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 512,
+            "pair": null
+          }
+        ],
+        "flags": [],
+        "individual_flags": {},
+        "input_flags": [],
+        "epsilon_over_pi_infinite": 0.5551420534563088
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141451-cut2001-block1-local-legacy0-U25",
+      "source_sha256": "2b9c143484848ae33ef9048402834558cd95b7b8380456145e33c4111b4738b7"
+    },
+    {
+      "D": 2,
+      "variant": "cut501",
+      "common_roots": [
+        [
+          "eta_eff",
+          64
+        ],
+        [
+          "eta_eff",
+          128
+        ],
+        [
+          "eta_eff",
+          256
+        ],
+        [
+          "xi_over_L",
+          64
+        ],
+        [
+          "xi_over_L",
+          128
+        ],
+        [
+          "xi_over_L",
+          256
+        ],
+        [
+          "xi_over_L",
+          512
+        ]
+      ],
+      "result": {
+        "status": "exploratory_log_fit",
+        "MC95": [
+          0.5528325735432071,
+          0.5609576554272093
+        ],
+        "coefficients": [
+          0.5561256700861226,
+          0.09528692148905271,
+          0.08475204025442261
+        ],
+        "chi2": 3.1281120684732118,
+        "dof": 4,
+        "p": 0.5366196934740919,
+        "joint_valid_fraction": 1.0,
+        "covariance_rank": 7,
+        "condition_number": 7.820057642066889,
+        "covariance": [
+          [
+            2.1668528192658947e-06,
+            -8.639914529742924e-07,
+            2.2475183975230778e-08,
+            -6.795110867666575e-07,
+            9.16447800570959e-07,
+            9.17044041762628e-08,
+            6.238878891332592e-08
+          ],
+          [
+            -8.639914529742924e-07,
+            4.113673109520143e-06,
+            -8.817002325632e-07,
+            -1.3782503041343695e-08,
+            -7.11423523360365e-07,
+            1.1607003710028671e-06,
+            2.9583787586024513e-08
+          ],
+          [
+            2.2475183975230778e-08,
+            -8.817002325632e-07,
+            3.3622806536357685e-06,
+            1.8622522665418516e-08,
+            -6.040606741495759e-08,
+            -1.0984411477684452e-06,
+            1.4173612427025749e-06
+          ],
+          [
+            -6.795110867666575e-07,
+            -1.3782503041343695e-08,
+            1.8622522665418516e-08,
+            1.4869977190077766e-06,
+            6.793870951811813e-08,
+            -8.321428885703273e-08,
+            1.538271890068889e-10
+          ],
+          [
+            9.16447800570959e-07,
+            -7.11423523360365e-07,
+            -6.040606741495759e-08,
+            6.793870951811813e-08,
+            1.4107166584726662e-06,
+            5.4414933952341175e-08,
+            2.238662606442403e-08
+          ],
+          [
+            9.17044041762628e-08,
+            1.1607003710028671e-06,
+            -1.0984411477684452e-06,
+            -8.321428885703273e-08,
+            5.4414933952341175e-08,
+            2.3305094218641012e-06,
+            1.3103295678479377e-07
+          ],
+          [
+            6.238878891332592e-08,
+            2.9583787586024513e-08,
+            1.4173612427025749e-06,
+            1.538271890068889e-10,
+            2.238662606442403e-08,
+            1.3103295678479377e-07,
+            3.3849976202117536e-06
+          ]
+        ],
+        "root_coordinates": [
+          {
+            "observable": "eta_eff",
+            "N": 64,
+            "pair": [
+              64,
+              128
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 128,
+            "pair": [
+              128,
+              256
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 256,
+            "pair": [
+              256,
+              512
+            ]
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 64,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 128,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 256,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 512,
+            "pair": null
+          }
+        ],
+        "flags": [],
+        "individual_flags": {},
+        "input_flags": [],
+        "epsilon_over_pi_infinite": 0.5561256700861226
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141455-cut501-block1-local-legacy0-U25",
+      "source_sha256": "b56ba41fbbbad05b3ec0815b9605c94d02b7de672c089a04759bbf03fd90f789"
+    },
+    {
+      "D": 2,
+      "variant": "cut3001",
+      "common_roots": [
+        [
+          "eta_eff",
+          64
+        ],
+        [
+          "eta_eff",
+          128
+        ],
+        [
+          "eta_eff",
+          256
+        ],
+        [
+          "xi_over_L",
+          64
+        ],
+        [
+          "xi_over_L",
+          128
+        ],
+        [
+          "xi_over_L",
+          256
+        ],
+        [
+          "xi_over_L",
+          512
+        ]
+      ],
+      "result": {
+        "status": "exploratory_log_fit",
+        "MC95": [
+          0.5500725172107579,
+          0.5603892520704326
+        ],
+        "coefficients": [
+          0.5547089447969745,
+          0.1260884456391505,
+          0.11651139441345769
+        ],
+        "chi2": 1.500884669740516,
+        "dof": 4,
+        "p": 0.8264847476040124,
+        "joint_valid_fraction": 0.992,
+        "covariance_rank": 7,
+        "condition_number": 9.599468130172786,
+        "covariance": [
+          [
+            1.529396725979738e-06,
+            -1.565693179592167e-06,
+            -2.8253070506740413e-08,
+            -6.692858523414837e-07,
+            7.660794228449153e-07,
+            -1.1028255215906291e-07,
+            -1.035183999713536e-07
+          ],
+          [
+            -1.565693179592167e-06,
+            1.3260881376558371e-05,
+            -2.948400588268575e-06,
+            -7.824755320142344e-08,
+            -1.5615102324369037e-06,
+            2.534855198767003e-06,
+            1.0688393946413512e-08
+          ],
+          [
+            -2.8253070506740413e-08,
+            -2.948400588268575e-06,
+            6.360002145350527e-06,
+            1.295456468455512e-07,
+            6.158241648505461e-08,
+            -2.0177236864012716e-06,
+            2.8335882744739114e-06
+          ],
+          [
+            -6.692858523414837e-07,
+            -7.824755320142344e-08,
+            1.295456468455512e-07,
+            1.7059057632830355e-06,
+            -4.65394256008431e-08,
+            -5.200279986939309e-09,
+            7.396005691316056e-08
+          ],
+          [
+            7.660794228449153e-07,
+            -1.5615102324369037e-06,
+            6.158241648505461e-08,
+            -4.65394256008431e-08,
+            1.3231384522372292e-06,
+            -6.711907208124498e-08,
+            -5.632359935520513e-09
+          ],
+          [
+            -1.1028255215906291e-07,
+            2.534855198767003e-06,
+            -2.0177236864012716e-06,
+            -5.200279986939309e-09,
+            -6.711907208124498e-08,
+            3.6205620259474884e-06,
+            -2.6278145514794993e-07
+          ],
+          [
+            -1.035183999713536e-07,
+            1.0688393946413512e-08,
+            2.8335882744739114e-06,
+            7.396005691316056e-08,
+            -5.632359935520513e-09,
+            -2.6278145514794993e-07,
+            6.239888847632608e-06
+          ]
+        ],
+        "root_coordinates": [
+          {
+            "observable": "eta_eff",
+            "N": 64,
+            "pair": [
+              64,
+              128
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 128,
+            "pair": [
+              128,
+              256
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 256,
+            "pair": [
+              256,
+              512
+            ]
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 64,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 128,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 256,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 512,
+            "pair": null
+          }
+        ],
+        "flags": [],
+        "individual_flags": {},
+        "input_flags": [],
+        "epsilon_over_pi_infinite": 0.5547089447969745
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141500-cut3001-block1-local-legacy0-U25",
+      "source_sha256": "2841cdcae6b6bd61871688b33d2b96d7b7615ba301765bb3b23fafc920591842"
+    },
+    {
+      "D": 2,
+      "variant": "block2",
+      "common_roots": [
+        [
+          "eta_eff",
+          64
+        ],
+        [
+          "eta_eff",
+          128
+        ],
+        [
+          "eta_eff",
+          256
+        ],
+        [
+          "xi_over_L",
+          64
+        ],
+        [
+          "xi_over_L",
+          128
+        ],
+        [
+          "xi_over_L",
+          256
+        ],
+        [
+          "xi_over_L",
+          512
+        ]
+      ],
+      "result": {
+        "status": "exploratory_log_fit",
+        "MC95": [
+          0.5508500989432444,
+          0.5605778841490651
+        ],
+        "coefficients": [
+          0.5552159859117795,
+          0.11991771681612311,
+          0.10530565730627997
+        ],
+        "chi2": 1.913666171635752,
+        "dof": 4,
+        "p": 0.7516340629510496,
+        "joint_valid_fraction": 0.995,
+        "covariance_rank": 7,
+        "condition_number": 8.84578006914328,
+        "covariance": [
+          [
+            1.4542821512867464e-06,
+            -1.3851252226825968e-06,
+            3.0361182013666395e-08,
+            -7.51796185476995e-07,
+            6.37870230950939e-07,
+            6.424826359991197e-08,
+            3.2581714181841114e-08
+          ],
+          [
+            -1.3851252226825968e-06,
+            1.158808875981318e-05,
+            -1.7717419985062288e-06,
+            5.064100746451706e-08,
+            -1.182466548295858e-06,
+            2.2203142762995785e-06,
+            2.3882912740594285e-09
+          ],
+          [
+            3.0361182013666395e-08,
+            -1.7717419985062288e-06,
+            3.842487170410894e-06,
+            4.658468034002782e-08,
+            -1.1081391485148617e-09,
+            -1.4854326587244924e-06,
+            1.7201848650573675e-06
+          ],
+          [
+            -7.51796185476995e-07,
+            5.064100746451706e-08,
+            4.658468034002782e-08,
+            2.3052178095470652e-06,
+            6.5408758973460594e-09,
+            -2.4159094264397194e-08,
+            -3.709893425198665e-08
+          ],
+          [
+            6.37870230950939e-07,
+            -1.182466548295858e-06,
+            -1.1081391485148617e-09,
+            6.5408758973460594e-09,
+            1.0277142127044417e-06,
+            6.297167088179062e-08,
+            1.4052751509726323e-08
+          ],
+          [
+            6.424826359991197e-08,
+            2.2203142762995785e-06,
+            -1.4854326587244924e-06,
+            -2.4159094264397194e-08,
+            6.297167088179062e-08,
+            3.6138309397732557e-06,
+            1.0754547639808387e-07
+          ],
+          [
+            3.2581714181841114e-08,
+            2.3882912740594285e-09,
+            1.7201848650573675e-06,
+            -3.709893425198665e-08,
+            1.4052751509726323e-08,
+            1.0754547639808387e-07,
+            4.318047276298179e-06
+          ]
+        ],
+        "root_coordinates": [
+          {
+            "observable": "eta_eff",
+            "N": 64,
+            "pair": [
+              64,
+              128
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 128,
+            "pair": [
+              128,
+              256
+            ]
+          },
+          {
+            "observable": "eta_eff",
+            "N": 256,
+            "pair": [
+              256,
+              512
+            ]
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 64,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 128,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 256,
+            "pair": null
+          },
+          {
+            "observable": "xi_over_L",
+            "N": 512,
+            "pair": null
+          }
+        ],
+        "flags": [],
+        "individual_flags": {},
+        "input_flags": [],
+        "epsilon_over_pi_infinite": 0.5552159859117795
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141505-cut2001-block2-local-legacy0-U25",
+      "source_sha256": "243cbc515f61ce4d36435202a64847d2cb2f897e05c60a0ab8287d87aa4e5432"
+    },
+    {
+      "D": 3,
+      "variant": "current-local",
+      "common_roots": [
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          24
+        ],
+        [
+          "binder",
+          32
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "minimum_N": 12,
+        "correction": false,
+        "bootstrap_95": [
+          0.8007844296561771,
+          0.8014470709345362
+        ],
+        "coefficients": [
+          0.8010832317306096,
+          0.20140577004774643
+        ],
+        "chi2": 3.36099811156123,
+        "df": 2,
+        "p": 0.1862809882342921,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.8010832317306096
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141451-cut2001-block1-local-legacy0-U25",
+      "source_sha256": "2b9c143484848ae33ef9048402834558cd95b7b8380456145e33c4111b4738b7"
+    },
+    {
+      "D": 3,
+      "variant": "cut501",
+      "common_roots": [
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          24
+        ],
+        [
+          "binder",
+          32
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "minimum_N": 12,
+        "correction": false,
+        "bootstrap_95": [
+          0.8007704421288678,
+          0.801380990103224
+        ],
+        "coefficients": [
+          0.801045599790349,
+          0.20418263217940014
+        ],
+        "chi2": 3.0720318308433914,
+        "df": 2,
+        "p": 0.21523691755695024,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.801045599790349
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141455-cut501-block1-local-legacy0-U25",
+      "source_sha256": "b56ba41fbbbad05b3ec0815b9605c94d02b7de672c089a04759bbf03fd90f789"
+    },
+    {
+      "D": 3,
+      "variant": "cut3001",
+      "common_roots": [
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          24
+        ],
+        [
+          "binder",
+          32
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "minimum_N": 12,
+        "correction": false,
+        "bootstrap_95": [
+          0.8008246902807811,
+          0.801546098289509
+        ],
+        "coefficients": [
+          0.8011440558811755,
+          0.1958287539981008
+        ],
+        "chi2": 3.4125719506089363,
+        "df": 2,
+        "p": 0.18153878161275427,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.8011440558811755
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141500-cut3001-block1-local-legacy0-U25",
+      "source_sha256": "2841cdcae6b6bd61871688b33d2b96d7b7615ba301765bb3b23fafc920591842"
+    },
+    {
+      "D": 3,
+      "variant": "block2",
+      "common_roots": [
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          24
+        ],
+        [
+          "binder",
+          32
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "minimum_N": 12,
+        "correction": false,
+        "bootstrap_95": [
+          0.8007931204006737,
+          0.8014325092604625
+        ],
+        "coefficients": [
+          0.801092677602356,
+          0.20132668452633318
+        ],
+        "chi2": 3.9659223629525355,
+        "df": 2,
+        "p": 0.13766099398252626,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.801092677602356
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141505-cut2001-block2-local-legacy0-U25",
+      "source_sha256": "243cbc515f61ce4d36435202a64847d2cb2f897e05c60a0ab8287d87aa4e5432"
+    },
+    {
+      "D": 4,
+      "variant": "current-local",
+      "common_roots": [
+        [
+          "binder",
+          10
+        ],
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          20
+        ],
+        [
+          "binder",
+          24
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          10,
+          12,
+          16,
+          20,
+          24
+        ],
+        "minimum_N": 10,
+        "correction": false,
+        "bootstrap_95": [
+          0.8609277459452945,
+          0.861358964793384
+        ],
+        "coefficients": [
+          0.8611188229268588,
+          0.14038157080131566
+        ],
+        "chi2": 8.514668335728679,
+        "df": 3,
+        "p": 0.036490540672812384,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start",
+          "invalid_ratio_bootstrap",
+          "start_disagreement_Q"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.8611188229268588
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141451-cut2001-block1-local-legacy0-U25",
+      "source_sha256": "2b9c143484848ae33ef9048402834558cd95b7b8380456145e33c4111b4738b7"
+    },
+    {
+      "D": 4,
+      "variant": "cut501",
+      "common_roots": [
+        [
+          "binder",
+          10
+        ],
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          20
+        ],
+        [
+          "binder",
+          24
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          10,
+          12,
+          16,
+          20,
+          24
+        ],
+        "minimum_N": 10,
+        "correction": false,
+        "bootstrap_95": [
+          0.8610669283472497,
+          0.8614313910710351
+        ],
+        "coefficients": [
+          0.8612299498818179,
+          0.09808682967931234
+        ],
+        "chi2": 5.681364200607556,
+        "df": 3,
+        "p": 0.12818458986500814,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start",
+          "invalid_ratio_bootstrap"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.8612299498818179
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141455-cut501-block1-local-legacy0-U25",
+      "source_sha256": "b56ba41fbbbad05b3ec0815b9605c94d02b7de672c089a04759bbf03fd90f789"
+    },
+    {
+      "D": 4,
+      "variant": "cut3001",
+      "common_roots": [
+        [
+          "binder",
+          10
+        ],
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          20
+        ],
+        [
+          "binder",
+          24
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          10,
+          12,
+          16,
+          20,
+          24
+        ],
+        "minimum_N": 10,
+        "correction": false,
+        "bootstrap_95": [
+          0.8609788458886733,
+          0.8615100785822513
+        ],
+        "coefficients": [
+          0.8611699764827337,
+          0.15919482804379584
+        ],
+        "chi2": 1.82430109806776,
+        "df": 3,
+        "p": 0.6096610767284167,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start",
+          "invalid_ratio_bootstrap",
+          "start_disagreement_Q",
+          "start_disagreement_binder"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.8611699764827337
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141500-cut3001-block1-local-legacy0-U25",
+      "source_sha256": "2841cdcae6b6bd61871688b33d2b96d7b7615ba301765bb3b23fafc920591842"
+    },
+    {
+      "D": 4,
+      "variant": "block2",
+      "common_roots": [
+        [
+          "binder",
+          10
+        ],
+        [
+          "binder",
+          12
+        ],
+        [
+          "binder",
+          16
+        ],
+        [
+          "binder",
+          20
+        ],
+        [
+          "binder",
+          24
+        ]
+      ],
+      "result": {
+        "status": "conditional_size_fit",
+        "sizes": [
+          10,
+          12,
+          16,
+          20,
+          24
+        ],
+        "minimum_N": 10,
+        "correction": false,
+        "bootstrap_95": [
+          0.8609038533821252,
+          0.861351518289612
+        ],
+        "coefficients": [
+          0.8611044865571328,
+          0.13915547349422328
+        ],
+        "chi2": 6.521021509258878,
+        "df": 3,
+        "p": 0.08883714405984346,
+        "joint_valid_fraction": 1.0,
+        "input_flags": [
+          "fewer_than_50_blocks_per_start",
+          "invalid_ratio_bootstrap",
+          "start_disagreement_binder"
+        ],
+        "individual_flags": {},
+        "epsilon_over_pi_infinite": 0.8611044865571328
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-141505-cut2001-block2-local-legacy0-U25",
+      "source_sha256": "243cbc515f61ce4d36435202a64847d2cb2f897e05c60a0ab8287d87aa4e5432"
+    }
+  ],
+  "cut_block_changes": [
+    {
+      "D": 2,
+      "baseline": 0.5551420534563088,
+      "max_absolute_shift": 0.0009836166298137217,
+      "successful_variants": 4,
+      "comparison_complete": true,
+      "scope": "Maximum among successful common-current-root variants, same minimum size and C0/leading model; correlated cut/block/window changes, descriptive only."
+    },
+    {
+      "D": 3,
+      "baseline": 0.8010832317306096,
+      "max_absolute_shift": 6.0824150565963464e-05,
+      "successful_variants": 4,
+      "comparison_complete": true,
+      "scope": "Maximum among successful common-current-root variants, same minimum size and C0/leading model; correlated cut/block/window changes, descriptive only."
+    },
+    {
+      "D": 4,
+      "baseline": 0.8611188229268588,
+      "max_absolute_shift": 0.00011112695495907321,
+      "successful_variants": 4,
+      "comparison_complete": true,
+      "scope": "Maximum among successful common-current-root variants, same minimum size and C0/leading model; correlated cut/block/window changes, descriptive only."
+    }
+  ],
+  "scope": "No accepted final endpoint or calibrated total confidence interval. Common-root current-chain comparisons isolate current-data analysis choices without legacy source composition changes. These are correlated analyses of the same simulations, not independent replications. Threshold, interpolation, local/full windows, minimum-size and correction fits remain available in each source snapshot. Failed cut4001 analysis preserved; replaced by cut3001 because D4 runs have4000 cycles. Empty-retention guard was added. Legacy inclusion comparisons are separate from cut/block effects."
+}

@@ -1,0 +1,109 @@
+{
+  "created": "2026-10-14T10:52:55.710616-05:00",
+  "points": [
+    {
+      "id": "d2_e066_b0500_N064_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.5,
+      "N": 64,
+      "replica": 6,
+      "seed": 12050835298792186379,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0500_N064_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.5,
+      "N": 64,
+      "replica": 7,
+      "seed": 3949781895146859276,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0500_N128_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.5,
+      "N": 128,
+      "replica": 6,
+      "seed": 12978251802952763938,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0500_N128_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.5,
+      "N": 128,
+      "replica": 7,
+      "seed": 4199234972876138576,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0500_N256_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.5,
+      "N": 256,
+      "replica": 6,
+      "seed": 4705121472918346587,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e066_b0500_N256_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.66,
+      "epsilon": 2.0734511513692637,
+      "beta": 0.5,
+      "N": 256,
+      "replica": 7,
+      "seed": 9624514995208829621,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "estimated_GiB": 18.283360766246915,
+  "purpose": "Common-root cut/block validation at epsilon/pi=.66 remains bootstrap-coverage unresolved: latecut .9855 and doubledblock .9895 jointvalidity. Existing lowest matching beta=.537 gives eta64 only about2.4MCSD above.25. Add a lower measured anchor beta=.500 at matching N64/128/256 with fresh replicas6/7,12000cycles, to retain bracket tails. No arbitrary truncation of invaliddraws or claimed precision improvement. Fullfields histories RNG checkpoints provenance logs audits retained. N512 costpilot remains separate; oldBinderjobs deferred,D5disabled."
+}

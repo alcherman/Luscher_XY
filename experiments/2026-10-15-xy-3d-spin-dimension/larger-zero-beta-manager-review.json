@@ -1,0 +1,32 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-15T22:20:25.944770+00:00",
+  "reviewer": "independent scientific review agent",
+  "files_sha256": {
+    "experiments/2026-10-15-xy-3d-spin-dimension/run_larger_pilot.py": "b3d44a92c18d6bd6c4b9a0865a42dbf0835afa0ca6e29e6c4d5b080760ada96c",
+    "experiments/2026-10-15-xy-3d-spin-dimension/diagnose_larger_pilot.py": "b1126213d944c6db053db8604e00353f2bdcef1b35f9918d563ad58c3be67705",
+    "experiments/2026-10-15-xy-3d-spin-dimension/zero_beta.py": "16e7328b929bee2b94a3a32c571d8ad3e13daf8859997d1a7f73b2fc3a6377e6",
+    "experiments/2026-10-13-xy-infinite-volume/coordinator_ssd.py": "a12be91b8a7b974848f4a987417534c17f99aedc6a7d530b34fddb1025094273"
+  },
+  "checks": [
+    "Waits previous finite manager lock while holding its own singleton; coordinator retains separate singleton",
+    "Refuses unrelated pending/interrupted/running work; wrapper supports explicit28-ID launch allowlist",
+    "Launch gate and allowlist close after audited cohort closure or failure; no automatic larger/longer production",
+    "Pins combined82+28 source IDs and exact parity/large-only subsets for all11 snapshots",
+    "Extracts complete winding-derived histories and accepted-event counts with row denominators before field retention",
+    "Explicit size-cut/correction families retain rejected and zeroDOF statuses",
+    "Full simulation/model kernels remain unchanged; post-audit retention goes through existing verified helper"
+  ],
+  "qualifications": [
+    "New allowlist and streaming/denominator regression tests must pass before deploying service",
+    "Topology/vortex autocorrelation diagnostics do not by themselves alter bootstrap block widths; flagged slower modes require review of reported MC uncertainty",
+    "Accepted winding events do not prove decorrelation or sector mixing; per-axis ranges and start/late-cut behavior must be interpreted",
+    "Large-only two-size exponents and insufficient-size correction fits remain diagnostics",
+    "Prediction windows and fixed spacing remain cost/coverage probes; no automatic extensions, N96 or high-statistics campaign",
+    "Resource samples are observations, not measured peak memory; critical slowing and I/O remain unmeasured",
+    "Publishing waiting status before acquiring singleton can briefly overwrite an active manager status on duplicate invocation, although work duplication is prevented",
+    "Final automatic report remains pending independent scientific/visual review; this manager approval does not accept results"
+  ],
+  "required_fixes": [],
+  "scope": "Read-only code review and this requested review artifact only. No services, simulations, analyses, process signals or retention conversions launched."
+}

@@ -1,0 +1,41 @@
+{
+  "state": "complete",
+  "point": {
+    "id": "spinzero3_e080800_N012_r21_s012000",
+    "D": 3,
+    "epsilon_over_pi": 0.808,
+    "epsilon": 2.538406864100553,
+    "beta": 0.0,
+    "N": 12,
+    "replica": 21,
+    "seed": 3888776233334673195,
+    "initial_winding": [
+      1,
+      0,
+      0
+    ],
+    "steps": 12000,
+    "warmup": 1000,
+    "clusters_per_cycle": 4,
+    "campaign_role": "zero_beta_endpoint",
+    "epsilon_sampling_1e5": 80800,
+    "study_role": "spin_scaling_dimension_fine_scan",
+    "primary_observables": [
+      "magnetization_squared",
+      "magnetization_fourth",
+      "magnetization_abs",
+      "binder_contour"
+    ]
+  },
+  "pid": 97703,
+  "paused": false,
+  "updated": "2026-10-15T16:58:19.822088-05:00",
+  "audit": {
+    "passed": true,
+    "rows": 12001,
+    "bytes": 219124600,
+    "sha256": "064aefcd6e47c2fc23b9a4953e3f566e8e7c769b0547186b41bf0783547166b7"
+  },
+  "attempt_generation_seconds": 19.398544750001747,
+  "audit_seconds": 2.588279166026041
+}

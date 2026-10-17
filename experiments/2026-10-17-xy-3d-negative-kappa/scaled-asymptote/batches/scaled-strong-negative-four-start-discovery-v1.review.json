@@ -1,0 +1,2457 @@
+{
+  "approved": true,
+  "status": "accepted_with_qualifications",
+  "source_hashes": {
+    "producer": {
+      "native": {
+        "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+        "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+        "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+        "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+        "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+        "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+        "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+        "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+        ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+        "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+      },
+      "signed_cluster": {
+        "version": 1,
+        "signed_cluster_sha256": "401b10e2f1e842b322eb472dc1f6988abaffca3fd88b65466d0dfc04b3079e60",
+        "kernel_sha256": "7ed8ccfe394dec594fab95c2b48e8e4c9677920336fa0d983ca2dc4cdf17f4bf",
+        "activation": "forced hard bonds; else 1-exp(-2*max(0,kappa*projection_product))",
+        "scope": "Experiment-local signed-coupling extension. Frozen original kernels unchanged."
+      },
+      "replica_exchange_sha256": "d32a26c167698f82469c54955fd90e346b013c2ea4e5b66f01a8ad4394ca4f05",
+      "runtime": {
+        "python": "3.14.6",
+        "numpy": "2.5.2",
+        "numba": "0.67.0",
+        "h5py": "3.16.0",
+        "threads": 1
+      }
+    },
+    "runner": "afba4d053f04b39129d9a7d379cfa6701fc102310a7ec1d83fbc7e166655a948",
+    "audit": "8bb4d9c5996c36c3fb1fad58005a147ab3b9aae0205aeb324482fa5293b62205"
+  },
+  "points": [
+    {
+      "id": "scaled3_km4000_q0503979_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 2381928749595471603,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0503979_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3810220750850671914,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0503979_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9852320393099376928,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0503979_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 5020506797151096615,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0507958_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 524669925926743497,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0507958_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12698643492836916936,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0507958_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3247111511913768166,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0507958_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 872613321852708374,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0511937_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6082963267948966,
+      "epsilon_over_pi": 0.5119366207318922,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 13377612385882235127,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0511937_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6082963267948966,
+      "epsilon_over_pi": 0.5119366207318922,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 8148538682230260830,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0511937_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6082963267948966,
+      "epsilon_over_pi": 0.5119366207318922,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 13775365119851006141,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0511937_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6082963267948966,
+      "epsilon_over_pi": 0.5119366207318922,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15871413054769365243,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0519894_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3860463614823122907,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0519894_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15997324809235429896,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0519894_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 10880299008550915402,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0519894_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 6852664749340257251,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0531831_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 16642432987313160558,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0531831_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 5216360607870316057,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0531831_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 10019155150069560657,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0531831_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 11524543333947750376,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0551725_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.7332963267948966,
+      "epsilon_over_pi": 0.551725356504866,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 978786377786390367,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0551725_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.7332963267948966,
+      "epsilon_over_pi": 0.551725356504866,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3400195528002338916,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0551725_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.7332963267948966,
+      "epsilon_over_pi": 0.551725356504866,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12051093544522340962,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0551725_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.7332963267948966,
+      "epsilon_over_pi": 0.551725356504866,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 8448324216140748376,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0579577_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.8207963267948966,
+      "epsilon_over_pi": 0.5795774715459476,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 17204678968488819715,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0579577_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.8207963267948966,
+      "epsilon_over_pi": 0.5795774715459476,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 11380682699276090548,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0579577_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.8207963267948966,
+      "epsilon_over_pi": 0.5795774715459476,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 8286678718515059541,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0579577_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.8207963267948966,
+      "epsilon_over_pi": 0.5795774715459476,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 11659067650294637378,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0627324_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.9707963267948965,
+      "epsilon_over_pi": 0.6273239544735163,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 1852220012890378282,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0627324_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.9707963267948965,
+      "epsilon_over_pi": 0.6273239544735163,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 18265665351752137021,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0627324_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.9707963267948965,
+      "epsilon_over_pi": 0.6273239544735163,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 521524636053003665,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km4000_q0627324_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -4.0,
+      "kappas": [
+        -4.0
+      ],
+      "epsilon": 1.9707963267948965,
+      "epsilon_over_pi": 0.6273239544735163,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 17103976321402284914,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0501989_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9819377039153576154,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0501989_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 5022420552638666044,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0501989_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3190513492354025706,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0501989_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 7221314051698160449,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0503979_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 5505913181426448112,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0503979_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 10212759759277766174,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0503979_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12201292932711625913,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0503979_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5832963267948965,
+      "epsilon_over_pi": 0.5039788735772973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 16458625410383646842,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0505968_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5895463267948966,
+      "epsilon_over_pi": 0.5059683103659461,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 13864927914770800858,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0505968_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5895463267948966,
+      "epsilon_over_pi": 0.5059683103659461,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9484645701980590639,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0505968_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5895463267948966,
+      "epsilon_over_pi": 0.5059683103659461,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15916297341555363641,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0505968_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.5895463267948966,
+      "epsilon_over_pi": 0.5059683103659461,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9690915792700902749,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0509947_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6020463267948966,
+      "epsilon_over_pi": 0.5099471839432435,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 18021499915529441760,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0509947_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6020463267948966,
+      "epsilon_over_pi": 0.5099471839432435,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12865614194216281374,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0509947_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6020463267948966,
+      "epsilon_over_pi": 0.5099471839432435,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 7702177773976258862,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0509947_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6020463267948966,
+      "epsilon_over_pi": 0.5099471839432435,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 4922064897830277371,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0515915_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6207963267948966,
+      "epsilon_over_pi": 0.5159154943091896,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 13113617657317064928,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0515915_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6207963267948966,
+      "epsilon_over_pi": 0.5159154943091896,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15824754860853879244,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0515915_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6207963267948966,
+      "epsilon_over_pi": 0.5159154943091896,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9015190863602939844,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0515915_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6207963267948966,
+      "epsilon_over_pi": 0.5159154943091896,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 13872754478358228183,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0525863_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6520463267948966,
+      "epsilon_over_pi": 0.525862678252433,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15954773338785672791,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0525863_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6520463267948966,
+      "epsilon_over_pi": 0.525862678252433,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12686346776391963329,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0525863_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6520463267948966,
+      "epsilon_over_pi": 0.525862678252433,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15091902904559180171,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0525863_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6520463267948966,
+      "epsilon_over_pi": 0.525862678252433,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 4275107444933445830,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0539789_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6957963267948966,
+      "epsilon_over_pi": 0.5397887357729738,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3942838007967103246,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0539789_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6957963267948966,
+      "epsilon_over_pi": 0.5397887357729738,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 15464035711220251775,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0539789_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6957963267948966,
+      "epsilon_over_pi": 0.5397887357729738,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 8718340191280965536,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0539789_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.6957963267948966,
+      "epsilon_over_pi": 0.5397887357729738,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 151633752047823321,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0563662_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.7707963267948965,
+      "epsilon_over_pi": 0.5636619772367581,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 16440826626295562467,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0563662_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.7707963267948965,
+      "epsilon_over_pi": 0.5636619772367581,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 10203563051272896105,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0563662_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.7707963267948965,
+      "epsilon_over_pi": 0.5636619772367581,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 6610604477570081038,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km8000_q0563662_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -8.0,
+      "kappas": [
+        -8.0
+      ],
+      "epsilon": 1.7707963267948965,
+      "epsilon_over_pi": 0.5636619772367581,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12525344415160103152,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0500995_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5739213267948966,
+      "epsilon_over_pi": 0.5009947183943244,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 8456087960927221659,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0500995_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5739213267948966,
+      "epsilon_over_pi": 0.5009947183943244,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 607258003320076035,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0500995_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5739213267948966,
+      "epsilon_over_pi": 0.5009947183943244,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3461593189407118270,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0500995_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5739213267948966,
+      "epsilon_over_pi": 0.5009947183943244,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 3055007051686865139,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.05,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0501989_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 8120445669756674826,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0501989_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12994475984676225538,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0501989_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9180373442070807135,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0501989_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5770463267948966,
+      "epsilon_over_pi": 0.5019894367886487,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 12591163997519056229,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.1,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0502984_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5801713267948965,
+      "epsilon_over_pi": 0.502984155182973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 7835785816997509301,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0502984_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5801713267948965,
+      "epsilon_over_pi": 0.502984155182973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 17113230043439276265,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0502984_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5801713267948965,
+      "epsilon_over_pi": 0.502984155182973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 7627066272466443683,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0502984_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5801713267948965,
+      "epsilon_over_pi": 0.502984155182973,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 13405217274205166349,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.15,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0504974_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5864213267948966,
+      "epsilon_over_pi": 0.5049735919716217,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 6275718115959682550,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0504974_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5864213267948966,
+      "epsilon_over_pi": 0.5049735919716217,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 7115650814202300103,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0504974_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5864213267948966,
+      "epsilon_over_pi": 0.5049735919716217,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 10618990663258616470,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0504974_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5864213267948966,
+      "epsilon_over_pi": 0.5049735919716217,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 4884953628747567105,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.25,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0507958_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 1719019073529871573,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0507958_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 5756633183353340714,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0507958_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 6271384069307906292,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0507958_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.5957963267948965,
+      "epsilon_over_pi": 0.5079577471545947,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 17464545850822119197,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.4,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0512931_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6114213267948965,
+      "epsilon_over_pi": 0.5129313391262165,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 18237832633026391458,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0512931_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6114213267948965,
+      "epsilon_over_pi": 0.5129313391262165,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 4115886512760228128,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0512931_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6114213267948965,
+      "epsilon_over_pi": 0.5129313391262165,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 428836538228116110,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0512931_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6114213267948965,
+      "epsilon_over_pi": 0.5129313391262165,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 1664682659136328379,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 0.65,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0519894_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 7462525320778987350,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0519894_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 11447403209046276716,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0519894_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 14011741570014248518,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0519894_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6332963267948966,
+      "epsilon_over_pi": 0.5198943678864869,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 1182793128998950827,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.0,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0531831_N006_r90_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 17416687671603546633,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "winding",
+      "initial_label": "uniform zero-winding",
+      "replica": 90,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0531831_N006_r91_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 5474673172513099587,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "winding",
+      "initial_label": "unit-x winding",
+      "replica": 91,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0531831_N006_r92_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 9700693190531877194,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "checkerboard",
+      "initial_label": "near-saturated checkerboard",
+      "replica": 92,
+      "role": "scaled_strong_negative_discovery"
+    },
+    {
+      "id": "scaled3_km16000_q0531831_N006_r93_s008000",
+      "N": 6,
+      "D": 3,
+      "target_kappa": -16.0,
+      "kappas": [
+        -16.0
+      ],
+      "epsilon": 1.6707963267948966,
+      "epsilon_over_pi": 0.5318309886183791,
+      "steps": 8000,
+      "warmup": 2000,
+      "seed": 6989673709521922218,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100,
+      "scaled_u": 1.6,
+      "initial_kind": "z4_vortex",
+      "initial_label": "vortex-rich parity-locked Z4",
+      "replica": 93,
+      "role": "scaled_strong_negative_discovery"
+    }
+  ],
+  "points_sha256": "6060821c0d455d38908ad44888e9dd9d7be4ed6b755f73fb4be27e65b34f2f62",
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q test/test_xy_scaled_asymptote.py test/test_xy_asymptote_independent.py",
+    "result": "9 passed in 9.81s"
+  },
+  "checks": [
+    "Reviewed explicit sibling producer/audit routing, deterministic independent initializer RNG/state/field hash, exact source guards, strict support rejection before writes, per-cycle higher harmonics and independent all-field formulas.",
+    "Fresh SSD route/UUID and whole full-history 96-run storage ceiling checked under shared admission lock by freeze; no production launch by reviewer.",
+    "Four starts at every physical coordinate, independent seeds, exact unrounded epsilon, singleton one-slot chains, 8 workers plus existing one analysis respects nine-core cap."
+  ],
+  "qualifications": [
+    "One trajectory per initial class is trapping reconnaissance, not within-class equilibrium replication.",
+    "Z4 is vortex-rich but has initial staggered-nematic and fourth-harmonic power one; it is not a fully disordered control.",
+    "Use per-configuration maximum Fourier power as a descriptive wavevector-agnostic response; finite-volume maxima carry an extreme-value noise floor and do not establish infinite-volume order.",
+    "Scaled u is a motivated design coordinate, not a demonstrated universal collapse or epsilon=pi/2 asymptote. Report vector and higher-harmonic responses separately, preserving unresolved/metastable starts.",
+    "Supervisor reporting requires its referenced plot.py; not a simulation correctness blocker.",
+    "Manager remains fail-closed on orphan workers; app restart survives detached launchd but this does not claim arbitrary manager-crash automatic reattachment."
+  ]
+}

@@ -1,0 +1,4518 @@
+{
+  "complete": false,
+  "missing": [
+    "hb_scaled3_km7200_q0505000_N012_r210_s016000",
+    "hb_scaled3_km7200_q0505000_N012_r211_s016000",
+    "hb_scaled3_km7200_q0505000_N012_r212_s016000",
+    "hb_scaled3_km7200_q0505000_N012_r213_s016000",
+    "hb_scaled3_km8000_q0505000_N012_r210_s016000",
+    "hb_scaled3_km8000_q0505000_N012_r211_s016000",
+    "hb_scaled3_km8000_q0505000_N012_r212_s016000",
+    "hb_scaled3_km8000_q0505000_N012_r213_s016000",
+    "hb_scaled3_km8800_q0505000_N012_r210_s016000",
+    "hb_scaled3_km8800_q0505000_N012_r211_s016000",
+    "hb_scaled3_km8800_q0505000_N012_r212_s016000",
+    "hb_scaled3_km8800_q0505000_N012_r213_s016000"
+  ],
+  "manifest_sha256": {
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/batches/q0505-restricted-heatbath-start-resolution-v1.json": "90ea22812896e014dbe577c2d134445b7f3bb32cd2b1620b4e9a316b12145f41"
+  },
+  "epsilon_over_pi": 0.505,
+  "trajectories": 12,
+  "source_script_sha256": "4756c6ca3e6ad944122449c2e2d303537887126bed77969a9e3f3fae33dea5d7",
+  "chains": [
+    {
+      "point": {
+        "id": "hb_scaled3_km7200_q0505000_N008_r210_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14131934271569513901,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km7200_q0505000_N008_r210_s016000.h5",
+      "audit_sha256": "1e86bd7da6e4187cc0e80457000e6aa0d2a6ea6dd626753626a820b5e1811592",
+      "means": {
+        "m2": 0.2153888883620366,
+        "m4": 0.046721529317137744,
+        "Binder_U": 0.4964524762974164,
+        "R": 1.252286019576036,
+        "C": 0.029426982335939794,
+        "vortex": 0.005293077256944319,
+        "AF_nematic": 0.9956804815895014,
+        "staggered_m2": 0.18965701443032087
+      },
+      "halves": [
+        {
+          "m2": 0.21563102880106988,
+          "m4": 0.046815461384375215,
+          "Binder_U": 0.4965726543562057,
+          "R": 1.2690190263033372,
+          "C": 0.029411708341975266,
+          "vortex": 0.0053984375000000655,
+          "AF_nematic": 0.9956829471522043,
+          "staggered_m2": 0.18989178304893303
+        },
+        {
+          "m2": 0.21514674792300248,
+          "m4": 0.04662759724990009,
+          "Binder_U": 0.4963330322660108,
+          "R": 1.2361485352698718,
+          "C": 0.029442256329904243,
+          "vortex": 0.005187717013888937,
+          "AF_nematic": 0.9956780160268058,
+          "staggered_m2": 0.1894222458117094
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11990,
+        "intermediate_frames": 10,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km7200_q0505000_N008_r211_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14879521706303964529,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km7200_q0505000_N008_r211_s016000.h5",
+      "audit_sha256": "26a485e3c7548d318dffd68ad1516ac1fed2d819bdad13dbdaf1c004cde0dfc2",
+      "means": {
+        "m2": 0.21598177460791312,
+        "m4": 0.04697792943084297,
+        "Binder_U": 0.49646499774446784,
+        "R": 1.271940272670987,
+        "C": 0.029380329772328025,
+        "vortex": 0.0054437934027776955,
+        "AF_nematic": 0.9956978098462296,
+        "staggered_m2": 0.19024426366303768
+      },
+      "halves": [
+        {
+          "m2": 0.21479939469767043,
+          "m4": 0.04646503155017566,
+          "Binder_U": 0.49646445367697933,
+          "R": 1.24597475304789,
+          "C": 0.029336946780177064,
+          "vortex": 0.005546875000000041,
+          "AF_nematic": 0.9956944317519745,
+          "staggered_m2": 0.1892012143414164
+        },
+        {
+          "m2": 0.21716415451815568,
+          "m4": 0.04749082731151042,
+          "Binder_U": 0.49649538367918744,
+          "R": 1.299250565439436,
+          "C": 0.029423712764478818,
+          "vortex": 0.005340711805555612,
+          "AF_nematic": 0.9957011879404727,
+          "staggered_m2": 0.19128731298465723
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11992,
+        "intermediate_frames": 8,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km7200_q0505000_N008_r212_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 15515716451477703705,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km7200_q0505000_N008_r212_s016000.h5",
+      "audit_sha256": "eb89fcf850d5a932603b14e39281b3979c5a893f79860b32103dba35c933126d",
+      "means": {
+        "m2": 0.21457710037265834,
+        "m4": 0.046385135366799814,
+        "Binder_U": 0.4962882425360775,
+        "R": 1.2346059777838156,
+        "C": 0.02933467782944213,
+        "vortex": 0.005538953993055447,
+        "AF_nematic": 0.9956957427115956,
+        "staggered_m2": 0.18900266751411077
+      },
+      "halves": [
+        {
+          "m2": 0.2139939424731042,
+          "m4": 0.04613108249630315,
+          "Binder_U": 0.4963130601086373,
+          "R": 1.2267085676271658,
+          "C": 0.029349847242152748,
+          "vortex": 0.005580295138888941,
+          "AF_nematic": 0.9956933750180821,
+          "staggered_m2": 0.1884664879131315
+        },
+        {
+          "m2": 0.2151602582722156,
+          "m4": 0.046639188237296576,
+          "Binder_U": 0.49627109377767087,
+          "R": 1.2426102525714158,
+          "C": 0.029319508416731647,
+          "vortex": 0.005497612847222281,
+          "AF_nematic": 0.9956981104051047,
+          "staggered_m2": 0.18953884711508928
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11980,
+        "intermediate_frames": 20,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km7200_q0505000_N008_r213_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -7.2,
+        "kappas": [
+          -7.2
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 4434551114982959991,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km7200_q0505000_N008_r213_s016000.h5",
+      "audit_sha256": "1553800b065e67945857266111da4603d25a9c104ad35a4723f8333114b01897",
+      "means": {
+        "m2": 0.21486146709608878,
+        "m4": 0.04650709117721063,
+        "Binder_U": 0.49629981800013734,
+        "R": 1.2333354814785729,
+        "C": 0.02940249804380938,
+        "vortex": 0.005499348958333248,
+        "AF_nematic": 0.995681254457048,
+        "staggered_m2": 0.1891738200794768
+      },
+      "halves": [
+        {
+          "m2": 0.21502355395144718,
+          "m4": 0.04658022351018444,
+          "Binder_U": 0.4962680459039023,
+          "R": 1.2290765311308864,
+          "C": 0.029461344253659594,
+          "vortex": 0.0054340277777778275,
+          "AF_nematic": 0.9956655843249528,
+          "staggered_m2": 0.18930874014781557
+        },
+        {
+          "m2": 0.21469938024073174,
+          "m4": 0.04643395884423699,
+          "Binder_U": 0.49633226027813193,
+          "R": 1.23764450949619,
+          "C": 0.029343651833958987,
+          "vortex": 0.005564670138888931,
+          "AF_nematic": 0.99569692458914,
+          "staggered_m2": 0.18903890001114004
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 0,
+        "high_frames": 11988,
+        "intermediate_frames": 12,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8000_q0505000_N008_r210_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 13758726640000327964,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8000_q0505000_N008_r210_s016000.h5",
+      "audit_sha256": "fdfa9fc5b085d0335fdf930ed7594b586c5ce0092790f55d7e8c288fa5ce0054",
+      "means": {
+        "m2": 0.18234689885295688,
+        "m4": 0.034786426025732745,
+        "Binder_U": 0.47690200875591615,
+        "R": 1.0817342469362015,
+        "C": 0.021183140706986167,
+        "vortex": 0.03169835069444452,
+        "AF_nematic": 0.9972696285026432,
+        "staggered_m2": 0.16535154842685315
+      },
+      "halves": [
+        {
+          "m2": 0.17849397875613188,
+          "m4": 0.033844766917378075,
+          "Binder_U": 0.46885341795827706,
+          "R": 1.0636116660085266,
+          "C": 0.020822835910300163,
+          "vortex": 0.03505490451388874,
+          "AF_nematic": 0.9973171338715577,
+          "staggered_m2": 0.16187770489647219
+        },
+        {
+          "m2": 0.18619981894978216,
+          "m4": 0.03572808513408709,
+          "Binder_U": 0.4847461610802072,
+          "R": 1.099978034755387,
+          "C": 0.021543445503672147,
+          "vortex": 0.028341796875000068,
+          "AF_nematic": 0.9972221231337319,
+          "staggered_m2": 0.16882539195723278
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 232,
+        "high_frames": 10389,
+        "intermediate_frames": 1379,
+        "frames": 12000,
+        "complete_switches": 12,
+        "switch_events": [
+          {
+            "postcut_index": 621,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 853,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 1683,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 1735,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 2447,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 2490,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 6012,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 6069,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 7526,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 7560,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 7637,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 7650,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8000_q0505000_N008_r211_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14563926917016937684,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8000_q0505000_N008_r211_s016000.h5",
+      "audit_sha256": "6c76b70feeb4bd703b0b2800e6d51bbf87782a819a4965a744527f0d637922b6",
+      "means": {
+        "m2": 0.17945831164892345,
+        "m4": 0.0340596573719755,
+        "Binder_U": 0.4712101334237421,
+        "R": 1.0630561330400843,
+        "C": 0.02094819733009246,
+        "vortex": 0.03400813802083336,
+        "AF_nematic": 0.9972999382177326,
+        "staggered_m2": 0.16276870332280752
+      },
+      "halves": [
+        {
+          "m2": 0.18385978751907248,
+          "m4": 0.034936002805708785,
+          "Binder_U": 0.4832628205119597,
+          "R": 1.0817404849968688,
+          "C": 0.021320811029783386,
+          "vortex": 0.029900390624999915,
+          "AF_nematic": 0.9972557680844841,
+          "staggered_m2": 0.16678276020605803
+        },
+        {
+          "m2": 0.17505683577877365,
+          "m4": 0.03318331193824194,
+          "Binder_U": 0.45858337705183505,
+          "R": 1.0444090777607884,
+          "C": 0.020575583630401482,
+          "vortex": 0.03811588541666666,
+          "AF_nematic": 0.9973441083509825,
+          "staggered_m2": 0.15875464643955753
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 405,
+        "high_frames": 10185,
+        "intermediate_frames": 1410,
+        "frames": 12000,
+        "complete_switches": 12,
+        "switch_events": [
+          {
+            "postcut_index": 1732,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 1803,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 7449,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 7480,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 7979,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 8215,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 9512,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 9527,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 11011,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 11021,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 11262,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 11421,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8000_q0505000_N008_r212_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 11098855504857711731,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8000_q0505000_N008_r212_s016000.h5",
+      "audit_sha256": "95aee18d65bded120014a8aed5330127798f6be5a2a3639e1ce9b04325c3db78",
+      "means": {
+        "m2": 0.1842189017109959,
+        "m4": 0.03541285963358828,
+        "Binder_U": 0.47824979928807887,
+        "R": 1.0929412577174296,
+        "C": 0.021401475300987863,
+        "vortex": 0.030059678819444567,
+        "AF_nematic": 0.9972403815351094,
+        "staggered_m2": 0.16697165425098215
+      },
+      "halves": [
+        {
+          "m2": 0.17988549289627193,
+          "m4": 0.03439930174274585,
+          "Binder_U": 0.46847052758705154,
+          "R": 1.0511688910640158,
+          "C": 0.021116687355419102,
+          "vortex": 0.03331358506944436,
+          "AF_nematic": 0.9972739645321043,
+          "staggered_m2": 0.16300403215961867
+        },
+        {
+          "m2": 0.18855231052571972,
+          "m4": 0.03642641752443037,
+          "Binder_U": 0.48770189631876215,
+          "R": 1.1376566139299686,
+          "C": 0.02168626324655665,
+          "vortex": 0.02680577256944444,
+          "AF_nematic": 0.9972067985381203,
+          "staggered_m2": 0.17093927634234554
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 253,
+        "high_frames": 10561,
+        "intermediate_frames": 1186,
+        "frames": 12000,
+        "complete_switches": 8,
+        "switch_events": [
+          {
+            "postcut_index": 1141,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 1155,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 1920,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 2189,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 3412,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 3450,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 11071,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 11122,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8000_q0505000_N008_r213_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.0,
+        "kappas": [
+          -8.0
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14307529841090879890,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8000_q0505000_N008_r213_s016000.h5",
+      "audit_sha256": "4ae9b1bb64740a37bf5c53f92fa2ffba898c606f464b65b2f0ec55ef3394311d",
+      "means": {
+        "m2": 0.18393118403700848,
+        "m4": 0.035314073958213274,
+        "Binder_U": 0.4780762095717196,
+        "R": 1.104473798725734,
+        "C": 0.021278631528539548,
+        "vortex": 0.03113704427083344,
+        "AF_nematic": 0.9972575876585441,
+        "staggered_m2": 0.16676271954761904
+      },
+      "halves": [
+        {
+          "m2": 0.1818827966047848,
+          "m4": 0.034970178123890645,
+          "Binder_U": 0.47145179495388123,
+          "R": 1.0971402173163318,
+          "C": 0.021121495746920526,
+          "vortex": 0.03322439236111101,
+          "AF_nematic": 0.9972735228344161,
+          "staggered_m2": 0.16487645987050534
+        },
+        {
+          "m2": 0.18597957146923352,
+          "m4": 0.03565796979253557,
+          "Binder_U": 0.4845386204968559,
+          "R": 1.111785770788932,
+          "C": 0.02143576731015861,
+          "vortex": 0.029049696180555532,
+          "AF_nematic": 0.9972416524826729,
+          "staggered_m2": 0.16864897922473224
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 244,
+        "high_frames": 10595,
+        "intermediate_frames": 1161,
+        "frames": 12000,
+        "complete_switches": 10,
+        "switch_events": [
+          {
+            "postcut_index": 482,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 710,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 937,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 969,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 1181,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 1234,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 8428,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 8446,
+            "from_state": -1,
+            "to_state": 1
+          },
+          {
+            "postcut_index": 11742,
+            "from_state": 1,
+            "to_state": -1
+          },
+          {
+            "postcut_index": 11805,
+            "from_state": -1,
+            "to_state": 1
+          }
+        ],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8800_q0505000_N008_r210_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 2783005305432583760,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8800_q0505000_N008_r210_s016000.h5",
+      "audit_sha256": "124080f4ea35315a194e0392cfc61f4b7badadd31c9bc69fe3cd14f220d72665",
+      "means": {
+        "m2": 0.00956957394080953,
+        "m4": 0.000191587307379338,
+        "Binder_U": -0.046047806812002934,
+        "R": 0.1669760770210423,
+        "C": 0.004339639296688889,
+        "vortex": 0.20205273437500004,
+        "AF_nematic": 0.9994383584690706,
+        "staggered_m2": 0.009166651833684862
+      },
+      "halves": [
+        {
+          "m2": 0.009591733919547343,
+          "m4": 0.00019557631664504505,
+          "Binder_U": -0.06289905676754737,
+          "R": 0.16661254708076845,
+          "C": 0.004364776929523754,
+          "vortex": 0.2015907118055552,
+          "AF_nematic": 0.9994353804026914,
+          "staggered_m2": 0.009186634338231494
+        },
+        {
+          "m2": 0.009547413962071774,
+          "m4": 0.00018759829811363233,
+          "Binder_U": -0.029028473038666736,
+          "R": 0.16734212865858855,
+          "C": 0.0043145016638540526,
+          "vortex": 0.2025147569444446,
+          "AF_nematic": 0.9994413365354541,
+          "staggered_m2": 0.009146669329138244
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11899,
+        "high_frames": 0,
+        "intermediate_frames": 101,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8800_q0505000_N008_r211_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 12817534526951125940,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8800_q0505000_N008_r211_s016000.h5",
+      "audit_sha256": "ebebe98db9626d07956db988b3d59313c131a0b90aff560385f97bada26e9835",
+      "means": {
+        "m2": 0.009360217469055705,
+        "m4": 0.00018693214319990577,
+        "Binder_U": -0.06679780062399177,
+        "R": 0.16335993812596053,
+        "C": 0.004309936370034985,
+        "vortex": 0.20235904947916605,
+        "AF_nematic": 0.9994405401142135,
+        "staggered_m2": 0.008966232828252487
+      },
+      "halves": [
+        {
+          "m2": 0.009635363408380076,
+          "m4": 0.00019886536305436912,
+          "Binder_U": -0.07100858816088573,
+          "R": 0.1674082207803025,
+          "C": 0.004342231391710297,
+          "vortex": 0.20178081597222175,
+          "AF_nematic": 0.9994366234650853,
+          "staggered_m2": 0.009227223495283637
+        },
+        {
+          "m2": 0.009085071529731155,
+          "m4": 0.00017499892334544223,
+          "Binder_U": -0.06010450259925215,
+          "R": 0.1591733119306281,
+          "C": 0.004277641348359617,
+          "vortex": 0.20293728298611105,
+          "AF_nematic": 0.9994444567633552,
+          "staggered_m2": 0.008705242161221288
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11911,
+        "high_frames": 0,
+        "intermediate_frames": 89,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8800_q0505000_N008_r212_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 13766817466631601254,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8800_q0505000_N008_r212_s016000.h5",
+      "audit_sha256": "45e849d6f60002e3c00876a52b78893e97e39e81d33491de60393d830dad660f",
+      "means": {
+        "m2": 0.009723053502469103,
+        "m4": 0.0002083525943280791,
+        "Binder_U": -0.10195425396774782,
+        "R": 0.17279822601926215,
+        "C": 0.004296678424599333,
+        "vortex": 0.20247276475694476,
+        "AF_nematic": 0.9994412924547866,
+        "staggered_m2": 0.009312936304551201
+      },
+      "halves": [
+        {
+          "m2": 0.009857968105888577,
+          "m4": 0.0002091038943186829,
+          "Binder_U": -0.07586383253653795,
+          "R": 0.1732851649320933,
+          "C": 0.004331858026711921,
+          "vortex": 0.20189973958333274,
+          "AF_nematic": 0.9994387777633345,
+          "staggered_m2": 0.009439682766871365
+        },
+        {
+          "m2": 0.009588138899049645,
+          "m4": 0.00020760129433747745,
+          "Binder_U": -0.12909745255112193,
+          "R": 0.17229917045912363,
+          "C": 0.004261498822486753,
+          "vortex": 0.20304578993055478,
+          "AF_nematic": 0.9994438071462417,
+          "staggered_m2": 0.009186189842230926
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11876,
+        "high_frames": 0,
+        "intermediate_frames": 124,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    },
+    {
+      "point": {
+        "id": "hb_scaled3_km8800_q0505000_N008_r213_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -8.8,
+        "kappas": [
+          -8.8
+        ],
+        "epsilon": 1.5865042900628454,
+        "epsilon_over_pi": 0.505,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 7319138350849167445,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "restricted_heatbath_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/heatbath-resolution/chains/hb_scaled3_km8800_q0505000_N008_r213_s016000.h5",
+      "audit_sha256": "5bd54df926ac98910c8c9e714db7aafb573816a60d770413d4c26d74e0d75dbc",
+      "means": {
+        "m2": 0.009497300588830731,
+        "m4": 0.00018939830074319962,
+        "Binder_U": -0.049894632352923685,
+        "R": 0.16695968331064986,
+        "C": 0.004313501725235009,
+        "vortex": 0.20232964409722123,
+        "AF_nematic": 0.9994410062345701,
+        "staggered_m2": 0.009097766964156791
+      },
+      "halves": [
+        {
+          "m2": 0.00939812549530492,
+          "m4": 0.0001942564026836114,
+          "Binder_U": -0.09967123867287286,
+          "R": 0.1662466258284251,
+          "C": 0.004288849554044829,
+          "vortex": 0.2027061631944442,
+          "AF_nematic": 0.9994435627866736,
+          "staggered_m2": 0.009001744734897012
+        },
+        {
+          "m2": 0.009596475682356626,
+          "m4": 0.00018454019880278805,
+          "Binder_U": -0.001930169964987627,
+          "R": 0.1676610977514874,
+          "C": 0.004338153896425208,
+          "vortex": 0.20195312500000095,
+          "AF_nematic": 0.9994384496824715,
+          "staggered_m2": 0.009193789193416525
+        }
+      ],
+      "response_visits": {
+        "m2_low_threshold": 0.05,
+        "m2_high_threshold": 0.15,
+        "low_frames": 11907,
+        "high_frames": 0,
+        "intermediate_frames": 93,
+        "frames": 12000,
+        "complete_switches": 0,
+        "switch_events": [],
+        "scope": "Descriptive hysteretic response counts, not independent events or a thermodynamic phase classifier"
+      },
+      "sampling_diagnostics": {
+        "pending": true
+      }
+    }
+  ],
+  "coordinates": [
+    {
+      "N": 8,
+      "kappa": -8.8,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.009537536375291313,
+          "m4": 0.00019406758641263245,
+          "Binder_U": -0.06672038451190554,
+          "R": 0.16753258733279025,
+          "C": 0.00431493895413957,
+          "vortex": 0.2023035481770853,
+          "AF_nematic": 0.9994402993181687,
+          "staggered_m2": 0.009135896982661316
+        },
+        "uniform zero-winding": {
+          "m2": 0.00956957394080953,
+          "m4": 0.000191587307379338,
+          "Binder_U": -0.046047806812002934,
+          "R": 0.1669760770210423,
+          "C": 0.004339639296688889,
+          "vortex": 0.20205273437500004,
+          "AF_nematic": 0.9994383584690706,
+          "staggered_m2": 0.009166651833684862
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.009591733919547343,
+          "m4": 0.00019557631664504505,
+          "Binder_U": -0.06289905676754737,
+          "R": 0.16661254708076845,
+          "C": 0.004364776929523754,
+          "vortex": 0.2015907118055552,
+          "AF_nematic": 0.9994353804026914,
+          "staggered_m2": 0.009186634338231494
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.009547413962071774,
+          "m4": 0.00018759829811363233,
+          "Binder_U": -0.029028473038666736,
+          "R": 0.16734212865858855,
+          "C": 0.0043145016638540526,
+          "vortex": 0.2025147569444446,
+          "AF_nematic": 0.9994413365354541,
+          "staggered_m2": 0.009146669329138244
+        },
+        "unit-x winding": {
+          "m2": 0.009360217469055705,
+          "m4": 0.00018693214319990577,
+          "Binder_U": -0.06679780062399177,
+          "R": 0.16335993812596053,
+          "C": 0.004309936370034985,
+          "vortex": 0.20235904947916605,
+          "AF_nematic": 0.9994405401142135,
+          "staggered_m2": 0.008966232828252487
+        },
+        "unit-x winding:half1": {
+          "m2": 0.009635363408380076,
+          "m4": 0.00019886536305436912,
+          "Binder_U": -0.07100858816088573,
+          "R": 0.1674082207803025,
+          "C": 0.004342231391710297,
+          "vortex": 0.20178081597222175,
+          "AF_nematic": 0.9994366234650853,
+          "staggered_m2": 0.009227223495283637
+        },
+        "unit-x winding:half2": {
+          "m2": 0.009085071529731155,
+          "m4": 0.00017499892334544223,
+          "Binder_U": -0.06010450259925215,
+          "R": 0.1591733119306281,
+          "C": 0.004277641348359617,
+          "vortex": 0.20293728298611105,
+          "AF_nematic": 0.9994444567633552,
+          "staggered_m2": 0.008705242161221288
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.009723053502469103,
+          "m4": 0.0002083525943280791,
+          "Binder_U": -0.10195425396774782,
+          "R": 0.17279822601926215,
+          "C": 0.004296678424599333,
+          "vortex": 0.20247276475694476,
+          "AF_nematic": 0.9994412924547866,
+          "staggered_m2": 0.009312936304551201
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.009857968105888577,
+          "m4": 0.0002091038943186829,
+          "Binder_U": -0.07586383253653795,
+          "R": 0.1732851649320933,
+          "C": 0.004331858026711921,
+          "vortex": 0.20189973958333274,
+          "AF_nematic": 0.9994387777633345,
+          "staggered_m2": 0.009439682766871365
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.009588138899049645,
+          "m4": 0.00020760129433747745,
+          "Binder_U": -0.12909745255112193,
+          "R": 0.17229917045912363,
+          "C": 0.004261498822486753,
+          "vortex": 0.20304578993055478,
+          "AF_nematic": 0.9994438071462417,
+          "staggered_m2": 0.009186189842230926
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.009497300588830731,
+          "m4": 0.00018939830074319962,
+          "Binder_U": -0.049894632352923685,
+          "R": 0.16695968331064986,
+          "C": 0.004313501725235009,
+          "vortex": 0.20232964409722123,
+          "AF_nematic": 0.9994410062345701,
+          "staggered_m2": 0.009097766964156791
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.00939812549530492,
+          "m4": 0.0001942564026836114,
+          "Binder_U": -0.09967123867287286,
+          "R": 0.1662466258284251,
+          "C": 0.004288849554044829,
+          "vortex": 0.2027061631944442,
+          "AF_nematic": 0.9994435627866736,
+          "staggered_m2": 0.009001744734897012
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.009596475682356626,
+          "m4": 0.00018454019880278805,
+          "Binder_U": -0.001930169964987627,
+          "R": 0.1676610977514874,
+          "C": 0.004338153896425208,
+          "vortex": 0.20195312500000095,
+          "AF_nematic": 0.9994384496824715,
+          "staggered_m2": 0.009193789193416525
+        },
+        "pooled:half1": {
+          "m2": 0.009620797732280261,
+          "m4": 0.00019945049417542708,
+          "Binder_U": -0.07741483916343261,
+          "R": 0.16840560145757397,
+          "C": 0.004331928975497669,
+          "vortex": 0.20199435763888898,
+          "AF_nematic": 0.9994385861044455,
+          "staggered_m2": 0.009213821333820928
+        },
+        "pooled:half2": {
+          "m2": 0.009454275018302333,
+          "m4": 0.000188684678649834,
+          "Binder_U": -0.05548041198728515,
+          "R": 0.16664907719117455,
+          "C": 0.00429794893278142,
+          "vortex": 0.20261273871527585,
+          "AF_nematic": 0.9994420125318767,
+          "staggered_m2": 0.009057972631501748
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -8.0,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.18248882406247124,
+          "m4": 0.034893254247377235,
+          "Binder_U": 0.47611141711927263,
+          "R": 1.0853874901938356,
+          "C": 0.02120286121665144,
+          "vortex": 0.03172580295138934,
+          "AF_nematic": 0.9972668839785115,
+          "staggered_m2": 0.16546365638706687
+        },
+        "uniform zero-winding": {
+          "m2": 0.18234689885295688,
+          "m4": 0.034786426025732745,
+          "Binder_U": 0.47690200875591615,
+          "R": 1.0817342469362015,
+          "C": 0.021183140706986167,
+          "vortex": 0.03169835069444452,
+          "AF_nematic": 0.9972696285026432,
+          "staggered_m2": 0.16535154842685315
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.17849397875613188,
+          "m4": 0.033844766917378075,
+          "Binder_U": 0.46885341795827706,
+          "R": 1.0636116660085266,
+          "C": 0.020822835910300163,
+          "vortex": 0.03505490451388874,
+          "AF_nematic": 0.9973171338715577,
+          "staggered_m2": 0.16187770489647219
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.18619981894978216,
+          "m4": 0.03572808513408709,
+          "Binder_U": 0.4847461610802072,
+          "R": 1.099978034755387,
+          "C": 0.021543445503672147,
+          "vortex": 0.028341796875000068,
+          "AF_nematic": 0.9972221231337319,
+          "staggered_m2": 0.16882539195723278
+        },
+        "unit-x winding": {
+          "m2": 0.17945831164892345,
+          "m4": 0.0340596573719755,
+          "Binder_U": 0.4712101334237421,
+          "R": 1.0630561330400843,
+          "C": 0.02094819733009246,
+          "vortex": 0.03400813802083336,
+          "AF_nematic": 0.9972999382177326,
+          "staggered_m2": 0.16276870332280752
+        },
+        "unit-x winding:half1": {
+          "m2": 0.18385978751907248,
+          "m4": 0.034936002805708785,
+          "Binder_U": 0.4832628205119597,
+          "R": 1.0817404849968688,
+          "C": 0.021320811029783386,
+          "vortex": 0.029900390624999915,
+          "AF_nematic": 0.9972557680844841,
+          "staggered_m2": 0.16678276020605803
+        },
+        "unit-x winding:half2": {
+          "m2": 0.17505683577877365,
+          "m4": 0.03318331193824194,
+          "Binder_U": 0.45858337705183505,
+          "R": 1.0444090777607884,
+          "C": 0.020575583630401482,
+          "vortex": 0.03811588541666666,
+          "AF_nematic": 0.9973441083509825,
+          "staggered_m2": 0.15875464643955753
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.1842189017109959,
+          "m4": 0.03541285963358828,
+          "Binder_U": 0.47824979928807887,
+          "R": 1.0929412577174296,
+          "C": 0.021401475300987863,
+          "vortex": 0.030059678819444567,
+          "AF_nematic": 0.9972403815351094,
+          "staggered_m2": 0.16697165425098215
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.17988549289627193,
+          "m4": 0.03439930174274585,
+          "Binder_U": 0.46847052758705154,
+          "R": 1.0511688910640158,
+          "C": 0.021116687355419102,
+          "vortex": 0.03331358506944436,
+          "AF_nematic": 0.9972739645321043,
+          "staggered_m2": 0.16300403215961867
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.18855231052571972,
+          "m4": 0.03642641752443037,
+          "Binder_U": 0.48770189631876215,
+          "R": 1.1376566139299686,
+          "C": 0.02168626324655665,
+          "vortex": 0.02680577256944444,
+          "AF_nematic": 0.9972067985381203,
+          "staggered_m2": 0.17093927634234554
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.18393118403700848,
+          "m4": 0.035314073958213274,
+          "Binder_U": 0.4780762095717196,
+          "R": 1.104473798725734,
+          "C": 0.021278631528539548,
+          "vortex": 0.03113704427083344,
+          "AF_nematic": 0.9972575876585441,
+          "staggered_m2": 0.16676271954761904
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.1818827966047848,
+          "m4": 0.034970178123890645,
+          "Binder_U": 0.47145179495388123,
+          "R": 1.0971402173163318,
+          "C": 0.021121495746920526,
+          "vortex": 0.03322439236111101,
+          "AF_nematic": 0.9972735228344161,
+          "staggered_m2": 0.16487645987050534
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.18597957146923352,
+          "m4": 0.03565796979253557,
+          "Binder_U": 0.4845386204968559,
+          "R": 1.111785770788932,
+          "C": 0.02143576731015861,
+          "vortex": 0.029049696180555532,
+          "AF_nematic": 0.9972416524826729,
+          "staggered_m2": 0.16864897922473224
+        },
+        "pooled:half1": {
+          "m2": 0.18103051394406589,
+          "m4": 0.03453756239743064,
+          "Binder_U": 0.473063699382018,
+          "R": 1.0731318178757483,
+          "C": 0.02109545751060593,
+          "vortex": 0.03287331814236077,
+          "AF_nematic": 0.9972800973306415,
+          "staggered_m2": 0.16413523928316337
+        },
+        "pooled:half2": {
+          "m2": 0.18394713418087746,
+          "m4": 0.03524894609732368,
+          "Binder_U": 0.4791291074265366,
+          "R": 1.0978554651980719,
+          "C": 0.021310264922697244,
+          "vortex": 0.03057828776041646,
+          "AF_nematic": 0.9972536706263743,
+          "staggered_m2": 0.16679207349096756
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -7.2,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.215202307609676,
+          "m4": 0.04664792132299819,
+          "Binder_U": 0.496373640938909,
+          "R": 1.247792573677057,
+          "C": 0.02938612199538002,
+          "vortex": 0.005443793402777318,
+          "AF_nematic": 0.9956888221510858,
+          "staggered_m2": 0.18951944142173735
+        },
+        "uniform zero-winding": {
+          "m2": 0.2153888883620366,
+          "m4": 0.046721529317137744,
+          "Binder_U": 0.4964524762974164,
+          "R": 1.252286019576036,
+          "C": 0.029426982335939794,
+          "vortex": 0.005293077256944319,
+          "AF_nematic": 0.9956804815895014,
+          "staggered_m2": 0.18965701443032087
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.21563102880106988,
+          "m4": 0.046815461384375215,
+          "Binder_U": 0.4965726543562057,
+          "R": 1.2690190263033372,
+          "C": 0.029411708341975266,
+          "vortex": 0.0053984375000000655,
+          "AF_nematic": 0.9956829471522043,
+          "staggered_m2": 0.18989178304893303
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.21514674792300248,
+          "m4": 0.04662759724990009,
+          "Binder_U": 0.4963330322660108,
+          "R": 1.2361485352698718,
+          "C": 0.029442256329904243,
+          "vortex": 0.005187717013888937,
+          "AF_nematic": 0.9956780160268058,
+          "staggered_m2": 0.1894222458117094
+        },
+        "unit-x winding": {
+          "m2": 0.21598177460791312,
+          "m4": 0.04697792943084297,
+          "Binder_U": 0.49646499774446784,
+          "R": 1.271940272670987,
+          "C": 0.029380329772328025,
+          "vortex": 0.0054437934027776955,
+          "AF_nematic": 0.9956978098462296,
+          "staggered_m2": 0.19024426366303768
+        },
+        "unit-x winding:half1": {
+          "m2": 0.21479939469767043,
+          "m4": 0.04646503155017566,
+          "Binder_U": 0.49646445367697933,
+          "R": 1.24597475304789,
+          "C": 0.029336946780177064,
+          "vortex": 0.005546875000000041,
+          "AF_nematic": 0.9956944317519745,
+          "staggered_m2": 0.1892012143414164
+        },
+        "unit-x winding:half2": {
+          "m2": 0.21716415451815568,
+          "m4": 0.04749082731151042,
+          "Binder_U": 0.49649538367918744,
+          "R": 1.299250565439436,
+          "C": 0.029423712764478818,
+          "vortex": 0.005340711805555612,
+          "AF_nematic": 0.9957011879404727,
+          "staggered_m2": 0.19128731298465723
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.21457710037265834,
+          "m4": 0.046385135366799814,
+          "Binder_U": 0.4962882425360775,
+          "R": 1.2346059777838156,
+          "C": 0.02933467782944213,
+          "vortex": 0.005538953993055447,
+          "AF_nematic": 0.9956957427115956,
+          "staggered_m2": 0.18900266751411077
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.2139939424731042,
+          "m4": 0.04613108249630315,
+          "Binder_U": 0.4963130601086373,
+          "R": 1.2267085676271658,
+          "C": 0.029349847242152748,
+          "vortex": 0.005580295138888941,
+          "AF_nematic": 0.9956933750180821,
+          "staggered_m2": 0.1884664879131315
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.2151602582722156,
+          "m4": 0.046639188237296576,
+          "Binder_U": 0.49627109377767087,
+          "R": 1.2426102525714158,
+          "C": 0.029319508416731647,
+          "vortex": 0.005497612847222281,
+          "AF_nematic": 0.9956981104051047,
+          "staggered_m2": 0.18953884711508928
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.21486146709608878,
+          "m4": 0.04650709117721063,
+          "Binder_U": 0.49629981800013734,
+          "R": 1.2333354814785729,
+          "C": 0.02940249804380938,
+          "vortex": 0.005499348958333248,
+          "AF_nematic": 0.995681254457048,
+          "staggered_m2": 0.1891738200794768
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.21502355395144718,
+          "m4": 0.04658022351018444,
+          "Binder_U": 0.4962680459039023,
+          "R": 1.2290765311308864,
+          "C": 0.029461344253659594,
+          "vortex": 0.0054340277777778275,
+          "AF_nematic": 0.9956655843249528,
+          "staggered_m2": 0.18930874014781557
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.21469938024073174,
+          "m4": 0.04643395884423699,
+          "Binder_U": 0.49633226027813193,
+          "R": 1.23764450949619,
+          "C": 0.029343651833958987,
+          "vortex": 0.005564670138888931,
+          "AF_nematic": 0.99569692458914,
+          "staggered_m2": 0.18903890001114004
+        },
+        "pooled:half1": {
+          "m2": 0.21486197998082324,
+          "m4": 0.04649794973525948,
+          "Binder_U": 0.4964012296279501,
+          "R": 1.2423970796244972,
+          "C": 0.029389961654491144,
+          "vortex": 0.005489908854166891,
+          "AF_nematic": 0.995684084561805,
+          "staggered_m2": 0.1892170563628243
+        },
+        "pooled:half2": {
+          "m2": 0.21554263523852646,
+          "m4": 0.04679789291073592,
+          "Binder_U": 0.4963487373319785,
+          "R": 1.253239998018894,
+          "C": 0.029382282336268137,
+          "vortex": 0.005397677951389111,
+          "AF_nematic": 0.9956935597403836,
+          "staggered_m2": 0.18982182648064824
+        }
+      }
+    }
+  ],
+  "families": [
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.383657849650204,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.505104107786277,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.314716587045197,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.449419224497936,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.245775324440189,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.389304882028867,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.394567085606862,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.51076753457202,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.321082839653846,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.451153890546847,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.247598593700829,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.386588428906677,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.373154604453973,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.499468756485943,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.308303692932602,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.447239912722964,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.243452781411232,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.391019784585586,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.406920031272412,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.522300589067045,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.33323238091773,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.463668588369249,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.259544730563048,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.400433107773308,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.39683828561752,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.513778376068343,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.324174235706158,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.455287150922155,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.251510185794796,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.392072767938345,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.417694182075307,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.531253145745616,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.342873217338543,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.472417882771715,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.268052252601779,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.409096143072896,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.42360012454381,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.535087633721714,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.347110949465776,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.47500012818916,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.270621774387743,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.41030200631547,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.404479047281388,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.518389581408467,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.329256078134655,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.457824136795384,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.25403310898792,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.39228930115132,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.443379088293915,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.551844364100244,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.365523940640314,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.492131977931402,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.287668792986711,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.428144251581113,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.40328049645406,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.518166256743871,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.328932150512287,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.458452439463816,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.254583804570514,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.393898651758105,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.408843488701981,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.525610994599798,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.336676677688265,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.46880042963188,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.264509866674548,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.40771525719238,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.39882694344164,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.511060061857707,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.321709274860474,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.447817992631245,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.24459160627931,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.379041664373203,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.421350858783082,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.533742304551058,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.345589099186311,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.474239013798663,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.26982733958954,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.410189745980762,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.380235821665401,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.50058563165936,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.310198373261347,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.443361093681878,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.240160924857294,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.381393129442838,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.467924974552584,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.56983360855814,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.385699761374932,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.507702625427306,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.30347454819728,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.441253704069704,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    }
+  ],
+  "local_families": [
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.383657849650204,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.383657849650204,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.314716587045197,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.314716587045197,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.245775324440189,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.245775324440189,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.394567085606862,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.394567085606862,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.321082839653846,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.321082839653846,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.247598593700829,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.247598593700829,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.373154604453973,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.373154604453973,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.308303692932602,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.308303692932602,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.243452781411232,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.243452781411232,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.406920031272412,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.406920031272412,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.33323238091773,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.33323238091773,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.259544730563048,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.259544730563048,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.39683828561752,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.39683828561752,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.324174235706158,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.324174235706158,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.251510185794796,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.251510185794796,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.417694182075307,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.417694182075307,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.342873217338543,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.342873217338543,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.268052252601779,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.268052252601779,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.42360012454381,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.42360012454381,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.347110949465776,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.347110949465776,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.270621774387743,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.270621774387743,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.404479047281388,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.404479047281388,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.329256078134655,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.329256078134653,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.25403310898792,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.25403310898792,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.443379088293915,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.443379088293915,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.365523940640314,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.365523940640314,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.287668792986711,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.287668792986711,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.40328049645406,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.40328049645406,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.328932150512287,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.328932150512287,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.254583804570514,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.254583804570514,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.408843488701981,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.408843488701981,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.336676677688265,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.336676677688265,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.264509866674548,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.264509866674548,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.39882694344164,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.39882694344164,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.321709274860474,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.321709274860474,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.24459160627931,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.24459160627931,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.421350858783082,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.421350858783082,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.345589099186311,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.345589099186311,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.26982733958954,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.26982733958954,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.380235821665401,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.380235821665401,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.310198373261347,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.310198373261347,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.240160924857294,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.240160924857294,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.467924974552584,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.467924974552584,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.385699761374932,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.385699761374932,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -8.30347454819728,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -8.30347454819728,
+          "bracket": [
+            -8.8,
+            -8.0
+          ]
+        }
+      ],
+      "status": "unique"
+    }
+  ],
+  "local_window_policy": "Within the sampled continuation window, take the unanimously suppressed anchor closest to higher kappa, and the nearest higher unanimously high-spin anchor. Keep every measured knot inside. This does not certify absence of transitions in unsampled support toward kappa0. Global scan families and outliers remain diagnostic.",
+  "common_anchors": [
+    {
+      "N": 8,
+      "lower_kappa": -8.8,
+      "upper_kappa": -8.0,
+      "status": "all_start_and_half_anchor_bracket",
+      "low_phase_candidates": [
+        -8.8
+      ],
+      "high_phase_candidates": [
+        -8.0,
+        -7.2
+      ]
+    }
+  ],
+  "xi_pair_crossings": [],
+  "primary": {
+    "N": 8,
+    "variant": "pooled",
+    "target": 0.25,
+    "interpolation": "linear",
+    "roots": [
+      {
+        "root": -8.33323238091773,
+        "bracket": [
+          -8.8,
+          -8.0
+        ]
+      }
+    ],
+    "status": "unique"
+  },
+  "scope": "No root-MC uncertainty is calculated here. Observable conditional-MC intervals and sampling flags are joined from the source analyses; the root bracket/sensitivity ranges are descriptive only. Pooledxi/L centralcrossings are descriptive checks. Exploratory fixed finite-box Binder locators within strong staggered-nematic response. All start/half/threshold/interpolation families retained, including failures. Anchor brackets and variant unions are descriptive, not calibrated confidence intervals or thermodynamic estimates. Pooling never removes incompatible starts. No assumed universality or fitted asymptote."
+}

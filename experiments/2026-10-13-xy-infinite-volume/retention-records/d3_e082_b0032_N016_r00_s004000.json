@@ -1,0 +1,256 @@
+{
+  "original_sha256": "a4fab3dbd348d5ef288c1c7515d23ba2458240bce5f24f88963e9898c701d4f6",
+  "original_bytes": 163200632,
+  "original_full_field_audit": {
+    "passed": true,
+    "rows": 4001,
+    "bytes": 163200632,
+    "sha256": "a4fab3dbd348d5ef288c1c7515d23ba2458240bce5f24f88963e9898c701d4f6"
+  },
+  "retained_fields": 41,
+  "original_fields": 4001,
+  "policy": {
+    "mode": "checkpoints_only_outside_brackets",
+    "checkpoint_interval": 100,
+    "diagnostic_windows": [],
+    "outside_bracket_evidence": {
+      "manifest": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/outside-bracket-retention-design-20261014.json",
+      "manifest_sha256": "227630ac7f09fa53e51e5e83e124fb6c1b75669227e85e44e4ced81ce9f3535a",
+      "entry": {
+        "point": {
+          "id": "d3_e082_b0032_N016_r00_s004000",
+          "D": 3,
+          "epsilon_over_pi": 0.82,
+          "epsilon": 2.57610597594363,
+          "beta": 0.032,
+          "N": 16,
+          "replica": 0,
+          "seed": 12332464685276106863,
+          "initial_winding": [
+            0,
+            0,
+            0
+          ],
+          "steps": 4000,
+          "warmup": 1000,
+          "clusters_per_cycle": 4
+        },
+        "audit_sha256": "a4fab3dbd348d5ef288c1c7515d23ba2458240bce5f24f88963e9898c701d4f6",
+        "reason": "Outside every contributing measured bracket and conservative margin",
+        "bracket_evidence": [
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.04000000000000001,
+              0.06999999999999999
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.04000000000000001,
+              0.06999999999999999
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215755"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut1001-block2"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut1001-block2"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut2001-block1"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut2001-block1"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut501-block1"
+          },
+          {
+            "grid": [
+              0.016,
+              0.026,
+              0.032,
+              0.038,
+              0.044,
+              0.05,
+              0.06
+            ],
+            "protected": [
+              0.03799999999999999,
+              0.06
+            ],
+            "resolved": true,
+            "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-215837-cut501-block1"
+          }
+        ]
+      }
+    }
+  },
+  "created": "2026-10-14T13:38:27.025716-05:00",
+  "source_sha256": "a4fab3dbd348d5ef288c1c7515d23ba2458240bce5f24f88963e9898c701d4f6",
+  "source_bytes": 163200632,
+  "compact_sha256": "0047e067c1a47099ae1ac5f012834f984ff7ed2b217681431218aa52f898a7b3",
+  "compact_bytes": 9689087,
+  "verified": true,
+  "committed": true
+}

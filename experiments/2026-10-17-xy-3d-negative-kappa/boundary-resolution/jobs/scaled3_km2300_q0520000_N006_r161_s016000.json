@@ -1,0 +1,39 @@
+{
+  "state": "complete",
+  "point": {
+    "id": "scaled3_km2300_q0520000_N006_r161_s016000",
+    "N": 6,
+    "D": 3,
+    "target_kappa": -2.3,
+    "kappas": [
+      -2.3
+    ],
+    "epsilon": 1.6336281798666925,
+    "epsilon_over_pi": 0.52,
+    "steps": 16000,
+    "warmup": 4000,
+    "seed": 9707377320939002400,
+    "initial_winding": [
+      1,
+      0,
+      0
+    ],
+    "checkpoint_every": 100,
+    "initial_kind": "winding",
+    "initial_label": "unit-x winding",
+    "sector_updates": true,
+    "role": "q052_boundary_resolution"
+  },
+  "generation_seconds": 12.061225624987856,
+  "audit_seconds": 14.758848124998622,
+  "audit": {
+    "passed": true,
+    "rows": 16001,
+    "slots": 1,
+    "field_configurations": 16001,
+    "bytes": 65948656,
+    "sha256": "d53fc4e662c11e00c15d903c673f34c8ad3bd2d98c3473808e3538187712597e",
+    "sector_history_audit": true
+  },
+  "updated": "2026-10-17T13:32:22.620424-05:00"
+}

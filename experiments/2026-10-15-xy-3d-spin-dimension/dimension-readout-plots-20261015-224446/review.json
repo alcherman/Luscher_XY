@@ -1,0 +1,22 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-16T03:45:30.281152+00:00",
+  "scope": "Two graphical read-offs of finite-size effective spin dimension from existing reviewed3D beta=0 histories; no Monte Carlo or full analyses.",
+  "checks": [
+    "Viewed both finalPNGfigures: legibleaxes/formulas/legend/captions without clipping.",
+    "Verified source/rawSHA256 hashes.",
+    "Independently reconstructed four cached coordinate bootstrap summaries at exactlyepsilon/pi=.80075 and reproduced correlated log-RMS slopeDelta=.5194207729 and bootstrapSD=.0079466095 to1e-12 using separate GLS.",
+    "Reviewed common-coupling quotient formula, same-drawm2ratios, quadraticresponsebands/physicalmask and greyregiondefinition."
+  ],
+  "qualifications": [
+    "Fixed representative measured epsilon/pi=.80075 was chosen fromxi/Lgraph, not fitted as an infinite-volumecriticalcoupling. Slopeinterval excludescoupling-location andfinite-sizecorrection uncertainty.",
+    "RMSmagnetization exponent isDelta because m2 scalesL^-2Delta; graph shows finite-sizeeffective slope, not a certified asymptoticCFTdimension.",
+    "Secondfigure greystrip isunion oftwo conditionalfinite-paircrossing intervals, notthermodynamiccriticalCI. Curves neednotmeetexactlyunderfinite-sizecorrections.",
+    "Allpoints/bands useconditionalMC95; no systematic standarddeviation,totalcoverage or mixingproof implied."
+  ],
+  "required_fixes": [],
+  "not_checked": [
+    "Did not independentlyrenderPDF/SVG; inspectedPNGexports.",
+    "Did notrerunfullanalysis pipelines orsimulations."
+  ]
+}

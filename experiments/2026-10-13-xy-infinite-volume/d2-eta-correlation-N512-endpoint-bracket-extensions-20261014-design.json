@@ -1,0 +1,123 @@
+{
+  "created": "2026-10-14T13:43:25.514488-05:00",
+  "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-134244-cut2001-block1-local-legacy1-U25/analysis.json",
+  "source_sha256": "93e669f334f579a54e8f42c27e6f16f51f7aa2ce045a1a65de7a85395b5e8e71",
+  "points": [
+    {
+      "id": "zero_d2_e0546_N512_r10_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 512,
+      "replica": 10,
+      "seed": 15954231147031550133,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0546_N512_r11_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.546,
+      "epsilon": 1.7153095888600272,
+      "beta": 0.0,
+      "N": 512,
+      "replica": 11,
+      "seed": 2909255235169560662,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 546,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0572_N512_r10_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.572,
+      "epsilon": 1.7969909978533618,
+      "beta": 0.0,
+      "N": 512,
+      "replica": 10,
+      "seed": 17540674201445792937,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 572,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    },
+    {
+      "id": "zero_d2_e0572_N512_r11_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.572,
+      "epsilon": 1.7969909978533618,
+      "beta": 0.0,
+      "N": 512,
+      "replica": 11,
+      "seed": 14937214919073737351,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4,
+      "campaign_role": "zero_beta_endpoint",
+      "epsilon_sampling_milli": 572,
+      "primary_observables": [
+        "eta_eff",
+        "xi_over_L"
+      ]
+    }
+  ],
+  "trajectories": 4,
+  "purpose": "Audited N512epsilon .553/.558/.565 gives central R512epsilon .557984 andeta256 .557141 but only .9825/.9815 valid crossing draws after extra-neighbor local-window correction. Extendbothsides at.546/.572,matchingexistingN256, tocheckcoveragebeforeinfinitevolumeacceptance andcut/blockchecks. Allhistories/exactcheckpoints/logsretained; fullfieldsproducedandauditedbeforeauthorizedretention. NoN1024expansion orD5.",
+  "transient_full_GiB": 108.51575088500977,
+  "uncommitted_headroom_GiB": 879.6331976251677,
+  "forecast": "Actual firstsix N512endpointgeneration1073\u20131083s plusaudit145\u2013147s, so20\u201330min allowance withI/Ocontention; notguaranteedcrossingprecision.",
+  "status_at_design": {
+    "updated": "2026-10-14T13:43:15.990504-05:00",
+    "pid": 69566,
+    "worker_limit": 15,
+    "active": 2,
+    "paused": 0,
+    "total": 2450,
+    "complete": 2132,
+    "failed": [],
+    "pending": 0,
+    "disk_free_bytes": 1087860399957,
+    "reserve_bytes": 26843545600,
+    "deadline": "2026-10-16T15:00:00-05:00",
+    "launch_new": true,
+    "state": "running",
+    "physical_disk_free_bytes": 1166001328128,
+    "retention_reserved_bytes": 2588799301,
+    "active_reserved_bytes": 75552128870
+  }
+}

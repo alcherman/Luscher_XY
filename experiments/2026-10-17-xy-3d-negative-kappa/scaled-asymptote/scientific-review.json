@@ -1,0 +1,37 @@
+{
+  "status": "accepted_with_qualifications",
+  "scope": "Actual96-run N6 scaled strong-negative reconnaissance; no accepted critical points or infinite-volume curve.",
+  "source_hashes": {
+    "analysis.json": "e30d0bd3b1b87fa545503d3f574e91a2fee4a1f0cd4011108c6d1f7e7026eed8",
+    "pt.py": "d32a26c167698f82469c54955fd90e346b013c2ea4e5b66f01a8ad4394ca4f05",
+    "audit.py": "8bb4d9c5996c36c3fb1fad58005a147ab3b9aae0205aeb324482fa5293b62205",
+    "runner.py": "afba4d053f04b39129d9a7d379cfa6701fc102310a7ec1d83fbc7e166655a948",
+    "scaled-response-check.png": "98b58da6e5654217dbc4660df111e6797ae3638abe06487d1c975756fd6e8590"
+  },
+  "checks": [
+    "Independently matched96analysis rows to complete native/full-field/harmonic audit records and original fileSHA linkage; no fresh reread/rehash of all96rawarchives.",
+    "Independently reproduced means of saved per-configuration maximum Fourier power for every kappa/u/start and compared AF-nematic/vortex/energy/start flags.",
+    "Visually inspected scaled-response-check.png: all four initial classes retained, half-mean shading correctly labelled non-confidence, eye guides and no assumed collapse/asymptote stated.",
+    "Producer/initializer/audit/replay verification:9focusedtests independently passed9.81s before freeze."
+  ],
+  "counts": {
+    "trajectories": 96,
+    "physical_coordinates": 24,
+    "starts_per_coordinate": 4,
+    "postcut_cycles_per_chain": 6000,
+    "low_block_count": 94,
+    "insufficient_blocks": 42
+  },
+  "inference": [
+    "At kappa=-4 vector-max response drops from .227-.242 at u=.1 to .028-.029 at u=.15, remains .024-.025 at u=.4, and recovers .268-.277 at u=1 and .377-.382 at u=1.6. Strong AF-nematic response persists through the dip.",
+    "Cold/checkerboard/Z4 show qualitatively similar vector-response suppression/recovery at kappa=-8 and -16, but unit-winding high-C/harmonic outliers are substantial, especially -16.",
+    "The observations support competing vector/higher-harmonic finite-box responses and a useful scaled-u hypothesis; they do not demonstrate a universal collapse or a single critical branch approaching one half."
+  ],
+  "limitations": [
+    "Most trajectories have few or insufficient conservative time blocks. Do not turn the visual u intervals into equilibrium uncertainty bars.",
+    "Four initializer classes with one seed per class are trapping controls, not repeated within-class independent equilibrated estimates.",
+    "The maximum Fourier mode contains a finite-volume extreme-value noise floor; harmonic response and coherent mode wavevector must be retained alongside it.",
+    "No new N8 scaled comparison yet, no thermodynamic extrapolation, no certified mixing or formal equilibrium phase identification.",
+    "Analytic product-box energy probability bound is valid separately, but does not select the dominant low-energy symmetry or prove a phase boundary."
+  ]
+}

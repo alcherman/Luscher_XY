@@ -1,0 +1,48 @@
+{
+  "created": "2026-10-14T19:12:35.775891",
+  "user_authorization": "Use all but four cores for thinning; clarified use all the others",
+  "hardware_observed": {
+    "total": 18,
+    "Super": 6,
+    "Performance": 12,
+    "efficiency_cluster_reported": false
+  },
+  "worker_cap": 14,
+  "retention_policy_changed": false,
+  "tests": {
+    "passed": 24,
+    "log": "logs/parallel-retention-final-tests-20261014.log"
+  },
+  "safety": [
+    "Single parent, spawn pool, unique inflight IDs",
+    "Shared worker copy lock; exclusive maintenance waits for all copies",
+    "Exclusive per-archive transaction lock",
+    "Per-archive leases summed with live simulation growth before fresh free;25GiB reserve",
+    "Temporary file created after admission with unique attempt ID",
+    "Byte-exact retained fields and all nonfield data; original and compact SHA; atomic replace/journal recovery unchanged",
+    "Event append/fsync lock for ordinary and recovery events",
+    "Parent-only CPU accounting; simulations remain disabled"
+  ],
+  "source_hashes": {
+    "deploy_parallel_retention_20261014.py": "8d4082b5ccdcab146d0ed3babf87c9bea4dd0c503dd55e19ddebfcb0c1db808b",
+    "storage_admission.py": "7a17c4665386b1da797b32af64d9f1696bf907bd74069a7fecfd96d03d29644a",
+    "retain_fields.py": "abbd880c5fecf2285053f023def0544c9b30880ca504fde2b0781d12efe825b5"
+  },
+  "implementation_snapshot": "experiments/2026-10-13-xy-infinite-volume/retention-implementation-snapshots/parallel-20261014-191235",
+  "deployment_status": "Live verified: exactlyone14-worker daemon",
+  "performance_scope": "Single live CPU/RSS snapshot establishes resource use, not14x speedup or a future completion guarantee.",
+  "verified_at": "2026-10-14T19:14:10.203774-05:00",
+  "daemon_pid": 28116,
+  "worker_processes": 14,
+  "aggregate_CPU_snapshot_core_equivalents": 13.3,
+  "aggregate_RSS_snapshot_GiB_approximately": 5,
+  "host_memory_GiB": 64,
+  "live_space_snapshot": {
+    "physical_free_GiB": 484.46655,
+    "outstanding_copy_reservations_GiB": 73.01816,
+    "headroom_after_copy_reservations_and_25GiB_reserve_GiB": 386.44839
+  },
+  "independent_review": "No blockingrace/deadlock found;24tests passed includingconcurrentrecovery. Tempcreation-after-admission hardeningapplied. Simulations remain disabled.",
+  "simulation_coordinator": "Stopped after verifying zero active/pending jobs; future explicit campaign must restart with current shared multi-lease helper",
+  "retention_reload": "For future reload, request graceful drain, verify exit, acquire exclusive maintenance, then restart; never duplicate daemon"
+}

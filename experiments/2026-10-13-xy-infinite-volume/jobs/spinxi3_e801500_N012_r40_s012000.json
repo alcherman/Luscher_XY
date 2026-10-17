@@ -1,0 +1,41 @@
+{
+  "state": "complete",
+  "point": {
+    "id": "spinxi3_e801500_N012_r40_s012000",
+    "D": 3,
+    "epsilon_over_pi": 0.8015,
+    "epsilon": 2.5179865118522193,
+    "beta": 0.0,
+    "N": 12,
+    "replica": 40,
+    "seed": 11349654262111634264,
+    "initial_winding": [
+      0,
+      0,
+      0
+    ],
+    "steps": 12000,
+    "warmup": 1000,
+    "clusters_per_cycle": 4,
+    "campaign_role": "zero_beta_endpoint",
+    "epsilon_sampling_1e6": 801500,
+    "study_role": "spin_dimension_common_coupling_xi_refinement",
+    "primary_observables": [
+      "magnetization_squared",
+      "structure_zero",
+      "structure_min",
+      "xi_over_L"
+    ]
+  },
+  "pid": 29599,
+  "paused": false,
+  "updated": "2026-10-15T20:43:40.804955-05:00",
+  "audit": {
+    "passed": true,
+    "rows": 12001,
+    "bytes": 219157368,
+    "sha256": "0ad8b440b6f55c4209eced57caee3308da5ee76ae71bf11bffd097c39dd1abc2"
+  },
+  "attempt_generation_seconds": 17.85363504101406,
+  "audit_seconds": 2.4923587499943096
+}

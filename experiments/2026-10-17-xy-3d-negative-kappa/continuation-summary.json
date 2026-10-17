@@ -1,0 +1,39 @@
+{
+  "scope": "Existing ferromagnetic branch continued below kappa=0; no epsilon-near-pi scan.",
+  "completed_full_audited_chains": 72,
+  "N": [
+    8,
+    12
+  ],
+  "sweeps_per_chain": 4000,
+  "warmup_label": 1000,
+  "max_workers": 8,
+  "old_spin_campaign_remains_paused": true,
+  "observations": [
+    {
+      "kappa": -0.1,
+      "qualitative_location_epsilon_over_pi": "around0.77",
+      "qualification": "Short finite-volume measurements; N12 bootstrap interval unresolved."
+    },
+    {
+      "kappa": -0.25,
+      "qualification": "Descriptive N12 cold-start response-change interval only; twisted starts trapped in a different sector; not equilibrium uncertainty.",
+      "N12_cold_start_response_change_interval_epsilon_over_pi": [
+        0.65,
+        0.69
+      ]
+    },
+    {
+      "kappa": -0.5,
+      "qualification": "Descriptive N12 cold-start response-change interval only; twisted starts trapped in a different sector; not equilibrium uncertainty.",
+      "N12_cold_start_response_change_interval_epsilon_over_pi": [
+        0.57,
+        0.62
+      ]
+    }
+  ],
+  "headline": "Short scouts are consistent with continuation toward lower epsilon, but do not determine an equilibrium negative-kappa phase curve.",
+  "next_required": "Resolve sector mixing or use a validated negative-kappa-compatible nonlocal sampler before extrapolating the negative branch. Do not assume simply longer Metropolis chains settle this.",
+  "analysis_sha256": "4c4c7c9a393c95a1c7c169752fb6a886fc5025e3143658441746c8e0ac85cb85",
+  "scientific_review": "Independent reviewer confirmed numerical comparisons and required no equilibrium transition brackets or thermodynamic claims from sector-dependent data."
+}

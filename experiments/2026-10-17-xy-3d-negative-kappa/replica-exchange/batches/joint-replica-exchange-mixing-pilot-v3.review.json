@@ -1,0 +1,203 @@
+{
+  "approved": true,
+  "status": "accepted_with_qualifications",
+  "created": "2026-10-17T16:47:00.065064+00:00",
+  "source_hashes": {
+    "producer": {
+      "native": {
+        "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+        "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+        "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+        "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+        "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+        "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+        "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+        "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+        ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+        "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+      },
+      "signed_cluster": {
+        "version": 1,
+        "signed_cluster_sha256": "401b10e2f1e842b322eb472dc1f6988abaffca3fd88b65466d0dfc04b3079e60",
+        "kernel_sha256": "7ed8ccfe394dec594fab95c2b48e8e4c9677920336fa0d983ca2dc4cdf17f4bf",
+        "activation": "forced hard bonds; else 1-exp(-2*max(0,kappa*projection_product))",
+        "scope": "Experiment-local signed-coupling extension. Frozen original kernels unchanged."
+      },
+      "replica_exchange_sha256": "bc7ea471ab88147e2734c81d3e7dc9479df2b1d5fbf97d6e7d01d7fd93f88f92",
+      "runtime": {
+        "python": "3.14.6",
+        "numpy": "2.5.2",
+        "numba": "0.67.0",
+        "h5py": "3.16.0",
+        "threads": 1
+      }
+    },
+    "runner": "38c3ee3b553a183c5b2f3f98fcf0c901ea54a78b75d2778dfe780871c02eae38",
+    "audit": "2e506bb03de0eb985035bf53de4d2852729f77baed1ac9b85e4617201166160b"
+  },
+  "points": [
+    {
+      "id": "pt3_km0250_q0650000_N012_r30_s002000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -0.25,
+      "kappas": [
+        -0.25,
+        -0.225,
+        -0.2,
+        -0.175,
+        -0.15,
+        -0.125,
+        -0.09999999999999998,
+        -0.07499999999999998,
+        -0.04999999999999999,
+        -0.024999999999999994,
+        0.0
+      ],
+      "epsilon": 2.0420352248333655,
+      "epsilon_over_pi": 0.65,
+      "steps": 2000,
+      "warmup": 500,
+      "seed": 15136611805327878312,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100
+    },
+    {
+      "id": "pt3_km0250_q0650000_N012_r31_s002000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -0.25,
+      "kappas": [
+        -0.25,
+        -0.225,
+        -0.2,
+        -0.175,
+        -0.15,
+        -0.125,
+        -0.09999999999999998,
+        -0.07499999999999998,
+        -0.04999999999999999,
+        -0.024999999999999994,
+        0.0
+      ],
+      "epsilon": 2.0420352248333655,
+      "epsilon_over_pi": 0.65,
+      "steps": 2000,
+      "warmup": 500,
+      "seed": 2998610780254077794,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100
+    },
+    {
+      "id": "pt3_km0500_q0570000_N012_r30_s002000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -0.5,
+      "kappas": [
+        -0.5,
+        -0.475,
+        -0.45,
+        -0.425,
+        -0.4,
+        -0.375,
+        -0.35,
+        -0.32499999999999996,
+        -0.3,
+        -0.275,
+        -0.25,
+        -0.22499999999999998,
+        -0.19999999999999996,
+        -0.175,
+        -0.14999999999999997,
+        -0.125,
+        -0.09999999999999998,
+        -0.07499999999999996,
+        -0.04999999999999999,
+        -0.024999999999999967,
+        0.0
+      ],
+      "epsilon": 1.790707812546182,
+      "epsilon_over_pi": 0.57,
+      "steps": 2000,
+      "warmup": 500,
+      "seed": 10459864327258609647,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "checkpoint_every": 100
+    },
+    {
+      "id": "pt3_km0500_q0570000_N012_r31_s002000",
+      "N": 12,
+      "D": 3,
+      "target_kappa": -0.5,
+      "kappas": [
+        -0.5,
+        -0.475,
+        -0.45,
+        -0.425,
+        -0.4,
+        -0.375,
+        -0.35,
+        -0.32499999999999996,
+        -0.3,
+        -0.275,
+        -0.25,
+        -0.22499999999999998,
+        -0.19999999999999996,
+        -0.175,
+        -0.14999999999999997,
+        -0.125,
+        -0.09999999999999998,
+        -0.07499999999999996,
+        -0.04999999999999999,
+        -0.024999999999999967,
+        0.0
+      ],
+      "epsilon": 1.790707812546182,
+      "epsilon_over_pi": 0.57,
+      "steps": 2000,
+      "warmup": 500,
+      "seed": 1206672375893354156,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "checkpoint_every": 100
+    }
+  ],
+  "points_sha256": "ca5a7c08c64e3c5fbd7d87cf6b069d1680673b78a41a099a71ed7eb10281de47",
+  "scope": "Only4 complete N12 joint-replica ladders: \u03batarget-.25 atq.65 with11slots and \u03batarget-.5 atq.57 with21slots, zero/unit-winding independent ensembles,2000cycles/warmup500. Not a thermodynamic phase-boundary campaign.",
+  "checks": [
+    "Independently reviewed fixed-epsilon product target measure and exact extensive-C swap ratio, slot-owned action/RNG/counters, configuration/walker swaps and alternating parity.",
+    "Independently ran both PT suites after runtime provenance and sibling-audit fix:9passed1.03s. Added exact individual-swap detailed balance, local+odd/even stationarity, nonreversible composition check, odd-parity all-state replay with unequal uncommitted tails, source-refusal before truncation, and runner\u2192producer\u2192joint-audit temporary worker closure.",
+    "Confirmed runner audit resolves exact sibling audit.py instead of parent Metropolis audit; this previously detected launch blocker is fixed.",
+    "Verified exact4point frozen manifest, current native/signed/producer/runtime/runner/audit hashes, unique seeds and IDs,11/21slot ladders,2000cycles500warmup and full budget recomputation.",
+    "Reviewed native all-field observable recomputation for every slot, cluster and RNG counters, swap acceptance/uniform/C identities, walker permutation/history and post-swap energy consistency.",
+    "Reviewed joint committed-row marker, complete RNG/counter/configuration/walker/parity restore and truncation of every uncommitted dataset; runtime/source mismatches refused before truncation."
+  ],
+  "qualifications": [
+    "Correctness checks do not establish empirical mixing. Report per-edge accepted/attempted swaps, actual walker endpoint excursions and round trips, target winding-sector histories, full spectra, and target start/half differences.",
+    "High swap acceptance can coexist with slow walker diffusion or sector trapping. \u03ba0 bridge success in isolated probes does not guarantee target equilibrium.",
+    "For physical estimates use fixed thermodynamic-slot time series. Slots, successive walker visits and exchanges are correlated and must not be counted as independent starts. Shared-time block bootstrap must preserve cross-slot covariance.",
+    "2000cycles500warmup and two independent ensembles per physical coordinate are a bounded mixing pilot. No calibrated infinite-volume coupling, asymptote or total error claims.",
+    "Each joint cycle updates all11or21slots with one Metropolis sweep+4signedclusters+native winding then alternating neighboring swaps; report actual wall time/work, not target-cycle counts as equivalent single-chain work.",
+    "Old spin-followup remains paused; no native frozen files altered; four single-thread ladder workers are within the9core cap. No future reconnaissance or larger-box batch approved by this artifact.",
+    "Detached process is app-independent, but manager-process failure with surviving workers requires reconciliation before retry; no automatic reattachment claim."
+  ],
+  "not_checked": [
+    "No production runs/services launched by reviewer.",
+    "No empirical PT results yet; useful mixing and runtime must be measured before further commitment."
+  ]
+}

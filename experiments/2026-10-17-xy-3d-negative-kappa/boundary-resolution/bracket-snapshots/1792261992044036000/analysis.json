@@ -1,0 +1,6183 @@
+{
+  "complete": false,
+  "missing": [
+    "scaled3_km2100_q0520000_N008_r160_s016000",
+    "scaled3_km2100_q0520000_N008_r161_s016000",
+    "scaled3_km2100_q0520000_N008_r162_s016000",
+    "scaled3_km2100_q0520000_N008_r163_s016000",
+    "scaled3_km2200_q0520000_N008_r160_s016000",
+    "scaled3_km2200_q0520000_N008_r161_s016000",
+    "scaled3_km2200_q0520000_N008_r162_s016000",
+    "scaled3_km2200_q0520000_N008_r163_s016000",
+    "scaled3_km2300_q0520000_N008_r160_s016000",
+    "scaled3_km2300_q0520000_N008_r161_s016000",
+    "scaled3_km2300_q0520000_N008_r162_s016000",
+    "scaled3_km2300_q0520000_N008_r163_s016000",
+    "scaled3_km2400_q0520000_N008_r160_s016000",
+    "scaled3_km2400_q0520000_N008_r161_s016000",
+    "scaled3_km2400_q0520000_N008_r162_s016000",
+    "scaled3_km2400_q0520000_N008_r163_s016000",
+    "scaled3_km2000_q0520000_N012_r160_s016000",
+    "scaled3_km2000_q0520000_N012_r161_s016000",
+    "scaled3_km2000_q0520000_N012_r162_s016000",
+    "scaled3_km2000_q0520000_N012_r163_s016000",
+    "scaled3_km2100_q0520000_N012_r160_s016000",
+    "scaled3_km2100_q0520000_N012_r161_s016000",
+    "scaled3_km2100_q0520000_N012_r162_s016000",
+    "scaled3_km2100_q0520000_N012_r163_s016000",
+    "scaled3_km2200_q0520000_N012_r160_s016000",
+    "scaled3_km2200_q0520000_N012_r161_s016000",
+    "scaled3_km2200_q0520000_N012_r162_s016000",
+    "scaled3_km2200_q0520000_N012_r163_s016000",
+    "scaled3_km2300_q0520000_N012_r160_s016000",
+    "scaled3_km2300_q0520000_N012_r161_s016000",
+    "scaled3_km2300_q0520000_N012_r162_s016000",
+    "scaled3_km2300_q0520000_N012_r163_s016000",
+    "scaled3_km2400_q0520000_N012_r160_s016000",
+    "scaled3_km2400_q0520000_N012_r161_s016000",
+    "scaled3_km2400_q0520000_N012_r162_s016000",
+    "scaled3_km2400_q0520000_N012_r163_s016000",
+    "scaled3_km2500_q0520000_N012_r160_s016000",
+    "scaled3_km2500_q0520000_N012_r161_s016000",
+    "scaled3_km2500_q0520000_N012_r162_s016000",
+    "scaled3_km2500_q0520000_N012_r163_s016000"
+  ],
+  "epsilon_over_pi": 0.52,
+  "trajectories": 32,
+  "source_script_sha256": "fb9a021fcfa0cfcb850d435478698cb34a92f5c8b0a2dc9fdce1e210ba8fdef0",
+  "chains": [
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N006_r160_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 16377659574899039537,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2000_q0520000_N006_r160_s016000.h5",
+      "audit_sha256": "a8e1590e6d19b9d7ff0897e688912cb824a23485cd354dd901c9b17f22b0e289",
+      "means": {
+        "m2": 0.23971186481589127,
+        "m4": 0.05902072721248695,
+        "Binder_U": 0.4864349039516963,
+        "R": 0.9885382190025026,
+        "C": 0.09537519348305318,
+        "vortex": 0.01844675925925984,
+        "AF_nematic": 0.9505774597663872,
+        "staggered_m2": 0.15821013934347672
+      },
+      "halves": [
+        {
+          "m2": 0.2321007429677658,
+          "m4": 0.05564013259605312,
+          "Binder_U": 0.48357756714564015,
+          "R": 0.9448623405446492,
+          "C": 0.09265865566033661,
+          "vortex": 0.022085390946502068,
+          "AF_nematic": 0.9522656438064208,
+          "staggered_m2": 0.1546572440978322
+        },
+        {
+          "m2": 0.24732298666401695,
+          "m4": 0.06240132182892029,
+          "Binder_U": 0.48992407139617544,
+          "R": 1.0353125484273362,
+          "C": 0.0980917313057694,
+          "vortex": 0.014808127572016395,
+          "AF_nematic": 0.9488892757263523,
+          "staggered_m2": 0.1617630345891225
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N006_r161_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 12650978398164618645,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2000_q0520000_N006_r161_s016000.h5",
+      "audit_sha256": "ff28a8c838ae3d0c12478e05e225113d406057de8b900bc7a00ebe9942b3fa55",
+      "means": {
+        "m2": 0.22996392665106033,
+        "m4": 0.05486925007244427,
+        "Binder_U": 0.4812243328931871,
+        "R": 0.9516357405384399,
+        "C": 0.09083338273855664,
+        "vortex": 0.0239148662551442,
+        "AF_nematic": 0.9535748090931117,
+        "staggered_m2": 0.15376249089374486
+      },
+      "halves": [
+        {
+          "m2": 0.22963075642869352,
+          "m4": 0.05425691203895436,
+          "Binder_U": 0.4855241844296496,
+          "R": 0.9547442135185884,
+          "C": 0.09024946766642986,
+          "vortex": 0.023598765432098764,
+          "AF_nematic": 0.9539410730941771,
+          "staggered_m2": 0.1541728646580193
+        },
+        {
+          "m2": 0.230297096873427,
+          "m4": 0.055481588105933954,
+          "Binder_U": 0.47695149922244606,
+          "R": 0.9485651160552271,
+          "C": 0.09141729781068349,
+          "vortex": 0.024230967078189215,
+          "AF_nematic": 0.9532085450920537,
+          "staggered_m2": 0.15335211712946953
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N006_r162_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 189482993762014165,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2000_q0520000_N006_r162_s016000.h5",
+      "audit_sha256": "d52b3299db1d620f63930011ee1d09a7f5547979e73d92100afa838991667d6b",
+      "means": {
+        "m2": 0.22314361016054188,
+        "m4": 0.05288014949711042,
+        "Binder_U": 0.4690009202606692,
+        "R": 0.9188534726704947,
+        "C": 0.08874389476209829,
+        "vortex": 0.028463991769547222,
+        "AF_nematic": 0.9546682508666811,
+        "staggered_m2": 0.14951171779293398
+      },
+      "halves": [
+        {
+          "m2": 0.22807032258262472,
+          "m4": 0.05364409207845864,
+          "Binder_U": 0.48435079801708103,
+          "R": 0.9321043043817926,
+          "C": 0.08990559301441023,
+          "vortex": 0.023236111111111034,
+          "AF_nematic": 0.9542507214575497,
+          "staggered_m2": 0.1533653847136589
+        },
+        {
+          "m2": 0.21821689773845965,
+          "m4": 0.05211620691576221,
+          "Binder_U": 0.4527748496223537,
+          "R": 0.9055670907444938,
+          "C": 0.08758219650978608,
+          "vortex": 0.0336918724279842,
+          "AF_nematic": 0.95508578027581,
+          "staggered_m2": 0.14565805087221034
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N006_r163_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 2623626986674088892,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2000_q0520000_N006_r163_s016000.h5",
+      "audit_sha256": "e8b96e9c396ec2df8e682534936368bbf66333c4044b171c9345c16ebd4d793f",
+      "means": {
+        "m2": 0.18635048201838553,
+        "m4": 0.04206085008881511,
+        "Binder_U": 0.3943984063098256,
+        "R": 0.8031526070336814,
+        "C": 0.0753516540981436,
+        "vortex": 0.05830375514403062,
+        "AF_nematic": 0.9618270920248159,
+        "staggered_m2": 0.12716029118363736
+      },
+      "halves": [
+        {
+          "m2": 0.15703085380907975,
+          "m4": 0.033620396971612836,
+          "Binder_U": 0.31828498858644705,
+          "R": 0.7057050563691372,
+          "C": 0.06526490604249383,
+          "vortex": 0.0816126543209878,
+          "AF_nematic": 0.9673115153163535,
+          "staggered_m2": 0.1086304966600001
+        },
+        {
+          "m2": 0.21567011022769197,
+          "m4": 0.05050130320601732,
+          "Binder_U": 0.45713396656981564,
+          "R": 0.9039208107051581,
+          "C": 0.08543840215379293,
+          "vortex": 0.034994855967078145,
+          "AF_nematic": 0.9563426687332621,
+          "staggered_m2": 0.14569008570727543
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2100_q0520000_N006_r160_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.1,
+        "kappas": [
+          -2.1
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 17620150751984100453,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2100_q0520000_N006_r160_s016000.h5",
+      "audit_sha256": "1cb4742a114f2d1e7ddba75d2bc571c5962becf5c97435a1d025b8b8818f8814",
+      "means": {
+        "m2": 0.06621597600027965,
+        "m4": 0.009348277945956643,
+        "Binder_U": -0.06604626096842647,
+        "R": 0.4178670264514524,
+        "C": 0.032127010358435334,
+        "vortex": 0.15739171810699523,
+        "AF_nematic": 0.9845861168228311,
+        "staggered_m2": 0.05059549317906523
+      },
+      "halves": [
+        {
+          "m2": 0.06448270948234631,
+          "m4": 0.009220302734386107,
+          "Binder_U": -0.10873722693578292,
+          "R": 0.4206207175503006,
+          "C": 0.030682863097308645,
+          "vortex": 0.1610308641975309,
+          "AF_nematic": 0.9852802600571836,
+          "staggered_m2": 0.049446336994294286
+        },
+        {
+          "m2": 0.06794924251821273,
+          "m4": 0.009476253157527169,
+          "Binder_U": -0.026212781081155656,
+          "R": 0.4152943160533176,
+          "C": 0.03357115761956177,
+          "vortex": 0.1537525720164615,
+          "AF_nematic": 0.9838919735884769,
+          "staggered_m2": 0.0517446493638365
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2100_q0520000_N006_r161_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.1,
+        "kappas": [
+          -2.1
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 6594995782107442218,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2100_q0520000_N006_r161_s016000.h5",
+      "audit_sha256": "295a15684b243e1964e1666c7fca38566060b2c11b4ac584bc2370dafed15081",
+      "means": {
+        "m2": 0.05628539518766228,
+        "m4": 0.00785427375075774,
+        "Binder_U": -0.23960865249150687,
+        "R": 0.3780650004294113,
+        "C": 0.02915280543701004,
+        "vortex": 0.16716229423868273,
+        "AF_nematic": 0.9858746147374725,
+        "staggered_m2": 0.04310883412674109
+      },
+      "halves": [
+        {
+          "m2": 0.0703629181783323,
+          "m4": 0.010571165775461914,
+          "Binder_U": -0.06759173327759904,
+          "R": 0.43934013604842925,
+          "C": 0.0332670191536925,
+          "vortex": 0.1550437242798359,
+          "AF_nematic": 0.9839452107141077,
+          "staggered_m2": 0.05343925198391066
+        },
+        {
+          "m2": 0.042207872196992034,
+          "m4": 0.005137381726053599,
+          "Binder_U": -0.44186607359125185,
+          "R": 0.3099851182733735,
+          "C": 0.025038591720327873,
+          "vortex": 0.1792808641975321,
+          "AF_nematic": 0.987804018760839,
+          "staggered_m2": 0.03277841626957129
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2100_q0520000_N006_r162_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.1,
+        "kappas": [
+          -2.1
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14143409853350470624,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2100_q0520000_N006_r162_s016000.h5",
+      "audit_sha256": "4bc4d90b7a8c85a3adc315513bfd49ed850fa4cdeb0dec75be29e78132c70333",
+      "means": {
+        "m2": 0.09544866930734036,
+        "m4": 0.016940557023506077,
+        "Binder_U": 0.07026766714266452,
+        "R": 0.525151995876807,
+        "C": 0.041649726304550126,
+        "vortex": 0.13259696502057408,
+        "AF_nematic": 0.9799623704753121,
+        "staggered_m2": 0.0701860832054388
+      },
+      "halves": [
+        {
+          "m2": 0.10503899391947177,
+          "m4": 0.019313506881546903,
+          "Binder_U": 0.12475419823726452,
+          "R": 0.569388927205632,
+          "C": 0.04370625163672635,
+          "vortex": 0.1261851851851839,
+          "AF_nematic": 0.979100005855861,
+          "staggered_m2": 0.07715373884611185
+        },
+        {
+          "m2": 0.08585834469520823,
+          "m4": 0.014567607165465407,
+          "Binder_U": 0.011917509277368343,
+          "R": 0.4817223575007468,
+          "C": 0.039593200972373975,
+          "vortex": 0.13900874485596731,
+          "AF_nematic": 0.9808247350947695,
+          "staggered_m2": 0.06321842756476567
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2100_q0520000_N006_r163_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.1,
+        "kappas": [
+          -2.1
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 13804013432867623516,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2100_q0520000_N006_r163_s016000.h5",
+      "audit_sha256": "4bf9bf1aad55477d5f9c197e2c2bc91915b92b9f800562b17f842871ca25bdaf",
+      "means": {
+        "m2": 0.06664115796954158,
+        "m4": 0.010243404279496996,
+        "Binder_U": -0.15326536150270953,
+        "R": 0.42101807886882614,
+        "C": 0.033258808639723074,
+        "vortex": 0.157225823045267,
+        "AF_nematic": 0.9838419308450937,
+        "staggered_m2": 0.04996963322880571
+      },
+      "halves": [
+        {
+          "m2": 0.05549260829150502,
+          "m4": 0.007986489997126998,
+          "Binder_U": -0.29674827798935643,
+          "R": 0.37502020838344796,
+          "C": 0.030141595795607608,
+          "vortex": 0.1668508230452682,
+          "AF_nematic": 0.9851786332599108,
+          "staggered_m2": 0.04172143353219056
+        },
+        {
+          "m2": 0.07778970764757821,
+          "m4": 0.012500318561866978,
+          "Binder_U": -0.032872718738155005,
+          "R": 0.46356568401670684,
+          "C": 0.03637602148383835,
+          "vortex": 0.14760082304526792,
+          "AF_nematic": 0.9825052284302656,
+          "staggered_m2": 0.05821783292542091
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2200_q0520000_N006_r160_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.2,
+        "kappas": [
+          -2.2
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 11036666432039729835,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2200_q0520000_N006_r160_s016000.h5",
+      "audit_sha256": "acc6e5ef4421f2d44bbee87a5bb7ac150637fa956ce207e245332d31b716af86",
+      "means": {
+        "m2": 0.023525665257859638,
+        "m4": 0.0013607003160032523,
+        "Binder_U": -0.22927390778901602,
+        "R": 0.21767499123958414,
+        "C": 0.017649228731688497,
+        "vortex": 0.20057458847736392,
+        "AF_nematic": 0.9911058389537317,
+        "staggered_m2": 0.019665354795274398
+      },
+      "halves": [
+        {
+          "m2": 0.01815147867429979,
+          "m4": 0.0007011228306608974,
+          "Binder_U": -0.06399624212837973,
+          "R": 0.1795939357010036,
+          "C": 0.015687713533369275,
+          "vortex": 0.20725257201646086,
+          "AF_nematic": 0.991919631261367,
+          "staggered_m2": 0.015525546674684408
+        },
+        {
+          "m2": 0.028899851841419518,
+          "m4": 0.002020277801345605,
+          "Binder_U": -0.2094554158804054,
+          "R": 0.24802398602888986,
+          "C": 0.019610743930007574,
+          "vortex": 0.19389660493827235,
+          "AF_nematic": 0.9902920466461008,
+          "staggered_m2": 0.023805162915864354
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2200_q0520000_N006_r161_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.2,
+        "kappas": [
+          -2.2
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 7863759128973531476,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2200_q0520000_N006_r161_s016000.h5",
+      "audit_sha256": "29d312a1cf78fb297b72522728d21ad855bc5d5cc1cb9366b6e89f026aa68781",
+      "means": {
+        "m2": 0.024943836893535916,
+        "m4": 0.0014239372918058092,
+        "Binder_U": -0.1442853881500239,
+        "R": 0.22570163909541882,
+        "C": 0.01864194306100895,
+        "vortex": 0.19760056584362085,
+        "AF_nematic": 0.9907011621129342,
+        "staggered_m2": 0.020808537504237574
+      },
+      "halves": [
+        {
+          "m2": 0.029216496171160587,
+          "m4": 0.0019903564430813416,
+          "Binder_U": -0.1658551638887531,
+          "R": 0.25123719023250934,
+          "C": 0.01990231772878011,
+          "vortex": 0.1928384773662553,
+          "AF_nematic": 0.9902251066003599,
+          "staggered_m2": 0.024171822497554417
+        },
+        {
+          "m2": 0.020671177615910884,
+          "m4": 0.0008575181405302845,
+          "Binder_U": -0.0034203007253827966,
+          "R": 0.19597843722030472,
+          "C": 0.017381568393237665,
+          "vortex": 0.20236265432098727,
+          "AF_nematic": 0.9911772176255174,
+          "staggered_m2": 0.017445252510920897
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2200_q0520000_N006_r162_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.2,
+        "kappas": [
+          -2.2
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 17983338164804299074,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2200_q0520000_N006_r162_s016000.h5",
+      "audit_sha256": "f500153fe375c25e92e4225f87b00d3ceba6f64ed90317be7b1728bec2407718",
+      "means": {
+        "m2": 0.03744104804789699,
+        "m4": 0.004065407623951425,
+        "Binder_U": -0.45003373980041816,
+        "R": 0.3015754507932251,
+        "C": 0.022159300016768215,
+        "vortex": 0.18708976337448396,
+        "AF_nematic": 0.9891218980994669,
+        "staggered_m2": 0.029720508496778982
+      },
+      "halves": [
+        {
+          "m2": 0.04900297347713404,
+          "m4": 0.006545485036874664,
+          "Binder_U": -0.3629093517564945,
+          "R": 0.36370886067968483,
+          "C": 0.0255620764082191,
+          "vortex": 0.17688888888888948,
+          "AF_nematic": 0.9876101356046817,
+          "staggered_m2": 0.03795589886620885
+        },
+        {
+          "m2": 0.02587912261865941,
+          "m4": 0.001585330211028189,
+          "Binder_U": -0.18356099302085904,
+          "R": 0.2279403157724785,
+          "C": 0.018756523625317215,
+          "vortex": 0.1972906378600821,
+          "AF_nematic": 0.9906336605942585,
+          "staggered_m2": 0.021485118127349205
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2200_q0520000_N006_r163_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.2,
+        "kappas": [
+          -2.2
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 227594738612849599,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2200_q0520000_N006_r163_s016000.h5",
+      "audit_sha256": "11e666f2549fac0cfa4eb63dedeb698de29df9dc1e53171447099ead57f6671c",
+      "means": {
+        "m2": 0.026660447759945256,
+        "m4": 0.0015369544238580705,
+        "Binder_U": -0.08117530009949259,
+        "R": 0.23472174961673278,
+        "C": 0.019165468739243567,
+        "vortex": 0.19526929012345595,
+        "AF_nematic": 0.9905158796813776,
+        "staggered_m2": 0.022241713478098623
+      },
+      "halves": [
+        {
+          "m2": 0.02548225476886008,
+          "m4": 0.0013996809960497073,
+          "Binder_U": -0.07776323211931024,
+          "R": 0.22654414889037625,
+          "C": 0.01902310300659117,
+          "vortex": 0.1960066872427989,
+          "AF_nematic": 0.9906448756019604,
+          "staggered_m2": 0.02126325764058211
+        },
+        {
+          "m2": 0.02783864075103044,
+          "m4": 0.001674227851666418,
+          "Binder_U": -0.08016105171956878,
+          "R": 0.24264547620054444,
+          "C": 0.019307834471895838,
+          "vortex": 0.19453189300411525,
+          "AF_nematic": 0.9903868837607928,
+          "staggered_m2": 0.023220169315615238
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2300_q0520000_N006_r160_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.3,
+        "kappas": [
+          -2.3
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 3513626059492429650,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2300_q0520000_N006_r160_s016000.h5",
+      "audit_sha256": "014ae577ea468e91a07b8815738df5d67e6cec38069c5fb40eb106248a186438",
+      "means": {
+        "m2": 0.017250947942257223,
+        "m4": 0.0006171566121837529,
+        "Binder_U": -0.0369061765926626,
+        "R": 0.1738710138212448,
+        "C": 0.015158279258239576,
+        "vortex": 0.20832047325102815,
+        "AF_nematic": 0.9921036637299445,
+        "staggered_m2": 0.014777164772057982
+      },
+      "halves": [
+        {
+          "m2": 0.01749179789296893,
+          "m4": 0.0006257282314550702,
+          "Binder_U": -0.022555414690765607,
+          "R": 0.1759650552349377,
+          "C": 0.015239173665289311,
+          "vortex": 0.20810133744855985,
+          "AF_nematic": 0.9920995427007868,
+          "staggered_m2": 0.014950267552768933
+        },
+        {
+          "m2": 0.01701009799154541,
+          "m4": 0.0006085849929124305,
+          "Binder_U": -0.05166546406119199,
+          "R": 0.17174582115051304,
+          "C": 0.015077384851189837,
+          "vortex": 0.20853960905349803,
+          "AF_nematic": 0.9921077847591042,
+          "staggered_m2": 0.014604061991347098
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2300_q0520000_N006_r161_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.3,
+        "kappas": [
+          -2.3
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 9707377320939002400,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2300_q0520000_N006_r161_s016000.h5",
+      "audit_sha256": "d53fc4e662c11e00c15d903c673f34c8ad3bd2d98c3473808e3538187712597e",
+      "means": {
+        "m2": 0.02003655677945176,
+        "m4": 0.0011084346836082112,
+        "Binder_U": -0.3804921077408492,
+        "R": 0.19865527658147697,
+        "C": 0.015799233023930524,
+        "vortex": 0.2061185699588473,
+        "AF_nematic": 0.9918245818380674,
+        "staggered_m2": 0.016897665102661653
+      },
+      "halves": [
+        {
+          "m2": 0.015877335021086427,
+          "m4": 0.000500167372976339,
+          "Binder_U": 0.007957803700493815,
+          "R": 0.158151057737845,
+          "C": 0.014700562168073337,
+          "vortex": 0.2103230452674904,
+          "AF_nematic": 0.9922935815499463,
+          "staggered_m2": 0.013749370935532605
+        },
+        {
+          "m2": 0.02419577853781704,
+          "m4": 0.0017167019942400806,
+          "Binder_U": -0.4661746772725195,
+          "R": 0.23278558908528205,
+          "C": 0.01689790387978784,
+          "vortex": 0.20191409465020593,
+          "AF_nematic": 0.9913555821261911,
+          "staggered_m2": 0.020045959269790754
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2300_q0520000_N006_r162_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.3,
+        "kappas": [
+          -2.3
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14744865374858568811,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2300_q0520000_N006_r162_s016000.h5",
+      "audit_sha256": "2f25c1985eb940f667fe1713b131c5a5e11709b54a42adcfcdf74a4abe441333",
+      "means": {
+        "m2": 0.017136680536680274,
+        "m4": 0.0006094127096935394,
+        "Binder_U": -0.037595573899072976,
+        "R": 0.17127434379302606,
+        "C": 0.015095985507587976,
+        "vortex": 0.2090141460905366,
+        "AF_nematic": 0.992057592888696,
+        "staggered_m2": 0.01470922201186648
+      },
+      "halves": [
+        {
+          "m2": 0.01831611775485176,
+          "m4": 0.0007123895072855896,
+          "Binder_U": -0.06174607595228321,
+          "R": 0.18266858498342783,
+          "C": 0.015286570938521872,
+          "vortex": 0.2079650205761326,
+          "AF_nematic": 0.9919914890101488,
+          "staggered_m2": 0.01566432692166692
+        },
+        {
+          "m2": 0.015957243318508813,
+          "m4": 0.0005064359121014836,
+          "Binder_U": 0.005559589133975917,
+          "R": 0.15910825650275295,
+          "C": 0.014905400076654026,
+          "vortex": 0.21006327160493773,
+          "AF_nematic": 0.9921236967672429,
+          "staggered_m2": 0.013754117102065913
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2300_q0520000_N006_r163_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.3,
+        "kappas": [
+          -2.3
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 6656403519285812808,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2300_q0520000_N006_r163_s016000.h5",
+      "audit_sha256": "e1a2dbf01ec4c29157d9cf84216452e53878ffd106fe184f01ad259935307b3b",
+      "means": {
+        "m2": 0.017897590377232292,
+        "m4": 0.0006872501247858922,
+        "Binder_U": -0.07274303486331557,
+        "R": 0.1814151833566911,
+        "C": 0.015039456496660298,
+        "vortex": 0.2085691872427974,
+        "AF_nematic": 0.9921634685849464,
+        "staggered_m2": 0.015330673387708948
+      },
+      "halves": [
+        {
+          "m2": 0.018805518434916985,
+          "m4": 0.0007784923889517698,
+          "Binder_U": -0.10066144534789023,
+          "R": 0.18745011917531518,
+          "C": 0.015458975278488595,
+          "vortex": 0.20691049382716048,
+          "AF_nematic": 0.9920104434864664,
+          "staggered_m2": 0.016052647857242534
+        },
+        {
+          "m2": 0.016989662319547443,
+          "m4": 0.0005960078606200179,
+          "Binder_U": -0.032410701953026866,
+          "R": 0.1749977875690109,
+          "C": 0.01461993771483202,
+          "vortex": 0.21022788065843614,
+          "AF_nematic": 0.9923164936834253,
+          "staggered_m2": 0.01460869891817526
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2400_q0520000_N006_r160_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.4,
+        "kappas": [
+          -2.4
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 13809815772015982988,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2400_q0520000_N006_r160_s016000.h5",
+      "audit_sha256": "39b585e9faac4473e237297411c145cbe586660d5554aaccb6bdeecd066d9f8d",
+      "means": {
+        "m2": 0.014696095186339577,
+        "m4": 0.00043281770993924243,
+        "Binder_U": -0.0020078287512110826,
+        "R": 0.1519512679210301,
+        "C": 0.013411178040638475,
+        "vortex": 0.2133917181069945,
+        "AF_nematic": 0.9928006147595007,
+        "staggered_m2": 0.0128059228564113
+      },
+      "halves": [
+        {
+          "m2": 0.013658490491409978,
+          "m4": 0.00036805058415284147,
+          "Binder_U": 0.013556747714557837,
+          "R": 0.1422660232655307,
+          "C": 0.013019733928488555,
+          "vortex": 0.2147211934156376,
+          "AF_nematic": 0.9929431214589713,
+          "staggered_m2": 0.011960695908697328
+        },
+        {
+          "m2": 0.015733699881269023,
+          "m4": 0.0004975848357256426,
+          "Binder_U": -0.005021649622715119,
+          "R": 0.16078570986647672,
+          "C": 0.01380262215278832,
+          "vortex": 0.2120622427983539,
+          "AF_nematic": 0.9926581080600384,
+          "staggered_m2": 0.013651149804125346
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2400_q0520000_N006_r161_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.4,
+        "kappas": [
+          -2.4
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 13642248891027815503,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2400_q0520000_N006_r161_s016000.h5",
+      "audit_sha256": "1ed487fb18e0b66ee8a3b376bbaf51d997ffa4ae2f082eede17df1369184b57a",
+      "means": {
+        "m2": 0.013804841295724993,
+        "m4": 0.0003963732964885623,
+        "Binder_U": -0.03994783809706215,
+        "R": 0.14477875731658538,
+        "C": 0.013098155134516396,
+        "vortex": 0.21477366255144054,
+        "AF_nematic": 0.992851603707194,
+        "staggered_m2": 0.012034401611334632
+      },
+      "halves": [
+        {
+          "m2": 0.014873958969401583,
+          "m4": 0.0004708738872446909,
+          "Binder_U": -0.06419558532419134,
+          "R": 0.15368677553130256,
+          "C": 0.013790269679968343,
+          "vortex": 0.21238683127571942,
+          "AF_nematic": 0.9925711191479093,
+          "staggered_m2": 0.012866041093156607
+        },
+        {
+          "m2": 0.01273572362204837,
+          "m4": 0.0003218727057324381,
+          "Binder_U": 0.007782452337969703,
+          "R": 0.13484861201434287,
+          "C": 0.012406040589064462,
+          "vortex": 0.21716049382716016,
+          "AF_nematic": 0.9931320882664632,
+          "staggered_m2": 0.011202762129512704
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2400_q0520000_N006_r162_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.4,
+        "kappas": [
+          -2.4
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 8437326066240882403,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2400_q0520000_N006_r162_s016000.h5",
+      "audit_sha256": "5941884ca9fa295a2febc97fdffff3092b1c547a1edabc535496a01572f7b2d8",
+      "means": {
+        "m2": 0.015043286137939529,
+        "m4": 0.00044827536757617597,
+        "Binder_U": 0.0095570908719953,
+        "R": 0.15491199682974294,
+        "C": 0.013651055723141953,
+        "vortex": 0.2125648148148151,
+        "AF_nematic": 0.9926882940321974,
+        "staggered_m2": 0.013080699207293833
+      },
+      "halves": [
+        {
+          "m2": 0.01464813545961787,
+          "m4": 0.0004302673141384047,
+          "Binder_U": -0.0026368562051963806,
+          "R": 0.1518920772939316,
+          "C": 0.013585494811684041,
+          "vortex": 0.21289711934156347,
+          "AF_nematic": 0.992701648234616,
+          "staggered_m2": 0.012759001842024333
+        },
+        {
+          "m2": 0.015438436816261183,
+          "m4": 0.00046628342101394594,
+          "Binder_U": 0.021832275017453218,
+          "R": 0.15782454331832102,
+          "C": 0.013716616634599759,
+          "vortex": 0.21223251028806564,
+          "AF_nematic": 0.9926749398297751,
+          "staggered_m2": 0.01340239657256335
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2400_q0520000_N006_r163_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.4,
+        "kappas": [
+          -2.4
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 13966163488036877470,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2400_q0520000_N006_r163_s016000.h5",
+      "audit_sha256": "9867a364d7344970875c8e4a5d478af4094e3e052edba0d0bc77716adb9f337e",
+      "means": {
+        "m2": 0.01520584049590484,
+        "m4": 0.00046564141922827886,
+        "Binder_U": -0.006933401825574892,
+        "R": 0.15976069982531177,
+        "C": 0.013772104969241781,
+        "vortex": 0.21216152263374538,
+        "AF_nematic": 0.992713993548726,
+        "staggered_m2": 0.013194461837409825
+      },
+      "halves": [
+        {
+          "m2": 0.014914346019662612,
+          "m4": 0.0004543991810080361,
+          "Binder_U": -0.02140767029016999,
+          "R": 0.1576148955204933,
+          "C": 0.01339960270419571,
+          "vortex": 0.21356275720164608,
+          "AF_nematic": 0.9928769468346744,
+          "staggered_m2": 0.012992294393400033
+        },
+        {
+          "m2": 0.015497334972147085,
+          "m4": 0.0004768836574485197,
+          "Binder_U": 0.007184832652641471,
+          "R": 0.16185099199053582,
+          "C": 0.014144607234288014,
+          "vortex": 0.21076028806584324,
+          "AF_nematic": 0.9925510402627813,
+          "staggered_m2": 0.013396629281419686
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N006_r160_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 9046653856602030247,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2500_q0520000_N006_r160_s016000.h5",
+      "audit_sha256": "9d281fe98cca138a6de1499024e3ba6d236c27fac5dc0c36953c30447f23d3c1",
+      "means": {
+        "m2": 0.012099654793548936,
+        "m4": 0.0003049370126100693,
+        "Binder_U": -0.041439835839575556,
+        "R": 0.1336052119119215,
+        "C": 0.011363938495117321,
+        "vortex": 0.21978472222222248,
+        "AF_nematic": 0.9935444261885911,
+        "staggered_m2": 0.01070513985680497
+      },
+      "halves": [
+        {
+          "m2": 0.013000734994557074,
+          "m4": 0.00036111192430093197,
+          "Binder_U": -0.06825767645179703,
+          "R": 0.14440767489606562,
+          "C": 0.011659821112980069,
+          "vortex": 0.21872582304526753,
+          "AF_nematic": 0.9934158506615752,
+          "staggered_m2": 0.01146711384169873
+        },
+        {
+          "m2": 0.011198574592540816,
+          "m4": 0.00024876210091920694,
+          "Binder_U": 0.008189444437741056,
+          "R": 0.12164691202031691,
+          "C": 0.011068055877254485,
+          "vortex": 0.22084362139917627,
+          "AF_nematic": 0.9936730017156025,
+          "staggered_m2": 0.009943165871911162
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N006_r161_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 5128126265837069652,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2500_q0520000_N006_r161_s016000.h5",
+      "audit_sha256": "75ab1a158dc73afdffe7fb0f406c3bc0fa2efa42b165fa4dde4ea9a969ce0280",
+      "means": {
+        "m2": 0.012298345524484347,
+        "m4": 0.0002988202930501739,
+        "Binder_U": 0.012159765912438836,
+        "R": 0.13376739178361235,
+        "C": 0.011704174569685468,
+        "vortex": 0.2182137345679021,
+        "AF_nematic": 0.9934301773109385,
+        "staggered_m2": 0.01087370563718559
+      },
+      "halves": [
+        {
+          "m2": 0.011901179040964098,
+          "m4": 0.00027674202627515616,
+          "Binder_U": 0.02306618269367977,
+          "R": 0.13085989456423933,
+          "C": 0.011617876594363748,
+          "vortex": 0.2189547325102877,
+          "AF_nematic": 0.9934450836952197,
+          "staggered_m2": 0.010527731538300772
+        },
+        {
+          "m2": 0.01269551200800458,
+          "m4": 0.00032089855982519116,
+          "Binder_U": 0.004509015730704169,
+          "R": 0.13652587183180237,
+          "C": 0.011790472545007287,
+          "vortex": 0.2174727366255139,
+          "AF_nematic": 0.993415270926658,
+          "staggered_m2": 0.011219679736070494
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N006_r162_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 15084084503247449311,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2500_q0520000_N006_r162_s016000.h5",
+      "audit_sha256": "a88bca2a9fd1aa4c3ac549d48025db283f4e5f58731babefd74e659a0a2dc8ff",
+      "means": {
+        "m2": 0.012739032007192317,
+        "m4": 0.000339936544588646,
+        "Binder_U": -0.0473576334070529,
+        "R": 0.13858633362979048,
+        "C": 0.01200380557258703,
+        "vortex": 0.21772376543209876,
+        "AF_nematic": 0.9932571482415048,
+        "staggered_m2": 0.011187061596476599
+      },
+      "halves": [
+        {
+          "m2": 0.012247355632261498,
+          "m4": 0.0003031787381735451,
+          "Binder_U": -0.010611155315324527,
+          "R": 0.13476521986212342,
+          "C": 0.011547349374529359,
+          "vortex": 0.21912139917695458,
+          "AF_nematic": 0.9934514956871905,
+          "staggered_m2": 0.010823700964754112
+        },
+        {
+          "m2": 0.0132307083821231,
+          "m4": 0.0003766943510037464,
+          "Binder_U": -0.07595204982395565,
+          "R": 0.14218400403221085,
+          "C": 0.01246026177064459,
+          "vortex": 0.21632613168724288,
+          "AF_nematic": 0.9930628007958241,
+          "staggered_m2": 0.011550422228199058
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N006_r163_s016000",
+        "N": 6,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 3723684818493170241,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "q052_boundary_resolution"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/boundary-resolution/chains/scaled3_km2500_q0520000_N006_r163_s016000.h5",
+      "audit_sha256": "872ed8a20fec83ec55c05ce72f1e2deca4851bc0c08c963a3aecf7fb48fce681",
+      "means": {
+        "m2": 0.01254843880762341,
+        "m4": 0.0003146435225205524,
+        "Binder_U": 0.0008989728625791171,
+        "R": 0.13417785820865005,
+        "C": 0.011994810445730145,
+        "vortex": 0.21785416666666704,
+        "AF_nematic": 0.993279601102861,
+        "staggered_m2": 0.011044545573366118
+      },
+      "halves": [
+        {
+          "m2": 0.01260365363403735,
+          "m4": 0.0003143740793487427,
+          "Binder_U": 0.010481733703268437,
+          "R": 0.13770820101741751,
+          "C": 0.011967994045514348,
+          "vortex": 0.21804732510288094,
+          "AF_nematic": 0.9933047358182204,
+          "staggered_m2": 0.011072782289911216
+        },
+        {
+          "m2": 0.012493223981209564,
+          "m4": 0.00031491296569236097,
+          "Binder_U": -0.008814913582597006,
+          "R": 0.1306694211946749,
+          "C": 0.012021626845946006,
+          "vortex": 0.21766100823045312,
+          "AF_nematic": 0.9932544663874983,
+          "staggered_m2": 0.011016308856821058
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N008_r140_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 6101875874097979766,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2000_q0520000_N008_r140_s016000.h5",
+      "audit_sha256": "4598010fb6885ba99adcfeaa4f052bd80ecb46f37a991ef9f1eedded1d2b599a",
+      "means": {
+        "m2": 0.22604479661018861,
+        "m4": 0.05206396912763221,
+        "Binder_U": 0.49053042980963457,
+        "R": 1.2103406514853168,
+        "C": 0.09243090697109746,
+        "vortex": 0.021280490451388853,
+        "AF_nematic": 0.9515690427478403,
+        "staggered_m2": 0.14926644592183197
+      },
+      "halves": [
+        {
+          "m2": 0.22835126042134216,
+          "m4": 0.05293026018278295,
+          "Binder_U": 0.49246358590619843,
+          "R": 1.2037781288984821,
+          "C": 0.09376751398618216,
+          "vortex": 0.01930143229166667,
+          "AF_nematic": 0.9507310222405715,
+          "staggered_m2": 0.1503918229326659
+        },
+        {
+          "m2": 0.22373833279903602,
+          "m4": 0.05119767807248144,
+          "Binder_U": 0.4886250213427308,
+          "R": 1.2171476778109611,
+          "C": 0.09109429995601309,
+          "vortex": 0.02325954861111108,
+          "AF_nematic": 0.9524070632551243,
+          "staggered_m2": 0.14814106891099788
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N008_r141_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 10807141186295407324,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2000_q0520000_N008_r141_s016000.h5",
+      "audit_sha256": "27a3be9637792fe94b41f3609355914fca8944d6834ee3276e84e9e174cc10fe",
+      "means": {
+        "m2": 0.23503898823956054,
+        "m4": 0.05579503433853893,
+        "Binder_U": 0.4950065611008305,
+        "R": 1.2753270514718549,
+        "C": 0.09536237590574408,
+        "vortex": 0.016858072916666626,
+        "AF_nematic": 0.9500874129498594,
+        "staggered_m2": 0.15420354393757277
+      },
+      "halves": [
+        {
+          "m2": 0.23459982122812498,
+          "m4": 0.05558562272602136,
+          "Binder_U": 0.49501657205994676,
+          "R": 1.2706593208978885,
+          "C": 0.09620910336476238,
+          "vortex": 0.016215928819444517,
+          "AF_nematic": 0.9495462244830631,
+          "staggered_m2": 0.1533615079625348
+        },
+        {
+          "m2": 0.2354781552509983,
+          "m4": 0.05600444595105646,
+          "Binder_U": 0.49500013764987827,
+          "R": 1.2800277811806573,
+          "C": 0.09451564844672534,
+          "vortex": 0.01750021701388888,
+          "AF_nematic": 0.9506286014166518,
+          "staggered_m2": 0.15504557991261197
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N008_r142_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 17356425527192444901,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2000_q0520000_N008_r142_s016000.h5",
+      "audit_sha256": "5e5034c78976898f1555f352b64da9f76f0c5b1160cc2dc878badaf811da2420",
+      "means": {
+        "m2": 0.2291938309683113,
+        "m4": 0.05320356720807527,
+        "Binder_U": 0.4935869268657379,
+        "R": 1.1828298765098237,
+        "C": 0.09553775902666534,
+        "vortex": 0.01742328559027775,
+        "AF_nematic": 0.9491723234393818,
+        "staggered_m2": 0.14946502755989194
+      },
+      "halves": [
+        {
+          "m2": 0.2286523154801424,
+          "m4": 0.05298499119761146,
+          "Binder_U": 0.4932757792499338,
+          "R": 1.2017700047606328,
+          "C": 0.09500950451842993,
+          "vortex": 0.01856835937500003,
+          "AF_nematic": 0.9492622999361247,
+          "staggered_m2": 0.14915257244298727
+        },
+        {
+          "m2": 0.22973534645648166,
+          "m4": 0.053422143218539435,
+          "Binder_U": 0.49390077505068075,
+          "R": 1.1648206348422396,
+          "C": 0.09606601353490084,
+          "vortex": 0.016278211805555488,
+          "AF_nematic": 0.9490823469426443,
+          "staggered_m2": 0.14977748267679636
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2000_q0520000_N008_r143_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.0,
+        "kappas": [
+          -2.0
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 10012204243894396652,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2000_q0520000_N008_r143_s016000.h5",
+      "audit_sha256": "57e9a6f31ae4bb10184962f0fea6d1641beb0f4aa36c435ab626dd10a36f465d",
+      "means": {
+        "m2": 0.22386907450358995,
+        "m4": 0.050898137548757966,
+        "Binder_U": 0.49221053353150224,
+        "R": 1.1730256205112606,
+        "C": 0.0915797722284564,
+        "vortex": 0.022375651041666722,
+        "AF_nematic": 0.9521432914728021,
+        "staggered_m2": 0.14870162493557412
+      },
+      "halves": [
+        {
+          "m2": 0.22338117065191715,
+          "m4": 0.05073747290126362,
+          "Binder_U": 0.49159980136842885,
+          "R": 1.169006156000768,
+          "C": 0.09125983722267451,
+          "vortex": 0.02258181423611117,
+          "AF_nematic": 0.9526751584596637,
+          "staggered_m2": 0.14876801508176143
+        },
+        {
+          "m2": 0.2243569783552638,
+          "m4": 0.05105880219625205,
+          "Binder_U": 0.4928207675622699,
+          "R": 1.1770680159801894,
+          "C": 0.09189970723423788,
+          "vortex": 0.022169487847222277,
+          "AF_nematic": 0.9516114244859415,
+          "staggered_m2": 0.14863523478938698
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N008_r140_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 14503545124468367977,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "uniform zero-winding",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2500_q0520000_N008_r140_s016000.h5",
+      "audit_sha256": "7cfb214df1fc8fcfb814d0a01ed18490effe003b44f26c17de65c59a33c82b8f",
+      "means": {
+        "m2": 0.00519276886256129,
+        "m4": 5.611060395892374e-05,
+        "Binder_U": -0.0404398163443771,
+        "R": 0.10333716395891392,
+        "C": 0.01163466494089236,
+        "vortex": 0.21929069010416577,
+        "AF_nematic": 0.9932061339591899,
+        "staggered_m2": 0.004576552182567598
+      },
+      "halves": [
+        {
+          "m2": 0.004959036737514918,
+          "m4": 5.151932136383928e-05,
+          "Binder_U": -0.04747939020986114,
+          "R": 0.09654540218128953,
+          "C": 0.01150534286212758,
+          "vortex": 0.21962109374999936,
+          "AF_nematic": 0.9932269497008803,
+          "staggered_m2": 0.004390100338099634
+        },
+        {
+          "m2": 0.0054265009876076475,
+          "m4": 6.070188655400824e-05,
+          "Binder_U": -0.030700342323292107,
+          "R": 0.10959892562935003,
+          "C": 0.011763987019656965,
+          "vortex": 0.21896028645833351,
+          "AF_nematic": 0.9931853182175011,
+          "staggered_m2": 0.004763004027035556
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N008_r141_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 482949771377893232,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "winding",
+        "initial_label": "unit-x winding",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2500_q0520000_N008_r141_s016000.h5",
+      "audit_sha256": "3186eee79516129608adf153f5edd52a86e4a41b90b06088edb415a0103cbc0c",
+      "means": {
+        "m2": 0.005242975033164283,
+        "m4": 5.470119722308607e-05,
+        "Binder_U": 0.005027089258019535,
+        "R": 0.1040517285893361,
+        "C": 0.011719073270515011,
+        "vortex": 0.21907845052083302,
+        "AF_nematic": 0.9931931216875725,
+        "staggered_m2": 0.004621514652931801
+      },
+      "halves": [
+        {
+          "m2": 0.005284068555201708,
+          "m4": 5.725683714744238e-05,
+          "Binder_U": -0.02532246132132343,
+          "R": 0.10509799723517865,
+          "C": 0.011567477025782803,
+          "vortex": 0.21941189236111058,
+          "AF_nematic": 0.9932602696563102,
+          "staggered_m2": 0.004663401255140325
+        },
+        {
+          "m2": 0.005201881511126847,
+          "m4": 5.2145557298729635e-05,
+          "Binder_U": 0.036467414694417166,
+          "R": 0.1029905936029213,
+          "C": 0.011870669515247213,
+          "vortex": 0.2187450086805542,
+          "AF_nematic": 0.9931259737188362,
+          "staggered_m2": 0.00457962805072321
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N008_r142_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 5642793817276870091,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "checkerboard",
+        "initial_label": "near-saturated checkerboard",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2500_q0520000_N008_r142_s016000.h5",
+      "audit_sha256": "ac5ace76b32c7a623726ece218a79286cf5d76142ac1ab980df2ab7fe7923d33",
+      "means": {
+        "m2": 0.005226776352463289,
+        "m4": 5.4248036605067305e-05,
+        "Binder_U": 0.0071441623531067755,
+        "R": 0.10567433801295795,
+        "C": 0.011594614303057284,
+        "vortex": 0.21934635416666787,
+        "AF_nematic": 0.9932520976354577,
+        "staggered_m2": 0.004601729247199004
+      },
+      "halves": [
+        {
+          "m2": 0.005138165034688,
+          "m4": 5.171323201190618e-05,
+          "Binder_U": 0.020610176809816805,
+          "R": 0.10407735343631533,
+          "C": 0.011552333147890337,
+          "vortex": 0.21958463541666579,
+          "AF_nematic": 0.9932407670212517,
+          "staggered_m2": 0.004523956232896355
+        },
+        {
+          "m2": 0.005315387670238605,
+          "m4": 5.6782841198228925e-05,
+          "Binder_U": -0.004887014577843463,
+          "R": 0.10722222030777429,
+          "C": 0.011636895458224267,
+          "vortex": 0.2191080729166665,
+          "AF_nematic": 0.9932634282496613,
+          "staggered_m2": 0.004679502261501664
+        }
+      ]
+    },
+    {
+      "point": {
+        "id": "scaled3_km2500_q0520000_N008_r143_s016000",
+        "N": 8,
+        "D": 3,
+        "target_kappa": -2.5,
+        "kappas": [
+          -2.5
+        ],
+        "epsilon": 1.6336281798666925,
+        "epsilon_over_pi": 0.52,
+        "steps": 16000,
+        "warmup": 4000,
+        "seed": 18243222777650954248,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "checkpoint_every": 100,
+        "initial_kind": "z4_vortex",
+        "initial_label": "vortex-rich parity-locked Z4",
+        "sector_updates": true,
+        "role": "sector_mixing_validation"
+      },
+      "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-17-xy-3d-negative-kappa/sign-sector/chains/scaled3_km2500_q0520000_N008_r143_s016000.h5",
+      "audit_sha256": "ed51d7fdbe6825623ea5283961a755a93c08ae483a4754bebda5e07ac537b755",
+      "means": {
+        "m2": 0.005250106297472736,
+        "m4": 5.7349250439726854e-05,
+        "Binder_U": -0.04030708741801692,
+        "R": 0.1069821901255054,
+        "C": 0.011613211288041133,
+        "vortex": 0.2195197482638894,
+        "AF_nematic": 0.9932062250394165,
+        "staggered_m2": 0.004626685209869738
+      },
+      "halves": [
+        {
+          "m2": 0.005437245832096282,
+          "m4": 6.245706988588914e-05,
+          "Binder_U": -0.05631554768714109,
+          "R": 0.11058014884883907,
+          "C": 0.011866149897010504,
+          "vortex": 0.21853211805555464,
+          "AF_nematic": 0.9931026076072283,
+          "staggered_m2": 0.004772011268887664
+        },
+        {
+          "m2": 0.005062966762849226,
+          "m4": 5.224143099356366e-05,
+          "Binder_U": -0.019001718003617274,
+          "R": 0.1031449531953175,
+          "C": 0.011360272679071736,
+          "vortex": 0.2205073784722217,
+          "AF_nematic": 0.993309842471602,
+          "staggered_m2": 0.004481359150851821
+        }
+      ]
+    }
+  ],
+  "coordinates": [
+    {
+      "N": 6,
+      "kappa": -2.5,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.012421367783212301,
+          "m4": 0.00031458434319235737,
+          "Binder_U": -0.019455484113358512,
+          "R": 0.13505767375608538,
+          "C": 0.011766682270779844,
+          "vortex": 0.2183940972222185,
+          "AF_nematic": 0.9933778382109669,
+          "staggered_m2": 0.010952613165958344
+        },
+        "uniform zero-winding": {
+          "m2": 0.012099654793548936,
+          "m4": 0.0003049370126100693,
+          "Binder_U": -0.041439835839575556,
+          "R": 0.1336052119119215,
+          "C": 0.011363938495117321,
+          "vortex": 0.21978472222222248,
+          "AF_nematic": 0.9935444261885911,
+          "staggered_m2": 0.01070513985680497
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.013000734994557074,
+          "m4": 0.00036111192430093197,
+          "Binder_U": -0.06825767645179703,
+          "R": 0.14440767489606562,
+          "C": 0.011659821112980069,
+          "vortex": 0.21872582304526753,
+          "AF_nematic": 0.9934158506615752,
+          "staggered_m2": 0.01146711384169873
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.011198574592540816,
+          "m4": 0.00024876210091920694,
+          "Binder_U": 0.008189444437741056,
+          "R": 0.12164691202031691,
+          "C": 0.011068055877254485,
+          "vortex": 0.22084362139917627,
+          "AF_nematic": 0.9936730017156025,
+          "staggered_m2": 0.009943165871911162
+        },
+        "unit-x winding": {
+          "m2": 0.012298345524484347,
+          "m4": 0.0002988202930501739,
+          "Binder_U": 0.012159765912438836,
+          "R": 0.13376739178361235,
+          "C": 0.011704174569685468,
+          "vortex": 0.2182137345679021,
+          "AF_nematic": 0.9934301773109385,
+          "staggered_m2": 0.01087370563718559
+        },
+        "unit-x winding:half1": {
+          "m2": 0.011901179040964098,
+          "m4": 0.00027674202627515616,
+          "Binder_U": 0.02306618269367977,
+          "R": 0.13085989456423933,
+          "C": 0.011617876594363748,
+          "vortex": 0.2189547325102877,
+          "AF_nematic": 0.9934450836952197,
+          "staggered_m2": 0.010527731538300772
+        },
+        "unit-x winding:half2": {
+          "m2": 0.01269551200800458,
+          "m4": 0.00032089855982519116,
+          "Binder_U": 0.004509015730704169,
+          "R": 0.13652587183180237,
+          "C": 0.011790472545007287,
+          "vortex": 0.2174727366255139,
+          "AF_nematic": 0.993415270926658,
+          "staggered_m2": 0.011219679736070494
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.012739032007192317,
+          "m4": 0.000339936544588646,
+          "Binder_U": -0.0473576334070529,
+          "R": 0.13858633362979048,
+          "C": 0.01200380557258703,
+          "vortex": 0.21772376543209876,
+          "AF_nematic": 0.9932571482415048,
+          "staggered_m2": 0.011187061596476599
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.012247355632261498,
+          "m4": 0.0003031787381735451,
+          "Binder_U": -0.010611155315324527,
+          "R": 0.13476521986212342,
+          "C": 0.011547349374529359,
+          "vortex": 0.21912139917695458,
+          "AF_nematic": 0.9934514956871905,
+          "staggered_m2": 0.010823700964754112
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.0132307083821231,
+          "m4": 0.0003766943510037464,
+          "Binder_U": -0.07595204982395565,
+          "R": 0.14218400403221085,
+          "C": 0.01246026177064459,
+          "vortex": 0.21632613168724288,
+          "AF_nematic": 0.9930628007958241,
+          "staggered_m2": 0.011550422228199058
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.01254843880762341,
+          "m4": 0.0003146435225205524,
+          "Binder_U": 0.0008989728625791171,
+          "R": 0.13417785820865005,
+          "C": 0.011994810445730145,
+          "vortex": 0.21785416666666704,
+          "AF_nematic": 0.993279601102861,
+          "staggered_m2": 0.011044545573366118
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.01260365363403735,
+          "m4": 0.0003143740793487427,
+          "Binder_U": 0.010481733703268437,
+          "R": 0.13770820101741751,
+          "C": 0.011967994045514348,
+          "vortex": 0.21804732510288094,
+          "AF_nematic": 0.9933047358182204,
+          "staggered_m2": 0.011072782289911216
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.012493223981209564,
+          "m4": 0.00031491296569236097,
+          "Binder_U": -0.008814913582597006,
+          "R": 0.1306694211946749,
+          "C": 0.012021626845946006,
+          "vortex": 0.21766100823045312,
+          "AF_nematic": 0.9932544663874983,
+          "staggered_m2": 0.011016308856821058
+        },
+        "pooled:half1": {
+          "m2": 0.01243823082545507,
+          "m4": 0.00031385169202459374,
+          "Binder_U": -0.014325291672825147,
+          "R": 0.13704063468327107,
+          "C": 0.011698260281846954,
+          "vortex": 0.21871231995885537,
+          "AF_nematic": 0.9934042914655491,
+          "staggered_m2": 0.010972832158666197
+        },
+        "pooled:half2": {
+          "m2": 0.01240450474096947,
+          "m4": 0.0003153169943601255,
+          "Binder_U": -0.02460984300157265,
+          "R": 0.13308629038790742,
+          "C": 0.011835104259713113,
+          "vortex": 0.21807587448560295,
+          "AF_nematic": 0.993351384956392,
+          "staggered_m2": 0.010932394173250372
+        }
+      }
+    },
+    {
+      "N": 6,
+      "kappa": -2.4,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.014687515778977341,
+          "m4": 0.0004357769483080672,
+          "Binder_U": -0.010037655670645185,
+          "R": 0.15296717161038215,
+          "C": 0.013483123466884597,
+          "vortex": 0.2132229295267456,
+          "AF_nematic": 0.9927636265119002,
+          "staggered_m2": 0.012778871378112356
+        },
+        "uniform zero-winding": {
+          "m2": 0.014696095186339577,
+          "m4": 0.00043281770993924243,
+          "Binder_U": -0.0020078287512110826,
+          "R": 0.1519512679210301,
+          "C": 0.013411178040638475,
+          "vortex": 0.2133917181069945,
+          "AF_nematic": 0.9928006147595007,
+          "staggered_m2": 0.0128059228564113
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.013658490491409978,
+          "m4": 0.00036805058415284147,
+          "Binder_U": 0.013556747714557837,
+          "R": 0.1422660232655307,
+          "C": 0.013019733928488555,
+          "vortex": 0.2147211934156376,
+          "AF_nematic": 0.9929431214589713,
+          "staggered_m2": 0.011960695908697328
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.015733699881269023,
+          "m4": 0.0004975848357256426,
+          "Binder_U": -0.005021649622715119,
+          "R": 0.16078570986647672,
+          "C": 0.01380262215278832,
+          "vortex": 0.2120622427983539,
+          "AF_nematic": 0.9926581080600384,
+          "staggered_m2": 0.013651149804125346
+        },
+        "unit-x winding": {
+          "m2": 0.013804841295724993,
+          "m4": 0.0003963732964885623,
+          "Binder_U": -0.03994783809706215,
+          "R": 0.14477875731658538,
+          "C": 0.013098155134516396,
+          "vortex": 0.21477366255144054,
+          "AF_nematic": 0.992851603707194,
+          "staggered_m2": 0.012034401611334632
+        },
+        "unit-x winding:half1": {
+          "m2": 0.014873958969401583,
+          "m4": 0.0004708738872446909,
+          "Binder_U": -0.06419558532419134,
+          "R": 0.15368677553130256,
+          "C": 0.013790269679968343,
+          "vortex": 0.21238683127571942,
+          "AF_nematic": 0.9925711191479093,
+          "staggered_m2": 0.012866041093156607
+        },
+        "unit-x winding:half2": {
+          "m2": 0.01273572362204837,
+          "m4": 0.0003218727057324381,
+          "Binder_U": 0.007782452337969703,
+          "R": 0.13484861201434287,
+          "C": 0.012406040589064462,
+          "vortex": 0.21716049382716016,
+          "AF_nematic": 0.9931320882664632,
+          "staggered_m2": 0.011202762129512704
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.015043286137939529,
+          "m4": 0.00044827536757617597,
+          "Binder_U": 0.0095570908719953,
+          "R": 0.15491199682974294,
+          "C": 0.013651055723141953,
+          "vortex": 0.2125648148148151,
+          "AF_nematic": 0.9926882940321974,
+          "staggered_m2": 0.013080699207293833
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.01464813545961787,
+          "m4": 0.0004302673141384047,
+          "Binder_U": -0.0026368562051963806,
+          "R": 0.1518920772939316,
+          "C": 0.013585494811684041,
+          "vortex": 0.21289711934156347,
+          "AF_nematic": 0.992701648234616,
+          "staggered_m2": 0.012759001842024333
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.015438436816261183,
+          "m4": 0.00046628342101394594,
+          "Binder_U": 0.021832275017453218,
+          "R": 0.15782454331832102,
+          "C": 0.013716616634599759,
+          "vortex": 0.21223251028806564,
+          "AF_nematic": 0.9926749398297751,
+          "staggered_m2": 0.01340239657256335
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.01520584049590484,
+          "m4": 0.00046564141922827886,
+          "Binder_U": -0.006933401825574892,
+          "R": 0.15976069982531177,
+          "C": 0.013772104969241781,
+          "vortex": 0.21216152263374538,
+          "AF_nematic": 0.992713993548726,
+          "staggered_m2": 0.013194461837409825
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.014914346019662612,
+          "m4": 0.0004543991810080361,
+          "Binder_U": -0.02140767029016999,
+          "R": 0.1576148955204933,
+          "C": 0.01339960270419571,
+          "vortex": 0.21356275720164608,
+          "AF_nematic": 0.9928769468346744,
+          "staggered_m2": 0.012992294393400033
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.015497334972147085,
+          "m4": 0.0004768836574485197,
+          "Binder_U": 0.007184832652641471,
+          "R": 0.16185099199053582,
+          "C": 0.014144607234288014,
+          "vortex": 0.21076028806584324,
+          "AF_nematic": 0.9925510402627813,
+          "staggered_m2": 0.013396629281419686
+        },
+        "pooled:half1": {
+          "m2": 0.01452373273502312,
+          "m4": 0.0004308977416359899,
+          "Binder_U": -0.021380883891932045,
+          "R": 0.1514756302478416,
+          "C": 0.013448775281084182,
+          "vortex": 0.21339197530864829,
+          "AF_nematic": 0.9927732089190427,
+          "staggered_m2": 0.012644508309319569
+        },
+        "pooled:half2": {
+          "m2": 0.014851298822931472,
+          "m4": 0.00044065615498013353,
+          "Binder_U": 0.0010563932738969495,
+          "R": 0.15443756622460544,
+          "C": 0.01351747165268511,
+          "vortex": 0.21305388374486342,
+          "AF_nematic": 0.992754044104765,
+          "staggered_m2": 0.012913234446905258
+        }
+      }
+    },
+    {
+      "N": 6,
+      "kappa": -2.3,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.018080443908905355,
+          "m4": 0.0007555635325678515,
+          "Binder_U": -0.15564066295138446,
+          "R": 0.1816055172029647,
+          "C": 0.015273238571604645,
+          "vortex": 0.20800559413580422,
+          "AF_nematic": 0.9920373267604127,
+          "staggered_m2": 0.015428681318573879
+        },
+        "uniform zero-winding": {
+          "m2": 0.017250947942257223,
+          "m4": 0.0006171566121837529,
+          "Binder_U": -0.0369061765926626,
+          "R": 0.1738710138212448,
+          "C": 0.015158279258239576,
+          "vortex": 0.20832047325102815,
+          "AF_nematic": 0.9921036637299445,
+          "staggered_m2": 0.014777164772057982
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.01749179789296893,
+          "m4": 0.0006257282314550702,
+          "Binder_U": -0.022555414690765607,
+          "R": 0.1759650552349377,
+          "C": 0.015239173665289311,
+          "vortex": 0.20810133744855985,
+          "AF_nematic": 0.9920995427007868,
+          "staggered_m2": 0.014950267552768933
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.01701009799154541,
+          "m4": 0.0006085849929124305,
+          "Binder_U": -0.05166546406119199,
+          "R": 0.17174582115051304,
+          "C": 0.015077384851189837,
+          "vortex": 0.20853960905349803,
+          "AF_nematic": 0.9921077847591042,
+          "staggered_m2": 0.014604061991347098
+        },
+        "unit-x winding": {
+          "m2": 0.02003655677945176,
+          "m4": 0.0011084346836082112,
+          "Binder_U": -0.3804921077408492,
+          "R": 0.19865527658147697,
+          "C": 0.015799233023930524,
+          "vortex": 0.2061185699588473,
+          "AF_nematic": 0.9918245818380674,
+          "staggered_m2": 0.016897665102661653
+        },
+        "unit-x winding:half1": {
+          "m2": 0.015877335021086427,
+          "m4": 0.000500167372976339,
+          "Binder_U": 0.007957803700493815,
+          "R": 0.158151057737845,
+          "C": 0.014700562168073337,
+          "vortex": 0.2103230452674904,
+          "AF_nematic": 0.9922935815499463,
+          "staggered_m2": 0.013749370935532605
+        },
+        "unit-x winding:half2": {
+          "m2": 0.02419577853781704,
+          "m4": 0.0017167019942400806,
+          "Binder_U": -0.4661746772725195,
+          "R": 0.23278558908528205,
+          "C": 0.01689790387978784,
+          "vortex": 0.20191409465020593,
+          "AF_nematic": 0.9913555821261911,
+          "staggered_m2": 0.020045959269790754
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.017136680536680274,
+          "m4": 0.0006094127096935394,
+          "Binder_U": -0.037595573899072976,
+          "R": 0.17127434379302606,
+          "C": 0.015095985507587976,
+          "vortex": 0.2090141460905366,
+          "AF_nematic": 0.992057592888696,
+          "staggered_m2": 0.01470922201186648
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.01831611775485176,
+          "m4": 0.0007123895072855896,
+          "Binder_U": -0.06174607595228321,
+          "R": 0.18266858498342783,
+          "C": 0.015286570938521872,
+          "vortex": 0.2079650205761326,
+          "AF_nematic": 0.9919914890101488,
+          "staggered_m2": 0.01566432692166692
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.015957243318508813,
+          "m4": 0.0005064359121014836,
+          "Binder_U": 0.005559589133975917,
+          "R": 0.15910825650275295,
+          "C": 0.014905400076654026,
+          "vortex": 0.21006327160493773,
+          "AF_nematic": 0.9921236967672429,
+          "staggered_m2": 0.013754117102065913
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.017897590377232292,
+          "m4": 0.0006872501247858922,
+          "Binder_U": -0.07274303486331557,
+          "R": 0.1814151833566911,
+          "C": 0.015039456496660298,
+          "vortex": 0.2085691872427974,
+          "AF_nematic": 0.9921634685849464,
+          "staggered_m2": 0.015330673387708948
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.018805518434916985,
+          "m4": 0.0007784923889517698,
+          "Binder_U": -0.10066144534789023,
+          "R": 0.18745011917531518,
+          "C": 0.015458975278488595,
+          "vortex": 0.20691049382716048,
+          "AF_nematic": 0.9920104434864664,
+          "staggered_m2": 0.016052647857242534
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.016989662319547443,
+          "m4": 0.0005960078606200179,
+          "Binder_U": -0.032410701953026866,
+          "R": 0.1749977875690109,
+          "C": 0.01461993771483202,
+          "vortex": 0.21022788065843614,
+          "AF_nematic": 0.9923164936834253,
+          "staggered_m2": 0.01460869891817526
+        },
+        "pooled:half1": {
+          "m2": 0.017622692275956035,
+          "m4": 0.0006541943751671878,
+          "Binder_U": -0.053252005117904844,
+          "R": 0.17638608513265178,
+          "C": 0.015171320512593204,
+          "vortex": 0.2083249742798409,
+          "AF_nematic": 0.9920987641868367,
+          "staggered_m2": 0.015104153316802654
+        },
+        "pooled:half2": {
+          "m2": 0.018538195541854745,
+          "m4": 0.0008569326899685042,
+          "Binder_U": -0.24675694806470183,
+          "R": 0.1867355155366371,
+          "C": 0.015375156630615715,
+          "vortex": 0.20768621399177686,
+          "AF_nematic": 0.9919758893339912,
+          "staggered_m2": 0.01575320932034474
+        }
+      }
+    },
+    {
+      "N": 6,
+      "kappa": -2.2,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.0281427494898095,
+          "m4": 0.0020967499139046275,
+          "Binder_U": -0.3236817722805321,
+          "R": 0.24713292622814234,
+          "C": 0.019403985137177258,
+          "vortex": 0.19513355195473753,
+          "AF_nematic": 0.990361194711866,
+          "staggered_m2": 0.023109028568597333
+        },
+        "uniform zero-winding": {
+          "m2": 0.023525665257859638,
+          "m4": 0.0013607003160032523,
+          "Binder_U": -0.22927390778901602,
+          "R": 0.21767499123958414,
+          "C": 0.017649228731688497,
+          "vortex": 0.20057458847736392,
+          "AF_nematic": 0.9911058389537317,
+          "staggered_m2": 0.019665354795274398
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.01815147867429979,
+          "m4": 0.0007011228306608974,
+          "Binder_U": -0.06399624212837973,
+          "R": 0.1795939357010036,
+          "C": 0.015687713533369275,
+          "vortex": 0.20725257201646086,
+          "AF_nematic": 0.991919631261367,
+          "staggered_m2": 0.015525546674684408
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.028899851841419518,
+          "m4": 0.002020277801345605,
+          "Binder_U": -0.2094554158804054,
+          "R": 0.24802398602888986,
+          "C": 0.019610743930007574,
+          "vortex": 0.19389660493827235,
+          "AF_nematic": 0.9902920466461008,
+          "staggered_m2": 0.023805162915864354
+        },
+        "unit-x winding": {
+          "m2": 0.024943836893535916,
+          "m4": 0.0014239372918058092,
+          "Binder_U": -0.1442853881500239,
+          "R": 0.22570163909541882,
+          "C": 0.01864194306100895,
+          "vortex": 0.19760056584362085,
+          "AF_nematic": 0.9907011621129342,
+          "staggered_m2": 0.020808537504237574
+        },
+        "unit-x winding:half1": {
+          "m2": 0.029216496171160587,
+          "m4": 0.0019903564430813416,
+          "Binder_U": -0.1658551638887531,
+          "R": 0.25123719023250934,
+          "C": 0.01990231772878011,
+          "vortex": 0.1928384773662553,
+          "AF_nematic": 0.9902251066003599,
+          "staggered_m2": 0.024171822497554417
+        },
+        "unit-x winding:half2": {
+          "m2": 0.020671177615910884,
+          "m4": 0.0008575181405302845,
+          "Binder_U": -0.0034203007253827966,
+          "R": 0.19597843722030472,
+          "C": 0.017381568393237665,
+          "vortex": 0.20236265432098727,
+          "AF_nematic": 0.9911772176255174,
+          "staggered_m2": 0.017445252510920897
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.03744104804789699,
+          "m4": 0.004065407623951425,
+          "Binder_U": -0.45003373980041816,
+          "R": 0.3015754507932251,
+          "C": 0.022159300016768215,
+          "vortex": 0.18708976337448396,
+          "AF_nematic": 0.9891218980994669,
+          "staggered_m2": 0.029720508496778982
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.04900297347713404,
+          "m4": 0.006545485036874664,
+          "Binder_U": -0.3629093517564945,
+          "R": 0.36370886067968483,
+          "C": 0.0255620764082191,
+          "vortex": 0.17688888888888948,
+          "AF_nematic": 0.9876101356046817,
+          "staggered_m2": 0.03795589886620885
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.02587912261865941,
+          "m4": 0.001585330211028189,
+          "Binder_U": -0.18356099302085904,
+          "R": 0.2279403157724785,
+          "C": 0.018756523625317215,
+          "vortex": 0.1972906378600821,
+          "AF_nematic": 0.9906336605942585,
+          "staggered_m2": 0.021485118127349205
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.026660447759945256,
+          "m4": 0.0015369544238580705,
+          "Binder_U": -0.08117530009949259,
+          "R": 0.23472174961673278,
+          "C": 0.019165468739243567,
+          "vortex": 0.19526929012345595,
+          "AF_nematic": 0.9905158796813776,
+          "staggered_m2": 0.022241713478098623
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.02548225476886008,
+          "m4": 0.0013996809960497073,
+          "Binder_U": -0.07776323211931024,
+          "R": 0.22654414889037625,
+          "C": 0.01902310300659117,
+          "vortex": 0.1960066872427989,
+          "AF_nematic": 0.9906448756019604,
+          "staggered_m2": 0.02126325764058211
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.02783864075103044,
+          "m4": 0.001674227851666418,
+          "Binder_U": -0.08016105171956878,
+          "R": 0.24264547620054444,
+          "C": 0.019307834471895838,
+          "vortex": 0.19453189300411525,
+          "AF_nematic": 0.9903868837607928,
+          "staggered_m2": 0.023220169315615238
+        },
+        "pooled:half1": {
+          "m2": 0.03046330077286357,
+          "m4": 0.0026591613266666574,
+          "Binder_U": -0.4327181858192555,
+          "R": 0.26370859098796223,
+          "C": 0.0200438026692401,
+          "vortex": 0.1932466563786038,
+          "AF_nematic": 0.9900999372670987,
+          "staggered_m2": 0.024729131419757574
+        },
+        "pooled:half2": {
+          "m2": 0.02582219820675531,
+          "m4": 0.0015343385011426251,
+          "Binder_U": -0.15054806542388666,
+          "R": 0.22978992235861986,
+          "C": 0.01876416760511474,
+          "vortex": 0.19702044753086884,
+          "AF_nematic": 0.9906224521566707,
+          "staggered_m2": 0.02148892571743737
+        }
+      }
+    },
+    {
+      "N": 6,
+      "kappa": -2.1,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.07114779961620536,
+          "m4": 0.01109662824992943,
+          "Binder_U": -0.09606950466662934,
+          "R": 0.43790131590970327,
+          "C": 0.03404708768492944,
+          "vortex": 0.15359420010288433,
+          "AF_nematic": 0.9835662582201803,
+          "staggered_m2": 0.05346501093501222
+        },
+        "uniform zero-winding": {
+          "m2": 0.06621597600027965,
+          "m4": 0.009348277945956643,
+          "Binder_U": -0.06604626096842647,
+          "R": 0.4178670264514524,
+          "C": 0.032127010358435334,
+          "vortex": 0.15739171810699523,
+          "AF_nematic": 0.9845861168228311,
+          "staggered_m2": 0.05059549317906523
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.06448270948234631,
+          "m4": 0.009220302734386107,
+          "Binder_U": -0.10873722693578292,
+          "R": 0.4206207175503006,
+          "C": 0.030682863097308645,
+          "vortex": 0.1610308641975309,
+          "AF_nematic": 0.9852802600571836,
+          "staggered_m2": 0.049446336994294286
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.06794924251821273,
+          "m4": 0.009476253157527169,
+          "Binder_U": -0.026212781081155656,
+          "R": 0.4152943160533176,
+          "C": 0.03357115761956177,
+          "vortex": 0.1537525720164615,
+          "AF_nematic": 0.9838919735884769,
+          "staggered_m2": 0.0517446493638365
+        },
+        "unit-x winding": {
+          "m2": 0.05628539518766228,
+          "m4": 0.00785427375075774,
+          "Binder_U": -0.23960865249150687,
+          "R": 0.3780650004294113,
+          "C": 0.02915280543701004,
+          "vortex": 0.16716229423868273,
+          "AF_nematic": 0.9858746147374725,
+          "staggered_m2": 0.04310883412674109
+        },
+        "unit-x winding:half1": {
+          "m2": 0.0703629181783323,
+          "m4": 0.010571165775461914,
+          "Binder_U": -0.06759173327759904,
+          "R": 0.43934013604842925,
+          "C": 0.0332670191536925,
+          "vortex": 0.1550437242798359,
+          "AF_nematic": 0.9839452107141077,
+          "staggered_m2": 0.05343925198391066
+        },
+        "unit-x winding:half2": {
+          "m2": 0.042207872196992034,
+          "m4": 0.005137381726053599,
+          "Binder_U": -0.44186607359125185,
+          "R": 0.3099851182733735,
+          "C": 0.025038591720327873,
+          "vortex": 0.1792808641975321,
+          "AF_nematic": 0.987804018760839,
+          "staggered_m2": 0.03277841626957129
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.09544866930734036,
+          "m4": 0.016940557023506077,
+          "Binder_U": 0.07026766714266452,
+          "R": 0.525151995876807,
+          "C": 0.041649726304550126,
+          "vortex": 0.13259696502057408,
+          "AF_nematic": 0.9799623704753121,
+          "staggered_m2": 0.0701860832054388
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.10503899391947177,
+          "m4": 0.019313506881546903,
+          "Binder_U": 0.12475419823726452,
+          "R": 0.569388927205632,
+          "C": 0.04370625163672635,
+          "vortex": 0.1261851851851839,
+          "AF_nematic": 0.979100005855861,
+          "staggered_m2": 0.07715373884611185
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.08585834469520823,
+          "m4": 0.014567607165465407,
+          "Binder_U": 0.011917509277368343,
+          "R": 0.4817223575007468,
+          "C": 0.039593200972373975,
+          "vortex": 0.13900874485596731,
+          "AF_nematic": 0.9808247350947695,
+          "staggered_m2": 0.06321842756476567
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.06664115796954158,
+          "m4": 0.010243404279496996,
+          "Binder_U": -0.15326536150270953,
+          "R": 0.42101807886882614,
+          "C": 0.033258808639723074,
+          "vortex": 0.157225823045267,
+          "AF_nematic": 0.9838419308450937,
+          "staggered_m2": 0.04996963322880571
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.05549260829150502,
+          "m4": 0.007986489997126998,
+          "Binder_U": -0.29674827798935643,
+          "R": 0.37502020838344796,
+          "C": 0.030141595795607608,
+          "vortex": 0.1668508230452682,
+          "AF_nematic": 0.9851786332599108,
+          "staggered_m2": 0.04172143353219056
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.07778970764757821,
+          "m4": 0.012500318561866978,
+          "Binder_U": -0.032872718738155005,
+          "R": 0.46356568401670684,
+          "C": 0.03637602148383835,
+          "vortex": 0.14760082304526792,
+          "AF_nematic": 0.9825052284302656,
+          "staggered_m2": 0.05821783292542091
+        },
+        "pooled:half1": {
+          "m2": 0.07384430746791404,
+          "m4": 0.011772866347130408,
+          "Binder_U": -0.07948888303427193,
+          "R": 0.4542584385644685,
+          "C": 0.03444943242083399,
+          "vortex": 0.1522776491769548,
+          "AF_nematic": 0.98337602747176,
+          "staggered_m2": 0.055440190339127005
+        },
+        "pooled:half2": {
+          "m2": 0.06845129176449846,
+          "m4": 0.010420390152728292,
+          "Binder_U": -0.11196389893212477,
+          "R": 0.42181269659255133,
+          "C": 0.03364474294902529,
+          "vortex": 0.1549107510288071,
+          "AF_nematic": 0.9837564889685825,
+          "staggered_m2": 0.05148983153089861
+        }
+      }
+    },
+    {
+      "N": 6,
+      "kappa": -2.0,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.2197924709114693,
+          "m4": 0.052207744217713355,
+          "Binder_U": 0.4596448310004899,
+          "R": 0.914366921764526,
+          "C": 0.08757603127046237,
+          "vortex": 0.032282343106995466,
+          "AF_nematic": 0.9551619029377432,
+          "staggered_m2": 0.1471611598034467
+        },
+        "uniform zero-winding": {
+          "m2": 0.23971186481589127,
+          "m4": 0.05902072721248695,
+          "Binder_U": 0.4864349039516963,
+          "R": 0.9885382190025026,
+          "C": 0.09537519348305318,
+          "vortex": 0.01844675925925984,
+          "AF_nematic": 0.9505774597663872,
+          "staggered_m2": 0.15821013934347672
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.2321007429677658,
+          "m4": 0.05564013259605312,
+          "Binder_U": 0.48357756714564015,
+          "R": 0.9448623405446492,
+          "C": 0.09265865566033661,
+          "vortex": 0.022085390946502068,
+          "AF_nematic": 0.9522656438064208,
+          "staggered_m2": 0.1546572440978322
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.24732298666401695,
+          "m4": 0.06240132182892029,
+          "Binder_U": 0.48992407139617544,
+          "R": 1.0353125484273362,
+          "C": 0.0980917313057694,
+          "vortex": 0.014808127572016395,
+          "AF_nematic": 0.9488892757263523,
+          "staggered_m2": 0.1617630345891225
+        },
+        "unit-x winding": {
+          "m2": 0.22996392665106033,
+          "m4": 0.05486925007244427,
+          "Binder_U": 0.4812243328931871,
+          "R": 0.9516357405384399,
+          "C": 0.09083338273855664,
+          "vortex": 0.0239148662551442,
+          "AF_nematic": 0.9535748090931117,
+          "staggered_m2": 0.15376249089374486
+        },
+        "unit-x winding:half1": {
+          "m2": 0.22963075642869352,
+          "m4": 0.05425691203895436,
+          "Binder_U": 0.4855241844296496,
+          "R": 0.9547442135185884,
+          "C": 0.09024946766642986,
+          "vortex": 0.023598765432098764,
+          "AF_nematic": 0.9539410730941771,
+          "staggered_m2": 0.1541728646580193
+        },
+        "unit-x winding:half2": {
+          "m2": 0.230297096873427,
+          "m4": 0.055481588105933954,
+          "Binder_U": 0.47695149922244606,
+          "R": 0.9485651160552271,
+          "C": 0.09141729781068349,
+          "vortex": 0.024230967078189215,
+          "AF_nematic": 0.9532085450920537,
+          "staggered_m2": 0.15335211712946953
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.22314361016054188,
+          "m4": 0.05288014949711042,
+          "Binder_U": 0.4690009202606692,
+          "R": 0.9188534726704947,
+          "C": 0.08874389476209829,
+          "vortex": 0.028463991769547222,
+          "AF_nematic": 0.9546682508666811,
+          "staggered_m2": 0.14951171779293398
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.22807032258262472,
+          "m4": 0.05364409207845864,
+          "Binder_U": 0.48435079801708103,
+          "R": 0.9321043043817926,
+          "C": 0.08990559301441023,
+          "vortex": 0.023236111111111034,
+          "AF_nematic": 0.9542507214575497,
+          "staggered_m2": 0.1533653847136589
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.21821689773845965,
+          "m4": 0.05211620691576221,
+          "Binder_U": 0.4527748496223537,
+          "R": 0.9055670907444938,
+          "C": 0.08758219650978608,
+          "vortex": 0.0336918724279842,
+          "AF_nematic": 0.95508578027581,
+          "staggered_m2": 0.14565805087221034
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.18635048201838553,
+          "m4": 0.04206085008881511,
+          "Binder_U": 0.3943984063098256,
+          "R": 0.8031526070336814,
+          "C": 0.0753516540981436,
+          "vortex": 0.05830375514403062,
+          "AF_nematic": 0.9618270920248159,
+          "staggered_m2": 0.12716029118363736
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.15703085380907975,
+          "m4": 0.033620396971612836,
+          "Binder_U": 0.31828498858644705,
+          "R": 0.7057050563691372,
+          "C": 0.06526490604249383,
+          "vortex": 0.0816126543209878,
+          "AF_nematic": 0.9673115153163535,
+          "staggered_m2": 0.1086304966600001
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.21567011022769197,
+          "m4": 0.05050130320601732,
+          "Binder_U": 0.45713396656981564,
+          "R": 0.9039208107051581,
+          "C": 0.08543840215379293,
+          "vortex": 0.034994855967078145,
+          "AF_nematic": 0.9563426687332621,
+          "staggered_m2": 0.14569008570727543
+        },
+        "pooled:half1": {
+          "m2": 0.2117081689470406,
+          "m4": 0.04929038342126978,
+          "Binder_U": 0.4501338706396909,
+          "R": 0.8826187514505716,
+          "C": 0.08451965559591788,
+          "vortex": 0.03763323045267394,
+          "AF_nematic": 0.9569422384186258,
+          "staggered_m2": 0.142706497532378
+        },
+        "pooled:half2": {
+          "m2": 0.2278767728758994,
+          "m4": 0.055125105014158765,
+          "Binder_U": 0.4692141786891797,
+          "R": 0.9469996878802736,
+          "C": 0.0906324069450089,
+          "vortex": 0.026931455761316486,
+          "AF_nematic": 0.953381567456872,
+          "staggered_m2": 0.15161582207451885
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -2.5,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.005228156636415433,
+          "m4": 5.5602272056701136e-05,
+          "Binder_U": -0.01710399802199203,
+          "R": 0.10501389218982099,
+          "C": 0.011640390950626507,
+          "vortex": 0.21930881076388944,
+          "AF_nematic": 0.9932143945804076,
+          "staggered_m2": 0.004606620323142038
+        },
+        "uniform zero-winding": {
+          "m2": 0.00519276886256129,
+          "m4": 5.611060395892374e-05,
+          "Binder_U": -0.0404398163443771,
+          "R": 0.10333716395891392,
+          "C": 0.01163466494089236,
+          "vortex": 0.21929069010416577,
+          "AF_nematic": 0.9932061339591899,
+          "staggered_m2": 0.004576552182567598
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.004959036737514918,
+          "m4": 5.151932136383928e-05,
+          "Binder_U": -0.04747939020986114,
+          "R": 0.09654540218128953,
+          "C": 0.01150534286212758,
+          "vortex": 0.21962109374999936,
+          "AF_nematic": 0.9932269497008803,
+          "staggered_m2": 0.004390100338099634
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.0054265009876076475,
+          "m4": 6.070188655400824e-05,
+          "Binder_U": -0.030700342323292107,
+          "R": 0.10959892562935003,
+          "C": 0.011763987019656965,
+          "vortex": 0.21896028645833351,
+          "AF_nematic": 0.9931853182175011,
+          "staggered_m2": 0.004763004027035556
+        },
+        "unit-x winding": {
+          "m2": 0.005242975033164283,
+          "m4": 5.470119722308607e-05,
+          "Binder_U": 0.005027089258019535,
+          "R": 0.1040517285893361,
+          "C": 0.011719073270515011,
+          "vortex": 0.21907845052083302,
+          "AF_nematic": 0.9931931216875725,
+          "staggered_m2": 0.004621514652931801
+        },
+        "unit-x winding:half1": {
+          "m2": 0.005284068555201708,
+          "m4": 5.725683714744238e-05,
+          "Binder_U": -0.02532246132132343,
+          "R": 0.10509799723517865,
+          "C": 0.011567477025782803,
+          "vortex": 0.21941189236111058,
+          "AF_nematic": 0.9932602696563102,
+          "staggered_m2": 0.004663401255140325
+        },
+        "unit-x winding:half2": {
+          "m2": 0.005201881511126847,
+          "m4": 5.2145557298729635e-05,
+          "Binder_U": 0.036467414694417166,
+          "R": 0.1029905936029213,
+          "C": 0.011870669515247213,
+          "vortex": 0.2187450086805542,
+          "AF_nematic": 0.9931259737188362,
+          "staggered_m2": 0.00457962805072321
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.005226776352463289,
+          "m4": 5.4248036605067305e-05,
+          "Binder_U": 0.0071441623531067755,
+          "R": 0.10567433801295795,
+          "C": 0.011594614303057284,
+          "vortex": 0.21934635416666787,
+          "AF_nematic": 0.9932520976354577,
+          "staggered_m2": 0.004601729247199004
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.005138165034688,
+          "m4": 5.171323201190618e-05,
+          "Binder_U": 0.020610176809816805,
+          "R": 0.10407735343631533,
+          "C": 0.011552333147890337,
+          "vortex": 0.21958463541666579,
+          "AF_nematic": 0.9932407670212517,
+          "staggered_m2": 0.004523956232896355
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.005315387670238605,
+          "m4": 5.6782841198228925e-05,
+          "Binder_U": -0.004887014577843463,
+          "R": 0.10722222030777429,
+          "C": 0.011636895458224267,
+          "vortex": 0.2191080729166665,
+          "AF_nematic": 0.9932634282496613,
+          "staggered_m2": 0.004679502261501664
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.005250106297472736,
+          "m4": 5.7349250439726854e-05,
+          "Binder_U": -0.04030708741801692,
+          "R": 0.1069821901255054,
+          "C": 0.011613211288041133,
+          "vortex": 0.2195197482638894,
+          "AF_nematic": 0.9932062250394165,
+          "staggered_m2": 0.004626685209869738
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.005437245832096282,
+          "m4": 6.245706988588914e-05,
+          "Binder_U": -0.05631554768714109,
+          "R": 0.11058014884883907,
+          "C": 0.011866149897010504,
+          "vortex": 0.21853211805555464,
+          "AF_nematic": 0.9931026076072283,
+          "staggered_m2": 0.004772011268887664
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.005062966762849226,
+          "m4": 5.224143099356366e-05,
+          "Binder_U": -0.019001718003617274,
+          "R": 0.1031449531953175,
+          "C": 0.011360272679071736,
+          "vortex": 0.2205073784722217,
+          "AF_nematic": 0.993309842471602,
+          "staggered_m2": 0.004481359150851821
+        },
+        "pooled:half1": {
+          "m2": 0.005204629039875205,
+          "m4": 5.5736615102269266e-05,
+          "Binder_U": -0.028800184629431458,
+          "R": 0.104222983216097,
+          "C": 0.011622825733202731,
+          "vortex": 0.21928743489583227,
+          "AF_nematic": 0.9932076484964212,
+          "staggered_m2": 0.004587367273756036
+        },
+        "pooled:half2": {
+          "m2": 0.005251684232955577,
+          "m4": 5.546792901113284e-05,
+          "Binder_U": -0.0055756409960572295,
+          "R": 0.10579871483213568,
+          "C": 0.0116579561680501,
+          "vortex": 0.21933018663194456,
+          "AF_nematic": 0.9932211406643999,
+          "staggered_m2": 0.004625873372528078
+        }
+      }
+    },
+    {
+      "N": 8,
+      "kappa": -2.0,
+      "starts": 4,
+      "variants": {
+        "pooled": {
+          "m2": 0.2285366725804156,
+          "m4": 0.05299017705575085,
+          "Binder_U": 0.49271318438531264,
+          "R": 1.2091215401335937,
+          "C": 0.09372770353299055,
+          "vortex": 0.01948437499999988,
+          "AF_nematic": 0.9507430176524732,
+          "staggered_m2": 0.15040916058871812
+        },
+        "uniform zero-winding": {
+          "m2": 0.22604479661018861,
+          "m4": 0.05206396912763221,
+          "Binder_U": 0.49053042980963457,
+          "R": 1.2103406514853168,
+          "C": 0.09243090697109746,
+          "vortex": 0.021280490451388853,
+          "AF_nematic": 0.9515690427478403,
+          "staggered_m2": 0.14926644592183197
+        },
+        "uniform zero-winding:half1": {
+          "m2": 0.22835126042134216,
+          "m4": 0.05293026018278295,
+          "Binder_U": 0.49246358590619843,
+          "R": 1.2037781288984821,
+          "C": 0.09376751398618216,
+          "vortex": 0.01930143229166667,
+          "AF_nematic": 0.9507310222405715,
+          "staggered_m2": 0.1503918229326659
+        },
+        "uniform zero-winding:half2": {
+          "m2": 0.22373833279903602,
+          "m4": 0.05119767807248144,
+          "Binder_U": 0.4886250213427308,
+          "R": 1.2171476778109611,
+          "C": 0.09109429995601309,
+          "vortex": 0.02325954861111108,
+          "AF_nematic": 0.9524070632551243,
+          "staggered_m2": 0.14814106891099788
+        },
+        "unit-x winding": {
+          "m2": 0.23503898823956054,
+          "m4": 0.05579503433853893,
+          "Binder_U": 0.4950065611008305,
+          "R": 1.2753270514718549,
+          "C": 0.09536237590574408,
+          "vortex": 0.016858072916666626,
+          "AF_nematic": 0.9500874129498594,
+          "staggered_m2": 0.15420354393757277
+        },
+        "unit-x winding:half1": {
+          "m2": 0.23459982122812498,
+          "m4": 0.05558562272602136,
+          "Binder_U": 0.49501657205994676,
+          "R": 1.2706593208978885,
+          "C": 0.09620910336476238,
+          "vortex": 0.016215928819444517,
+          "AF_nematic": 0.9495462244830631,
+          "staggered_m2": 0.1533615079625348
+        },
+        "unit-x winding:half2": {
+          "m2": 0.2354781552509983,
+          "m4": 0.05600444595105646,
+          "Binder_U": 0.49500013764987827,
+          "R": 1.2800277811806573,
+          "C": 0.09451564844672534,
+          "vortex": 0.01750021701388888,
+          "AF_nematic": 0.9506286014166518,
+          "staggered_m2": 0.15504557991261197
+        },
+        "near-saturated checkerboard": {
+          "m2": 0.2291938309683113,
+          "m4": 0.05320356720807527,
+          "Binder_U": 0.4935869268657379,
+          "R": 1.1828298765098237,
+          "C": 0.09553775902666534,
+          "vortex": 0.01742328559027775,
+          "AF_nematic": 0.9491723234393818,
+          "staggered_m2": 0.14946502755989194
+        },
+        "near-saturated checkerboard:half1": {
+          "m2": 0.2286523154801424,
+          "m4": 0.05298499119761146,
+          "Binder_U": 0.4932757792499338,
+          "R": 1.2017700047606328,
+          "C": 0.09500950451842993,
+          "vortex": 0.01856835937500003,
+          "AF_nematic": 0.9492622999361247,
+          "staggered_m2": 0.14915257244298727
+        },
+        "near-saturated checkerboard:half2": {
+          "m2": 0.22973534645648166,
+          "m4": 0.053422143218539435,
+          "Binder_U": 0.49390077505068075,
+          "R": 1.1648206348422396,
+          "C": 0.09606601353490084,
+          "vortex": 0.016278211805555488,
+          "AF_nematic": 0.9490823469426443,
+          "staggered_m2": 0.14977748267679636
+        },
+        "vortex-rich parity-locked Z4": {
+          "m2": 0.22386907450358995,
+          "m4": 0.050898137548757966,
+          "Binder_U": 0.49221053353150224,
+          "R": 1.1730256205112606,
+          "C": 0.0915797722284564,
+          "vortex": 0.022375651041666722,
+          "AF_nematic": 0.9521432914728021,
+          "staggered_m2": 0.14870162493557412
+        },
+        "vortex-rich parity-locked Z4:half1": {
+          "m2": 0.22338117065191715,
+          "m4": 0.05073747290126362,
+          "Binder_U": 0.49159980136842885,
+          "R": 1.169006156000768,
+          "C": 0.09125983722267451,
+          "vortex": 0.02258181423611117,
+          "AF_nematic": 0.9526751584596637,
+          "staggered_m2": 0.14876801508176143
+        },
+        "vortex-rich parity-locked Z4:half2": {
+          "m2": 0.2243569783552638,
+          "m4": 0.05105880219625205,
+          "Binder_U": 0.4928207675622699,
+          "R": 1.1770680159801894,
+          "C": 0.09189970723423788,
+          "vortex": 0.022169487847222277,
+          "AF_nematic": 0.9516114244859415,
+          "staggered_m2": 0.14863523478938698
+        },
+        "pooled:half1": {
+          "m2": 0.2287461419453808,
+          "m4": 0.053059586751919824,
+          "Binder_U": 0.4929785748558615,
+          "R": 1.210312070404611,
+          "C": 0.0940614897730129,
+          "vortex": 0.019166883680555646,
+          "AF_nematic": 0.950553676279859,
+          "staggered_m2": 0.15041847960498722
+        },
+        "pooled:half2": {
+          "m2": 0.228327203215444,
+          "m4": 0.052920767359582545,
+          "Binder_U": 0.4924476730396342,
+          "R": 1.2079322576635088,
+          "C": 0.09339391729296945,
+          "vortex": 0.01980186631944449,
+          "AF_nematic": 0.9509323590250882,
+          "staggered_m2": 0.15039984157244823
+        }
+      }
+    }
+  ],
+  "families": [
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0674638792117643,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0703478786714005,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.054924167610334,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0583431963879644,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0423844560089033,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0459403376608494,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0790749406949875,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.081435633355379,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0651704710669057,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0686079285883143,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0512660014388233,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0552998098930213,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0573371080596163,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0490661786966937,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.045995570690436,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0384344209710497,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0346540333212557,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0283786060810156,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.046722716031573,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0385954746502963,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.037725287534434,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0306455488541832,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.028727859037295,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.022996717250565,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.047228686627326,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0428030932380348,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0377880046224175,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0338095938011107,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0283473226175084,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0250630691153004,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0463221496225463,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.033014843323582,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0377189345452256,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0265128226173283,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.029115719467905,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.020243263095354,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0518451889655114,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0413772151423437,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0427951066867376,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0335147322144524,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0337450244079633,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.026007134465705,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0478761580799985,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0327112498039397,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0394347008515763,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.026553208472573,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.030993243623154,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0206275217290255,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.056171937734074,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0463814528591335,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0464845845137,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0375682729693723,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.036797231293326,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.02920308340537,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0390137991178503,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0259653826777018,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0320773795846465,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0211196754434013,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0251409600514427,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0164024495917814,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0516210391509238,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0391482385954656,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.042581342696832,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0317067342038237,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.03354164624274,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.024603816312905,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.030142163952561,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.018354750778719,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0247003873170875,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0148627855501933,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.019258610681614,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.011460234514055,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0354959407094406,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0234927943664993,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0263662514842964,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0172300756102035,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.017236562259152,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0111510186281705,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0192322911645086,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.011787500638028,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.011102649612211,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0067180731191896,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0029730080599135,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.0017785482797485,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0524756037579786,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.038407120344444,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0422716613426677,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.030337851178921,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.0320677189273564,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 6,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.022669227849533,
+          "bracket": [
+            -2.1,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.3017692401693792,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.3017692401693792,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.250375732394528,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.250375732394528,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.198982224619677,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.198982224619677,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.3102360080106417,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.3102360080106417,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2573444925905677,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2573444925905677,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2044529771704937,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2044529771704937,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2946150458790955,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2946150458790955,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2444935302369045,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2444935302369045,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.1943720145947134,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "near-saturated checkerboard:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.1943720145947134,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.287076617350509,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.287076617350509,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.238039431349926,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.238039431349926,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.1890022453493434,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.1890022453493434,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.280749809694121,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.280749809694121,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2328367822940387,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2328367822940387,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.184923754893956,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.184923754893956,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2936084163106827,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2936084163106827,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.243409963155117,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.243409963155117,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.193211509999552,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "pooled:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.193211509999552,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2735844728721055,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2735844728721055,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2265008553227545,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2265008553227545,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.1794172377734045,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.1794172377734045,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.270828215981213,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.270828215981213,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.224527030289659,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.224527030289659,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.178225844598105,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.178225844598105,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.277884580203505,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.277884580203505,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2297452021775217,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2297452021775217,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.1816058241515384,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "uniform zero-winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.1816058241515384,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.3010397149816417,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.3010397149816417,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2500171692697264,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2500171692697264,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.198994623557811,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.198994623557811,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2834849522462966,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2834849522462966,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2354393542877022,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2354393542877022,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.187393756329108,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.187393756329108,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.321678391618882,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.321678391618882,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.26715665576792,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.26715665576792,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.212634919916958,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "unit-x winding:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.212634919916958,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2743670087484325,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2743670087484325,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.227420205456885,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.227420205456885,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.180473402165337,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.180473402165337,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.266099317961299,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.266099317961299,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2204718318120396,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.220471831812039,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.1748443456627795,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half1",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.174844345662779,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.2860569590241018,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.2,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.2860569590241018,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.237211899056955,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.25,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.237211899056955,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "linear",
+      "roots": [
+        {
+          "root": -2.1883668390898077,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    },
+    {
+      "N": 8,
+      "variant": "vortex-rich parity-locked Z4:half2",
+      "target": 0.3,
+      "interpolation": "pchip",
+      "roots": [
+        {
+          "root": -2.1883668390898077,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    }
+  ],
+  "common_anchors": [
+    {
+      "N": 6,
+      "lower_kappa": -2.1,
+      "upper_kappa": -2.0,
+      "status": "all_start_and_half_anchor_bracket",
+      "low_phase_candidates": [
+        -2.5,
+        -2.4,
+        -2.3,
+        -2.2,
+        -2.1
+      ],
+      "high_phase_candidates": [
+        -2.0
+      ]
+    },
+    {
+      "N": 8,
+      "lower_kappa": -2.5,
+      "upper_kappa": -2.0,
+      "status": "all_start_and_half_anchor_bracket",
+      "low_phase_candidates": [
+        -2.5
+      ],
+      "high_phase_candidates": [
+        -2.0
+      ]
+    }
+  ],
+  "xi_pair_crossings": [
+    {
+      "sizes": [
+        6,
+        8
+      ],
+      "kappas": [
+        -2.5,
+        -2.0
+      ],
+      "difference": [
+        0.030043781566264388,
+        -0.2947546183690677
+      ],
+      "roots": [
+        {
+          "root": -2.4537501084176427,
+          "bracket": [
+            -2.5,
+            -2.0
+          ]
+        }
+      ],
+      "status": "unique"
+    }
+  ],
+  "primary": {
+    "N": 8,
+    "variant": "pooled",
+    "target": 0.25,
+    "interpolation": "linear",
+    "roots": [
+      {
+        "root": -2.238039431349926,
+        "bracket": [
+          -2.5,
+          -2.0
+        ]
+      }
+    ],
+    "status": "unique"
+  },
+  "scope": "Exploratory fixed finite-box Binder locators within strong staggered-nematic response. All start/half/threshold/interpolation families retained, including failures. Anchor brackets and variant unions are descriptive, not calibrated confidence intervals or thermodynamic estimates. Pooling never removes incompatible starts. No assumed universality or fitted asymptote."
+}

@@ -1,0 +1,43 @@
+{
+  "frozen_implementation_sha256": "7a66cd6207107e5d1372038a7adb701014039eac9d8e5d94c8d25399a826188a",
+  "configurations": [
+    {
+      "name": "leading-min12",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "mixed-min12",
+      "window": "inner",
+      "minimum": 12,
+      "maximum": 64,
+      "model": "mixed",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    },
+    {
+      "name": "leading-min16",
+      "window": "inner",
+      "minimum": 16,
+      "maximum": 64,
+      "model": "leading",
+      "nu": 0.67169,
+      "omega": 0.789,
+      "holdout": null
+    }
+  ],
+  "variants": [
+    "block4",
+    "latecut",
+    "even",
+    "odd"
+  ],
+  "draws": 2000,
+  "scope": "Existing joint caches only. Nonpaired comparisons across different bootstrap seeds/cuts/start sets; not a systematic-error calibration."
+}

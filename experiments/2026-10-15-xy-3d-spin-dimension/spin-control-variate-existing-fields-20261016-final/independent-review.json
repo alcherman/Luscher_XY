@@ -1,0 +1,24 @@
+{
+  "outcome": "accepted_with_qualifications",
+  "reviewer": "/root/forecast_review",
+  "created": 1792193894.3005939,
+  "required_fixes": [],
+  "checks": [
+    "8 new CV tests independently passed;36 combined tests run by parent",
+    "32 primary raw paired banks: SD ratios and paired intervals reproduced",
+    "20 matched quotient comparisons reproduced",
+    "8 size-pair difference intervals and3 fixed-q change intervals reproduced",
+    "9 comparison-source hashes verified",
+    "Original/CV crossing coordinates and R values exactly identical on shared valid draws",
+    "Final report and both PNGs reviewed"
+  ],
+  "qualifications": [
+    "Conditional estimated variance gain; not independently replicated performance or accuracy improvement",
+    "Gain not uniform: one primary quarter-distance coordinate worsens",
+    "Two starts and few blocks limit error assessment",
+    "Size-pair difference interval includes zero, not established finite-size bias",
+    "Doubled-block32:64 unresolved due insufficient required-group blocks",
+    "Poor fixed-q sampling-variant fits prevent promoting effective slopes to CFT Delta",
+    "No calibrated systematic-error estimate"
+  ]
+}

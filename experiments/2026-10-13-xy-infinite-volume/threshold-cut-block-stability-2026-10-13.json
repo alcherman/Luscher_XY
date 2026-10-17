@@ -1,0 +1,2398 @@
+{
+  "created": "2026-10-13T19:00:13.503974-05:00",
+  "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-183856/analysis.json",
+  "snapshots": [
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-183856/analysis.json",
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-185441-cut501-block1/analysis.json",
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-185618-cut2001-block1/analysis.json",
+    "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/threshold-curve-snapshot-20261013-185749-cut1001-block2/analysis.json"
+  ],
+  "results": [
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.8,
+      "common_sizes": [],
+      "status": "insufficient_common_sizes",
+      "variants": []
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.82,
+      "common_sizes": [
+        6,
+        8,
+        12
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.06187344011330427,
+            "bootstrap_95": [
+              0.060453800278141644,
+              0.06325917600313101
+            ],
+            "coefficients": [
+              0.06187344011330427,
+              -0.7420818389386188
+            ],
+            "chi2": 0.7660907070938945,
+            "df": 1,
+            "p": 0.38142914692218843,
+            "MC_sd": 0.000726308776790276
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.061679536028501104,
+            "bootstrap_95": [
+              0.06014635072725117,
+              0.0630549933155368
+            ],
+            "coefficients": [
+              0.061679536028501104,
+              -0.7406069643865869
+            ],
+            "chi2": 1.5595279182559931,
+            "df": 1,
+            "p": 0.2117343554964493,
+            "MC_sd": 0.0007403099257250132
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.06119086765014077,
+            "bootstrap_95": [
+              0.05907989142958804,
+              0.06332904613783301
+            ],
+            "coefficients": [
+              0.06119086765014077,
+              -0.7311125210480083
+            ],
+            "chi2": 4.762714742925766,
+            "df": 1,
+            "p": 0.029082643310281302,
+            "MC_sd": 0.0010103861584837978
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.061866707388994815,
+            "bootstrap_95": [
+              0.0604573124027859,
+              0.06333417200956844
+            ],
+            "coefficients": [
+              0.061866707388994815,
+              -0.7419252938924855
+            ],
+            "chi2": 0.7720849118743984,
+            "df": 1,
+            "p": 0.3795728399685542,
+            "MC_sd": 0.0007178296879854645
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.06119086765014077,
+        0.06187344011330427
+      ],
+      "max_shift_from_reference": 0.0006825724631635,
+      "tested_MC_interval_union": [
+        0.05907989142958804,
+        0.06333417200956844
+      ],
+      "doubled_block_MC_sd_ratio": 0.9883257795089816
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.84,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.12234550823865274,
+            "bootstrap_95": [
+              0.12072095107030834,
+              0.12384613589740615
+            ],
+            "coefficients": [
+              0.12234550823865274,
+              -0.787114068110099
+            ],
+            "chi2": 0.2223257531102198,
+            "df": 2,
+            "p": 0.8947929962587398,
+            "MC_sd": 0.000816341477159241
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.12191640161859474,
+            "bootstrap_95": [
+              0.12007589924884432,
+              0.12341471282373807
+            ],
+            "coefficients": [
+              0.12191640161859474,
+              -0.7738863547786196
+            ],
+            "chi2": 0.48229831953208113,
+            "df": 2,
+            "p": 0.7857244191767259,
+            "MC_sd": 0.0008771726687420591
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.12282547144178367,
+            "bootstrap_95": [
+              0.12058769472840607,
+              0.12450933710936565
+            ],
+            "coefficients": [
+              0.12282547144178367,
+              -0.7906101212841056
+            ],
+            "chi2": 0.49939767288963954,
+            "df": 2,
+            "p": 0.7790353648059734,
+            "MC_sd": 0.0010402316468737399
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.12236453054167432,
+            "bootstrap_95": [
+              0.1208251244413916,
+              0.1235928388897894
+            ],
+            "coefficients": [
+              0.12236453054167432,
+              -0.7874970088723259
+            ],
+            "chi2": 0.2089167639762328,
+            "df": 2,
+            "p": 0.9008122866432144,
+            "MC_sd": 0.0007325294864788971
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.12191640161859474,
+        0.12282547144178367
+      ],
+      "max_shift_from_reference": 0.00047996320313092866,
+      "tested_MC_interval_union": [
+        0.12007589924884432,
+        0.12450933710936565
+      ],
+      "doubled_block_MC_sd_ratio": 0.8973321912148843
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.86,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.177444939277312,
+            "bootstrap_95": [
+              0.17534126434729533,
+              0.1790956534066937
+            ],
+            "coefficients": [
+              0.177444939277312,
+              -0.7619147605943924
+            ],
+            "chi2": 1.01538383805226,
+            "df": 2,
+            "p": 0.6018831719552789,
+            "MC_sd": 0.0009582265917445816
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.17677037186526906,
+            "bootstrap_95": [
+              0.1749586971871098,
+              0.17838183375241282
+            ],
+            "coefficients": [
+              0.17677037186526906,
+              -0.7474345294765208
+            ],
+            "chi2": 0.19414003746475644,
+            "df": 2,
+            "p": 0.9074924624368115,
+            "MC_sd": 0.0008795426601821022
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.1770345969196416,
+            "bootstrap_95": [
+              0.17476798875551783,
+              0.17902465087769504
+            ],
+            "coefficients": [
+              0.1770345969196416,
+              -0.7640437631589899
+            ],
+            "chi2": 0.9193232456001238,
+            "df": 2,
+            "p": 0.6314972936440499,
+            "MC_sd": 0.001056159911159298
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.17740011284851318,
+            "bootstrap_95": [
+              0.17525946815716514,
+              0.17903851229809628
+            ],
+            "coefficients": [
+              0.17740011284851318,
+              -0.7612831479551587
+            ],
+            "chi2": 0.9988018260900626,
+            "df": 2,
+            "p": 0.6068941331838924,
+            "MC_sd": 0.0009413882132868087
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.17677037186526906,
+        0.177444939277312
+      ],
+      "max_shift_from_reference": 0.0006745674120429423,
+      "tested_MC_interval_union": [
+        0.17476798875551783,
+        0.1790956534066937
+      ],
+      "doubled_block_MC_sd_ratio": 0.9824275608683367
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.88,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.22667337221161935,
+            "bootstrap_95": [
+              0.22524774847861956,
+              0.2281980642699528
+            ],
+            "coefficients": [
+              0.22667337221161935,
+              -0.6667224302721859
+            ],
+            "chi2": 4.31023940882779,
+            "df": 2,
+            "p": 0.11588931731974167,
+            "MC_sd": 0.0007426846600566788
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.22752568049332358,
+            "bootstrap_95": [
+              0.22605191410384673,
+              0.22890469615161804
+            ],
+            "coefficients": [
+              0.22752568049332358,
+              -0.6923493228639862
+            ],
+            "chi2": 4.145157780414459,
+            "df": 2,
+            "p": 0.1258607816781239,
+            "MC_sd": 0.0007598709021512629
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.22769910530127843,
+            "bootstrap_95": [
+              0.2257552978975488,
+              0.22960650344160913
+            ],
+            "coefficients": [
+              0.22769910530127843,
+              -0.7082294179068982
+            ],
+            "chi2": 2.769891477663126,
+            "df": 2,
+            "p": 0.2503373830220781,
+            "MC_sd": 0.0009937394913568267
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.22662551942112247,
+            "bootstrap_95": [
+              0.22519431126807743,
+              0.22803313723091018
+            ],
+            "coefficients": [
+              0.22662551942112247,
+              -0.6633121953728853
+            ],
+            "chi2": 4.146480278356679,
+            "df": 2,
+            "p": 0.12577758387599808,
+            "MC_sd": 0.0007510850822883211
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.22662551942112247,
+        0.22769910530127843
+      ],
+      "max_shift_from_reference": 0.0010257330896590866,
+      "tested_MC_interval_union": [
+        0.22519431126807743,
+        0.22960650344160913
+      ],
+      "doubled_block_MC_sd_ratio": 1.0113108869530187
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.9,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.27272130469657496,
+            "bootstrap_95": [
+              0.27081667799486353,
+              0.27444882992349895
+            ],
+            "coefficients": [
+              0.27272130469657496,
+              -0.6602100248131484
+            ],
+            "chi2": 2.869025246579777,
+            "df": 2,
+            "p": 0.23823144418251485,
+            "MC_sd": 0.0009545282638861037
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.27243284369645576,
+            "bootstrap_95": [
+              0.2706580826121076,
+              0.2737952189896852
+            ],
+            "coefficients": [
+              0.27243284369645576,
+              -0.6467890112856314
+            ],
+            "chi2": 0.4286214827065554,
+            "df": 2,
+            "p": 0.807097547467772,
+            "MC_sd": 0.0008055555681728037
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.2735143961932717,
+            "bootstrap_95": [
+              0.27102206699174847,
+              0.2753660659971771
+            ],
+            "coefficients": [
+              0.2735143961932717,
+              -0.6766594313482305
+            ],
+            "chi2": 1.8884469120060117,
+            "df": 2,
+            "p": 0.3889815149105216,
+            "MC_sd": 0.0010844187863725293
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.27284102594989956,
+            "bootstrap_95": [
+              0.2708845418865847,
+              0.2746243253096382
+            ],
+            "coefficients": [
+              0.27284102594989956,
+              -0.6609465878729053
+            ],
+            "chi2": 3.2110303108775513,
+            "df": 2,
+            "p": 0.20078609221539997,
+            "MC_sd": 0.0009510671617191297
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.27243284369645576,
+        0.2735143961932717
+      ],
+      "max_shift_from_reference": 0.0007930914966967628,
+      "tested_MC_interval_union": [
+        0.2706580826121076,
+        0.2753660659971771
+      ],
+      "doubled_block_MC_sd_ratio": 0.9963740181428646
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.92,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3152962469993706,
+            "bootstrap_95": [
+              0.31361425981221236,
+              0.3165954929013949
+            ],
+            "coefficients": [
+              0.3152962469993706,
+              -0.6082271260632908
+            ],
+            "chi2": 5.430347891088551,
+            "df": 2,
+            "p": 0.06619343795201399,
+            "MC_sd": 0.0007618785359214932
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.31521491129597234,
+            "bootstrap_95": [
+              0.31359767055828836,
+              0.3163915170296572
+            ],
+            "coefficients": [
+              0.31521491129597234,
+              -0.601745591163401
+            ],
+            "chi2": 8.327844314517222,
+            "df": 2,
+            "p": 0.015546462514612424,
+            "MC_sd": 0.0007161448608779907
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3158804307067212,
+            "bootstrap_95": [
+              0.3137603496570797,
+              0.3172173898981217
+            ],
+            "coefficients": [
+              0.3158804307067212,
+              -0.6402739271336497
+            ],
+            "chi2": 2.7845444325156086,
+            "df": 2,
+            "p": 0.2485099941720982,
+            "MC_sd": 0.0009236720432613289
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3152284524000062,
+            "bootstrap_95": [
+              0.313642797533271,
+              0.316541235760354
+            ],
+            "coefficients": [
+              0.3152284524000062,
+              -0.6077122747071503
+            ],
+            "chi2": 4.73025991092413,
+            "df": 2,
+            "p": 0.09393709193703247,
+            "MC_sd": 0.0007792975449276738
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.31521491129597234,
+        0.3158804307067212
+      ],
+      "max_shift_from_reference": 0.0005841837073506384,
+      "tested_MC_interval_union": [
+        0.31359767055828836,
+        0.3172173898981217
+      ],
+      "doubled_block_MC_sd_ratio": 1.0228632363098566
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.94,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3553520433546665,
+            "bootstrap_95": [
+              0.3534079665324026,
+              0.3572560111605086
+            ],
+            "coefficients": [
+              0.3553520433546665,
+              -0.5813578329895162
+            ],
+            "chi2": 2.9229544126263263,
+            "df": 2,
+            "p": 0.23189346709971798,
+            "MC_sd": 0.0009823995647813475
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.35593731574843546,
+            "bootstrap_95": [
+              0.3539937633977576,
+              0.3576308763185997
+            ],
+            "coefficients": [
+              0.35593731574843546,
+              -0.5981118431329406
+            ],
+            "chi2": 2.752307917617158,
+            "df": 2,
+            "p": 0.25254799760452407,
+            "MC_sd": 0.000908427446230856
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.35338237359628033,
+            "bootstrap_95": [
+              0.3509910360767395,
+              0.35599299442887333
+            ],
+            "coefficients": [
+              0.35338237359628033,
+              -0.5328205204926253
+            ],
+            "chi2": 3.6626525925847813,
+            "df": 2,
+            "p": 0.160200952881323,
+            "MC_sd": 0.0012716978879939273
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3554990667293696,
+            "bootstrap_95": [
+              0.35344420921683445,
+              0.3575659222677223
+            ],
+            "coefficients": [
+              0.3554990667293696,
+              -0.5840412318724535
+            ],
+            "chi2": 2.5678189205247866,
+            "df": 2,
+            "p": 0.27695244665374985,
+            "MC_sd": 0.0010671764782168676
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.35338237359628033,
+        0.35593731574843546
+      ],
+      "max_shift_from_reference": 0.0019696697583861944,
+      "tested_MC_interval_union": [
+        0.3509910360767395,
+        0.3576308763185997
+      ],
+      "doubled_block_MC_sd_ratio": 1.0862957563039932
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.96,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3908029418202038,
+            "bootstrap_95": [
+              0.38944929195458267,
+              0.3920896966865398
+            ],
+            "coefficients": [
+              0.3908029418202038,
+              -0.5471746832351315
+            ],
+            "chi2": 2.6933868653144657,
+            "df": 2,
+            "p": 0.2600988747760985,
+            "MC_sd": 0.0006781665431132686
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.39092087757888744,
+            "bootstrap_95": [
+              0.389661548681009,
+              0.39215720003254617
+            ],
+            "coefficients": [
+              0.39092087757888744,
+              -0.5526220021218683
+            ],
+            "chi2": 2.8366936719174176,
+            "df": 2,
+            "p": 0.24211394029645728,
+            "MC_sd": 0.0006305851421515699
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3906494785240865,
+            "bootstrap_95": [
+              0.38885338383654333,
+              0.3922940283735411
+            ],
+            "coefficients": [
+              0.3906494785240865,
+              -0.5531818897052703
+            ],
+            "chi2": 1.3566032421537864,
+            "df": 2,
+            "p": 0.5074781510674051,
+            "MC_sd": 0.0008875339393858851
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3907904244491894,
+            "bootstrap_95": [
+              0.38955600706298515,
+              0.3920237357392129
+            ],
+            "coefficients": [
+              0.3907904244491894,
+              -0.5468410092659355
+            ],
+            "chi2": 2.7810914903376354,
+            "df": 2,
+            "p": 0.24893941007276604,
+            "MC_sd": 0.0006520455499538104
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.3906494785240865,
+        0.39092087757888744
+      ],
+      "max_shift_from_reference": 0.00015346329611731768,
+      "tested_MC_interval_union": [
+        0.38885338383654333,
+        0.3922940283735411
+      ],
+      "doubled_block_MC_sd_ratio": 0.9614829227057647
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 0.98,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.4235991243469799,
+            "bootstrap_95": [
+              0.4223032901402071,
+              0.4248167343960041
+            ],
+            "coefficients": [
+              0.4235991243469799,
+              -0.5263392393177931
+            ],
+            "chi2": 1.3844260027521922,
+            "df": 2,
+            "p": 0.5004673078325648,
+            "MC_sd": 0.0006375751956475594
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.4233748955993388,
+            "bootstrap_95": [
+              0.42207053965349545,
+              0.42457126398094625
+            ],
+            "coefficients": [
+              0.4233748955993388,
+              -0.5203212710515556
+            ],
+            "chi2": 0.6775262407432334,
+            "df": 2,
+            "p": 0.7126512416579327,
+            "MC_sd": 0.0006278925768361265
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.4234179418196298,
+            "bootstrap_95": [
+              0.42179281302118465,
+              0.424781144472094
+            ],
+            "coefficients": [
+              0.4234179418196298,
+              -0.5181645088670672
+            ],
+            "chi2": 0.37015456714031353,
+            "df": 2,
+            "p": 0.8310400556278222,
+            "MC_sd": 0.0007489717792258812
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.4236332664727202,
+            "bootstrap_95": [
+              0.4224119772299399,
+              0.42478982121377185
+            ],
+            "coefficients": [
+              0.4236332664727202,
+              -0.5261968795895368
+            ],
+            "chi2": 1.400605472740294,
+            "df": 2,
+            "p": 0.4964349921126253,
+            "MC_sd": 0.000599188750685925
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.4233748955993388,
+        0.4236332664727202
+      ],
+      "max_shift_from_reference": 0.00022422874764110867,
+      "tested_MC_interval_union": [
+        0.42179281302118465,
+        0.4248167343960041
+      ],
+      "doubled_block_MC_sd_ratio": 0.9397930703332228
+    },
+    {
+      "D": 3,
+      "epsilon_over_pi": 1.0,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.45541852694009,
+            "bootstrap_95": [
+              0.45386037792266276,
+              0.4564892391832868
+            ],
+            "coefficients": [
+              0.45541852694009,
+              -0.524000094723926
+            ],
+            "chi2": 3.743727506339747,
+            "df": 2,
+            "p": 0.15383668086576885,
+            "MC_sd": 0.0006442617864388725
+          },
+          "joint_valid_fraction": 0.999
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.4556139365148629,
+            "bootstrap_95": [
+              0.4544227696620697,
+              0.4567009159076581
+            ],
+            "coefficients": [
+              0.4556139365148629,
+              -0.5302738191521884
+            ],
+            "chi2": 6.202731554513565,
+            "df": 2,
+            "p": 0.04498771721457963,
+            "MC_sd": 0.0005742937561122475
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.4557845167844795,
+            "bootstrap_95": [
+              0.4544232205437713,
+              0.45681780107364633
+            ],
+            "coefficients": [
+              0.4557845167844795,
+              -0.5336427253860333
+            ],
+            "chi2": 4.623265987188495,
+            "df": 2,
+            "p": 0.09909929084808528,
+            "MC_sd": 0.0005903514463693443
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.45546314140580213,
+            "bootstrap_95": [
+              0.45397426017513876,
+              0.4564245889960591
+            ],
+            "coefficients": [
+              0.45546314140580213,
+              -0.5249149428023311
+            ],
+            "chi2": 3.9693232777162715,
+            "df": 2,
+            "p": 0.13742710624353788,
+            "MC_sd": 0.0006426348078473949
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.45541852694009,
+        0.4557845167844795
+      ],
+      "max_shift_from_reference": 0.00036598984438951376,
+      "tested_MC_interval_union": [
+        0.45386037792266276,
+        0.45681780107364633
+      ],
+      "doubled_block_MC_sd_ratio": 0.9974746622790238
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 0.88,
+      "common_sizes": [
+        6,
+        8,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.04443278913166745,
+            "bootstrap_95": [
+              0.04306283851472921,
+              0.04547435779169399
+            ],
+            "coefficients": [
+              0.04443278913166745,
+              -0.01232529746501288
+            ],
+            "chi2": 80.29930425551757,
+            "df": 1,
+            "p": 3.2178235216538714e-19,
+            "MC_sd": 0.0006390940675565246
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.043281553700435106,
+            "bootstrap_95": [
+              0.04179872440025907,
+              0.044412633716489645
+            ],
+            "coefficients": [
+              0.043281553700435106,
+              0.021534631545359995
+            ],
+            "chi2": 62.0760102414936,
+            "df": 1,
+            "p": 3.3045266465473577e-15,
+            "MC_sd": 0.0006807510195780932
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.043903419219096844,
+            "bootstrap_95": [
+              0.04176459045959571,
+              0.04510874539259685
+            ],
+            "coefficients": [
+              0.043903419219096844,
+              -0.009497160081445822
+            ],
+            "chi2": 43.14887622388986,
+            "df": 1,
+            "p": 5.0729025222888025e-11,
+            "MC_sd": 0.0008620229427550983
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.04384370767376226,
+            "bootstrap_95": [
+              0.04218192420163346,
+              0.04487945683591853
+            ],
+            "coefficients": [
+              0.04384370767376226,
+              0.00219440788928782
+            ],
+            "chi2": 69.79443288570153,
+            "df": 1,
+            "p": 6.581838425128541e-17,
+            "MC_sd": 0.0007013548068806496
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.043281553700435106,
+        0.04443278913166745
+      ],
+      "max_shift_from_reference": 0.001151235431232342,
+      "tested_MC_interval_union": [
+        0.04176459045959571,
+        0.04547435779169399
+      ],
+      "doubled_block_MC_sd_ratio": 1.09742030553056
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 0.9,
+      "common_sizes": [
+        6,
+        8,
+        10,
+        12,
+        16,
+        20
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.09756501753143364,
+            "bootstrap_95": [
+              0.09720557263612836,
+              0.09787496079270187
+            ],
+            "coefficients": [
+              0.09756501753143364,
+              -0.10243403370983101
+            ],
+            "chi2": 1.6879126497697172,
+            "df": 4,
+            "p": 0.7929121185274864,
+            "MC_sd": 0.00016988768697153388
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.09768454475733702,
+            "bootstrap_95": [
+              0.09736169066593767,
+              0.09794865493265599
+            ],
+            "coefficients": [
+              0.09768454475733702,
+              -0.12953090969726652
+            ],
+            "chi2": 0.7824513348719818,
+            "df": 4,
+            "p": 0.9407851055067264,
+            "MC_sd": 0.0001513933772830254
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.09745287346277363,
+            "bootstrap_95": [
+              0.09699232579417656,
+              0.09783737284069695
+            ],
+            "coefficients": [
+              0.09745287346277363,
+              -0.10923394467489299
+            ],
+            "chi2": 2.1534833861449307,
+            "df": 4,
+            "p": 0.7075538627207321,
+            "MC_sd": 0.00021349424244078156
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.09752283780921438,
+            "bootstrap_95": [
+              0.09717374062823149,
+              0.09780091702376421
+            ],
+            "coefficients": [
+              0.09752283780921438,
+              -0.09961484276066052
+            ],
+            "chi2": 2.0018252432560035,
+            "df": 4,
+            "p": 0.7354231476549575,
+            "MC_sd": 0.00016073773817863523
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.09745287346277363,
+        0.09768454475733702
+      ],
+      "max_shift_from_reference": 0.00011952722590338749,
+      "tested_MC_interval_union": [
+        0.09699232579417656,
+        0.09794865493265599
+      ],
+      "doubled_block_MC_sd_ratio": 0.9461411891820518
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 0.92,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.145170074286324,
+            "bootstrap_95": [
+              0.14463334154645685,
+              0.14555361541737288
+            ],
+            "coefficients": [
+              0.145170074286324,
+              -0.15205073459794977
+            ],
+            "chi2": 5.339705063514455,
+            "df": 2,
+            "p": 0.06926243856636746,
+            "MC_sd": 0.00023288569219731095
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.1451550537898283,
+            "bootstrap_95": [
+              0.14463190119955188,
+              0.14558558890992784
+            ],
+            "coefficients": [
+              0.1451550537898283,
+              -0.157726667612063
+            ],
+            "chi2": 4.283821514983648,
+            "df": 2,
+            "p": 0.11743024779086897,
+            "MC_sd": 0.0002435301207872768
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.14527226410655342,
+            "bootstrap_95": [
+              0.14462650032319382,
+              0.14562111600526478
+            ],
+            "coefficients": [
+              0.14527226410655342,
+              -0.16481173329665139
+            ],
+            "chi2": 1.3318149850090184,
+            "df": 2,
+            "p": 0.5138070400340182,
+            "MC_sd": 0.00026130376621607654
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.14516512060030065,
+            "bootstrap_95": [
+              0.1446858335038211,
+              0.1455202906875308
+            ],
+            "coefficients": [
+              0.14516512060030065,
+              -0.15378045868178125
+            ],
+            "chi2": 4.819170993740762,
+            "df": 2,
+            "p": 0.08985253100971226,
+            "MC_sd": 0.00022034048701049502
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.1451550537898283,
+        0.14527226410655342
+      ],
+      "max_shift_from_reference": 0.0001021898202294147,
+      "tested_MC_interval_union": [
+        0.14462650032319382,
+        0.14562111600526478
+      ],
+      "doubled_block_MC_sd_ratio": 0.9461314902240234
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 0.94,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.18826073918572536,
+            "bootstrap_95": [
+              0.1878337110578173,
+              0.18861776489017848
+            ],
+            "coefficients": [
+              0.18826073918572536,
+              -0.08496556453042861
+            ],
+            "chi2": 1.6061411393214078,
+            "df": 2,
+            "p": 0.4479513842920999,
+            "MC_sd": 0.0001998850090243564
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.18835007203334952,
+            "bootstrap_95": [
+              0.18796779478500902,
+              0.18867696730087988
+            ],
+            "coefficients": [
+              0.18835007203334952,
+              -0.09594349113660748
+            ],
+            "chi2": 0.8014665292836579,
+            "df": 2,
+            "p": 0.6698287042109811,
+            "MC_sd": 0.00018310354012192735
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.18835344091556167,
+            "bootstrap_95": [
+              0.18767768280229594,
+              0.1887306200341146
+            ],
+            "coefficients": [
+              0.18835344091556167,
+              -0.08843632415717116
+            ],
+            "chi2": 2.8202156949887858,
+            "df": 2,
+            "p": 0.2441169543318504,
+            "MC_sd": 0.0002520649308833194
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.18826363617709102,
+            "bootstrap_95": [
+              0.18787091942971806,
+              0.188581518265479
+            ],
+            "coefficients": [
+              0.18826363617709102,
+              -0.0848491507809896
+            ],
+            "chi2": 1.8520320641843426,
+            "df": 2,
+            "p": 0.3961287350322552,
+            "MC_sd": 0.0001859847846801295
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.18826073918572536,
+        0.18835344091556167
+      ],
+      "max_shift_from_reference": 9.270172983630309e-05,
+      "tested_MC_interval_union": [
+        0.18767768280229594,
+        0.1887306200341146
+      ],
+      "doubled_block_MC_sd_ratio": 0.930458895281471
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 0.96,
+      "common_sizes": [
+        6,
+        8,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.2301243009792477,
+            "bootstrap_95": [
+              0.22932231826418406,
+              0.23087530030577685
+            ],
+            "coefficients": [
+              0.2301243009792477,
+              -0.17466568833006854
+            ],
+            "chi2": 1.018468297135211,
+            "df": 2,
+            "p": 0.6009556453602712,
+            "MC_sd": 0.00039941495313994393
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.22995275794222042,
+            "bootstrap_95": [
+              0.22929229874568535,
+              0.23064751498901986
+            ],
+            "coefficients": [
+              0.22995275794222042,
+              -0.16471376166194618
+            ],
+            "chi2": 1.3143579626063382,
+            "df": 2,
+            "p": 0.5183114402943555,
+            "MC_sd": 0.00035239826292256276
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.2299782525415911,
+            "bootstrap_95": [
+              0.22906231697915788,
+              0.23090856904276605
+            ],
+            "coefficients": [
+              0.2299782525415911,
+              -0.17367156883126794
+            ],
+            "chi2": 0.5944823399718673,
+            "df": 2,
+            "p": 0.7428648340550139,
+            "MC_sd": 0.0004722860805903275
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.23028646375524453,
+            "bootstrap_95": [
+              0.2295161419158173,
+              0.23092493578389117
+            ],
+            "coefficients": [
+              0.23028646375524453,
+              -0.18255727060027274
+            ],
+            "chi2": 1.0561246005245908,
+            "df": 2,
+            "p": 0.5897466150995196,
+            "MC_sd": 0.0003613911968868431
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.22995275794222042,
+        0.23028646375524453
+      ],
+      "max_shift_from_reference": 0.00017154303702726637,
+      "tested_MC_interval_union": [
+        0.22906231697915788,
+        0.23092493578389117
+      ],
+      "doubled_block_MC_sd_ratio": 0.9048013702186599
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 0.98,
+      "common_sizes": [
+        6,
+        8,
+        10,
+        12,
+        16
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.26604824046893477,
+            "bootstrap_95": [
+              0.2654523912602052,
+              0.26648726185181354
+            ],
+            "coefficients": [
+              0.26604824046893477,
+              -0.035047818794794856
+            ],
+            "chi2": 6.952801466257675,
+            "df": 3,
+            "p": 0.07341746280265103,
+            "MC_sd": 0.00027096118258536773
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.2660522527478661,
+            "bootstrap_95": [
+              0.2654905203517905,
+              0.2664777793325623
+            ],
+            "coefficients": [
+              0.2660522527478661,
+              -0.046945762059449704
+            ],
+            "chi2": 6.352692403150072,
+            "df": 3,
+            "p": 0.09565653736538227,
+            "MC_sd": 0.0002523206795736111
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.26609573517362267,
+            "bootstrap_95": [
+              0.2654199629537753,
+              0.26662815253490824
+            ],
+            "coefficients": [
+              0.26609573517362267,
+              -0.022056835981299334
+            ],
+            "chi2": 5.2464694421628515,
+            "df": 3,
+            "p": 0.1546138662238459,
+            "MC_sd": 0.0003127023891304566
+          },
+          "joint_valid_fraction": 1.0
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.26606761898249476,
+            "bootstrap_95": [
+              0.2654422275839974,
+              0.2664881897135828
+            ],
+            "coefficients": [
+              0.26606761898249476,
+              -0.03313074723070088
+            ],
+            "chi2": 8.09889568280501,
+            "df": 3,
+            "p": 0.0440114402884653,
+            "MC_sd": 0.00026708228584941464
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.26604824046893477,
+        0.26609573517362267
+      ],
+      "max_shift_from_reference": 4.74947046879004e-05,
+      "tested_MC_interval_union": [
+        0.2654199629537753,
+        0.26662815253490824
+      ],
+      "doubled_block_MC_sd_ratio": 0.98568467741784
+    },
+    {
+      "D": 4,
+      "epsilon_over_pi": 1.0,
+      "common_sizes": [
+        6,
+        8,
+        10,
+        12,
+        16,
+        20
+      ],
+      "status": "conditional_stability_comparison",
+      "variants": [
+        {
+          "cut": 1001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.30177228819671403,
+            "bootstrap_95": [
+              0.30155082906012726,
+              0.3020007430240107
+            ],
+            "coefficients": [
+              0.30177228819671403,
+              -0.10550960096412383
+            ],
+            "chi2": 1.460440664126582,
+            "df": 4,
+            "p": 0.8336250382972985,
+            "MC_sd": 0.00011329080715046037
+          },
+          "joint_valid_fraction": 0.998
+        },
+        {
+          "cut": 501,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.3017590793846965,
+            "bootstrap_95": [
+              0.30154656797355744,
+              0.3019420080748035
+            ],
+            "coefficients": [
+              0.3017590793846965,
+              -0.11122071339179021
+            ],
+            "chi2": 1.4855416950466815,
+            "df": 4,
+            "p": 0.8291994515997304,
+            "MC_sd": 0.00010161802497453316
+          },
+          "joint_valid_fraction": 0.999
+        },
+        {
+          "cut": 2001,
+          "block_factor": 1,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.30163452602635266,
+            "bootstrap_95": [
+              0.3013398965166694,
+              0.30192098076965984
+            ],
+            "coefficients": [
+              0.30163452602635266,
+              -0.09061133904574041
+            ],
+            "chi2": 2.23541463731603,
+            "df": 4,
+            "p": 0.692551089195707,
+            "MC_sd": 0.00014891929167173702
+          },
+          "joint_valid_fraction": 0.999
+        },
+        {
+          "cut": 1001,
+          "block_factor": 2,
+          "fit": {
+            "status": "conditional_size_fit",
+            "sizes": [
+              6,
+              8,
+              10,
+              12,
+              16,
+              20
+            ],
+            "minimum_N": 0,
+            "correction": false,
+            "beta_infinite": 0.30177529675495973,
+            "bootstrap_95": [
+              0.3015558296544916,
+              0.3019742768582417
+            ],
+            "coefficients": [
+              0.30177529675495973,
+              -0.1041621888767452
+            ],
+            "chi2": 1.5119784143197443,
+            "df": 4,
+            "p": 0.8245175445179648,
+            "MC_sd": 0.00010499506848407165
+          },
+          "joint_valid_fraction": 1.0
+        }
+      ],
+      "beta_range": [
+        0.30163452602635266,
+        0.30177529675495973
+      ],
+      "max_shift_from_reference": 0.0001377621703613774,
+      "tested_MC_interval_union": [
+        0.3013398965166694,
+        0.3020007430240107
+      ],
+      "doubled_block_MC_sd_ratio": 0.9267748295290082
+    }
+  ],
+  "scope": "Same frozen physical-coordinate IDs; comparison fits use the intersection of bracketed sizes. Descriptive sensitivity, not an independent significance test: cuts share data. Conditional MC intervals assume weighted monotonicity; leading size-law failures and low-block/start flags remain relevant. No total-error or mixing certification."
+}

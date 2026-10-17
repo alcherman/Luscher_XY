@@ -1,0 +1,27 @@
+{
+  "created": "2026-10-14T10:46:20.343316-05:00",
+  "coordinates": [
+    [
+      60,
+      281
+    ],
+    [
+      80,
+      921
+    ],
+    [
+      100,
+      1111
+    ]
+  ],
+  "N": 512,
+  "replicas": [
+    6,
+    7
+  ],
+  "cycles": 12000,
+  "trajectories": 6,
+  "estimated_GiB": 162.77362632751465,
+  "purpose": "Independently reviewed six-run D2 N512 cost/observable pilot, matching completed N256 coordinates q=.60 beta=.281,q=.80 beta=.921,q=1 beta=1.111,12000cycles,freshreplicas6/7. Measure actual generation/audit runtime, stored bytes, R512, eta256:512, autocorrelation and start sensitivity before additional N512 sampling. One beta per slice cannot bracket crossings or validate infinite-volume precision. Motivated by unresolved BKT size dependence, including known q1 benchmark miss under baseline fixedoffset0. Preserve every field, history, RNG, checkpoint, provenance and full log; old316D2Binderjobsremain deferred,D5disabled.",
+  "review": "Independent read-only review verified exact N256 matches, unique IDs/seeds, storage reserve and limited inference. No blocker."
+}

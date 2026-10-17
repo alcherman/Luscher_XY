@@ -1,0 +1,36 @@
+3D beta=0 spin dimension from common-epsilon xi/L crossings
+
+METHOD AND CURRENT CONCLUSION
+This is the standard phenomenological-renormalization quotient construction: solve xi(L)/L=xi(2L)/(2L) at one epsilon, then Delta_eff=-log(m2(2L)/m2(L))/(2 log 2) at that same epsilon. It does not impose Delta or a critical xi/L value. Available estimates are finite-size effective dimensions. No final asymptotic Delta +/- stat +/- sys is established by this report.
+Both sizes use the same epsilon, not separate U=.25 contours. This analysis supersedes treating the earlier arbitrary Binder-fit/correction spread as a systematic standard deviation. The new data do not retrospectively validate that procedure.
+
+ATTAINED QUOTIENTS (one bootstrap SD; conditional on interpolation)
+pair      linear Delta_eff +/- SD       PCHIP Delta_eff +/- SD       validity linear/PCHIP
+6:12  central_crossing_unresolved   central_crossing_unresolved   None/None
+8:16  0.515191 +/- 0.003771   0.515848 +/- 0.004073   0.504/0.493
+12:24  0.516764 +/- 0.003801   0.517180 +/- 0.004225   0.9645/0.963
+16:32  0.517703 +/- 0.005268   0.518129 +/- 0.005580   0.983/0.974
+24:48  0.522898 +/- 0.006442   0.525522 +/- 0.007790   0.9705/0.9285
+32:64  0.525933 +/- 0.005717   0.526122 +/- 0.006109   1.0/1.0
+
+INTERPOLATION AND COVERAGE
+Crossing status and retained fractions are reported separately for every pair/method/variant. Unresolved pairs are excluded from fits and shown open in the plot. No missing root is extrapolated. Initial central crossings found by interpolating R itself are not sufficient to establish moment-consistent bootstrap coverage.
+These are finite-pair estimates, not extrapolated CFT measurements. The small-pair and interpolation differences remain visible; no fit is selected for proximity to the expected Wilson-Fisher result.
+Native interpolation brackets, not just union search windows, are in quotient-ledger.json and quotients.csv. Another size’s finer knots do not improve a coarser size’s native interpolation interval. Inspect those intervals rather than assuming the union-knot spacing is the resolution for both sizes.
+Raw S0,F,m2 are interpolated linearly or with PCHIP, then the correlation-length ratio is formed; each draw solves its own root and evaluates m2 at that root. Exact piecewise polynomial-numerator roots detect multiple or tangent roots; absent, nonphysical or ambiguous roots are invalid. No isotonic smoothing or fixed expected exponent is used. Only <=8-ulp representational duplicates are pooled; original source coordinates remain serialized.
+
+STATISTICAL AND FINITE-SIZE QUALIFICATIONS
+270 completed/audited trajectories contribute to the scalar-history cohort; per-pair contributing IDs and flags are serialized. Baselinecut=1001,draws=2000. Blocks are factors 2 and 4 times max(20,ceil(10 max measured tau)) for m2,m4,|m|,S0,F and Binder/R influences. All joint moments share resampled blocks; independent coordinates have independent draws. Reusing a size across overlapping pairs reuses its draws, preserving their covariance. Comparing block widths is a finite-data diagnostic, not a mixing proof.
+Low-block-count flags occur at supporting coordinates, particularly the old shorter anchor runs. Start/half diagnostics and every source audit/provenance record are retained in the analysis snapshots. Statistical SDs and percentile MC95 are conditional; no interpolation/systematic/total coverage is implied.
+Diagnostic GLS extrapolations use Delta_eff(L)=Delta+a L^(-.789). The omega choice is Wilson-Fisher-informed, not measured from this study. Fits recompute a common validity mask and covariance after each size cut, record omitted pairs, and mark zeroDOF/rejected cases. These extrapolations do not supply a calibrated sigma_sys or choose a preferred answer.
+
+VALIDATION AND SCOPE
+Focused oracle/analysis tests are recorded in common-xi-tests.log, including exact normalization, shared root/magnetization resampling, no extrapolation, two hidden roots with same-sign endpoints, shared-pair covariance, size-cut validity masks and roundoff-only coordinate merging. Tests establish numerical properties, not physical accuracy. Independent scientific review is recorded separately in review.json.
+This report analyses completed trajectories only. No numerical kernel, retention policy, original raw archive or previous result was changed by analysis. No additional production is authorized by this report.
+
+PRIMARY METHOD REFERENCE
+Ballesteros et al., Finite size effects on measures of critical exponents in d=3 O(N) models, section3: https://arxiv.org/html/cond-mat/9606203
+
+SOURCE SNAPSHOTS
+baseline: /Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/common-xi-refined-primary-20261015-213346 SHA256(analysis.json)=4488738bb6d28b4536270567656fa1a2cf24b50f41d6341ede5c60d8cf4db79e
+block4: /Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/common-xi-refined-block4-20261015-213412 SHA256(analysis.json)=3f3d3ffb968b323e5e5bc97e7802b4dc43e6b646a077845f42b38ad982df1745

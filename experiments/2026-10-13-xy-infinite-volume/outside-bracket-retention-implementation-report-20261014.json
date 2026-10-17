@@ -1,0 +1,32 @@
+{
+  "status": "active_verified_first_live_conversion",
+  "eligible_runs": 348,
+  "eligible_by_dimension": {
+    "3": 138,
+    "4": 210
+  },
+  "eligible_current_GiB": 341.1891687065363,
+  "tests": {
+    "passed": 14,
+    "log": "logs/outside-bracket-retention-final-tests-20261014.log"
+  },
+  "independent_review": "No blocker remains; both prepared-before-replace and replaced-before-event recovery verified. Use source_bytes minus compact_bytes for incremental second-generation savings.",
+  "policy": "Preserve all nonphi datasets and all checkpoint/first/final phi; only measured outside-bracket eligible jobs; unresolved/material flags protected.",
+  "new_fields": [
+    "source_sha256",
+    "source_bytes",
+    "previous_retention"
+  ],
+  "service": "org.luscherxy.adaptive-retention-20261014",
+  "numerical_kernels_changed": false,
+  "retention_service_pid": 76637,
+  "first_live_conversion": {
+    "id": "d4_e092_b0149_N024_r00_s004000",
+    "source_GiB": 4.474151439033449,
+    "compact_GiB": 0.4911343837156892,
+    "retained_fields": 41,
+    "original_fields": 4001,
+    "previously_thinned": true
+  },
+  "reload": "Old service stopped only under exclusive copy lock; initial immediate bootstrap raced asynchronous unload, retry after verified absence started one service. No file copy interrupted."
+}

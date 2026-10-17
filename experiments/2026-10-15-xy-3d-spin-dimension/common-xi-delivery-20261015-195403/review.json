@@ -1,0 +1,34 @@
+{
+  "status": "accepted_with_qualifications",
+  "reviewed_at": "2026-10-16T00:55:09.860963+00:00",
+  "reviewer": "independent scientific review agent",
+  "files_sha256": {
+    "provenance.json": "f874714a7b38f2e5adaf610e7f4c804cc1bbb155a9f6aea13b790016e0799e4c",
+    "common-coupling-spin-dimension-report.txt": "a29aa1fff92f20a632c76044b6b335581739dfa5af14951ba5498ad83284aa52",
+    "quotient-ledger.json": "e965385ec00e141c6f3d1c9490d57e41aaca2ff8f5f8fbf5339b4dc7f95e5144",
+    "common-xi-quotients.png": "37d7668453315cc6e1d89c097efb2c7294145abd5491c814441e61ba6c232c55"
+  },
+  "checks": [
+    "Verified baseline195238 and block4 195308 analysis hashes against delivery provenance;150sources in each",
+    "Reviewed raw S0/F second-moment xi/L normalization, common-epsilon root evaluation and Delta=-log(m2(2L)/m2(L))/(2log2)",
+    "Verified joint moment block resampling and shared-coordinate draw reuse across overlapping pairs",
+    "Reviewed piecewise polynomial numerator root solver, physical root validation, ambiguous-root rejection and <=8ulp pooling",
+    "Independently reconstructed full-covariance fixed-omega diagnostic Delta=.5279752151 and SD=.0065189664; crosspair correlation16:32 versus32:64 approximately-.52717",
+    "Reproduced reported12:24,16:32,32:64 linear estimates .5232282876/.5224692472/.5220869246 and SD .006330399/.008452895/.007056546",
+    "Checked factor4 SDs remain of comparable magnitude without claiming statistical improvement",
+    "Verified24:48 linear unresolved and PCHIP validity .665 baseline/.682 block4, excluded from fits",
+    "Native size-specific brackets checked, including N32 .8000:.8015 and coarse N6 .8000:.8200",
+    "PNG visually inspected: readable axes, unresolved quotient open marker, conditional-only uncertainty caption"
+  ],
+  "qualifications": [
+    "Accepted as finite-pair effective-dimension analysis, not a final asymptotic Delta or calibrated sigma_sys",
+    "Interpolation dependence and coarse native anchors remain material; union knots from another size do not refine a coarse curve",
+    "Unresolved24:48 percentile intervals are diagnostics conditional on surviving draws, not accepted confidence intervals",
+    "Low-block, start/half flags and tail losses remain; factor4 stability does not prove equilibration or total coverage",
+    "Fixed omega=.789 is a Wilson-Fisher-informed assumption for diagnostic extrapolations; no fit is chosen by p-value or agreement with expected exponent",
+    "Initial ratio-interpolation apparent all-pair coverage is superseded by consistent raw-moment crossing results",
+    "No new simulation, retention-policy change or original archive modification performed by this analysis"
+  ],
+  "required_fixes": [],
+  "scope": "Only saved-array arithmetic, code, provenance, reports and figure reviewed; no Monte Carlo or extra analysis pipeline launched. Requested review file written."
+}

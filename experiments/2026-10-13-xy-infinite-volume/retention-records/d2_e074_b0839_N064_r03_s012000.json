@@ -1,0 +1,61 @@
+{
+  "original_sha256": "23c751f94616670e4db9f97516edc7dcbcf91e3420da1617768b3c6150a1f040",
+  "original_bytes": 417527696,
+  "original_full_field_audit": {
+    "passed": true,
+    "rows": 12001,
+    "bytes": 417527696,
+    "sha256": "23c751f94616670e4db9f97516edc7dcbcf91e3420da1617768b3c6150a1f040"
+  },
+  "retained_fields": 1121,
+  "original_fields": 12001,
+  "policy": {
+    "tau_estimates": {
+      "m2_postwarmup": 1.172912264642073,
+      "m2_latehalf": 1.2188721349730962,
+      "m4_postwarmup": 1.203614431784653,
+      "m4_latehalf": 1.2528128375564536,
+      "binder_influence_postwarmup": 0.7734232246969048,
+      "binder_influence_latehalf": 0.7942065382275125,
+      "xi_influence_postwarmup": 1.4019478456330448,
+      "xi_influence_latehalf": 1.2670133558098862,
+      "mean_link_cosine_postwarmup": 1.3042462985857926,
+      "mean_link_cosine_latehalf": 1.311507174192326,
+      "vortex_density_postwarmup": 0.7332529567610917,
+      "vortex_density_latehalf": 0.7223387396255316,
+      "action_density_postwarmup": 1.3042462985857919,
+      "action_density_latehalf": 1.3115071741923257,
+      "winding2_postwarmup": 0.742305325603487,
+      "winding2_latehalf": 0.7422122056538176
+    },
+    "max_measured_tau": 1.4019478456330448,
+    "stride": 15,
+    "diagnostic_windows": [
+      [
+        0,
+        71
+      ],
+      [
+        1001,
+        1072
+      ],
+      [
+        6466,
+        6537
+      ],
+      [
+        11930,
+        12001
+      ]
+    ],
+    "checkpoint_interval": 100,
+    "independence": "Spacing reduces measured correlation; does not certify independence for unmeasured/constant observables."
+  },
+  "created": "2026-10-14T21:40:48.596555-05:00",
+  "source_sha256": "23c751f94616670e4db9f97516edc7dcbcf91e3420da1617768b3c6150a1f040",
+  "source_bytes": 417527696,
+  "compact_sha256": "c58fe4bfbe1310a5ea219aae4978636ecfc855d71e24a8615ab4d8f7222cf544",
+  "compact_bytes": 42015397,
+  "verified": true,
+  "committed": true
+}

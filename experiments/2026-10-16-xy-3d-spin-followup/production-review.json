@@ -1,0 +1,67 @@
+{
+  "status": "accepted_with_qualifications",
+  "approved": true,
+  "created": "2026-10-17T01:48:49.464783+00:00",
+  "reviewer": "independent scientific and restart-safety review",
+  "manager_sha256": "bea38976e0165a0b2535c69ed795f3de35245d19b43f9a4d046ea861718ac60e",
+  "design_sha256": "e3a5e18bcd5a7e10d44e2402f7f8c5809d81f78a110c2978fc47c9790be40ac7",
+  "analysis_sha256": "17ad02f7822ed6068cc50bb723fae56ae028185c1547e133b16c75f3ff9136f2",
+  "plan_sha256": "2ae4c7177a581dcf5e17db68f75cdde1a45a9c0c02547b1fb30d697695a0f0a1",
+  "scope": "Only the specified 80 D3 beta=0 trajectories on N24/32/48/64, in sequential 32/32/16 stages. No N96/128, no old archive or kernel changes.",
+  "observations": {
+    "trajectories": 80,
+    "unique_ids": 80,
+    "unique_seeds": 80,
+    "seed_collisions_against_existing_batches": 0,
+    "cycles_each": 100000,
+    "warmup_label": 10000,
+    "independent_starts_per_coordinate": 4,
+    "epsilon_over_pi": [
+      0.8006,
+      0.80068,
+      0.80076,
+      0.80084,
+      0.80092
+    ],
+    "stage_full_ceiling_bytes": [
+      3279767974688,
+      3279767974688,
+      1639883987344
+    ],
+    "pilot_audited_trajectories": 8,
+    "pilot_conservative_blocks_per_start": [
+      21,
+      28,
+      13,
+      16,
+      7,
+      12,
+      9,
+      8
+    ],
+    "recomputed_generation_audit_worker_hours": 314.48434000000515,
+    "recomputed_ideal_9_worker_lower_hours": 34.94270444444501,
+    "recomputed_staged_9_worker_hours": 37.73881630353531
+  },
+  "checks": [
+    "Independently ran test/test_xy_spin_production_manager.py: 6 passed in 9.94 s, including verified prior-stage skip with pending later stage and refusal to skip an uncommitted retention ledger.",
+    "Independently recomputed full physical stage ceilings, all80 seeds and IDs, old seed intersection, runtime worker sum and deterministic staged9-worker schedule.",
+    "Verified eight pilot job records complete with both native and online-correlation audit passed.",
+    "Inspected source support SHA gate, whole-stage fresh storage admission, coordinator/job locks and retry semantics, stage closure audits, sequential retention and restart completion checks.",
+    "Inspected conservative diagnostic advance stops for invalid means/SEs, fewer than50 conservative blocks and major half/start shifts."
+  ],
+  "qualifications": [
+    "Pilot has only7\u201328 conservative blocks per start at one epsilon. Longer100k runs and10k warmup are justified follow-up design choices, not proof of equilibration or target precision.",
+    "Observed zero accepted global-twist proposals in pilot remains explicit. Different initial winding starts, winding histories and conservative start/half screens are diagnostics; passing them is not an ergodicity theorem.",
+    "Full-history online G is primary; checkpoint subsampling and control variate comparisons are ancillary. Same joint time-block resampling must preserve G,m2,S0,F covariance.",
+    "Prior measured24:48 and32:64 common-R roots lie inside the proposed q range, but new support, interpolation, root validity and late-cut/block diagnostics must still be examined.",
+    "Finite-pair scaling and existing sizes do not certify a CFT scaling dimension or calibrated systematic uncertainty. Do not infer sigma_sys from model spread or proximity to the WF value.",
+    "37.74h is a pilot-scaled generation-plus-audit schedule, not a completion guarantee.48\u201372h is a conditional planning allowance including sequential retention/analysis and contention, with actual capacity checked before every stage.",
+    "Review approves the frozen method and bounded staged scope, not demonstrated sampling improvement or an accepted exponent. Diagnostic flags require scientific review before advancing."
+  ],
+  "not_checked": [
+    "No production jobs launched or services modified by this reviewer.",
+    "No independent rerun of the full native/online exactness suite in this review turn; prior exactness tests were reviewed and the focused manager suite was rerun.",
+    "No future throughput, retention ratio, equilibrium, or eventual common-coupling precision certified."
+  ]
+}

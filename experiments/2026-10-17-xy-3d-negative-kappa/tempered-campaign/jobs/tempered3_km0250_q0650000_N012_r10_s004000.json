@@ -1,0 +1,37 @@
+{
+  "state": "complete",
+  "point": {
+    "id": "tempered3_km0250_q0650000_N012_r10_s004000",
+    "D": 3,
+    "N": 12,
+    "beta": -0.25,
+    "kappa": -0.25,
+    "epsilon_over_pi": 0.65,
+    "epsilon": 2.0420352248333655,
+    "seed": 10118825448886119806,
+    "initial_winding": [
+      0,
+      0,
+      0
+    ],
+    "replica": 10,
+    "steps": 4000,
+    "warmup": 1000,
+    "clusters_per_cycle": 4
+  },
+  "generation_seconds": 10.392770209000446,
+  "audit_seconds": 0.731009625014849,
+  "audit": {
+    "passed": true,
+    "rows": 4001,
+    "bytes": 78045624,
+    "sha256": "e9187c906a65e4bffc322729902be4a246b3ac029ce24791717c2d3ef5be734e",
+    "tempered_path": {
+      "passed": true,
+      "attempts": 464,
+      "accepted": 0,
+      "formula": "Independent telescoped C-path work identity plus final native-C equality; full fields audited separately"
+    }
+  },
+  "updated": "2026-10-17T11:39:32.973465-05:00"
+}

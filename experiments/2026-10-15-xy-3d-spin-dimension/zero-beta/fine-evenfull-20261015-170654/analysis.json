@@ -1,0 +1,6073 @@
+{
+  "created": "2026-10-15T17:06:56.120521-05:00",
+  "settings": {
+    "tag": "fine-evenfull",
+    "beta": 0,
+    "D": 3,
+    "cut": 1001,
+    "factor": 1,
+    "target": 0.25,
+    "starts": "even",
+    "window": "full",
+    "id_prefix": null,
+    "source_analysis": "experiments/2026-10-15-xy-3d-spin-dimension/zero-beta/fine-primary-20261015-170556/analysis.json"
+  },
+  "source_jobs": [
+    {
+      "id": "spinzero3_e080150_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080150_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 17383732167185473952,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509632744,
+        "sha256": "10dd600d25e632af200b08c38f09a4c08de94cd889c99e7786898cdd124ae16f"
+      }
+    },
+    {
+      "id": "spinzero3_e080150_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080150_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 14443612895699784594,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "fe58109ad1476e8c83bba095b604b29a4c746f7cb85b71bc3a2d972422b52579"
+      }
+    },
+    {
+      "id": "spinzero3_e080175_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080175_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 11824208085109375960,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "9c6ba4d2c55e9a24a4b866f6b3969e183780a7aabd1863066782e6bfa5add383"
+      }
+    },
+    {
+      "id": "spinzero3_e080175_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080175_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 2047695012641662812,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464582392,
+        "sha256": "7b7c765b368c11f7f7bf6a91da612616bd04ea40c5dbaf646a7392c4908eb6e0"
+      }
+    },
+    {
+      "id": "spinzero3_e080200_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080200_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 11964373763667567456,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "18e2794480b6e5af2a31941877a98d6b291fbe2b3360b27f754392c06c0fb8d4"
+      }
+    },
+    {
+      "id": "spinzero3_e080200_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080200_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 17943922707426512481,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464549624,
+        "sha256": "0cc40e05269b15a2ae93349c6d30d0530cfefb10e1bc188a3524b71a946274de"
+      }
+    },
+    {
+      "id": "spinzero3_e080225_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080225_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3944934090530295722,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "e44bbf186edd8e5b450ddeaf2bf0d8d9f394ffb8322cc6805e589177754635ea"
+      }
+    },
+    {
+      "id": "spinzero3_e080225_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080225_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 2972510027731887931,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464516856,
+        "sha256": "e55fa44e7fb9e9780a7e137de30607908131916f41753cd0e54e51803bc10e7b"
+      }
+    },
+    {
+      "id": "spinzero3_e080250_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080250_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8025,
+        "epsilon": 2.521128104505809,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 862380484134892473,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80250,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "7f1afeb7d54fe99f18f61dae48ef2d0495ee4a048a0923d8ef8054c56d63a3bd"
+      }
+    },
+    {
+      "id": "spinzero3_e080250_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080250_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8025,
+        "epsilon": 2.521128104505809,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3553937446806547023,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80250,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "158e0847ea058d1bb99aa6756d3903d362366fcfcf60db5a9388726f5b5edf67"
+      }
+    },
+    {
+      "id": "spinzero3_e080250_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080250_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8025,
+        "epsilon": 2.521128104505809,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 5282621617057215040,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80250,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "01d7ceec58e8bafc2993e3e1ffed2c3bc22d45b52a1760b54bc3aaf10b569371"
+      }
+    },
+    {
+      "id": "spinzero3_e080275_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080275_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80275,
+        "epsilon": 2.5219135026692063,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3297602330785868922,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80275,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509665512,
+        "sha256": "b642959304297f411e69638f50475e8f86c8c8f8d13001705b4916555a6157ef"
+      }
+    },
+    {
+      "id": "spinzero3_e080275_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080275_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80275,
+        "epsilon": 2.5219135026692063,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 16598396856741308901,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80275,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "c743fd33fa464118140afcb886b74ae2cb729ea55c8ef1dff8a396dd9d67a497"
+      }
+    },
+    {
+      "id": "spinzero3_e080300_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080300_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.803,
+        "epsilon": 2.522698900832604,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 4974673735385996756,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "40976ef7cba48483c99ff6b5e5189919d62269af53b39332405fe8283f5fc7ff"
+      }
+    },
+    {
+      "id": "spinzero3_e080300_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080300_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.803,
+        "epsilon": 2.522698900832604,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 133069272752800253,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "1bbe4ca8a0952045c5672379483e390b7d7432e17cb54544898199d40a2e36d6"
+      }
+    },
+    {
+      "id": "spinzero3_e080300_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080300_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.803,
+        "epsilon": 2.522698900832604,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 13375848709106093579,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "4b9895d8b400fcbab5585f36177e1da02cbb146dac080990ac0ee5f1f49181f4"
+      }
+    },
+    {
+      "id": "spinzero3_e080325_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080325_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80325,
+        "epsilon": 2.5234842989960016,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 9629509049029842359,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80325,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509665512,
+        "sha256": "3883879343938e51b915d322feaee3221e48bb9779516f57f36d4ddc4d3db63c"
+      }
+    },
+    {
+      "id": "spinzero3_e080350_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080350_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8035,
+        "epsilon": 2.5242696971593985,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 1337706795388466233,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80350,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "2b89a9040ca6257e5ec6555d6fc9713aaae51cbca92bbfcfeff95843f0167828"
+      }
+    },
+    {
+      "id": "spinzero3_e080350_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080350_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8035,
+        "epsilon": 2.5242696971593985,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3667620378375937699,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80350,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "7c3aade296ab45cad84920db58bf370151e662616916a0909d6f74499d34b180"
+      }
+    },
+    {
+      "id": "spinzero3_e080400_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080400_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.804,
+        "epsilon": 2.5258404934861938,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 18321904929872135320,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "de070a63ae2f51760466e4dfe953355a637f3e65c434aa32291326ff9bcc9af2"
+      }
+    },
+    {
+      "id": "spinzero3_e080400_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080400_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.804,
+        "epsilon": 2.5258404934861938,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 6640605656555509047,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "1e8d809dc03ae62071dd1adc1fa04a191c0ebf8205c11d69cbb36de6232cbc71"
+      }
+    },
+    {
+      "id": "spinzero3_e080400_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080400_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.804,
+        "epsilon": 2.5258404934861938,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 14844641883367893106,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479400824,
+        "sha256": "3720a420ec67aaeb8d14aa0b05dce613b3874ba421d085d6f82cd43fcc917be6"
+      }
+    },
+    {
+      "id": "spinzero3_e080450_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080450_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8045,
+        "epsilon": 2.5274112898129886,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 17147432035184247048,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80450,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "a7194bf3903a8a0b77b8e967dd4de542792f13f92872c1d6bc58857935524e50"
+      }
+    },
+    {
+      "id": "spinzero3_e080500_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080500_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.805,
+        "epsilon": 2.528982086139784,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 10311643070890032776,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78640424,
+        "sha256": "cec752c9239f1f27ba3753d5b01b2a6cc5340abf12995f7a16f57e8c97642bb5"
+      }
+    },
+    {
+      "id": "spinzero3_e080500_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080500_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.805,
+        "epsilon": 2.528982086139784,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 14917970761076527596,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219091832,
+        "sha256": "dea7fe3d9ee50b69dd442f741c23296f42490d4abb8cf19917aa40b37ae4370f"
+      }
+    },
+    {
+      "id": "spinzero3_e080500_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080500_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.805,
+        "epsilon": 2.528982086139784,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 2045188186095881505,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "4c1f471e69105f76751d14546a3bee0a2d37460ce520f658d4a66562eb6b93f2"
+      }
+    },
+    {
+      "id": "spinzero3_e080600_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080600_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.5321236787933734,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17776855161559109890,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80600,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78574888,
+        "sha256": "da16f19d7f20cae1743543d1a5a7181e0caf9f71127c0d4ef020b7e814f6905c"
+      }
+    },
+    {
+      "id": "spinzero3_e080600_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080600_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.5321236787933734,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 9022460509482029799,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80600,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "0dbc227ad1a4394e6e002bb7f03a7fd93bd327a05523a8cd00b06806a2a0f9ed"
+      }
+    },
+    {
+      "id": "spinzero3_e080700_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080700_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.807,
+        "epsilon": 2.535265271446963,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 4100112707384816231,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80700,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "68965c8309ff6de92bb050c14bc3d358dce968963625fd48405ded1b3b55224f"
+      }
+    },
+    {
+      "id": "spinzero3_e080700_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080700_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.807,
+        "epsilon": 2.535265271446963,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 14627379508356883546,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80700,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219190136,
+        "sha256": "b377c43b65217be07c7280ad9032012882b2b053c9f08cb02bfdb021bcdb2ded"
+      }
+    },
+    {
+      "id": "spinzero3_e080800_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080800_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.808,
+        "epsilon": 2.538406864100553,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 11964829862403996990,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80800,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "aac8de9fd5e679ae16aeea062b5ca2469048e04efff6c075992f319cb016c23d"
+      }
+    },
+    {
+      "id": "spinzero3_e080800_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080800_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.808,
+        "epsilon": 2.538406864100553,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 15955010015877476630,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80800,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219124600,
+        "sha256": "3d6fb6be9d16136ba60f9d1565cd0bd02bcdae45613ba0f5c892ed0ac653a142"
+      }
+    },
+    {
+      "id": "spinzero3_e080900_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080900_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.809,
+        "epsilon": 2.5415484567541426,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 4603516262862223425,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80900,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78640424,
+        "sha256": "511af85a0982e76c00607a6f79aac80c1444fa3a06734e5353b80722123390c8"
+      }
+    },
+    {
+      "id": "spinzero3_e080900_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080900_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.809,
+        "epsilon": 2.5415484567541426,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 14183248971801528723,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80900,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219190136,
+        "sha256": "13e0b82c07d1021a1811bd027a893abad34e52aa6a455c864c2b27008895fd9a"
+      }
+    },
+    {
+      "id": "spinzero3_e081000_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081000_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.81,
+        "epsilon": 2.5446900494077327,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17124853141045510611,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81000,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "c72659dff8eb5e39aa601eaa7999eea58f2eab79725cde994f323a4a12d052dd"
+      }
+    },
+    {
+      "id": "spinzero3_e081100_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081100_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.811,
+        "epsilon": 2.5478316420613223,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 1348740453375752339,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81100,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "76c2168a131f083d36c4e6656ebb6a361fa09fa9a39912410d8bcd8aae63434f"
+      }
+    },
+    {
+      "id": "spinzero3_e081200_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081200_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.812,
+        "epsilon": 2.5509732347149123,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17274382760035972506,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81200,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "3fb4c7be484778cb836dd541a6aae6ba1b86353b52f93d752bfee084c0cfc68f"
+      }
+    },
+    {
+      "id": "spinzero3_e081300_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081300_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.813,
+        "epsilon": 2.5541148273685015,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 3082794071132651779,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "7c493559501bc6bdda6bd2cc00c739ce95bf94373f0115bfb35b99fc61bb40c0"
+      }
+    },
+    {
+      "id": "spinzero3_e081400_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081400_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.814,
+        "epsilon": 2.5572564200220915,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 14907967160371679658,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "042216a65718ccbfd6c6c51d838d14a328b541787301d4eccd05ef4b031f0218"
+      }
+    },
+    {
+      "id": "spinzero3_e081500_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081500_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.815,
+        "epsilon": 2.560398012675681,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17560779748515142983,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "bb414bb26514fa7effc7e303cef38e037b75c1bff194e692a99b6055dbe21570"
+      }
+    },
+    {
+      "id": "spinzero3_e081600_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081600_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.816,
+        "epsilon": 2.563539605329271,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 15628331989212309689,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81600,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "8198591a4a802df1561d9ea6394b3a841f7dbad42181f51432965bd980bec2bb"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "N": 8,
+      "q": 0.804,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.11202843256010306,
+          0.016188778835753478,
+          0.31925818942342193
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080400_N008_r20_s012000",
+            "rows": 11000,
+            "width": 21,
+            "blocks": 523,
+            "taus": {
+              "m2": 2.089506451304092,
+              "m4": 1.9626095901676082,
+              "mabs": 2.080221521440761,
+              "binder": 1.4529760189713632
+            },
+            "half_z": [
+              -0.5274060131517619,
+              -0.7935514945641262,
+              -0.2686797203678218
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.11202843256010306,
+              0.016188778835753478,
+              0.31925818942342193
+            ],
+            "errors": [
+              0.0010912318583097265,
+              0.00026303496779059543,
+              0.001807620814178273
+            ]
+          }
+        ],
+        "binder": 0.35504773085143604,
+        "ids": [
+          "spinzero3_e080400_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.8050000000000002,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.10402276534302558,
+          0.014221907928272796,
+          0.3064316927378379
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080500_N008_r20_s012000",
+            "rows": 11000,
+            "width": 21,
+            "blocks": 523,
+            "taus": {
+              "m2": 2.018164999950745,
+              "m4": 1.8952745335060555,
+              "mabs": 2.0232791484656527,
+              "binder": 1.5222975044767821
+            },
+            "half_z": [
+              -2.0663076507361477,
+              -1.815926937965863,
+              -2.053028320862157
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.10402276534302558,
+              0.014221907928272796,
+              0.3064316927378379
+            ],
+            "errors": [
+              0.0010528928679010142,
+              0.0002416897075142942,
+              0.001820054795869668
+            ]
+          }
+        ],
+        "binder": 0.3428400660575248,
+        "ids": [
+          "spinzero3_e080500_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.806,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.09570243129845801,
+          0.012497613616221846,
+          0.29200187412611933
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080600_N008_r20_s012000",
+            "rows": 11000,
+            "width": 21,
+            "blocks": 523,
+            "taus": {
+              "m2": 1.9736349003001723,
+              "m4": 1.7716129399104332,
+              "mabs": 2.0849840338812977,
+              "binder": 1.6979756093272673
+            },
+            "half_z": [
+              0.5032517272771954,
+              0.2517203886345025,
+              0.6916485002686265
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.09570243129845801,
+              0.012497613616221846,
+              0.29200187412611933
+            ],
+            "errors": [
+              0.001029602211862258,
+              0.00022457944305930493,
+              0.0018532436051440643
+            ]
+          }
+        ],
+        "binder": 0.31773804272123307,
+        "ids": [
+          "spinzero3_e080600_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.8069999999999999,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.09090034362741474,
+          0.011343955609613173,
+          0.2843390865117445
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080700_N008_r20_s012000",
+            "rows": 11000,
+            "width": 21,
+            "blocks": 523,
+            "taus": {
+              "m2": 2.0275511612371537,
+              "m4": 1.8657568407839378,
+              "mabs": 2.049041737018045,
+              "binder": 1.517802523055483
+            },
+            "half_z": [
+              -1.0765497837535052,
+              -0.8364906878121141,
+              -1.198339251951061
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.09090034362741474,
+              0.011343955609613173,
+              0.2843390865117445
+            ],
+            "errors": [
+              0.0010284981528920509,
+              0.00021785938746926106,
+              0.0018557576143328632
+            ]
+          }
+        ],
+        "binder": 0.3135585930541922,
+        "ids": [
+          "spinzero3_e080700_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.808,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.08313519985017147,
+          0.009665227478406747,
+          0.2709628735459268
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080800_N008_r20_s012000",
+            "rows": 11000,
+            "width": 20,
+            "blocks": 550,
+            "taus": {
+              "m2": 1.9390479250456685,
+              "m4": 1.741355115248286,
+              "mabs": 1.959720117380333,
+              "binder": 1.4579178418846734
+            },
+            "half_z": [
+              1.0073500142462701,
+              2.0886649846310665,
+              0.3214957168500783
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.08313519985017147,
+              0.009665227478406747,
+              0.2709628735459268
+            ],
+            "errors": [
+              0.0009463469905421417,
+              0.00018525142716753842,
+              0.0017803522306997313
+            ]
+          }
+        ],
+        "binder": 0.3007826533826592,
+        "ids": [
+          "spinzero3_e080800_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.809,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.07584152604454651,
+          0.008372548095786915,
+          0.25661508469696986
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080900_N008_r20_s012000",
+            "rows": 11000,
+            "width": 24,
+            "blocks": 458,
+            "taus": {
+              "m2": 2.350654463068378,
+              "m4": 2.145482580497272,
+              "mabs": 2.3680043564958013,
+              "binder": 1.5504008185568598
+            },
+            "half_z": [
+              1.452051233469034,
+              1.3852172233962317,
+              1.517116511625332
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.07584152604454651,
+              0.008372548095786915,
+              0.25661508469696986
+            ],
+            "errors": [
+              0.0009647509555402359,
+              0.0001814319262654223,
+              0.0018771575854811104
+            ]
+          }
+        ],
+        "binder": 0.27219752321097157,
+        "ids": [
+          "spinzero3_e080900_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.81,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.07283220861765977,
+          0.007730209646437003,
+          0.2515230642925073
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081000_N008_r20_s012000",
+            "rows": 11000,
+            "width": 20,
+            "blocks": 550,
+            "taus": {
+              "m2": 1.926210806252663,
+              "m4": 1.7913614079071998,
+              "mabs": 1.9168586621049046,
+              "binder": 1.4190293515828594
+            },
+            "half_z": [
+              0.17902866277380972,
+              0.004096541660166165,
+              0.4181816056497639
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.07283220861765977,
+              0.007730209646437003,
+              0.2515230642925073
+            ],
+            "errors": [
+              0.0008716765562618038,
+              0.000159833744273182,
+              0.0017196109223502603
+            ]
+          }
+        ],
+        "binder": 0.2713578060266524,
+        "ids": [
+          "spinzero3_e081000_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.811,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.0674362026183063,
+          0.006814454605781819,
+          0.2407385744294486
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081100_N008_r20_s012000",
+            "rows": 11000,
+            "width": 20,
+            "blocks": 550,
+            "taus": {
+              "m2": 1.9975996251689145,
+              "m4": 1.8593719004983456,
+              "mabs": 1.9855949970946174,
+              "binder": 1.3986582840264665
+            },
+            "half_z": [
+              -0.5691610708083488,
+              -0.8977356044443289,
+              -0.27679830971532904
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.0674362026183063,
+              0.006814454605781819,
+              0.2407385744294486
+            ],
+            "errors": [
+              0.000907535376612646,
+              0.00015930044757302245,
+              0.0018469075401244908
+            ]
+          }
+        ],
+        "binder": 0.2507704575769476,
+        "ids": [
+          "spinzero3_e081100_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.812,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.061549968159681064,
+          0.005817653146667392,
+          0.22901561944043794
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081200_N008_r20_s012000",
+            "rows": 11000,
+            "width": 23,
+            "blocks": 478,
+            "taus": {
+              "m2": 2.2682959641993277,
+              "m4": 2.0675167794159224,
+              "mabs": 2.2407824201142468,
+              "binder": 1.4318915307823818
+            },
+            "half_z": [
+              0.3222269333269472,
+              0.056973867975088584,
+              0.6308719779570999
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.061549968159681064,
+              0.005817653146667392,
+              0.22901561944043794
+            ],
+            "errors": [
+              0.0008625595329761058,
+              0.00013895501846881468,
+              0.001838221531863728
+            ]
+          }
+        ],
+        "binder": 0.2321751495899299,
+        "ids": [
+          "spinzero3_e081200_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.813,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.05869348199535197,
+          0.005367158566521133,
+          0.2228773246546397
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081300_N008_r20_s012000",
+            "rows": 11000,
+            "width": 21,
+            "blocks": 523,
+            "taus": {
+              "m2": 2.0774058120015675,
+              "m4": 1.9412193864804386,
+              "mabs": 2.0255640625298574,
+              "binder": 1.4016348816104234
+            },
+            "half_z": [
+              0.37883905370602367,
+              0.5593511446184404,
+              0.2458678972707908
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.05869348199535197,
+              0.005367158566521133,
+              0.2228773246546397
+            ],
+            "errors": [
+              0.0008124771264992122,
+              0.00012971891406248368,
+              0.0017535493247954888
+            ]
+          }
+        ],
+        "binder": 0.221004980755093,
+        "ids": [
+          "spinzero3_e081300_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.814,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.05363100294662971,
+          0.0046074719579216805,
+          0.21202753163506197
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081400_N008_r20_s012000",
+            "rows": 11000,
+            "width": 20,
+            "blocks": 550,
+            "taus": {
+              "m2": 1.9447667882736042,
+              "m4": 1.7790026811818316,
+              "mabs": 1.9413133820922224,
+              "binder": 1.3059743347430472
+            },
+            "half_z": [
+              1.5178928732492625,
+              1.8047533120925172,
+              1.222693109178986
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.05363100294662971,
+              0.0046074719579216805,
+              0.21202753163506197
+            ],
+            "errors": [
+              0.0007578406535275722,
+              0.00011365776949522805,
+              0.001704620122466978
+            ]
+          }
+        ],
+        "binder": 0.19905836945777922,
+        "ids": [
+          "spinzero3_e081400_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.815,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.0522745231887168,
+          0.004418297019659583,
+          0.20899329980326906
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081500_N008_r20_s012000",
+            "rows": 11000,
+            "width": 24,
+            "blocks": 458,
+            "taus": {
+              "m2": 2.295072298495107,
+              "m4": 2.0577154267443785,
+              "mabs": 2.319943610511734,
+              "binder": 1.309870920244954
+            },
+            "half_z": [
+              2.9933703294948306,
+              2.733324740794518,
+              3.062629059470031
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.0522745231887168,
+              0.004418297019659583,
+              0.20899329980326906
+            ],
+            "errors": [
+              0.0007744535741675331,
+              0.00011573138795426039,
+              0.001737520738334167
+            ]
+          }
+        ],
+        "binder": 0.1915656617317284,
+        "ids": [
+          "spinzero3_e081500_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "q": 0.816,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.04718782103956511,
+          0.0036631820507158903,
+          0.198031346972713
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e081600_N008_r20_s012000",
+            "rows": 11000,
+            "width": 20,
+            "blocks": 550,
+            "taus": {
+              "m2": 1.9040852120134635,
+              "m4": 1.7076296124349457,
+              "mabs": 1.9198862567869668,
+              "binder": 1.2660664366048517
+            },
+            "half_z": [
+              -0.5494294029004976,
+              -0.24778348651520263,
+              -0.7982002631592741
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.04718782103956511,
+              0.0036631820507158903,
+              0.198031346972713
+            ],
+            "errors": [
+              0.0006846360256827623,
+              9.518105605839722e-05,
+              0.0016035573111341068
+            ]
+          }
+        ],
+        "binder": 0.17743796777515541,
+        "ids": [
+          "spinzero3_e081600_N008_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.803,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.06879895902472215,
+          0.006328238496519435,
+          0.2485366732433934
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080300_N012_r20_s012000",
+            "rows": 11000,
+            "width": 32,
+            "blocks": 343,
+            "taus": {
+              "m2": 3.115372662274709,
+              "m4": 2.8253279758532024,
+              "mabs": 3.1608601420695286,
+              "binder": 2.2783598198333364
+            },
+            "half_z": [
+              -0.04002663727114092,
+              0.28001696750158644,
+              -0.2725598138060689
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.06879895902472215,
+              0.006328238496519435,
+              0.2485366732433934
+            ],
+            "errors": [
+              0.000953243051983261,
+              0.0001445582489782991,
+              0.002020309443300105
+            ]
+          }
+        ],
+        "binder": 0.33151893769473173,
+        "ids": [
+          "spinzero3_e080300_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.804,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.0598228208157145,
+          0.004965637705374013,
+          0.2300563154157991
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080400_N012_r20_s012000",
+            "rows": 11000,
+            "width": 32,
+            "blocks": 343,
+            "taus": {
+              "m2": 3.152500146792515,
+              "m4": 2.890399493382476,
+              "mabs": 3.1227004911900575,
+              "binder": 2.207985050169536
+            },
+            "half_z": [
+              2.9004721695276836,
+              2.481220627256022,
+              3.094179013210195
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.0598228208157145,
+              0.004965637705374013,
+              0.2300563154157991
+            ],
+            "errors": [
+              0.0008315178579457189,
+              0.00011660392694084573,
+              0.0018586355542586869
+            ]
+          }
+        ],
+        "binder": 0.3062367995823211,
+        "ids": [
+          "spinzero3_e080400_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.8050000000000002,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.05216458882196575,
+          0.003931762921440866,
+          0.21315220043328262
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080500_N012_r20_s012000",
+            "rows": 11000,
+            "width": 30,
+            "blocks": 366,
+            "taus": {
+              "m2": 2.9734597810957872,
+              "m4": 2.81632251923999,
+              "mabs": 2.9253903158314296,
+              "binder": 2.0931531431393737
+            },
+            "half_z": [
+              -1.0025100159667133,
+              -1.22746211537092,
+              -0.7492910325127546
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.05216458882196575,
+              0.003931762921440866,
+              0.21315220043328262
+            ],
+            "errors": [
+              0.0007665054495127402,
+              9.889497710607661e-05,
+              0.0018084796714550604
+            ]
+          }
+        ],
+        "binder": 0.2775534023536208,
+        "ids": [
+          "spinzero3_e080500_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.806,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.04817474764073132,
+          0.003464984843656035,
+          0.20362763405243617
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080600_N012_r20_s012000",
+            "rows": 11000,
+            "width": 38,
+            "blocks": 289,
+            "taus": {
+              "m2": 3.728634554788381,
+              "m4": 3.306649673597888,
+              "mabs": 3.7721827091692486,
+              "binder": 2.4758654507248172
+            },
+            "half_z": [
+              -0.2540623716157178,
+              -0.23239531983956843,
+              -0.34529214720702467
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.04817474764073132,
+              0.003464984843656035,
+              0.20362763405243617
+            ],
+            "errors": [
+              0.0008280721611000594,
+              9.983489649374327e-05,
+              0.0020153443415332826
+            ]
+          }
+        ],
+        "binder": 0.2534954708724598,
+        "ids": [
+          "spinzero3_e080600_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.8069999999999999,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.04051981515340303,
+          0.002521469698596723,
+          0.18586898916468617
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080700_N012_r20_s012000",
+            "rows": 11000,
+            "width": 33,
+            "blocks": 333,
+            "taus": {
+              "m2": 3.2495259421681646,
+              "m4": 3.1492150543749635,
+              "mabs": 3.1034657997680823,
+              "binder": 1.8826851495055337
+            },
+            "half_z": [
+              -1.6456492458015404,
+              -1.3692370089654764,
+              -1.8237417894221453
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.04051981515340303,
+              0.002521469698596723,
+              0.18586898916468617
+            ],
+            "errors": [
+              0.0006785430576099297,
+              7.441677583234365e-05,
+              0.0017572405413854247
+            ]
+          }
+        ],
+        "binder": 0.2321279730905168,
+        "ids": [
+          "spinzero3_e080700_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.808,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.03660109267638829,
+          0.0021747504505363136,
+          0.1747434007301505
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080800_N012_r20_s012000",
+            "rows": 11000,
+            "width": 33,
+            "blocks": 333,
+            "taus": {
+              "m2": 3.264016053208444,
+              "m4": 2.8926636796263683,
+              "mabs": 3.214339021375817,
+              "binder": 1.9288376097261852
+            },
+            "half_z": [
+              -0.5427106092778617,
+              -0.510020450643243,
+              -0.35370861490783606
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.03660109267638829,
+              0.0021747504505363136,
+              0.1747434007301505
+            ],
+            "errors": [
+              0.0006670619110358547,
+              6.888481669866674e-05,
+              0.0017854860936360678
+            ]
+          }
+        ],
+        "binder": 0.1883078757294102,
+        "ids": [
+          "spinzero3_e080800_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 12,
+      "q": 0.809,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.03238080247117726,
+          0.0017432083608869462,
+          0.1639910056759841
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080900_N012_r20_s012000",
+            "rows": 11000,
+            "width": 33,
+            "blocks": 333,
+            "taus": {
+              "m2": 3.2652512905775577,
+              "m4": 2.9353002107127026,
+              "mabs": 3.1982241331021757,
+              "binder": 1.878533266256356
+            },
+            "half_z": [
+              -0.6002356918038417,
+              -0.521994143419493,
+              -0.5416165659953298
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.03238080247117726,
+              0.0017432083608869462,
+              0.1639910056759841
+            ],
+            "errors": [
+              0.0005784424094081113,
+              5.682188118487798e-05,
+              0.0016052443581901137
+            ]
+          }
+        ],
+        "binder": 0.16872620544501704,
+        "ids": [
+          "spinzero3_e080900_N012_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "q": 0.8025,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.04730694976602743,
+          0.003059021861999665,
+          0.20547287903457606
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080250_N016_r20_s012000",
+            "rows": 11000,
+            "width": 44,
+            "blocks": 250,
+            "taus": {
+              "m2": 4.359812275175737,
+              "m4": 3.9822709572141317,
+              "mabs": 4.295122104826143,
+              "binder": 2.621839049510674
+            },
+            "half_z": [
+              1.4125293288070302,
+              1.572876500443127,
+              1.2938723228017017
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.04730694976602743,
+              0.003059021861999665,
+              0.20547287903457606
+            ],
+            "errors": [
+              0.0007676519220495818,
+              8.245735349836932e-05,
+              0.001912623531598098
+            ]
+          }
+        ],
+        "binder": 0.31655638319462975,
+        "ids": [
+          "spinzero3_e080250_N016_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "q": 0.803,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.04652970685551596,
+          0.0029762300300509806,
+          0.20312191714244004
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080300_N016_r20_s012000",
+            "rows": 11000,
+            "width": 43,
+            "blocks": 255,
+            "taus": {
+              "m2": 4.262326675329263,
+              "m4": 4.021441897832176,
+              "mabs": 4.286025647844065,
+              "binder": 3.015295506030546
+            },
+            "half_z": [
+              -0.9673681820092416,
+              -1.0018915129885464,
+              -0.7934983082320609
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.04652970685551596,
+              0.0029762300300509806,
+              0.20312191714244004
+            ],
+            "errors": [
+              0.0007178638514950429,
+              7.871700212173073e-05,
+              0.0018301610777553274
+            ]
+          }
+        ],
+        "binder": 0.31265327791144415,
+        "ids": [
+          "spinzero3_e080300_N016_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "q": 0.8034999999999999,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.04019454158725921,
+          0.0023223197357587926,
+          0.1874675492445312
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080350_N016_r20_s012000",
+            "rows": 11000,
+            "width": 42,
+            "blocks": 261,
+            "taus": {
+              "m2": 4.150810130921012,
+              "m4": 3.9801504498350413,
+              "mabs": 4.089029261114171,
+              "binder": 2.724126083680417
+            },
+            "half_z": [
+              -0.3920234254039089,
+              0.14252041343607008,
+              -0.6509515073675265
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.04019454158725921,
+              0.0023223197357587926,
+              0.1874675492445312
+            ],
+            "errors": [
+              0.0007139381055259922,
+              7.196772814872525e-05,
+              0.0018793107744681042
+            ]
+          }
+        ],
+        "binder": 0.28128309944920593,
+        "ids": [
+          "spinzero3_e080350_N016_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "q": 0.804,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.03579993516086512,
+          0.0019141890578922881,
+          0.17572496481078814
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080400_N016_r20_s012000",
+            "rows": 11000,
+            "width": 40,
+            "blocks": 275,
+            "taus": {
+              "m2": 3.9230841546318826,
+              "m4": 3.655748989675624,
+              "mabs": 3.8912263345981266,
+              "binder": 2.620412421610307
+            },
+            "half_z": [
+              -0.17637227617917403,
+              -0.370531298239968,
+              -0.002753328669110363
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.03579993516086512,
+              0.0019141890578922881,
+              0.17572496481078814
+            ],
+            "errors": [
+              0.0006496952875362961,
+              6.049376950551421e-05,
+              0.0018078011265645773
+            ]
+          }
+        ],
+        "binder": 0.25322399750538593,
+        "ids": [
+          "spinzero3_e080400_N016_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "q": 0.8045,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.03209607654329351,
+          0.0015837405882965967,
+          0.1652839110837429
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080450_N016_r20_s012000",
+            "rows": 11000,
+            "width": 41,
+            "blocks": 268,
+            "taus": {
+              "m2": 4.069346404543982,
+              "m4": 3.687294807567387,
+              "mabs": 4.013388554479144,
+              "binder": 2.4066506977905595
+            },
+            "half_z": [
+              2.1430084702994967,
+              2.30382090345361,
+              1.9966211986932503
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.03209607654329351,
+              0.0015837405882965967,
+              0.1652839110837429
+            ],
+            "errors": [
+              0.0005923403577823112,
+              5.107325702817883e-05,
+              0.001724330387710478
+            ]
+          }
+        ],
+        "binder": 0.23131190106374155,
+        "ids": [
+          "spinzero3_e080450_N016_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "q": 0.8050000000000002,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.0295223940562763,
+          0.0013638700140576618,
+          0.1580700878345879
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080500_N016_r20_s012000",
+            "rows": 11000,
+            "width": 42,
+            "blocks": 261,
+            "taus": {
+              "m2": 4.114786013321797,
+              "m4": 3.836390568120809,
+              "mabs": 4.060842402258708,
+              "binder": 2.2701865765157203
+            },
+            "half_z": [
+              -0.38908800867525695,
+              -0.6605571102590969,
+              -0.23985647678004415
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.0295223940562763,
+              0.0013638700140576618,
+              0.1580700878345879
+            ],
+            "errors": [
+              0.0005828311173089641,
+              4.7087556645394714e-05,
+              0.0017719956922013329
+            ]
+          }
+        ],
+        "binder": 0.2175801861500265,
+        "ids": [
+          "spinzero3_e080500_N016_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.8015000000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.03452593584151868,
+          0.0015935006042881324,
+          0.17617554918683245
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080150_N024_r20_s012000",
+            "rows": 11000,
+            "width": 61,
+            "blocks": 180,
+            "taus": {
+              "m2": 5.945570539859136,
+              "m4": 5.196335868713579,
+              "mabs": 6.082565201702755,
+              "binder": 4.50277204372111
+            },
+            "half_z": [
+              0.03583955549194602,
+              0.3813202614617471,
+              -0.23265280159832388
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.03452593584151868,
+              0.0015935006042881324,
+              0.17617554918683245
+            ],
+            "errors": [
+              0.000637389100022873,
+              4.817328745796888e-05,
+              0.0018988859575421618
+            ]
+          }
+        ],
+        "binder": 0.33160788404894914,
+        "ids": [
+          "spinzero3_e080150_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.8017500000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.031120099245117445,
+          0.0013493410856644384,
+          0.16588419305202431
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080175_N024_r20_s012000",
+            "rows": 11000,
+            "width": 57,
+            "blocks": 192,
+            "taus": {
+              "m2": 5.597318691975239,
+              "m4": 4.8706683284914325,
+              "mabs": 5.696280787184233,
+              "binder": 3.9933605851539316
+            },
+            "half_z": [
+              0.9471203428411994,
+              0.8176657061758824,
+              1.1097275714609767
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.031120099245117445,
+              0.0013493410856644384,
+              0.16588419305202431
+            ],
+            "errors": [
+              0.0005890379864111194,
+              4.224141325039658e-05,
+              0.0018110828542925444
+            ]
+          }
+        ],
+        "binder": 0.3033577629932429,
+        "ids": [
+          "spinzero3_e080175_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.802,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.030243037223086022,
+          0.001255541400972184,
+          0.16410762998327819
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080200_N024_r20_s012000",
+            "rows": 11000,
+            "width": 58,
+            "blocks": 189,
+            "taus": {
+              "m2": 5.799864881664611,
+              "m4": 5.299337873678257,
+              "mabs": 5.751373704842401,
+              "binder": 3.646727596666593
+            },
+            "half_z": [
+              -0.9576732398104749,
+              -1.2886351443288409,
+              -0.8075526116608017
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.030243037223086022,
+              0.001255541400972184,
+              0.16410762998327819
+            ],
+            "errors": [
+              0.0005677371207191371,
+              3.968453240434079e-05,
+              0.001756269437117197
+            ]
+          }
+        ],
+        "binder": 0.3136427360554105,
+        "ids": [
+          "spinzero3_e080200_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.80225,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.02672845701233151,
+          0.0010269669296722355,
+          0.15283313503278176
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080225_N024_r20_s012000",
+            "rows": 11000,
+            "width": 60,
+            "blocks": 183,
+            "taus": {
+              "m2": 5.936685251905361,
+              "m4": 5.328941972199856,
+              "mabs": 5.947614565163091,
+              "binder": 3.8266096054720187
+            },
+            "half_z": [
+              -0.1485705359673101,
+              -0.065963143677325,
+              -0.1254785841143374
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.02672845701233151,
+              0.0010269669296722355,
+              0.15283313503278176
+            ],
+            "errors": [
+              0.0005048535661210847,
+              3.3100694448152166e-05,
+              0.0016595356547486459
+            ]
+          }
+        ],
+        "binder": 0.28124862881799495,
+        "ids": [
+          "spinzero3_e080225_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.8025,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.024644148988221124,
+          0.0008959522363274303,
+          0.1459529539979192
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080250_N024_r20_s012000",
+            "rows": 11000,
+            "width": 63,
+            "blocks": 174,
+            "taus": {
+              "m2": 6.28118646663743,
+              "m4": 5.449836562987709,
+              "mabs": 6.211696421449938,
+              "binder": 3.485150657929474
+            },
+            "half_z": [
+              3.1636867239504403,
+              3.018990371992875,
+              3.1110990979832573
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.024644148988221124,
+              0.0008959522363274303,
+              0.1459529539979192
+            ],
+            "errors": [
+              0.0005664813708179964,
+              3.4402594060815724e-05,
+              0.0019239737305005483
+            ]
+          }
+        ],
+        "binder": 0.2623892954591368,
+        "ids": [
+          "spinzero3_e080250_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.80275,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.022039917295739685,
+          0.0007273294889230679,
+          0.13764817388818396
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080275_N024_r20_s012000",
+            "rows": 11000,
+            "width": 70,
+            "blocks": 157,
+            "taus": {
+              "m2": 6.95604967552613,
+              "m4": 5.9880351298797505,
+              "mabs": 6.920856492058795,
+              "binder": 3.4388605342402028
+            },
+            "half_z": [
+              1.0933248226123533,
+              0.9920246428930315,
+              1.3100236953700386
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.022039917295739685,
+              0.0007273294889230679,
+              0.13764817388818396
+            ],
+            "errors": [
+              0.0004929802926140509,
+              2.7633573710599536e-05,
+              0.0017578985607042213
+            ]
+          }
+        ],
+        "binder": 0.25134577588452134,
+        "ids": [
+          "spinzero3_e080275_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.803,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.019289461552561574,
+          0.0005879973171545928,
+          0.12765441143829256
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080300_N024_r20_s012000",
+            "rows": 11000,
+            "width": 56,
+            "blocks": 196,
+            "taus": {
+              "m2": 5.544050833806642,
+              "m4": 4.7897972663083905,
+              "mabs": 5.558090148246933,
+              "binder": 3.2535005721147994
+            },
+            "half_z": [
+              1.3118583072604586,
+              0.9477030098395648,
+              1.4807995677735537
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.019289461552561574,
+              0.0005879973171545928,
+              0.12765441143829256
+            ],
+            "errors": [
+              0.0004462334414491896,
+              2.351068921212384e-05,
+              0.0016679080126834251
+            ]
+          }
+        ],
+        "binder": 0.20985801498443735,
+        "ids": [
+          "spinzero3_e080300_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.8032500000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.017927063921000824,
+          0.0005124924203719214,
+          0.12261251259399043
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080325_N024_r20_s012000",
+            "rows": 11000,
+            "width": 56,
+            "blocks": 196,
+            "taus": {
+              "m2": 5.567411493117621,
+              "m4": 5.082590754542185,
+              "mabs": 5.459710649833583,
+              "binder": 3.333512097105063
+            },
+            "half_z": [
+              0.83890450614656,
+              1.0083521801496806,
+              0.714945918933469
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.017927063921000824,
+              0.0005124924203719214,
+              0.12261251259399043
+            ],
+            "errors": [
+              0.0004023148662528741,
+              1.988402871714832e-05,
+              0.001563530101143133
+            ]
+          }
+        ],
+        "binder": 0.2026681420369797,
+        "ids": [
+          "spinzero3_e080325_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 24,
+      "q": 0.8034999999999999,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.017061148345736018,
+          0.000471905655850236,
+          0.11950986292484829
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080350_N024_r20_s012000",
+            "rows": 11000,
+            "width": 62,
+            "blocks": 177,
+            "taus": {
+              "m2": 5.712696956448786,
+              "m4": 4.651845272340983,
+              "mabs": 6.116062800340669,
+              "binder": 3.7660560459911796
+            },
+            "half_z": [
+              0.14062173142399523,
+              -0.373275387706077,
+              0.37225166968896306
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.017061148345736018,
+              0.000471905655850236,
+              0.11950986292484829
+            ],
+            "errors": [
+              0.00040980295776753094,
+              1.9782232395183194e-05,
+              0.0016526596298834441
+            ]
+          }
+        ],
+        "binder": 0.18939613812104938,
+        "ids": [
+          "spinzero3_e080350_N024_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "q": 0.8015000000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.022222427397914243,
+          0.0006813181555423909,
+          0.1402467275528785
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080150_N032_r20_s012000",
+            "rows": 11000,
+            "width": 79,
+            "blocks": 139,
+            "taus": {
+              "m2": 7.831299382299861,
+              "m4": 7.626343760706751,
+              "mabs": 7.506507800189967,
+              "binder": 4.740747613453359
+            },
+            "half_z": [
+              -1.4372555253999348,
+              -1.1122534657512402,
+              -1.56459301524219
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.022222427397914243,
+              0.0006813181555423909,
+              0.1402467275528785
+            ],
+            "errors": [
+              0.0005030922895312433,
+              2.583036160140945e-05,
+              0.001833106167909863
+            ]
+          }
+        ],
+        "binder": 0.31017810569374227,
+        "ids": [
+          "spinzero3_e080150_N032_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "q": 0.8017500000000001,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.01986113014773587,
+          0.0005650783521342469,
+          0.1318757364926895
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080175_N032_r20_s012000",
+            "rows": 11000,
+            "width": 81,
+            "blocks": 135,
+            "taus": {
+              "m2": 7.834540648480079,
+              "m4": 6.967019158881197,
+              "mabs": 8.046564131664127,
+              "binder": 5.1678022190475295
+            },
+            "half_z": [
+              0.6641052910990352,
+              0.38462369190169715,
+              0.8084273629838908
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.01986113014773587,
+              0.0005650783521342469,
+              0.1318757364926895
+            ],
+            "errors": [
+              0.000454023100109411,
+              2.202823363607941e-05,
+              0.00171982455113715
+            ]
+          }
+        ],
+        "binder": 0.2837398987845702,
+        "ids": [
+          "spinzero3_e080175_N032_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "q": 0.802,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.01632959784580758,
+          0.0004025573262309703,
+          0.11843557253367247
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080200_N032_r20_s012000",
+            "rows": 11000,
+            "width": 73,
+            "blocks": 150,
+            "taus": {
+              "m2": 7.180332922455473,
+              "m4": 6.23075780031614,
+              "mabs": 7.22501147183331,
+              "binder": 4.309274047055724
+            },
+            "half_z": [
+              -0.1882495399236812,
+              -0.5088847723873632,
+              0.04522990409643412
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.01632959784580758,
+              0.0004025573262309703,
+              0.11843557253367247
+            ],
+            "errors": [
+              0.0003875306096609662,
+              1.634515235072631e-05,
+              0.001590311984234748
+            ]
+          }
+        ],
+        "binder": 0.24517415737385706,
+        "ids": [
+          "spinzero3_e080200_N032_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "q": 0.80225,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.014990011030764219,
+          0.00034831570312396674,
+          0.1126388066788025
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080225_N032_r20_s012000",
+            "rows": 11000,
+            "width": 87,
+            "blocks": 126,
+            "taus": {
+              "m2": 8.444108692787486,
+              "m4": 7.219573176135349,
+              "mabs": 8.605841905013989,
+              "binder": 5.298855879484615
+            },
+            "half_z": [
+              -0.3438770361278272,
+              -0.35479875832390567,
+              -0.2054198192951558
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.014990011030764219,
+              0.00034831570312396674,
+              0.1126388066788025
+            ],
+            "errors": [
+              0.00038918802713135326,
+              1.54643364362507e-05,
+              0.0016781213430509957
+            ]
+          }
+        ],
+        "binder": 0.224933165381344,
+        "ids": [
+          "spinzero3_e080225_N032_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "q": 0.8025,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.012550574211910871,
+          0.0002520102259755539,
+          0.10264981295450427
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080250_N032_r20_s012000",
+            "rows": 11000,
+            "width": 65,
+            "blocks": 169,
+            "taus": {
+              "m2": 6.38299583032688,
+              "m4": 5.541598671103389,
+              "mabs": 6.428748879951274,
+              "binder": 4.058700116163305
+            },
+            "half_z": [
+              -0.5478540831077823,
+              -0.9184722005460869,
+              -0.3408865488943119
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.012550574211910871,
+              0.0002520102259755539,
+              0.10264981295450427
+            ],
+            "errors": [
+              0.00030547916939993895,
+              1.0690691651641899e-05,
+              0.0014194982169411713
+            ]
+          }
+        ],
+        "binder": 0.2000534383959529,
+        "ids": [
+          "spinzero3_e080250_N032_r20_s012000"
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "q": 0.80275,
+      "summary": {
+        "status": "conditional_block_summary",
+        "mean": [
+          0.011209670156355893,
+          0.00021220658415896035,
+          0.09605138085942733
+        ],
+        "flags": [],
+        "diagnostics": [
+          {
+            "id": "spinzero3_e080275_N032_r20_s012000",
+            "rows": 11000,
+            "width": 89,
+            "blocks": 123,
+            "taus": {
+              "m2": 8.86784146446858,
+              "m4": 8.19995049508489,
+              "mabs": 8.383117037726318,
+              "binder": 4.100400905693216
+            },
+            "half_z": [
+              0.8672474709798951,
+              0.4586689496817275,
+              1.1387316753467414
+            ]
+          }
+        ],
+        "individual": [
+          {
+            "values": [
+              0.011209670156355893,
+              0.00021220658415896035,
+              0.09605138085942733
+            ],
+            "errors": [
+              0.00034019107033353755,
+              1.2041043637229676e-05,
+              0.0015990607033848495
+            ]
+          }
+        ],
+        "binder": 0.1556097856663612,
+        "ids": [
+          "spinzero3_e080275_N032_r20_s012000"
+        ]
+      }
+    }
+  ],
+  "contours": [
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8110414329021862,
+        0.06719231884173724,
+        0.24025285838205607
+      ],
+      "MC95": [
+        [
+          -0.8114656145099678,
+          -0.8106548698870784
+        ],
+        [
+          0.06501357826677817,
+          0.06897592619973905
+        ],
+        [
+          0.23639384353773873,
+          0.24344818882336605
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "beta_window": [
+        -0.816,
+        -0.815,
+        -0.814,
+        -0.813,
+        -0.812,
+        -0.811,
+        -0.81,
+        -0.809,
+        -0.808,
+        -0.8069999999999999,
+        -0.806,
+        -0.8050000000000002,
+        -0.804
+      ],
+      "binder_values": [
+        0.17743796777515541,
+        0.1915656617317284,
+        0.19905836945777922,
+        0.221004980755093,
+        0.2321751495899299,
+        0.2507704575769476,
+        0.2713578060266524,
+        0.27219752321097157,
+        0.3007826533826592,
+        0.3135585930541922,
+        0.31773804272123307,
+        0.3428400660575248,
+        0.35504773085143604
+      ],
+      "monotone_max_shift": 5.551115123125783e-17,
+      "node_count": 13,
+      "moment_ratio_at_interpolated_root": 0.2498956033686195,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8110414329021862,
+      "epsilon_MC95": [
+        0.8106548698870784,
+        0.8114656145099678
+      ],
+      "selected_original_indices": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 8,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8110392234257942,
+        0.06721156960167131,
+        0.24029103982229222
+      ],
+      "MC95": [
+        [
+          -0.8115081129410939,
+          -0.8106371013254792
+        ],
+        [
+          0.06475170614049819,
+          0.06919833547809451
+        ],
+        [
+          0.23593252671685988,
+          0.24383492330597903
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "beta_window": [
+        -0.816,
+        -0.815,
+        -0.814,
+        -0.813,
+        -0.812,
+        -0.811,
+        -0.81,
+        -0.809,
+        -0.808,
+        -0.8069999999999999,
+        -0.806,
+        -0.8050000000000002,
+        -0.804
+      ],
+      "binder_values": [
+        0.17743796777515541,
+        0.1915656617317284,
+        0.19905836945777922,
+        0.221004980755093,
+        0.2321751495899299,
+        0.2507704575769476,
+        0.2713578060266524,
+        0.27219752321097157,
+        0.3007826533826592,
+        0.3135585930541922,
+        0.31773804272123307,
+        0.3428400660575248,
+        0.35504773085143604
+      ],
+      "monotone_max_shift": 5.551115123125783e-17,
+      "node_count": 13,
+      "moment_ratio_at_interpolated_root": 0.24997374214725288,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8110392234257942,
+      "epsilon_MC95": [
+        0.8106371013254792,
+        0.8115081129410939
+      ],
+      "selected_original_indices": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 8,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8110364711510494,
+        0.06722152487225405,
+        0.24031102476729999
+      ],
+      "MC95": [
+        [
+          -0.8114345133560823,
+          -0.8106568626321687
+        ],
+        [
+          0.06516890677574043,
+          0.0689835509728709
+        ],
+        [
+          0.23664722131187044,
+          0.24337836424509487
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "beta_window": [
+        -0.816,
+        -0.815,
+        -0.814,
+        -0.813,
+        -0.812,
+        -0.811,
+        -0.81,
+        -0.809,
+        -0.808,
+        -0.8069999999999999,
+        -0.806,
+        -0.8050000000000002,
+        -0.804
+      ],
+      "binder_values": [
+        0.17743796777515541,
+        0.1915656617317284,
+        0.19905836945777922,
+        0.221004980755093,
+        0.2321751495899299,
+        0.2507704575769476,
+        0.2713578060266524,
+        0.27219752321097157,
+        0.3007826533826592,
+        0.3135585930541922,
+        0.31773804272123307,
+        0.3428400660575248,
+        0.35504773085143604
+      ],
+      "monotone_max_shift": 5.551115123125783e-17,
+      "node_count": 13,
+      "moment_ratio_at_interpolated_root": 0.2500000000029138,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8110364711510494,
+      "epsilon_MC95": [
+        0.8106568626321687,
+        0.8114345133560823
+      ],
+      "selected_original_indices": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 8,
+      "method": "moment_linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8061635882174006,
+        0.046922490880807285,
+        0.20072252899179874
+      ],
+      "MC95": [
+        [
+          -0.8066268138817567,
+          -0.8057219397050304
+        ],
+        [
+          0.0438218381886677,
+          0.0489246347533814
+        ],
+        [
+          0.19393755218345413,
+          0.20497878736673747
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.809,
+        -0.808,
+        -0.8069999999999999,
+        -0.806,
+        -0.8050000000000002,
+        -0.804,
+        -0.803
+      ],
+      "binder_values": [
+        0.16872620544501704,
+        0.1883078757294102,
+        0.2321279730905168,
+        0.2534954708724598,
+        0.2775534023536208,
+        0.3062367995823211,
+        0.33151893769473173
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.2481703720851034,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8061635882174006,
+      "epsilon_MC95": [
+        0.8057219397050304,
+        0.8066268138817567
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 12,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8061645790123467,
+        0.04713573314437596,
+        0.201228274425492
+      ],
+      "MC95": [
+        [
+          -0.8067063154092687,
+          -0.8056235002867341
+        ],
+        [
+          0.043165817623408695,
+          0.04929887006443168
+        ],
+        [
+          0.19275286875535805,
+          0.2058283901960129
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.809,
+        -0.808,
+        -0.8069999999999999,
+        -0.806,
+        -0.8050000000000002,
+        -0.804,
+        -0.803
+      ],
+      "binder_values": [
+        0.16872620544501704,
+        0.1883078757294102,
+        0.2321279730905168,
+        0.2534954708724598,
+        0.2775534023536208,
+        0.3062367995823211,
+        0.33151893769473173
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.24914569766515082,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8061645790123467,
+      "epsilon_MC95": [
+        0.8056235002867341,
+        0.8067063154092687
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 12,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8061056849237787,
+        0.04736573668427758,
+        0.20175081302106282
+      ],
+      "MC95": [
+        [
+          -0.8064544437800787,
+          -0.8057051573370463
+        ],
+        [
+          0.04512467798033284,
+          0.04895560921394804
+        ],
+        [
+          0.19703823929367875,
+          0.2050373685990499
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "beta_window": [
+        -0.809,
+        -0.808,
+        -0.8069999999999999,
+        -0.806,
+        -0.8050000000000002,
+        -0.804,
+        -0.803
+      ],
+      "binder_values": [
+        0.16872620544501704,
+        0.1883078757294102,
+        0.2321279730905168,
+        0.2534954708724598,
+        0.2775534023536208,
+        0.3062367995823211,
+        0.33151893769473173
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 7,
+      "moment_ratio_at_interpolated_root": 0.25000000000000133,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8061056849237787,
+      "epsilon_MC95": [
+        0.8057051573370463,
+        0.8064544437800787
+      ],
+      "selected_original_indices": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 12,
+      "method": "moment_linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8040735666145403,
+        0.03525497448240391,
+        0.17418873886092426
+      ],
+      "MC95": [
+        [
+          -0.8043129309590784,
+          -0.8038609029876324
+        ],
+        [
+          0.033749007098089465,
+          0.03685389649332845
+        ],
+        [
+          0.17034676854391081,
+          0.17808418880576748
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "beta_window": [
+        -0.8050000000000002,
+        -0.8045,
+        -0.804,
+        -0.8034999999999999,
+        -0.803,
+        -0.8025
+      ],
+      "binder_values": [
+        0.2175801861500265,
+        0.23131190106374155,
+        0.25322399750538593,
+        0.28128309944920593,
+        0.31265327791144415,
+        0.31655638319462975
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 6,
+      "moment_ratio_at_interpolated_root": 0.24951755727645952,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8040735666145403,
+      "epsilon_MC95": [
+        0.8038609029876324,
+        0.8043129309590784
+      ],
+      "selected_original_indices": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 16,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8040657432998117,
+        0.035271581430688405,
+        0.17426269035814082
+      ],
+      "MC95": [
+        [
+          -0.8043316530870989,
+          -0.8038121156899611
+        ],
+        [
+          0.03358265904315833,
+          0.037114639248806335
+        ],
+        [
+          0.16989958740692143,
+          0.17879908198848732
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "beta_window": [
+        -0.8050000000000002,
+        -0.8045,
+        -0.804,
+        -0.8034999999999999,
+        -0.803,
+        -0.8025
+      ],
+      "binder_values": [
+        0.2175801861500265,
+        0.23131190106374155,
+        0.25322399750538593,
+        0.28128309944920593,
+        0.31265327791144415,
+        0.31655638319462975
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 6,
+      "moment_ratio_at_interpolated_root": 0.24993221834943669,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8040657432998117,
+      "epsilon_MC95": [
+        0.8038121156899611,
+        0.8043316530870989
+      ],
+      "selected_original_indices": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 16,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8040638464737777,
+        0.03532697853665916,
+        0.17439171588479807
+      ],
+      "MC95": [
+        [
+          -0.8042849617956597,
+          -0.8038483519576796
+        ],
+        [
+          0.033913059336869396,
+          0.03691902723312072
+        ],
+        [
+          0.17078300730369936,
+          0.17820222045090658
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "beta_window": [
+        -0.8050000000000002,
+        -0.8045,
+        -0.804,
+        -0.8034999999999999,
+        -0.803,
+        -0.8025
+      ],
+      "binder_values": [
+        0.2175801861500265,
+        0.23131190106374155,
+        0.25322399750538593,
+        0.28128309944920593,
+        0.31265327791144415,
+        0.31655638319462975
+      ],
+      "monotone_max_shift": 0.0,
+      "node_count": 6,
+      "moment_ratio_at_interpolated_root": 0.24999999999996048,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8040638464737777,
+      "epsilon_MC95": [
+        0.8038483519576796,
+        0.8042849617956597
+      ],
+      "selected_original_indices": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 16,
+      "method": "moment_linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8027581094752725,
+        0.02195069828438984,
+        0.13732399721031666
+      ],
+      "MC95": [
+        [
+          -0.8028294632899252,
+          -0.8024905662208007
+        ],
+        [
+          0.02126030687774864,
+          0.024077057693647142
+        ],
+        [
+          0.13513109653769861,
+          0.14372988892359737
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "beta_window": [
+        -0.8034999999999999,
+        -0.8032500000000001,
+        -0.803,
+        -0.80275,
+        -0.8025,
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001
+      ],
+      "binder_values": [
+        0.18939613812104938,
+        0.2026681420369797,
+        0.20985801498443735,
+        0.25134577588452134,
+        0.2623892954591368,
+        0.28124862881799495,
+        0.3136427360554105,
+        0.3033577629932429,
+        0.33160788404894914
+      ],
+      "monotone_max_shift": 0.005976056962971876,
+      "node_count": 9,
+      "moment_ratio_at_interpolated_root": 0.24993762056693414,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8027581094752725,
+      "epsilon_MC95": [
+        0.8024905662208007,
+        0.8028294632899252
+      ],
+      "selected_original_indices": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 24,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8027653079220542,
+        0.0218722880695482,
+        0.13707443143603174
+      ],
+      "MC95": [
+        [
+          -0.8028499275145365,
+          -0.80247137940878
+        ],
+        [
+          0.021016512642342756,
+          0.024242721789332233
+        ],
+        [
+          0.134423064008632,
+          0.14424602810246395
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "beta_window": [
+        -0.8034999999999999,
+        -0.8032500000000001,
+        -0.803,
+        -0.80275,
+        -0.8025,
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001
+      ],
+      "binder_values": [
+        0.18939613812104938,
+        0.2026681420369797,
+        0.20985801498443735,
+        0.25134577588452134,
+        0.2623892954591368,
+        0.28124862881799495,
+        0.3136427360554105,
+        0.3033577629932429,
+        0.33160788404894914
+      ],
+      "monotone_max_shift": 0.005976056962971876,
+      "node_count": 9,
+      "moment_ratio_at_interpolated_root": 0.24964293631835632,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8027653079220542,
+      "epsilon_MC95": [
+        0.80247137940878,
+        0.8028499275145365
+      ],
+      "selected_original_indices": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 24,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8027577500117923,
+        0.0219546530379642,
+        0.13733836678083894
+      ],
+      "MC95": [
+        [
+          -0.8028342992143422,
+          -0.8024799679134218
+        ],
+        [
+          0.021257648380702737,
+          0.024232722761072748
+        ],
+        [
+          0.13518637364205444,
+          0.14425301620357933
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "beta_window": [
+        -0.8034999999999999,
+        -0.8032500000000001,
+        -0.803,
+        -0.80275,
+        -0.8025,
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001
+      ],
+      "binder_values": [
+        0.18939613812104938,
+        0.2026681420369797,
+        0.20985801498443735,
+        0.25134577588452134,
+        0.2623892954591368,
+        0.28124862881799495,
+        0.3136427360554105,
+        0.3033577629932429,
+        0.33160788404894914
+      ],
+      "monotone_max_shift": 0.005976056962971876,
+      "node_count": 9,
+      "moment_ratio_at_interpolated_root": 0.25000000000003775,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8027577500117923,
+      "epsilon_MC95": [
+        0.8024799679134218,
+        0.8028342992143422
+      ],
+      "selected_original_indices": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 24,
+      "method": "moment_linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8019687167778343,
+        0.016771508684154234,
+        0.12011737907396737
+      ],
+      "MC95": [
+        [
+          -0.8021105561175658,
+          -0.8018939666012734
+        ],
+        [
+          0.015855521510695088,
+          0.017601705489662174
+        ],
+        [
+          0.11682168761172683,
+          0.12300699288562346
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "beta_window": [
+        -0.80275,
+        -0.8025,
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001
+      ],
+      "binder_values": [
+        0.1556097856663612,
+        0.2000534383959529,
+        0.224933165381344,
+        0.24517415737385706,
+        0.2837398987845702,
+        0.31017810569374227
+      ],
+      "monotone_max_shift": 2.7755575615628914e-17,
+      "node_count": 6,
+      "moment_ratio_at_interpolated_root": 0.24827790050871534,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8019687167778343,
+      "epsilon_MC95": [
+        0.8018939666012734,
+        0.8021105561175658
+      ],
+      "selected_original_indices": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 32,
+      "method": "linear",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8019610198021669,
+        0.016718092034448892,
+        0.12000203940397733
+      ],
+      "MC95": [
+        [
+          -0.8021192970526506,
+          -0.801874911119296
+        ],
+        [
+          0.015808533327022308,
+          0.017721980137513506
+        ],
+        [
+          0.11663435822221517,
+          0.12351504305413338
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "beta_window": [
+        -0.80275,
+        -0.8025,
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001
+      ],
+      "binder_values": [
+        0.1556097856663612,
+        0.2000534383959529,
+        0.224933165381344,
+        0.24517415737385706,
+        0.2837398987845702,
+        0.31017810569374227
+      ],
+      "monotone_max_shift": 2.7755575615628914e-17,
+      "node_count": 6,
+      "moment_ratio_at_interpolated_root": 0.24965852043650893,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8019610198021669,
+      "epsilon_MC95": [
+        0.801874911119296,
+        0.8021192970526506
+      ],
+      "selected_original_indices": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 32,
+      "method": "pchip",
+      "flags": []
+    },
+    {
+      "status": "conditional_contour",
+      "location": [
+        -0.8019538393467591,
+        0.016981669197801377,
+        0.12091719952572609
+      ],
+      "MC95": [
+        [
+          -0.8021075534299064,
+          -0.8018693790681675
+        ],
+        [
+          0.015875746626287247,
+          0.017929880383597642
+        ],
+        [
+          0.11691285085265146,
+          0.12419077092066409
+        ]
+      ],
+      "valid_fraction": 1.0,
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "beta_window": [
+        -0.80275,
+        -0.8025,
+        -0.80225,
+        -0.802,
+        -0.8017500000000001,
+        -0.8015000000000001
+      ],
+      "binder_values": [
+        0.1556097856663612,
+        0.2000534383959529,
+        0.224933165381344,
+        0.24517415737385706,
+        0.2837398987845702,
+        0.31017810569374227
+      ],
+      "monotone_max_shift": 2.7755575615628914e-17,
+      "node_count": 6,
+      "moment_ratio_at_interpolated_root": 0.2500000000000685,
+      "scan_coordinate": "minus_epsilon_over_pi",
+      "epsilon_over_pi": 0.8019538393467591,
+      "epsilon_MC95": [
+        0.8018693790681675,
+        0.8021075534299064
+      ],
+      "selected_original_indices": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "N": 32,
+      "method": "moment_linear",
+      "flags": []
+    }
+  ],
+  "fits": [
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.499929239268233,
+        "MC95": [
+          0.47874382250371883,
+          0.5173921597715855
+        ],
+        "chi2": 5.737940063735426,
+        "dof": 3,
+        "p": 0.125079888481635,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.6087215606333253,
+          0.499929239268233
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.499929239268233,
+        "MC95": [
+          0.47874382250371883,
+          0.5173921597715855
+        ],
+        "chi2": 5.737940063735426,
+        "dof": 3,
+        "p": 0.125079888481635,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.6087215606333253,
+          0.499929239268233
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5336718062079017,
+        "MC95": [
+          0.49339494854011057,
+          0.5683138986705132
+        ],
+        "chi2": 1.3429357936221247,
+        "dof": 2,
+        "p": 0.5109579934219888,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.39853025652338964,
+          0.5336718062079017
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5413472082349287,
+        "MC95": [
+          0.4924358100241165,
+          0.5925413652879167
+        ],
+        "chi2": 1.1685984045121882,
+        "dof": 1,
+        "p": 0.2796894178819587,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3490917335804249,
+          0.5413472082349287
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 0.5,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.7117151448390948,
+        "MC95": [
+          0.49981618111678255,
+          0.9313056377597736
+        ],
+        "chi2": 1.916502340952047,
+        "dof": 2,
+        "p": 0.3835630862208022,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          1.398574794213113,
+          0.7117151448390948,
+          -3.2175162349185076
+        ],
+        "minimum": 6,
+        "omega": 0.5
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 0.8,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6372069082090865,
+        "MC95": [
+          0.4969086268022524,
+          0.7784073611280078
+        ],
+        "chi2": 1.8100244814885784,
+        "dof": 2,
+        "p": 0.4045369332395563,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.4919660129274368,
+          0.6372069082090865,
+          -2.855698712157131
+        ],
+        "minimum": 6,
+        "omega": 0.8
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 1.0,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6125739271329291,
+        "MC95": [
+          0.4972899574712184,
+          0.726736682548162
+        ],
+        "chi2": 1.745489810500553,
+        "dof": 2,
+        "p": 0.41780314379363315,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.24104311049781538,
+          0.6125739271329291,
+          -3.1417121460154562
+        ],
+        "minimum": 6,
+        "omega": 1.0
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.49963363773349173,
+        "MC95": [
+          0.47868546115300764,
+          0.517263155829557
+        ],
+        "chi2": 5.91313556441331,
+        "dof": 3,
+        "p": 0.11591370286137967,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3810326166028072,
+          0.49963363773349173
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.49963363773349173,
+        "MC95": [
+          0.47868546115300764,
+          0.517263155829557
+        ],
+        "chi2": 5.91313556441331,
+        "dof": 3,
+        "p": 0.11591370286137967,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3810326166028072,
+          0.49963363773349173
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5332685042527513,
+        "MC95": [
+          0.4928594578381385,
+          0.5674436287693104
+        ],
+        "chi2": 1.513748241839345,
+        "dof": 2,
+        "p": 0.46913058290561005,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.2760745123820375,
+          0.5332685042527513
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5417497987145347,
+        "MC95": [
+          0.49345912764700667,
+          0.593009477976848
+        ],
+        "chi2": 1.3025662592349516,
+        "dof": 1,
+        "p": 0.25374499840980863,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.24872869230077216,
+          0.5417497987145347
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 0.5,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.7114707656592308,
+        "MC95": [
+          0.5009313276700509,
+          0.9314168148376379
+        ],
+        "chi2": 2.0822390595025406,
+        "dof": 2,
+        "p": 0.3530592003446245,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.6232302697718022,
+          0.7114707656592308,
+          -1.6100001813679288
+        ],
+        "minimum": 6,
+        "omega": 0.5
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 0.8,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6369593270330566,
+        "MC95": [
+          0.49629362235319274,
+          0.7764498418952918
+        ],
+        "chi2": 1.9729067249125418,
+        "dof": 2,
+        "p": 0.372896878594357,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.16980092037699757,
+          0.6369593270330566,
+          -1.4295462885202685
+        ],
+        "minimum": 6,
+        "omega": 0.8
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 1.0,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6123206815206677,
+        "MC95": [
+          0.4964716700293667,
+          0.7251037926631856
+        ],
+        "chi2": 1.9067509893669718,
+        "dof": 2,
+        "p": 0.3854377819657267,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.04428325814981319,
+          0.6123206815206677,
+          -1.5730752267052244
+        ],
+        "minimum": 6,
+        "omega": 1.0
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5013279254809134,
+        "MC95": [
+          0.47698433918150157,
+          0.5206656682129374
+        ],
+        "chi2": 4.978220269654008,
+        "dof": 3,
+        "p": 0.17339892777116808,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.6021488880413941,
+          0.5013279254809134
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5013279254809134,
+        "MC95": [
+          0.47698433918150157,
+          0.5206656682129374
+        ],
+        "chi2": 4.978220269654008,
+        "dof": 3,
+        "p": 0.17339892777116808,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.6021488880413941,
+          0.5013279254809134
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5377734289432404,
+        "MC95": [
+          0.4899969273117083,
+          0.5748697529617044
+        ],
+        "chi2": 1.101867843933678,
+        "dof": 2,
+        "p": 0.576411235811265,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.37417156406282737,
+          0.5377734289432404
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5438760176797172,
+        "MC95": [
+          0.4891302777252685,
+          0.6002256871617175
+        ],
+        "chi2": 1.005302966325716,
+        "dof": 1,
+        "p": 0.3160307385497247,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3348129599407958,
+          0.5438760176797172
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 0.5,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.7230790343112113,
+        "MC95": [
+          0.4835406922625297,
+          0.960789803064956
+        ],
+        "chi2": 1.6820112197568478,
+        "dof": 2,
+        "p": 0.43127660927284717,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          1.5013241734083438,
+          0.7230790343112113,
+          -3.3731666960823348
+        ],
+        "minimum": 6,
+        "omega": 0.5
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 0.8,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6452241410191247,
+        "MC95": [
+          0.4886643126581169,
+          0.795726174157014
+        ],
+        "chi2": 1.5873710862416153,
+        "dof": 2,
+        "p": 0.4521752092746647,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.5529295704888577,
+          0.6452241410191247,
+          -2.99911895190963
+        ],
+        "minimum": 6,
+        "omega": 0.8
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 1.0,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6195012494826156,
+        "MC95": [
+          0.48850357847441456,
+          0.7422222834160916
+        ],
+        "chi2": 1.5295256863419207,
+        "dof": 2,
+        "p": 0.4654443011808346,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.29051953763094174,
+          0.6195012494826156,
+          -3.303517556892362
+        ],
+        "minimum": 6,
+        "omega": 1.0
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5006549920832192,
+        "MC95": [
+          0.47651297226667017,
+          0.5201671220129723
+        ],
+        "chi2": 5.150016203824734,
+        "dof": 3,
+        "p": 0.1611360857074614,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3784907690024631,
+          0.5006549920832192
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5006549920832192,
+        "MC95": [
+          0.47651297226667017,
+          0.5201671220129723
+        ],
+        "chi2": 5.150016203824734,
+        "dof": 3,
+        "p": 0.1611360857074614,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3784907690024631,
+          0.5006549920832192
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5371945799143849,
+        "MC95": [
+          0.4889046255820262,
+          0.574362384734097
+        ],
+        "chi2": 1.2647729219689077,
+        "dof": 2,
+        "p": 0.5313223068547879,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.26419592974240685,
+          0.5371945799143849
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5440349152783561,
+        "MC95": [
+          0.4893885619293579,
+          0.6007204453948883
+        ],
+        "chi2": 1.1485218517186127,
+        "dof": 1,
+        "p": 0.2838587916861102,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.24213306096887569,
+          0.5440349152783561
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 0.5,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.7235405544167065,
+        "MC95": [
+          0.4811757225072799,
+          0.9626845768193203
+        ],
+        "chi2": 1.8578916937546042,
+        "dof": 2,
+        "p": 0.39496984969620985,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.6784582206473238,
+          0.7235405544167065,
+          -1.694465802644349
+        ],
+        "minimum": 6,
+        "omega": 0.5
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 0.8,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6453698206155908,
+        "MC95": [
+          0.4859396422090945,
+          0.801557161579392
+        ],
+        "chi2": 1.7591801767436845,
+        "dof": 2,
+        "p": 0.4149529708724795,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.20224519153391968,
+          0.6453698206155908,
+          -1.5071115981896235
+        ],
+        "minimum": 6,
+        "omega": 0.8
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "pchip",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 1.0,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6195350582377968,
+        "MC95": [
+          0.4880533458380117,
+          0.7443004865558901
+        ],
+        "chi2": 1.6989072708070487,
+        "dof": 2,
+        "p": 0.42764852014189714,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.07045043098535304,
+          0.6195350582377968,
+          -1.6603625105512136
+        ],
+        "minimum": 6,
+        "omega": 1.0
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.49453492070423155,
+        "MC95": [
+          0.4706551411631612,
+          0.5127673184093838
+        ],
+        "chi2": 7.246587198716712,
+        "dof": 3,
+        "p": 0.06443998750583825,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.6286831861698138,
+          0.49453492070423155
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.49453492070423155,
+        "MC95": [
+          0.4706551411631612,
+          0.5127673184093838
+        ],
+        "chi2": 7.246587198716712,
+        "dof": 3,
+        "p": 0.06443998750583825,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.6286831861698138,
+          0.49453492070423155
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5322878993905514,
+        "MC95": [
+          0.49236693345327576,
+          0.5648783666023417
+        ],
+        "chi2": 1.3687308447014068,
+        "dof": 2,
+        "p": 0.5044102154849579,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.4009689313014916,
+          0.5322878993905514
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5377954814293423,
+        "MC95": [
+          0.4865785160323247,
+          0.595037965430217
+        ],
+        "chi2": 1.303270567772086,
+        "dof": 1,
+        "p": 0.2536166799085309,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3660105722086733,
+          0.5377954814293423
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 0.5,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.7342482863233651,
+        "MC95": [
+          0.529393207714321,
+          0.9482189062811857
+        ],
+        "chi2": 2.28519341144095,
+        "dof": 2,
+        "p": 0.318989623250881,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          1.6254747327225378,
+          0.7342482863233651,
+          -3.592177465099836
+        ],
+        "minimum": 6,
+        "omega": 0.5
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 0.8,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6502230034204821,
+        "MC95": [
+          0.5196783758181686,
+          0.786792014146969
+        ],
+        "chi2": 2.1420045569160724,
+        "dof": 2,
+        "p": 0.34266489959990915,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.6064377364433043,
+          0.6502230034204821,
+          -3.1706217888669808
+        ],
+        "minimum": 6,
+        "omega": 0.8
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "m2",
+      "minimum": 6,
+      "omega": 1.0,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6224247838631661,
+        "MC95": [
+          0.5155348338380954,
+          0.7341442345255373
+        ],
+        "chi2": 2.054678909557345,
+        "dof": 2,
+        "p": 0.357958058390423,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.3243975534997074,
+          0.6224247838631661,
+          -3.4756798271898757
+        ],
+        "minimum": 6,
+        "omega": 1.0
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.49381181158340026,
+        "MC95": [
+          0.4701618494517359,
+          0.5122790370472499
+        ],
+        "chi2": 7.584824701494917,
+        "dof": 3,
+        "p": 0.05541853533005979,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3917889096866917,
+          0.49381181158340026
+        ],
+        "minimum": 6,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 8,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.49381181158340026,
+        "MC95": [
+          0.4701618494517359,
+          0.5122790370472499
+        ],
+        "chi2": 7.584824701494917,
+        "dof": 3,
+        "p": 0.05541853533005979,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.3917889096866917,
+          0.49381181158340026
+        ],
+        "minimum": 8,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 12,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5318331216865146,
+        "MC95": [
+          0.49223588040069666,
+          0.5639856535852273
+        ],
+        "chi2": 1.529273270874782,
+        "dof": 2,
+        "p": 0.465503047558235,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.27721528566146125,
+          0.5318331216865146
+        ],
+        "minimum": 12,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 16,
+      "omega": null,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.5383475196537187,
+        "MC95": [
+          0.4868726547031572,
+          0.5954914092915783
+        ],
+        "chi2": 1.4396790771257244,
+        "dof": 1,
+        "p": 0.2301912797933719,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          -0.25653945735384426,
+          0.5383475196537187
+        ],
+        "minimum": 16,
+        "omega": null
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 0.5,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.7369728622236006,
+        "MC95": [
+          0.5318666285757151,
+          0.9502983320006023
+        ],
+        "chi2": 2.4368807508419095,
+        "dof": 2,
+        "p": 0.29569097439874964,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.7511845154186855,
+          0.7369728622236006,
+          -1.820839284608602
+        ],
+        "minimum": 6,
+        "omega": 0.5
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 0.8,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6517053937608789,
+        "MC95": [
+          0.520223312832816,
+          0.7870598426305313
+        ],
+        "chi2": 2.289289565209091,
+        "dof": 2,
+        "p": 0.3183369765406964,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.23431135045551812,
+          0.6517053937608789,
+          -1.6063149968815276
+        ],
+        "minimum": 6,
+        "omega": 0.8
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    },
+    {
+      "method": "moment_linear",
+      "moment": "mabs",
+      "minimum": 6,
+      "omega": 1.0,
+      "result": {
+        "status": "conditional_dimension_fit",
+        "sizes": [
+          8,
+          12,
+          16,
+          24,
+          32
+        ],
+        "Delta": 0.6234906554180569,
+        "MC95": [
+          0.5153790830961021,
+          0.7347348244863074
+        ],
+        "chi2": 2.199555295479924,
+        "dof": 2,
+        "p": 0.332945106565112,
+        "valid_fraction": 1.0,
+        "coefficients": [
+          0.09124358491095083,
+          0.6234906554180569,
+          -1.7602250302669387
+        ],
+        "minimum": 6,
+        "omega": 1.0
+      },
+      "input_flags": [],
+      "omitted_sizes": []
+    }
+  ],
+  "scope": "Conditional MC effective spin dimension at beta=0. No nu/Delta fixed. Size/contour/correction and mixing sensitivity are not total confidence coverage."
+}

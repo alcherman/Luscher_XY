@@ -1,0 +1,77 @@
+{
+  "state": "failed",
+  "launch_token": "1013d292f1cb4017b36f59c122e25829",
+  "point": {
+    "id": "spinfull3_pilot_q0800750_N064_r91_s004000",
+    "D": 3,
+    "N": 64,
+    "beta": 0.0,
+    "epsilon_over_pi": 0.80075,
+    "epsilon": 2.5156303173620267,
+    "replica": 91,
+    "seed": 10212762616746740355,
+    "initial_winding": [
+      1,
+      0,
+      0
+    ],
+    "steps": 4000,
+    "warmup": 1000,
+    "clusters_per_cycle": 4,
+    "online": true,
+    "campaign_role": "pilot"
+  },
+  "pid": 33529,
+  "updated": "2026-10-16T18:52:27.394199-05:00",
+  "manifest": "/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/batches/pilot.json",
+  "source_hashes": {
+    "kernels": {
+      "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+      "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+      "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+      "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+      "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+      "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+      "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+      "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+      ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+      "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+    },
+    "online": "96b6f62d1abb3f70133d557435a52b0b6a70047cfe43152cb459648cc37d9b3e",
+    "runner": "e3e341e184d2c2918a30f1c8ba1ca5fdcd05a7ad4fdbc1a0d9a9916d4701ed76",
+    "retention_policy": "77e51e8c4717f90fb5087908564bf5e65ccb1db0f1b2089b984f626c8178b5c2"
+  },
+  "attempt_history": [
+    {
+      "state": "running",
+      "point": {
+        "id": "spinfull3_pilot_q0800750_N064_r91_s004000",
+        "D": 3,
+        "N": 64,
+        "beta": 0.0,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "replica": 91,
+        "seed": 10212762616746740355,
+        "initial_winding": [
+          1,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "online": true,
+        "campaign_role": "pilot"
+      },
+      "launch_token": "1013d292f1cb4017b36f59c122e25829",
+      "coordinator_pid": 33516,
+      "updated": "2026-10-16T18:52:26.248124-05:00",
+      "attempt_history": [],
+      "launch_recoveries": [],
+      "pid": 33529,
+      "note": "Full-growth reservation and nonce persisted before child creation"
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/campaign.py\", line 65, in worker\n    route();producer(path,sweeps=target,resume=path.exists(),**kwargs);print(frozen.now(),'checkpoint',identifier,target,flush=True)\n            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/online_spin.py\", line 44, in run_chain\n    with installed():return xy.run_chain(path,**kwargs)\n                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"/Users/acherman/research/Luscher_XY/supervillain/xy.py\", line 146, in run_chain\n    raise ValueError(\"warmup must be smaller than sweeps\")\nValueError: warmup must be smaller than sweeps\n"
+}

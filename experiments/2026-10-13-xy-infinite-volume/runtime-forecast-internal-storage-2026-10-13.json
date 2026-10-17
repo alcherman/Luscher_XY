@@ -1,0 +1,131 @@
+{
+  "created": "2026-10-13T14:51:21.414356-05:00",
+  "deadline": "2026-10-16T15:00:00-05:00",
+  "remaining_hours": 72.14405156777778,
+  "calibration": {
+    "trajectories": 36,
+    "audits_passed": 36,
+    "start": "2026-10-13T13:50:55.997869-05:00",
+    "end": "2026-10-13T13:59:25.349590-05:00",
+    "wall_seconds": 509.351721,
+    "worker_seconds": 5303.7086380779965,
+    "effective_workers": 10.412664607602252,
+    "bytes": 7807797920,
+    "costs": [
+      {
+        "D": 4,
+        "N": 8,
+        "trajectories": 6,
+        "cycles": 4000,
+        "median_seconds": 203.37557856250078,
+        "min_seconds": 109.49791504099994,
+        "max_seconds": 203.70386700000017,
+        "mean_bytes": 204177866.66666666
+      },
+      {
+        "D": 3,
+        "N": 8,
+        "trajectories": 6,
+        "cycles": 4000,
+        "median_seconds": 60.49239018749995,
+        "min_seconds": 60.409630666999874,
+        "max_seconds": 60.82089712499874,
+        "mean_bytes": 26751048
+      },
+      {
+        "D": 4,
+        "N": 6,
+        "trajectories": 6,
+        "cycles": 4000,
+        "median_seconds": 133.34057050000047,
+        "min_seconds": 107.84889116600061,
+        "max_seconds": 134.0274813750002,
+        "mean_bytes": 74522901.33333333
+      },
+      {
+        "D": 3,
+        "N": 12,
+        "trajectories": 6,
+        "cycles": 4000,
+        "median_seconds": 113.08919743699971,
+        "min_seconds": 109.40257675000066,
+        "max_seconds": 130.6653917909989,
+        "mean_bytes": 74585037.33333333
+      },
+      {
+        "D": 3,
+        "N": 6,
+        "trajectories": 6,
+        "cycles": 4000,
+        "median_seconds": 53.270674791499914,
+        "min_seconds": 52.904035207999186,
+        "max_seconds": 53.79658620800001,
+        "mean_bytes": 14289480
+      },
+      {
+        "D": 4,
+        "N": 12,
+        "trajectories": 6,
+        "cycles": 4000,
+        "median_seconds": 358.0602606040002,
+        "min_seconds": 304.4937540840001,
+        "max_seconds": 402.0411960000001,
+        "mean_bytes": 906973320
+      }
+    ]
+  },
+  "baseline": {
+    "candidate_slices": {
+      "3": 11,
+      "4": 7
+    },
+    "beta_points": 3,
+    "sizes": [
+      6,
+      8,
+      12
+    ],
+    "independent_starts": 2,
+    "cycles_per_start": 4000,
+    "trajectories_including_calibration": 324
+  },
+  "selected_size_checks": {
+    "slices_per_dimension": 3,
+    "d3_sizes": [
+      16
+    ],
+    "d4_sizes": [
+      10,
+      16
+    ],
+    "beta_points": 3,
+    "starts": 2,
+    "cycles": 4000,
+    "new_trajectories": 54
+  },
+  "projected_new_d3_d4": {
+    "trajectories": 342,
+    "worker_hours": 18.653361484292677,
+    "wall_hours_at_observed_throughput": 1.7914109584086595,
+    "bytes": 112273832732.55554,
+    "conservative_gate_bytes": 133641238014.0
+  },
+  "optional_d2_allowance": {
+    "slices": 4,
+    "beta_points": 3,
+    "sizes": [
+      128
+    ],
+    "starts": 2,
+    "cycles": 10000,
+    "trajectories": 24,
+    "conservative_gate_bytes": 38278056336,
+    "current_runtime_unmeasured": true
+  },
+  "usable_disk_bytes": 187692195840,
+  "conditional_delivery_range_hours": [
+    12,
+    36
+  ],
+  "conditional_delivery_range_note": "Planning allowance for adaptive refinement, fitting, diagnostic review and selected d2 runs; not a statistical prediction or a precision guarantee."
+}

@@ -1,0 +1,81 @@
+{
+  "created": "2026-10-14T13:45:00-05:00",
+  "endpoint_source": "experiments/2026-10-13-xy-infinite-volume/zero-beta-endpoint-snapshot-20261014-134244-cut2001-block1-local-legacy1-U25/analysis.json",
+  "endpoint_source_sha256": "93e669f334f579a54e8f42c27e6f16f51f7aa2ce045a1a65de7a85395b5e8e71",
+  "new_N512_endpoint_trajectories": 6,
+  "all_full_field_audits_passed": true,
+  "new_largest_roots": [
+    {
+      "D": 2,
+      "N": 256,
+      "observable": "eta_eff",
+      "target": 0.25,
+      "interpolation": "linear",
+      "epsilon_over_pi_location": 0.5571413416394663,
+      "valid_fraction": 0.9815,
+      "status": "unresolved",
+      "MC_95": [
+        0.5545348933850325,
+        0.5614606363239202
+      ],
+      "measured_epsilon_over_pi": [
+        0.553,
+        0.558,
+        0.565
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "window_policy": "local",
+      "full_scan_location": 0.5571413416394663,
+      "local_vs_full_shift": 0.0
+    },
+    {
+      "D": 2,
+      "N": 512,
+      "observable": "xi_over_L",
+      "target": 0.7506912,
+      "interpolation": "linear",
+      "epsilon_over_pi_location": 0.5579842512633961,
+      "valid_fraction": 0.9825,
+      "status": "unresolved",
+      "MC_95": [
+        0.5557891551478192,
+        0.5623905761940399
+      ],
+      "measured_epsilon_over_pi": [
+        0.553,
+        0.558,
+        0.565
+      ],
+      "flags": [],
+      "individual_flags": {},
+      "window_policy": "local",
+      "full_scan_location": 0.5579842512633961,
+      "local_vs_full_shift": 0.0
+    }
+  ],
+  "local_window_fix": "Fallback includes extra adjacent knot if no3SD anchor; coverage correction only. Earlier snapshots preserved.",
+  "endpoint_sensitivity_pointer": {
+    "folder": "endpoint-sensitivity-summary-20261014-134344",
+    "status": "descriptive_checks_not_final_acceptance"
+  },
+  "positive_sensitivity_pointer": {
+    "folder": "d2-current-chain-sensitivity-20261014-134410",
+    "status": "descriptive_not_final"
+  },
+  "positive_comparisons_complete": 22,
+  "positive_comparisons_total": 22,
+  "positive_max_cut_block_shift": 0.011378785658774954,
+  "extension_batch": "d2-eta-correlation-N512-endpoint-bracket-extensions-20261014",
+  "extension_trajectories": 4,
+  "extension_transient_full_GiB": 108.51575088500977,
+  "scientific_limitations": [
+    "Largest endpoint roots remain unresolved at <99% conditional bootstrap crossing retention.",
+    "Common-root cut/block comparisons exclude unresolved roots; successful common fits do not validate omittedN512 endpoint roots.",
+    "Correlated cut/block analyses are descriptive sensitivity, not independent mixing validation or calibrated totalCI.",
+    "PositiveD2q1 primary MC95 still misses known1.1199; wider model union is descriptive and includes amplifiedMCnoise, not pure systematicvariance.",
+    "No newN1024 sampling beyond existingtwo cost/observable probes; onebeta cannot establishcrossing."
+  ],
+  "tests_passed": 12,
+  "review": "Independent review reproduced22common-root4variantcomparisons, N512inclusion andq1benchmark caveat; largestendpointroots unresolved acrossvariants93.7\u201398.7%. Positiveq.60 comparisons omitR256andeta128:256; do notclaimall-rootrobustness."
+}

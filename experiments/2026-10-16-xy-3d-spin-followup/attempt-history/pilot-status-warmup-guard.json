@@ -1,0 +1,22 @@
+{
+  "pid": 33379,
+  "started": "2026-10-16T18:51:53.284441-05:00",
+  "stages": {
+    "smoke": {
+      "jobs": 1,
+      "generation_worker_seconds": 0.1994567920337431,
+      "audit_worker_seconds": 0.007662583026103675,
+      "full_bytes": 1697896
+    },
+    "benchmark": {
+      "jobs": 2,
+      "generation_worker_seconds": 16.791772708063945,
+      "audit_worker_seconds": 3.359831125999335,
+      "full_bytes": 369076416
+    }
+  },
+  "state": "failed_needs_attention",
+  "updated": "2026-10-16T18:52:31.531701-05:00",
+  "benchmark_physical_rng_histories_exact": true,
+  "error": "Traceback (most recent call last):\n  File \"/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/run_pilot.py\", line 17, in main\n    subprocess.run([sys.executable,'-u',str(P/'campaign.py'),'--coordinate','--manifest',str(P/'batches'/f'{tag}.json'),'--workers',str(workers)],cwd=c.ROOT,stdout=stream,stderr=subprocess.STDOUT,check=True)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/acherman/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/subprocess.py\", line 578, in run\n    raise CalledProcessError(retcode, process.args,\n                             output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command '['/Users/acherman/research/Luscher_XY/.venv/bin/python', '-u', '/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/campaign.py', '--coordinate', '--manifest', '/Users/acherman/research/Luscher_XY/experiments/2026-10-16-xy-3d-spin-followup/batches/pilot.json', '--workers', '8']' returned non-zero exit status 1.\n"
+}

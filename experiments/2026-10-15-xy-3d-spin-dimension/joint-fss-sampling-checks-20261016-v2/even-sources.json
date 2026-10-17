@@ -1,0 +1,5188 @@
+{
+  "analysis": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/common-xi-refined-even-20261015-213412/analysis.json",
+  "sha256": "5ac9fa1182cd3a2a2f99525c896a99b3f25dd429475910ee2e26716916c756b3",
+  "settings": {
+    "cut": 1001,
+    "factor": 2,
+    "starts": "even",
+    "source_analysis": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/common-xi-refined-primary-20261015-213346/analysis.json",
+    "draws": 2000,
+    "columns": [
+      "m2",
+      "m4",
+      "mabs",
+      "S0",
+      "F"
+    ],
+    "coordinate_pooling": "Only <=8-ulp representational differences pooled; all actual source coordinates preserved.",
+    "bootstrap": "Independent within-start block resamples, pooled by rows. Same coordinate draws reused across all pairs.",
+    "omega": 0.789
+  },
+  "source_jobs": [
+    {
+      "id": "d3_e080_b0000_N006_r00_s004000",
+      "point": {
+        "id": "d3_e080_b0000_N006_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.8,
+        "epsilon": 2.5132741228718345,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 0,
+        "seed": 2128722926289564918,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 14289480,
+        "sha256": "bee81820cbb3402b24c54a1c9794dec588ce56efb93bb0b84c5b8bd8220084fa"
+      }
+    },
+    {
+      "id": "d3_e080_b0000_N008_r00_s004000",
+      "point": {
+        "id": "d3_e080_b0000_N008_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.8,
+        "epsilon": 2.5132741228718345,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 0,
+        "seed": 771720957574619923,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 26751048,
+        "sha256": "84a641b6c7468cac629e19d574d8ba604b3ddb370908a7d4a0d3147ec05f002d"
+      }
+    },
+    {
+      "id": "d3_e080_b0000_N012_r00_s004000",
+      "point": {
+        "id": "d3_e080_b0000_N012_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.8,
+        "epsilon": 2.5132741228718345,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 0,
+        "seed": 10581076586363643241,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 74595960,
+        "sha256": "22fe121c0b2e7d6671d2cb79dfa9c9a8c01463dc75b1ad7dbdc727ee8d0574a0"
+      }
+    },
+    {
+      "id": "d3_e080_b0000_N016_r00_s004000",
+      "point": {
+        "id": "d3_e080_b0000_N016_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.8,
+        "epsilon": 2.5132741228718345,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 0,
+        "seed": 8950015800798256680,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 163200632,
+        "sha256": "848d58f5f49bd21f293e73531212f3f316bb37ea33918f2ff7879884e0ce803a"
+      }
+    },
+    {
+      "id": "d3_e080_b0000_N024_r00_s004000",
+      "point": {
+        "id": "d3_e080_b0000_N024_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.8,
+        "epsilon": 2.5132741228718345,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 0,
+        "seed": 23938228381411480,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 513044584,
+        "sha256": "34fc66bcc67fe688c723f6cf1d3de054d05a5df601993eb6ccd3da656d10fe41"
+      }
+    },
+    {
+      "id": "d3_e080_b0000_N032_r00_s004000",
+      "point": {
+        "id": "d3_e080_b0000_N032_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.8,
+        "epsilon": 2.5132741228718345,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 0,
+        "seed": 10289002632552746603,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 1177844872,
+        "sha256": "8c6ecd7b9065aaa3d941fb278c371e93f2405d43429e40d2b853563c2532d795"
+      }
+    },
+    {
+      "id": "d3_e082_b0000_N006_r00_s004000",
+      "point": {
+        "id": "d3_e082_b0000_N006_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.82,
+        "epsilon": 2.57610597594363,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 0,
+        "seed": 9159483337097640523,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8199999999999998,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 14289480,
+        "sha256": "03f528ca18d7b6f234641a154f6d406e0e58c95720bdacc32675abbcdb309c4a"
+      }
+    },
+    {
+      "id": "d3_e082_b0000_N008_r00_s004000",
+      "point": {
+        "id": "d3_e082_b0000_N008_r00_s004000",
+        "D": 3,
+        "epsilon_over_pi": 0.82,
+        "epsilon": 2.57610597594363,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 0,
+        "seed": 3914501270449176624,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 4000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4
+      },
+      "actual_epsilon_over_pi": 0.8199999999999998,
+      "audit": {
+        "passed": true,
+        "rows": 4001,
+        "bytes": 26751048,
+        "sha256": "1848e8908db8d3f87889379399699e707e936eba483c34473b51d77438f42c34"
+      }
+    },
+    {
+      "id": "spinpilot3_e080050_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080050_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 13375487084259975784,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80050,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "5c8fc70e57b33aa3a5611b89632b8ede1051c7eb2edbeaa6e8dc74a67ca0f7de"
+      }
+    },
+    {
+      "id": "spinpilot3_e080075_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080075_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 2746349289637405532,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80075,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861146792,
+        "sha256": "181d2ffb55bc2e1e5a83999fcb97ea18ff7f99c06099671524d1ea4208010088"
+      }
+    },
+    {
+      "id": "spinpilot3_e080075_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080075_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 2312922529680463527,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80075,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "f8437fd58792d2c7952fc0b659615cb694a0e95371b72518448d5d1fd6ac2c14"
+      }
+    },
+    {
+      "id": "spinpilot3_e080100_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080100_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 16823899063129409889,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80100,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "942b5168697d9b1c15bf55d4dc73215c111e144bea5c9c4565b018ef293a8c98"
+      }
+    },
+    {
+      "id": "spinpilot3_e080100_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080100_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 13112858470562657328,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80100,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "688541766c042d9d86280bf9a22753db440c2aea3125fba4cb80da32be8dd55e"
+      }
+    },
+    {
+      "id": "spinpilot3_e080125_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080125_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 13524853484365474006,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80125,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "3536a590cf3fdc040e77c2be7fd78d7d0bb57afbc15c1d5bc292eabbe2e785ae"
+      }
+    },
+    {
+      "id": "spinpilot3_e080125_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080125_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 5388551922608970364,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80125,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022693960,
+        "sha256": "b3120afcca4ba3ac6fb73bf0f7bf52f3dbbbf72e21338f8c7566c21f46e09800"
+      }
+    },
+    {
+      "id": "spinpilot3_e080150_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080150_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 1196348237402251046,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "8efa53c9d1861410dea80b78437e5e10c7a496c36b83bb5b7e0d458248cb7024"
+      }
+    },
+    {
+      "id": "spinpilot3_e080150_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080150_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 5350887731650254220,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "c0136cbc4b7adb131fd53f967442869f44ad36af85c98b3b9d8209d38481acda"
+      }
+    },
+    {
+      "id": "spinpilot3_e080175_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080175_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 508655629594332855,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8017500000000001,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861310632,
+        "sha256": "9e49d1515d4217c27ebc084208df3235b8878de7a715cbfa87531f2cd9c05d7c"
+      }
+    },
+    {
+      "id": "spinpilot3_e080175_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080175_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 7703267712748193231,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8017500000000001,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "c615385c09651508ad6d45e5edff1dad0da870b1f4cf3686a81e3edbcdc2fa98"
+      }
+    },
+    {
+      "id": "spinpilot3_e080200_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080200_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 14746037228029600115,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "bbecf4c2e235c6c48336db8a06d0df707bcdc96c3f62550f0e096f87e9fde342"
+      }
+    },
+    {
+      "id": "spinpilot3_e080200_N064_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080200_N064_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 30,
+        "seed": 12952224546009851426,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "3989bcf9930dbc9faa32f452a464cf0e1b9a4de180bbc3aed23054436b905673"
+      }
+    },
+    {
+      "id": "spinpilot3_e080225_N048_r30_s020000",
+      "point": {
+        "id": "spinpilot3_e080225_N048_r30_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 30,
+        "seed": 8951244235214402514,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_larger_size_pilot",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80225,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "72e713850ffbc13667cac90eea6e1c8b9c1adc9ebcacfd1ea1ffd6d5427cf4cc"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800250_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 3330095160485912947,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 42014440,
+        "sha256": "8928890f5718c93224d087a87c420689613a2b527f7ddd8823dfca0cbf4b9da9"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800250_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 132949538444452912,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78574888,
+        "sha256": "49e798212b70437b0b732a9a8f2436d4b0ccee98d8cd9584b76ffdedce990c72"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800250_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 13979603058980883942,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "4cc3221ab0b0eb73c631e0b21877fdd4b7f033af2c17c6b49edb9fc9b9471f6d"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800250_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 857129525038348044,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "484fcf6fde55c4887ec0c6e28ea0a181ea060373362d4b7fae6b79eaab7f0603"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800250_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 1972456483878840001,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "74c2117d7cff16a1830dd53e591d42c5f2110b806313678bedc5b09ac215dca9"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800250_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 11753923538132403884,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464549624,
+        "sha256": "d97d2a2dece65750ffaecd53c2715a65f68f772b5177fae5b6b08cdd098b11b5"
+      }
+    },
+    {
+      "id": "spinxi3_e800250_N048_r40_s020000",
+      "point": {
+        "id": "spinxi3_e800250_N048_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.80025,
+        "epsilon": 2.514059521035232,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 40,
+        "seed": 3302863359267447396,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80025,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861310632,
+        "sha256": "c3713d436a4a2805a0d80927e37692199a6dd05d9ea26895b9847567106f19a5"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800500_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 14781098275977911193,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 42014440,
+        "sha256": "76e50141da8451b9179f502761f7478ae2fd4c993e01ac5e26cb62fac1e545bf"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800500_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 15364750037046713651,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "80c82732df8d3cb84a00bd38f44793405104c3aa7bc6001b0fb0fd8e15f7544e"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800500_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 11366591279565869119,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "e9ec5c1d8c30589f5c4c7b24f99f2bbc604f8083d5bd126100fcaada313cb80e"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800500_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 8470754272320478806,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "2295495c5fd21f5ee7e84cf14d3e2abf0c4b9a96d1f060dfa222b77c75101e06"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800500_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 6073561912171679712,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "c9d743fbeee1112cf5b099eb49794d681773ac7045cadc7289f40b76da36e6f1"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800500_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 9003109928227064872,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "8cd4d1de7cd0d213cb2479cb5f3168af71545c61b0a3105b508b8c142a882d6f"
+      }
+    },
+    {
+      "id": "spinxi3_e800500_N048_r40_s020000",
+      "point": {
+        "id": "spinxi3_e800500_N048_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.8005,
+        "epsilon": 2.5148449191986293,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 40,
+        "seed": 6107457470627306936,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8005,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "1dd3fef1210059a2b1fc88d48dd237da21c692b1e84e3b7fcdfec4ff926f5736"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800625_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 2190758938346156843,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41899752,
+        "sha256": "e06c4d45ab35f1787bcddecff083b61feb5c07e893a4e720681ae1dbcd0e41f1"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800625_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 5622668326737562965,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78640424,
+        "sha256": "4d9d22bf7b95792b3dd2d23d76d051b7086d007dade42699832fe94698c5a6e1"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800625_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 10762743796572856060,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219190136,
+        "sha256": "201ee1f6beccf3b652b9a872bd40c4f33faa7bb373d923830fdb220c606364c0"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800625_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 11338613474704328545,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479368056,
+        "sha256": "44e0afdc479d8d732215c17ce515a345abc51d74bd684b5e1b6cc2469a0162d0"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800625_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 16826087045764866568,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509632744,
+        "sha256": "a483bede140f0b30a2186d0b2ca9c550095767be773f3a31c960684bf5f12abc"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800625_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 7866513866067083684,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464582392,
+        "sha256": "2d098834a091d091278009c273efaf36da2c33c31c93b0a699a35867b529f865"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N048_r40_s020000",
+      "point": {
+        "id": "spinxi3_e800625_N048_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 40,
+        "seed": 6213462208530856106,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "b122d770b69d248714765ef1727e05c1dc40579eb8a38311ff4df5503a283832"
+      }
+    },
+    {
+      "id": "spinxi3_e800625_N064_r40_s020000",
+      "point": {
+        "id": "spinxi3_e800625_N064_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.800625,
+        "epsilon": 2.515237618280328,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 40,
+        "seed": 1820338354755079014,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800625,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800625,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "821bb2511968f91fbb07856b73800419c601c2b48dbcc05d8906a40a8f2850a7"
+      }
+    },
+    {
+      "id": "spinxi3_e800750_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800750_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 9553680609695625396,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800750,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41998056,
+        "sha256": "1a439f5d44915e8d5c78c41af54340144fc1818f55986caa2ff12e08b5e5291e"
+      }
+    },
+    {
+      "id": "spinxi3_e800750_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800750_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 14929983002255819922,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800750,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "b7d79630fe24e75e4d66650c2914e55f79fde9003742da60a946f247c1801eb3"
+      }
+    },
+    {
+      "id": "spinxi3_e800750_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800750_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 16653536483726062208,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800750,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "19193e02709467b659249e1f09bbd2a1f6eacbff4e934f9d5acd57af27079b6f"
+      }
+    },
+    {
+      "id": "spinxi3_e800750_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800750_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 5808589443997991659,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800750,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "e642fdfa0c29c00fb0f1006a084a48997fe13deda435394e77f7619a236fdb1c"
+      }
+    },
+    {
+      "id": "spinxi3_e800750_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800750_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 15777700532176079764,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800750,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509698280,
+        "sha256": "2e302b2bcd557bd8d0b5a90be2d081ca6a69724d9dee1dd90d2cfad67b7528bb"
+      }
+    },
+    {
+      "id": "spinxi3_e800750_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800750_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80075,
+        "epsilon": 2.5156303173620267,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 1690112489621292691,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800750,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80075,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464549624,
+        "sha256": "4bacb3e03cd3dfddcc9ca991757f338ec0feb2d58ac99d10e652eb0f36e87b84"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800875_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 3948693852286647032,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41998056,
+        "sha256": "bf1b6674396d10975f46717ac575f3baabf277ca58765bd54f9fa1195445c4b8"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800875_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 1555932322861647114,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "8010108757b27a0b221a4ac356924f60ff3774b1c83035e137ca784823936dc9"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800875_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 17357663157137223646,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "b1c6c5d394c40cf8e8f6bc3902fe63a469c0f2a10f387b8492917f262d4c4f35"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800875_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 15979256347591155772,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "62d5f1e6e6830c239965d7884258d651d339edbe61bc5e892f0499db0d4b83a1"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800875_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 17359110854806762082,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509698280,
+        "sha256": "7939ed8249c9e63dc14fc8c1397b17ec1c735d28d39c3eb29baa6aaaec9ff911"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e800875_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 5043814268863808564,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "646447efcfff4ad92b0692d17922cd56b9bd1cc149d041980f9399bf81082f76"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N048_r40_s020000",
+      "point": {
+        "id": "spinxi3_e800875_N048_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 40,
+        "seed": 11523983357474152954,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861212328,
+        "sha256": "6cb2510d0fba412fae687cdeafce21f037251a27ad7a352271279ec4fc978324"
+      }
+    },
+    {
+      "id": "spinxi3_e800875_N064_r40_s020000",
+      "point": {
+        "id": "spinxi3_e800875_N064_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.800875,
+        "epsilon": 2.5160230164437256,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 40,
+        "seed": 8945575412763385625,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 800875,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.800875,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022661192,
+        "sha256": "44e9a8152332bbec7f8f68ab6591513fccef4c137500290d75a2bee3359972b7"
+      }
+    },
+    {
+      "id": "spinxi3_e801000_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801000_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 18181793468356650848,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801000,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41899752,
+        "sha256": "b3228b40e38c73e89047fb7605a1258d83b6cf2e3fb3b43fbf36364825f8d7d6"
+      }
+    },
+    {
+      "id": "spinxi3_e801000_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801000_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 9926693189996733253,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801000,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "8490bd324d939944f90277767e2840cb0aad6838d764b5eb061dcf24426c2b1b"
+      }
+    },
+    {
+      "id": "spinxi3_e801000_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801000_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 1017029527517683832,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801000,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219190136,
+        "sha256": "301c64596dc0cbaa40ac0a2c18a194b001e27d51088fc188c811776f9c025766"
+      }
+    },
+    {
+      "id": "spinxi3_e801000_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801000_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 7067499363113386234,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801000,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "af44b66a5013a9f1cfd79df46c5b1f0f7d8f90cf4968a71407b97a6d5e6aac45"
+      }
+    },
+    {
+      "id": "spinxi3_e801000_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801000_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 9547162070678486141,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801000,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509698280,
+        "sha256": "36ecf318f7cf7d004ff2314a76d5066bb3ca945d88bd8de6b5ddd07065177bef"
+      }
+    },
+    {
+      "id": "spinxi3_e801000_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801000_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801,
+        "epsilon": 2.5164157155254245,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 11488526378500704798,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801000,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464516856,
+        "sha256": "e097933af0751d276304e7b72b0f6ae2db1b67b921434d283e0d7a6d57f79d2e"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801125_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 978705304716647835,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41981672,
+        "sha256": "778fe48af724728f8b3b9ad4c7a7b2775f3b659ca930e94338e525e61a3d87ac"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801125_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 2589715699235807860,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78574888,
+        "sha256": "e81cedf8bb86079d0834bda422aaa6489efd844dd878ee0a632c71d6ae5a9a92"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801125_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 2322825618736800233,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219124600,
+        "sha256": "0ccb88994f392f6d1a8215acbda131e1da185cb5b9c9ea9639ff3d4cb04c7b29"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801125_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 11877164631390353257,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "c1e25d04ae0b8ddb2e51dd9dae39108bfcce048b44810d0889ed15fb9b13c229"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801125_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 5387758806337231644,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "db79ea747f6dbc2c484916f63e5489790be145ca589a6f8a06b361acf52b595e"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801125_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 4122377633750304608,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "3b16913241b5c4031fbed7ec47aa8b877633321c6c3ad0ea32e48973a3236289"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N048_r40_s020000",
+      "point": {
+        "id": "spinxi3_e801125_N048_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 48,
+        "replica": 40,
+        "seed": 3612804987179483789,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 18861245096,
+        "sha256": "f26b1cf6f4f3ac1ec1b8a4cc8de505c3a2a13c5c17420bd8004da41dfc458f31"
+      }
+    },
+    {
+      "id": "spinxi3_e801125_N064_r40_s020000",
+      "point": {
+        "id": "spinxi3_e801125_N064_r40_s020000",
+        "D": 3,
+        "epsilon_over_pi": 0.801125,
+        "epsilon": 2.516808414607123,
+        "beta": 0.0,
+        "N": 64,
+        "replica": 40,
+        "seed": 18114116015359629389,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 20000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801125,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.801125,
+      "audit": {
+        "passed": true,
+        "rows": 20001,
+        "bytes": 44022759496,
+        "sha256": "556f7e50c85eeb488977647dbf5e9eb2efe810c4a5b661d4b9dd3cefeef20d28"
+      }
+    },
+    {
+      "id": "spinxi3_e801250_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801250_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 14014040894082637231,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41998056,
+        "sha256": "f3c7adcab990d27148f61c20f049885a9e34593fafee8e9ab6871350eba7bfe6"
+      }
+    },
+    {
+      "id": "spinxi3_e801250_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801250_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 1282129048467458394,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78574888,
+        "sha256": "f2925c9e1a73f7295149d76f6c2dee339cf01b984179e1a091ed087877ec0abd"
+      }
+    },
+    {
+      "id": "spinxi3_e801250_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801250_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 14838287350366208180,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219124600,
+        "sha256": "d2a28f6295c76aa933d8bedb4a45fc70ba790910fdf0c377b4d49ddc80696a95"
+      }
+    },
+    {
+      "id": "spinxi3_e801250_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801250_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 7641739267214682971,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "ceb86ee70f2b1d1146cdcf3e92615e00c7ca2abeaef163599a72b2cdb3096447"
+      }
+    },
+    {
+      "id": "spinxi3_e801250_N024_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801250_N024_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 40,
+        "seed": 6785125592557184306,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509665512,
+        "sha256": "9658b17780eae7d700320a440bee568c22c0693166044bff3ec8b4d95d6ba0d6"
+      }
+    },
+    {
+      "id": "spinxi3_e801250_N032_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801250_N032_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80125,
+        "epsilon": 2.517201113688822,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 40,
+        "seed": 43856289579014093,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801250,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80125,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464582392,
+        "sha256": "64af88501de175ae95beae477a89c97488c6ec9d7ba9fad2315269ae2f6308b7"
+      }
+    },
+    {
+      "id": "spinxi3_e801500_N006_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801500_N006_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 6,
+        "replica": 40,
+        "seed": 16392706969972952520,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 41981672,
+        "sha256": "74eddb9749f4762f2ec8891e808096b3b262cafff6708e0e82bd8d1e189e8e0d"
+      }
+    },
+    {
+      "id": "spinxi3_e801500_N008_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801500_N008_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 40,
+        "seed": 16997036333744797654,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "09496811d9951ca816395b6289a7732dc54b8ca0329938184807f5bf09edcb53"
+      }
+    },
+    {
+      "id": "spinxi3_e801500_N012_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801500_N012_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 40,
+        "seed": 11349654262111634264,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "0ad8b440b6f55c4209eced57caee3308da5ee76ae71bf11bffd097c39dd1abc2"
+      }
+    },
+    {
+      "id": "spinxi3_e801500_N016_r40_s012000",
+      "point": {
+        "id": "spinxi3_e801500_N016_r40_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 40,
+        "seed": 16689149479369015473,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e6": 801500,
+        "study_role": "spin_dimension_common_coupling_xi_refinement",
+        "primary_observables": [
+          "magnetization_squared",
+          "structure_zero",
+          "structure_min",
+          "xi_over_L"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "79e330cb6397fb0b873272400594476c099fea1cf039adaa807d9ba7a86cb92f"
+      }
+    },
+    {
+      "id": "spinzero3_e080150_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080150_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 17383732167185473952,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509632744,
+        "sha256": "10dd600d25e632af200b08c38f09a4c08de94cd889c99e7786898cdd124ae16f"
+      }
+    },
+    {
+      "id": "spinzero3_e080150_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080150_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8015,
+        "epsilon": 2.5179865118522193,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 14443612895699784594,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80150,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8015000000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "fe58109ad1476e8c83bba095b604b29a4c746f7cb85b71bc3a2d972422b52579"
+      }
+    },
+    {
+      "id": "spinzero3_e080175_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080175_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 11824208085109375960,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8017500000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "9c6ba4d2c55e9a24a4b866f6b3969e183780a7aabd1863066782e6bfa5add383"
+      }
+    },
+    {
+      "id": "spinzero3_e080175_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080175_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80175,
+        "epsilon": 2.5187719100156167,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 2047695012641662812,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80175,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8017500000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464582392,
+        "sha256": "7b7c765b368c11f7f7bf6a91da612616bd04ea40c5dbaf646a7392c4908eb6e0"
+      }
+    },
+    {
+      "id": "spinzero3_e080200_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080200_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 11964373763667567456,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "18e2794480b6e5af2a31941877a98d6b291fbe2b3360b27f754392c06c0fb8d4"
+      }
+    },
+    {
+      "id": "spinzero3_e080200_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080200_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 17943922707426512481,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80200,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464549624,
+        "sha256": "0cc40e05269b15a2ae93349c6d30d0530cfefb10e1bc188a3524b71a946274de"
+      }
+    },
+    {
+      "id": "spinzero3_e080225_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080225_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3944934090530295722,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80225,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "e44bbf186edd8e5b450ddeaf2bf0d8d9f394ffb8322cc6805e589177754635ea"
+      }
+    },
+    {
+      "id": "spinzero3_e080225_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080225_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80225,
+        "epsilon": 2.5203427063424115,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 2972510027731887931,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80225,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80225,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464516856,
+        "sha256": "e55fa44e7fb9e9780a7e137de30607908131916f41753cd0e54e51803bc10e7b"
+      }
+    },
+    {
+      "id": "spinzero3_e080250_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080250_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8025,
+        "epsilon": 2.521128104505809,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 862380484134892473,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80250,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "7f1afeb7d54fe99f18f61dae48ef2d0495ee4a048a0923d8ef8054c56d63a3bd"
+      }
+    },
+    {
+      "id": "spinzero3_e080250_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080250_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8025,
+        "epsilon": 2.521128104505809,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3553937446806547023,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80250,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "158e0847ea058d1bb99aa6756d3903d362366fcfcf60db5a9388726f5b5edf67"
+      }
+    },
+    {
+      "id": "spinzero3_e080250_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080250_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8025,
+        "epsilon": 2.521128104505809,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 5282621617057215040,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80250,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8025,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "01d7ceec58e8bafc2993e3e1ffed2c3bc22d45b52a1760b54bc3aaf10b569371"
+      }
+    },
+    {
+      "id": "spinzero3_e080275_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080275_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80275,
+        "epsilon": 2.5219135026692063,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3297602330785868922,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80275,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80275,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509665512,
+        "sha256": "b642959304297f411e69638f50475e8f86c8c8f8d13001705b4916555a6157ef"
+      }
+    },
+    {
+      "id": "spinzero3_e080275_N032_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080275_N032_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80275,
+        "epsilon": 2.5219135026692063,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 20,
+        "seed": 16598396856741308901,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80275,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.80275,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 3464615160,
+        "sha256": "c743fd33fa464118140afcb886b74ae2cb729ea55c8ef1dff8a396dd9d67a497"
+      }
+    },
+    {
+      "id": "spinzero3_e080300_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080300_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.803,
+        "epsilon": 2.522698900832604,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 4974673735385996756,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.803,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "40976ef7cba48483c99ff6b5e5189919d62269af53b39332405fe8283f5fc7ff"
+      }
+    },
+    {
+      "id": "spinzero3_e080300_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080300_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.803,
+        "epsilon": 2.522698900832604,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 133069272752800253,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.803,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "1bbe4ca8a0952045c5672379483e390b7d7432e17cb54544898199d40a2e36d6"
+      }
+    },
+    {
+      "id": "spinzero3_e080300_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080300_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.803,
+        "epsilon": 2.522698900832604,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 13375848709106093579,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.803,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "4b9895d8b400fcbab5585f36177e1da02cbb146dac080990ac0ee5f1f49181f4"
+      }
+    },
+    {
+      "id": "spinzero3_e080325_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080325_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.80325,
+        "epsilon": 2.5234842989960016,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 9629509049029842359,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80325,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8032500000000001,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509665512,
+        "sha256": "3883879343938e51b915d322feaee3221e48bb9779516f57f36d4ddc4d3db63c"
+      }
+    },
+    {
+      "id": "spinzero3_e080350_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080350_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8035,
+        "epsilon": 2.5242696971593985,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 1337706795388466233,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80350,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8034999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479466360,
+        "sha256": "2b89a9040ca6257e5ec6555d6fc9713aaae51cbca92bbfcfeff95843f0167828"
+      }
+    },
+    {
+      "id": "spinzero3_e080350_N024_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080350_N024_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8035,
+        "epsilon": 2.5242696971593985,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 20,
+        "seed": 3667620378375937699,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80350,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8034999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 1509731048,
+        "sha256": "7c3aade296ab45cad84920db58bf370151e662616916a0909d6f74499d34b180"
+      }
+    },
+    {
+      "id": "spinzero3_e080400_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080400_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.804,
+        "epsilon": 2.5258404934861938,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 18321904929872135320,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.804,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "de070a63ae2f51760466e4dfe953355a637f3e65c434aa32291326ff9bcc9af2"
+      }
+    },
+    {
+      "id": "spinzero3_e080400_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080400_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.804,
+        "epsilon": 2.5258404934861938,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 6640605656555509047,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.804,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "1e8d809dc03ae62071dd1adc1fa04a191c0ebf8205c11d69cbb36de6232cbc71"
+      }
+    },
+    {
+      "id": "spinzero3_e080400_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080400_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.804,
+        "epsilon": 2.5258404934861938,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 14844641883367893106,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.804,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479400824,
+        "sha256": "3720a420ec67aaeb8d14aa0b05dce613b3874ba421d085d6f82cd43fcc917be6"
+      }
+    },
+    {
+      "id": "spinzero3_e080450_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080450_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.8045,
+        "epsilon": 2.5274112898129886,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 17147432035184247048,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80450,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8045,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "a7194bf3903a8a0b77b8e967dd4de542792f13f92872c1d6bc58857935524e50"
+      }
+    },
+    {
+      "id": "spinzero3_e080500_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080500_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.805,
+        "epsilon": 2.528982086139784,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 10311643070890032776,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8050000000000002,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78640424,
+        "sha256": "cec752c9239f1f27ba3753d5b01b2a6cc5340abf12995f7a16f57e8c97642bb5"
+      }
+    },
+    {
+      "id": "spinzero3_e080500_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080500_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.805,
+        "epsilon": 2.528982086139784,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 14917970761076527596,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8050000000000002,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219091832,
+        "sha256": "dea7fe3d9ee50b69dd442f741c23296f42490d4abb8cf19917aa40b37ae4370f"
+      }
+    },
+    {
+      "id": "spinzero3_e080500_N016_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080500_N016_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.805,
+        "epsilon": 2.528982086139784,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 20,
+        "seed": 2045188186095881505,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8050000000000002,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 479433592,
+        "sha256": "4c1f471e69105f76751d14546a3bee0a2d37460ce520f658d4a66562eb6b93f2"
+      }
+    },
+    {
+      "id": "spinzero3_e080600_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080600_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.5321236787933734,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17776855161559109890,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80600,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.806,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78574888,
+        "sha256": "da16f19d7f20cae1743543d1a5a7181e0caf9f71127c0d4ef020b7e814f6905c"
+      }
+    },
+    {
+      "id": "spinzero3_e080600_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080600_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.5321236787933734,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 9022460509482029799,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80600,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.806,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219157368,
+        "sha256": "0dbc227ad1a4394e6e002bb7f03a7fd93bd327a05523a8cd00b06806a2a0f9ed"
+      }
+    },
+    {
+      "id": "spinzero3_e080700_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080700_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.807,
+        "epsilon": 2.535265271446963,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 4100112707384816231,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80700,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8069999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "68965c8309ff6de92bb050c14bc3d358dce968963625fd48405ded1b3b55224f"
+      }
+    },
+    {
+      "id": "spinzero3_e080700_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080700_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.807,
+        "epsilon": 2.535265271446963,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 14627379508356883546,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80700,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8069999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219190136,
+        "sha256": "b377c43b65217be07c7280ad9032012882b2b053c9f08cb02bfdb021bcdb2ded"
+      }
+    },
+    {
+      "id": "spinzero3_e080800_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080800_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.808,
+        "epsilon": 2.538406864100553,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 11964829862403996990,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80800,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.808,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "aac8de9fd5e679ae16aeea062b5ca2469048e04efff6c075992f319cb016c23d"
+      }
+    },
+    {
+      "id": "spinzero3_e080800_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080800_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.808,
+        "epsilon": 2.538406864100553,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 15955010015877476630,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80800,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.808,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219124600,
+        "sha256": "3d6fb6be9d16136ba60f9d1565cd0bd02bcdae45613ba0f5c892ed0ac653a142"
+      }
+    },
+    {
+      "id": "spinzero3_e080900_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080900_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.809,
+        "epsilon": 2.5415484567541426,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 4603516262862223425,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80900,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.809,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78640424,
+        "sha256": "511af85a0982e76c00607a6f79aac80c1444fa3a06734e5353b80722123390c8"
+      }
+    },
+    {
+      "id": "spinzero3_e080900_N012_r20_s012000",
+      "point": {
+        "id": "spinzero3_e080900_N012_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.809,
+        "epsilon": 2.5415484567541426,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 20,
+        "seed": 14183248971801528723,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 80900,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.809,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 219190136,
+        "sha256": "13e0b82c07d1021a1811bd027a893abad34e52aa6a455c864c2b27008895fd9a"
+      }
+    },
+    {
+      "id": "spinzero3_e081000_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081000_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.81,
+        "epsilon": 2.5446900494077327,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17124853141045510611,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81000,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.81,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "c72659dff8eb5e39aa601eaa7999eea58f2eab79725cde994f323a4a12d052dd"
+      }
+    },
+    {
+      "id": "spinzero3_e081100_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081100_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.811,
+        "epsilon": 2.5478316420613223,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 1348740453375752339,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81100,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.811,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "76c2168a131f083d36c4e6656ebb6a361fa09fa9a39912410d8bcd8aae63434f"
+      }
+    },
+    {
+      "id": "spinzero3_e081200_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081200_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.812,
+        "epsilon": 2.5509732347149123,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17274382760035972506,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81200,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.812,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "3fb4c7be484778cb836dd541a6aae6ba1b86353b52f93d752bfee084c0cfc68f"
+      }
+    },
+    {
+      "id": "spinzero3_e081300_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081300_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.813,
+        "epsilon": 2.5541148273685015,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 3082794071132651779,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81300,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.813,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "7c493559501bc6bdda6bd2cc00c739ce95bf94373f0115bfb35b99fc61bb40c0"
+      }
+    },
+    {
+      "id": "spinzero3_e081400_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081400_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.814,
+        "epsilon": 2.5572564200220915,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 14907967160371679658,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81400,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.814,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78607656,
+        "sha256": "042216a65718ccbfd6c6c51d838d14a328b541787301d4eccd05ef4b031f0218"
+      }
+    },
+    {
+      "id": "spinzero3_e081500_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081500_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.815,
+        "epsilon": 2.560398012675681,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 17560779748515142983,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81500,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.815,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "bb414bb26514fa7effc7e303cef38e037b75c1bff194e692a99b6055dbe21570"
+      }
+    },
+    {
+      "id": "spinzero3_e081600_N008_r20_s012000",
+      "point": {
+        "id": "spinzero3_e081600_N008_r20_s012000",
+        "D": 3,
+        "epsilon_over_pi": 0.816,
+        "epsilon": 2.563539605329271,
+        "beta": 0.0,
+        "N": 8,
+        "replica": 20,
+        "seed": 15628331989212309689,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 12000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_1e5": 81600,
+        "study_role": "spin_scaling_dimension_fine_scan",
+        "primary_observables": [
+          "magnetization_squared",
+          "magnetization_fourth",
+          "magnetization_abs",
+          "binder_contour"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.816,
+      "audit": {
+        "passed": true,
+        "rows": 12001,
+        "bytes": 78542120,
+        "sha256": "8198591a4a802df1561d9ea6394b3a841f7dbad42181f51432965bd980bec2bb"
+      }
+    },
+    {
+      "id": "zero_d3_e0802_N012_r06_s008000",
+      "point": {
+        "id": "zero_d3_e0802_N012_r06_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 6,
+        "seed": 6596831052839986779,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 802,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 146864456,
+        "sha256": "81cf5e867f46bc3800dbbb48f6ee2adf1aa1b391635131e370bf498c0f552ed9"
+      }
+    },
+    {
+      "id": "zero_d3_e0802_N016_r06_s008000",
+      "point": {
+        "id": "zero_d3_e0802_N016_r06_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 6,
+        "seed": 5596888442591418096,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 802,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 321337672,
+        "sha256": "72c74834a053b3778617123f1049098d298b18531393a5dbd90d9b1e788bba56"
+      }
+    },
+    {
+      "id": "zero_d3_e0802_N024_r06_s008000",
+      "point": {
+        "id": "zero_d3_e0802_N024_r06_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 6,
+        "seed": 14095138119695132801,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 802,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 1011788536,
+        "sha256": "cad1303b921e97dcf4a202ea2e7672f19fd49fec3577a52e0945cfe2e04a97f0"
+      }
+    },
+    {
+      "id": "zero_d3_e0802_N032_r06_s008000",
+      "point": {
+        "id": "zero_d3_e0802_N032_r06_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.802,
+        "epsilon": 2.519557308179014,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 6,
+        "seed": 9015699544213509935,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 802,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.802,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 2321983160,
+        "sha256": "3bbd9588c6a8d53de9053da2d45e7d444758d9e29c5a9158e803e667f06ba1c4"
+      }
+    },
+    {
+      "id": "zero_d3_e0806_N012_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0806_N012_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.532123678793373,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 4,
+        "seed": 11834016821030157489,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 806,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8059999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 146897224,
+        "sha256": "aad4047e0e734c18587b18294f42e95beea56300f93f34ff91f16984e1a1b246"
+      }
+    },
+    {
+      "id": "zero_d3_e0806_N016_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0806_N016_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.532123678793373,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 4,
+        "seed": 6849768381432170320,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 806,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8059999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 321304904,
+        "sha256": "9dc0049b4b7a5c5c2bc03ae14e6be96158f9bbbc9b4843dc3462e01e108a9306"
+      }
+    },
+    {
+      "id": "zero_d3_e0806_N024_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0806_N024_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.532123678793373,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 4,
+        "seed": 9580253865133098704,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 806,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8059999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 1011821304,
+        "sha256": "e2db7f84dfe01b71a13f42e2d7a1f0a99e34b0a1c5a08b6102d77217eb78e77d"
+      }
+    },
+    {
+      "id": "zero_d3_e0806_N032_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0806_N032_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.806,
+        "epsilon": 2.532123678793373,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 4,
+        "seed": 9971509953505308721,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 806,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8059999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 2322015928,
+        "sha256": "f06eb85940a7e83cf2c8086c838538d89a12926cae7c3a9af6bf5140f983405b"
+      }
+    },
+    {
+      "id": "zero_d3_e0812_N012_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0812_N012_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.812,
+        "epsilon": 2.550973234714912,
+        "beta": 0.0,
+        "N": 12,
+        "replica": 4,
+        "seed": 17113149878369110084,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 812,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8119999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 146897224,
+        "sha256": "49b9c02c2fdefe5ed0d351e4b9c9a1009c6e161c8c115dd32a0c08519c6ad781"
+      }
+    },
+    {
+      "id": "zero_d3_e0812_N016_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0812_N016_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.812,
+        "epsilon": 2.550973234714912,
+        "beta": 0.0,
+        "N": 16,
+        "replica": 4,
+        "seed": 534620871769889091,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 812,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8119999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 321337672,
+        "sha256": "39cc6ddd22c0fce10ff4ee3949dcd379cb71ebe80eb246d36a8d0ebd8818b5b4"
+      }
+    },
+    {
+      "id": "zero_d3_e0812_N024_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0812_N024_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.812,
+        "epsilon": 2.550973234714912,
+        "beta": 0.0,
+        "N": 24,
+        "replica": 4,
+        "seed": 8816882091428602054,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 812,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8119999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 1011821304,
+        "sha256": "d1b2e084a136212dc985673014236ced4578e41a116034d75fd8f6608538f7ba"
+      }
+    },
+    {
+      "id": "zero_d3_e0812_N032_r04_s008000",
+      "point": {
+        "id": "zero_d3_e0812_N032_r04_s008000",
+        "D": 3,
+        "epsilon_over_pi": 0.812,
+        "epsilon": 2.550973234714912,
+        "beta": 0.0,
+        "N": 32,
+        "replica": 4,
+        "seed": 14899333808531055397,
+        "initial_winding": [
+          0,
+          0,
+          0
+        ],
+        "steps": 8000,
+        "warmup": 1000,
+        "clusters_per_cycle": 4,
+        "campaign_role": "zero_beta_endpoint",
+        "epsilon_sampling_milli": 812,
+        "primary_observables": [
+          "binder_quarter"
+        ]
+      },
+      "actual_epsilon_over_pi": 0.8119999999999999,
+      "audit": {
+        "passed": true,
+        "rows": 8001,
+        "bytes": 2321983160,
+        "sha256": "17c6183333af22a7222d21a6e7da693b4e2520a0d6bc7cfeb37930172e106713"
+      }
+    }
+  ],
+  "cache_records": [
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/1dbede7d14536e57dd88cec0fa2f57561e246d39d00654cba5e797021fb2c336.json",
+      "metadata_sha256": "656df122123bc29c206b098df3b89ae5d79b03609181cda3becf1577de418184",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/1dbede7d14536e57dd88cec0fa2f57561e246d39d00654cba5e797021fb2c336.npz",
+      "samples_sha256": "2accd7a33e90c0a18b58300236d260f40c79975eedefc3c7524dc7e67e326016"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/21fa4465eb69c42e7f145795a345f73cd3da4c25c1ace2bf449737a71c209194.json",
+      "metadata_sha256": "1f5ddf338ffab1d7e672f27c2c6251401a170c851569d1653fd3369f19162330",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/21fa4465eb69c42e7f145795a345f73cd3da4c25c1ace2bf449737a71c209194.npz",
+      "samples_sha256": "97c557e40e7127885019f590e72502126a9a8c8d804afd1131ce7a2f2062767f"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/505c225b78fff2ab0383b805d548a2fe1dd66c4b09616c36f432a731d56577fb.json",
+      "metadata_sha256": "a46c0667cf9650c1b27c40efcf1864e07e7f46d9c9af86f0ce54c46dd323ae1d",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/505c225b78fff2ab0383b805d548a2fe1dd66c4b09616c36f432a731d56577fb.npz",
+      "samples_sha256": "0d3fe7e7cf22a926eee4aaf2dab6c4ceca23aa914e803576b9383a87a1d620bf"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/0a889f14494f52634f9de2df28719f527b35af3709cfae17cb99197184e8aad4.json",
+      "metadata_sha256": "e43c2ea2bbf7511d533d2d17bd5711ee23976c3d2e51ea27d35ecd850f70e60c",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/0a889f14494f52634f9de2df28719f527b35af3709cfae17cb99197184e8aad4.npz",
+      "samples_sha256": "b5d906f4f8e5f18a9c1f5ad305e974eda36bca4550fea1fc5881f94d9e339c28"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/151582edff74351ad26735d5a601d1e93ba0857de51eb348e96c7486ee76cb93.json",
+      "metadata_sha256": "d2ab026c47c2dc638fcfc9ad57fb0b86154bb30d4c0fafb840147cfb934a1a5f",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/151582edff74351ad26735d5a601d1e93ba0857de51eb348e96c7486ee76cb93.npz",
+      "samples_sha256": "d1210f43c311c4aa216b495b09f48f5bb6e015afb6872506674d591e67b53838"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/bb6704129d8f51c0a1ff7050d05dcb5d5949baa1c9e6ba522e8a2b3c4089af9c.json",
+      "metadata_sha256": "d59366043aa9369bbd0f41983bfb4395bcc92080d5355689e5b07e5acbc86821",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/bb6704129d8f51c0a1ff7050d05dcb5d5949baa1c9e6ba522e8a2b3c4089af9c.npz",
+      "samples_sha256": "7939eda2cdef9ebcb1d82038e8fb84d1990b299c99f8cf4ef0defe85de4118e5"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/e745a6603ac6a2b9a97b63df965aa80bfbc86092e870ce7b1b7935a2698316d3.json",
+      "metadata_sha256": "1cbd78d7b587d07115a7d74037517899ee9fb21641bdd675a2b9d3c279a07a84",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/e745a6603ac6a2b9a97b63df965aa80bfbc86092e870ce7b1b7935a2698316d3.npz",
+      "samples_sha256": "24a1088a76df2c707fb2b3fc7fd30e199b1b1e6c215543ae5d8c192f4276d9fb"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/c96642e0d73f7eb7c0fdbfbac206a9ff1354eb5ececdaf435973b40f7847b434.json",
+      "metadata_sha256": "ddb641dadbbf83a1a8ec40d9052525eb58e1cdada91a1341ff8873d820388aff",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/c96642e0d73f7eb7c0fdbfbac206a9ff1354eb5ececdaf435973b40f7847b434.npz",
+      "samples_sha256": "0b53a088a2badcec5721a6e471d9708eb7cf84a71ea5790f81ccbd670fe77df2"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/761910f6933807c0a1f544e070f22f2098403e5d50f59dea8fe00fe824584808.json",
+      "metadata_sha256": "7011f340655802447fafb27f19d11c391d9dc2678ce3c3eb9909c692a06e328a",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/761910f6933807c0a1f544e070f22f2098403e5d50f59dea8fe00fe824584808.npz",
+      "samples_sha256": "56e9108f9ea31c0de11236247d9a346585ed3715700ec7604d54b32a3e2354be"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/4799d30c9067d494ab44af67890b0349155d01ca131bf9711add57197ce40a4b.json",
+      "metadata_sha256": "97e503c18723291fc27bae8e096d29d720385b6ee4def75e8bcecbfa43829023",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/4799d30c9067d494ab44af67890b0349155d01ca131bf9711add57197ce40a4b.npz",
+      "samples_sha256": "597ce75bc46f00451f2ead899b1d0ad501fa6dbb2829cdabdce482a86a64bf9c"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/fb0388761626127472c59c019bdd6f1feb436167db963eb6f7d429e753c867ac.json",
+      "metadata_sha256": "8812cdb4f5ea417d1d49449ac7b536955178a03400eae4da6dae37d7651db2ec",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/fb0388761626127472c59c019bdd6f1feb436167db963eb6f7d429e753c867ac.npz",
+      "samples_sha256": "3fe1dc80d5b83a07ec5ee5a678c9875aa6fddd3b1c4ba6dee4a2ab6fe2a9eb07"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/131a7b991067efa1024cf0184e9081ec5d0abcee7076a977ceb219aca76f9ab2.json",
+      "metadata_sha256": "ae773d9fb3049859aeac7f3fc9377f8a46bd1026a5d82c2730df520414302e5c",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/131a7b991067efa1024cf0184e9081ec5d0abcee7076a977ceb219aca76f9ab2.npz",
+      "samples_sha256": "95d5d5ed11c2ef5e3cb44f759067dccc2ebcf15664484323474df8c4b75b0e28"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/8bf0245ea5574b835a15a29dde6abf31f6c936ce961785cf0419e84144ba6441.json",
+      "metadata_sha256": "6baecbbabe4d7983e2475eefc73956e91d1c583fd9ea17718de0b17c5660856e",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/8bf0245ea5574b835a15a29dde6abf31f6c936ce961785cf0419e84144ba6441.npz",
+      "samples_sha256": "9bbc32053489650e62d9ee08571a859329e81185e0afc972cb36738c905879b1"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/1aae97e62635336897ee4534a3daa6821898532e2fc201134716c1797eb1b43f.json",
+      "metadata_sha256": "730894247248a6b66247dd11421e25f535ec05d3b0db661c228323c69fbfb965",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/1aae97e62635336897ee4534a3daa6821898532e2fc201134716c1797eb1b43f.npz",
+      "samples_sha256": "8da739de6c3bf725c4c8dd2c268e528f2992a17f3c01afcda2f04745ef95f17b"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/3c2755336d9a41eaa5a9b0af9b6dbe706beb703f5d9c68d98b73695af045dd1c.json",
+      "metadata_sha256": "53cafbbf994ec0da0fdd9e9724854823b1f4292cca22c1bf77114f79b8c5dfb0",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/3c2755336d9a41eaa5a9b0af9b6dbe706beb703f5d9c68d98b73695af045dd1c.npz",
+      "samples_sha256": "d93b2883493b186c98d418d0bc7158a70843e31a33e0bc100a80f36fcd730fa6"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/836b534b7109a2f8153ca4d6afdaa99b43fe85cbab68cae0e5c429f56e65216e.json",
+      "metadata_sha256": "8a4abaaba8ab038b5dce94c558a843823a79f22908f1513d670523b0f21bb14e",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/836b534b7109a2f8153ca4d6afdaa99b43fe85cbab68cae0e5c429f56e65216e.npz",
+      "samples_sha256": "b970dcf6e162ff701572a1d8826b0e2e778a2c95a0f1ee1c86ba40ee875c196d"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/45b7ae6bf0f8815a80509cdfd2a137774618b37fd3b70b6ebdba29ba55a502ba.json",
+      "metadata_sha256": "12773f99f9da7eb7ea4ced80fe58710377c40c40fb3d13a5d17b0a95e487d729",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/45b7ae6bf0f8815a80509cdfd2a137774618b37fd3b70b6ebdba29ba55a502ba.npz",
+      "samples_sha256": "b5c3ee7162fbd6079d91c20e53f3bb678c481fee380223b473d762d104c791d2"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/24a398c8d9d5a14942e475aad6bcb54e857175323fc716abbca0b1ffde0fb69a.json",
+      "metadata_sha256": "34cba274cc78e351356c51f72303625a3a8cec4e5c4c31b4806ee21684f24d82",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/24a398c8d9d5a14942e475aad6bcb54e857175323fc716abbca0b1ffde0fb69a.npz",
+      "samples_sha256": "e3a2b2b1c0359a0dacbd24ce921543d99325cfcdb7957114e91c4eeb486ecf2f"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/18006a523fc6d41ba4fe9f793f1430c45d29d45930c9beee59c4db3dd141543b.json",
+      "metadata_sha256": "adcd6286397ef72a7d99792c6599cb34eb5c6f44a1e4eff0a90b2132ca5357a7",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/18006a523fc6d41ba4fe9f793f1430c45d29d45930c9beee59c4db3dd141543b.npz",
+      "samples_sha256": "4ab1d76730cbdd2e95cbd3ac2914b3a6fd67a722da52b0c51fd0de654a762c0b"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/c803fd59ca2d5e94cd50e50a39ea65bc9affc57278a8f88f1d442489f2802b03.json",
+      "metadata_sha256": "45c67c4ea80d207d745410de0489a28fc8fc06e858d51948526222d4135d1aa7",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/c803fd59ca2d5e94cd50e50a39ea65bc9affc57278a8f88f1d442489f2802b03.npz",
+      "samples_sha256": "2b0d118e4aa24bc06bfa6115166bb79dac043c92c6e4acc88d522be1b435f141"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/0dabdd14df7c7c47f46a4051281114eafde49bed6d9517ee44dc06c327176400.json",
+      "metadata_sha256": "4d331b70cb83effb1fdf581eb8dd3dddc4de2c4d96bedfcca021508951c0752e",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/0dabdd14df7c7c47f46a4051281114eafde49bed6d9517ee44dc06c327176400.npz",
+      "samples_sha256": "35291080cab108819c78831d7c7254af8ced561448eb7e20a3594c4ff4520279"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/6d4a4f8ab247b803620e4f1e7b8c5e9537d98e0dc454f7013c2638edb91d9157.json",
+      "metadata_sha256": "7ade75b49ed0470a2864ac8e61ba4f3912d1b78e496b5cc46d2088755a94539f",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/6d4a4f8ab247b803620e4f1e7b8c5e9537d98e0dc454f7013c2638edb91d9157.npz",
+      "samples_sha256": "75110bda84a9e9b81d9f57c250eaa631ae4bebb1f7030c4218524af63b62f4ad"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/efcd0ffa2016a15feb16a6ff07ca33d40fa07782a74cd59ac13d33b8bcc0853b.json",
+      "metadata_sha256": "cf56713db9afabbe7126abf25fa4d94fda332577e21139654226cd11e9281dc1",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/efcd0ffa2016a15feb16a6ff07ca33d40fa07782a74cd59ac13d33b8bcc0853b.npz",
+      "samples_sha256": "905b9a83042f150398a00baec183e871806d0ef9b6a920af01f127a93800faa3"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/7216e8442b0cb959d30c1c29eb9083b08c0b9422f5e1edd9703a6c1ad4dcc1f4.json",
+      "metadata_sha256": "9541f37076ac175f5c9749554b1effe3779305f8129f56a15ce4576dd796dd30",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/7216e8442b0cb959d30c1c29eb9083b08c0b9422f5e1edd9703a6c1ad4dcc1f4.npz",
+      "samples_sha256": "c5f3108f7f713308bcfa87b54dd63c6afc8818ea8f86574d56bc864f3c3c2603"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/cb5f4aeaaabc620b1dc05bae6f7ffdb6e7d44177befc5bf767d77830c45fd050.json",
+      "metadata_sha256": "f0465b2a43a0dc5c4328f3a3de4e9d99eeec59ad24489ff356bf87c28c54f4f9",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/cb5f4aeaaabc620b1dc05bae6f7ffdb6e7d44177befc5bf767d77830c45fd050.npz",
+      "samples_sha256": "142a12e76f84c94baeac95d5922732b67afd9acef89543981c46a9820de6702a"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/b04b20f14200f7bcfa59dcff6b48fa85c6bc208fc1ef442136b5fd391c6c318d.json",
+      "metadata_sha256": "965387410585081bd8cf3d29c3c125905dbd9f0fad1facf57c2a14d5d2550a92",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/b04b20f14200f7bcfa59dcff6b48fa85c6bc208fc1ef442136b5fd391c6c318d.npz",
+      "samples_sha256": "d8c82449a427b9b5945701a0c7f31912710d7276d546c7d6f4d24eed5fb5ba3f"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/d35fa1f678e98fe2d482bf78cfb04dfae92767b21bd176342845ed111599899b.json",
+      "metadata_sha256": "24ef7d4241c2df8ac3c792753cbbe72188eb9d7d6edf7d75b52a202c0b58c387",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/d35fa1f678e98fe2d482bf78cfb04dfae92767b21bd176342845ed111599899b.npz",
+      "samples_sha256": "c15f49687d67207a5df3629c04d3ca831ab04cb2cd2cc6d7bf275340419ee2b0"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/931a9156c8c28c838b327b3f328e9ad2ea61d51592f5707eff1807618f008dac.json",
+      "metadata_sha256": "b6a7957fa61877b9d8c5c1098e97a61eb052145f9b2226804a68ea1b690cfe22",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/931a9156c8c28c838b327b3f328e9ad2ea61d51592f5707eff1807618f008dac.npz",
+      "samples_sha256": "9a1fe507ec1ffc010a1632dc2e6348bcf9e8ba869acf5c72016c305bc93e56fb"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/b4fcbd4d72bd2743a9803dc0d25c825afc2046ef3a44b7742383ef14dece0660.json",
+      "metadata_sha256": "a514a13f01e505232912c6b332565989a37eb8944195544f1092e1ef4891d91d",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/b4fcbd4d72bd2743a9803dc0d25c825afc2046ef3a44b7742383ef14dece0660.npz",
+      "samples_sha256": "c2d70f33fe25555ed854b750ea451a734e7b02a0f65f558c8c919146a798b43c"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/6b4ba473c4e4aca7179d7e129f26f405bfb2fd6962e27dd5409d98777a3bd8e3.json",
+      "metadata_sha256": "ebe8e9443cba44b9fe187ffb4ed777ee0c6738b4d321b0520880c94561ffd9ea",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/6b4ba473c4e4aca7179d7e129f26f405bfb2fd6962e27dd5409d98777a3bd8e3.npz",
+      "samples_sha256": "c68d9c857fa4784a0847798200c42fbed5c4781372662e98044c7009f62a90b2"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/5aeeea554494819176075715c274a27c786e668f76b2667ba239f631dcdc67cb.json",
+      "metadata_sha256": "51b7772dbe64a397e5271d5be19d209c046a0eb827d5472c1ef851b98524e33b",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/5aeeea554494819176075715c274a27c786e668f76b2667ba239f631dcdc67cb.npz",
+      "samples_sha256": "4c643b787a0a3e01db96e11b086ca0fbd0ab75b2236d6722c848499273201811"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/4ec17ae431acff5b223aed75941b68c075a332affe55edb2f6b6d8d568bdf5b1.json",
+      "metadata_sha256": "3e8a969c68ef1f70d5fff820e7ad6bc771e6dd57da78d5ef59e4661a82779431",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/4ec17ae431acff5b223aed75941b68c075a332affe55edb2f6b6d8d568bdf5b1.npz",
+      "samples_sha256": "9cdce13db4b1428b35206d14f52f7fd5431adcfc77c328bb78ec2f40e9327fb5"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/5eb711cd2e75061f58f9cc08ae3667c1ce1057308194b177c2a093699f284c50.json",
+      "metadata_sha256": "ac08a232a46fcffb1e175300f008dab48fcbaf4f137462162a092638a3b88d89",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/5eb711cd2e75061f58f9cc08ae3667c1ce1057308194b177c2a093699f284c50.npz",
+      "samples_sha256": "beadb10cd34feb4fe350940b793138e4d8f84ab08133d8f25139ed52e04a29ec"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/32b5f33834b3ab8e5f1af99ee265078bc15e6870f63dad315002ed5ff42e4317.json",
+      "metadata_sha256": "6e7840aadbf6026b8ddc406e6ea275ed8fd187d36648acb7a3c774d7afbe116d",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/32b5f33834b3ab8e5f1af99ee265078bc15e6870f63dad315002ed5ff42e4317.npz",
+      "samples_sha256": "79278c11d6affd17465c566a8145bb3a2faeec54894a696db5c13b32b4585d70"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/54ba8de5586a165faf5ae2b3650ad5db3bee33a54bc78951c113e44942d95ac0.json",
+      "metadata_sha256": "f9686e31486077d8665a94862a5b9499a3bb027f48cfc83e3649ef88b02ae796",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/54ba8de5586a165faf5ae2b3650ad5db3bee33a54bc78951c113e44942d95ac0.npz",
+      "samples_sha256": "84ab3531f8d116be513d62ad0f602f6d9e9843424bac3fc99affbae1beb3a01b"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/9c3fa519f65fb08f91aca65cf7085cfd415e5aa19aef2bf59bfa01db8cd9023f.json",
+      "metadata_sha256": "e0f5eef6bf84d732dff7c5cf1e372659a2e0f9e954deb1f45689cd95d69285e4",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/9c3fa519f65fb08f91aca65cf7085cfd415e5aa19aef2bf59bfa01db8cd9023f.npz",
+      "samples_sha256": "1c1465b12eedaf90a7f46ebf49e67e677ffd376c7ed295b48d609c715af66a73"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/2e902e8c7536a7c6ca64493ac9643021f13a0f98a08924cd1dcfc20ecf6c66f8.json",
+      "metadata_sha256": "5c0bb42cfb208340c1d95d199d5a0fcd15386d7de739b1fbce5e42d97ebe978b",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/2e902e8c7536a7c6ca64493ac9643021f13a0f98a08924cd1dcfc20ecf6c66f8.npz",
+      "samples_sha256": "9694c28515e2fe5ecc4413ff54a093f70e8f78f7394a577d057016d478e18cb3"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/3f10a6ecbf8daa21cf2c1af1e09bdb6f3ccba5e2b48031d89199d0498db67927.json",
+      "metadata_sha256": "8f025ff52b66d6273387a54e746c829d720adcd6dee967d83d2536fb67c8128e",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/3f10a6ecbf8daa21cf2c1af1e09bdb6f3ccba5e2b48031d89199d0498db67927.npz",
+      "samples_sha256": "41692efc34d3d9bf9a6b4094c53c0cc40a57204749d9b4b6bd29bb91123a478c"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/ee13c025d328002745520e8380bae6087bb7c95dac97394fe361371b9b5b2479.json",
+      "metadata_sha256": "451b0db56265c5e6e7986b85954917dc1500a29d02100f78c66cf7a01cdec6a9",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/ee13c025d328002745520e8380bae6087bb7c95dac97394fe361371b9b5b2479.npz",
+      "samples_sha256": "f98c61f67668b0cf2833ff60637544f139ecc46559a33a6b29b87b93c145877b"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/986a91c279f6a49f7175081a640248a38a1dc2d07d2f247ce9cc83d9ee0e5bc6.json",
+      "metadata_sha256": "ffb91b85bde500163dbc8a89d88ea3c4fedeb4762db8989d1650bb997bee2418",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/986a91c279f6a49f7175081a640248a38a1dc2d07d2f247ce9cc83d9ee0e5bc6.npz",
+      "samples_sha256": "04449ca4ca8562778220fc4a216d52e46aebcc6ea96750832d12fff57dcb6568"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/6643b4f1665c91d68fc804a9ecc148da64c1c9d5db1842c04f962f272f5f00be.json",
+      "metadata_sha256": "6377578cfdf88bf0c5755105d52c5aee718d99e74ecd1344f9f7b6c98e343c6a",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/6643b4f1665c91d68fc804a9ecc148da64c1c9d5db1842c04f962f272f5f00be.npz",
+      "samples_sha256": "61047b37ec88ffa9a11c11644d2deef56f8a4ec6750bba25b7567b917c1e4db6"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/39a318d3eb79c79e08567a29a08f679c50485f63d0bd1a50567c2b5031bcaf29.json",
+      "metadata_sha256": "511637f12dbeabb5343a1cc1363a786d2392c7bae03b2baa37ffed67662bb2e1",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/39a318d3eb79c79e08567a29a08f679c50485f63d0bd1a50567c2b5031bcaf29.npz",
+      "samples_sha256": "ab16743a174e5db66309719562a8c57a365697920923dcb8206dd6503217432f"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/191507859e52e9cb34390a52838d0a097cc4ddb04124d682744373ef9513f2fa.json",
+      "metadata_sha256": "6fd21915f7c106872642db93e5667257e29f16bb490a53642fbbaf2fc55f72c6",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/191507859e52e9cb34390a52838d0a097cc4ddb04124d682744373ef9513f2fa.npz",
+      "samples_sha256": "9913b55d845edff796bc810717c8dcb66003c3ec1507523d1f99c9c70b8401ef"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/61ea5d9aa9d12506acde8945fedea4cdac10d667609bf1d542cecb8e66a46092.json",
+      "metadata_sha256": "c3c815c9f965e933a971febe8efc00f137266532cf87893e5b2f45c7f0575bab",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/61ea5d9aa9d12506acde8945fedea4cdac10d667609bf1d542cecb8e66a46092.npz",
+      "samples_sha256": "8330afd2e6300063c988e7c1deebffe05ba6630e1281969d79736783350d7708"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/94b18567a6cff0843a0c38be600d02cca9c82f60b8673d367014104d5ad7f9b9.json",
+      "metadata_sha256": "0c95ae85ac2383ad448ef5bbacd4b05ce2b426a286a97e6229beaba78bb65b90",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/94b18567a6cff0843a0c38be600d02cca9c82f60b8673d367014104d5ad7f9b9.npz",
+      "samples_sha256": "0057363f3c8a50e26f436b4af0fb29c1df6106f18271284b6e85f588d3408496"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/493259d76206144c25db1a5a232752119eaa291aadbbb5a76803c4242291011f.json",
+      "metadata_sha256": "d8632a522d4b586d1deab31bc859f8e2c74ba15306a8fee8dbc2a10ac151d1a0",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/493259d76206144c25db1a5a232752119eaa291aadbbb5a76803c4242291011f.npz",
+      "samples_sha256": "83ad31bde5f6f7e73d1ec6e0332e10a2092a5f0e9f6ce9203eb41c5a21264cf7"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/22f00d120d49a36fce7a9786986d0c2819820abdd7d14ebd53b126fe8ab38339.json",
+      "metadata_sha256": "e162def686f154ab1b7a45dc90d2236d86093807c5838ac32c9b28528e82fc2e",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/22f00d120d49a36fce7a9786986d0c2819820abdd7d14ebd53b126fe8ab38339.npz",
+      "samples_sha256": "15d84a97430aa8d4251eb8340319e830f834158e22673f9a9be563839bb997f3"
+    },
+    {
+      "metadata": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/1fcd198337a12de6248e2ef5f83b4468e9979db0e20637cd74bb545544b560da.json",
+      "metadata_sha256": "197dda4a5a8cbeeebcc242cfd35ecc6f4ce4e937e3bfe23971eefa7e82136211",
+      "samples": "/Users/acherman/research/Luscher_XY/experiments/2026-10-15-xy-3d-spin-dimension/xi-cache/1fcd198337a12de6248e2ef5f83b4468e9979db0e20637cd74bb545544b560da.npz",
+      "samples_sha256": "0b326c5e09a6c9ddd4456f71acd217727c59b6a2782347ed5f3d3e8704d23311"
+    }
+  ]
+}

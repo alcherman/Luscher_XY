@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "variant": "primary",
+      "method": "linear",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.9705,
+      "epsilon_over_pi": 0.800777222541284
+    },
+    {
+      "variant": "primary",
+      "method": "pchip",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.9285,
+      "epsilon_over_pi": 0.8007896163393747
+    },
+    {
+      "variant": "block4",
+      "method": "linear",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.968,
+      "epsilon_over_pi": 0.800777222541284
+    },
+    {
+      "variant": "block4",
+      "method": "pchip",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.9245,
+      "epsilon_over_pi": 0.8007896163393747
+    },
+    {
+      "variant": "latecut",
+      "method": "linear",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.961,
+      "epsilon_over_pi": 0.8008025770387431
+    },
+    {
+      "variant": "latecut",
+      "method": "pchip",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.9245,
+      "epsilon_over_pi": 0.8008110822364133
+    },
+    {
+      "variant": "even",
+      "method": "linear",
+      "status": "conditional_quotient",
+      "valid_fraction": 0.9935,
+      "epsilon_over_pi": 0.8007586939985971
+    },
+    {
+      "variant": "even",
+      "method": "pchip",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.9895,
+      "epsilon_over_pi": 0.8007583907470889
+    },
+    {
+      "variant": "odd",
+      "method": "linear",
+      "status": "unresolved_bootstrap_crossing",
+      "valid_fraction": 0.5025,
+      "epsilon_over_pi": 0.8008312510463588
+    },
+    {
+      "variant": "odd",
+      "method": "pchip",
+      "status": "central_crossing_unresolved",
+      "valid_fraction": 0.0,
+      "epsilon_over_pi": null
+    }
+  ],
+  "covered": false,
+  "scope": "Conditional local linear/PCHIP crossing coverage, not exponent accuracy or mixing certification. If false, further measured refinement is still required."
+}

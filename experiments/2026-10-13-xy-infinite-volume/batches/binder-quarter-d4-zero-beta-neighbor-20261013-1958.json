@@ -1,0 +1,172 @@
+{
+  "name": "binder-quarter-d4-zero-beta-neighbor-20261013-1958",
+  "purpose": "Check requested neighboring epsilon/pi=.86 at beta0 in d4, N8/12/16/20, two independent winding starts. Branch reconnaissance only: a finite-box quarter threshold alone cannot classify thermodynamic order. Full raw histories fields RNG checkpoints and audits retained. No d2 work.",
+  "points": [
+    {
+      "id": "d4_e086_b0000_N008_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 8,
+      "replica": 0,
+      "seed": 3194777375863131386,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N008_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 8,
+      "replica": 1,
+      "seed": 10017017947135689147,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N012_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 0,
+      "seed": 4034816900078765045,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N012_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 12,
+      "replica": 1,
+      "seed": 7484492424138442196,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N016_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 0,
+      "seed": 15866709524782125213,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N016_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 16,
+      "replica": 1,
+      "seed": 17308634959758100459,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N020_r00_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 20,
+      "replica": 0,
+      "seed": 14417515388498433173,
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d4_e086_b0000_N020_r01_s004000",
+      "D": 4,
+      "epsilon_over_pi": 0.86,
+      "epsilon": 2.701769682087222,
+      "beta": 0.0,
+      "N": 20,
+      "replica": 1,
+      "seed": 9194089380530619958,
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "source_hashes": {
+    "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+    "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+    "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+    "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+    "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+    "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+    "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+    "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+    ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+    "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+  },
+  "estimated_bytes": 22938253308,
+  "created": "2026-10-13T19:53:52.917374-05:00"
+}

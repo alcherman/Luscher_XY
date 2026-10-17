@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-09-04T00:19:02.281569+00:00",
+  "interpretation": "L=20 finite-size-flow check at epsilon/pi=0.85 and 7/8.",
+  "model_source_sha256": "ef507b3cc18bc126e297c6ecf529e27d6b90b64c528d2d02820f12234fc232c8",
+  "name": "large-volume",
+  "points": [
+    {
+      "D": 4,
+      "L": 20,
+      "clusters_per_cycle": 4,
+      "epsilon": 2.670353755551324,
+      "epsilon_over_pi": 0.85,
+      "id": "q0850_L020_r00",
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "kappa": 0.0,
+      "replica": 0,
+      "seed": 16482247859139700984,
+      "steps": 10000
+    },
+    {
+      "D": 4,
+      "L": 20,
+      "clusters_per_cycle": 4,
+      "epsilon": 2.670353755551324,
+      "epsilon_over_pi": 0.85,
+      "id": "q0850_L020_r01",
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "kappa": 0.0,
+      "replica": 1,
+      "seed": 2138650210915362922,
+      "steps": 10000
+    },
+    {
+      "D": 4,
+      "L": 20,
+      "clusters_per_cycle": 4,
+      "epsilon": 2.748893571891069,
+      "epsilon_over_pi": 0.875,
+      "id": "q0875_L020_r00",
+      "initial_winding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "kappa": 0.0,
+      "replica": 0,
+      "seed": 1011077493378372318,
+      "steps": 10000
+    },
+    {
+      "D": 4,
+      "L": 20,
+      "clusters_per_cycle": 4,
+      "epsilon": 2.748893571891069,
+      "epsilon_over_pi": 0.875,
+      "id": "q0875_L020_r01",
+      "initial_winding": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "kappa": 0.0,
+      "replica": 1,
+      "seed": 6253221594760866272,
+      "steps": 10000
+    }
+  ],
+  "runner_sha256": "98192f83e85fc34133ac1381286d06cd97f45d1953afb4c8182b5d7b84d31821",
+  "selection_basis": "L=8,12,16 place 0.85 on the ordered side and 7/8 on the disordered side.",
+  "update_cycle": "one Metropolis sweep, four epsilon-aware Wolff clusters, one winding proposal"
+}

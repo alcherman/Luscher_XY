@@ -1,0 +1,122 @@
+{
+  "name": "d2-eta-correlation-N512-cost-pilot-20261014",
+  "purpose": "Independently reviewed six-run D2 N512 cost/observable pilot, matching completed N256 coordinates q=.60 beta=.281,q=.80 beta=.921,q=1 beta=1.111,12000cycles,freshreplicas6/7. Measure actual generation/audit runtime, stored bytes, R512, eta256:512, autocorrelation and start sensitivity before additional N512 sampling. One beta per slice cannot bracket crossings or validate infinite-volume precision. Motivated by unresolved BKT size dependence, including known q1 benchmark miss under baseline fixedoffset0. Preserve every field, history, RNG, checkpoint, provenance and full log; old316D2Binderjobsremain deferred,D5disabled.",
+  "points": [
+    {
+      "id": "d2_e060_b0281_N512_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.6,
+      "epsilon": 1.8849555921538756,
+      "beta": 0.281,
+      "N": 512,
+      "replica": 6,
+      "seed": 15426624631419034646,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e060_b0281_N512_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.6,
+      "epsilon": 1.8849555921538756,
+      "beta": 0.281,
+      "N": 512,
+      "replica": 7,
+      "seed": 11926712508605199496,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e080_b0921_N512_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.8,
+      "epsilon": 2.5132741228718345,
+      "beta": 0.921,
+      "N": 512,
+      "replica": 6,
+      "seed": 1949229249926444817,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e080_b0921_N512_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 0.8,
+      "epsilon": 2.5132741228718345,
+      "beta": 0.921,
+      "N": 512,
+      "replica": 7,
+      "seed": 11105441156773744288,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e100_b1111_N512_r06_s012000",
+      "D": 2,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 1.111,
+      "N": 512,
+      "replica": 6,
+      "seed": 10602796139289330223,
+      "initial_winding": [
+        0,
+        0
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "d2_e100_b1111_N512_r07_s012000",
+      "D": 2,
+      "epsilon_over_pi": 1.0,
+      "epsilon": 3.141592653589793,
+      "beta": 1.111,
+      "N": 512,
+      "replica": 7,
+      "seed": 380419047326165230,
+      "initial_winding": [
+        0,
+        1
+      ],
+      "steps": 12000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "source_hashes": {
+    "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+    "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+    "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+    "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+    "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+    "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+    "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+    "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+    ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+    "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+  },
+  "estimated_bytes": 174776850432,
+  "created": "2026-10-14T10:46:20.342698-05:00"
+}

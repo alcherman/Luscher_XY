@@ -1,0 +1,68 @@
+{
+  "created": "2026-10-16",
+  "authorization": "User: Ok please keep going; keep half18cores free",
+  "dimensions": [
+    3
+  ],
+  "beta": 0,
+  "sizes": [
+    24,
+    32,
+    48,
+    64
+  ],
+  "epsilon_over_pi": [
+    0.8006,
+    0.80068,
+    0.80076,
+    0.80084,
+    0.80092
+  ],
+  "starts": 4,
+  "initial_windings": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "cycles": 100000,
+  "warmup_label": 10000,
+  "total_trajectories": 80,
+  "primary": "Full-history online G(L/4),G(L/2) with common xi/L. Bootstrap shared time blocks across G,m2,S0,F. No assumed Delta or critical R.",
+  "scope": "Finite-pair estimates first; distinguish statistical uncertainty, interpolation, thermalization, size sensitivity. No certified CFT systematic error from these sizes alone.",
+  "pilot": "All8 full field+online correlation audits passed. Only7\u201328 conservative blocks per pilot chain; measured tau5\u201319cycles may miss slow modes.",
+  "cpu": "At most9 total CPU-heavy processes; simulation stage<=9, retention and analysis sequential after simulations.",
+  "storage": "Freeze32,32,16 trajectories sequentially with full physical padded-chunk footprints,25GiB reserve,no future retention credit; reject other unfinished frozen commitments. Field thinning only after all full audits, preserving all histories/checkpoints/provenance.",
+  "runtime": {
+    "linear_generation_and_audit_worker_hours": 314.48434,
+    "ideal_nine_core_lower_bound_hours": 34.9427,
+    "deterministic_staged_nine_worker_hours": 37.73882,
+    "planning_hours": [
+      48,
+      72
+    ],
+    "qualification": "Costs extrapolated from4000cycles at one epsilon. Retention cost not yet measured for100kfiles, includes allowance not bound. Concurrent Claude and SSD activity may change throughput."
+  },
+  "larger_sizes": "No N96/128 or larger authorized here.",
+  "next_analysis": "Per-start and late-cut/block diagnostics, then correlated common-R G/m2 quotient analysis; checkpoint/CV validation ancillary, not primary.",
+  "manager_sha256": "bea38976e0165a0b2535c69ed795f3de35245d19b43f9a4d046ea861718ac60e",
+  "advance_screen": "After each stage stop before further sampling for nonfinite/nonpositive means, fewer50conservative blocks, invalidSE, halfshift>10globalSE or independentstartdifference>5combinedSE. Descriptive conservative screening, not calibrated tests. Global twist acceptance counts and constant winding flags recorded, not automatically ergodicity certification.",
+  "design_sha256": "e3a5e18bcd5a7e10d44e2402f7f8c5809d81f78a110c2978fc47c9790be40ac7",
+  "analysis_sha256": "17ad02f7822ed6068cc50bb723fae56ae028185c1547e133b16c75f3ff9136f2"
+}

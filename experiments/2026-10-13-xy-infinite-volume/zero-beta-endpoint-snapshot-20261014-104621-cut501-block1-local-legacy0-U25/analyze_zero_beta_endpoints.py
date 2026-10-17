@@ -1,0 +1,167 @@
+"""Exact beta-zero epsilon scans; conditional local crossings, no final acceptance."""
+import os
+os.environ.setdefault('MPLCONFIGDIR', '/private/tmp/luscher-mpl')
+os.environ['MPLBACKEND'] = 'Agg'
+import json, shutil
+from pathlib import Path
+import numpy as np
+import matplotlib.pyplot as plt
+import run
+import analyze_calibration as binder
+import d2_joint_statistics as joint
+from threshold_calibration import monotone_crossing, monotone_values, size_fit
+from zero_beta_legacy import load as load_legacy
+from extrapolate_d2_eta_correlation import fit_roots
+
+OUT = Path(__file__).resolve().parent
+
+def epsilon_crossing(x, y, target, increasing, weights=None, method='linear'):
+    """Reverse the observable, not epsilon, for decreasing epsilon scans."""
+    sign = 1 if increasing else -1
+    return monotone_crossing(x, sign*np.asarray(y), sign*target, method, weights)
+
+def finite(value):
+    if isinstance(value, dict): return {k:finite(v) for k,v in value.items()}
+    if isinstance(value, (list,tuple)): return [finite(v) for v in value]
+    if isinstance(value, np.ndarray): return finite(value.tolist())
+    if isinstance(value, (float,np.floating)): return float(value) if np.isfinite(value) else None
+    if isinstance(value, np.integer): return int(value)
+    return value
+
+def main(cut=2001, factor=1, use_legacy=True, window_policy='full', binder_target=.25):
+    stamp=run.now()[:19].replace('-','').replace(':','').replace('T','-')
+    folder=OUT/f'zero-beta-endpoint-snapshot-{stamp}-cut{cut}-block{factor}-{window_policy}-legacy{int(use_legacy)}-U{round(binder_target*100)}'
+    folder.mkdir()
+    for source in [Path(__file__),Path(joint.__file__),Path(binder.__file__),OUT/'threshold_calibration.py',OUT/'zero_beta_legacy.py',OUT/'extrapolate_d2_eta_correlation.py']:
+        shutil.copyfile(source,folder/source.name)
+    grouped={}; sources=[]
+    for path in sorted((OUT/'jobs').glob('*.json')):
+        job=json.loads(path.read_text()); p=job['point']
+        if job['state']!='complete' or not job['audit']['passed'] or p['beta']!=0: continue
+        # Preserve exact epsilon coordinates; never round to the positive-beta grid.
+        if p['D']==2 and p.get('campaign_role')!='zero_beta_endpoint': continue
+        grouped.setdefault((p['D'],p['N'],p['epsilon_over_pi']),[]).append(p)
+        sources.append(dict(id=p['id'],audit=job['audit']))
+    groups=[]; samples={}
+    cache=OUT/'zero-beta-joint-cache';cache.mkdir(exist_ok=True)
+    for (D,N,q), points in sorted(grouped.items()):
+        if len(points)<2: continue
+        key=dict(ids=sorted(p['id'] for p in points),cut=cut,factor=factor,
+                 source_sha256=run.sha256(Path(joint.__file__) if D==2 else Path(binder.__file__)))
+        stem=cache/f'd{D}_N{N}_e{q:.12f}_cut{cut}_block{factor}'
+        # with_suffix would strip the decimal epsilon and everything after it.
+        json_path=stem.with_name(stem.name+'.json'); npz_path=stem.with_name(stem.name+'.npz')
+        old=json.loads(json_path.read_text()) if json_path.exists() else None
+        if old and old['key']==key:
+            summary=old['summary']; boot=np.load(npz_path)['samples']
+        else:
+            if D==2: summary,boot=joint.summarize(points,cut=cut,factor=factor)
+            else: summary,boot=binder.summarize([binder.read(p) for p in points],points,cut,draws=2000,factor=factor)
+            if boot is None: continue
+            np.savez_compressed(npz_path,samples=boot)
+            run.atomic_json(json_path,finite(dict(key=key,summary=summary)))
+        groups.append(dict(D=D,N=N,epsilon_over_pi=q,summary=summary,source_ids=key['ids']))
+        samples[D,N,q]=boot
+    legacy,legacy_provenance=load_legacy()
+    duplicates=[]
+    if use_legacy and cut==2001 and factor==1:
+        for key,(group,boot) in legacy.items():
+            if key in samples:
+                duplicates.append(dict(D=key[0],N=key[1],epsilon_over_pi=key[2],policy='Prefer current pooled independent starts at exact duplicate; do not average ratios.',legacy_source=group['source']))
+                continue
+            groups.append(group);samples[key]=boot
+    observations=[]
+    for g in groups:
+        D,N,q=g['D'],g['N'],g['epsilon_over_pi']; b=samples[D,N,q]
+        if D==2:
+            observations.append(dict(D=D,N=N,q=q,observable='xi_over_L',value=g['summary']['values']['xi_over_L'],draws=b[:,1],flags=g['summary']['flags']))
+            if (D,2*N,q) in samples:
+                big=next(v for v in groups if (v['D'],v['N'],v['epsilon_over_pi'])==(D,2*N,q))
+                observations.append(dict(D=D,N=N,q=q,observable='eta_eff',
+                    value=-np.log2(big['summary']['values']['m2']/g['summary']['values']['m2']),
+                    draws=-np.log2(samples[D,2*N,q][:,2]/b[:,2]),
+                    flags=sorted(set(g['summary']['flags']+big['summary']['flags']))))
+        else:
+            observations.append(dict(D=D,N=N,q=q,observable='binder',value=g['summary']['values'][0],draws=b[:,0],flags=g['summary']['flags']))
+    for observation in observations:
+        sizes=[observation['N']]
+        if observation['observable']=='eta_eff': sizes.append(2*observation['N'])
+        observation['individual_flags']={f"N{g['N']}_epsilon{g['epsilon_over_pi']:.12f}":g['summary']['individual_flags'] for g in groups
+            if g['D']==observation['D'] and g['N'] in sizes and g['epsilon_over_pi']==observation['q'] and g['summary'].get('individual_flags')}
+    roots=[]; fits=[]
+    for D,observable in sorted({(v['D'],v['observable']) for v in observations}):
+        target={'binder':binder_target,'eta_eff':.25,'xi_over_L':.7506912}[observable]
+        fig,ax=plt.subplots(figsize=(7,4.8)); selected=[]; root_draws=[]
+        for N in sorted({v['N'] for v in observations if v['D']==D and v['observable']==observable}):
+            rows=sorted([v for v in observations if (v['D'],v['observable'],v['N'])==(D,observable,N)],key=lambda v:v['q'])
+            rows=[v for v in rows if v['value'] is not None and np.isfinite(v['value'])]
+            if len(rows)<2: continue
+            x=np.array([v['q'] for v in rows]);y=np.array([v['value'] for v in rows]); B=np.column_stack([v['draws'] for v in rows])
+            se=np.nanstd(B,axis=0,ddof=1); weights=1/np.maximum(se,1e-12)**2
+            ax.errorbar(x,y,yerr=se,marker='o',capsize=2,label=f'N={N}')
+            full_x,full_y,full_weights=x.copy(),y.copy(),weights.copy()
+            if window_policy=='local':
+                sign=1 if observable=='eta_eff' else -1
+                pooled=monotone_values(sign*y,weights)
+                hits=np.flatnonzero((pooled[:-1]<=sign*target)&(pooled[1:]>sign*target))
+                if len(hits)==1:
+                    i=int(hits[0]);positions=np.arange(len(x));fraction=np.isfinite(B).mean(0)
+                    left=np.flatnonzero((positions<=i)&(pooled<=sign*target-3*se)&(fraction>=.99))
+                    right=np.flatnonzero((positions>=i+1)&(pooled>=sign*target+3*se)&(fraction>=.99))
+                    first=int(left[-1]) if len(left) else i;last=int(right[0]) if len(right) else i+1
+                    x,y,B,se,weights=x[first:last+1],y[first:last+1],B[:,first:last+1],se[first:last+1],weights[first:last+1]
+            elif window_policy!='full':raise ValueError(window_policy)
+            for method in ['linear','pchip']:
+                central=epsilon_crossing(x,y,target,observable=='eta_eff',weights,method)
+                full_location=epsilon_crossing(full_x,full_y,target,observable=='eta_eff',full_weights,method)
+                draws=np.array([epsilon_crossing(x,b,target,observable=='eta_eff',weights,method) if np.isfinite(b).all() else np.nan for b in B])
+                valid=np.isfinite(draws); fraction=float(valid.mean())
+                row=dict(D=D,N=N,observable=observable,target=target,interpolation=method,
+                    epsilon_over_pi_location=central,valid_fraction=fraction,
+                    status='conditional_crossing' if np.isfinite(central) and fraction>=.99 else 'unresolved',
+                    MC_95=np.quantile(draws[valid],[.025,.975]).tolist() if valid.sum()>1 else None,
+                    measured_epsilon_over_pi=x.tolist(),flags=sorted({f for r in rows for f in r['flags']}),
+                    individual_flags={k:v for r in rows for k,v in r['individual_flags'].items()},window_policy=window_policy,
+                    full_scan_location=full_location,local_vs_full_shift=abs(central-full_location))
+                roots.append(row)
+                np.savez_compressed(folder/f'd{D}_{observable}_N{N}_{method}_epsilon_roots.npz',samples=draws)
+                if method=='linear' and row['status']=='conditional_crossing': selected.append(row);root_draws.append(draws)
+        ax.axhline(target,color='black',linestyle='--');ax.set(xlabel=r'$\epsilon/\pi$ at $\beta=0$',ylabel=observable,title=f'd={D}: finite-size endpoint scan (preliminary)');ax.legend();fig.tight_layout()
+        for ext in ['png','pdf','svg']:fig.savefig(folder/f'd{D}-{observable}-zero-beta-scan.{ext}',dpi=160)
+        plt.close(fig)
+        if D in [3,4] and len(selected)>=3:
+            all_B=np.column_stack(root_draws)
+            for minimum in ([6,12,16] if D==3 else [10,12,16]):
+                keep=np.array([v['N']>=minimum for v in selected]);chosen=[v for v,k in zip(selected,keep) if k]
+                B=all_B[:,keep];valid=np.isfinite(B).all(1)
+                if len(chosen)>=3 and valid.mean()>=.99:
+                    for correction in [False,True]:
+                        f=size_fit(D,[v['N'] for v in chosen],[v['epsilon_over_pi_location'] for v in chosen],B[valid],minimum,correction)
+                        if 'intercept_bootstrap' not in f:continue
+                        np.savez_compressed(folder/f'd{D}_minN{minimum}_corr{int(correction)}_epsilon_infinite.npz',samples=f.pop('intercept_bootstrap'))
+                        f['epsilon_over_pi_infinite']=f.pop('beta_infinite'); f.update(D=D,dependent_variable='epsilon/pi',beta_fixed=0,acceptance='exploratory_not_final')
+                        fits.append(f)
+    d2_rows=[r for r in roots if r['D']==2 and r['interpolation']=='linear' and r['status']=='conditional_crossing']
+    if d2_rows:
+        B=np.column_stack([np.load(folder/f"d2_{r['observable']}_N{r['N']}_linear_epsilon_roots.npz")['samples'] for r in d2_rows])
+        adapted=[dict(r,beta_location=r['epsilon_over_pi_location'],pair=[r['N'],2*r['N']] if r['observable']=='eta_eff' else None) for r in d2_rows]
+        for minimum in [16,32,64]:
+            for offset in [-1,0,1,2,4]:
+                for mode in ['joint','xi_over_L','eta_eff']:
+                    f=fit_roots(adapted,B,minimum,offset,offset,mode)
+                    if 'samples' in f:
+                        np.savez_compressed(folder/f'd2_minN{minimum}_offset{offset}_{mode}_epsilon_infinite.npz',samples=f.pop('samples'))
+                        f['epsilon_over_pi_infinite']=f.pop('beta_infinite')
+                    f.update(D=2,minimum_N=minimum,log_offset=offset,mode=mode,dependent_variable='epsilon/pi',beta_fixed=0,acceptance='exploratory_not_final');fits.append(f)
+    result=finite(dict(created=run.now(),beta_fixed=0,endpoint_error_axis='horizontal epsilon/pi only',status='preliminary_requires_local_and_size_sensitivity_review',groups=groups,locations=roots,size_fits=fits,source_jobs=sources,cut=cut,block_factor=factor,window_policy=window_policy,binder_target=binder_target,use_legacy=use_legacy,legacy_provenance=legacy_provenance,legacy_duplicate_policy=duplicates,
+        limitations=['Historical summaries included only when use_legacy is true at cut2001/block1; common-current variants isolate cut/block effects.','D2 limiting targets require logarithmic size corrections and shared eta/R covariance; no accepted infinite-volume endpoint yet.','Local3SD brackets are data-selected sensitivity choices, not calibrated coverage. Start and size/curvature checks remain necessary.','Conditional bootstrap intervals do not certify total finite-size/model coverage.','Legacy scalar Binder archives use the first2000 of4000 preserved bootstrap draws; exact historical coordinates retained.']))
+    run.atomic_json(folder/'analysis.json',result)
+    run.atomic_json(OUT/'latest-zero-beta-endpoints.json',dict(folder=folder.name,status=result['status']))
+    print(folder,flush=True)
+    for row in roots:
+        if row['interpolation']=='linear':print(row['D'],row['observable'],row['N'],row['epsilon_over_pi_location'],row['valid_fraction'],row['status'],flush=True)
+
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser();parser.add_argument('--cut',type=int,default=2001);parser.add_argument('--factor',type=int,default=1);parser.add_argument('--current-only',action='store_true');parser.add_argument('--window',choices=['full','local'],default='full');parser.add_argument('--binder-target',type=float,default=.25)
+    args=parser.parse_args();main(args.cut,args.factor,not args.current_only,args.window,args.binder_target)

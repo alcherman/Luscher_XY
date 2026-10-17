@@ -1,0 +1,52 @@
+CROSS-FITTED SPIN-CORRELATION CONTROL VARIATE: EXISTING-DATA TRIAL
+October16,2026. No new MC, field extraction, archive modification or environment change.
+
+Outcome
+The estimator is promising for reducing statistical noise. On the same time-block bootstrap draws, median raw-G statistical SD ratios are .538 (r=L/4) and .539 (r=L/2), before positivity or crossing filtering. This is an estimated conditional variance gain, not demonstrated independent repeated-run performance or a bias correction.
+It does not establish a controlled infinite-volume scaling dimension or numerical systematic uncertainty. The simple fixed-q common-slope model remains sensitive to analysis choices and has poor nominal fits in the sampling variants.
+
+Data and estimator
+Same64 measured chains on32 coordinates, L=24,32,48,64 and8 epsilon/pi values at beta=0, with two independent starts per coordinate. The original source measurement has9600 postcut regularly retained configurations. All existing measurements and previous analyses are preserved.
+For start a, Gcv_a = G_a - c_b*(m2CP_a - m2dense_a), where c_b is trained on the OTHER independent start b; exchange starts and pool by row counts.
+The coefficient is raw-configuration Cov(G,m2CP)/Var(m2CP), separately for r=L/4 and L/2. This is a prespecified heuristic, not necessarily the variance-optimal coefficient for correlated mean differences.
+The control difference has zero ensemble mean under stationarity: CP and dense measurements target the same m2 expectation. Independence of starts allows cross-training without using evaluation data to choose its coefficient. Independent initialization alone does not prove stationarity.
+Dense scalar mean uncertainty is retained. Augmented100-cycle-bin moments jointly carry sparse G, CP m2, dense m2/S0/F, winding and training products. Resample time blocks independently within each start and refit BOTH cross-coefficients in every draw.
+Blocks use the maximum of original monitored widths and new corrected-series full/late-half autocorrelation widths. The same augmented draw bank produces the original and CV estimators. Therefore matched-original SDs differ slightly from the older non-CV delivery; the comparison here uses identical resampling.
+Logs are taken only after ensemble averaging. Unlogged raw-G variance comparisons include all finite draws, before positivity or root filtering. Training singularities, negative CV means, missing roots and insufficient blocks are not clipped or silently removed.
+
+Estimated raw-correlation gains (descriptive conditional bootstrap)
+primary: 32/32 usable groups; median SD ratio quarter/half=[0.5377894167075368, 0.5393432904385058]; counts with smaller SD=[31, 32].
+cut4000: 32/32 usable groups; median SD ratio quarter/half=[0.5549786476630423, 0.6056994637030342]; counts with smaller SD=[29, 30].
+block4: 31/32 usable groups; median SD ratio quarter/half=[0.5801363511716148, 0.5320035323064941]; counts with smaller SD=[28, 28].
+Primary ranges are quarter .223–1.222, half .271–.982. One quarter-distance group, L32 at epsilon/pi=.80125, gets noisier by22%; gain is not uniform. All32 primary groups have2000/2000 finite training-coefficient draws and zero nonpositive original/CV G means.
+Bootstrap2000 draws are not2000 independent MC replications. Error-ratio uncertainties have not been established by independent repeated campaigns.
+
+Common-xi/L finite-pair estimates (linear narrow window; +/- statistical SD)
+24:48 original: quarter 0.550140+/-0.016831; half 0.569742+/-0.028202; common-valid 1986/2000.
+24:48 CV: quarter 0.519429+/-0.006803; half 0.521010+/-0.012413; common-valid 1986/2000.
+32:64 original: quarter 0.553662+/-0.015639; half 0.563602+/-0.026317; common-valid 2000/2000.
+32:64 CV: quarter 0.538344+/-0.006793; half 0.538521+/-0.010618; common-valid 2000/2000.
+The quarter/half exponents and their shifts share covariance and are not independent measurements. Their paired original-to-CV changes are estimator changes; primary95% intervals for these changes include zero for both pairs and separations.
+The CV quarter-distance larger-minus-smaller pair difference is .018915+/- .009713 stat, conditional95%[-.001710,.036399]. It is suggestive enough to retain as a limitation, but does not establish finite-size bias or supply sigma_sys.
+Later cut4000 gives quarter exponents .522112+/- .006746 (24:48) and .533792+/- .007671 (32:64); its size-pair difference95% interval also includes zero.
+
+Coverage and stationarity qualifications
+Primary linear24:48 retains1986/2000 draws; primary PCHIP24:48 retains1928/2000 and is unresolved under the prespecified>=99% support rule. Primary32:64 retains2000/2000 for both interpolators. Original and CV epsilon-crossing/R-crossing values are exactly identical per shared valid draw: the correction changes G, not R.
+Doubled blocks leave L32,q=.8005 with insufficient blocks, hence32:64 is unresolved. This is insufficient statistical information, not a demonstrated mixing failure. Narrow/full windows share the same root neighborhood; agreement is not independent validation.
+Original sampling flags are retained. New CV half checks use a fixed independently trained coefficient and explicitly omit its uncertainty in that diagnostic; primary L32,q=.80125 has a CV half-shift flag. Cross-fitted start-difference draws do refit both coefficients and preserve shared-training covariance. Late-cut and doubled-block variants retain all diagnostic omissions.
+
+Why no new CFT Delta is quoted
+At fixed epsilon/pi=.80075, the CV leading common slope is .523988+/- .005568 stat, nominal chi2=11.486/5,p=.04255. Later-cut and doubled-block variants give .509977+/- .004849,p=.0090 and .522382+/- .004215,p=.00434. These small statistical errors do not establish that the leading fixed-q model describes the data. No inference uses closeness to the known Wilson-Fisher value as a validation test.
+The finite-pair estimators remain effective dimensions. No validated infinite-volume extrapolation, systematic-error bound or accuracy improvement is claimed. The existing data support using the CV as a promising statistical diagnostic; they do not resolve the remaining sampling/finite-size questions.
+
+Verification and provenance
+36 focused tests passed, including8 new CV oracles: analytic regression, other-start training, unequal-count pooling, shared scalar draws, coefficient refitting, exact time alignment, singular-training failures, negative-tail retention and coordinate-preserving insufficient-group reporting.
+Independent review checks estimator algebra, actual raw-bank gains, matching scalar/root draws, paired quotient changes, size-pair changes, scope and rendered figures. See independent-review.json after review closure.
+The initial trial and v2 metadata/diagnostic-refined results remain in sibling folders. Point estimates and bootstrap banks are unchanged by the v2 diagnostic additions. The frozen initial design and source snapshots retain their original hashes.
+All measured-history files are read only and their recorded checksums verified during each analysis. No whole raw-archive rehash is claimed.
+
+Files
+analysis.json includes all three sampling variants, original/CV pair records, shared-mask differences and fixed-q diagnostics.
+matched-finite-pair-dimensions.csv contains the numerical pair table.
+control-variate-mean-uncertainties and control-variate-common-R-dimensions are PNG/PDF/SVG figures.
+Source summaries, raw paired means and full logs remain in spin-control-variate-20261016-v2-{primary,cut4000,block4}.

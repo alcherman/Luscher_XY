@@ -1,0 +1,54 @@
+{
+  "status": "pending_report_followup",
+  "reviewed_at": "2026-10-16T02:35:34.090056+00:00",
+  "scope": "Independent review of the270-source refined raw-moment common-coupling quotient analysis and five completed snapshots; no new simulations.",
+  "observed": {
+    "source_counts": {
+      "primary": 270,
+      "block4": 270,
+      "latecut": 270,
+      "even": 135,
+      "odd": 135
+    },
+    "pair24_primary_validity": {
+      "linear": 0.9705,
+      "pchip": 0.9285
+    },
+    "pair24_block4_validity": {
+      "linear": 0.968,
+      "pchip": 0.9245
+    },
+    "pair24_late_validity": {
+      "linear": 0.961,
+      "pchip": 0.9245
+    },
+    "pair32_linear": {
+      "Delta_eff": 0.5259329564293357,
+      "SD": 0.0057165294727841345
+    },
+    "pair32_even_odd_linear": {
+      "even": 0.5362318661178028,
+      "odd": 0.5134162618457455,
+      "descriptive_difference": 0.02281560427205731
+    }
+  },
+  "findings": [
+    "Raw-moment common-coupling normalization, shared bootstrap covariance, unique physical root requirement and invalid masks remain appropriate.",
+    "Refined native brackets are genuinely finer;32:64 local linear andPCHIP agree closely but that is not total accuracy certification.",
+    "24:48 remains unresolved by declared99% retention policy in both pooled widths and late-cut. N6 has multiple central crossings; fine noisy knots can generate ambiguity without proving physical failure or inadequate epsilon extent.",
+    "32:64 even/odd difference is approximately2.13combined bootstrap SD, a descriptive start sensitivity rather than a declared mixing failure or significance result.",
+    "Runner prior_analysis/previous_states repair is correct. Added mocked main integration regression for running-to-complete-to-analysis handoff; all5 tests in test_xy_common_xi_refinement.py passed0.55s."
+  ],
+  "required_report_fixes": [
+    "Explicitly mark table rows withvalid_fraction<.99 unresolved; quoted MC intervals are conditional on surviving roots, especially8:16~50% retention.",
+    "Summarize the material late-cut and parity diagnostics in the report, especially32:64 even/odd .5362/.5134, rather than linking them only in additional-snapshots.json."
+  ],
+  "qualifications": [
+    "No final asymptotic scaling dimension or calibrated sigma_sys follows.",
+    "No extra Monte Carlo is required or authorized by this review. An analysis-only local Taylor response fit is a distinct estimator and must disclose predetermined windows/model choices, residual checks, covariance and invalid-root causes."
+  ],
+  "not_checked": [
+    "Did not rerun complete analyses or Monte Carlo.",
+    "Did not independently visually render the newly exported figure; previous plotting implementation was reviewed."
+  ]
+}

@@ -1,0 +1,35 @@
+Refined 3D beta=0 common-coupling spin-dimension update
+
+All120 newly authorized trajectories passed full closure audits. Generation+audit completed in about50minutes and10.4027worker-hours. A manager variable-shadowing error delayed the analysis handoff; it has been repaired, original logs preserved, and an integration test exercises running->complete->analysis. No simulations were rerun.25focused local-response/analysis/manager tests pass.
+
+WHAT THE FINER SCAN CHANGED
+Both sizes now have measured common knots .80075:.800875 around the32:64 crossing; this replaces the oldN32 .8000:.8015 gap.24:48 also has fine measured knots and lowerN48anchors. Raw knot-by-knot interpolants now encounter noisy multiple crossings, so root coverage is incomplete in several pairs. Completed simulations do not by themselves resolve a crossing.
+
+LOCAL RESPONSE FOLLOW-UP (NO NEW MC)
+Predeclared common-knot windows:inner epsilon/pi=.800625:.801000 and broad .800500:.801500; degree1/2 weighted polynomial fits to ensemble xi/L and m2. Shared original coordinate/start bootstrap draws carry root/magnetization and overlapping-pair covariance. This is a distinct estimator from interpolating raw S0/F at each knot. All window/degree/start/cut results and root-failure counts are retained. No targetDelta or criticalxi/L is imposed.
+
+ILLUSTRATIVE VIABLE BROAD-QUADRATIC FINITE-PAIR ESTIMATES (STATISTICAL SD ONLY)
+24:48: epsilon/pi=0.800756472; Delta_eff=0.515981 +/- 0.002921; retained=2000/2000. Conditional epsilon MC95=[0.800727553194491, 0.8007848576795702].
+  block4: Delta_eff=0.515511 +/- 0.002934, valid=1.0, response=no_descriptive_response_rejection.
+  latecut: Delta_eff=0.516340 +/- 0.003373, valid=1.0, response=no_descriptive_response_rejection.
+  even: Delta_eff=0.514669 +/- 0.004127, valid=1.0, response=no_descriptive_response_rejection.
+  odd: Delta_eff=0.519044 +/- 0.004186, valid=1.0, response=no_descriptive_response_rejection.
+32:64: epsilon/pi=0.800742754; Delta_eff=0.519027 +/- 0.003260; retained=2000/2000. Conditional epsilon MC95=[0.8007212907764425, 0.8007625981821676].
+  block4: Delta_eff=0.518665 +/- 0.003197, valid=1.0, response=no_descriptive_response_rejection.
+  latecut: Delta_eff=0.518552 +/- 0.003544, valid=1.0, response=no_descriptive_response_rejection.
+  even: Delta_eff=0.519791 +/- 0.004520, valid=1.0, response=no_descriptive_response_rejection.
+  odd: Delta_eff=0.517791 +/- 0.004575, valid=1.0, response=no_descriptive_response_rejection.
+
+LIMITS AND RETAINED FAILURES
+The24:48 crossing is covered across all five broad-quadratic variants (2000/2000 roots each), conditional on that response model. Innerlinear gives .514189 +/- .004240,valid1999/2000; innerquadratic gives .522239 +/- .006281 but retains1940/2000 and remains unresolved. Therefore do not call24:48 coverage certified across all models/windows.
+Broadlinear response fits are inadequate atN48/N64: visible curvature and very small residualp. They remain rejected-response diagnostics despite100% root coverage. A good quadratic residualp is not itself validation; all predeclared alternatives are preserved and none was selected to match the WF dimension.
+The unsmoothed32:64 quotient remains .525933 +/- .005717, with even/odd .536232/.513416 (SD .006881/.008229). Local regression uses more neighboring data, giving a different conditional estimate; do not hide this estimator/start sensitivity or claim mixing proof.
+N6:12 remains unresolved even in the broadquadratic response (valid.6885). No full-size campaign or calibrated sigma_sys is declared complete.
+
+CORRELATED SIZE EXTRAPOLATIONS ARE STILL CONDITIONAL
+With fixed WF-informed omega=.789, broadquadratic sizes8,12,16,24,32 give Delta_infinity=.523209 +/- .003462stat; omitting the8:16 pair gives .518340 +/- .006158stat. Innerlinear survivingpairs12,16,24,32 give .520570 +/- .006399stat. These illustrate finite-size sensitivity and statistical precision, not a preferred finalCFTvalue or a numerical systematic error. All fits, omitted pairs, joint retention, response flags and zeroDOF/rejections are in finite-size-diagnostics.json.
+
+Independent reviews: local response and pointwise analysis both accepted_with_qualifications; see review.json. No additional MC has been launched. All histories/checkpoints/logs/provenance and SSD-original hold remain preserved. Existing authorized field retention continues separately.
+
+Source analysis SHA256=a0feeb8db6ab079a6db1db17d6ed28b4f6b3fa7849c3763e00a79e85065a25bc
+Finite-size diagnostics SHA256=619f0840312eaeea05b7eb4b256af39f5cf2041d4223a7c206426fe2832f2d52

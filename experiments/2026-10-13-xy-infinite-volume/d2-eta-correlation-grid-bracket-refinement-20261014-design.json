@@ -1,0 +1,20 @@
+{
+  "created": "2026-10-14T09:41:47.970234-05:00",
+  "source": "/Users/acherman/research/Luscher_XY/experiments/2026-10-13-xy-infinite-volume/d2-eta-correlation-existing-20261014-093950/analysis.json",
+  "source_sha256": "35742bbdf63bd7cc1eb9c7fc07fdb00b507a30e43bbf63862233c4593df4f32c",
+  "choices": {
+    "58": [
+      20,
+      280
+    ],
+    "62": [
+      300
+    ],
+    "66": [
+      640
+    ]
+  },
+  "trajectories": 24,
+  "estimated_GiB": 73.13344306498766,
+  "purpose": "Completed q.58/.62/.66 baseline slices have incomplete bootstrap brackets: eta128 q.58 valid.954; eta64/128 q.62 .9055/.987; R128 and eta64 q.66 .975/.965. Extend q.58 beta to.020/.280 because both shallow eta endpoint margins are small; q.62 lowerbeta.300; q.66 upperbeta.640. Match N64/128/256 for joint eta/R, use fresh independent replicas4/5. Preserve every raw field history RNG checkpoint log and audit. This improves measured bracket coverage only, not a claimed infinite-volume accuracy improvement."
+}

@@ -1,0 +1,292 @@
+{
+  "status": "accepted_with_qualifications",
+  "approved": true,
+  "created": "2026-10-17T16:39:08.952707+00:00",
+  "source_hashes": {
+    "native": {
+      "experiments/2026-10-13-xy-infinite-volume/run.py": "6858d982601e1f12942dcfbf6c9860f27b0a1de926f9487e3f389efe504b227e",
+      "supervillain/xy.py": "e7bdee7c42f844673137c23d748c67e88607041d2f306af3d05fab047f997924",
+      "supervillain/action/xy.py": "4b6c4979efb8f822757b3ded5437585efed40f33b8d7abab211fafce46739da5",
+      "supervillain/generator/xy.py": "4a9cdafdc6fa7e4fe4b38171c0b58241a5ba4ece0f43c300ab6d350ebe81f73f",
+      "supervillain/generator/_xy_kernels.py": "52c76f673d2e80485b6292871d1fc4e5bfb77a37db216cfe767c94a6ac2aa888",
+      "supervillain/generator/_xy_cluster.py": "6cfd68c0f9843988308a9129bbdbb6df664ba405d072aae0f283540c00f1085a",
+      "supervillain/generator/reference_implementation/xy.py": "b9f77cb0306dd25fb78eb1d658e99903d85c376e5e78057a578ca225b9fa3f6c",
+      "supervillain/generator/reference_implementation/xy_cluster.py": "63b5ff29768faa42c965cc367f5e78a791cff7bf6b45fa25c28f4a6ab4a713e0",
+      ".python-version": "3a55324cbeddc91df012407d051dad08c88624c95a82fbdb856728729fbd14ab",
+      "requirements-xy.lock.txt": "41433ce91774ec5e9ffc5d7bf9dd6b9ae421b0a41f9af720c9915554786c0f62"
+    },
+    "extension": {
+      "version": 1,
+      "source_sha256": "25a024b44c4e7810a0984296c019dc54804a7eadc2fd11f137046458b4e94d1f",
+      "signed_cluster": {
+        "version": 1,
+        "signed_cluster_sha256": "401b10e2f1e842b322eb472dc1f6988abaffca3fd88b65466d0dfc04b3079e60",
+        "kernel_sha256": "7ed8ccfe394dec594fab95c2b48e8e4c9677920336fa0d983ca2dc4cdf17f4bf",
+        "activation": "forced hard bonds; else 1-exp(-2*max(0,kappa*projection_product))",
+        "scope": "Experiment-local signed-coupling extension. Frozen original kernels unchanged."
+      },
+      "attempt_probability": 0.1,
+      "ladder_steps": 24,
+      "bridge_coupling": 0.0,
+      "path": "linear ladder excluding target, then exact palindrome with hot endpoint once",
+      "acceptance": "k_target*(C_final-C_initial)+dot(k_legs,C_before-C_after)",
+      "C": "sum positive-direction cos links, extensive",
+      "randomness": "Every path choice uses native winding RNG; all rejected and accepted C paths retained",
+      "winding_accepted": "Native record is native_twist_accepted+tempered_accepted; separate histories retained",
+      "checkpoint": "Native fields/all RNGs at100-cycle commits; exact replay includes auxiliary RNG"
+    },
+    "runner": "59a8fc116dc27f5be8967b55e91109c6f19ad094a1c8a9e03a1c8c191ae05ed5"
+  },
+  "points": [
+    {
+      "id": "tempered3_km0250_q0650000_N008_r10_s004000",
+      "D": 3,
+      "N": 8,
+      "beta": -0.25,
+      "kappa": -0.25,
+      "epsilon_over_pi": 0.65,
+      "epsilon": 2.0420352248333655,
+      "seed": 7430753192350988335,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "replica": 10,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0250_q0650000_N008_r11_s004000",
+      "D": 3,
+      "N": 8,
+      "beta": -0.25,
+      "kappa": -0.25,
+      "epsilon_over_pi": 0.65,
+      "epsilon": 2.0420352248333655,
+      "seed": 728081855204018302,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "replica": 11,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0250_q0650000_N012_r10_s004000",
+      "D": 3,
+      "N": 12,
+      "beta": -0.25,
+      "kappa": -0.25,
+      "epsilon_over_pi": 0.65,
+      "epsilon": 2.0420352248333655,
+      "seed": 10118825448886119806,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "replica": 10,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0250_q0650000_N012_r11_s004000",
+      "D": 3,
+      "N": 12,
+      "beta": -0.25,
+      "kappa": -0.25,
+      "epsilon_over_pi": 0.65,
+      "epsilon": 2.0420352248333655,
+      "seed": 16892256985440802777,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "replica": 11,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0570000_N008_r10_s004000",
+      "D": 3,
+      "N": 8,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.57,
+      "epsilon": 1.790707812546182,
+      "seed": 3498967377111297976,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "replica": 10,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0570000_N008_r11_s004000",
+      "D": 3,
+      "N": 8,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.57,
+      "epsilon": 1.790707812546182,
+      "seed": 1118118752100080318,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "replica": 11,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0570000_N012_r10_s004000",
+      "D": 3,
+      "N": 12,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.57,
+      "epsilon": 1.790707812546182,
+      "seed": 17917935674316496618,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "replica": 10,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0570000_N012_r11_s004000",
+      "D": 3,
+      "N": 12,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.57,
+      "epsilon": 1.790707812546182,
+      "seed": 10293121636920772346,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "replica": 11,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0600000_N008_r10_s004000",
+      "D": 3,
+      "N": 8,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.6,
+      "epsilon": 1.8849555921538759,
+      "seed": 849315415269706632,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "replica": 10,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0600000_N008_r11_s004000",
+      "D": 3,
+      "N": 8,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.6,
+      "epsilon": 1.8849555921538759,
+      "seed": 7887037037067823249,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "replica": 11,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0600000_N012_r10_s004000",
+      "D": 3,
+      "N": 12,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.6,
+      "epsilon": 1.8849555921538759,
+      "seed": 2802443783419126108,
+      "initial_winding": [
+        0,
+        0,
+        0
+      ],
+      "replica": 10,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    },
+    {
+      "id": "tempered3_km0500_q0600000_N012_r11_s004000",
+      "D": 3,
+      "N": 12,
+      "beta": -0.5,
+      "kappa": -0.5,
+      "epsilon_over_pi": 0.6,
+      "epsilon": 1.8849555921538759,
+      "seed": 15876211798558375335,
+      "initial_winding": [
+        1,
+        0,
+        0
+      ],
+      "replica": 11,
+      "steps": 4000,
+      "warmup": 1000,
+      "clusters_per_cycle": 4
+    }
+  ],
+  "points_sha256": "d3c9966aae8a12db10e0868da8fa92a093b44f864ebb42ce6afe31f81b2e23d9",
+  "scope": "Only12 source-pinned tempered-sector-mixing pilot trajectories at the three specified physical coordinates, N8/12,4000hybridcycles. No old campaign resume, further production, or accepted phase curve approved here.",
+  "checks": [
+    "Reviewed exact path-MH construction with palindromic reversible component kernels and identical hard support, target action ratio and sampled-path reverse proposal ratio; all auxiliary choices use checkpointed winding RNG.",
+    "Independently reran both TT test files after \u03ba0 endpoint and winding-required guard:4passed0.53s. Independent oracle enumerates accepted and rejected paths, proves full marginal detailed balance, and asserts uncorrected composite fails target balance. Exact native checkpoint replay and altered-provenance refusal also pass.",
+    "Verified exact12-point manifest, current source hashes, unique fresh seeds and IDs, no prior signed-pilot/bridge seed collisions, admissible starts,47-leg palindromes with \u03ba0 at midpoint.",
+    "Inspected full native hybrid audit plus independent telescoped path-work identity, accepted/rejected final field-C consistency, per-leg work/counter checks, original/native versus TT acceptance histories, route/SSDUUID check,8worker limit and whole padded-file budget plus auxiliary-array margin and25GiB reserve."
+  ],
+  "qualifications": [
+    "Observed \u03ba0 bridge chains released initial winding and agreed in uniform observables at q.57/.65, supporting this measured algorithmic bridge choice; intermediate-path equilibration and target TT acceptance remain untested.",
+    "Correctness tests do not demonstrate useful sampling. Assess actual attempted/accepted denominators, rejected-path work, winding-zero occupancy and transitions, full spectra and first/late-half/start agreement before any new curve refinement.",
+    "M24 means47component clusters per attempted palindrome, attempted with probability.1 per hybrid cycle in addition to the ordinary4clusters and Metropolis sweep. Report actual cost/work rather than comparing cycle counts as equivalent work.",
+    "Native winding_accepted aggregate now counts native twist plus TT acceptance; separate native_twist_accepted and tempered_accepted histories are retained. TT acceptance is not itself a winding-sector transition.",
+    "Two independent starts and4000cycles remain a pilot. Strong start agreement without observed cross-sector events or adequate effective blocks is insufficient to certify equilibrium or narrow transition uncertainty.",
+    "Preserve full fields, scalar histories, rejected paths, checkpoints/RNG/provenance and unfiltered logs. Strict numerical cutoff failures must remain failures, not an unvalidated state-dependent rejection repair.",
+    "Operational manager-process failure still requires reconciliation of surviving workers before retry. Codex app restart alone does not stop detached services.",
+    "Prior spin-followup remains user-paused; no \u03ba0 bridge result or pilot authorization resumes it."
+  ],
+  "not_checked": [
+    "No MC jobs or services launched by reviewer.",
+    "No tempered-pilot empirical results yet available; acceptance, mixing and total runtime are not certified."
+  ]
+}

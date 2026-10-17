@@ -1,0 +1,82 @@
+{
+  "created": "2026-10-14T15:10:58.395748-05:00",
+  "batch": "d5-local-bracket-and-N10-refinement-20261014",
+  "trajectories": 54,
+  "physical_coordinates": 27,
+  "all_full_field_audits_passed": true,
+  "numerical_sources_match_frozen": true,
+  "generation_plus_audit_worker_hours": 6.510513680116116,
+  "elapsed_minutes": 33.79334516666667,
+  "effective_workers": 11.559400789723544,
+  "by_size": {
+    "6": {
+      "trajectories": 18,
+      "attempt_generation_seconds": {
+        "min": 58.9226346249925,
+        "median": 64.40084895849577,
+        "max": 79.01002866700583
+      },
+      "audit_seconds": {
+        "min": 9.213980375003302,
+        "median": 9.3272115830041,
+        "max": 14.486944249991211
+      },
+      "original_audited_GiB": 15.694453969597816,
+      "current_physical_GiB": 15.694453969597816
+    },
+    "8": {
+      "trajectories": 18,
+      "attempt_generation_seconds": {
+        "min": 234.2952782920038,
+        "median": 256.4568401249926,
+        "max": 314.233709209002
+      },
+      "audit_seconds": {
+        "min": 35.14761745800206,
+        "median": 37.759300354002335,
+        "max": 40.29816987500817
+      },
+      "original_audited_GiB": 58.25256271660328,
+      "current_physical_GiB": 58.25256271660328
+    },
+    "10": {
+      "trajectories": 18,
+      "attempt_generation_seconds": {
+        "min": 671.548018292,
+        "median": 780.4017487080055,
+        "max": 957.9129199580057
+      },
+      "audit_seconds": {
+        "min": 109.29320470899984,
+        "median": 121.48216139549913,
+        "max": 156.53400458300894
+      },
+      "original_audited_GiB": 278.48271383345127,
+      "current_physical_GiB": 278.48271383345127
+    }
+  },
+  "original_audited_GiB": 352.42973051965237,
+  "current_physical_GiB": 352.42973051965237,
+  "status_snapshot": {
+    "updated": "2026-10-14T15:10:51.617584-05:00",
+    "pid": 85121,
+    "worker_limit": 15,
+    "active": 6,
+    "paused": 0,
+    "total": 2580,
+    "complete": 2258,
+    "failed": [],
+    "pending": 0,
+    "disk_free_bytes": 603232021327,
+    "reserve_bytes": 26843545600,
+    "deadline": "2026-10-16T15:00:00-05:00",
+    "launch_new": true,
+    "state": "running",
+    "physical_disk_free_bytes": 621993558016,
+    "retention_reserved_bytes": 6973458621,
+    "active_reserved_bytes": 11788078068
+  },
+  "memory_sample": "logs/d5-N10-refinement-memory-sample-20261014.log; RSS 468848\u2013792064KiB observed, not peak memory; near-one-core CPU usage per sampled worker.",
+  "timing_scope": "Observed wall times include real concurrent simulation/audit/SSD conditions and brief resource pausing; no macOS volume-permission stall in this new cohort. Effective workers is aggregate occupied walltime/elapsed, not CPU utilization. N12 cost remains unmeasured.",
+  "interpretation": "q92 N10 window missed the Binder-quarter crossing; dedicated lower-bracket stage is already frozen. q1 coarse response needs a midpoint test; dedicated modest N12 q1/endpoint cost/coverage stage must pass source and storage guards. No new D2 precision work. Earlier12\u201329h D5 planning allowance remains a scenario, not a bound or precision guarantee."
+}
